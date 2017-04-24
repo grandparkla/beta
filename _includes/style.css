@@ -82,18 +82,20 @@
     color: rgb(252, 239, 71) !important; /* @yellow */
     background-image: url("http://grandparkla.org/wp-content/uploads/2012/09/pattern_14.jpg");
     background-position: center;
-    padding: 5.8rem 1.45rem;
+    padding: 8.7rem 1.45rem 1.45em;
     margin-left: -1.45rem;
     margin-right: -1.45rem;
     position: relative;
     min-height: 50vh;
+    box-sizing: border-box;
     display: block;
     display: flex;
     align-items: center;
   }
-  @media (min-width: 30em) {
+  @media (min-width: 50em) {
     .newsletter-promotion {
       font-size: 2vmax;
+	  padding: 8.7rem 1.45rem;
     }
   }
   .newsletter-promotion::before {
