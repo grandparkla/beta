@@ -1,5 +1,5 @@
 ---
-title: 'Portals Project, Grand Park Los Angeles'
+title: Portals Project, Grand Park Los Angeles
 layout: default
 ---
 

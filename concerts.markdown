@@ -1,7 +1,8 @@
 ---
-title: 'LUNCHTIME! Concerts'
+title: LUNCHTIME! Concerts
 layout: default
 ---
+
 <style>
 .header {
   position: absolute;

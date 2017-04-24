@@ -1,5 +1,5 @@
 ---
-title: 'Events at Grand Park Los Angeles'
+title: Events at Grand Park Los Angeles
 layout: default
 include_newsletter: true
 ---

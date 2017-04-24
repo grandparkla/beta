@@ -1,5 +1,5 @@
 ---
-title: '4th Of July Block Party, Grand Park Los Angeles'
+title: 4th Of July Block Party, Grand Park Los Angeles
 layout: default
 ---
 

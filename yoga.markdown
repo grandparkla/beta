@@ -1,5 +1,5 @@
 ---
-title: '¡LUNCHTIME! Yoga reTREAT'
+title: "¡LUNCHTIME! Yoga reTREAT"
 layout: default
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Proud Stories, Grand Park Los Angeles'
+title: Proud Stories, Grand Park Los Angeles
 layout: default
 ---
 
