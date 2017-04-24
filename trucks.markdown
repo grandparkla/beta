@@ -1,5 +1,5 @@
 ---
-title: LUNCHTIME! Food Trucks
+title: "¡LUNCHTIME! Food Trucks"
 layout: default
 ---
 
