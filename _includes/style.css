@@ -83,7 +83,7 @@
     background-image: url("http://grandparkla.org/wp-content/uploads/2012/09/pattern_14.jpg");
     background-position: center;
     display: block;
-    padding: 1.45em;
+    padding: 2.9em;
     margin-left: -1.45em;
     margin-right: -1.45em;
     position: relative;
@@ -116,12 +116,16 @@
     margin-top: 0;
     padding-top: 0;
     color: inherit;
+    transform: rotate(-4deg);
   }
   .newsletter-promotion p {
     color: white;
     font-family: "Unit", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-weight: bold;
+    font-weight: 900;
+    transform: rotate(-4deg);
+    text-transform: uppercase;
+    max-width: 20em;
   }
 
   /*

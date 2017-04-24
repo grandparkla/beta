@@ -23,6 +23,9 @@ main {
 .featured-events {
   padding-left: 0;
 }
+.featured-events li {
+  transform: rotate(-4deg);
+}
 .featured-events a {
   display: block;
   color: inherit;
@@ -68,7 +71,8 @@ main {
 header {
   transform: rotate(-4deg);
   margin: 2.9em -1.45em;
-  padding: 0 2.9em 1.45em;
+  margin-right: 0;
+  padding: 0 2.9em;
   color: rgb(252, 239, 71); /* @yellow */
 }
 header h1 {
@@ -80,6 +84,9 @@ header h1 {
    color: inherit !important;
 }
 @media (min-width: 50em) {
+  header {
+    padding-bottom: 1.45em;
+  }
   header h1 {
     font-size: 5em;
   }
@@ -87,9 +94,11 @@ header h1 {
 header p {
   max-width: none;
 }
-header img {
-  margin-bottom: 0;
-  color: inherit !important;
+header svg {
+  width: 10.15em;
+}
+header svg * {
+  fill: currentColor;
 }
 </style>
 
