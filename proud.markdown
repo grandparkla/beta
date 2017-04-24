@@ -9,9 +9,6 @@ layout: default
   visibility: hidden;
   display: none;
 }
-header {
-  display: none;
-}
 </style>
 
 <p style="margin: 0 -1.45em; max-width: none;"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" class="primary" alt="Portals Project" /></p>

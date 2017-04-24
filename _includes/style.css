@@ -130,7 +130,6 @@
     color: inherit;
     margin-left: 0;
     marign-right: 0;
-    text-decoration: underline;
   }
   .newsletter-promotion p {
     color: white;
@@ -167,7 +166,7 @@
   footer .logo {
     text-align: center;
     margin-bottom: 2.175em;
-    color: rgb(252, 239, 71); /* @yellow */
+    color: inherit;
   }
   footer .logo svg {
     margin-left: auto;
@@ -254,42 +253,22 @@
     max-width: none;
     margin-top: 0em;
     margin-bottom: 0em;
-    border-bottom: 2px solid rgba(235, 12, 128, 0.1);
     padding-top: 0.725em;
     padding-bottom: 0.725em;
     margin-left: -1.45em;
     margin-right: -1.45em;
     font-family: "Unit", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 700;
-    background-color: rgb(140, 197, 65); /* @green */
-    color: white;
     background-color: transparent;
-    color: rgb(140, 197, 65); /* @green */
     background-color: transparent;
-    color: rgb(235, 12, 128); /* @pink */
     display: table;
     margin-left: auto;
     margin-right: auto;
   }
-  footer .nav:nth-child(3n) {
-    background-color: rgb(235, 12, 128); /* @pink */
-    color: white;
-    background-color: transparent;
-    color: rgb(235, 12, 128); /* @pink */
-  }
-  footer .nav:nth-child(3n+1) {
-    background-color: rgb(252, 239, 71); /* @yellow */
-    color: inherit;
-    background-color: transparent;
-    color rgb(252, 239, 71); /* @yellow */
-    background-color: transparent;
-    color: rgb(235, 12, 128); /* @pink */
-  }
   footer li a {
     display: inline-block;
     padding: 0.3625em 1.45em;
-    color: inherit !important;
-    color: rgb(252, 239, 71) !important; /* @yellow */
+    color: inherit;
   }
   footer .legal a {
     color: rgb(235, 12, 128) !important; /* @pink */
@@ -308,10 +287,6 @@
   .social a {
     display: inline-block;
     border-radius: 50%;
-    background-color: rgb(235, 12, 128); /* @pink */
-    color: white !important;
-    background-color: rgb(252, 239, 71); /* @yellow */
-    color: rgb(235, 12, 128) !important; /* @pink */
     padding: 0.54375em;
   }
   .social svg {

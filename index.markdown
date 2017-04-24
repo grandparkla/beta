@@ -22,15 +22,24 @@ include_newsletter: true
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   border-width: 0;
   color: rgb(252, 239, 71); /* @yellow */
+  color: rgb(180, 237, 105); /* @lightgreen */
 }
 .nav-link a {
   background-color: rgb(252, 239, 71); /* @yellow */
   color: rgb(235, 12, 128) !important; /* @pink */
+  background-color: rgb(180, 237, 105); /* @lightgreen */
+  color: rgb(41, 96, 46) !important; /* @darkgreen */
 }
 .header .tagline {
   color: white !important;
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
 }
+
+footer {
+  background-color: rgb(180, 237, 105); /* @lightgreen */
+  color: rgb(41, 96, 46) !important; /* @darkgreen */
+}
+
 main {
   background: rgb(235, 12, 128); /* @pink */
   color: white;
@@ -99,6 +108,11 @@ main {
   .featured-events a {
     margin: 5.8em 0;
   }
+}
+.featured-events a:hover h2,
+.featured-events a:active h2,
+.featured-events a:focus h2 {
+  text-decoration: underline;
 }
 .featured-events h2 {
   margin-top: 0.3625em;
