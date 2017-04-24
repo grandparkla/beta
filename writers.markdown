@@ -1,5 +1,5 @@
 ---
-title: LUNCHTIME! Writers’ Meetup, Grand Park Los Angeles
+title: "¡LUNCHTIME! Writers’ Meetup, Grand Park Los Angeles"
 layout: default
 ---
 
