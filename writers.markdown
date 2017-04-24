@@ -37,9 +37,10 @@ header h1 {
     z-index: 1;
   }
   header h1 {
-    font-size: 5em;
+    font-size: 3.5em;
     color: white !important;
     text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+    white-space: nowrap;
   }
 }
 
@@ -68,9 +69,9 @@ figure div {
 <p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="http://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" class="primary" alt="" style="width: 100%;" /></p>
 
 <header>
-  <h2>¡LUNCHTIME!</h2>
+  <h2>Our L.A. Voices</h2>
   <h1>
-     Writers’ Meetup
+     LUNCHTIME! Writers’ Meetup
   </h1>
 </header>
 

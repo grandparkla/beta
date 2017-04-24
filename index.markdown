@@ -268,28 +268,28 @@ A city’s urban heart is an expression of its people, its diversity, its intere
       <!--
       <h2>Lunch à la Park</h2>
       -->
-      <h2>Lunch à la Park</h2>
+      <h2><small>Lunch à la Park</small><br />Food Trucks</h2>
       <p><em>Every Tuesday, Wednesday &amp; Thursday</em><br />11:00am – 2:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/yoga/">
-      <h2><small>¡LUNCHTIME!</small><br />Yoga reTREAT</h2>
+      <h2>LUNCHTIME!<br />Yoga reTREAT</h2>
       <p><em>Every Wednesday &amp; Friday</em><br />March 8 – May 31, 2017<br />12:15pm – 1:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-LUNCHTIME-yoga.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/writers/">
-      <h2><small>¡LUNCHTIME!</small><br />Writers’ Meetup</h2>
+      <h2><small>Our L.A. Voices</small><br />LUNCHTIME!<br />Writers’ Meetup</h2>
       <p><em>Every Tuesday</em><br />March 7 – May 30, 2017<br />Noon – 1:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/concerts/">
-      <h2><small>¡LUNCHTIME!</small><br />Concerts</h2>
+      <h2><small>Our L.A. Voices</small><br />LUNCHTIME! Concerts</h2>
       <p><em>Every Thursday</em><br />March 2 – May 25, 2017<br />12:15pm – 1:15pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" alt="" />
     </a>
@@ -324,21 +324,21 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 <ol class="featured-events">
   <li>
     <a href="http://grandparkla.org/event/downtown-bookfest/">
-      <h2>Downtown Bookfest</h2>
+      <h2><small>Our L.A. Voices</small><br />Downtown Bookfest</h2>
       <p><em>Saturday</em>, March 11, 2017<br>Noon – 5pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2013/12/The-bradbury-room-600-x-300.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/proud/">
-      <h2>Proud Story Slam</h2>
+      <h2><small>Our L.A. Voices</small><br />Proud Story Slam</h2>
       <p><em>Saturday</em>, March 25, 2017<br>Noon – 4pm</p>
       <img src="https://i.vimeocdn.com/video/544230751.jpg?mw=640&mh=360" alt="" />
     </a>
   </li>
   <li>
     <a href="/portals/">
-      <h2>Portals Project</h2>
+      <h2><small>Our L.A. Voices</small><br />Portals Project</h2>
       <p>April 10 through April 23, 2017</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios.jpg" alt="" />
     </a>
@@ -371,14 +371,14 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 <ol class="featured-events">
   <li>
     <a href="http://grandparkla.org/event/dancedowntown/?instance_id=93852">
-      <h2>Dance DTLA: Dance Downtown</h2>
+      <h2><small>Dance DTLA</small><br />Dance Downtown</h2>
       <p>Friday Night<br />June 23, July 7, July 21, August 4, August 18 &amp; September 1, 2017<br />7pm – 11pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300dancedowntown.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="http://grandparkla.org/event/djnights/?instance_id=93848">
-      <h2>Dance DTLA: DJ Nights</h2>
+      <h2><small>Dance DTLA</small><br />DJ Nights</h2>
       <p>Friday Night<br />July 14, July 28, August 11 &amp; August 25, 2017<br />9pm – 12am</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300.djnights.jpg" alt="" />
     </a>

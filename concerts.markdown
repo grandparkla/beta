@@ -71,7 +71,7 @@ figure div {
 <header>
   <h2>Our L.A. Voices</h2>
   <h1>
-     ¡LUNCHTIME! Concerts
+     LUNCHTIME! Concerts
   </h1>
 </header>
 
@@ -90,7 +90,7 @@ figure div {
 
 <div style="padding-top: 1.45em;"></div>
 
-Young Angeleno artists voice their creativity and expressions through music. Also enjoy [¡LUNCHTIME! Food Truck](/trucks/) offerings from 11am – 2pm every Tuesday, Wednesday, and Thursday in Grand Park.
+Young Angeleno artists voice their creativity and expressions through music. Also enjoy [LUNCHTIME! Food Truck](/trucks/) offerings from 11am – 2pm every Tuesday, Wednesday, and Thursday in Grand Park.
 
 ## When
 
