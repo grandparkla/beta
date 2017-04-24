@@ -1,5 +1,5 @@
-# Grand Park LA, New Year’s Eve
+# Grand Park LA
 
-A website for the New Year’s Eve event at Grand Park, Los Angeles
+A beta website for Grand Park, Los Angeles
 
-https://nyela.grandparkla.org
+http://beta.grandparkla.org
