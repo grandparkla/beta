@@ -112,18 +112,24 @@
   .newsletter-promotion:focus h2 {
     text-decoration: underline;
   }
+  .newsletter-promotion div {
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
   .newsletter-promotion h2 {
     margin-top: 0;
     padding-top: 0;
     color: inherit;
-    transform: rotate(-4deg);
+    margin-left: 0;
+    marign-right: 0;
   }
   .newsletter-promotion p {
     color: white;
     font-family: "Unit", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-weight: 900;
-    transform: rotate(-4deg);
     text-transform: uppercase;
     max-width: 20em;
   }

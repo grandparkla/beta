@@ -20,11 +20,13 @@ main {
 .featured-events li {
   list-style: none;
 }
+/*
+.featured-events li {
+  transform: rotate(-2deg);
+}
+*/
 .featured-events {
   padding-left: 0;
-}
-.featured-events li {
-  transform: rotate(-4deg);
 }
 .featured-events a {
   display: block;
@@ -32,13 +34,24 @@ main {
   text-decoration: none !important;
   background-color: rgb(252, 239, 71); /* @yellow */
   color: rgb(235, 12, 128) !important; /* @pink */
-  padding: 1.45em;
-  border: 0.725em solid white;
+  padding: 1.45em 2.9em;
+  border: 1.45em solid white;
   margin-top: 1.45em;
   margin-bottom: 1.45em;
   border-radius: 1px;
 }
+.featured-events img {
+  display: block;
+  margin: 1.45em auto 2.175em;
+  /*
+  width: 100%;
+  width: calc(100% + 5.8em);
+  max-width: none;
+  margin: 0 -2.9em -1.45em;
+  */
+}
 @media (min-width: 50em) {
+  /*
   .featured-events {
     display: flex;
     flex-wrap: wrap;
@@ -47,16 +60,21 @@ main {
     align-content: stretch;
     align-items: stretch;
   }
+  */
   .featured-events a {
-    margin: 1.45em;
+    margin: 5.8em 0;
   }
 }
 .featured-events h2 {
-  margin-top: 0;
+  margin-top: 0.3625em;
   margin-bottom: 0;
   padding-top: 0;
   color: white;
   color: rgb(235, 12, 128); /* @pink */
+  font-size: 2.5em;
+}
+.featured-events h2 small {
+  font-size: 0.75em;
 }
 .featured-events h2 + p {
   margin-top: 0;
@@ -64,6 +82,11 @@ main {
   font-style: italic;
   font-weight: 800;
   text-transform: uppercase;
+  margin-bottom: 2.9em;
+}
+.featured-events h2,
+.featured-events h2 + p {
+  transform: rotate(-2deg);
 }
 .featured-events p:last-child {
   margin-bottom: 0;
@@ -77,7 +100,7 @@ header {
 }
 header h1 {
    max-width: none;
-   margin-top: 0;
+   margin-top: -1.45rem;
    line-height: 1;
    padding-top: 0;
    font-style: normal;
@@ -88,7 +111,7 @@ header h1 {
     padding-bottom: 1.45em;
   }
   header h1 {
-    font-size: 5em;
+    font-size: 6.5em;
   }
 }
 header p {
@@ -187,7 +210,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
       </switch>
     </svg>
   </p>
-  <h1>¡LUNCHTIME!</h1>
+  <h1>Today</h1>
 </header>
 
 <ol class="featured-events">
@@ -196,29 +219,29 @@ A city’s urban heart is an expression of its people, its diversity, its intere
       <!--
       <h2>Lunch à la Park</h2>
       -->
-      <h2>Food Trucks</h2>
-      <p><em>Every Tuesday, Wednesday and Thursday</em><br />11:00am – 2:00pm</p>
+      <h2>Lunch à la Park</h2>
+      <p><em>Every Tuesday, Wednesday &amp; Thursday</em><br />11:00am – 2:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/yoga/">
-      <h2>Yoga reTREAT</h2>
-      <p><em>Every Wednesday and Friday</em><br />March 8 through May 31, 2017<br />12:15pm – 1:00pm</p>
+      <h2><small>¡LUNCHTIME!</small><br />Yoga reTREAT</h2>
+      <p><em>Every Wednesday &amp; Friday</em><br />March 8 – May 31, 2017<br />12:15pm – 1:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-LUNCHTIME-yoga.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/writers/">
-      <h2>Writers’ Meetup</h2>
-      <p><em>Every Tuesday</em><br />March 7 through May 30, 2017<br />Noon – 1:00pm</p>
+      <h2><small>¡LUNCHTIME!</small><br />Writers’ Meetup</h2>
+      <p><em>Every Tuesday</em><br />March 7 – May 30, 2017<br />Noon – 1:00pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/concerts/">
-      <h2>Concerts</h2>
-      <p><em>Every Thursday</em><br />March 2 through May 25, 2017<br />12:15pm – 1:15pm</p>
+      <h2><small>¡LUNCHTIME!</small><br />Concerts</h2>
+      <p><em>Every Thursday</em><br />March 2 – May 25, 2017<br />12:15pm – 1:15pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" alt="" />
     </a>
   </li>
@@ -300,14 +323,14 @@ A city’s urban heart is an expression of its people, its diversity, its intere
   <li>
     <a href="http://grandparkla.org/event/dancedowntown/?instance_id=93852">
       <h2>Dance DTLA: Dance Downtown</h2>
-      <p>Friday Night<br />June 23, July 7, July 21, August 4, August 18, and September 1, 2017<br />7pm – 11pm</p>
+      <p>Friday Night<br />June 23, July 7, July 21, August 4, August 18 &amp; September 1, 2017<br />7pm – 11pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300dancedowntown.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="http://grandparkla.org/event/djnights/?instance_id=93848">
       <h2>Dance DTLA: DJ Nights</h2>
-      <p>Friday Night<br />July 14, July 28, August 11, and August 25, 2017<br />9pm – 12am</p>
+      <p>Friday Night<br />July 14, July 28, August 11 &amp; August 25, 2017<br />9pm – 12am</p>
       <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300.djnights.jpg" alt="" />
     </a>
   </li>
@@ -321,7 +344,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
   <li>
     <a href="http://grandparkla.org/event/sundaysessions/?instance_id=93798">
       <h2>Sunday Sessions</h2>
-      <p>June 11, July 16, August 13, and September 17, 2017<br />2pm – 7pm</p>
+      <p>June 11, July 16, August 13 &amp; September 17, 2017<br />2pm – 7pm</p>
       <img src="http://grandparkla.org/wp-content/uploads/2014/04/600-x-300-Sunday-Sessions.jpg" alt="" />
     </a>
   </li>
