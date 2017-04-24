@@ -1,5 +1,5 @@
 # Grand Park LA
 
-A beta website for Grand Park, Los Angeles
+A design prototype for Grand Park, Los Angeles
 
 http://beta.grandparkla.org
