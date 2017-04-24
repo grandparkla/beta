@@ -5,17 +5,40 @@ include_newsletter: true
 ---
 
 <style>
+.header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding-left: 1.45em;
+}
+.header h2 {
+  width: 100vw;
+  box-sizing: border-box;
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+  border-width: 0;
+}
+.header .tagline {
+  color: white !important;
+  text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
+}
 main {
   background: rgb(235, 12, 128); /* @pink */
   color: white;
   margin: -2.9em -1.45em;
   padding: 2.9em 1.45em 5.8em;
 }
+/*
 .header .logo,
 .header .tagline {
   visibility: hidden;
   display: none;
 }
+*/
 .featured-events,
 .featured-events li {
   list-style: none;
@@ -34,12 +57,20 @@ main {
   text-decoration: none !important;
   background-color: rgb(252, 239, 71); /* @yellow */
   color: rgb(235, 12, 128) !important; /* @pink */
-  padding: 1.45em 2.9em;
-  border: 1.45em solid white;
   margin-top: 1.45em;
   margin-bottom: 1.45em;
   border-radius: 1px;
+  padding: 1.45em;
+  margin-left: -1.45em;
+  margin-right: -1.45em;
+  border: 0.3625em solid white;
 }
+@media (min-width: 50em) {
+  .featured-events a {
+   padding: 1.45em 2.9em;
+  border: 1.45em solid white;
+   
+  }
 .featured-events img {
   display: block;
   margin: 1.45em auto 2.175em;
@@ -50,7 +81,6 @@ main {
   margin: 0 -2.9em -1.45em;
   */
 }
-@media (min-width: 50em) {
   /*
   .featured-events {
     display: flex;
