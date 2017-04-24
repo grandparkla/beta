@@ -21,6 +21,11 @@ include_newsletter: true
   box-sizing: border-box;
   text-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
   border-width: 0;
+  color: rgb(252, 239, 71); /* @yellow */
+}
+.nav-link a {
+  background-color: rgb(252, 239, 71); /* @yellow */
+  color: rgb(235, 12, 128) !important; /* @pink */
 }
 .header .tagline {
   color: white !important;

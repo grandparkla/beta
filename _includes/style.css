@@ -82,11 +82,19 @@
     color: rgb(252, 239, 71) !important; /* @yellow */
     background-image: url("http://grandparkla.org/wp-content/uploads/2012/09/pattern_14.jpg");
     background-position: center;
-    display: block;
-    padding: 8.7em 2.9em;
-    margin-left: -1.45em;
-    margin-right: -1.45em;
+    padding: 5.8rem 1.45rem;
+    margin-left: -1.45rem;
+    margin-right: -1.45rem;
     position: relative;
+    min-height: 50vh;
+    display: block;
+    display: flex;
+    align-items: center;
+  }
+  @media (min-width: 30em) {
+    .newsletter-promotion {
+      font-size: 2vmax;
+    }
   }
   .newsletter-promotion::before {
     content: "";
@@ -100,7 +108,6 @@
   .newsletter-promotion > * {
     position: relative;
     z-index: 1;
-    text-shadow: 0 0 0.25em rgba(0, 0, 0, 1);
   }
   .newsletter-promotion:hover,
   .newsletter-promotion:active,
@@ -116,7 +123,6 @@
     max-width: 40em;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
   }
   .newsletter-promotion h2 {
     margin-top: 0;
@@ -124,6 +130,7 @@
     color: inherit;
     margin-left: 0;
     marign-right: 0;
+    text-decoration: underline;
   }
   .newsletter-promotion p {
     color: white;
@@ -131,7 +138,6 @@
     font-style: italic;
     font-weight: 900;
     text-transform: uppercase;
-    max-width: 20em;
   }
 
   /*
@@ -289,11 +295,17 @@
     color: rgb(235, 12, 128) !important; /* @pink */
     color: rgb(252, 239, 71) !important; /* @yellow */
   }
-  footer .social li {
+  .social,
+  .social li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .social li {
     display: inline-block;
     margin: 0.725em;
   }
-  footer .social a {
+  .social a {
     display: inline-block;
     border-radius: 50%;
     background-color: rgb(235, 12, 128); /* @pink */
@@ -302,12 +314,12 @@
     color: rgb(235, 12, 128) !important; /* @pink */
     padding: 0.54375em;
   }
-  footer .social svg {
+  .social svg {
     display: block;
     width: 1.45em;
     height: 1.45em;
   }
-  footer .social svg path {
+  .social svg path {
     fill: currentColor;
   }
 
