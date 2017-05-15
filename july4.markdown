@@ -30,19 +30,18 @@ figure div {
 
 <p style="margin: 0 -1.45em; max-width: none;"><img src="/images/4th-of-july.jpg" class="primary" alt="Grand Park + The Music Center. 4th Of July Block Party, 2017 #Go4thDTLA" /></p>
 
-<header>
+<header style="display: none;">
   <h2>4th of July</h2>
   <h1 style="color: black !important; margin-top: 0; padding-top: 0;">
     Block Party
   </h1>
 </header>
 
-* [When](#when)
-* [Where](#where)
-* [Cost](#cost)
-* [Metro](#go-metro)
+* [Activites](#activities)
+* [Fireworks](#fireworks)
+* [Dining](#dining)
 
-Grand Park + The Music Center’s Fourth of July Block Party returns with a wonderful way to celebrate America’s independence. Featuring picnics, play, music, dancing and a new fireworks show, the event is jam-packed with ways that make Fourth of July the ultimate summer holiday celebration. The afternoon offers games and art making for all ages including soccer, tag, bubble fun and chalk art. Two musical stages with DJs throughout the day and live performances in the evening will entertain audiences with sounds from America featuring everything from 70s Funk and Soul, to a full-scale Pops orchestra. Fireworks begin at 8:30 p.m. from the roof of The Music Center’s Dorothy Chandler Pavilion and will be visible throughout downtown and the surrounding neighborhoods. The event offers a multitude of dining options from more than 30 vendors including the return of gourmet food trucks. Grand Park + The Music Center’s Fourth of July Block Party will encompass all of the park, from Grand Avenue to Spring Street, plus the surrounding streets.
+Grand Park + The Music Center’s Fourth of July Block Party returns with a wonderful way to celebrate America’s independence. Featuring picnics, play, music, dancing and a new fireworks show, the event is jam-packed with ways that make Fourth of July the ultimate summer holiday celebration.
 
 ## When
 
@@ -61,6 +60,18 @@ July 4, 2017<br />2:00pm – 9:30pm
 ## Cost
 
 This is a **free** event. There’s no cost to attend.
+
+## Activities
+
+The afternoon offers games and art making for all ages including soccer, tag, bubble fun and chalk art. Two musical stages with DJs throughout the day and live performances in the evening will entertain audiences with sounds from America featuring everything from 70s Funk and Soul, to a full-scale Pops orchestra.
+
+## Fireworks
+
+Fireworks begin at 8:30 p.m. from the roof of The Music Center’s Dorothy Chandler Pavilion and will be visible throughout downtown and the surrounding neighborhoods.
+
+## Dining
+
+The event offers a multitude of dining options from more than 30 vendors including the return of gourmet food trucks. Grand Park + The Music Center’s Fourth of July Block Party will encompass all of the park, from Grand Avenue to Spring Street, plus the surrounding streets.
 
 <h2 id="go-metro">Go Metro</h2>
 
