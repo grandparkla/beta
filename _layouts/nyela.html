@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en-us" dir="ltr">
+<head>
+
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>{{ page.title }}</title>
+
+  <style>
+    {% include nyela.css %}
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <h1 style="background-color: black; color: white;">
+      <img src="/images/nyela-background-640wide.jpg" srcset="/images/nyela-background-320wide.jpg 320w, /images/nyela-background-640wide.jpg 640w, /images/nyela-background-768wide.jpg 768w, /images/nyela-background-1024wide.jpg 1024w, /images/nyela-background-1536wide.jpg 1536w, /images/nyela-background-2048wide.jpg 2048w" sizes="100vw" alt="" width="1" height="1" style="display: none;" />
+      {% include nyela.svg %}
+    </h1>
+  </header>
+
+  {{ content }}
+   
+  <script>
+    {% include analytics.js %}
+
+    if (window.__gaTracker) {
+      __gaTracker('create', 'UA-39280926-1', 'auto');
+      __gaTracker('set', 'forceSSL', true);
+      __gaTracker('send','pageview');
+    }
+  </script>
+
+</body>
+</html>

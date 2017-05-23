@@ -2,8 +2,22 @@
 title: 'Grand Park + The Music Center. New Year’s Eve – Los Angeles. Countdown to
   2017. #NYELA'
 date: 2016-12-29 15:35:00 -08:00
-layout: nyela
+layout: default
 ---
+
+<header>
+  <h1 style="background-color: rgb(89, 4, 59) !important; color: white;">
+    <img src="/images/nyela-background-640wide.jpg" srcset="/images/nyela-background-320wide.jpg 320w, /images/nyela-background-640wide.jpg 640w, /images/nyela-background-768wide.jpg 768w, /images/nyela-background-1024wide.jpg 1024w, /images/nyela-background-1536wide.jpg 1536w, /images/nyela-background-2048wide.jpg 2048w" sizes="100vw" alt="" width="1" height="1" style="display: block !important;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: top;" />
+    {% include nyela.svg %}
+  </h1>
+</header>
 
 * [Weather](#weather)
 * [Safety](#safety)
@@ -324,13 +338,3 @@ See the highlights from last year’s event:
 </a>
 </div>
 </figure>
-
-## [Grand Park](http://grandparkla.org) is an <span>LA County park</span> powered by [The Music Center](http://www.musiccenter.org/)
-
-*   ![County of Los Angeles](/images/logos/los-angeles.png)
-*   ![Grand Park + The Music Center](/images/logos/grandpark-musiccenter.png)
-*   ![Supervisor Hilda L. Solis](/images/logos/hildal.png)
-*   ![Councilmember Jose Huizar](/images/logos/huizar.png)
-*   ![Metro](/images/logos/metro.png)
-
-_The information on this page is subject to change._ Please check back here, [@grandpark_la](https://twitter.com/grandpark_la), [musiccenter.org](http://www.musiccenter.org/nyela), or [@musiccenterla](https://twitter.com/musiccenterla) for updates throughout the day.

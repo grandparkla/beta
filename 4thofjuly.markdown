@@ -1,17 +1,19 @@
 ---
-title: 'Grand Park + The Music Center. New Year’s Eve – Los Angeles. Countdown to
-  2017. #NYELA'
-date: 2016-12-29 15:35:00 -08:00
-layout: nyela
+title: 'Grand Park + The Music Center. 4th Of July Block Party, 2017 #Go4thDTLA'
+date: 2017-05-22 15:35:00 -08:00
+layout: 4thofjuly
 ---
 
+<!--
 * [Weather](#weather)
+-->
+
 * [Safety](#safety)
 * [Schedule](#event-schedule)
 * [Map](#event-map)
 * [Transportation](#transportation)
 
-What up Los Angeles? Look forward to 2017 with best friends, sweeties, friendly neighbors, and those cousins from out-of-town at the West Coast’s flagship New Year’s Eve celebration. [Grand Park](//grandparkla.org) and [The Music Center](http://www.musiccenter.org/nyela)’s N.Y.E.L.A. is *the place* to dream together and welcome new beginnings with a countdown on City Hall, [live music](#event-schedule), [food](#food), and [photo booths](#photo-booth) in one big, beautiful, colorful Angeleno experience to remember! #NYELA
+**Los Angeles! #Go4thDTLA**. Grand Park and The Music Center are where to celebrate together with music, food, and an incredible fireworks display launched from the civic center skyline. Grab the best friends, the whole family, and main squeezes and enjoy a bit of togetherness under the beautiful Angeleno sky. **Safety for everyone is número uno. Check back soon for more info on entrances, prohibited items, parking, etc.**
 
 ### When
 
@@ -19,22 +21,26 @@ The event begins at 8pm on December 31, 2016 and ends at 1am on January 1, 2017.
 
 ### Where
 
-Grand Park \+ The Music Center:
+Grand Park + The Music Center:
 [200 North Grand Avenue, Los Angeles, California 90012](https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614)
 
 ### Cost
 
 This is a **free** event. There’s no cost to attend.
 
+<!--
+
 ## Weather
 
 Showers are forecast for Saturday afternoon. Please check back here,  [@grandpark_la](https://twitter.com/grandpark_la), [musiccenter.org](http://www.musiccenter.org/nyela), or [@musiccenterla](https://twitter.com/musiccenterla) for updates throughout the day.
 
-Angelenos aren’t afraid of some spritz! The show must go on! Grand Park \+ The Music Center's N.Y.E.L.A. will continue rain or shine.
+Angelenos aren’t afraid of some spritz! The show must go on! Grand Park + The Music Center's N.Y.E.L.A. will continue rain or shine.
 
 **Please note that umbrellas will not be allowed in the event.**
 
 Ponchos, rain boots, and waterproof outerwear *are* allowed.
+
+-->
 
 ## Safety
 
@@ -70,8 +76,10 @@ All bags will be checked upon entry to event space. Please **do not** bring th
 * Sticks
 * Tents
 * Unleashed Animals
-* **Umbrellas**
+* Umbrellas
 * Weapons
+
+<p><mark>THE FOLLOWING IS PROHIBITED: Bags and backpacks measuring larger than standard backpack size (16.75 inches x 13 inches x 8.5 inches), coolers, chairs, outside alcoholic beverages, sealed or open beverage bottles with liquid including water (fountains and water for purchase will be available), selfie sticks, glass, smartboards, projection devices, narcotics, tents, firecrackers, explosives, sparklers, firearms/weapons, identity-covering costumes, confetti cannons, generators, drones, printed signage measuring larger than 8.5 inches  x 11 inches, props, flag poles and sticks, public intoxication, rollerblading, skateboarding, smoking, vaping, unauthorized vending, unleashed animals, smart boarding, outside solicitation, staking objects to ground, drone operation, amplified noise and bicycles (may be parked outside of event at 1st and Hill streets).</mark></p>
 
 ### A Note for Beautiful Los Angeles
 
@@ -90,6 +98,8 @@ This is a space for unity – where Angelenos and visitors from all around the w
 * Vaping
 * Bicycles ([parking for bicycles](#bicycle-parking) is available outside of event at [Hill Street and West 2nd Street](https://www.google.com/maps/place/Hill%20St%20%26%20W%202nd%20St,%20Los%20Angeles,%20CA%2090012/@34.0531909,-118.2497424,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c64c3c8c1705:0x40319b44d9ac20f7!8m2!3d34.0531909!4d-118.2477047))
 
+<p><mark>THE FOLLOWING ACTIVITIES ARE PROHIBITED: Public Intoxication / Rollerblading / Skateboarding / Smoking / Vaping / Unauthorized Vending / Aggressive Solicitation / Staking Objects to Ground</mark></p>
+
 ### Items You Can Bring
 
 * Snacks
@@ -101,96 +111,48 @@ This is a space for unity – where Angelenos and visitors from all around the w
 * Strollers
 * Empty Reusable Non-Glass Water Containers.
 
+<p><mark>ALLOWED: Snacks, food, sealed juice boxes, small bags, strollers, handheld umbrellas and empty reusable non-glass water containers.</mark></p>
+
 ### Have a Ball But Please No Alcohol
 
 This will be an alcohol-free, family-friendly event; no beer garden or point of purchase. No alcohol is permitted in the event space.
 
 ## Event Schedule
 
-Event begins at 8pm on December 31. [Projections](#projections) and music run all night. [Food service](#food) will run until 1am. The event ends at 1am on January 1.
+Doors open at 2pm. Fireworks show will create stunning backdrop for L.A.'s iconic City Hall. Event ends at 9:30pm
 
-*Experience some of L.A.’s best at the three music stages:*
+Experience *music* and *artists* that call L.A. home, at the two music stages:
 
-### Countdown Stage
+### THE FIREWORKS STAGE (on The Music Center Plaza):
 
-Hosted by: *[Mario Hernandez](http://eatmomovies.tumblr.com/)*
+YOUR HOST: Mario Hernandez
+2:15PM - 3:15PM / Kotolan (Indie Pop meets global, sung in English, Spanish and Japanese)
+3:30PM - 4:30PM / 108 Hill (project debut by Peter Madana, Aalok Mehta, and Anisha Nagarajan exploring stories and sounds from Bombay to L.A.)
+5PM - 6PM / Jenny O.  (L.A. based pop Singer-Songwriter)
+6:30PM - 7:30PM / Dexter Story (Soul, Funk, Jazz and Folk music with musical elements from East Africa)
+8PM - 9PM / The Echo Park Project and the dancers from the World Salsa Congress (legendary Salsa sounds with a twist)
 
-08:00pm—09:00pm
-: *[DJ Expo](https://soundcloud.com/expothedj)*
+### THE BACKYARD STAGE (Grand Park near Hill St):
 
-09:00pm—09:30pm
-: *[Jungle Fire](http://junglefiremusic.com/)*
+YOUR HOST: Kristin Rand
+3PM - 4:30PM / LA JUNTA (DJ collective spinning tropical sounds of Brazil, Colombia, Peru, Nigeria, Ethiopia, Democratic Republic of Congo, Cuba, Puerto Rico, India and Mexico)
+4:30PM - 7:45PM / Afro Funke’ with DJ Jeremy Sole and DJ Glenn Red (blends of African, Global, Hip-Hop, Jazz/Funk, Dub Reggae, Afro Beat and remixes)
+8PM - 9PM / Rocky Dawuni (L.A.'s own Grammy-nominated afro-roots and reggae sound.
 
-09:30pm—10:00pm
-: *DJ Expo*
+## Event Lawn
 
-10:00pm—10:30pm
-: *[Lyric Jones](http://thelyricjones.com/)*
+Dedicated space for play for children 4-14
 
-10:30pm—10:45pm
-: *DJ Expo*
-
-10:45pm—11:45pm
-: *Jungle Fire* with guests *[QVLN](http://www.qviolin.com/)* and *[Afrodyete](https://afrodyete.bandcamp.com/)*
-
-**11:55pm—12:00am**
-: **All Eyes On City Hall**
-
-12:00am—12:50am
-: *Jungle Fire* with guests *QVLN*, *Afrodyete* and *[L.A. Samba Dancers](https://www.facebook.com/LA.SambaDancers/)*
-
-### Get Down Stage
-
-Hosted by: *[Gazoo Olmeda](https://www.facebook.com/DJ-Gazoo-Olmedo-140328819333338/)*
-
-08:00pm—08:40pm
-: *[Victoria Van Damn](http://www.victoriavandamn.com/)*
-
-08:40pm—09:20pm
-: *Gazoo Olmeda*
-
-09:20pm—10:00pm
-: *Victoria Van Damn*
-
-10:00pm—10:40pm
-: *Gazoo Olmeda*
-
-10:40pm—11:00pm
-: *Gazoo Olmeda* with *[Jose Marquez](https://soundcloud.com/jose-marquez)*
-
-11:00pm—11:45pm
-: *Jose Marquez*
-
-**11:55pm—12:00am**
-: **All Eyes On City Hall**
-
-12:00am—01:00am
-: *Jose Marquez*
-
-### Funktown Stage
-
-Hosted by: *[DJ Paris Paul](https://www.facebook.com/DJParisPaul/)*
-
-Dancers: *[CheckOne2 Dancers](http://checkone2ent.com/)*
-
-08:00pm—10:30pm
-: *DJ Paris Paul*
-
-10:30pm—11:45pm
-: *DJ Rell*
-
-**11:55pm—12:00am**
-: **All Eyes On City Hall**
-
-12:00am—01:00am
-: *[DJ Rell](http://www.scratchweddings.com/wedding-dj/los-angeles-dj-rell/)*
+Got Game Sports leading tag, soccer and other games thru 8:30pm  // Tunes spun by DJ Francesca Harding and Ericalandia // Chris Douridas
 
 ## Event Map
 
-The event will take place at Grand Park \+ The Music Center:
+<p><mark>Get the lay of the land.</mark></p>
+
+The event will take place at Grand Park + The Music Center:
 [200 North Grand Avenue, Los Angeles, California 90012](https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614)
 
-Don’t miss out. Event maps will be available at the five N.Y.E.L.A. info booths. Sign up for more Grand Park \+ The Music Center updates or show your TAP card at any N.Y.E.L.A. booth and get a **free giant glow stick** (while supplies last).
+Don’t miss out. Event maps will be available at the five N.Y.E.L.A. info booths. Sign up for more Grand Park + The Music Center updates or show your TAP card at any N.Y.E.L.A. booth and get a **free giant glow stick** (while supplies last).
 
 <figure>
 <div style="padding-bottom: 153.34914049%">
@@ -228,6 +190,10 @@ Snap the final photos of 2016 at a photo booth.
 
 ### Food
 
+<p><mark>FOOD FOR SALE: Food vendors will be onsite.</mark></p>
+
+<p><mark>FOOD + DRINK POLICY: PICNICS/OUTSIDE FOOD is welcome in totes and backpacks - NO COOLERS. SIZE OF BAGS AND BACKPACKS/TOTES must be standard backpack size or smaller (16.75 inches x 13 inches x 8.5 inches). NO OUTSIDE BEVERAGES including juice and soda (sealed juice boxes are the only exception). ONLY EMPTY (non glass) WATER BOTTLES allowed. PARK WATER FOUNTAINS and WATER FOR PURCHASE BOOTHS will be available in the event space. FOOD VENDORS BOOTHS will be available throughout event space. This is and alcohol-free event, NO ALCOHOL permitted.</mark></p>
+
 Vendors cranking out nom noms:
 
 * [Bling Bling Dumplings](http://blingblingdumpling.com/blingblingdumpling/Home.html)
@@ -258,12 +224,14 @@ Vendors cranking out nom noms:
 
 ## Transportation
 
-The event will take place at Grand Park \+ The Music Center:
+The event will take place at Grand Park + The Music Center:
 [200 North Grand Avenue, Los Angeles, California 90012](https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614)
 
 ### Street Closure Info and Parking Details
 
 View the [N.Y.E.L.A. Community Letter](http://www.musiccenter.org/Media/grand-park/2016/calendar/FallWinter16/Grand%20Park%20The%20Music%20Center%20NYELA%20Countdown%20to%202017.%20Final.pdf) for a complete street closure schedule, or maybe a handy dandy Google map with all parking and transportation recommendations:
+
+<p><mark>Details on scheduled event street closures in the 4th of July Block Party Community Letter</mark></p>
 
 <figure>
 <div style="padding-bottom: 62.94416244%">
@@ -284,6 +252,12 @@ C9.3,11.7,9.3,11.2,9.1,10.9z"/>
 </div>
 </figure>
 
+### Parking
+
+Parking in [lots surrounding Grand Park]() is recommended. **The Music Center lot and Lot 10 underneath Grand Park will not be available.**
+
+<p><mark>Add link for lots surrounding Grand Park</mark></p>
+
 ### Taking Rideshare Like Lyft Or Uber?
 
 Use the drop off/pick up zone near the [1st Street and North Los Angeles Street](https://goo.gl/maps/5TKyU4gYYY62) event entrance/exit.
@@ -299,31 +273,19 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 
 ### Go Metro
 
-All metro rail lines including Orange and Silver Lines run **24 hours** on New Year’s Eve with **free fares from 9pm–2am**. Take the Metro Red/Purple Line to the *Civic Center/Grand Park Station* or the Gold Line to the *Little Tokyo/Arts District Station*. Plan your trip at [metro.net](https://www.metro.net/)
+Take the Metro Red/Purple Line to the *Civic Center/Grand Park Station*. **Please use the 1st Street exit.** The Temple Street exit is only open for ADA/elevator access.
+
+Or take the Gold Line to the *Little Tokyo/Arts District Station*, then 7-12 minute walk towards The Music Center.
+
+Plan your trip at [metro.net](https://www.metro.net/)
 
 ### Bicycle Parking
 
-[LA County Bicycle Coalition](http://la-bike.org/)’s Bike Valet available at [Hill Street and West 2nd Street](https://www.google.com/maps/place/Hill%20St%20%26%20W%202nd%20St,%20Los%20Angeles,%20CA%2090012/@34.0531909,-118.2497424,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c64c3c8c1705:0x40319b44d9ac20f7!8m2!3d34.0531909!4d-118.2477047). The valet service is **free**.
+[LA County Bicycle Coalition](http://la-bike.org/)’s Bike Valet available at [Hill Street and 1st Street](https://www.google.com/maps/place/Hill%20St%20%26%20W%202nd%20St,%20Los%20Angeles,%20CA%2090012/@34.0531909,-118.2497424,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c64c3c8c1705:0x40319b44d9ac20f7!8m2!3d34.0531909!4d-118.2477047). The valet service is **free**.
 
-## N.Y.E.L.A. 2016
+<p><mark>Is LA County Bicycle Coalition providing the valet for this event?</mark></p>
 
-See the highlights from last year’s event:
-
-<figure>
-<div style="padding-bottom: 56.25%">
-<a href="https://vimeo.com/165034815" target="_blank" class="has-icon">
-<img src="https://i.vimeocdn.com/video/568787114_1280x720.jpg" width="1000" height="563" data-aspect-ratio="1280/720" alt="Video of Grand Park and The Music Center’s New Year’s Eve Celebration in 2015">
-<span class="icon play">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
-<switch>
-<polygon fill="white" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
-<foreignobject>Play</foreignobject>
-</switch>
-</svg>
-</span>
-</a>
-</div>
-</figure>
+<p><mark>Update Map Image</mark></p>
 
 ## [Grand Park](http://grandparkla.org) is an <span>LA County park</span> powered by [The Music Center](http://www.musiccenter.org/)
 
