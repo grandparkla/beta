@@ -325,8 +325,14 @@ img.wp-post-image {
     margin-top: 0;
     max-width: none;
     margin-bottom: 0;
-    padding-left: 6em;
-    padding-right: 6em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  @media (min-width: 40em) { /* @medium */
+    body .site {
+      padding-left: 6em;
+      padding-right: 6em;
+    }
   }
 
   .site-content article {
@@ -526,6 +532,7 @@ img.wp-post-image {
   }
 </style>
 
+<!--
 <div class="notice">
 <h2>Maintenance Notice</h2>
 
@@ -545,6 +552,7 @@ img.wp-post-image {
 <p><a href="http://grandparkla.org/fun-family-activities-around-grand-ave/">More information</a></p>
 
 </div>
+-->
 
 <!--
 <div style="margin-top: 6em"></div>
@@ -657,19 +665,28 @@ img.wp-post-image {
   .logo {
     margin-top: 0;
     margin-bottom: 0.725em;
-    padding-left: 6em;
-    padding-right: 6em;
     font-size: inherit;
     padding-top: 1.45em;
     color: rgb(235, 12, 128); /* @pink */
+    padding-left: 1.5em;
+    padding-right: 1.5em;
   }
   .header .logo {
     border-top: 0.3625em solid;
 
     padding-top: 2.375em;
-
-    margin-left: -6em;
-    margin-right: -6em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+  @media (min-width: 40em) { /* @medium */
+    .logo {
+      padding-left: 6em;
+      padding-right: 6em;
+    }
+    .header .logo {
+      margin-left: -6em;
+      margin-right: -6em;
+    }    
   }
   footer .logo {
     text-align: center;
@@ -747,7 +764,12 @@ img.wp-post-image {
   position: relative;
 }
 .header-navigation .nav-link {
-  right: -6rem;
+  right: -1.5rem;
+}
+@media (min-width: 40em) { /* @medium */
+  .header-navigation .nav-link {
+    right: -6rem;
+  }
 }
 /*
 
@@ -1018,13 +1040,17 @@ img.wp-post-image {
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUIplThFRCw/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Poetry fills Grand Park through the voices and minds of amazing and talented Angelenos. #OurLAVoices heard strong with Mike Sonksen (@mikethepoetla) in his #DTLA walking tour. Sonksen’s poems continue to float in the mirrored reflections by the splash pad and Event Lawn through May 🗯</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-16T01:41:25+00:00">May 15, 2017 at 6:41pm PDT</time></p></div></blockquote>
 
 
+<!--
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:62.5% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUHtP3tlNo9/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">THIS WEEK ☁️ Express yourself at LUNCHTIME! Writers’ Meetup w/ @traciakemi1 📝 (Tues) + Get ur nom on w/ #LUNCHTIME! Food Trucks (Tues-Thurs) 🍔Relaxing Yoga reTreat (Wed/Fri) 🙆 + enjoy a Piano Concert w/ @lachsa (Thurs) 🎹😎</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-15T16:54:12+00:00">May 15, 2017 at 9:54am PDT</time></p></div></blockquote>
+-->
 
 
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:49.907407407407405% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BUAKjFvF4ce/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Head&#39;s up Yogis 🙏 Lunchtime Yoga reTREAT will be moved to the Fountain Overlook, off GRAND AVE. TODAY (12:15 – 1pm) Namaste!</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-12T18:36:18+00:00">May 12, 2017 at 11:36am PDT</time></p></div></blockquote>
 
 
+<!--
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BT659R4lOJr/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">YOGI UPDATE: Due to the weather, today&#39;s LUNCHTIME! Yoga ReTREAT is cancelled. Yoga will return this FRI MAY 12 . Thank you for your patience. 🙏 #namaste</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-10T17:35:07+00:00">May 10, 2017 at 10:35am PDT</time></p></div></blockquote>
+-->
 
 <!--
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BT2LabMFbro/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">[CONTEST CLOSED] Woo! DATE NIGHT TIX GIVEAWAY @scottishballet ‘s adaptation of Tennessee Williams’ classic ‘A Streetcar Named Desire’ brings a slice of NOLA’s French Quarter to @musiccenterla ‘s Dorothy Chandler Pavilion. TWO OPENING NIGHT TIX here to give away to YOU. TAG a honey or a bestie for a chance to win. Tix for FRI MAY 19 at 7:30PM. Winner announced tomorrow TUES MAY 9 at NOON (event deets in bio). Disclaimer: Performance is a bit steamy 🚿 recommended for ages 15+ Good Luck! +++ +++ +++ Entrants must be 18 years of age or older to qualify, one entry per Instagram user (duplicate entries will not be counted). Entries will qualify until TUES MAY 9 PST. Random winner will be drawn from list of entries collected on Instagram. Winner will be announced on Instagram by 1PM PST TUES MAY 9. Winner will also receive a direct message with instructions on how to claim tickets. They will have 24 hours respond. Tickets are non-transferable.</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-08T21:31:27+00:00">May 8, 2017 at 2:31pm PDT</time></p></div></blockquote>
@@ -1037,7 +1063,9 @@ img.wp-post-image {
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:37.4537037037037% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTpIJMjlwxU/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Aww yeah! LUNCHTIME! Yoga in full effect 🙌@yazanadis #namaste</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-03T19:52:45+00:00">May 3, 2017 at 12:52pm PDT</time></p></div></blockquote>
 
 
+<!--
 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-version="7" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAMUExURczMzPf399fX1+bm5mzY9AMAAADiSURBVDjLvZXbEsMgCES5/P8/t9FuRVCRmU73JWlzosgSIIZURCjo/ad+EQJJB4Hv8BFt+IDpQoCx1wjOSBFhh2XssxEIYn3ulI/6MNReE07UIWJEv8UEOWDS88LY97kqyTliJKKtuYBbruAyVh5wOHiXmpi5we58Ek028czwyuQdLKPG1Bkb4NnM+VeAnfHqn1k4+GPT6uGQcvu2h2OVuIf/gWUFyy8OWEpdyZSa3aVCqpVoVvzZZ2VTnn2wU8qzVjDDetO90GSy9mVLqtgYSy231MxrY6I2gGqjrTY0L8fxCxfCBbhWrsYYAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div> <p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/BTj7DmXltEK/" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">THIS WEEK 😎 LUNCHTIME! Writers’ Meetup (TUES) 📝 Food Trucks (TUES-THURS) 🌯 #Yoga (WED/FRI) 🙏 #LUNCHTIME! Concerts (THURS) 🎶</a></p> <p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by Grand Park (@grandpark_la) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2017-05-01T19:22:12+00:00">May 1, 2017 at 12:22pm PDT</time></p></div></blockquote>
+-->
 
 
 <!--
@@ -1060,10 +1088,19 @@ img.wp-post-image {
     padding-left: 0;
   }
   .featured-events li {
-    margin-bottom: 6em;
+    margin-bottom: 1.5em;
   }
   .featured-events li + li {
-    margin-top: 6em;
+    margin-top: 1.5em;
+  }
+
+  @media (min-width: 40em) { /* @medium */
+    .featured-events li {
+      margin-bottom: 6em;
+    }
+    .featured-events li + li {
+      margin-top: 6em;
+    }
   }
 </style>
 
@@ -1071,9 +1108,33 @@ img.wp-post-image {
 
 <ol class="featured-events">
 
-  <li><a href="http://grandparkla.org/summer/"><img class="alignnone wp-image-18814 size-full" src="http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465.jpg" alt="" width="1920" height="465" srcset="http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465.jpg 1920w, http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465-300x73.jpg 300w, http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465-768x186.jpg 768w, http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465-1024x248.jpg 1024w, http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465-624x151.jpg 624w" sizes="(max-width: 1920px) 100vw, 1920px"/></a></li>
-  <li><a href="/proud/"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" /></a></li>
-  <li><a href="/portals/"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_PortalsProject_1920x465.jpg" /></a></li>
+  <li>
+    <a href="http://grandparkla.org/summer/">
+      <picture>
+        <source srcset="http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465.jpg" media="(min-aspect-ratio: 1/1)" />
+        <source srcset="/images/events/GP_SU_17_600X300.png" />
+        <img src="http://grandparkla.org/wp-content/uploads/2017/05/GP_SU_17_1920X465.jpg" />
+      </picture>
+    </a>
+  </li>
+  <li>
+    <a href="/proud/">
+      <picture>
+        <source srcset="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" media="(min-aspect-ratio: 1/1)" />
+        <source srcset="/images/events/GP_2017_Our-LA-Voices_Proud_600X300.jpg" />
+        <img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" />
+      </picture>
+    </a>
+  </li>
+  <li>
+    <a href="/portals/">
+      <picture>
+        <source srcset="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_PortalsProject_1920x465.jpg" media="(min-aspect-ratio: 1/1)" />
+        <source srcset="/images/events/GP_2017_Our-LA-Voices_PortalsProject_600x300.jpg" />
+        <img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_PortalsProject_1920x465.jpg" />
+      </picture>
+    </a>
+  </li>
   <!--
   <li><a href="/"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" /></a></li>
   -->
@@ -1129,7 +1190,7 @@ img.wp-post-image {
 
 </style>
 
-<p class="action" style="text-align: center; font-size: 1.25em;"><a href="http://grandparkla.org/calendar/">More Events</a></p>
+<p class="action" style="text-align: center; font-size: 1.25em;"><a href="http://grandparkla.org/calendar/">Full Calendar</a></p>
 
 
 
@@ -1172,8 +1233,10 @@ img.wp-post-image {
   figure {
     margin-top: 1.45em;
     position: relative;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
   }
-  @media (min-width: 45em) {
+  @media (min-width: 40em) { /* @medium */
     figure {
       margin: 2.9em -6em;
     }
@@ -1315,9 +1378,15 @@ img.wp-post-image {
     background-color: rgb(235, 12, 128); /* @pink */
     color: rgb(252, 239, 71); /* @yellow */
     padding: 3em 1.5em;
-    margin-left: -6em;
-    margin-right: -6em;
     margin-bottom: 9em;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+  @media (min-width: 40em) { /* @medium */
+    footer {
+      margin-left: -6em;
+      margin-right: -6em;
+    }
   }
   main + footer {
     margin-top: 0;
@@ -1327,10 +1396,14 @@ img.wp-post-image {
   }
   footer .navigation-lists {
     margin-top: 2.25em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     font-size: 1.25em;
+  }
+  @media (min-width: 40em) { /* @medium */
+    footer .navigation-lists {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
   }
   footer .nav {
     max-width: none;
