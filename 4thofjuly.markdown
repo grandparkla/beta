@@ -145,9 +145,9 @@ Hosted by: *Kristin Rand*
 8:00pm—9:00pm
 : *Rocky Dawuni* (L.A.'s own Grammy-nominated afro-roots and reggae sound)
 
-## Event Lawn
+## Play Space for Children
 
-There will be a dedicated space for play for children ages 4-14.
+There will be a dedicated play space on the event lawn for children ages 4-14.
 
 Got Game Sports leading tag, soccer and other games through 8:30pm. Tunes spun by DJ Francesca Harding, Ericalandia, and Chris Douridas.
 
