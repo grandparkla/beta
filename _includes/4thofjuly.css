@@ -183,6 +183,10 @@
     font-weight: inherit;
     font-style: italic;
   }
+  h3 + h4 {
+    margin-top: 0;
+    margin-bottom: 1.45rem;
+  }
   @media (min-width: 50em) {
     h1,
     h2 {

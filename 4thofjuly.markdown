@@ -18,7 +18,7 @@ layout: 4thofjuly
 ### When
 
 July 4, 2017<br />
-2:00 pm – 9:30 pm
+2:00pm—9:30pm
 
 ### Where
 
@@ -109,36 +109,40 @@ Doors open at 2pm. Fireworks show will create stunning backdrop for L.A.’s ico
 
 Experience *music* and *artists* that call L.A. home, at the two music stages:
 
-### The Fireworks Stage (on The Music Center Plaza)
+### Fireworks Stage
+
+#### on The Music Center Plaza
 
 Hosted by: *[Mario Hernandez](http://eatmomovies.tumblr.com/)*
 
-02:15pm—03:15pm
+2:15pm—3:15pm
 : *Kotolan* (Indie Pop meets global, sung in English, Spanish and Japanese)
 
-03:30pm—04:30pm
+3:30pm—4:30pm
 : *108 Hill* (project debut by *Peter Madana*, *Aalok Mehta*, and *Anisha Nagarajan* exploring stories and sounds from Bombay to L.A.)
 
-05:00pm—06:00pm
+5:00pm—6:00pm
 : *Jenny O.* (L.A. based pop Singer-Songwriter)
 
-06:30pm—07:30pm
+6:30pm—7:30pm
 : *Dexter Story* (Soul, Funk, Jazz and Folk music with musical elements from East Africa)
 
-08:00pm—09:00pm
+8:00pm—9:00pm
 : *The Echo Park Project* and the dancers from the *World Salsa Congress* (legendary Salsa sounds with a twist)
 
-### The Backyard Stage (Grand Park near Hill Street)
+### Backyard Stage
+
+#### at Grand Park near Hill Street
 
 Hosted by: *Kristin Rand*
 
-03:00pm—04:30pm
+3:00pm—4:30pm
 : *La Junta* (DJ collective spinning tropical sounds of Brazil, Colombia, Peru, Nigeria, Ethiopia, Democratic Republic of Congo, Cuba, Puerto Rico, India and Mexico)
 
-04:30pm—07:45pm
+4:30pm—7:45pm
 : *Afro Funke’* with *DJ Jeremy Sole* and *DJ Glenn Red* (blends of African, Global, Hip-Hop, Jazz/Funk, Dub Reggae, Afro Beat and remixes)
 
-08:00pm—09:00pm
+8:00pm—9:00pm
 : *Rocky Dawuni* (L.A.'s own Grammy-nominated afro-roots and reggae sound)
 
 ## Event Lawn
