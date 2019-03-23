@@ -11,7 +11,7 @@ layout: default
 }
 </style>
 
-<p style="margin: 0 -1.45em; max-width: none;"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" class="primary" alt="Portals Project" /></p>
+<p style="margin: 0 -1.45em; max-width: none;"><img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_Proud_1920X465.jpg" class="primary" alt="Portals Project" /></p>
 
 <header>
   <h2>Our L.A. Voices</h2>
@@ -66,13 +66,13 @@ This is a **free** event. There’s no cost to attend.
 
 ### The Road to Equality from [San Gabriel Valley Pride](https://sgvpride.org/)
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/Road-to-Equality200x278.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/Road-to-Equality200x278.jpg)
 
 A multi-year community art project inspired by the AIDS quilt will be displayed for the first time in its entirety. Add to the already 500 personal illustrations honoring the fight for LGBTQ rights.
 
 ### Share your own with [Q Youth Foundation](http://www.qyouthfoundation.org/)
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/10.3.15-PROUD-Stories.-Javier-Guillen-39_Q-Youth_resize_200x133-300x200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/10.3.15-PROUD-Stories.-Javier-Guillen-39_Q-Youth_resize_200x133-300x200.jpg)
 
 Add to the collection of L.A.’s  LGBTQIA+ experiences and voices.
 
@@ -103,7 +103,7 @@ Beats by: AkikoLUV
 
 ### D’Lo
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/17_DLo200.200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/17_DLo200.200.jpg)
 
 Photo by Belo
 
@@ -117,7 +117,7 @@ FOLLOW D’LO: [dlokid.com](dlokid.com)
 
 ### AkikoLUV
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/18_AkikoLuv200.200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/18_AkikoLuv200.200.jpg)
 
 AkikoLUV is a bonafide “skratch nerd”. Deeply passionate about the art of DJing, she had dedicated her life to the skills-intensive subgenre of turntablism.
 
@@ -127,7 +127,7 @@ FOLLOW AKIKOLUV: facebook.com/akikoluv and @akikoluv
 
 ### Corey Saucier
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/14_coreysaucier.200.200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/14_coreysaucier.200.200.jpg)
 
 As an HIV positive queer person of color, Corey Saucier celebrates the intersectionality of his many identities and strives to give them equal space in the world. Through workshops and performance, he has cultivated his own personal histories into a public voice that echoes themes of gay minority identity, queer faith, and concepts of the “taboo”. In addition to his theater work, he is a prolific writer: A Lambda Literary Fellow in Fiction and Non-Fiction, a UCLA Writing Program Fellow, and a Columnist for A&U Magazine.
 
@@ -137,7 +137,7 @@ FOLLOW COREY:  facebook.com/csaucier3
 
 ### Noel Alumit
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/16_noel-alumit.200.200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/16_noel-alumit.200.200.jpg)
 
 Noel Alumit was born in The Philippines and was raised in Historic Filipinotown, Los Angeles.  He wrote the novels Letters to Montgomery Clift and Talking to the Moon, a Los Angeles Times Bestseller.  His performance pieces “The Rice Room: Scenes from a Bar” and “Master of the (Miss) Universe” played to sold-out performances on both coasts.  In addition to writing and performing, Noel Alumit is a Buddhist Divinity student at the University of the West.
 
@@ -150,7 +150,7 @@ FOLLOW NOEL: noelalumit.com
 PROUD Story Slam is a part of Grand Park’s Our L.A. Voices, a season-wide celebration of Angeleno expression.
 
 <!--
-<img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
+<img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
 -->
 
 ### Other OUR L.A. VOICES events

@@ -324,7 +324,7 @@ See the highlights from last year’s event:
 </div>
 </figure>
 
-## [Grand Park](http://grandparkla.org) is an <span>LA County park</span> powered by [The Music Center](http://www.musiccenter.org/)
+## [Grand Park](https://grandparkla.org) is an <span>LA County park</span> powered by [The Music Center](http://www.musiccenter.org/)
 
 *   ![County of Los Angeles](/images/logos/los-angeles.png)
 *   ![Grand Park + The Music Center](/images/logos/grandpark-musiccenter.png)

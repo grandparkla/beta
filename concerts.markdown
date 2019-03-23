@@ -66,7 +66,7 @@ figure div {
 }
 </style>
 
-<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="http://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" class="primary" alt="" style="width: 100%;" /></p>
+<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="https://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" class="primary" alt="" style="width: 100%;" /></p>
 
 <header>
   <h2>Our L.A. Voices</h2>
@@ -78,7 +78,7 @@ figure div {
 <!--
 <header>
   <h1 style="background-color: black; color: white;">
-    <img src="http://grandparkla.org/wp-content/uploads/2017/01/GP_2017_Our-LA-Voices_Lunchtime-Concerts_600x300.jpg" class="primary" alt="LUNCHTIME! Concerts" />
+    <img src="https://grandparkla.org/wp-content/uploads/2017/01/GP_2017_Our-LA-Voices_Lunchtime-Concerts_600x300.jpg" class="primary" alt="LUNCHTIME! Concerts" />
   </h1>
 </header>
 
@@ -158,7 +158,7 @@ May 25
 LUNCHTIME! Concerts is a part of Grand Park’s Our L.A. Voices, a season-wide celebration of Angeleno expression.
 
 <!--
-<img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
+<img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
 -->
 
 ### Other OUR L.A. VOICES events

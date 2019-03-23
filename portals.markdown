@@ -40,7 +40,7 @@ main {
 */
 </style>
 
-<p style="margin: 0 -1.45em; max-width: none;"><img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_PortalsProject_1920x465.jpg" class="primary" alt="Portals Project" /></p>
+<p style="margin: 0 -1.45em; max-width: none;"><img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_PortalsProject_1920x465.jpg" class="primary" alt="Portals Project" /></p>
 
 <header>
   <h2>Our L.A. Voices</h2>
@@ -105,21 +105,21 @@ Connect with other portals projects around the world!
 
 ## Photos
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios.jpg)
 
 Photo by: Shared Studios
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios_Dancer_in_Miami_performs_for_audience_in_Herat_Afghanistan.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios_Dancer_in_Miami_performs_for_audience_in_Herat_Afghanistan.jpg)
 
 Dancer in Miami performs for Audience in Herat, Afghanistan. Photo by: Shared Studios.
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios_Sixth_grade_students_in_New_Haven_speak_to_university_students_in_Tehran_about_their_school_experience.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios_Sixth_grade_students_in_New_Haven_speak_to_university_students_in_Tehran_about_their_school_experience.jpg)
 
 Sixth grade students in New Haven, CT speak to university students in Tehran, Iran about their school experience. Photo by Shared Studios.
 
 ## Celebrating World Art Day at Downtown&nbsp;Art&nbsp;Walk
 
-![](http://grandparkla.org/wp-content/uploads/2017/01/Pop-Up-Park.-The-Last-Bookstore.-Apr-2016.-Javier-Guillen-14-300x200.jpg)
+![](https://grandparkla.org/wp-content/uploads/2017/01/Pop-Up-Park.-The-Last-Bookstore.-Apr-2016.-Javier-Guillen-14-300x200.jpg)
 
 For the third consecutive year, the Downtown Los Angeles Art Walk will participate in World Art Day festivities. World Art Day is led by the IAA/AIAP (International Association of Art in official partnership with UNESCO), and participating galleries and art venues throughout Los Angeles will offer arts-based programming over a 4-day window starting on Thursday, April 13th, and ending on Sunday, April 16th, 2017.
 
@@ -131,7 +131,7 @@ Come say hi!
 
 *Portals Project* is a part of Grand Park’s Our L.A. Voices, a season-wide celebration of Angeleno expression.
 
-<img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
+<img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
 
 ### Other OUR L.A. VOICES events
 

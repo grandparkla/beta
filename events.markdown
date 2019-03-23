@@ -247,21 +247,21 @@ ol.feautured-events {
     <a href="/writers/" style="background-color: #E0E1E3">
       <h2 style="color: #EB0086"><small>Our L.A. Voices</small><br />LUNCHTIME!<br />Writers’ Meetup</h2>
       <p style="color: #21ADB6"><em>Every Tuesday</em><br />March 7 – May 30, 2017<br />Noon – 1:00pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/yoga/">
       <h2>LUNCHTIME!<br />Yoga reTREAT</h2>
       <p><em>Every Wednesday &amp; Friday</em><br />March 8 – May 31, 2017<br />12:15pm – 1:00pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-LUNCHTIME-yoga.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2013/02/600-x-300-LUNCHTIME-yoga.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/concerts/" style="background-color: #4BC0CA">
       <h2 style="color: #FEF400"><small>Our L.A. Voices</small><br />LUNCHTIME! Concerts</h2>
       <p><em>Every Thursday</em><br />March 2 – May 25, 2017<br />12:15pm – 1:15pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2017/01/600-x-lunchtime-concerts.jpg" alt="" />
     </a>
   </li>
   <li>
@@ -271,7 +271,7 @@ ol.feautured-events {
       -->
       <h2><small>Lunch à la Park</small><br />Food Trucks</h2>
       <p><em>Every Tuesday, Wednesday &amp; Thursday</em><br />11:00am – 2:00pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" alt="" />
     </a>
   </li>
 </ol>
@@ -303,10 +303,10 @@ ol.feautured-events {
 
 <ol class="featured-events">
   <li>
-    <a href="http://grandparkla.org/event/downtown-bookfest/">
+    <a href="https://grandparkla.org/event/downtown-bookfest/">
       <h2><small>Our L.A. Voices</small><br />Downtown Bookfest</h2>
       <p><em>Saturday</em>, March 11, 2017<br>Noon – 5pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2013/12/The-bradbury-room-600-x-300.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2013/12/The-bradbury-room-600-x-300.jpg" alt="" />
     </a>
   </li>
   <li>
@@ -320,7 +320,7 @@ ol.feautured-events {
     <a href="/portals/">
       <h2><small>Our L.A. Voices</small><br />Portals Project</h2>
       <p>April 10 through April 23, 2017</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2017/01/600x300_cr_Shared_Studios.jpg" alt="" />
     </a>
   </li>
 </ol>
@@ -350,45 +350,45 @@ ol.feautured-events {
 
 <ol class="featured-events">
   <li>
-    <a href="http://grandparkla.org/event/dancedowntown/?instance_id=93852">
+    <a href="https://grandparkla.org/event/dancedowntown/?instance_id=93852">
       <h2><small>Dance DTLA</small><br />Dance Downtown</h2>
       <p>Friday Night<br />June 23, July 7, July 21, August 4, August 18 &amp; September 1, 2017<br />7pm – 11pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300dancedowntown.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2017/03/600x300dancedowntown.jpg" alt="" />
     </a>
   </li>
   <li>
-    <a href="http://grandparkla.org/event/djnights/?instance_id=93848">
+    <a href="https://grandparkla.org/event/djnights/?instance_id=93848">
       <h2><small>Dance DTLA</small><br />DJ Nights</h2>
       <p>Friday Night<br />July 14, July 28, August 11 &amp; August 25, 2017<br />9pm – 12am</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2017/03/600x300.djnights.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2017/03/600x300.djnights.jpg" alt="" />
     </a>
   </li>
   <li>
-    <a href="http://grandparkla.org/event/bootcamp/?instance_id=93781">
+    <a href="https://grandparkla.org/event/bootcamp/?instance_id=93781">
       <h2>Bootcamp</h2>
       <p>Every Tuesday<br />June 2 – September 26, 2017<br />5:30pm – 6:30pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2015/05/600x300bootcamp.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2015/05/600x300bootcamp.jpg" alt="" />
     </a>
   </li>
   <li>
-    <a href="http://grandparkla.org/event/sundaysessions/?instance_id=93798">
+    <a href="https://grandparkla.org/event/sundaysessions/?instance_id=93798">
       <h2>Sunday Sessions</h2>
       <p>June 11, July 16, August 13 &amp; September 17, 2017<br />2pm – 7pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2014/04/600-x-300-Sunday-Sessions.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2014/04/600-x-300-Sunday-Sessions.jpg" alt="" />
     </a>
   </li>
   <li>
-    <a href="http://grandparkla.org/event/interactionpark/?instance_id=93765">
+    <a href="https://grandparkla.org/event/interactionpark/?instance_id=93765">
       <h2>Interaction Park</h2>
       <p>June 2 – June 3, 2017</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2017/03/i3-Interaction-Park-EMAIL-SITE-V2a600x338.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2017/03/i3-Interaction-Park-EMAIL-SITE-V2a600x338.jpg" alt="" />
     </a>
   </li>
   <li>
     <a href="/july4/">
       <h2>4th Of July Block Party</h2>
       <p>July 4, 2017<br />2:00pm – 9:30pm</p>
-      <img src="http://grandparkla.org/wp-content/uploads/2015/05/600-x-300-4th-of-July-photo.jpg" alt="" />
+      <img src="https://grandparkla.org/wp-content/uploads/2015/05/600-x-300-4th-of-July-photo.jpg" alt="" />
     </a>
   </li>
 </ol>

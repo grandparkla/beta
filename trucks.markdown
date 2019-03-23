@@ -65,7 +65,7 @@ figure div {
 }
 </style>
 
-<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="http://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" class="primary" alt="" style="width: 100%;" /></p>
+<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="https://grandparkla.org/wp-content/uploads/2013/02/600-x-300-lunch-trucks.jpg" class="primary" alt="" style="width: 100%;" /></p>
 
 <header>
   <h2>

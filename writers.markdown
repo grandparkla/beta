@@ -66,7 +66,7 @@ figure div {
 }
 </style>
 
-<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="http://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" class="primary" alt="" style="width: 100%;" /></p>
+<p style="margin: 0 -1.45em; max-width: none;" class="image"><img src="https://grandparkla.org/wp-content/uploads/2016/04/Writers-Meet-Up-2-of-2.jpg" class="primary" alt="" style="width: 100%;" /></p>
 
 <header>
   <h2>Our L.A. Voices</h2>
@@ -78,7 +78,7 @@ figure div {
 <!--
 <header>
   <h1 style="background-color: black; color: white;">
-    <img src="http://grandparkla.org/wp-content/uploads/2017/01/GP_2017_Our-LA-Voices_Lunchtime-Writers_600x300.jpg" class="primary" alt="LUNCHTIME! Writers’ Meetup" />
+    <img src="https://grandparkla.org/wp-content/uploads/2017/01/GP_2017_Our-LA-Voices_Lunchtime-Writers_600x300.jpg" class="primary" alt="LUNCHTIME! Writers’ Meetup" />
   </h1>
 </header>
 
@@ -159,7 +159,7 @@ Meetups will have special guests, including leaders in journalism and script-wri
 LUNCHTIME! Writers’ Meetup is a part of Grand Park’s Our L.A. Voices, a season-wide celebration of Angeleno expression.
 
 <!--
-<img src="http://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
+<img src="https://grandparkla.org/wp-content/uploads/2012/09/GP_2017_Our-LA-Voices_1920X465.jpg" alt="Grand Park’s Our L.A. Voices" />
 -->
 
 ### Other OUR L.A. VOICES events
