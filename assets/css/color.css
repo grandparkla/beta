@@ -17,11 +17,17 @@
   }
 
   a {
+    color: #0071bc;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  }
+
+  a:visited {
+    color: #4c2c92;
   }
 
   a:hover,
   a:active,
   a:focus {
+    color: #205493;
   }
 

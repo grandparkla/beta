@@ -50,7 +50,7 @@ For Media
 
 **2014 News Releases**
 
-*   [Fact Sheet: Grand Park’s N.Y.E.L.A.](:%20http://grandparkla.org/?attachment_id=12389)
+*   [Fact Sheet: Grand Park’s N.Y.E.L.A.](http://grandparkla.org/?attachment_id=12389)
 *   [GRAND PARK BRINGS LOS ANGELES TOGETHER ONCE MORE FOR](https://grandparkla.org/wp-content/uploads/2014/12/GrandPark_N-Y-E-L-A_Release_FINAL_120114.pdf)  
     [SECOND ANNUAL NEW YEAR’S EVE CELEBRATION](https://grandparkla.org/wp-content/uploads/2014/12/GrandPark_N-Y-E-L-A_Release_FINAL_120114.pdf)
 *   [GRAND PARK’S PLAYGROUND OPENS TO THE DELIGHT OF KIDS OF ALL AGES](https://grandparkla.org/wp-content/uploads/2014/11/GrandPark_PlaygroundOpensRelease_FINAL_112214.pdf)
