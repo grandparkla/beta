@@ -6,12 +6,14 @@
 
   <title>{{ page.title }}</title>
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700" />
-
+  <link rel="stylesheet" href="/assets/css/fonts.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/type.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/color.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/header.css?v={{ site.version }}" />
 
+  <!-- Jim’s fonts.com account -->
+  <link rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=68f50139-da27-4c8c-adaa-c005a8fd2b7a" />
+  
   {% comment %}Hide staging websites from search engines{% endcomment %}
   {% if site.hide_from_search_engines %}
   <script>
@@ -86,9 +88,10 @@
     </ul>
     <h3><a href="/blog/">News</a></h3>
     <ul>
-      <li><a href="/for-media/">Press Releases</a></li>
+      <li><a href="/for-media/">Press</a></li>
+      <li><a href="https://www.musiccenter.org/visit/news-bureau/gp-press-gallery/">Photos</a></li>
       <li><a href="/video/">Video</a></li>
-      <li><a href="/sign-up/">Mailing List</a></li>
+      <li><a href="/sign-up/">Sign Up</a></li>
     </ul>
     <h3><a href="/about/">About</a></h3>
     <ul>
