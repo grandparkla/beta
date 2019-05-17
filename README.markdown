@@ -1,8 +1,8 @@
 # Grand Park Los Angeles
 
-This is a design prototype for Grand Park Los Angeles:
+This is a beta web site for Grand Park Los Angeles:
 
-https://design.grandparkla.org
+https://beta.grandparkla.org
 
 The official web site is located at:
 
