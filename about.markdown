@@ -5,8 +5,6 @@ title: About
 About Grand Park
 ================
 
-## The Park for Everyone
-
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
 
 Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.

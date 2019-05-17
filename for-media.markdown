@@ -7,6 +7,14 @@ For Media
 
 **For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/visit/news-bureau/gp-press-gallery/).**
 
+## Media Contact
+
+Members of the media, for information about Grand Park, contact
+
+Lisa Ducore
+[lducore@musiccenter.org](mailto:lducore@musiccenter.org)
+213-972-3328
+
 ### 2019 News Releases
 
 *   January 15, 2019 [GRAND PARK’S SPRING PROGRAMMING CELEBRATES L.A.’S DIVERSE CULTURE AND WELCOMES THE RETURN OF GRAND PARK’S OUR L.A. VOICES – L.A. ARTS FESTIVAL](https://grandparkla.org/wp-content/uploads/2019/01/Grand-Park-Spring-Season-Release-FINAL-II-3.pdf)
