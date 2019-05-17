@@ -1,170 +1,80 @@
 <!doctype html>
-<html lang="en-us" dir="ltr">
+<html lang="en" dir="ltr">
 <head>
-
   <meta charset="utf-8" />
-  <meta name="robots" content="noindex" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>{{ page.title }}</title>
+  
+  <link rel="stylesheet" href="/assets/css/font.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/color.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/type.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/layout.css?v={{ site.version }}" />
 
-  <style>
-    {% include style.css %}
-  </style>
-
-  <!-- for general use -->
-  <link rel="icon" type="image/png"    href="/images/favicon.png" />
-
-  <!-- for iOS -->
-  <link rel="apple-touch-icon"         href="/images/favicon-255-255-255.png" />
-
-  <!-- for Windows 8 -->
-  <meta name="msapplication-TileImage" content="/images/favicon.png" />
-  <meta name="msapplication-TileColor" content="rgb(255, 255, 255)" />
+  {% comment %}Hide staging websites from search engines{% endcomment %}
+  {% if site.hide_from_search_engines %}
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      var notice = document.createElement("p")
+      notice.style.marginTop = "12em"
+      notice.style.gridColumn = "1/-1"
+      notice.style.textAlign = "center"
+      notice.style.justifySelf = "center"
+      notice.role = "status"
+      notice.innerHTML = "<mark>This website is a design preview and may not have accurate information. Please visit the official <a href='https://grandparkla.org/'>Grand Park LA website</a>.</mark>"
+      document.querySelector("body > footer").appendChild(notice)
+    })
+  </script>
+  <meta name="robots" content="noindex">
+  <script>
+    window.addEventListener("DOMContentLoaded", function() {
+      if (document.querySelector("meta[content='noindex']"))
+      var notice = document.createElement("p")
+      notice.style.marginBottom = "12em"
+      notice.style.gridColumn = "1/-1"
+      notice.style.textAlign = "center"
+      notice.style.justifySelf = "center"
+      notice.role = "status"
+      notice.innerHTML = "<mark><em>This page contains a noindex meta element and won’t be indexed by search engines.</em></mark>"
+      document.querySelector("body > footer").appendChild(notice)
+    })
+  </script>
+  {% endif %}
 
 </head>
 <body>
 
-{% if page.include_newsletter %}
-
-  <a href="https://grandparkla.org/sign-up/" class="newsletter-promotion">
-    <div>
-      <h2>Sign up for our newsletter</h2>
-      <p>All the latest and greatest happening in Grand Park, an LA County park powered by The&nbsp;Music&nbsp;Center</p>
-    </div>
-  </a>
-
-{% endif %}
-
-  <div class="header">
-    <h2 class="logo">
-      <a href="/">
-        <svg viewBox="0 0 157.1 35.9">
-          <switch>
-            <g>
-              <path d="M13.5,11.3V5.8c0-2.8-0.4-5.6-4.9-5.8v0H4.9v0C0.4,0.2,0,3,0,5.8v23.7c0,4.7,1.2,6.1,4.9,6.2v0l3.6,0v0 c3.7,0,4.9-1.5,4.9-6.2V16.7H8.8H6.4v4.3h2.4v8.2c0,1.2-0.1,2-1.5,2H6.2c-1.3,0-1.5-0.8-1.5-2V6.8c0-1.4,0-2.5,1.9-2.5h0.3 c1.8,0,1.9,1.1,1.9,2.5v4.4H13.5z"/>
-              <path d="M136.3,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 h-7.6v35.7l4.7,0v-0.1h-0.1V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C136.4,33.6,136.3,32.9,136.3,28.6"/>
-              <path d="M30.1,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 l-7.6,0v35.7l4.7,0v-0.1H21V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C30.2,33.6,30.1,32.9,30.1,28.6"/>
-              <path d="M78,0h-8.5v35.7l4.6,0V4.3l2.8,0c1.8,0,1.9,1.1,1.9,2.5v22.5c0,1.2-0.1,2-1.5,2H76v4.4h2.3c3.8,0,5-1.5,5-6.2 V5.8C83.3,2.9,82.9,0,78,0"/>
-              <polygon points="43.7,0 38.1,0 32.7,35.7 37.2,35.7 38.1,29.9 40.9,29.9 40.9,25.4 38.7,25.4 40.9,10.3 44.6,35.7 49.2,35.7 "/>
-              <polygon points="109.8,0 104.4,35.7 108.9,35.7 109.8,29.9 112.6,29.9 112.6,25.4 110.4,25.4 112.6,10.3 116.3,35.7 120.9,35.7 115.4,0 "/>
-              <path d="M61.5,0L61.5,0L61.5,0l0,23.5c0-0.2-5.4-23.5-5.4-23.5l-5,0v35.7h3.6v0l1,0V12.5c1.4,6.3,5,23.2,5,23.2l5.1,0 V0H61.5z"/>
-              <path d="M100.4,10.3c0,3.9-0.3,5-2.3,5h-0.6v4l1.1,0c5.5,0,6.4-2.2,6.4-8.6v-2c0-7.1-0.7-8.6-6.3-8.6h-7.6v35.7h4.7 v-0.1l-0.1,0V4.4h0.1h2.4c2,0,2.2,0.1,2.2,4V10.3z"/>
-              <rect x="139.8" y="0.1" width="4.5" height="35.7"/>
-              <polygon points="151.5,0.2 145.2,17.6 151.8,35.9 157.1,35.9 149.8,17 156.5,0.2 "/>
-            </g>
-            <foreignobject>Grand Park</foreignobject>
-          </switch>
-        </svg>
-      </a>
-    </h2>
-    <p class="tagline">The Park for Everyone</p>
-
-    <nav class="nav-link"><a href="#navigation">Menu</a></nav>
-  </div>
-
-  {{ content }}
-
-  <footer id="navigation">
-
-    <h2 class="logo">
-      <a href="/">
-        <svg viewBox="0 0 157.1 35.9">
-          <switch>
-            <g>
-              <path d="M13.5,11.3V5.8c0-2.8-0.4-5.6-4.9-5.8v0H4.9v0C0.4,0.2,0,3,0,5.8v23.7c0,4.7,1.2,6.1,4.9,6.2v0l3.6,0v0 c3.7,0,4.9-1.5,4.9-6.2V16.7H8.8H6.4v4.3h2.4v8.2c0,1.2-0.1,2-1.5,2H6.2c-1.3,0-1.5-0.8-1.5-2V6.8c0-1.4,0-2.5,1.9-2.5h0.3 c1.8,0,1.9,1.1,1.9,2.5v4.4H13.5z"/>
-              <path d="M136.3,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 h-7.6v35.7l4.7,0v-0.1h-0.1V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C136.4,33.6,136.3,32.9,136.3,28.6"/>
-              <path d="M30.1,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 l-7.6,0v35.7l4.7,0v-0.1H21V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C30.2,33.6,30.1,32.9,30.1,28.6"/>
-              <path d="M78,0h-8.5v35.7l4.6,0V4.3l2.8,0c1.8,0,1.9,1.1,1.9,2.5v22.5c0,1.2-0.1,2-1.5,2H76v4.4h2.3c3.8,0,5-1.5,5-6.2 V5.8C83.3,2.9,82.9,0,78,0"/>
-              <polygon points="43.7,0 38.1,0 32.7,35.7 37.2,35.7 38.1,29.9 40.9,29.9 40.9,25.4 38.7,25.4 40.9,10.3 44.6,35.7 49.2,35.7 "/>
-              <polygon points="109.8,0 104.4,35.7 108.9,35.7 109.8,29.9 112.6,29.9 112.6,25.4 110.4,25.4 112.6,10.3 116.3,35.7 120.9,35.7 115.4,0 "/>
-              <path d="M61.5,0L61.5,0L61.5,0l0,23.5c0-0.2-5.4-23.5-5.4-23.5l-5,0v35.7h3.6v0l1,0V12.5c1.4,6.3,5,23.2,5,23.2l5.1,0 V0H61.5z"/>
-              <path d="M100.4,10.3c0,3.9-0.3,5-2.3,5h-0.6v4l1.1,0c5.5,0,6.4-2.2,6.4-8.6v-2c0-7.1-0.7-8.6-6.3-8.6h-7.6v35.7h4.7 v-0.1l-0.1,0V4.4h0.1h2.4c2,0,2.2,0.1,2.2,4V10.3z"/>
-              <rect x="139.8" y="0.1" width="4.5" height="35.7"/>
-              <polygon points="151.5,0.2 145.2,17.6 151.8,35.9 157.1,35.9 149.8,17 156.5,0.2 "/>
-            </g>
-            <foreignobject>Grand Park</foreignobject>
-          </switch>
-        </svg>
-      </a>
-    </h2>
-
-    <ul class="nav">
-      <li><a href="/">Events</a></li>
-      <li><a href="//grandparkla.org/getting-here/">Directions</a></li>
-      <li><a href="//grandparkla.org/faqs/">FAQs</a></li>
-    </ul>
-
-    <ul class="nav">
-      <li><a href="//grandparkla.org/meet-the-staff/">Staff</a></li>
-      <li><a href="//grandparkla.org/category/blog/">Blog</a></li>
-      <li><a href="//grandparkla.org/sign-up/">Newsletter</a></li>
-      <li><a href="//grandparkla.org/media/">Press</a></li>
-      <li><a href="//grandparkla.org/video/">Videos</a></li>
-    </ul>
-
-    <ul class="nav">
-      <li><a href="//grandparkla.org/contact/">Contact</a></li>
-      <li><a href="//grandparkla.org/contact/">Rentals</a></li>
-      <li><a href="//grandparkla.org/contact/">Sponsorships</a></li>
-      <li><a href="//grandparkla.org/media-contact/">Media</a></li>
-      <li><a href="//grandparkla.org/donate/">Donate</a></li>
-    </ul>
-
-    <ul class="social">
-      <li>
-        <a href="https://www.facebook.com/grandparklosangeles">
-          <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
-            <switch>
-              <path d="M14.5,2c-1.4,0-2.5,0.4-3.3,1.2s-1.2,2-1.2,3.5v2.6H6.8v3.6h3.1V22h3.7v-9.1h3.1l0.5-3.6h-3.5V7 c0-0.6,0.1-1,0.4-1.3c0.2-0.3,0.7-0.4,1.4-0.4h1.9V2.1C16.5,2,15.6,2,14.5,2z"></path>
-              <foreignobject>Facebook</foreignobject>
-            </switch>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/grandpark_la">
-          <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
-            <switch>
-              <path class="circle-top" d="M19.2,6.7c0.8-0.5,1.4-1.2,1.7-2.1c-0.8,0.5-1.6,0.8-2.5,0.9c-0.8-0.8-1.7-1.2-2.8-1.2c-1.1,0-2,0.4-2.7,1.1 s-1.1,1.7-1.1,2.7c0,0.3,0,0.6,0.1,0.9C10.3,9,8.8,8.6,7.4,7.9C6,7.2,4.8,6.2,3.9,5C3.5,5.6,3.3,6.3,3.3,7c0,0.7,0.2,1.3,0.5,1.9 c0.3,0.6,0.7,1,1.3,1.4c-0.6,0-1.2-0.2-1.8-0.5v0c0,0.9,0.3,1.8,0.9,2.5s1.3,1.2,2.2,1.3c-0.3,0.1-0.7,0.1-1,0.1 c-0.2,0-0.5,0-0.7-0.1c0.2,0.8,0.7,1.4,1.4,1.9s1.4,0.8,2.3,0.8c-1.4,1.1-3,1.7-4.8,1.7c-0.3,0-0.7,0-0.9,0c1.8,1.2,3.8,1.7,6,1.7 c1.4,0,2.7-0.2,3.9-0.7s2.2-1,3.1-1.8c0.9-0.7,1.6-1.6,2.2-2.5c0.6-1,1.1-1.9,1.4-3s0.5-2.1,0.5-3.1c0-0.2,0-0.4,0-0.5 c0.8-0.6,1.4-1.2,1.9-2C20.7,6.5,20,6.7,19.2,6.7z"></path>
-              <foreignobject>Twitter</foreignobject>
-            </switch>
-          </svg>
-        </a>
-      </li>
-      <li>
-        <a href="https://instagram.com/grandpark_la">
-          <svg class="icon" viewBox="0 0 24 24" width="24" height="24">
-            <switch>
-              <path d="M22,19.4c0,1.4-1.2,2.6-2.6,2.6H4.6C3.2,22,2,20.8,2,19.4V4.6C2,3.2,3.2,2,4.6,2h14.9C20.8,2,22,3.2,22,4.6 V19.4z M19.7,10.5H18c0.2,0.5,0.3,1.1,0.3,1.7c0,3.3-2.8,6-6.2,6c-3.4,0-6.2-2.7-6.2-6c0-0.6,0.1-1.2,0.3-1.7H4.2v8.4 c0,0.4,0.4,0.8,0.8,0.8h13.9c0.4,0,0.8-0.4,0.8-0.8V10.5z M12,8.1c-2.2,0-4,1.7-4,3.9c0,2.1,1.8,3.9,4,3.9c2.2,0,4-1.7,4-3.9 C16,9.8,14.2,8.1,12,8.1z M19.7,5.1c0-0.5-0.4-0.9-0.9-0.9h-2.3c-0.5,0-0.9,0.4-0.9,0.9v2.1c0,0.5,0.4,0.9,0.9,0.9h2.3 c0.5,0,0.9-0.4,0.9-0.9L19.7,5.1L19.7,5.1z"></path>
-              <foreignobject>Instagram</foreignobject>
-            </switch>
-          </svg>
-        </a>
-      </li>
-    </ul>
-  </footer>
-
-  <h2 class="powered-by"><a href="https://grandparkla.org">Grand Park</a> is an <span>LA County park</span> powered by <a href="http://www.musiccenter.org/">The Music Center</a></h2>
-
-  <ul class="logos">
-    <li><img src="/images/logos/los-angeles.png" alt="County of Los Angeles" /></li>
-    <li><img src="/images/logos/grandpark-musiccenter.png" alt="Grand Park + The Music Center" /></li>
+<header>
+  <h2>
+    <a href="/">
+      Grand Park Los Angeles
+    </a>
+  </h2>
+  <p>The Park for Everyone</p>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/events/">Events</a></li>
+    <li><a href="/getting-here/">Getting Here</a></li>
+    <li><a href="/about/">About</a></li>
+    <li><a href="/staff/">Staff</a></li>
+    <li><a href="/video/">Video</a></li>
+    <li><a href="/faqs/">FAQs</a></li>
+    <li><a href="/for-media/">For Media</a></li>
+    <li><a href="/sign-up/">Sign Up</a></li>
+    <li><a href="/donate/">Donate</a></li>
+    <li><a href="/contact/">Contact</a></li>
   </ul>
+</header>
 
-  <p class="legal"><em>The information on this page is subject to change.</em> Please check back here or <a href="https://twitter.com/grandpark_la">@grandpark_la</a> for updates throughout the day.</p>
+<main>
+  {{ content }}
+</main>
 
-  <p class="legal"><small>© 2017 Music Center. All Rights Reserved.</small></p>
+<footer>
 
-  <script>
-    {% include analytics.js %}
+<p><strong>Grand Park is an L.A. County park powered by <a href="http://www.musiccenter.org/">The Music Center</a>.</strong></p>
 
-    if (window.__gaTracker) {
-      __gaTracker('create', 'UA-39280926-1', 'auto');
-      __gaTracker('set', 'forceSSL', true);
-      __gaTracker('send','pageview');
-    }
-  </script>
+</footer>
 
 </body>
 </html>

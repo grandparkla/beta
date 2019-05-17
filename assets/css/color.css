@@ -1,0 +1,34 @@
+
+/* =Colors
+----------------------------------------------- */
+body {
+  background: rgb(252, 254, 252);
+  color: rgb(76, 78, 76);
+}
+
+@media (false) {
+
+  strong {
+    font-weight: inherit;
+    color: rgb(235, 12, 128); /* @pink */
+  }
+
+  h1, h2, h3 {
+    color: rgb(235, 12, 128); /* @pink */
+  }
+
+  a {
+    color: inherit;
+    color: rgb(90, 150, 55); /* @mediumgreen */
+    transition: color 0.2s;
+    text-decoration: none;
+  }
+  a[href]:hover,
+  a[href]:active,
+  a[href]:focus {
+    color: rgb(235, 12, 128); /* @pink */
+    color: rgb(41, 96, 46); /* @darkgreen */
+    text-decoration: underline;
+  }
+
+}

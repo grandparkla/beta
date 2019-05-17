@@ -1,11 +1,24 @@
 ---
-title: Grand Park LA
-timezone: America/Los_Angeles
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
+hide_from_search_engines: true
+
+title: Grand Park Los Angeles
+
 permalink: pretty
+
+hide_from_search_engines: true
+
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: default
+
+exclude:
+- CNAME
+- README
+- Gemfile
+- Gemfile.lock
+- _node
+
+version: 0.0.1
+
