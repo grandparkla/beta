@@ -1,34 +1,27 @@
 
-/* =Colors
------------------------------------------------ */
-body {
-  background: rgb(252, 254, 252);
-  color: rgb(76, 78, 76);
-}
 
-@media (false) {
-
-  strong {
-    font-weight: inherit;
-    color: rgb(235, 12, 128); /* @pink */
+  /* =Colors
+  ----------------------------------------------- */
+  :root {
+    --midnight : rgb( 41,  41,  41);
+    --snow     : rgb(254, 254, 254);
   }
 
-  h1, h2, h3 {
-    color: rgb(235, 12, 128); /* @pink */
+  body {
+    background: var(--snow);
+    color: var(--midnight);
+  }
+
+  h1, h2, h3, h4, h5, h6, strong, em {
+
   }
 
   a {
-    color: inherit;
-    color: rgb(90, 150, 55); /* @mediumgreen */
-    transition: color 0.2s;
-    text-decoration: none;
-  }
-  a[href]:hover,
-  a[href]:active,
-  a[href]:focus {
-    color: rgb(235, 12, 128); /* @pink */
-    color: rgb(41, 96, 46); /* @darkgreen */
-    text-decoration: underline;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   }
 
-}
+  a:hover,
+  a:active,
+  a:focus {
+  }
+

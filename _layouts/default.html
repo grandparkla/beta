@@ -5,12 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>{{ page.title }}</title>
-  
-  <link rel="stylesheet" href="/assets/css/font.css?v={{ site.version }}" />
-  <link rel="stylesheet" href="/assets/css/color.css?v={{ site.version }}" />
-  <link rel="stylesheet" href="/assets/css/type.css?v={{ site.version }}" />
-  <link rel="stylesheet" href="/assets/css/layout.css?v={{ site.version }}" />
 
+  <link rel="stylesheet" href="/assets/css/fonts.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/type.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/color.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/header.css?v={{ site.version }}" />
+
+  <!-- Jim’s fonts.com account -->
+  <link rel="stylesheet" href="https://fast.fonts.net/t/1.css?apiType=css&amp;projectid=68f50139-da27-4c8c-adaa-c005a8fd2b7a" />
+  
   {% comment %}Hide staging websites from search engines{% endcomment %}
   {% if site.hide_from_search_engines %}
   <script>
@@ -47,12 +50,11 @@
 <header>
   <h2>
     <a href="/">
-      Grand Park Los Angeles
+      Grand Park
     </a>
   </h2>
   <p>The Park for Everyone</p>
   <ul>
-    <li><a href="/">Home</a></li>
     <li><a href="/events/">Events</a></li>
     <li><a href="/getting-here/">Getting Here</a></li>
     <li><a href="/about/">About</a></li>
@@ -66,13 +68,13 @@
   </ul>
 </header>
 
-<main>
+<main class="standard-layout">
   {{ content }}
 </main>
 
 <footer>
 
-<p><strong>Grand Park is an L.A. County park powered by <a href="http://www.musiccenter.org/">The Music Center</a>.</strong></p>
+<p><strong>Grand Park is an Los Angeles County park powered by <a href="http://www.musiccenter.org/">The Music Center</a>.</strong></p>
 
 </footer>
 

@@ -5,6 +5,8 @@ title: Getting Here
 Getting Here
 ============
 
+## Grand Park is located in Downtown Los Angeles.
+
 Grand Park is located in Downtown Los Angeles. Grand Park stretches from The Music Center on the west to City Hall on the east between First and Temple streets. With close proximity to major freeways and major public transportation hubs, Grand Park is an easy and fun destination for all.
 
 Parking for Grand Park is available in Lot 10 on N Broadway between First Street and Temple Street. Parking lot address is 145 N. Broadway, Los Angeles with entrances on Broadway and on Hill St. The Lot 10 parking rate is $3.50 per 15 minutes, or $20.00 maximum per day, and $10.00 per day for weekends, evenings and special events.

@@ -1,0 +1,19 @@
+
+  /* =Header / Footer
+  ----------------------------------------------- */
+
+
+  /* =Lists
+  ----------------------------------------------- */
+  header ul,
+  header li,
+  footer ul,
+  footer li {
+    list-style: none;
+    padding-left: 0;
+  }
+  header li,
+  footer li {
+    display: inline-block;
+    margin: 0 0.75em 0.5em 0;
+  }
