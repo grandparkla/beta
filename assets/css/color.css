@@ -5,34 +5,34 @@
   :root {
     --midnight : rgb( 41,  41,  41);
     --snow     : rgb(254, 254, 254);
+    
+    --yellow   : rgb(252, 239, 71);
+    --pink     : rgb(235, 12, 128);
+    --green    : rgb(140, 197, 65);
   }
 
   body {
-    background-color: white;
     background-color: var(--snow);
-
-    color: rgb(252, 239, 71); /* @yellow */
-    color: rgb(235, 12, 128); /* @pink */
-    color: rgb(41, 96, 46); /* @darkgreen */
-    color: rgb(140, 197, 65); /* @green */
-    color: rgb(90, 150, 55); /* @mediumgreen */
-
-    color: black;
     color: var(--midnight);
   }
 
   a {
-    color: #0071bc;
+    color: var(--pink);
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   }
 
-  a:visited {
-    color: #4c2c92;
-  }
+  /* a:visited {
+    color: var(--green);
+  } */
 
   a:hover,
   a:active,
   a:focus {
-    color: #205493;
+    color: var(--midnight);
+  }
+
+  header h2 svg > * {
+    transition: fill 0.2s;
+    fill: currentColor;
   }
 
