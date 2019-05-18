@@ -3,8 +3,7 @@ title: Grand Park Los Angeles
 permalink: /
 ---
 
-Grand Park
-==========
+<h1 style="position: absolute; left: -9999px;">Grand Park</h1>
 
 {% comment %}
 
