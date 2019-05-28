@@ -3,21 +3,19 @@
   /* =Colors
   ----------------------------------------------- */
   :root {
-    --midnight : rgb( 41,  41,  41);
-    --snow     : rgb(254, 254, 254);
+    --midnight : hsl(0, 0%, 16%);
+    --snow     : HSL(0, 0%, 99%);
     
-    --yellow   : rgb(252, 239, 71);
-    --pink     : rgb(235, 12, 128);
-    --green    : rgb(140, 197, 65);
+    --yellow   : hsl(56, 97%, 63%);
+    --pink     : hsl(329, 90%, 48%);
+    --green    : hsl(86, 53%, 51%);
+    --dark-green    : hsl(86, 43%, 41%);
   }
 
   body {
-    background-color: var(--snow);
-    color: var(--midnight);
   }
 
   a {
-    color: var(--pink);
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
   }
 
@@ -28,7 +26,6 @@
   a:hover,
   a:active,
   a:focus {
-    color: var(--midnight);
   }
 
   header h2 svg > * {

@@ -257,6 +257,7 @@
 
   /* =Header
   ----------------------------------------------- */
+@supports (false) {
   header h1 {
     font-size: inherit;
     background-color: hsl(254.4, 71.7%, 19.4%); /* @purple */
@@ -327,6 +328,7 @@
       height: 50vw;
     }
   }
+}
 
 
   /* =Icon Button
@@ -705,6 +707,7 @@
 
   /* =Header
   ----------------------------------------------- */
+@supports (false) {
   .header {
     margin: 1.5em auto;
   }
@@ -760,6 +763,7 @@
     color: inherit;
     font-weight: 600;
   }
+}
 
 
   /* =Footer (Formerly Header)

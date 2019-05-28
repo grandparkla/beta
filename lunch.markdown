@@ -1,9 +1,8 @@
 ---
-title: Grand Park Los Angeles
-permalink: /
+title: LUNCH À LA PARK
 ---
 
-# Today at Grand Park
+# LUNCH À LA PARK
 
 <ol>
   <li>

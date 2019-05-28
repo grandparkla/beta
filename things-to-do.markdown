@@ -1,9 +1,14 @@
 ---
-title: Grand Park Los Angeles
-permalink: /
+title: Things to Do
 ---
 
-# Today at Grand Park
+# Things to Do
+
+Lunchtime activities, summer dance sessions, free admission holiday celebrations, and more!
+
+## Today at Grand Park
+
+There are two events scheduled for today.
 
 <ol>
   <li>
