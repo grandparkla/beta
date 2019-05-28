@@ -4,7 +4,7 @@ title: Eat & Drink
 
 # Eat & Drink
 
-Grab a bite to eat at a food truck, pop-up market or the coffee shop.
+Grab a bite to eat or a drink and enjoy it in the sunshine.
 
 <ol>
   <li>
