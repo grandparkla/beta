@@ -4,7 +4,7 @@ title: Eat & Drink
 
 # Eat & Drink
 
-Find a multitude of dining options with our food trucks, pop-up markets and coffee shop.
+Grab a bite to eat at a food truck, pop-up market or the coffee shop.
 
 <ol>
   <li>

@@ -21,3 +21,7 @@
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl {
     max-width: 45em; /* @max-line-length */
   }
+
+  main > h2 {
+    margin-top: 4.5em;
+  }
