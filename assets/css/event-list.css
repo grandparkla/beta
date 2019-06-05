@@ -1,0 +1,42 @@
+
+/* =Event List
+----------------------------------------------- */
+.event-list,
+.event-list li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.5em;
+}
+
+.event-list a {
+  display: grid;
+  background: black;
+  background: var(--pink);
+  color: white;
+}
+
+.event-list a > * {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+
+.event-list a > div {
+  position: relative;
+  z-index: 1;
+  padding: 1.5em;
+}
+.event-list a > div > * {
+  margin: 0;
+  font-size: inherit;
+}
+.event-list a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
