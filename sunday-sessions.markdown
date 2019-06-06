@@ -1,9 +1,8 @@
 ---
-title: Grand Park Los Angeles
-permalink: /
+title: LUNCH À LA PARK
 ---
 
-# Today at Grand Park
+# LUNCH À LA PARK
 
 <ol class="event-list">
   <li>
@@ -11,7 +10,7 @@ permalink: /
       <div>
         <h3>LUNCH À LA PARK</h3>
         <h4>Food Trucks</h4>
-        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
+        <p>Today at 11:00am</p>
       </div>
       <img src="/uploads/food-truck.jpg" height="300" alt="" />
     </a>
@@ -21,9 +20,10 @@ permalink: /
       <div>
         <h3>LUNCH À LA PARK</h3>
         <h4>Yoga reTREAT</h4>
-        <p>Today from <time datetime="12:15">12:15</time> to <time datetime="13:00">1 p.m.</time></p>
+        <p>Today at 12:15pm</p>
       </div>
       <img src="/uploads/yoga.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
+

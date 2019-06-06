@@ -4,11 +4,13 @@ title: Food Trucks
 
 # Food Trucks
 
-## Every Tuesday, Wednesday and Thursday from 11:00am–2:00pm
+### Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>
 
 Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(close to Starbucks)_
 
-<img src="/uploads/food-truck.jpg" alt="" />
+<figure>
+  <img src="/uploads/food-truck.jpg" alt="Food Truck" />
+</figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
@@ -18,6 +20,7 @@ Part of Grand Park’s noontime [LUNCH À LA PARK](/lunch/) programs, take a bre
 
 JURORS: Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court.
 
+<div markdown="1">
 
 ## Tuesday, May 28
 
@@ -27,6 +30,9 @@ Marketplace
 Olive Court
 : [Angry Pig](https://www.yelp.com/biz/angry-pig-los-angeles)
 
+</div>
+
+<div markdown="1">
 
 ## Wednesday, May 29
 
@@ -38,6 +44,9 @@ Olive Court
 : [Street Kitchen LA](http://www.streetkitchenla.com/)
 : [District Burger](https://www.facebook.com/districtburgerla/)
 
+</div>
+
+<div markdown="1">
 
 ## Thursday, May 30
 
@@ -47,3 +56,6 @@ Marketplace
 Olive Court
 : Boba Taco
 : [The Tropic Truck](http://www.thetropictruck.com/)
+
+</div>
+

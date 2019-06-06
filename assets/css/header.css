@@ -1,12 +1,46 @@
 
   /* =Header / Footer
   ----------------------------------------------- */
-
+  header {
+    /* min-height: 30.9023485785vh; */
+  }
+  header,
+  footer,
   main {
-    margin-top: 4.5em;
+    background-color: hsl(0, 0%, 90%);
+    background-color: var(--yellow);
+    background-color: var(--pink);
+    background-color: var(--green);
+    background-color: var(--primary-color);
+    color: var(--yellow);
+    color: var(--snow);
+    color: var(--secondary-color);
+  }
+  header a,
+  main a,
+  footer a {
+    color: inherit;
+  }
+  header a:hover,
+  header a:active,
+  header a:focus
+  main a:hover,
+  main a:active,
+  main a:focus
+  footer a:hover,
+  footer a:active,
+  footer a:focus {
+    color: var(--yellow);
   }
 
 
+  main {
+    padding-top: 4.5em;
+  }
+
+  
+  nav ul,
+  nav li,
   header ul,
   header li,
   footer ul,
@@ -14,6 +48,7 @@
     list-style: none;
     padding-left: 0;
   }
+  nav li,
   header li,
   footer li {
     display: inline-block;

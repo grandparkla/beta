@@ -10,22 +10,30 @@
     --pink     : hsl(329, 90%, 48%);
     --green    : hsl(86, 53%, 51%);
     --dark-green    : hsl(86, 43%, 41%);
+
+    --primary-color: var(--green);
+    --secondary-color: var(--snow);
   }
 
   body {
   }
 
-  a {
-    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  mark {
+    background-color: var(--yellow);
   }
 
-  /* a:visited {
-    color: var(--green);
-  } */
+  a {
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    color: var(--pink);
+  }
+
+  a:visited {
+  }
 
   a:hover,
   a:active,
   a:focus {
+    color: var(--green);
   }
 
   header h2 svg > * {
