@@ -5,7 +5,7 @@ title: Eat & Drink
 <style>
 :root {
   --primary-color: var(--yellow);
-  --secondary-color: var(--midnight);
+  --secondary-color: var(--pink);
 }
 </style>
 

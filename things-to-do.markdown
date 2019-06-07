@@ -5,6 +5,7 @@ title: Things to Do
 <style>
 :root {
   --primary-color: var(--pink);
+  --secondary-color: var(--yellow);
 }
 </style>
 
