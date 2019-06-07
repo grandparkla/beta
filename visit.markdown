@@ -10,13 +10,15 @@ Relax, have a picnic, and enjoy our free events and activities.
 <nav markdown="1">
 *   [Hours](#hours)
 *   [Directions to the Park](#directions)
+*   [Park Rules](#rules)
+</nav>
+
+<!--
 *   [Map of the Park](#map)
 *   [Plants & Gardens](#plants)
 *   [What’s Nearby](#nearby)
 *   [History](#history)
-*   [Park Rules](#rules)
-</nav>
-
+-->
 
 Hours
 -----
@@ -43,6 +45,7 @@ TAKING THE METRO is quick and easy with these simple directions: Metro [Red or P
 
 
 
+<!--
 Map of the Park <a id="map"></a>
 ---------------
 
@@ -59,6 +62,7 @@ What’s Nearby
 
 History
 -------
+-->
 
 Park Rules <a id="rules"></a>
 ----------

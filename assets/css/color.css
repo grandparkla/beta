@@ -22,6 +22,8 @@
     background-color: var(--yellow);
   }
 
+@media (false) {
+
   a {
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
     color: var(--pink);
@@ -41,3 +43,5 @@
     fill: currentColor;
   }
 
+
+}

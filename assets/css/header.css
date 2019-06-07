@@ -1,6 +1,14 @@
 
   /* =Header / Footer
   ----------------------------------------------- */
+
+  
+    main {
+      padding-top: 4.5em;
+    }
+
+@supports (false) {
+  
   header {
     /* min-height: 30.9023485785vh; */
   }
@@ -36,6 +44,7 @@
   main {
     padding-top: 4.5em;
   }
+}
 
   
   nav ul,

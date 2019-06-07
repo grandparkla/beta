@@ -39,3 +39,31 @@ There are two events scheduled for today.
     </a>
   </li>
 </ol>
+
+<div style="margin-top: 6em"></div>
+
+## Coming up soon
+
+<ol class="event-list">
+  <li>
+    <a href="/spring-concerts/">
+      <div>
+        <h3>LUNCH À LA PARK</h3>
+        <h4>Spring Concerts</h4>
+        <p>featuring L.A.’s Youth Artists</p>
+      </div>
+      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Summer Season</h3>
+        <h4>Sunday Sessions</h4>
+        <p>free outdoor dance parties</p>
+      </div>
+      <img src="/uploads/sunday-sessions.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
