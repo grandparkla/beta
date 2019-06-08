@@ -172,8 +172,16 @@ main > hr + h2 + p {
   margin-bottom: 1.5em;
 } */
 
-  nav ul,
-  nav li,
+  main > nav ul,
+  main > nav li {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  main > nav li {
+    margin-top: 0.375em;
+  }
+
   header ul,
   header li,
   footer ul,
@@ -181,7 +189,6 @@ main > hr + h2 + p {
     list-style: none;
     padding-left: 0;
   }
-  nav li,
   header li,
   footer li {
     display: inline-block;
