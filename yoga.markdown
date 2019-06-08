@@ -4,7 +4,7 @@ title: Yoga reTREAT
 
 # Yoga reTREAT
 
-### Every Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
+Every Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
 
 #### November 2, 2018 – May 30, 2019
 

@@ -4,7 +4,7 @@ title: Food Trucks
 
 # Food Trucks
 
-<strong>Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></strong>
+Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>
 
 Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(close to Starbucks)_
 

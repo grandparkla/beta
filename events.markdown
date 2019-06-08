@@ -22,10 +22,10 @@ title: Things to Do
 </div>
 -->
 
-Things <span class="avoid-break">to Do</span>
+Events &amp; Activities
 =============================================
 
-Lunchtime activities, summer dance sessions, free admission holiday celebrations, and more!
+Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
 *   [Every Week](#weekly)

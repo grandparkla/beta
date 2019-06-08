@@ -2,9 +2,9 @@
 title: Sunday Sessions
 ---
 
-# <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions <em>2019</em></span>
+# <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions <small><em>2019</em></small></span>
 
-### One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
+One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
 
 * June 23
 * July 21
