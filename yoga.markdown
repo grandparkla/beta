@@ -4,13 +4,13 @@ title: Yoga reTREAT
 
 # Yoga reTREAT
 
-This is a _free_ event. There’s no cost to attend.
-
 ### Every Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
 
 #### November 2, 2018 – May 30, 2019
 
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
+
+This is a _free_ event. There’s no cost to attend.
 
 <figure>
   <img src="/uploads/yoga.jpg" alt="Yoga" height="500" />

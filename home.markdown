@@ -23,16 +23,31 @@ permalink: /
 </div>
 -->
 
+<!--
 Things <span class="avoid-break">to Do</span>
 =============================================
 
 Lunchtime activities, summer dance sessions, free admission holiday celebrations, and more!
+-->
+
+<h1 class="welcome">
+  <em>Bienvenidos</em>
+  <em>ようこそ</em>
+  <em>Herzlich willkommen</em>
+  <em>Chào mừng bạn</em>
+</h1>
+
+<div></div>
+
+## Welcome!
+
+Relax, have a picnic, and enjoy our free events and activities.
 
 * * *
 
 ## Every week <span class="avoid-break">at Grand Park</span>
 
-These two events are held every week at lunch time. Just drop in for _Lunch à la Park!_
+These two events are held every week at lunchtime. Just drop in for _Lunch à la Park!_
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
@@ -87,7 +102,7 @@ These two events are held every week at lunch time. Just drop in for _Lunch à l
 
 ## This Summer at <span class="avoid-break">Grand Park</span>
 
-Dance parties and fireworks, here we come!
+L.A.’s finest House music curators and DJs are hosting dance parties this summer, <span class="avoid-break">with free admission!</span>
 
 <ol class="event-list">
   <li>

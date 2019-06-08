@@ -15,6 +15,26 @@
     margin: 3em 0;
   }
 
+  h1.welcome {
+    line-height: 1;
+  }
+  h1.welcome em {
+    display: inline;
+    font-style: inherit;
+  }
+  @media (min-width: 40em) {
+    main > h1.welcome {
+      font-size: 12.135vmin;
+    }
+  }
+
+  h1.welcome em:nth-of-type(2n+1) {
+    color: var(--green);
+  }
+  h1.welcome em:nth-of-type(3n+1) {
+    color: var(--yellow);
+  }
+
 .avoid-break {
   display: inline-block;
 }

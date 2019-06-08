@@ -2,7 +2,9 @@
 title: LUNCH À LA PARK
 ---
 
-# LUNCH À LA PARK
+# Lunch à la Park
+
+Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
 <ol class="event-list">
   <li>

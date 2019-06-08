@@ -21,7 +21,7 @@ Part of Grand Park’s noontime [LUNCH À LA PARK](/lunch/) programs, take a bre
 JURORS: Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court.
 
 
-## Tuesday, June 4
+## Tuesday, June 11
 
 Marketplace
 : [Gourmet Genie](http://www.gourmetgenietogo.com/)
@@ -38,7 +38,7 @@ Olive Court
 -->
 
 
-## Wednesday, June 5
+## Wednesday, June 12
 
 Marketplace
 : [Go Fusion](https://www.facebook.com/Go-Fusion-N-Grill-872969412717755/)
@@ -55,7 +55,7 @@ Olive Court
 
 
 
-## Thursday, June 6
+## Thursday, June 13
 
 Marketplace
 : [Gourmet Genie](http://www.gourmetgenietogo.com/)
