@@ -59,15 +59,21 @@
 header nav ul {
   max-width: none;
 }
+@media (min-width: 60em) {
+  header h2 {
+    margin: 0 0 0 -1.5rem;
+  }
+}
+
 header h2 a {
   background-color: var(--pink);
-  color: var(--yellow);
+  color: var(--snow);
   display: block;
   padding: 1.5rem;
 }
-header h3 {
+/* header h3 {
   color: var(--pink);
-}
+} */
 
 header svg {
   display: block;

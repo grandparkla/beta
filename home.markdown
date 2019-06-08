@@ -30,7 +30,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 * * *
 
-## Every week at Grand Park
+## Every week <span class="avoid-break">at Grand Park</span>
 
 These two events are held every week at lunch time. Just drop in for _Lunch à la Park!_
 
