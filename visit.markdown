@@ -2,7 +2,7 @@
 title: Visiting the Park
 ---
 
-Visiting the Park
+Visiting <span class="avoid-break">the Park</span>
 =================
 
 Relax, have a picnic, and enjoy our free events and activities.

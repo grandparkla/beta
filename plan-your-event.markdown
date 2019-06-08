@@ -2,7 +2,7 @@
 title: Plan your event at the Park
 ---
 
-Plan your event at the Park
+Plan your event at <span class="avoid-break">the Park</span>
 ===========================
 
 We host anything from weddings to entire graduations. 

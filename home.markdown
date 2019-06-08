@@ -10,7 +10,8 @@ permalink: /
 }
 </style>
 
-# Things to Do
+Things <span class="avoid-break">to Do</span>
+=============================================
 
 Lunchtime activities, summer dance sessions, free admission holiday celebrations, and more!
 
