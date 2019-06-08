@@ -9,8 +9,12 @@ Plan Your Visit
 
 <!--
 
-Relax, have a picnic, and enjoy our free events and activities.
 
+
+
+-->
+
+Relax, have a picnic, and enjoy our free events and activities.
 
 <nav markdown="1">
 *   [Hours](#hours)
@@ -18,19 +22,20 @@ Relax, have a picnic, and enjoy our free events and activities.
 *   [Park Rules](#rules)
 </nav>
 
--->
+* * *
+
+Hours
+------
+
+Grand Park is open every day from 5:30 a.m. to 10:00 p.m.
 
 <!--
+*   [Directions to the Park](#directions)
 *   [Map of the Park](#map)
 *   [Plants & Gardens](#plants)
 *   [What’s Nearby](#nearby)
 *   [History](#history)
 -->
-
-Hours
------
-
-Grand Park is open every day from 5:30 a.m. to 10:00 p.m.
 
 
 Directions to the Park <a id="directions"></a>

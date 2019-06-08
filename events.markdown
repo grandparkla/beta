@@ -1,6 +1,5 @@
 ---
-title: Grand Park Los Angeles
-permalink: /
+title: Things to Do
 ---
 
 <style>
@@ -23,38 +22,21 @@ permalink: /
 </div>
 -->
 
-<!--
 Things <span class="avoid-break">to Do</span>
 =============================================
 
 Lunchtime activities, summer dance sessions, free admission holiday celebrations, and more!
--->
 
-<h1 class="welcome">
-  <em>Bienvenidos</em>
-  <!-- <em>Bienvenue</em> -->
-  <em>ยินดีต้อนรับ</em>
-  <em>ようこそ</em>
-  <em>Välkommen</em>
-  <em>Welina</em>
-  <em>Chào mừng bạn</em>
-  <!-- <em>Herzlich willkommen</em> -->
-  <em>स्वागत हे</em>
-  <em>欢迎</em>
-  <em>желанный</em>
-</h1>
+<nav markdown="1">
+*   [Every Week](#weekly)
+*   [Summer Season](#seasonal)
+</nav>
 
-<div></div>
+* * *
 
-## Welcome!
+## Every week <span class="avoid-break">at Grand Park</span> <a id="weekly"></a>
 
-Relax, have a picnic, and enjoy our free events and activities.
-
-<!-- <nav markdown="1">
-*   [Hours](/visit/#hours)
-*   [Directions to the Park](/visit/#directions-to-the-park)
-</nav> -->
-
+These two events are held every week at lunchtime. Just drop in for _Lunch à la Park!_
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
@@ -103,7 +85,15 @@ Relax, have a picnic, and enjoy our free events and activities.
     </a>
   </li>
   -->
+</ol>
 
+* * *
+
+## Summer at <span class="avoid-break">Grand Park</span> <a id="seasonal"></a>
+
+L.A.’s finest House music curators and DJs are hosting dance parties this summer, <span class="avoid-break">with free admission!</span>
+
+<ol class="event-list">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -126,40 +116,16 @@ Relax, have a picnic, and enjoy our free events and activities.
   </li>
 </ol>
 
-* * *
-
-## Plan Your visit
-
-Grand Park is located in downtown Los Angeles between The Music Center and City Hall. 
-
-_We’re open every day from 5:30 a.m. to 10:00 p.m._
-
-<nav markdown="1">
-*   [Directions to the Park](/visit/#directions)
-*   [Park Rules](/visit/#rules)
-</nav>
-
-* * *
-
-## About the Park
-
-A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
-
-<nav markdown="1">
-*   [Rental Information](/about/#rental-information)
-*   [Film & Photography](/about/#film-photography)
-*   [Contact Us](/about/#contact-us)
-</nav>
-
 {% comment %}
-
-* * *
+<div style="margin-top: 6em;"></div>
 
 ## About the Park
 
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
 
 Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.
+
+### Four distinct areas
 
 Grand Park has four distinct areas featuring amenities ranging from a restored historic Arthur J. Will Memorial Fountain with a new wade-able membrane pool, a small intimate performance lawn, a community terrace planted with drought tolerant specimen plants representing the diverse cultural make-up of Los Angeles itself, and a grand event lawn.
 
@@ -171,10 +137,10 @@ Grand Park has four distinct areas featuring amenities ranging from a restored h
 
 The new Grand Park allows for a strong visual and physical connection from Grand Avenue via a series of stairs, accessible ramps and sloped walks as well as a new elevator to invite more pedestrians into a vibrant garden environment, a place to come together in a welcoming and distinctly urban oasis.
 
-<!-- 
+
 <figure>
   <img src="/uploads/yoga.jpg" alt="" />
   <figcaption>Lunchtime Yoga at Grand Park</figcaption>
-</figure> -->
-
+</figure>
 {% endcomment %}
+
