@@ -50,7 +50,7 @@ There are two events scheduled for this week.
 
 <div style="margin-top: 6em"></div>
 
-## Coming up soon
+## This Summer
 
 <ol class="event-list">
   <!--

@@ -13,14 +13,14 @@
 }
 
 @media(min-width: 40em) {
-.event-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1.5em;
-}
+  .event-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+  }
   .event-list li {
-  margin-top: 0;
-}
+    margin-top: 0;
+  }
 }
 
 

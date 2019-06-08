@@ -6,21 +6,49 @@
     main {
       padding-top: 4.5em;
     }
-    
+
+    header {
+      text-align: center;
+    }
+
     header h2 {
-      margin: 0;
+      margin: 0 auto;
       max-width: none;
       display: table;
     }
+
+    @media (min-width: 60em) {
+      header {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+      }
+      header h2 {
+        margin: 0;
+      }
+      header {
+        text-align: left;
+      }
+      header nav {
+        grid-column: 2/-1;
+      }
+    }
+
     header h3,
     header nav {
       padding: 0 1.5rem;
+      max-width: none;
     }
+header nav ul {
+  max-width: none;
+}
 header h2 a {
   background-color: var(--pink);
   color: var(--snow);
   display: block;
   padding: 1.5rem;
+}
+header h3 {
+  color: var(--pink);
 }
 
 header svg {
@@ -29,7 +57,7 @@ header svg {
 }
 
 
-@media (min-width: 40em) {
+@media (min-width: 60em) {
   
   main {
     display: grid;
@@ -42,7 +70,8 @@ header svg {
     margin: 0;
   }
 
-  main > h1 {
+  main > h1,
+  main > h2 {
     grid-column: 1/2;
     margin: 0;
     text-align: right;
@@ -50,7 +79,12 @@ header svg {
   }
   
   main > h1 + * {
-    margin-top: 0.875em;
+    margin-top: 0.875rem;
+  }
+
+
+  main > h2 + * {
+    margin-top: 0.3rem;
   }
 
 }

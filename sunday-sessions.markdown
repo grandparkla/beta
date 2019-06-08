@@ -2,9 +2,9 @@
 title: Sunday Sessions
 ---
 
-# <small>Grand Park presents</small><br />Sunday Sessions 2019
+# <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions 2019</span>
 
-## This is a _free_ event. There’s no cost to attend.
+This is a _free_ event. There’s no cost to attend.
 
 ### One Sunday a month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
 
