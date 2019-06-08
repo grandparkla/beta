@@ -32,19 +32,16 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 <h1 class="welcome">
   <em>Bienvenidos</em>
-  <em>Chào mừng bạn</em>
-  <em>ようこそ</em>
-  <!-- <em>Herzlich willkommen</em> -->
-  <em>Välkommen</em>
-  <em>स्वागत हे</em>
-  <em>Bienvenue</em>
+  <!-- <em>Bienvenue</em> -->
   <em>ยินดีต้อนรับ</em>
+  <em>ようこそ</em>
+  <em>Välkommen</em>
   <em>Welina</em>
+  <em>Chào mừng bạn</em>
+  <!-- <em>Herzlich willkommen</em> -->
+  <em>स्वागत हे</em>
+  <em>Welcome</em>
 </h1>
-
-<div></div>
-
-## Welcome!
 
 Relax, have a picnic, and enjoy our free events and activities.
 
