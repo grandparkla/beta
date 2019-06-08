@@ -1,17 +1,21 @@
 ---
-title: Visiting the Park
+title: Plan Your Visit
 ---
 
-Visiting <span class="avoid-break">the Park</span>
+Plan Your Visit
 =================
 
 Relax, have a picnic, and enjoy our free events and activities.
+
+<!--
 
 <nav markdown="1">
 *   [Hours](#hours)
 *   [Directions to the Park](#directions)
 *   [Park Rules](#rules)
 </nav>
+
+-->
 
 <!--
 *   [Map of the Park](#map)

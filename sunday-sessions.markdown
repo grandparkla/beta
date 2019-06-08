@@ -6,12 +6,12 @@ title: Sunday Sessions
 
 This is a _free_ event. There’s no cost to attend.
 
-### One Sunday a month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
+### One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
 
-* June 23, 2019
-* July 21, 2019
-* August 18, 2019
-* September 22, 2019
+* June 23
+* July 21
+* August 18
+* September 22
 
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
