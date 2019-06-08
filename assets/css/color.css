@@ -10,16 +10,20 @@
     --pink     : hsl(329, 90%, 48%);
     --green    : hsl(86, 53%, 51%);
     --dark-green    : hsl(86, 43%, 41%);
+    --blue: hsl(196, 82%, 72%);
 
     --primary-color: var(--green);
     --secondary-color: var(--snow);
   }
+
+
 
   a {
     color: var(--dark-green);
   }
 
   body {
+    background-image: radial-gradient(circle at top, var(--blue), transparent 100vw, transparent);
   }
 
   mark {
