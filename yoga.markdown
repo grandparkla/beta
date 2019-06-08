@@ -13,7 +13,7 @@ Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 This is a _free_ event. There’s no cost to attend.
 
 <figure>
-  <img src="/uploads/yoga.jpg" alt="Yoga" height="500" />
+  <img src="/uploads/2018_Yoga2018Shoot_Javier_Guillen%20(2%20of%204).jpg" alt="Yoga" height="500" />
 </figure>
 
 Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.

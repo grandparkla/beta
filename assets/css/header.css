@@ -162,10 +162,13 @@ main > hr + h2 + p {
     text-align: left;
     margin-left: 3rem;
   }
-  main > h1 small {
+  main > h1 small:first-child {
     font-size: 2rem;
     color: var(--pink);
-    text-shadow: none;
+  }
+  main > h1 small:last-child {
+    font-size: 2rem;
+    color: inherit;
   }
 }
 
@@ -183,9 +186,9 @@ main > hr + h2 + p {
   main > nav li {
     margin-top: 0.375em;
   }
-  main > nav li a {
+  /* main > nav li a {
     color: var(--pink);
-  }
+  } */
 
   header ul,
   header li,

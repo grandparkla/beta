@@ -18,6 +18,10 @@
     margin: 3em 0;
   }
 
+  h1 {
+    font-weight: inherit;
+  }
+
   h1.welcome {
     line-height: 1;
     font-weight: inherit;
@@ -28,7 +32,7 @@
   }
   @media (min-width: 40em) {
     main > h1.welcome {
-      font-size: 8.09vw;
+      font-size: 5.5vw;
     }
   }
 
