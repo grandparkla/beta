@@ -32,9 +32,14 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 <h1 class="welcome">
   <em>Bienvenidos</em>
-  <em>ようこそ</em>
-  <em>Herzlich willkommen</em>
   <em>Chào mừng bạn</em>
+  <em>ようこそ</em>
+  <!-- <em>Herzlich willkommen</em> -->
+  <em>Välkommen</em>
+  <em>स्वागत हे</em>
+  <em>Bienvenue</em>
+  <em>ยินดีต้อนรับ</em>
+  <em>Welina</em>
 </h1>
 
 <div></div>
