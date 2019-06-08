@@ -21,6 +21,7 @@
   h1.welcome em {
     display: inline-block;
     font-style: inherit;
+    color: var(--yellow);
   }
   @media (min-width: 40em) {
     main > h1.welcome {
@@ -29,10 +30,10 @@
   }
 
   h1.welcome em:nth-of-type(2n+1) {
-    color: var(--green);
+    color: var(--pink);
   }
   h1.welcome em:nth-of-type(3n+1) {
-    color: var(--yellow);
+    color: var(--green);
   }
 
 .avoid-break {
@@ -103,6 +104,7 @@ blockquote caption {
     font-size: 16.18vmin;
     grid-column: 1/-1;
     margin: 0;
+    margin-left: 3rem;
   }
   main > h1 + * {
     grid-column: 2/-1;

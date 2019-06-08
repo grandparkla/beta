@@ -39,8 +39,8 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>Welina</em>
   <em>Chào mừng bạn</em>
   <!-- <em>Herzlich willkommen</em> -->
-  <em>स्वागत हे</em>
   <em>欢迎</em>
+  <em>स्वागत हे</em>
   <em>желанный</em>
 </h1>
 

@@ -2,6 +2,20 @@
   /* =Header / Footer
   ----------------------------------------------- */
 
+  header::before {
+    content: "";
+    display: block;
+    width: 50vw;
+    height: 50vw;
+    position: absolute;
+    z-index: -1;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+
   
     main {
       padding-top: 4.5em;
@@ -61,15 +75,16 @@ header nav ul {
 }
 @media (min-width: 60em) {
   header h2 {
-    margin: 0 1.5rem 0 -1.5rem;
+    /* margin: 0 1.5rem 0 -1.5rem; */
   }
 }
 
 header h2 a {
-  background-color: var(--pink);
-  color: var(--snow);
+  /* background-color: var(--pink);
+  color: var(--snow); */
   display: block;
   padding: 1.5rem;
+  color: var(--pink);
 }
 /* header h3 {
   color: var(--pink);
@@ -141,10 +156,11 @@ main > hr + h2 + p {
 
 @media (min-width: 60em) {
   main > h1 {
-    font-size: 16.18vmin;
+    font-size: 8.09vw;
     grid-column: 1/-1;
     margin: 0;
     text-align: left;
+    margin-left: 3rem;
   }
   main > h1 small {
     font-size: 2rem;
