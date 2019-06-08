@@ -44,7 +44,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>желанный</em>
 </h1>
 
-<div></div>
+* * *
 
 ## Welcome!
 

@@ -41,15 +41,18 @@ Meet the Staff
 Contact Us
 ----------
 
+_Grand Park’s mailing address is:_
+
 Grand Park  
-200 N Grand Ave  
-Los Angeles 90012
+200 N Grand Avenue  
+Los Angeles, CA 90012
 
-(213) 972-8080
+_For general questions, please call us or send us an email:_
 
-[grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org).
+213-972-8080  
+[grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org)
 
-
+* * *
 
 Rental Information
 ------------------
@@ -66,6 +69,7 @@ Interested in planning your event at Grand Park? _These steps will help you get 
 
 If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)
 
+* * *
 
 Film & Photography <a id="film-photography"></a>
 ------------------

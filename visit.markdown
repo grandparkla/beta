@@ -5,15 +5,6 @@ title: Plan Your Visit
 Plan Your Visit
 =================
 
-<div></div>
-
-<!--
-
-
-
-
--->
-
 Relax, have a picnic, and enjoy our free events and activities.
 
 <nav markdown="1">
@@ -37,6 +28,7 @@ Grand Park is open every day from 5:30 a.m. to 10:00 p.m.
 *   [History](#history)
 -->
 
+* * *
 
 Directions to the Park <a id="directions"></a>
 ----------------------
@@ -109,6 +101,8 @@ What’s Nearby
 History
 -------
 -->
+
+* * *
 
 Park Rules <a id="rules"></a>
 ----------
