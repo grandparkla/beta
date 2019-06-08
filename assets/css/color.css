@@ -25,7 +25,7 @@
   }
 
   body {
-    background-image: radial-gradient(circle at top, var(--blue), transparent 100vw, transparent);
+    background-image: radial-gradient(circle at top, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 100vw, hsla(196, 82%, 72%, 0%));
   }
   header {
     color: var(--dark-blue);
