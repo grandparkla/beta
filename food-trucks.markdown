@@ -20,7 +20,6 @@ Part of Grand Park’s noontime [LUNCH À LA PARK](/lunch/) programs, take a bre
 
 JURORS: Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court.
 
-<div markdown="1">
 
 ## Tuesday, June 4
 
@@ -38,9 +37,6 @@ Olive Court
 
 -->
 
-</div>
-
-<div markdown="1">
 
 ## Wednesday, June 5
 
@@ -57,9 +53,7 @@ Olive Court
 : [Canvas Foods LA](https://www.canvasfoodsla.com/)
 : [District Burger](https://www.facebook.com/districtburgerla/)
 
-</div>
 
-<div markdown="1">
 
 ## Thursday, June 6
 
@@ -69,6 +63,4 @@ Marketplace
 Olive Court
 : Boba Taco
 : [The Tropic Truck](http://www.thetropictruck.com/)
-
-</div>
 

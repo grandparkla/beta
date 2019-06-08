@@ -4,7 +4,26 @@
   ----------------------------------------------- */
   footer {
     padding-top: 9em;
+    text-align: center;
+  }
+  footer > * {
+    margin-left: auto;
+    margin-right: auto;
   }
   .powered-by {
     margin-top: 3em;
+    max-width: none;
+    color: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+    text-transform: inherit;
+    font-size: 1.45em;
+    line-height: 1.5818181818;
+    margin-bottom: 4.35em;
   }
+  .powered-by a {
+    text-decoration: none;
+  }
+
+
