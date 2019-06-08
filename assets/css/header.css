@@ -164,6 +164,8 @@ main > hr + h2 + p {
   }
   main > h1 small {
     font-size: 2rem;
+    color: var(--pink);
+    text-shadow: none;
   }
 }
 
@@ -180,6 +182,9 @@ main > hr + h2 + p {
   }
   main > nav li {
     margin-top: 0.375em;
+  }
+  main > nav li a {
+    color: var(--pink);
   }
 
   header ul,

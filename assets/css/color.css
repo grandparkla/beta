@@ -9,8 +9,10 @@
     --yellow   : hsl(56, 97%, 63%);
     --pink     : hsl(329, 90%, 48%);
     --green    : hsl(86, 53%, 51%);
-    --dark-green    : hsl(86, 43%, 41%);
+    --dark-green : hsl(86, 43%, 41%);
     --blue: hsl(196, 82%, 72%);
+    --dark-blue: hsl(196, 79%, 36%);
+    --dark-blue-alpha: hsla(196, 79%, 36%, 25%);
 
     --primary-color: var(--green);
     --secondary-color: var(--snow);
@@ -25,6 +27,18 @@
   body {
     background-image: radial-gradient(circle at top, var(--blue), transparent 100vw, transparent);
   }
+  header {
+    color: var(--dark-blue);
+  }
+  header a {
+    color: var(--dark-blue);
+  }
+  main h1 {
+    color: var(--snow);
+    text-shadow: 0 0 0.2em var(--dark-blue-alpha);
+  }
+
+
 
   mark {
     background-color: var(--yellow);
