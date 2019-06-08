@@ -103,7 +103,7 @@ Dance parties and fireworks, here we come!
   <li>
     <a href="https://july4.grandparkla.org/">
       <div>
-        <h3>Holiday Celebration</h3>
+        <h3>Holiday Celebrations</h3>
         <h4>4th of July Block Party</h4>
         <p>Free admission</p>
       </div>

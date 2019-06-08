@@ -4,8 +4,6 @@ title: Sunday Sessions
 
 # <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions 2019</span>
 
-This is a _free_ event. There’s no cost to attend.
-
 ### One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
 
 * June 23
@@ -14,6 +12,8 @@ This is a _free_ event. There’s no cost to attend.
 * September 22
 
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
+
+This is a _free_ event. There’s no cost to attend.
 
 <figure>
   <img src="/uploads/sunday-sessions.jpg" alt="Sunday Sessions August 2018 crowd shot with Moody Mann, Dez, and Aloe Blacc on stage" height="500" />

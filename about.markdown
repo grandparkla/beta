@@ -9,7 +9,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 
 <nav markdown="1">
 *   [Rental Information](#rental-information)
-*   [Film & Photography](#film-&-photography)
+*   [Film & Photography](#film-photography)
 </nav>
 
 
@@ -64,7 +64,7 @@ Interested in planning your event at Grand Park? _These steps will help you get 
 If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)
 
 
-Film & Photography
+Film & Photography <a id="film-photography"></a>
 ------------------
 
 Need to film in Grand Park? Learn about filming in the park and tell us a little bit about your planned photo shoot to help us help you.

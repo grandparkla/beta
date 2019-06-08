@@ -61,7 +61,7 @@ header nav ul {
 }
 header h2 a {
   background-color: var(--pink);
-  color: var(--snow);
+  color: var(--yellow);
   display: block;
   padding: 1.5rem;
 }
@@ -140,7 +140,16 @@ main > hr + h2 + p {
     margin: 0;
     text-align: left;
   }
+  main > h1 small {
+    font-size: 2rem;
+  }
 }
+
+/* main > h1 + p {
+  font-size: 1.25em;
+  margin-bottom: 1.5em;
+} */
+
   nav ul,
   nav li,
   header ul,
@@ -154,5 +163,5 @@ main > hr + h2 + p {
   header li,
   footer li {
     display: inline-block;
-    margin: 0 0.75em 0.5em 0;
+    margin: 0 0.75em;
   }
