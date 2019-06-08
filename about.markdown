@@ -24,9 +24,25 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 
 Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.
 
+## Grand Park has four distinct areas featuring amenities
+
 Grand Park has four distinct areas featuring amenities ranging from a restored historic Arthur J. Will Memorial Fountain with a new wade-able membrane pool, a small intimate performance lawn, a community terrace planted with drought tolerant specimen plants representing the diverse cultural make-up of Los Angeles itself, and a grand event lawn.
 
+### The new Grand Park allows for a strong visual and physical
+
+<figure>
+  <img src="/uploads/yoga.jpg" alt="" />
+  <figcaption>Yoga participants at Grand Park, Photo by Javier Gullian</figcaption>
+</figure>
+
+<blockquote>
+  <p>Grand Park is my favorite lunch place.</p>
+  <caption>–Justice Stanley Mosk</caption>
+</blockquote>
+
 The new Grand Park allows for a strong visual and physical connection from Grand Avenue via a series of stairs, accessible ramps and sloped walks as well as a new elevator to invite more pedestrians into a vibrant garden environment, a place to come together in a welcoming and distinctly urban oasis.
+
+
 
 
 <!--

@@ -15,6 +15,37 @@
     margin: 3em 0;
   }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+blockquote {
+  border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    color: var(--pink);
+    margin: 1.5em 0;
+}
+blockquote p {
+  font-family: serif;
+  font-size: 2em;
+}
+blockquote p {
+  margin: 0;
+}
+blockquote p::before {
+  content: "“"
+}
+blockquote p::after {
+  content: "”"
+}
+
+
+
+blockquote caption {
+  font-size: 0.5em;
+}
 
 @supports (false) {
   header,
@@ -76,13 +107,24 @@
   }
 }
 
+
+h1 {
+  font-size: 3em;
+  color: var(--pink);
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.75em;
+}
+
   /* Limit line lengths, for readability. */
   h1, h2, h3, h4, h5, h6, p, ol, ul, dl {
     max-width: 45em; /* @max-line-length */
   }
 
   main > p + h2 {
-    margin-top: 4.5em;
+    /*! margin-top: 4.5em; */
   }
 
   time {

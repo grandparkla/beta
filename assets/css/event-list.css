@@ -8,11 +8,21 @@
   padding-left: 0;
 }
 
+.event-list li {
+  margin-top: 1.5em;
+}
+
+@media(min-width: 40em) {
 .event-list {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.5em;
 }
+  .event-list li {
+  margin-top: 0;
+}
+}
+
 
 /*
 .event-list li {
@@ -21,6 +31,7 @@
   display: grid;
 }
 */
+
 
 .event-list a {
   display: grid;

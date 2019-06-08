@@ -6,46 +6,47 @@
     main {
       padding-top: 4.5em;
     }
-
-@supports (false) {
-  
-  header {
-    /* min-height: 30.9023485785vh; */
-  }
-  header,
-  footer,
-  main {
-    background-color: hsl(0, 0%, 90%);
-    background-color: var(--yellow);
-    background-color: var(--pink);
-    background-color: var(--green);
-    background-color: var(--primary-color);
-    color: var(--yellow);
-    color: var(--snow);
-    color: var(--secondary-color);
-  }
-  header a,
-  main a,
-  footer a {
-    color: inherit;
-  }
-  header a:hover,
-  header a:active,
-  header a:focus
-  main a:hover,
-  main a:active,
-  main a:focus
-  footer a:hover,
-  footer a:active,
-  footer a:focus {
-    color: var(--yellow);
-  }
-
-  main {
-    padding-top: 4.5em;
-  }
+    
+    header h2 {
+      max-width: none;
+    }
+header h2 a {
+  background-color: var(--pink);
+  color: var(--snow);
+  display: block;
+  padding: 1.5em;
 }
 
+header svg {
+  fill: currentColor;
+}
+
+
+@media (min-width: 40em) {
+  
+  main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1.5em;
+  }
+
+  main > * {
+    grid-column: 2/-1;
+    margin: 0;
+  }
+
+  main > h1 {
+    grid-column: 1/2;
+    margin: 0;
+    text-align: right;
+    line-height: 1.2;
+  }
+  
+  main > h1 + * {
+    margin-top: 2em;
+  }
+
+}
   
   nav ul,
   nav li,

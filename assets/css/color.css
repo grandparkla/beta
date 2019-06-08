@@ -15,6 +15,10 @@
     --secondary-color: var(--snow);
   }
 
+  a {
+    color: var(--pink);
+  }
+
   body {
   }
 
