@@ -18,7 +18,9 @@
     --secondary-color: var(--snow);
   }
 
-
+  main {
+    background-color: hsl(86, 3%, 97%);
+  }
 
   a {
     color: var(--dark-green);

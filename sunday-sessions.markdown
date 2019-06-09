@@ -25,19 +25,19 @@ This is a _free_ event. There’s no cost to attend.
 
 [Flashback video to Sunday Sessions 2018!](https://vimeo.com/289365164)
 
-Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September. This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music. Guests can picnic or purchase food from food trucks and cocktails from the bar (21+ only) and enjoy the sounds of summer in a beautiful setting right in the heart of Downtown L.A. _Sunday Sessions_ will take place on the park’s Performance Lawn, just north of Hill Street.
+Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September. This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music. Guests can picnic or purchase food from food trucks and cocktails from the bar (21+ only) and enjoy the sounds of summer in a beautiful setting right in the heart of Downtown L.A. _Sunday Sessions_ will take place on the park’s _Performance Lawn_, just north of Hill Street.
 
-**June 23  
-****QVOLE COLLECTIVE**
+June 23  
+: Qvolé Collective
 
-**July 21**  
-**FORWARD RHYTHM**
+July 21 
+: Forward Rhythm
 
-**August 18  
-6AM**
+August 18  
+: 6 AM
 
-**September 22  
-DUBLAB**’s 20th Anniversary
+September 22  
+: Dublab’s 20th Anniversary
 
-Stay tuned as we announce DJs in the coming weeks!
+_Stay tuned as we announce DJs in the coming weeks!_
 

@@ -13,6 +13,7 @@ With its majestic views extending from the Music Center to City Hall, Grand Park
 *   [Film & Photography](#film-photography)
 *   [Meet the Staff](/staff/)
 *   [Job Opportunities](/job-opportunities/)
+*   [Sign Up for News](/sign-up/)
 *   [Donate](/donate/)
 </nav>
 
