@@ -14,13 +14,33 @@
     font-size: calc(0.75em + 1vmin);
   }
 
+  @media (min-width: 60em) {
+    header {
+      padding: 1.25em 1.5em 0;
+    }
+  }
+
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-left: 0;
+  }
+  dd + dt {
+    margin-top: 0.75em;
+  }
+
   figure {
     margin: 3em 0;
   }
-
-  h1 {
-    font-weight: inherit;
+  
+  main > figure {
+    grid-column: 2/-1;
   }
+
+  /* h1 {
+    font-weight: inherit;
+  } */
 
   h1.welcome {
     line-height: 1;
@@ -33,7 +53,7 @@
   }
   @media (min-width: 40em) {
     main > h1.welcome {
-      font-size: 8.09vw;
+      font-size: 4.09vw;
     }
   }
 

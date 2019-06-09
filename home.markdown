@@ -1,5 +1,5 @@
 ---
-title: Grand Park Los Angeles
+title: Grand Park LA
 permalink: /
 ---
 

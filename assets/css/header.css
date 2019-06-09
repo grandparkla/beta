@@ -2,19 +2,6 @@
   /* =Header / Footer
   ----------------------------------------------- */
 
-  header::before {
-    content: "";
-    display: block;
-    width: 33vw;
-    height: 33vw;
-    position: absolute;
-    z-index: -1;
-    background-color: var(--yellow);
-    border-radius: 50%;
-    top: 0;
-    left: 0;
-    transform: translate(-33%, -50%);
-  }
 
   
     main {
@@ -55,7 +42,6 @@
       }
     }
 
-    header h3,
     header nav {
       padding: 0 1.5rem;
       max-width: none;
@@ -110,7 +96,6 @@ header svg {
   }
   main > figure {
     margin: 1.5em 0;
-    grid-column: 1/-1;
   }
   main > figure img {
     display: block;
@@ -123,6 +108,9 @@ header svg {
     margin: 0;
     text-align: right;
     line-height: 1.2;
+  }
+  main > h2 {
+    margin-left: 1.5em;
   }
   
   main > h1 + * {
@@ -156,7 +144,7 @@ main > hr + h2 + p {
 
 @media (min-width: 60em) {
   main > h1 {
-    font-size: 8.09vw;
+    font-size: 4.09vw;
     grid-column: 1/-1;
     margin: 0;
     text-align: left;
