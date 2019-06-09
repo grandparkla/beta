@@ -2,11 +2,15 @@
 title: Food Trucks
 ---
 
-# Food Trucks
+# <small>Lunch à la Park</small><br />Food Trucks
 
 Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>
 
 Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(close to Starbucks)_
+
+<p class="action" markdown="1">
+[Directions to the Park](/visit/#directions)
+</p>
 
 <figure>
   <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />

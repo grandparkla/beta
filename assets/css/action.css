@@ -1,0 +1,44 @@
+
+/* =Action
+----------------------------------------------- */
+.action a {
+  display: inline-block;
+  text-align: center;
+  padding: 0.725em 1.45em;
+  background-color: rgb(90, 150, 55); /* @mediumgreen */
+  background-color: rgb(125, 210, 242); /* @blue */
+  background-color: rgb(140, 197, 65); /* @green */
+  color: rgb(19, 127, 166); /* @darkblue */
+  color: rgb(41, 96, 46); /* @darkgreen */
+  color: white;
+  text-decoration: none;
+  border-radius: 0.25em;
+  transition: background-color 0.2s, color 0.2s;
+  font-weight: bold;
+  background-color: var(--blue);
+  color: var(--dark-blue);
+
+  background-color: transparent;
+  color: inherit;
+
+  border: 0.125em solid;
+  border-color: hsla(196, 79%, 36%, 75%);
+  color: hsla(196, 79%, 36%, 95%);
+
+  border-color: hsla(86, 43%, 41%, 75%);
+  color: hsla(86, 43%, 41%, 95%);
+}
+.action a[href]:hover,
+.action a[href]:active,
+.action a[href]:focus {
+  background-color: rgb(235, 12, 128); /* @pink */
+  background-color: rgb(19, 177, 216); /* @mediumblue */
+  background-color: rgb(90, 150, 55); /* @mediumgreen */
+  color: white;
+  text-decoration: none;
+  
+  background-color: var(--dark-blue);
+  color: var(--snow);
+
+  background-color: var(--dark-green);
+}

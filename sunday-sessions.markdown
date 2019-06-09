@@ -13,6 +13,10 @@ One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetim
 
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
+<p class="action" markdown="1">
+[Directions to the Park](/visit/#directions)
+</p>
+
 This is a _free_ event. There’s no cost to attend.
 
 <figure>
