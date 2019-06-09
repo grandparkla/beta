@@ -16,7 +16,7 @@ Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 This is a _free_ event. There’s no cost to attend.
 
 <figure>
-  <img src="/uploads/2018_6_10_18_SundaySessions_Javier_Guillen (10 of 302).jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
 
 [Flashback video to Sunday Sessions 2018!](https://vimeo.com/289365164)

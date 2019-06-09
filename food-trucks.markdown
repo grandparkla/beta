@@ -9,7 +9,7 @@ Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time>
 Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(close to Starbucks)_
 
 <figure>
-  <img src="/uploads/2018_7_17_18_LunchalaPark_Javier_Guillen%20(13%20of%2044).jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />
 </figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.

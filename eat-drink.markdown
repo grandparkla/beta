@@ -21,7 +21,7 @@ Grab a bite to eat or a drink and enjoy it in the sunshine.
         <h4>Food Trucks</h4>
         <p>Tuesday, Wednesday and Thursday, <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
       </div>
-      <img src="/uploads/2018_7_17_18_LunchalaPark_Javier_Guillen%20(20%20of%2044).jpg" height="300" alt="" />
+      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

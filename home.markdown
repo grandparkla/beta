@@ -70,7 +70,7 @@ Relax, have a picnic, and enjoy our free events and activities.
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
-      <img src="/uploads/2018_7_17_18_LunchalaPark_Javier_Guillen%20(20%20of%2044).jpg" height="300" alt="" />
+      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -88,7 +88,7 @@ Relax, have a picnic, and enjoy our free events and activities.
           -->
         </p>
       </div>
-      <img src="/uploads/2018_Yoga2018Shoot_Javier_Guillen%20(3%20of%204).jpg" height="300" alt="" />
+      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
   <!--
@@ -111,7 +111,7 @@ Relax, have a picnic, and enjoy our free events and activities.
         <h4>Sunday Sessions</h4>
         <p>Free outdoor dance parties</p>
       </div>
-      <img src="/uploads/2018_6_10_18_SundaySessions_Javier_Guillen%20(76%20of%20302).jpg" height="300" alt="" />
+      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -155,7 +155,7 @@ The new Grand Park allows for a strong visual and physical connection from Grand
 
 <!-- 
 <figure>
-  <img src="/uploads/2018_Yoga2018Shoot_Javier_Guillen%20(3%20of%204).jpg" alt="" />
+  <img src="/uploads/yoga-4.jpg" alt="" />
   <figcaption>Lunchtime Yoga at Grand Park</figcaption>
 </figure> -->
 
