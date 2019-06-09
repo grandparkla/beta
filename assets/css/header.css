@@ -5,15 +5,15 @@
   header::before {
     content: "";
     display: block;
-    width: 50vw;
-    height: 50vw;
+    width: 33vw;
+    height: 33vw;
     position: absolute;
     z-index: -1;
     background-color: var(--yellow);
     border-radius: 50%;
     top: 0;
     left: 0;
-    transform: translate(-50%, -50%);
+    transform: translate(-33%, -50%);
   }
 
   

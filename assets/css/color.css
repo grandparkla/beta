@@ -25,7 +25,12 @@
   }
 
   body {
-    background-image: radial-gradient(circle at top left, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 150vw, hsla(196, 82%, 72%, 0%));
+    background-image: radial-gradient(circle at top left, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 100vw, hsla(196, 82%, 72%, 0%));
+    background-image: none;
+    background-image: linear-gradient(to bottom, hsla(196, 82%, 72%, 50%), hsla(196, 82%, 72%, 0%) 33vh, hsla(196, 82%, 72%, 0%));
+    background-color: hsla(196, 82%, 72%, 5%);
+    background-color: var(--snow);
+    color: var(--midnight);
   }
   header {
     color: var(--dark-blue);
@@ -33,11 +38,14 @@
   header a {
     color: var(--dark-blue);
   }
+  main h1 {
+    color: var(--green);
+  }
   @media (min-width: 60em) {
-    main h1 {
+    /* main h1 {
       color: var(--snow);
       text-shadow: 0 0 0.2em var(--dark-blue-alpha);
-    }
+    } */
     main h1 + p {
       color: var(--dark-blue);
       font-size: 1.25em;
