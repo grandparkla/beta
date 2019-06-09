@@ -1,16 +1,19 @@
 
 /* =navigation
 ----------------------------------------------- */
-main > nav,
+main > nav ul,
 main > nav li {
   list-style: none;
   margin-left: 0;
   padding-left: 0;
 }
-main > nav {
+main > nav ul {
+  max-width: none;
+}
+/* main > nav ul {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 main > nav li {
   display: inline-block;
   margin-right: 0.25em;

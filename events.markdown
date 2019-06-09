@@ -22,7 +22,7 @@ title: Things to Do
 </div>
 -->
 
-Events &amp; Activities
+Things to Do
 =============================================
 
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!

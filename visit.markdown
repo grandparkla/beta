@@ -13,6 +13,10 @@ Relax, have a picnic, and enjoy our free events and activities.
 *   [Park Rules](#rules)
 </nav>
 
+<figure>
+  <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />
+</figure>
+
 * * *
 
 Hours

@@ -29,6 +29,19 @@
     color: var(--midnight);
   }
 
+
+  header {
+    /* background-image:
+      linear-gradient(to bottom, var(--yellow), var(--yellow) 0.375em, transparent 0.375em, transparent),
+      linear-gradient(to top, var(--green), var(--green) 0.375em, transparent 0.375em, transparent); */
+    background-color: var(--pink);
+    color: var(--snow);
+  }
+  header h2,
+  header a {
+    color: inherit;
+  }
+
   @media (false) {
 
   body {
@@ -60,21 +73,29 @@
   header a {
     color: var(--dark-blue);
   } */
-  header {
+  /* header {
     color: var(--dark-green);
   }
   main h1 {
     color: var(--pink);
-  }
+  } */
   @media (min-width: 60em) {
     /* main h1 {
       color: var(--snow);
       text-shadow: 0 0 0.2em var(--dark-blue-alpha);
     } */
     main h1 + p {
-      /* color: var(--dark-blue); */
-      /* font-size: 1.25em; */
+      /*! grid-column: 1/-1; */
+      /*! margin-left: 3em; */
+      /*! color: var(--dark-blue); */
+      font-size: 1.25em;
       /* margin-right: 3em; */
+      grid-column: 2/-2;
+      /*! font-style: italic; */
+    }
+    main h1 + p + nav {
+      /*! grid-column: 1/-1; */
+      /*! margin-left: 3em; */
     }
   }
 

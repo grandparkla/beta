@@ -16,8 +16,11 @@ With its majestic views extending from the Music Center to City Hall, Grand Park
 *   [Donate](/donate/)
 </nav>
 
-* * *
+<figure>
+  <img src="/uploads/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+</figure>
 
+* * *
 
 <!--
 With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
