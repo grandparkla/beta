@@ -151,7 +151,7 @@ main > hr + h2 + p {
     text-align: left;
     /*! margin-left: 3.125rem; */
     font-weight: inherit;
-    color: var(--green);
+    /*! color: var(--green); */
   }
   main > h1 small:first-child {
     font-size: 2rem;

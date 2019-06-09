@@ -1,0 +1,22 @@
+
+/* =Special Notice
+----------------------------------------------- */
+.special-notice {
+  padding: 1.5em;
+  text-align: center;
+}
+.special-notice h2 {
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  max-width: none;
+  color: inherit;
+  opacity: 0.5;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.5em;
+}
+.special-notice p {
+  margin: 0;
+  max-width: none;
+}

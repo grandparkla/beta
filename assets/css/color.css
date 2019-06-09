@@ -34,7 +34,7 @@
     /* background-image:
       linear-gradient(to bottom, var(--yellow), var(--yellow) 0.375em, transparent 0.375em, transparent),
       linear-gradient(to top, var(--green), var(--green) 0.375em, transparent 0.375em, transparent); */
-    background-color: var(--pink);
+    background-color: var(--green);
     color: var(--snow);
   }
   header h2,

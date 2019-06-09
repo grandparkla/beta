@@ -20,5 +20,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.18
+version: 0.0.19
 
