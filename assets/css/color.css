@@ -25,7 +25,7 @@
   }
 
   body {
-    background-image: radial-gradient(circle at top, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 100vw, hsla(196, 82%, 72%, 0%));
+    background-image: radial-gradient(circle at top left, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 150vw, hsla(196, 82%, 72%, 0%));
   }
   header {
     color: var(--dark-blue);
@@ -40,7 +40,7 @@
     }
     main h1 + p {
       color: var(--dark-blue);
-      font-size: 1.5em;
+      font-size: 1.25em;
       margin-right: 3em;
     }
   }

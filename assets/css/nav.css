@@ -31,6 +31,15 @@ main > nav a {
   border-radius: 0.25em;
   transition: background-color 0.2s, color 0.2s;
   font-weight: bold;
+  background-color: var(--blue);
+  color: var(--dark-blue);
+
+  background-color: transparent;
+  color: inherit;
+
+  border: 0.125em solid;
+  border-color: hsla(196, 79%, 36%, 75%);
+  color: hsla(196, 79%, 36%, 95%);
 }
 main > nav a[href]:hover,
 main > nav a[href]:active,
@@ -40,4 +49,6 @@ main > nav a[href]:focus {
   background-color: rgb(90, 150, 55); /* @mediumgreen */
   color: white;
   text-decoration: none;
+  background-color: var(--dark-blue);
+  color: var(--snow);
 }
