@@ -17,7 +17,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
     <a href="/food-trucks/">
       <div>
         <h3>LUNCH À LA PARK</h3>
-        <h4>Food Trucks</h4>
+        <h4>Food trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
       <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
@@ -37,7 +37,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
     <a href="/spring-concerts/">
       <div>
         <h3>LUNCH À LA PARK</h3>
-        <h4>Spring Concerts</h4>
+        <h4>Spring concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
       <img src="/uploads/spring-concerts.jpg" height="300" alt="" />

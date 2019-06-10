@@ -7,7 +7,7 @@ title: Food Trucks
 * [Lunch à la Park](/lunch/)
 </nav>
 
-# Food Trucks
+# Food trucks
 
 Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time><br />
 _<small>Year-round, except on holidays</small>_

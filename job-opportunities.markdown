@@ -9,6 +9,6 @@ title: Job Opportunities
 Job Opportunities
 =================
 
-Join the Grand Park team!
+### Join the Grand Park team!
 
 [Program Manager, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/program_manager__gp_jan2019.pdf)

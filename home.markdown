@@ -148,7 +148,7 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
 
 <nav markdown="1">
-*   [Rent the park for an event](/rental/)
+*   [Rent the park for an event](/rent/)
 *   [Film & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)

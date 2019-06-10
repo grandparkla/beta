@@ -8,7 +8,7 @@ About the park
 <div></div>
 
 <nav markdown="1">
-*   [Rent the park for an event](/rental/)
+*   [Rent the park for an event](/rent/)
 *   [Film & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)

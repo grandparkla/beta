@@ -7,7 +7,7 @@ title: Spring Concerts
 * [Lunch à la Park](/lunch/)
 </nav>
 
-Spring Concerts <small>featuring L.A.’s Youth Artists</small>
+Spring concerts <small>featuring L.A.’s youth artists</small>
 ==============================================================
 
 Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15">1:15 p.m.</time><br />
@@ -31,7 +31,7 @@ Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
 This is a _free_ event. There’s no cost to attend.
 
-## Artist Schedule
+## Artist schedule
 
 April 4
 : Ethan Moffitt from The Music Center Spotlight Program  

@@ -1,7 +1,19 @@
 
 ## June 2019
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/events/2019/6/21/paradise-in-the-park/">
+      <div>
+        <h3>Lease Event</h3>
+        <h4>Paradise in the Park</h4>
+        <p>
+          Saturday, June 1
+        </p>
+      </div>
+      <img src="/uploads/pink.png" height="300" alt="" />
+    </a>
+  </li>
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -40,7 +52,7 @@
     
 ## July 2019
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="https://july4.grandparkla.org/">
       <div>
@@ -53,6 +65,9 @@
       <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -134,4 +149,3 @@
     </a>
   </li>
 </ol>
-
