@@ -44,7 +44,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>желанный</em>
 </h1>
 
-* * *
+<div></div>
 
 ## Welcome!
 
@@ -127,6 +127,36 @@ Relax, have a picnic, and enjoy our free events and activities.
 </ol>
 
 
-{% capture directions %}{% include directions.markdown %}{% endcapture %}
-{{ directions | markdownify }}
+## Plan Your visit
+
+Grand Park is located in downtown Los Angeles between The Music Center and City Hall.
+
+_The park is open every day from 5:30 a.m. to 10:00 p.m._
+
+<nav markdown="1">
+*   [Directions to the park](/directions/)
+*   [Park rules](/rules/)
+*   [FAQs](/faqs/)
+</nav>
+
+
+## About the Park
+
+A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
+
+<nav markdown="1">
+*   [Rental information](/rental/)
+*   [Film & photography](/film-photography/)
+*   [For members of the media](/for-media/)
+*   [For vendors](/vendors/)
+*   [Contact us](/contact/)
+</nav>
+
+<nav markdown="1">
+*   [Meet the staff](/staff/)
+*   [Job opportunities](/job-opportunities/)
+*   [Sign up for news](/sign-up/)
+*   [Donate](/donate/)
+</nav>
+
 

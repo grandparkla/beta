@@ -32,8 +32,6 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Summer season](#seasonal)
 </nav>
 
-* * *
-
 ## Every week <span class="avoid-break">at Grand Park</span> <a id="weekly"></a>
 
 These two events are held every week at lunchtime. Just drop in for _Lunch à la Park!_
@@ -86,8 +84,6 @@ These two events are held every week at lunchtime. Just drop in for _Lunch à la
   </li>
   -->
 </ol>
-
-* * *
 
 ## Summer at <span class="avoid-break">Grand Park</span> <a id="seasonal"></a>
 

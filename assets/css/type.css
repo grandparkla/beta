@@ -83,6 +83,7 @@
   @media (min-width: 40em) {
     main > h1.welcome {
       font-size: 4.09vw;
+      margin-bottom: -5rem;
     }
   }
 

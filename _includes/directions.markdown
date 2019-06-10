@@ -8,8 +8,8 @@ Grand Park is located in downtown Los Angeles between The Music Center and City 
 _We’re open every day from 5:30 a.m. to 10:00 p.m._
 
 <nav markdown="1">
-*   [Directions to the Park](/visit/#directions)
-*   [Park Rules](/visit/#rules)
+*   [Directions to the Park](/visit/)
+*   [Park Rules](/visit/)
 </nav>
 
 * * *
@@ -19,10 +19,10 @@ _We’re open every day from 5:30 a.m. to 10:00 p.m._
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
 
 <p class="action" markdown="1">
-[Rental information](#rental-information)
+[Rental information](/rental/)
 </p>
 
 <nav markdown="1">
-*   [Film & Photography](/about/#film-photography)
+*   [Film & Photography](/about/)
 *   [Contact Us](/about/)
 </nav>

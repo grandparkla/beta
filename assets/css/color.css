@@ -93,10 +93,11 @@
       /*! grid-column: 1/-1; */
       /*! margin-left: 3em; */
       /*! color: var(--dark-blue); */
-      /*! font-size: 1.25em; */
+      font-size: 1.25em;
       /* margin-right: 3em; */
       grid-column: 2/-2;
       /*! font-style: italic; */
+      /*! margin-bottom: 3em; */
     }
     main h1 + p + nav {
       /*! grid-column: 1/-1; */
