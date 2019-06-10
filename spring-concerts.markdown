@@ -2,42 +2,62 @@
 title: Spring Concerts
 ---
 
-LUNCH À LA PARK SPRING CONCERTS featuring L.A.’s Youth Artists
+<nav markdown="1">
+* [Things to do](/events/)
+* [Lunch à la Park](/lunch/)
+</nav>
+
+Spring Concerts <small>featuring L.A.’s Youth Artists</small>
 ==============================================================
 
-### Every Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15">1:15 p.m.</time>
+Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15">1:15 p.m.</time><br />
+_<small>April 4 – May 30, 2019</small>_<br />
+
+<figure>
+  <img src="/uploads/spring-concerts.jpg" alt="Spring converts" height="500" />
+</figure>
 
 These weekly lunchtime concerts feature artists from L.A.’s top conservatories and training programs for high school artists. The series includes students from L.A. County High School for the Arts, California School for the Arts, and The Music Center’s Spotlight Program.
 
-The concerts will be held every **Thursday** until May 30, 2019.
+## Location
 
-#### Artist Schedule:
+Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
-APR 04
+<p class="action" markdown="1">
+[Directions to the Park](/visit/#directions)
+</p>
+
+## Cost
+
+This is a _free_ event. There’s no cost to attend.
+
+## Artist Schedule
+
+April 4
 : Ethan Moffitt from The Music Center Spotlight Program  
 
-APR 11
+April 11
 : CSARTS-SGV FUSION/Musical Theatre  
 
-APR 18
+April 18
 : CSARTS-SGV Instrumental Music Conservatory  
 
-APR 25
+April 25
 : CSARTS-SGV Vocal Arts/Integrated Arts  
 
-MAY 02
+May 2
 : Los Angeles County High School for the Arts  
 
-MAY 09
+May 9
 : CSARTS-SGV Instrumental Music (guitar, strings, winds, jazz)  
 
-MAY 16
+May 16
 : Los Angeles County High School for the Arts  
 
-MAY 23
+May 23
 : CSARTS-SGV Classical, Contemporary and Commercial Dance  
 
-MAY 30
+May 30
 : William Brandt—Spotlight Jazz Combo
 
-Part of Grand Park’s noontime [LUNCH À LA PARK](/lunch/) programs.
+_Part of Grand Park’s noontime [LUNCH À LA PARK](/lunch/) programs._

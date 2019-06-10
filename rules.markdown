@@ -2,6 +2,9 @@
 title: Park rules
 ---
 
+<nav markdown="1">
+* [Plan your visit](/visit/)
+</nav>
 
 Park rules
 ==========

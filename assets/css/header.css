@@ -219,9 +219,32 @@ main > hr + h2 + p {
   margin-bottom: 1.5em;
 } */
 
-main > nav {
+main > nav:not(:first-child)  {
   margin-left: 1em;
 }
+
+@media(min-width: 60em) {
+  main > nav:first-child {
+    grid-column-start: 2;
+    margin-bottom: -1.5em;
+  }
+}
+main > nav:first-child li {
+  display: inline;
+}
+main > nav:first-child a {
+  text-decoration: none;
+}
+main > nav:first-child a::after {
+  content: "/";
+  padding-left: 0.5em;
+  padding-right: 0.25em;
+  opacity: 0.25;
+  color: var(--midnight);
+  text-decoration: none !important;
+  display: inline-block;
+}
+
 main > nav ul {
   margin-top: 0;
 }
@@ -231,7 +254,7 @@ main > nav ul {
     margin-left: 0;
     padding-left: 0;
   }
-  main > nav li a {
+  main > nav:not(:first-child)  li a {
     display: inline-block;
     padding: 0.25em 0.75em;
     text-decoration: none;
@@ -240,7 +263,7 @@ main > nav ul {
 /*   main > nav li a {
     border-left: 0.125em solid;
   } */
-  main > nav li a::before {
+  main > nav:not(:first-child) li a::before {
     content: "";
     border-left: 0.1em solid;
     position: absolute;
@@ -250,10 +273,10 @@ main > nav ul {
     color: var(--green);
     opacity: 0.25;
   }
-  main > nav li:first-child a::before {
+  main > nav:not(:first-child)  li:first-child a::before {
     height: 50%;
   }
-  main > nav li a::after {
+  main > nav:not(:first-child)  li a::after {
     content: "";
     border-bottom: 0.1em solid;
     position: absolute;
@@ -266,6 +289,13 @@ main > nav ul {
 /* main > nav li a {
     color: var(--pink);
   } */
+
+
+main > nav li a:hover,
+main > nav li a:active,
+main > nav li a:focus {
+  text-decoration: underline;
+}
 
   header ul,
   header li,

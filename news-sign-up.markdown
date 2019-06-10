@@ -1,8 +1,12 @@
 ---
-title: Sign Up
+title: Sign up for news
 ---
 
-Sign Up
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
+Sign up for news
 =======
 
 Get news about all the latest and greatest that’s happening in Grand Park.

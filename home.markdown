@@ -55,7 +55,6 @@ Relax, have a picnic, and enjoy our free events and activities.
 *   [Directions to the Park](/visit/#directions-to-the-park)
 </nav> -->
 
-
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/food-trucks/">
@@ -66,7 +65,7 @@ Relax, have a picnic, and enjoy our free events and activities.
         <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
         -->
         <p>
-          Tuesday, Wednesday &amp; Thursday
+          Today at 11 a.m.
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
@@ -82,7 +81,7 @@ Relax, have a picnic, and enjoy our free events and activities.
         <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
         -->
         <p>
-          Wednesday &amp; Friday
+          Today at 12:15 p.m.
           <!--
           <br />June 12 &amp; 14<br /><time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
           -->
@@ -91,25 +90,15 @@ Relax, have a picnic, and enjoy our free events and activities.
       <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
-  <!--
-  <li>
-    <a href="/spring-concerts/">
-      <div>
-        <h3>LUNCH À LA PARK</h3>
-        <h4>Spring Concerts</h4>
-        <p>Thursday</p>
-      </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
-    </a>
-  </li>
-  -->
 
   <li>
     <a href="/sunday-sessions/">
       <div>
         <h3>Summer Season</h3>
         <h4>Sunday Sessions</h4>
-        <p>Free outdoor dance parties</p>
+        <p>
+          Sunday, June 23
+        </p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
@@ -117,14 +106,28 @@ Relax, have a picnic, and enjoy our free events and activities.
   <li>
     <a href="https://july4.grandparkla.org/">
       <div>
-        <h3>Holiday Celebrations</h3>
+        <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>
-        <p>Free admission</p>
+        <p>
+          Thursday, July 4
+        </p>
       </div>
       <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
+
+
+## Things to Do
+
+Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
+
+<nav markdown="1">
+*   [Today](/events/#today)
+*   [Every week](/events/#weekly)
+*   [Calendar](/calendar/)
+*   [Programs](/programs/)
+</nav>
 
 
 ## Plan Your visit
@@ -145,7 +148,7 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
 
 <nav markdown="1">
-*   [Rental information](/rental/)
+*   [Rent the park for an event](/rental/)
 *   [Film & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
@@ -155,7 +158,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 <nav markdown="1">
 *   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
-*   [Sign up for news](/sign-up/)
+*   [Sign up for news](/news-sign-up/)
 *   [Donate](/donate/)
 </nav>
 

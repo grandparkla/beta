@@ -5,8 +5,10 @@ title: About the park
 About the park
 ==============
 
+<div></div>
+
 <nav markdown="1">
-*   [Rental information](/rental/)
+*   [Rent the park for an event](/rental/)
 *   [Film & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
@@ -16,7 +18,7 @@ About the park
 <nav markdown="1">
 *   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
-*   [Sign up for news](/sign-up/)
+*   [Sign up for news](/news-sign-up/)
 *   [Donate](/donate/)
 </nav>
 

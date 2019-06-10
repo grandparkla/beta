@@ -2,29 +2,19 @@
 title: Sunday Sessions
 ---
 
+<nav markdown="1">
+* [Things to do](/events/)
+* [Summer season](/summer/)
+</nav>
+
 # <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions <small>2019</small></span>
 
-Sundays this summer, from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
+Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time><br />
+_<small>June 23, July 21, August 18, and September 22</small>_<br />
 
 <figure>
   <img src="/uploads/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
-
-## Dates
-
-June 23  
-: Qvolé Collective
-
-July 21 
-: Forward Rhythm
-
-August 18  
-: 6 AM
-
-September 22  
-: Dublab’s 20th Anniversary
-
-_Stay tuned as we announce DJs in the coming weeks!_
 
 ## Location
 
@@ -51,3 +41,19 @@ Dance and music are the centerpiece for every hot summer party. For its seventh 
 This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music.
 
 Guests can picnic or purchase food from food trucks and cocktails from the bar (21+ only) and enjoy the sounds of summer in a beautiful setting right in the heart of Downtown L.A.
+
+## Artist Schedule
+
+June 23  
+: Qvolé Collective
+
+July 21 
+: Forward Rhythm
+
+August 18  
+: 6 AM
+
+September 22  
+: Dublab’s 20th Anniversary
+
+_Stay tuned as we announce DJs in the coming weeks!_

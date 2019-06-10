@@ -2,9 +2,16 @@
 title: Food Trucks
 ---
 
-# <small>Lunch à la Park</small><br />Food Trucks
+<nav markdown="1">
+* [Things to do](/events/)
+* [Lunch à la Park](/lunch/)
+</nav>
 
-Every Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>
+# Food Trucks
+
+Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time><br />
+_<small>Year-round, except on holidays</small>_
+
 
 <figure>
   <img src="/uploads/food-trucks-4.jpg" alt="Food Truck" height="500" />

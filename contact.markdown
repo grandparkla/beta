@@ -2,6 +2,10 @@
 title: Contact us
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 Contact us
 ==========
 

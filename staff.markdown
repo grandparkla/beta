@@ -2,6 +2,10 @@
 title: Meet the Staff / Jobs
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 <style>
 main > figure img {
   border-radius: 50%;
@@ -27,6 +31,7 @@ Meet the Staff <small>Team Grand Park</small>
 <div></div>
 
 
+
 Kat Carrido Bonds
 -----------------
 
@@ -50,7 +55,6 @@ Favorite quote(s)
 : “The only way to survive is by taking care of one another.” -Grace Lee Boggs
 
 
-* * *
 
 Julia Diamond<br /><small>_AKA_ Jules</small>
 -------------
@@ -77,7 +81,6 @@ Favorite Quote(s)
 : Grand Park is where all the good stuff happens. Come play!
 
 
-* * *
 
 Derek Glover
 ------------
@@ -105,7 +108,6 @@ And we are the dreamers of dreams”
 : I absolutely love my career path and feel very lucky to be able to do something I love every day. I am looking forward to the future and helping to create some fun and exciting experiences in the park.
 
 
-* * *
 
 Roberto Gonzalez<br /><small>_AKA_ Rob<br />_AKA_ Robgonz<br />_AKA_ Robzilla</small>
 -----------------
@@ -126,7 +128,6 @@ Likes
 : 1) Growing up in Los Angeles I have seen its transformation like a living breathing organism, filled with all walks of life. Different is the norm here and what makes L.A. great. From the mountains to the beaches, from a red carpet to a taco truck, we have the cure for what ails you. This is the place for everyone, all are welcomed.
 
 
-* * *
 
 Javier Guillen<br /><small>_AKA_ GoEastLos<br /></small>
 -----------------
@@ -145,7 +146,6 @@ Likes
 : Anything LA
 
 
-* * *
 
 Nicole Mauricio
 ---------------
@@ -169,7 +169,6 @@ Favorite Food(s)
 : Hawaii born and raised, Filipino-American always looking for adventures whether it be traveling to places near and far, taking on new hobbies, or trying out different types of food. Grand Park can be your next adventure – a destination for your event, film shoot, or photo shoot!
 
 
-* * *
 
 Cailin Nolte
 ---------------
@@ -196,7 +195,6 @@ Favorite Quote
 : Coming to Los Angeles by way of Boston, I’m excited to help bring to life events full of dancing, music, food, fun and community! Let’s hang out, LA!
 
 
-* * *
 
 John Rooney
 ---------------
@@ -217,7 +215,6 @@ Favorite Food(s)
 : Mexican and Italian
 
 
-* * *
 
 Angela Tsai
 ---------------

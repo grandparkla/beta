@@ -2,17 +2,19 @@
 title: Yoga reTREAT
 ---
 
-# <small>Lunch à la Park</small><br />Yoga reTREAT
+<nav markdown="1">
+* [Things to do](/events/)
+* [Lunch à la Park](/lunch/)
+</nav>
 
-Every Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
+# Yoga reTREAT
+
+Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time><br />
+_<small>November 2, 2018 – May 30, 2019</small>_<br />
 
 <figure>
   <img src="/uploads/yoga-4.jpg" alt="Yoga" height="500" />
 </figure>
-
-## Dates
-
-November 2, 2018 – May 30, 2019
 
 ## Location
 

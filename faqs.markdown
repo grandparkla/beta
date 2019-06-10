@@ -2,6 +2,9 @@
 title: FAQs
 ---
 
+<nav markdown="1">
+* [Plan your visit](/visit/)
+</nav>
 
 FAQs
 ====

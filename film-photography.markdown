@@ -2,6 +2,10 @@
 title: Film & Photography
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 Film & Photography
 ==================
 

@@ -25,16 +25,24 @@ title: Things to do
 Things to do
 =============================================
 
+Relax, have a picnic, and enjoy our free events and activities.
+
+<nav markdown="1">
+*   [Today](/events/#today)
+*   [Every week](/events/#weekly)
+*   [Calendar](/calendar/)
+*   [Programs](/programs/)
+</nav>
+
+<!-- 
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
-*   [Every week](#weekly)
-*   [Summer season](#seasonal)
-</nav>
+*   [Lunch à la park](/lunch/)
+*   [Summer season](/summer/)
+</nav> -->
 
-## Every week <span class="avoid-break">at Grand Park</span> <a id="weekly"></a>
-
-These two events are held every week at lunchtime. Just drop in for _Lunch à la Park!_
+## Today at Grand Park <a id="today"></a>
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
@@ -46,13 +54,42 @@ These two events are held every week at lunchtime. Just drop in for _Lunch à la
         <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
         -->
         <p>
-          Tuesday, Wednesday &amp; Thursday
+          Today at 11 a.m.
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/food-trucks-3.jpg" height="300" alt="" />
     </a>
   </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>LUNCH À LA PARK</h3>
+        <h4>Yoga reTREAT</h4>
+        <!--
+        <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
+        -->
+        <p>
+          Today at 12:15 p.m.
+          <!--
+          <br />June 12 &amp; 14<br /><time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
+          -->
+        </p>
+      </div>
+      <img src="/uploads/yoga-3.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
+* * *
+
+## Lunch à la park<a id="weekly"></a>
+
+### Every week at lunchtime
+
+Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
+
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/yoga/">
       <div>
@@ -71,72 +108,26 @@ These two events are held every week at lunchtime. Just drop in for _Lunch à la
       <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
-  <!--
   <li>
-    <a href="/spring-concerts/">
+    <a href="/food-trucks/">
       <div>
         <h3>LUNCH À LA PARK</h3>
-        <h4>Spring Concerts</h4>
-        <p>Thursday</p>
+        <h4>Food Trucks</h4>
+        <!--
+        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
+        -->
+        <p>
+          Tuesday, Wednesday &amp; Thursday
+          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
+        </p>
       </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
-    </a>
-  </li>
-  -->
-</ol>
-
-## Summer at <span class="avoid-break">Grand Park</span> <a id="seasonal"></a>
-
-L.A.’s finest House music curators and DJs are hosting dance parties this summer, <span class="avoid-break">with free admission!</span>
-
-<ol class="event-list">
-  <li>
-    <a href="/sunday-sessions/">
-      <div>
-        <h3>Summer Season</h3>
-        <h4>Sunday Sessions</h4>
-        <p>Free outdoor dance parties</p>
-      </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="https://july4.grandparkla.org/">
-      <div>
-        <h3>Holiday Celebrations</h3>
-        <h4>4th of July Block Party</h4>
-        <p>Free admission</p>
-      </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
 
-{% comment %}
-<div style="margin-top: 6em;"></div>
+* * *
 
-## About the Park
+{% include calendar.markdown %}
 
-A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. The new Grand Park, with its majestic views extending from the Music Center to City Hall,  provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
-
-Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.
-
-### Four distinct areas
-
-Grand Park has four distinct areas featuring amenities ranging from a restored historic Arthur J. Will Memorial Fountain with a new wade-able membrane pool, a small intimate performance lawn, a community terrace planted with drought tolerant specimen plants representing the diverse cultural make-up of Los Angeles itself, and a grand event lawn.
-
-
-<!-- <blockquote>
-  <p>Grand Park is my favorite lunch place.</p>
-  <caption>–Justice Stanley Mosk</caption>
-</blockquote> -->
-
-The new Grand Park allows for a strong visual and physical connection from Grand Avenue via a series of stairs, accessible ramps and sloped walks as well as a new elevator to invite more pedestrians into a vibrant garden environment, a place to come together in a welcoming and distinctly urban oasis.
-
-
-<figure>
-  <img src="/uploads/yoga-4.jpg" alt="" />
-  <figcaption>Lunchtime Yoga at Grand Park</figcaption>
-</figure>
-{% endcomment %}
 

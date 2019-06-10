@@ -1,16 +1,29 @@
 ---
-title: Lunch à la park
+title: Programs
 ---
 
 <nav markdown="1">
-* [Programs](/programs/)
+*   [Things to do](/events/)
 </nav>
 
-# Lunch à la park
+Programs
+========
+
+Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
+
+<nav markdown="1">
+*   [Lunch à la park](/lunch/)
+*   [Summer season](/summer/)
+</nav>
+
+
+Lunch à la park
+---------------
 
 ### Every week at lunchtime
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
+
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
   <li>
@@ -46,3 +59,32 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 </ol>
 
 
+Summer season
+-------------
+
+### Free admission events, on select Sundays and holidays
+
+L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
+
+<ol class="event-list">
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Summer Season</h3>
+        <h4>Sunday Sessions</h4>
+        <p>2019</p>
+      </div>
+      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="https://july4.grandparkla.org/">
+      <div>
+        <h3>Summer Season</h3>
+        <h4>4th of July Block Party</h4>
+        <p>2019</p>
+      </div>
+      <img src="/uploads/july4.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>

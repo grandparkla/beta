@@ -2,6 +2,10 @@
 title: Job Opportunities
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 Job Opportunities
 =================
 

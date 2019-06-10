@@ -2,6 +2,10 @@
 title: For members of the media
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 For members of the media
 =========
 

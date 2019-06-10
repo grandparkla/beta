@@ -2,6 +2,10 @@
 title: Donate
 ---
 
+<nav markdown="1">
+* [About the park](/about/)
+</nav>
+
 Donate
 ======
 
