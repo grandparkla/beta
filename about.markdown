@@ -13,13 +13,14 @@ About the park
 
 <nav markdown="1">
 *   [Film & photography](#film-photography)
+*   [For members of the media](/for-media/)
+*   [For vendors](#vendors)
 *   [Contact us](#contact-us)
 </nav>
 
 <nav markdown="1">
 *   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
-*   [For members of the media](/for-media/)
 *   [Sign up for news](/sign-up/)
 *   [Donate](/donate/)
 </nav>
@@ -74,6 +75,7 @@ _For general questions, please call us or send us an email:_
 213-972-8080  
 [grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org)
 
+
 * * *
 
 Rental Information
@@ -83,13 +85,14 @@ We host anything from weddings to entire graduations.
 
 Interested in planning your event at Grand Park? _These steps will help you get started:_
 
-1. Check out [Frequently Asked Questions](https://grandparkla.org/wp-content/uploads/2012/09/FAQs.-For-Website.-Jan-2016.pdf).
+1. Check out the [Frequently asked questions](/uploads/faqs-january-2016.pdf).
 
-2. Fill out and submit the [Event Inquiry Form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form).
+2. Fill out and submit the [event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form).
 
 3. Sit back and relax. <small><i>Many thanks for your patience.</i></small>
 
 If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)
+
 
 * * *
 
@@ -98,5 +101,16 @@ Film & Photography <a id="film-photography"></a>
 
 Need to film in Grand Park? Learn about filming in the park and tell us a little bit about your planned photo shoot to help us help you.
 
-Please fill out and submit the [Film & Photoshoot Form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform).
+Please fill out and submit the [film & photoshoot inquiry form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform).
 
+
+* * *
+
+Vendors
+------------------
+
+Grand Park is currently working with local vendors to enhance events.
+
+All needs are met at the moment, _but_ if you’d like to let us know who you are and what you sell, please fill out and submit the [vendor inquiry form](https://docs.google.com/forms/d/1nETieVIcp_6Ijb_waW-UNpZO08NzK0wS7KmAkdJ98TE/viewform).
+
+_We will contact you only if the opportunity arises and there is a need for what you’re selling._
