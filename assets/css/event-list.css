@@ -57,6 +57,8 @@
   position: relative;
   z-index: 1;
   padding: 0.75em;
+  background-color: white;
+  color: black;
   background-color: var(--snow);
   color: var(--midnight);
   align-self: end;
@@ -72,9 +74,13 @@
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.1em;
+  font-style: normal;
 }
 .event-list a h4 {
   font-size: 1.25em;
+  /*! color: var(--pink); */
+  font-style: normal;
+  /*! font-weight: bold; */
 }
 .event-list a p {
   font-size: 0.875em;

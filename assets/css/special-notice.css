@@ -16,7 +16,8 @@
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 0.5em;
-  color: hsl(56, 50%, 63%);
+  color: hsl(56, 40%, 40%);
+  font-style: normal;
 }
 .special-notice p {
   margin: 0;

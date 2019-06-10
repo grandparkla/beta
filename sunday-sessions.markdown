@@ -4,7 +4,7 @@ title: Sunday Sessions
 
 # <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions <small>2019</small></span>
 
-One Sunday each month from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
+Sundays this summer, from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time>
 
 * June 23
 * July 21
@@ -40,4 +40,3 @@ September 22
 : Dublab’s 20th Anniversary
 
 _Stay tuned as we announce DJs in the coming weeks!_
-

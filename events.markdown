@@ -1,5 +1,5 @@
 ---
-title: Things to Do
+title: Things to do
 ---
 
 <style>
@@ -22,14 +22,14 @@ title: Things to Do
 </div>
 -->
 
-Things to Do
+Things to do
 =============================================
 
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
-*   [Every Week](#weekly)
-*   [Summer Season](#seasonal)
+*   [Every week](#weekly)
+*   [Summer season](#seasonal)
 </nav>
 
 * * *
