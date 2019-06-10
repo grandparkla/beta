@@ -20,7 +20,6 @@ For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/vis
 </nav>
 
 
-* * *
 
 ## Media Contact
 
@@ -31,7 +30,6 @@ Lisa Ducore
 213-972-3328
 
 
-* * *
 
 ## Media Kit
 
@@ -45,7 +43,6 @@ Lisa Ducore
     ([English](http://grandpark.lacounty.gov/pdf/Grand%20Park%20Design%20Backgrounder%20ENG%201012.pdf)) ([Spanish](http://grandpark.lacounty.gov/pdf/Grand%20Park%20Design%20Backgrounder%20SPAN%201012.pdf))
 
 
-* * *
 
 ## Multi-media Images <a id="images"></a>
 
@@ -58,7 +55,6 @@ Lisa Ducore
 *   [Grand Park Grand Opening Block Party](http://grandpark.lacounty.gov/c/BlockParty/blockparty.html)
 
 
-* * *
 
 ## Video & B-roll <a id="video"></a>
 
@@ -79,7 +75,6 @@ Lisa Ducore
 </p>
 
 
-* * *
 
 ## News Releases
 

@@ -14,7 +14,7 @@ Grand Park is open every day from 5:30 a.m. to 10:00 p.m.
 </nav>
 
 <figure>
-  <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
 </figure>
 
 

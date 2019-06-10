@@ -45,4 +45,9 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
+* * *
+
+<figure>
+  <img src="/uploads/lunch.jpg" alt="Lunch" height="500" />
+</figure>
 

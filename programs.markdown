@@ -16,6 +16,11 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Summer season](/summer/)
 </nav>
 
+<figure>
+  <img src="/uploads/sunday-sessions-8.jpg" alt="Sunday Sessions" height="500" />
+</figure>
+
+* * *
 
 Lunch à la park
 ---------------
@@ -23,7 +28,6 @@ Lunch à la park
 ### Every week at lunchtime
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
-
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
   <li>
@@ -58,6 +62,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
+* * *
 
 Summer season
 -------------
