@@ -235,7 +235,7 @@ main > nav:first-child li {
   display: inline;
 }
 main > nav:first-child a {
-  text-decoration: none;
+  /*! text-decoration: none; */
 }
 main > nav:first-child a::after {
   content: "/";
@@ -259,7 +259,7 @@ main > nav ul {
   main > nav:not(:first-child)  li a {
     display: inline-block;
     padding: 0.25em 0.75em;
-    text-decoration: none;
+    /* text-decoration: none; */
     position: relative;
   }
 /*   main > nav li a {

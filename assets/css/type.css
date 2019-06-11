@@ -45,9 +45,14 @@
   }
   header a {
 /*     font-weight: bold; */
-    text-decoration: none;
+    /*! text-decoration: none; */
     /*! color: var(--text-color); */
   }
+header a:hover,
+header a:active,
+header a:focus {
+  text-decoration: underline;
+}
 
   dt {
     /*! font-weight: bold; */
