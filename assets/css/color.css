@@ -54,6 +54,16 @@
     /*! color: var(--snow); */
     color: var(--strawberry);
     background-color: hsl(86,  1%, 95%);
+/*
+    background-image:
+      linear-gradient(to bottom, var(--banana), var(--banana) 0.2em, transparent 0.2em, transparent),
+      linear-gradient(to bottom, transparent, transparent 0.4em, var(--lime) 0.4em, var(--lime) 0.5em, transparent 0.5em, transparent),
+      linear-gradient(to bottom, transparent, transparent 0.7em, var(--lime) 0.7em, var(--lime) 0.9em, transparent 0.9em, transparent),
+      linear-gradient(to top, transparent, transparent 1.5em, var(--lime) 1.5em, var(--lime) 1.6em, transparent 1.6em, transparent),
+      linear-gradient(to top, transparent, transparent 1.2em, var(--banana) 1.2em, var(--banana) 1.4em, transparent 1.4em, transparent),
+      linear-gradient(to top, transparent, transparent 0.7em, var(--strawberry) 0.7em, var(--strawberry) 0.9em, transparent 0.9em, transparent),
+      linear-gradient(to top, var(--lime), var(--lime) 0.4em, transparent 0.4em, transparent);
+*/
   }
   header h2 a {
     color: inherit;

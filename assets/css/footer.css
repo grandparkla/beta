@@ -11,6 +11,7 @@
   }
   .powered-by {
     font-weight: inherit;
+    font-style: inherit;
   }
 
   /* =Footer
@@ -39,6 +40,9 @@
     max-width: none;
     text-align: center;
   }
+.legal {
+  max-width: 40em;
+}
   @media (min-width: 45em) {
     .logos {
       margin-top: 4.35em;

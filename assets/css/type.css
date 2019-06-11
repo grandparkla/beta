@@ -44,9 +44,9 @@
     font-size: inherit;
   }
   header a {
-    font-weight: bold;
+/*     font-weight: bold; */
     text-decoration: none;
-    color: var(--text-color);
+    /*! color: var(--text-color); */
   }
 
   dt {
@@ -81,7 +81,7 @@
     font-style: inherit;
     color: var(--strawberry);
   }
-  @media (min-width: 40em) {
+  @media (min-width: 60em) {
     main > h1.welcome {
       font-size: 3.25vw;
       margin-bottom: -5rem;

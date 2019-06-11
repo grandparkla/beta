@@ -7,11 +7,32 @@ permalink: pretty
 
 hide_from_search_engines: true
 
+# collections:
+#   posts:
+#     title: Blog
+#     output: true
+#   events:
+#     title: Events
+#     output: true
+
 defaults:
 - scope:
     path: ''
   values:
     layout: default
+# - scope:
+#     path: ''
+#     type: posts
+#   values:
+#     excerpt: ''
+#     author: ''
+#     categories: blog
+#     layout: post
+# - scope:
+#     path: ''
+#     type: events
+#   values:
+#     layout: event
 
 exclude:
 - CNAME
@@ -20,5 +41,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.29
+version: 0.0.30
 
