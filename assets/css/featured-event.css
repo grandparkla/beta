@@ -10,7 +10,7 @@
 .featured-event a {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  background: var(--pink);
+  background: var(--strawberry);
   background: black;
   color: white;
   text-decoration: none;
@@ -42,7 +42,7 @@
   font-weight: normal;
 }
 .featured-event a h4 {
-  color: var(--yellow);
+  color: var(--banana);
   font-size: inherit;
 }
 

@@ -4,7 +4,7 @@
 .special-notice {
   padding: 0.75em 1.5em;
   text-align: center;
-  background-color: var(--yellow);
+  /*! background-color: var(--banana); */
 }
 .special-notice h2 {
   font-size: inherit;

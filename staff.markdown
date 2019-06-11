@@ -1,5 +1,5 @@
 ---
-title: Meet the Staff / Jobs
+title: Meet the Staff
 ---
 
 <nav markdown="1">

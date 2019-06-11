@@ -3,47 +3,59 @@
   /* =Colors
   ----------------------------------------------- */
   :root {
-    --midnight : hsl(0, 0%, 16%);
-    --midnight : hsl(120, 1%, 30%);
+    --midnight:          hsl(0, 0%, 16%);
 
-    --snow     : HSL(0, 0%, 99%);
+    --snow:              hsl(0, 0%, 99%);
     
-    --yellow   : hsl(56, 97%, 63%);
-    --dark-yellow   : hsl(56, 92%, 53%);
-    --pink     : hsl(329, 90%, 48%);
-    --green    : hsl(86, 53%, 51%);
-    --dark-green : hsl(86, 43%, 41%);
-    --blue: hsl(196, 82%, 72%);
-    --dark-blue: hsl(196, 79%, 36%);
-    --dark-blue-alpha: hsla(196, 79%, 36%, 25%);
+    --banana:            hsl(56, 97%, 63%);
+    --banana-darker:     hsl(56, 92%, 53%);
 
-    --primary-color: var(--green);
-    --secondary-color: var(--snow);
-  }
+    --strawberry:        hsl(329, 90%, 48%);
+    --strawberry-darker: hsl(329, 80%, 38%);
 
-  main {
-    background-color: hsl(86, 3%, 97%);
+    --lime:              hsl(86, 53%, 51%);
+    --lime-brightest:    hsl(86,  3%, 97%);
+    --lime-darker:       hsl(86, 43%, 41%);
+    --lime-darkest:      hsl(86,  1%, 30%);
+
+    --sky:               hsl(196, 82%, 72%);
+    --sky-darker:        hsl(196, 79%, 36%);
+    --sky-darker-alpha: hsla(196, 79%, 36%, 25%);
+
+    --primary-color:               var(--lime);
+    --primary-color-readability:   var(--lime-darker);
+    --secondary-color:             var(--strawberry);
+    --secondary-color-readability: var(--strawberry);
+
+    --headline-color:   var(--secondary-color-readability);
+    --action-color:     var(--primary-color);
+    --link-color:       var(--primary-color-readability);
+    --text-color:       var(--lime-darkest);
   }
 
   a {
-    color: var(--dark-green);
+    color: var(--link-color);
   }
 
   body {
     background-color: var(--snow);
-    color: var(--midnight);
+    color: var(--text-color);
   }
 
+  main {
+    background-color: var(--lime-brightest);
+  }
 
   header {
     /* background-image:
-      linear-gradient(to bottom, var(--yellow), var(--yellow) 0.375em, transparent 0.375em, transparent),
-      linear-gradient(to top, var(--green), var(--green) 0.375em, transparent 0.375em, transparent); */
-    background-color: var(--green);
-    color: var(--snow);
+      linear-gradient(to bottom, var(--banana), var(--banana) 0.375em, transparent 0.375em, transparent),
+      linear-gradient(to top, var(--lime), var(--lime) 0.375em, transparent 0.375em, transparent); */
+    /*! background-color: var(--primary-color); */
+    /*! color: var(--snow); */
+    color: var(--strawberry);
+    background-color: hsl(86,  1%, 95%);
   }
-  header h2,
-  header a {
+  header h2 a {
     color: inherit;
   }
 
@@ -63,7 +75,7 @@
     height: 33vw;
     position: absolute;
     z-index: -1;
-    background-color: var(--yellow);
+    background-color: var(--banana);
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -73,26 +85,26 @@
 }
   
   /* header {
-    color: var(--dark-blue);
+    color: var(--sky-darker);
   }
   header a {
-    color: var(--dark-blue);
+    color: var(--sky-darker);
   } */
   /* header {
-    color: var(--dark-green);
+    color: var(--lime-darker);
   }
   main h1 {
-    color: var(--pink);
+    color: var(--strawberry);
   } */
   @media (min-width: 60em) {
     /* main h1 {
       color: var(--snow);
-      text-shadow: 0 0 0.2em var(--dark-blue-alpha);
+      text-shadow: 0 0 0.2em var(--sky-darker-alpha);
     } */
     main h1 + p {
       /*! grid-column: 1/-1; */
       /*! margin-left: 3em; */
-      /*! color: var(--dark-blue); */
+      /*! color: var(--sky-darker); */
       font-size: 1.25em;
       /* margin-right: 3em; */
       grid-column: 2/-2;
@@ -108,14 +120,14 @@
 
 
   mark {
-    background-color: var(--yellow);
+    background-color: var(--banana);
   }
 
 @media (false) {
 
   a {
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
-    color: var(--pink);
+    color: var(--strawberry);
   }
 
   a:visited {
@@ -124,7 +136,7 @@
   a:hover,
   a:active,
   a:focus {
-    color: var(--green);
+    color: var(--lime);
   }
 
   header h2 svg > * {

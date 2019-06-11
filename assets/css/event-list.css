@@ -42,7 +42,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background: var(--pink);
+  background: var(--strawberry);
   background: black;
   color: white;
   text-decoration: none;
@@ -60,7 +60,7 @@
   background-color: white;
   color: black;
   background-color: var(--snow);
-  color: var(--midnight);
+  color: var(--lime-darkest);
   align-self: end;
   justify-self: start;
   margin: 0.75em;
@@ -78,7 +78,7 @@
 }
 .event-list a h4 {
   font-size: 1.25em;
-  /*! color: var(--pink); */
+  /*! color: var(--strawberry); */
   font-style: normal;
   /*! font-weight: bold; */
 }

@@ -2,13 +2,6 @@
 title: Things to do
 ---
 
-<style>
-:root {
-  --primary-color: var(--pink);
-  --secondary-color: var(--yellow);
-}
-</style>
-
 <!--
 <div class="featured-event">
   <a href="https://july4.grandparkla.org/">

@@ -3,13 +3,6 @@ title: Grand Park LA
 permalink: /
 ---
 
-<style>
-:root {
-  --primary-color: var(--pink);
-  --secondary-color: var(--yellow);
-}
-</style>
-
 <!--
 <div class="featured-event">
   <a href="https://july4.grandparkla.org/">
@@ -42,6 +35,8 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>欢迎</em>
   <em>स्वागत हे</em>
   <em>желанный</em>
+  <em>Maligayang pagdating</em>
+  <em>أهلا بك</em>
 </h1>
 
 <div></div>

@@ -2,13 +2,6 @@
 title: Eat & Drink
 ---
 
-<style>
-:root {
-  --primary-color: var(--yellow);
-  --secondary-color: var(--pink);
-}
-</style>
-
 # Eat & Drink
 
 Grab a bite to eat or a drink and enjoy it in the sunshine.

@@ -15,8 +15,8 @@
   border-radius: 0.25em;
   transition: background-color 0.2s, color 0.2s;
   font-weight: bold;
-  background-color: var(--blue);
-  color: var(--dark-blue);
+  background-color: var(--sky);
+  color: var(--sky-darker);
 
   background-color: transparent;
   color: inherit;
@@ -37,8 +37,8 @@
   color: white;
   text-decoration: none;
   
-  background-color: var(--dark-blue);
+  background-color: var(--sky-darker);
   color: var(--snow);
 
-  background-color: var(--dark-green);
+  background-color: var(--lime-darker);
 }
