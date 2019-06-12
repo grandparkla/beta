@@ -29,7 +29,7 @@
   <li>
     <a href="/yoga/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
@@ -39,7 +39,7 @@
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
@@ -83,7 +83,7 @@
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
@@ -112,7 +112,7 @@
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
@@ -141,7 +141,7 @@
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>

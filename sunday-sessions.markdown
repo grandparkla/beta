@@ -7,7 +7,7 @@ title: Sunday Sessions
 * [Summer season](/summer/)
 </nav>
 
-# <small>Grand Park presents</small><br />Sunday <span class="avoid-break">Sessions <small>2019</small></span>
+# <small>Grand Park presents</small> Sunday Sessions <small>2019</small>
 
 Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time><br />
 _<small>June 23, July 21, August 18, and September 22</small>_<br />

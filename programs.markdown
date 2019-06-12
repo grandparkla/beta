@@ -33,7 +33,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
@@ -43,7 +43,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/yoga/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
@@ -53,7 +53,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/spring-concerts/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>

@@ -196,6 +196,18 @@ main > hr + h2 + p {
   max-width: none;
 } */
 
+main > h1 small {
+  font-size: 0.5em;
+  margin-top: 1em;
+  font-style: italic;
+  display: block;
+  color: var(--text-color);
+}
+main > h1 small:last-child {
+  font-style: normal;
+  color: var(--lime-darker);
+}
+
 @media (min-width: 60em) {
   main > h1 {
     font-size: 4.09vw;
@@ -206,13 +218,12 @@ main > hr + h2 + p {
     font-weight: inherit;
     /*! color: var(--lime); */
   }
-  main > h1 small:first-child {
-    font-size: 2rem;
-    color: var(--strawberry);
+  main > h1 small {
+    font-size: 0.25em;
   }
   main > h1 small:last-child {
-    font-size: 2rem;
-    color: inherit;
+    font-size: 0.375em;
+    display: inline;
   }
 }
 

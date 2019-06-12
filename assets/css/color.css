@@ -27,8 +27,8 @@
     --secondary-color:             var(--strawberry);
     --secondary-color-readability: var(--strawberry);
 
-    --headline-color:   var(--secondary-color-readability);
-    --headline-color:   inherit;
+    /* --headline-color:   var(--secondary-color-readability); */
+    --headline-color:   var(--lime);
     --action-color:     var(--primary-color);
     --link-color:       var(--primary-color-readability);
     --text-color:       var(--lime-darkest);
@@ -70,7 +70,7 @@
 */
   }
   header h2 a {
-    color: inherit;
+    color: var(--strawberry);
   }
 
   @media (false) {

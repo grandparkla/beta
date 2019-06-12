@@ -10,7 +10,7 @@ Grab a bite to eat or a drink and enjoy it in the sunshine.
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>LUNCH À LA PARK</h3>
+        <h3>Lunch à la park</h3>
         <h4>Food Trucks</h4>
         <p>Tuesday, Wednesday and Thursday, <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
       </div>

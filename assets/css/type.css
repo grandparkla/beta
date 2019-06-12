@@ -80,11 +80,12 @@ header a:focus {
   h1.welcome {
     line-height: 1;
     font-weight: inherit;
+    color: hsl(86,  1%, 30%);
+    color: var(--strawberry);
   }
   h1.welcome em {
     display: inline-block;
     font-style: inherit;
-    color: var(--strawberry);
   }
   @media (min-width: 60em) {
     main > h1.welcome {
@@ -94,10 +95,12 @@ header a:focus {
   }
 
   h1.welcome em:nth-of-type(2n+1) {
+    color: hsl(86,  1%, 45%);
     color: var(--banana-darker);
     text-shadow: none;
   }
   h1.welcome em:nth-of-type(3n+1) {
+    color: hsl(86,  1%, 60%);
     color: var(--lime);
     text-shadow: none;
   }
