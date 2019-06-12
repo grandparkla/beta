@@ -28,6 +28,7 @@
     --secondary-color-readability: var(--strawberry);
 
     --headline-color:   var(--secondary-color-readability);
+    --headline-color:   inherit;
     --action-color:     var(--primary-color);
     --link-color:       var(--primary-color-readability);
     --text-color:       var(--lime-darkest);
@@ -36,6 +37,9 @@
   a {
     color: var(--link-color);
   }
+  /* a:visited {
+    color: var(--text-color);
+  } */
 
   body {
     background-color: var(--snow);

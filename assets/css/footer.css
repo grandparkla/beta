@@ -27,7 +27,6 @@
   }
   .powered-by a,
   .powered-by span {
-    text-decoration: none;
     display: inline-block; /* SHIM: Avoid wrapping links inside the last header */
   }
   .legal,

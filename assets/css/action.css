@@ -27,6 +27,10 @@
 
   border-color: hsla(86, 43%, 41%, 75%);
   color: hsla(86, 43%, 41%, 95%);
+  
+  border-color: transparent;
+  background-color: var(--lime);
+  color: var(--snow);
 }
 .action a[href]:hover,
 .action a[href]:active,
