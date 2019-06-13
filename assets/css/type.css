@@ -94,8 +94,8 @@ header a:focus {
   h1.welcome {
     line-height: 1;
     font-weight: inherit;
-    color: hsl(86,  1%, 30%);
-    color: var(--strawberry);
+/*     color: hsl(86,  1%, 30%);
+    color: var(--strawberry); */
   }
   h1.welcome em {
     display: inline-block;
@@ -103,12 +103,12 @@ header a:focus {
   }
   @media (min-width: 60em) {
     main > h1.welcome {
-      font-size: 3.25vw;
+      font-size: 3vw;
       margin-bottom: -5rem;
     }
   }
 
-  h1.welcome em:nth-of-type(2n+1) {
+/*   h1.welcome em:nth-of-type(2n+1) {
     color: hsl(86,  1%, 45%);
     color: var(--banana-darker);
     text-shadow: none;
@@ -117,7 +117,7 @@ header a:focus {
     color: hsl(86,  1%, 60%);
     color: var(--lime);
     text-shadow: none;
-  }
+  } */
 
 .avoid-break {
   display: inline-block;

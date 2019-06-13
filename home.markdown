@@ -27,12 +27,12 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>Bienvenidos</em>
   <!-- <em>Bienvenue</em> -->
   <em>ยินดีต้อนรับ</em>
+  <em>Welina</em>
   <em>ようこそ</em>
   <em>Välkommen</em>
-  <em>Welina</em>
-  <em>Chào mừng bạn</em>
   <!-- <em>Herzlich willkommen</em> -->
   <em>欢迎</em>
+  <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
   <em>желанный</em>
   <em>Maligayang pagdating</em>
