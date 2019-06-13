@@ -5,7 +5,8 @@ title: Plan your visit
 Plan your visit
 =================
 
-Grand Park is open every day from 5:30 a.m. to 10:00 p.m.
+Grand Park is open every day from 5:30 a.m. to 10:00 p.m.<br />
+_<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 
 <nav markdown="1">
 *   [Directions to the park](/directions/)

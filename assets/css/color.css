@@ -49,6 +49,27 @@
     color: var(--text-color);
   } */
 
+  /* main > ul > li {
+    list-style-type: square;
+  } */
+
+  /* main > ul > li {
+    list-style-type: none;
+  }
+  main > ul > li + li {
+    margin-top: 0.75em;
+  }
+  main > ul > li::before {
+    content: "";
+    display: inline-block;
+    width: 0.375em;
+    height: 0.375em;
+    background-color: var(--banana);
+    vertical-align: middle;
+    margin-right: 0.5em;
+    margin-left: -1em;
+  } */
+
   body {
     background-color: var(--snow);
     color: var(--text-color);
@@ -131,7 +152,12 @@
   main h1 {
     color: var(--strawberry);
   } */
-  @media (min-width: 60em) {
+@media (min-width: 60em) {
+  main h1 + p {
+      grid-column: 2/-2;
+    }
+}
+  @media (min-width: 80em) {
     /* main h1 {
       color: var(--snow);
       text-shadow: 0 0 0.2em var(--sky-darker-alpha);
@@ -140,9 +166,8 @@
       /*! grid-column: 1/-1; */
       /*! margin-left: 3em; */
       /*! color: var(--sky-darker); */
-      font-size: 1.25em;
+      font-size: 1.5vw;
       /* margin-right: 3em; */
-      grid-column: 2/-2;
       /*! font-style: italic; */
       /*! margin-bottom: 3em; */
     }

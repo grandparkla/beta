@@ -1,12 +1,12 @@
 ---
-title: Vendors
+title: For vendors
 ---
 
 <nav markdown="1">
 * [About the park](/about/)
 </nav>
 
-Vendors
+For vendors
 =======
 
 ### Grand Park is currently working with local vendors to enhance events.
@@ -16,6 +16,6 @@ All needs are met at the moment, _but_ if you’d like to let us know who you ar
 <small>We will contact you only if the opportunity arises and there is a need for what you’re selling.</small>
 
 <p class="action" markdown="1">
-[vendor inquiry form](https://docs.google.com/forms/d/1nETieVIcp_6Ijb_waW-UNpZO08NzK0wS7KmAkdJ98TE/viewform)
+[Vendor inquiry form](https://docs.google.com/forms/d/1nETieVIcp_6Ijb_waW-UNpZO08NzK0wS7KmAkdJ98TE/viewform)
 </p>
 
