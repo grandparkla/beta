@@ -4,7 +4,7 @@ title: Things to do
 
 <!--
 <div class="featured-event">
-  <a href="https://july4.grandparkla.org/">
+  <a href="/july4/">
     <div>
       <h3>2019 / Summer Season</h3>
       <h4><img src="/uploads/july4.svg" height="300" alt="4th of July Block Party" /></h4>

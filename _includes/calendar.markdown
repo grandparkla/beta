@@ -54,7 +54,7 @@
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="https://july4.grandparkla.org/">
+    <a href="/july4/">
       <div>
         <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>

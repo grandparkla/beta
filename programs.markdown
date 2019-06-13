@@ -83,7 +83,7 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
     </a>
   </li>
   <li>
-    <a href="https://july4.grandparkla.org/">
+    <a href="/july4/">
       <div>
         <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>

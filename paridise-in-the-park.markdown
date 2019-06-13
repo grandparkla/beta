@@ -22,7 +22,7 @@ _<small>June 1, 2019</small>_
 Grand Park’s **Event Lawn** _(between Broadway and Spring)_
 
 <p class="action" markdown="1">
-[Directions to the Park](/visit/#directions)
+[Directions to the Park](/directions/)
 </p>
 
 ## About

@@ -21,7 +21,7 @@ _<small>June 23, July 21, August 18, and September 22</small>_<br />
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
 <p class="action" markdown="1">
-[Directions to the Park](/visit/#directions)
+[Directions to the Park](/directions/)
 </p>
 
 ## Cost

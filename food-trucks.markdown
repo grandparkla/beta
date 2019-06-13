@@ -23,7 +23,7 @@ _<small>Year-round, except on holidays</small>_
 Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(close to Starbucks)_
 
 <p class="action" markdown="1">
-[Directions to the Park](/visit/#directions)
+[Directions to the Park](/directions/)
 </p>
 
 

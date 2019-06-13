@@ -5,7 +5,7 @@ permalink: /
 
 <!--
 <div class="featured-event">
-  <a href="https://july4.grandparkla.org/">
+  <a href="/july4/">
     <div>
       <h3>2019 / Summer Season</h3>
       <h4><img src="/uploads/july4.svg" height="300" alt="4th of July Block Party" /></h4>
@@ -68,7 +68,7 @@ Relax, have a picnic, and enjoy our free events and activities.
 
 <!-- <nav markdown="1">
 *   [Hours](/visit/#hours)
-*   [Directions to the Park](/visit/#directions-to-the-park)
+*   [Directions to the Park](/directions/-to-the-park)
 </nav> -->
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -120,7 +120,7 @@ Relax, have a picnic, and enjoy our free events and activities.
     </a>
   </li>
   <li>
-    <a href="https://july4.grandparkla.org/">
+    <a href="/july4/">
       <div>
         <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>

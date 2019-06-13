@@ -21,7 +21,7 @@ _<small>November 2, 2018 – May 30, 2019</small>_<br />
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
 <p class="action" markdown="1">
-[Directions to the Park](/visit/#directions)
+[Directions to the Park](/directions/)
 </p>
 
 ## Cost
