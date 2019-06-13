@@ -133,7 +133,7 @@ h1.welcome svg * {
 }
   @media (min-width: 60em) {
     main > h1.welcome {
-      font-size: 3.2vw;
+      font-size: 3.4vw;
       margin-bottom: -5rem;
       grid-column: 1/-1;
       margin-left: 1.25em;
