@@ -4,6 +4,10 @@
 .special-notice {
   padding: 0.75em 1.5em;
   text-align: center;
+  /* background-color: hsl(86, 53%, 15%);
+  background-color: var(--strawberry);
+  color: var(--snow);
+  border-bottom: 0.125em solid var(--banana); */
   /*! background-color: var(--banana); */
 /*   background-color: hsl(86, 53%, 51%);
   color: var(--snow); */
@@ -27,10 +31,14 @@
   margin: 0;
   max-width: none;
 }
-.special-notice a {
+/* .special-notice a {
   color: inherit;
 }
-
+.special-notice a:hover,
+.special-notice a:active,
+.special-notice a:focus {
+  color: var(--banana);
+} */
 /*
 @media (min-width: 60em) {
   .special-notice h2 {

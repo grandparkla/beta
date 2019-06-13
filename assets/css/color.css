@@ -47,8 +47,15 @@
   }
 
   a {
-    color: var(--link-color);
+    color: var(--lime-darker);
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s, opacity 0.2s;
   }
+  a:hover,
+  a:active,
+  a:focus {
+    color: var(--strawberry);
+  }
+
   /* a:visited {
     color: var(--text-color);
   } */
@@ -122,9 +129,10 @@
   header ul a {
     /*! color: var(--banana); */
   }
-  header h2 a {
-    color: var(--strawberry);
-    color: inherit;
+  header a:hover,
+  header a:active,
+  header a:focus {
+    color: var(--banana);
   }
 
   @media (false) {
