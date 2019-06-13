@@ -211,13 +211,16 @@ main > h1 small:last-child {
 @media (min-width: 60em) {
   main > h1 {
     font-size: 4.09vw;
-    grid-column: 1/-1;
+    grid-column: 2/-2;
     margin: 0;
     text-align: left;
-    margin-left: 1em;
-    margin-right: 1em;
     font-weight: inherit;
     /*! color: var(--lime); */
+  }
+  main > h1.welcome {
+    grid-column: 1/-1;
+    margin-left: 1em;
+    margin-right: 1em;
   }
   main > h1 small {
     font-size: 0.25em;
