@@ -96,6 +96,8 @@ header a:focus {
     font-weight: inherit;
 /*     color: hsl(86,  1%, 30%);
     color: var(--strawberry); */
+    color: inherit;
+    text-shadow: 0.025em 0.025em 0em var(--lime);
   }
   h1.welcome em {
     display: inline-block;

@@ -25,16 +25,24 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 <h1 class="welcome">
   <em>Bienvenidos</em>
-  <!-- <em>Bienvenue</em> -->
   <em>ยินดีต้อนรับ</em>
   <em>Welina</em>
   <em>ようこそ</em>
-  <em>Välkommen</em>
-  <!-- <em>Herzlich willkommen</em> -->
+  <em>Benvenuta</em>
   <em>欢迎</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
+  <em>Välkommen</em>
   <em>желанный</em>
+  <em>Bem vinda</em>
+  <em>Üdvözöljük</em>
+  <em>Բարի գալուստ</em>
+  <em>Herzlich willkommen</em>
+  <em>ברוך הבא</em>
+  <em>Welkom</em>
+  <em>خوش آمدی</em>
+  <em>Bienvenue</em>
+  <em>환영</em>
   <em>Maligayang pagdating</em>
   <em>أهلا بك</em>
 </h1>
