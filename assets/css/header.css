@@ -32,6 +32,23 @@ header ul {
       margin-top: 1.5em;
     }
 
+body {
+  border-top: 0.25em solid var(--banana);
+}
+
+header {
+/*   border-bottom: 0.25em solid var(--lime); */
+  /*
+  background-image:
+      linear-gradient(to top, transparent, transparent 0.2em, var(--strawberry) 0.2em, var(--strawberry) 0.35em, transparent 0.35em, transparent),
+      linear-gradient(to bottom, transparent, transparent 0.25em, var(--banana) 0.25em, var(--banana) 0.5em, transparent 0.5em, transparent);
+  */
+  /*
+  background-image:
+      linear-gradient(to bottom, transparent, transparent 0.25em, var(--banana) 0.25em, var(--banana) 0.45em, transparent 0.45em, transparent); 
+  */
+}
+
     @media (min-width: 25em) {
       header {
         text-align: left;
