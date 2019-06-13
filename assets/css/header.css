@@ -205,7 +205,11 @@ main > h1 small {
 }
 main > h1 small:last-child {
   font-style: normal;
-  color: var(--headline-color);
+  color: var(--lime-darker);
+}
+
+main > h1 {
+  color: var(--lime);
 }
 
 @media (min-width: 60em) {
