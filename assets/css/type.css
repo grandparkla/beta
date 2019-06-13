@@ -96,8 +96,9 @@ header a:focus {
     font-weight: inherit;
 /*     color: hsl(86,  1%, 30%);
     color: var(--strawberry); */
-    color: inherit;
-    text-shadow: 0.025em 0.025em 0em var(--lime);
+    /* color: var(--evergreen);
+    text-shadow: 0.025em 0.025em 0em var(--lime); */
+    color: var(--lime);
   }
   h1.welcome em {
     display: inline-block;
@@ -110,14 +111,14 @@ header a:focus {
     }
   }
 
-/*   h1.welcome em:nth-of-type(2n+1) {
+  h1.welcome em:nth-of-type(2n+1) {
     color: hsl(86,  1%, 45%);
     color: var(--banana-darker);
     text-shadow: none;
   }
-  h1.welcome em:nth-of-type(3n+1) {
+  /* h1.welcome em:nth-of-type(3n+1) {
     color: hsl(86,  1%, 60%);
-    color: var(--lime);
+    color: var(--strawberry);
     text-shadow: none;
   } */
 

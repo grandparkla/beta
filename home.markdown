@@ -27,7 +27,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>Bienvenidos</em>
   <em>ยินดีต้อนรับ</em>
   <em>Welina</em>
-  <em>ようこそ</em>
+  <em>أهلا بك</em>
   <em>Benvenuta</em>
   <em>欢迎</em>
   <em>Chào mừng bạn</em>
@@ -41,10 +41,10 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>ברוך הבא</em>
   <em>Welkom</em>
   <em>خوش آمدی</em>
-  <em>Bienvenue</em>
-  <em>환영</em>
   <em>Maligayang pagdating</em>
-  <em>أهلا بك</em>
+  <em>환영</em>
+  <em>Bienvenue</em>
+  <em>ようこそ</em>
 </h1>
 
 <div></div>
