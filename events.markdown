@@ -35,7 +35,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Summer season](/summer/)
 </nav> -->
 
-## Today at Grand Park <a id="today"></a>
+## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>

@@ -29,6 +29,10 @@
   .powered-by span {
     display: inline-block; /* SHIM: Avoid wrapping links inside the last header */
   }
+.powered-by a:not(:active):not(:hover):not(:focus) {
+  color: inherit;
+  text-decoration: inherit;
+}
   .legal,
   .top {
     margin: 2.9em auto;
