@@ -7,22 +7,37 @@ title: Meet the Staff
 </nav>
 
 <style>
+@media (false) {
+  main > figure {
+    grid-column: 1/3;
+    align-self: center;
+    justify-self: end;
+    margin: 0;
+  }
+  h2 small {
+    font-style: italic;
+  }
+}
 main > figure img {
   border-radius: 50%;
   width: 15em;
   height: 15em;
   object-fit: cover;
 }
-h2 small {
-  font-style: italic;
-}
+
 h2 small em {
   letter-spacing: 0.1em;
   font-style: normal;
   font-family: "Noto Sans SC";
   text-transform: lowercase;
   font-variant: small-caps;
+  font-size: 0.5em;
 }
+
+h2 {
+  grid-column-start: 3;
+}
+
 </style>
 
 Meet the Staff <small>Team Grand Park</small>
@@ -33,7 +48,7 @@ Meet the Staff <small>Team Grand Park</small>
 
 
 Kat Carrido Bonds
------------------
+-------------
 
 _Marketing Manager_
 

@@ -5,8 +5,8 @@
   padding: 0.75em 1.5em;
   text-align: center;
   /*! background-color: var(--banana); */
-  background-color: hsl(86, 53%, 51%);
-  color: var(--snow);
+/*   background-color: hsl(86, 53%, 51%);
+  color: var(--snow); */
 }
 .special-notice h2 {
   font-size: inherit;

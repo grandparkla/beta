@@ -1,8 +1,9 @@
 
 ## June 2019
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
+
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <!-- <li>
     <a href="/events/2019/6/21/paradise-in-the-park/">
       <div>
         <h3>Lease Event</h3>
@@ -13,7 +14,7 @@
       </div>
       <img src="/uploads/pink.png" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -26,6 +27,9 @@
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/yoga/">
       <div>

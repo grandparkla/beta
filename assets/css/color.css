@@ -14,6 +14,7 @@
     --strawberry-darker: hsl(329, 80%, 38%);
     --strawberry:        hsl(348, 79%, 58%);
     --strawberry-darker: hsl(348, 79%, 58%);
+    --strawberry-brightest: hsl(348,  3%, 97%);
 
     --lime:              hsl(86, 53%, 51%);
     --lime-brightest:    hsl(86,  3%, 97%);
@@ -31,7 +32,7 @@
     --evergreen: hsl(147, 23%, 30%);
 
     --primary-color:               var(--lime);
-    --primary-color-readability:   var(--lime-darker);
+    --primary-color-readability:   var(--lime-darkest);
     --secondary-color:             var(--strawberry);
     --secondary-color-readability: var(--strawberry);
 
@@ -81,7 +82,7 @@
   }
 
   main {
-    background-color: var(--lime-brightest);
+    background-color: var(--strawberry-brightest);
   }
   /* footer {
     background-color: var(--sand-brightest);
@@ -102,6 +103,8 @@
     color: var(--snow);
     background-color: hsl(86,  1%, 95%);
     color: inherit;
+    background-color: var(--strawberry);
+    color: var(--snow);
 /*
     background-image:
       linear-gradient(to bottom, var(--banana), var(--banana) 0.2em, transparent 0.2em, transparent),
@@ -116,8 +119,12 @@
   header a {
     color: inherit;
   }
+  header ul a {
+    /*! color: var(--banana); */
+  }
   header h2 a {
     color: var(--strawberry);
+    color: inherit;
   }
 
   @media (false) {
@@ -162,6 +169,13 @@
       grid-column: 2/-2;
     }
 }
+
+main h1 + p {
+/*   color: var(--strawberry); */
+  font-family: Unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+}
+
   @media (min-width: 80em) {
     /* main h1 {
       color: var(--snow);
@@ -171,7 +185,7 @@
       /*! grid-column: 1/-1; */
       /*! margin-left: 3em; */
       /*! color: var(--sky-darker); */
-      font-size: 1.5vw;
+/*       font-size: 1.5vw; */
       /* margin-right: 3em; */
       /*! font-style: italic; */
       /*! margin-bottom: 3em; */

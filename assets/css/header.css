@@ -33,7 +33,7 @@ header ul {
     }
 
 body {
-  border-top: 0.25em solid var(--banana);
+  /*! border-top: 0.25em solid var(--banana); */
 }
 
 header {
@@ -76,6 +76,7 @@ header {
       header h2 {
         display: block;
         margin: 0;
+        color: inherit;
       }
       header > div {
         align-self: center;
@@ -88,6 +89,8 @@ header {
       header > div h3 {
         margin-top: 0;
         margin-left: 1.5em;
+        /*! font-weight: bold; */
+        font-size: 1.25em;
       }
     }
 
@@ -219,23 +222,24 @@ main > h1 small {
   font-style: italic;
   display: block;
   color: var(--text-color);
+  text-transform: none;
+  font-weight: normal;
 }
 main > h1 small:last-child {
   font-style: normal;
-  color: var(--lime-darker);
 }
 
 main > h1 {
-  color: var(--lime);
+  /*! color: var(--lime); */
 }
 
 @media (min-width: 60em) {
   main > h1 {
-    font-size: 4.09vw;
+    /*! font-size: 4.09vw; */
     grid-column: 2/-2;
     margin: 0;
     text-align: left;
-    font-weight: inherit;
+/*     font-weight: inherit; */
     /*! color: var(--lime); */
   }
 /*   main > h1.welcome {
@@ -244,10 +248,10 @@ main > h1 {
     margin-right: 1em;
   } */
   main > h1 small {
-    font-size: 0.375em;
+    font-size: 0.5em;
   }
   main > h1 small:last-child {
-    font-size: 0.375em;
+    font-size: 0.5em;
     display: inline;
   }
 }
@@ -273,10 +277,10 @@ main > nav:first-child {
 main > nav:first-child li {
   display: inline;
 }
-main > nav:first-child a {
+/* main > nav:first-child a {
   color: inherit;
   text-decoration: none;
-}
+} */
 main > nav:first-child a::after {
   content: "/";
   padding-left: 0.5em;
@@ -312,7 +316,7 @@ main > nav ul {
     height: 100%;
     left: -1em;
     bottom: 50%;
-    color: var(--lime);
+/*     color: var(--lime); */
     opacity: 0.25;
   }
   main > nav:not(:first-child)  li:first-child a::before {
@@ -325,7 +329,7 @@ main > nav ul {
     width: 1em;
     left: -0.9em;
     bottom: 50%;
-    color: var(--lime);
+/*     color: var(--lime); */
     opacity: 0.25;
   }
 /* main > nav li a {
