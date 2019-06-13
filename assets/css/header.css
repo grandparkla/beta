@@ -205,7 +205,7 @@ main > h1 small {
 }
 main > h1 small:last-child {
   font-style: normal;
-  color: var(--lime-darker);
+  color: var(--headline-color);
 }
 
 @media (min-width: 60em) {
@@ -217,11 +217,11 @@ main > h1 small:last-child {
     font-weight: inherit;
     /*! color: var(--lime); */
   }
-  main > h1.welcome {
+/*   main > h1.welcome {
     grid-column: 1/-1;
     margin-left: 1em;
     margin-right: 1em;
-  }
+  } */
   main > h1 small {
     font-size: 0.25em;
   }

@@ -92,30 +92,61 @@ header a:focus {
   } */
 
   h1.welcome {
-    line-height: 1;
+    line-height: 1.2;
+    font-size: 1.25em;
     font-weight: inherit;
 /*     color: hsl(86,  1%, 30%);
     color: var(--strawberry); */
-    /* color: var(--evergreen);
+/*     color: var(--evergreen);
     text-shadow: 0.025em 0.025em 0em var(--lime); */
-    color: var(--lime);
+    color: var(--evergreen);
   }
+h1.welcome em:nth-of-type(2n+1) {
+  color: var(--lime);
+}
+h1.welcome em:nth-of-type(3n+1) {
+  color: var(--lime-darker);
+}
   h1.welcome em {
     display: inline-block;
     font-style: inherit;
   }
+h1.welcome svg {
+  vertical-align: middle;
+  height: 1em;
+  width: auto;
+  color: var(--banana-darker);
+  color: var(--banana);
+  color: var(--lime);
+  display: inline-block;
+}
+h1.welcome .waves {
+  height: 2.7em;
+  margin: -1em 0 -1.6em;
+}
+h1.welcome .sun {
+  height: 2.2em;
+  margin: -1em 0;
+}
+h1.welcome svg * {
+  fill: currentColor;
+}
   @media (min-width: 60em) {
     main > h1.welcome {
-      font-size: 3vw;
+      font-size: 3.2vw;
       margin-bottom: -5rem;
+      grid-column: 1/-1;
+      margin-left: 1em;
+      margin-right: 0em;
+/*       color: var(--lime); */
     }
+/*     h1.welcome em:nth-of-type(2n+1) {
+      color: hsl(86,  1%, 45%);
+      color: var(--banana-darker);
+      text-shadow: none;
+    } */
   }
 
-  h1.welcome em:nth-of-type(2n+1) {
-    color: hsl(86,  1%, 45%);
-    color: var(--banana-darker);
-    text-shadow: none;
-  }
   /* h1.welcome em:nth-of-type(3n+1) {
     color: hsl(86,  1%, 60%);
     color: var(--strawberry);

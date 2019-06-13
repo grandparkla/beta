@@ -37,6 +37,7 @@
     --headline-color:   var(--evergreen);
     --headline-color:   inherit;
     --headline-color:   var(--lime);
+    --headline-color:   var(--strawberry);
     --action-color:     var(--primary-color);
     --link-color:       var(--primary-color-readability);
     --text-color:       var(--lime-darkest);
