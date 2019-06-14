@@ -7,6 +7,16 @@ title: Meet the Staff
 </nav>
 
 <style>
+h2 {
+  grid-column: 1/4 !important;
+}
+h2 + p {
+  grid-column: 4/-2 !important;
+}
+main > figure {
+  grid-column: 3/-2 !important;
+  margin: 1.5em 0 1.5em -3em;
+}
 @media (false) {
   main > figure {
     grid-column: 1/3;
