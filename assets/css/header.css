@@ -141,6 +141,18 @@ main {
   background: transparent;
 }
 
+/*
+body {
+  background-image: url(/uploads/food-trucks-4.jpg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  color: white;
+}
+
+h1 * {
+  color: white !important;
+}
+*/
 
 @media (false) {
   
@@ -315,6 +327,7 @@ main > nav:first-child li {
 }
 main > nav a {
   color: inherit;
+  color: hsl(195.9, 81.8%, 32%);
 }
 main > nav:first-child a {
   text-decoration: none;

@@ -1,5 +1,5 @@
 ---
-title: Grand Park LA / The Park for Everyone
+title: Grand Park L.A. / The Park for Everyone
 permalink: /
 ---
 
