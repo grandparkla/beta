@@ -12,8 +12,8 @@
 
     --strawberry:        hsl(329, 90%, 48%);
     --strawberry-darker: hsl(329, 80%, 38%);
-    --strawberry:        hsl(342, 79%, 58%);
-    --strawberry-darker: hsl(342, 79%, 58%);
+    --strawberry:        hsl(338, 79%, 58%);
+    --strawberry-darker: hsl(338, 79%, 58%);
     --strawberry-brightest: hsl(348,  3%, 97%);
 
     --lime:              hsl(86, 53%, 51%);
@@ -39,9 +39,9 @@
 
     /* --headline-color:   var(--secondary-color-readability); */
     --headline-color:   var(--evergreen);
-    --headline-color:   inherit;
     --headline-color:   var(--lime);
-    --headline-color:   var(--lime);
+    --headline-color:   var(--lime-darker);
+    --headline-color:   var(--strawberry);
     --action-color:     var(--primary-color);
     --link-color:       var(--primary-color-readability);
     --text-color:       var(--lime-darkest);
@@ -90,10 +90,27 @@
   }
 
   main {
-    background-color: var(--strawberry-brightest);
+    background-color: var(--sand-brightest);
+    background-color: hsl(63, 27%, 97%);
+      background-color: var(--strawberry-brightest);
   }
   /* footer {
     background-color: var(--sand-brightest);
+  } */
+
+  /* footer {
+    background-color: var(--lime);
+    color: var(--snow);
+  }
+  footer a {
+    color: inherit;
+  }
+  footer .logos {
+    filter: invert(100%);
+  } */
+  /* footer svg {
+    filter: grayscale(100%);
+    opacity: 0.5;
   } */
 
   header {
@@ -121,7 +138,12 @@
     background-color: hsl(86,  1%, 95%);
     background-color: var(--strawberry-brightest);
     background-color: hsl(348,  3%, 94%);
+    background-color: var(--sand-brightest);
+    background-color: transparent;
     color: inherit;
+    background-color: hsl(192, 67%, 59%); /* blue */
+    background-color: var(--strawberry);
+    color: white;
 /*
     background-image:
       linear-gradient(to bottom, var(--banana), var(--banana) 0.2em, transparent 0.2em, transparent),
@@ -135,15 +157,17 @@
   }
   header h2 a {
     color: var(--strawberry);
+    color: inherit;
+    color: var(--banana);
   }
   header ul a {
-    color: inherit;
+    /*! color: inherit; */
   }
-  /* header a:hover,
+  header a:hover,
   header a:active,
   header a:focus {
     color: var(--banana);
-  } */
+  }
 
   @media (false) {
 
@@ -190,7 +214,6 @@
 
 main h1 + p {
 /*   color: var(--strawberry); */
-  font-family: Unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
 }
 
@@ -209,7 +232,10 @@ main h1 + p {
       /*! margin-bottom: 3em; */
     }
     main h1 + p + nav {
-      /*! grid-column: 1/-1; */
+      grid-column: 3/5;
+    }
+    main h1 + p + nav + nav {
+      grid-column: 5/7;
       /*! margin-left: 3em; */
     }
   }

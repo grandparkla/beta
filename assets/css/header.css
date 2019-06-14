@@ -90,7 +90,7 @@ header {
         margin-top: 0;
         margin-left: 1.5em;
         /*! font-weight: bold; */
-        font-size: 1.125em;
+        font-size: 1em;
         /*! font-weight: 500; */
       }
     }
@@ -107,6 +107,8 @@ header {
 header nav ul {
   max-width: none;
   margin: 0;
+  font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
 }
 @media (min-width: 60em) {
   header h2 {
@@ -321,6 +323,8 @@ main > nav ul {
 /*   main > nav li a {
     border-left: 0.125em solid;
   } */
+  
+  
   main > nav:not(:first-child) li a::before {
     content: "";
     border-left: 0.1em solid;
@@ -329,7 +333,7 @@ main > nav ul {
     left: -1em;
     bottom: 50%;
 /*     color: var(--lime); */
-    opacity: 0.25;
+    opacity: 0.125;
   }
   main > nav:not(:first-child)  li:first-child a::before {
     height: 50%;
@@ -342,11 +346,12 @@ main > nav ul {
     left: -0.9em;
     bottom: 50%;
 /*     color: var(--lime); */
-    opacity: 0.25;
+    opacity: 0.125;
   }
 /* main > nav li a {
     color: var(--strawberry);
   } */
+
 
 
 main > nav li a:hover,

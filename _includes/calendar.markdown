@@ -2,19 +2,7 @@
 ## June 2019
 
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
-    <a href="/events/2019/6/21/paradise-in-the-park/">
-      <div>
-        <h3>Lease Event</h3>
-        <h4>Paradise in the Park</h4>
-        <p>
-          Saturday, June 1
-        </p>
-      </div>
-      <img src="/uploads/strawberry.svg" height="300" alt="" />
-    </a>
-  </li>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -25,6 +13,18 @@
         </p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1.5fr 1.5fr 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la park</h3>
+        <h4>Food Trucks</h4>
+        <p>Every Tuesday, Wednesday &amp; Thursday</p>
+      </div>
+      <img src="/uploads/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -38,13 +38,15 @@
     </a>
   </li>
   <li>
-    <a href="/food-trucks/">
+    <a href="/events/2019/6/21/paradise-in-the-park/">
       <div>
-        <h3>Lunch à la park</h3>
-        <h4>Food Trucks</h4>
-        <p>Every Tuesday, Wednesday &amp; Thursday</p>
+        <h3>Lease Event</h3>
+        <h4>Paradise in the Park</h4>
+        <p>
+          Saturday, June 1
+        </p>
       </div>
-      <img src="/uploads/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/uploads/strawberry.svg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -68,7 +70,7 @@
   </li>
 </ol>
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -91,13 +93,23 @@
       <img src="/uploads/food-trucks.jpg" height="300" alt="" />
     </a>
   </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Every Wednesday &amp; Friday</p>
+      </div>
+      <img src="/uploads/yoga-2.jpg" height="300" alt="" />
+    </a>
+  </li>
 </ol>
 
 * * *
   
 ## August 2019
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -110,6 +122,8 @@
       <img src="/uploads/sunday-sessions-3.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/food-trucks/">
       <div>
@@ -120,12 +134,34 @@
       <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Every Wednesday &amp; Friday</p>
+      </div>
+      <img src="/uploads/yoga-3.jpg" height="300" alt="" />
+    </a>
+  </li>
 </ol>
 
 * * *
 
 ## September 2019
 
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Every Wednesday &amp; Friday</p>
+      </div>
+      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/sunday-sessions/">

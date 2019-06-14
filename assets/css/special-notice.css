@@ -25,6 +25,12 @@
   color: var(--snow);
   background-color: var(--strawberry);
   color: var(--strawberry-brightest);
+  background-color: hsl(20, 99%, 75%); /* orange */
+  background-color: hsl(186, 73%, 63%); /* blue */
+  background-color: hsl(192, 67%, 59%); /* blue */
+  background-color: hsl(292, 27%, 39%); /* purple */
+  background: transparent;
+  color: inherit;
 }
 .special-notice h2 {
   font-size: inherit;
@@ -45,14 +51,14 @@
   margin: 0;
   max-width: none;
 }
-.special-notice a {
+/* .special-notice a {
   color: inherit;
-}
-.special-notice a:hover,
+} */
+/* .special-notice a:hover,
 .special-notice a:active,
 .special-notice a:focus {
   color: var(--snow);
-}
+} */
 /*
 @media (min-width: 60em) {
   .special-notice h2 {
