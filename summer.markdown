@@ -19,7 +19,6 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
       <div>
         <h3>Summer Season</h3>
         <h4>Sunday Sessions</h4>
-        <p>2019</p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
@@ -29,7 +28,6 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
       <div>
         <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>
-        <p>2019</p>
       </div>
       <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>

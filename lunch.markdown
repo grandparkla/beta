@@ -12,7 +12,7 @@ title: Lunch à la park
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/food-trucks/">
       <div>
@@ -23,6 +23,8 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
       <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/yoga/">
       <div>

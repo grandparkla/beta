@@ -1,7 +1,7 @@
 ---
 hide_from_search_engines: true
 
-title: Grand Park Los Angeles
+title: Grand Park LA
 
 permalink: pretty
 
@@ -41,5 +41,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.51
+version: 0.0.52
 

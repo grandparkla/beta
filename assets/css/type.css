@@ -14,15 +14,78 @@
     font-size: calc(0.75em + 1vmin);
   }
 
+  /*
+Unit
+
+  Thin
+  The quick brown fox jumps over the lazy dog
+  100
+  normal
+  Thin Italic
+  The quick brown fox jumps over the lazy dog
+  100
+  italic
+  Light
+  The quick brown fox jumps over the lazy dog
+  200
+  normal
+  Light Italic
+  The quick brown fox jumps over the lazy dog
+  200
+  italic
+  Regular
+  The quick brown fox jumps over the lazy dog
+  400
+  normal
+  Regular Italic
+  The quick brown fox jumps over the lazy dog
+  400
+  italic
+  Medium
+  The quick brown fox jumps over the lazy dog
+  500
+  normal
+  Medium Italic
+  The quick brown fox jumps over the lazy dog
+  500
+  italic
+  Bold
+  The quick brown fox jumps over the lazy dog
+  700
+  normal
+  Bold Italic
+  The quick brown fox jumps over the lazy dog
+  700
+  italic
+  Black
+  The quick brown fox jumps over the lazy dog
+  800
+  normal
+  Black Italic
+  The quick brown fox jumps over the lazy dog
+  800
+  italic
+  Ultra
+  The quick brown fox jumps over the lazy dog
+  900
+  normal
+  Ultra Italic
+  The quick brown fox jumps over the lazy dog
+  900
+  italic
+
+  */
+
   /* h1, h2, h3, h4, h5, h6 {
-    font-family: Unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
   } */
   /* main h1,
   main h1 + p, */
   h1,
   h2,
   h3 {
-    font-family: Unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
   }
   h1 {
     text-transform: uppercase;
