@@ -11,6 +11,10 @@
   /*! background-color: var(--banana); */
 /*   background-color: hsl(86, 53%, 51%);
   color: var(--snow); */
+  /* background-color: hsl(39, 99%, 70%);
+  background-color: hsl(18, 99%, 70%);
+  color: var(--banana);
+  background-color: var(--lime); */
 }
 .special-notice h2 {
   font-size: inherit;
@@ -37,7 +41,7 @@
 .special-notice a:hover,
 .special-notice a:active,
 .special-notice a:focus {
-  color: var(--banana);
+  color: var(--snow);
 } */
 /*
 @media (min-width: 60em) {
