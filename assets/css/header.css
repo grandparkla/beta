@@ -278,10 +278,12 @@ main > nav:first-child {
 main > nav:first-child li {
   display: inline;
 }
-/* main > nav:first-child a {
+main > nav a {
   color: inherit;
+}
+main > nav:first-child a {
   text-decoration: none;
-} */
+}
 main > nav:first-child a::after {
   content: "/";
   padding-left: 0.5em;
