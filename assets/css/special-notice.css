@@ -31,6 +31,9 @@
   background-color: hsl(292, 27%, 39%); /* purple */
   background: transparent;
   color: inherit;
+  background-color: hsl(192, 67%, 59%); /* blue */
+  background-color: var(--strawberry);
+  color: var(--banana);
 }
 .special-notice h2 {
   font-size: inherit;
@@ -51,9 +54,9 @@
   margin: 0;
   max-width: none;
 }
-/* .special-notice a {
+.special-notice a {
   color: inherit;
-} */
+}
 /* .special-notice a:hover,
 .special-notice a:active,
 .special-notice a:focus {

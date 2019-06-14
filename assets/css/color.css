@@ -140,10 +140,12 @@
     background-color: hsl(348,  3%, 94%);
     background-color: var(--sand-brightest);
     background-color: transparent;
-    color: inherit;
     background-color: hsl(192, 67%, 59%); /* blue */
     background-color: var(--strawberry);
     color: white;
+    background-color: var(--strawberry-brightest);
+    background-color: hsl(348,  3%, 94%);
+    color: inherit;
 /*
     background-image:
       linear-gradient(to bottom, var(--banana), var(--banana) 0.2em, transparent 0.2em, transparent),
@@ -159,14 +161,15 @@
     color: var(--strawberry);
     color: inherit;
     color: var(--banana);
+    color: var(--strawberry);
   }
   header ul a {
-    /*! color: inherit; */
+    color: var(--strawberry);
   }
   header a:hover,
   header a:active,
   header a:focus {
-    color: var(--banana);
+    color: var(--strawberry);
   }
 
   @media (false) {
