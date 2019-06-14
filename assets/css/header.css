@@ -282,6 +282,9 @@ main > h1 small:last-child {
 main > h1 {
   /*! color: var(--lime); */
 }
+main > nav + h1 {
+  margin-top: 0;
+}
 
 @media (min-width: 60em) {
   main > h1 {
