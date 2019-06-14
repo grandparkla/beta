@@ -115,8 +115,7 @@ Unit
   }
 
   header {
-    padding-top: 2.25em;
-    padding-bottom: 2.25em;
+    padding: 1.5em 0;
   }
 
 
@@ -128,6 +127,11 @@ Unit
     footer {
       padding-top: 4.5em;
       padding-bottom: 9em;
+    }
+    header {
+      padding-top: 4rem;
+      padding-left: 4rem;
+      padding-right: 3rem;
     }
   }
 
