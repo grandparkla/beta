@@ -2,6 +2,12 @@
 
   /* =Type
   ----------------------------------------------- */
+  :root {
+    --type-noto: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --type-unit: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+
+
   body {
     line-height: 1.5; 
     font-family: "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

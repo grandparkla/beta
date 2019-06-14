@@ -144,6 +144,7 @@ main {
 body {
   background-image: radial-gradient(circle at top left, var(--banana), var(--banana) 25vw, transparent 25vw, transparent), radial-gradient(circle at top left, hsla(196, 82%, 72%, 75%), hsla(196, 82%, 72%, 0%) 75vw, hsla(196, 82%, 72%, 0%));
 /*   background-attachment: fixed; */
+  background-image: radial-gradient(circle at 66% 3vh, var(--banana), var(--banana) 10vw, transparent 0, transparent), radial-gradient(circle at top, hsla(196, 82%, 72%, 66%), hsla(196, 82%, 72%, 0%) 75vw, hsla(196, 82%, 72%, 0%));
 }
 
 header svg {
@@ -266,7 +267,7 @@ main > h1 {
 
 @media (min-width: 60em) {
   main > h1 {
-    font-size: 6.09vw;
+    font-size: 5.5vw;
     grid-column: 2/-2;
     margin: 0;
     text-align: left;
