@@ -82,7 +82,7 @@ header {
         align-self: center;
       }
     }
-    @media (min-width: 70em) {
+    @media (min-width: 99999em) {
       header > div {
         display: flex;
       }
@@ -401,7 +401,7 @@ header li:last-child {
 @media (min-width: 55em) {
   header li,
   footer li {
-    display: inline-block;
-    margin: 0.375em 0.75em;
+    /*! display: inline-block; */
+/*     margin: 0.375em 0.75em; */
   }
 }
