@@ -157,6 +157,7 @@ h1 * {
 
 
 
+@media (false) {
 body {
   background-image:
 /*     radial-gradient(
@@ -193,6 +194,7 @@ body {
       hsla(196, 82%, 72%, 0%) 33vw,
       hsla(196, 82%, 72%, 0%)
     );
+}
 }
   
 @media (false) {

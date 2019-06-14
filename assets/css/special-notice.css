@@ -33,7 +33,7 @@
   color: inherit;
   background-color: hsl(192, 67%, 59%); /* blue */
   background-color: var(--strawberry);
-  color: var(--banana);
+  color: var(--snow);
 }
 .special-notice h2 {
   font-size: inherit;

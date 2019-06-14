@@ -10,8 +10,10 @@
 
 .event-list {
   margin-top: 1.5em;
-  grid-column: 1/-1;
+  grid-column: 2/-2;
   max-width: none;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
 }
 .event-list li {
   margin-top: 1.5em;
@@ -25,6 +27,12 @@
   }
   .event-list li {
     margin-top: 0;
+  }
+}
+@media(min-width: 60em) {
+  .event-list {
+    margin-left: -6.25vw;
+    margin-right: -6.25vw;
   }
 }
 
@@ -88,6 +96,6 @@
 
 .event-list a > img {
   width: 100%;
-  height: calc(66.6vh - 3em);
+  height: calc(66vh - 3em);
   object-fit: cover;
 }
