@@ -127,6 +127,25 @@ header h2 a {
   color: var(--strawberry);
 } */
 
+
+header {
+  background-image: radial-gradient(circle at top left, hsla(196, 82%, 72%, 100%), hsla(196, 82%, 72%, 0%) 100vw, hsla(196, 82%, 72%, 0%));
+  background-image: none;
+  background: transparent;
+}
+
+/* .special-notice {
+  opacity: 0;
+} */
+main {
+  background: transparent;
+}
+
+body {
+  background-image: radial-gradient(circle at top left, var(--banana), var(--banana) 25vw, transparent 25vw, transparent), radial-gradient(circle at top left, hsla(196, 82%, 72%, 75%), hsla(196, 82%, 72%, 0%) 75vw, hsla(196, 82%, 72%, 0%));
+/*   background-attachment: fixed; */
+}
+
 header svg {
   display: block;
   fill: currentColor;
@@ -319,6 +338,7 @@ main > nav ul {
     padding: 0.25em 0.75em;
     /* text-decoration: none; */
     position: relative;
+    color: hsl(195.9, 81.8%, 32%);
   }
 /*   main > nav li a {
     border-left: 0.125em solid;
