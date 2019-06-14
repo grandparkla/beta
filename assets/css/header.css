@@ -49,14 +49,14 @@ header {
   */
 }
 
-    @media (min-width: 25em) {
+    @media (min-width: 15em) {
       header {
         text-align: left;
       }
       header {
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 1.5em;
+        grid-gap: 0;
       }
       header div {
         margin-left: 1.5em;
@@ -166,6 +166,8 @@ body {
 header svg {
   display: block;
   fill: currentColor;
+  width: 5em;
+  height: auto;
 }
 
 
@@ -234,7 +236,7 @@ header svg {
     margin-top: 3.65em;
   }
   main > h2 + p {
-    margin-top: 4.8em;
+    margin-top: 2.625em;
   }
 
 }
@@ -327,7 +329,6 @@ main > nav:first-child li {
 }
 main > nav a {
   color: inherit;
-  color: hsl(195.9, 81.8%, 32%);
 }
 main > nav:first-child a {
   text-decoration: none;
@@ -404,7 +405,7 @@ main > nav li a:focus {
   footer li {
     list-style: none;
     padding-left: 0;
-    margin: 0.75em 0;
+    margin: 0.5em 0;
     /*! margin: -0.75em; */
   }
 

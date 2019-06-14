@@ -186,6 +186,7 @@ header a:focus {
 /*     color: var(--evergreen);
     text-shadow: 0.025em 0.025em 0em var(--lime); */
     color: var(--evergreen);
+    margin: 0;
   }
 h1.welcome em:nth-of-type(2n+1) {
   color: var(--lime);
@@ -348,7 +349,7 @@ h2 {
   color: var(--headline-color);
   /*! font-style: italic; */
 /*   font-weight: normal; */
-  margin-top: 3em;
+  margin-top: 1.5em;
   font-size: 1.5em;
 }
 header h2 {
