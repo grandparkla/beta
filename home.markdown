@@ -165,7 +165,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 
 <nav markdown="1">
 *   [Rent the park for an event](/rent/)
-*   [Film & photography](/film-photography/)
+*   [Filming & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
 *   [Contact us](/contact/)

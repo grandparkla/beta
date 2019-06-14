@@ -33,7 +33,8 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 <nav markdown="1">
 *   [Lunch à la park](/lunch/)
 *   [Summer season](/summer/)
-</nav> -->
+</nav>
+-->
 
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 

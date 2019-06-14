@@ -83,7 +83,8 @@ Unit
   main h1 + p, */
   h1,
   h2,
-  h3 {
+  h3,
+  h4 {
     font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
   }
@@ -340,7 +341,7 @@ h3 {
   margin-top: 2.9rem;
   font-size: 1.25em;
 }
-h4, h5, h6 {
+h5, h6 {
   /*! color: rgb(76, 78, 76); */
   font-style: italic;
   font-weight: normal;

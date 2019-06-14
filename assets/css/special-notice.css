@@ -21,10 +21,10 @@
   color: var(--banana); */
   background-color: var(--text-color);
   background-color: hsl(186, 79%, 69%);
-  background-color: var(--strawberry);
-  color: var(--strawberry-brightest);
   background-color: var(--lime);
   color: var(--snow);
+  background-color: var(--strawberry);
+  color: var(--strawberry-brightest);
 }
 .special-notice h2 {
   font-size: inherit;

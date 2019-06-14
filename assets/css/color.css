@@ -17,6 +17,7 @@
     --strawberry-brightest: hsl(348,  3%, 97%);
 
     --lime:              hsl(86, 53%, 51%);
+    --lime:              hsl(86, 43%, 51%);
     --lime-brightest:    hsl(86,  3%, 97%);
     --lime-darker:       hsl(86, 43%, 41%);
     --lime-darkest:      hsl(86,  1%, 30%);
@@ -40,7 +41,7 @@
     --headline-color:   var(--evergreen);
     --headline-color:   inherit;
     --headline-color:   var(--lime);
-    --headline-color:   var(--strawberry);
+    --headline-color:   var(--lime);
     --action-color:     var(--primary-color);
     --link-color:       var(--primary-color-readability);
     --text-color:       var(--lime-darkest);

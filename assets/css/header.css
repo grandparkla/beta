@@ -142,7 +142,8 @@ header svg {
   main > * {
     grid-column: 3/-2;
   }
-  main > h3 {
+  main > h3,
+  main > h4 {
     margin-bottom: 0;
   }
   main > p,
@@ -153,6 +154,11 @@ header svg {
   }
   main > figure {
     margin: 3em 0;
+  }
+  main > h2 + figure,
+  main > h3 + figure,
+  main > h4 + figure {
+    margin-top: 0;
   }
   main > figure img {
     display: block;
@@ -184,6 +190,9 @@ header svg {
     margin-top: 6.2rem;
   }
   main > h2 + h3 {
+    margin-top: 3.65em;
+  }
+  main > h3 + h4 {
     margin-top: 3.65em;
   }
   main > h2 + p {

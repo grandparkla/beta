@@ -1,12 +1,12 @@
 ---
-title: Film & Photography
+title: Filming & photography
 ---
 
 <nav markdown="1">
 * [About the park](/about/)
 </nav>
 
-Film & Photography
+Filming & photography
 ==================
 
 ### Need to film in Grand Park?
