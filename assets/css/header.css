@@ -278,7 +278,7 @@ header svg {
 
 
   main > h2 + * {
-    margin-top: 6.2rem;
+    margin-top: 3.375rem;
   }
   main > h2 + h3 {
     margin-top: 1.75em;
@@ -465,6 +465,16 @@ main > nav li a:focus {
     margin: 0.5em 0;
     /*! margin: -0.75em; */
   }
+
+@media (min-width: 40em) {
+  
+  header ul,
+  header li,
+  footer ul,
+  footer li {
+    margin: 0.75em 0;
+  }
+}
 
 header li:first-child {
   margin-top: 0;
