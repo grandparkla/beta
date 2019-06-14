@@ -88,8 +88,8 @@ Unit
     font-weight: 500;
   }
   h1 {
-    text-transform: uppercase;
-    font-weight: bold;
+/*     text-transform: uppercase;
+    font-weight: bold; */
   }
 
   h1.welcome {
@@ -127,7 +127,7 @@ Unit
     font-size: inherit;
   }
   header a {
-font-weight: bold;
+/* font-weight: bold; */
     /*! text-decoration: none; */
     /*! color: var(--text-color); */
   }

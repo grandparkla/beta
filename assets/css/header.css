@@ -90,8 +90,8 @@ header {
         margin-top: 0;
         margin-left: 1.5em;
         /*! font-weight: bold; */
-        font-size: 1.25em;
-        font-weight: 500;
+        font-size: 1.125em;
+        /*! font-weight: 500; */
       }
     }
 
@@ -236,7 +236,7 @@ main > h1 {
 
 @media (min-width: 60em) {
   main > h1 {
-    /*! font-size: 4.09vw; */
+    font-size: 4.09vw;
     grid-column: 2/-2;
     margin: 0;
     text-align: left;

@@ -112,6 +112,15 @@
     color: inherit;
     background-color: var(--strawberry);
     color: var(--snow);
+    background-color: hsl(86, 79%, 69%); /* green */
+    color: hsl(186, 89%, 39%);
+    background-color: hsl(186, 79%, 69%); /* blue */
+    background-color: hsl(20, 99%, 75%); /* orange */
+    color: var(--strawberry);
+    background-color: hsl(86,  1%, 95%);
+    background-color: var(--strawberry-brightest);
+    background-color: hsl(348,  3%, 94%);
+    color: inherit;
 /*
     background-image:
       linear-gradient(to bottom, var(--banana), var(--banana) 0.2em, transparent 0.2em, transparent),
@@ -123,17 +132,17 @@
       linear-gradient(to top, var(--lime), var(--lime) 0.4em, transparent 0.4em, transparent);
 */
   }
-  header a {
-    color: inherit;
+  header h2 a {
+    color: var(--strawberry);
   }
   header ul a {
-    /*! color: var(--banana); */
+    color: inherit;
   }
-  header a:hover,
+  /* header a:hover,
   header a:active,
   header a:focus {
     color: var(--banana);
-  }
+  } */
 
   @media (false) {
 
