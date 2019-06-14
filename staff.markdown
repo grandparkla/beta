@@ -15,8 +15,14 @@ h2 + p {
 }
 main > figure {
   grid-column: 3/-2 !important;
-  margin: 1.5em 0 1.5em -3em;
+  margin: 1.5em 0;
 }
+@media (min-width: 60em) {
+  main > figure {
+    margin-left: -3em;
+  }
+}
+
 @media (false) {
   main > figure {
     grid-column: 1/3;
