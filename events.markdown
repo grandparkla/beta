@@ -2,23 +2,11 @@
 title: Things to do
 ---
 
-<!--
-<div class="featured-event">
-  <a href="/july4/">
-    <div>
-      <h3>2019 / Summer Season</h3>
-      <h4><img src="/uploads/july4.svg" height="300" alt="4th of July Block Party" /></h4>
-      <p>free admission holiday celebration</p>
-    </div>
-    <img src="/uploads/july4.jpg" height="300" alt="" />
-  </a>
-</div>
--->
 
 Things to do
 =============================================
 
-Relax, have a picnic, and enjoy our free events and activities.
+Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
 <nav markdown="1">
 *   [Today](/events/#today)

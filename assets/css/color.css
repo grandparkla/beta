@@ -6,7 +6,7 @@
     --midnight:          hsl(0, 0%, 16%);
 
     --snow:              hsl(0, 0%, 99%);
-    
+
     --banana:            hsl(56, 97%, 63%);
     --banana-darker:     hsl(56, 92%, 53%);
 
@@ -25,6 +25,8 @@
     --sky:               hsl(196, 82%, 72%);
     --sky-darker:        hsl(196, 79%, 36%);
     --sky-darker-alpha: hsla(196, 79%, 36%, 25%);
+
+    --blueberry: hsl(192, 67%, 59%);
 
     --earth: hsl(28, 66%, 26%);
     --earth: hsl(9, 41%, 32%);
