@@ -14,6 +14,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 <nav markdown="1">
 *   [Lunch à la park](/lunch/)
 *   [Summer season](/summer/)
+*   [Fall season](/fall/)
 </nav>
 
 <figure>

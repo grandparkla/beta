@@ -462,8 +462,8 @@ main > nav:first-child a::after {
   content: "/";
   padding-left: 0.5em;
   padding-right: 0.25em;
-  opacity: 0.25;
-  color: var(--lime-darkest);
+  opacity: 0.125;
+/*   color: var(--lime-darkest); */
   text-decoration: none !important;
   display: inline-block;
 }
