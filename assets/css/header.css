@@ -165,7 +165,7 @@ body {
   background-image:
     url(/uploads/sun-rings.svg),
     radial-gradient(
-      circle at 50vw -2vw,
+      circle at 43.75vw -2vw,
       hsla(56, 97%, 63%, 100%),
       hsla(56, 97%, 63%, 100%) 1vw,
       hsla(56, 97%, 100%, 80%) 2vw,
@@ -173,15 +173,15 @@ body {
       hsla(56, 97%, 100%, 0)
     ),
     linear-gradient(
-      to bottom, 
+      175deg,
       hsla(196, 82%, 72%, 66%),
-      hsla(196, 82%, 72%, 0%) 20vmax,
+      hsla(196, 82%, 72%, 0%) 30vmax,
       hsla(196, 82%, 72%, 0%)
     ),
     radial-gradient(
-      circle at top, 
+      circle at 43.75vw 0, 
       hsla(196, 82%, 72%, 66%),
-      hsla(196, 82%, 72%, 0%) 33vmax,
+      hsla(196, 82%, 72%, 0%) 20vmax,
       hsla(196, 82%, 72%, 0%)
     );
   background-repeat: no-repeat;
@@ -192,7 +192,7 @@ body {
   background-size: 70vw auto, auto, auto, auto;
 
   background-size: 10vw auto, auto, auto, auto;
-  background-position: 50% -2.5vw, top, top, top;
+  background-position: 43.75% -2.5vw, top, top, top;
 
   /* background-image: url(/uploads/duck-duck-go.svg);
   background-position: 50% 75vh;
