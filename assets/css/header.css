@@ -23,8 +23,9 @@ header ul {
     header h3 {
       margin: 0.75em 0 0;
       font-style: normal;
+      font-weight: 500;
 /*       color: var(--text-color) */
-      font-size: 0.875em;
+      font-size: 0.925em;
     }
 
     header nav {
@@ -389,12 +390,15 @@ main > h1 small {
   font-size: 0.5em;
   margin-top: 1em;
   font-style: italic;
-  display: block;
+  display: inline-block;
   color: var(--text-color);
   text-transform: none;
   font-weight: normal;
 }
-main > h1 small:last-child {
+main > h1 small:first-of-type:not(:last-of-type) {
+  display: block;
+}
+main > h1 small:last-of-type {
   font-style: normal;
 }
 
@@ -422,9 +426,8 @@ main > nav + h1 {
   main > h1 small {
     font-size: 0.33em;
   }
-  main > h1 small:last-child {
+  main > h1 small:last-of-type {
     font-size: 0.5em;
-    display: inline;
   }
 }
 

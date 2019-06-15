@@ -64,7 +64,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 ## Welcome!
 
-Relax, have a picnic, and enjoy our free events and activities.
+Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
 <!-- <nav markdown="1">
 *   [Hours](/visit/#hours)
