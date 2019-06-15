@@ -160,7 +160,7 @@ body {
   background-image:
     url(/uploads/sun-rings.svg),
     radial-gradient(
-      circle at 42vw -2vw,
+      circle at 50vw -2vw,
       hsla(56, 97%, 63%, 100%),
       hsla(56, 97%, 63%, 100%) 1vw,
       hsla(56, 97%, 100%, 80%) 2vw,
@@ -170,13 +170,13 @@ body {
     linear-gradient(
       to bottom, 
       hsla(196, 82%, 72%, 66%),
-      hsla(196, 82%, 72%, 0%) 20vw,
+      hsla(196, 82%, 72%, 0%) 20vmax,
       hsla(196, 82%, 72%, 0%)
     ),
     radial-gradient(
       circle at top, 
       hsla(196, 82%, 72%, 66%),
-      hsla(196, 82%, 72%, 0%) 33vw,
+      hsla(196, 82%, 72%, 0%) 33vmax,
       hsla(196, 82%, 72%, 0%)
     );
   background-repeat: no-repeat;
@@ -187,11 +187,40 @@ body {
   background-size: 70vw auto, auto, auto, auto;
 
   background-size: 10vw auto, auto, auto, auto;
-  background-position: 42vw -2.5em, top, top, top;
+  background-position: 50% -2.5vw, top, top, top;
 
   /* background-image: url(/uploads/duck-duck-go.svg);
   background-position: 50% 75vh;
   background-repeat: no-repeat; */
+}
+
+
+/* NYELA */
+@media (false) {
+body {
+  background-color: #FEE6D1;
+  background-color: #00003E;
+  color: white;
+  --text-color: white;
+  background-image:
+    url(/uploads/nyela-2019-portrait.png),
+    url(/uploads/nyela-2019-background-portrait-reverse.png);
+  background-size: contain;
+  background-position: bottom, top;
+}
+.logos {
+  filter: invert(100%);
+}
+h1 {
+  color: #F7ACBC;
+}
+main nav a {
+  color: inherit !important;
+}
+main nav:not(:first-of-type) a {
+  text-decoration: underline !important;
+  color: var(--lime) !important;
+}
 }
 
 
@@ -245,7 +274,7 @@ body {
 }
 
 header h2 {
-  font-size: inherit;
+  font-size: 1.25em;
 }
 
 header svg {
@@ -257,11 +286,7 @@ header svg {
 
 
 @media (min-width: 60em) {
-  
-  header h2 {
-    font-size: 1.25em;
-  }
-  
+
   main {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
