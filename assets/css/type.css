@@ -180,7 +180,7 @@ header a:focus {
 
   h1.welcome {
     line-height: 1.2;
-    font-size: 1.25em;
+    font-size: inherit;
     font-weight: inherit;
 /*     color: hsl(86,  1%, 30%);
     color: var(--strawberry); */
