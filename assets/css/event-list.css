@@ -14,6 +14,15 @@
   max-width: none;
   margin-left: -1.5em;
   margin-right: -1.5em;
+  margin-bottom: 3em;
+}
+.event-list + .event-list {
+  margin-top: -1.5em;
+}
+@media (min-width: 60em) {
+  .event-list + .event-list {
+    margin-top: -3em;
+  }
 }
 .event-list li {
   margin-top: 1.5em;
@@ -80,18 +89,20 @@
 .event-list a h3 {
   font-size: 0.5em;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: normal;
   letter-spacing: 0.1em;
   font-style: normal;
+  font-family: inherit;
+  opacity: 0.75;
 }
 .event-list a h4 {
-  font-size: 1.25em;
+  font-size: 1.5em;
   /*! color: var(--strawberry); */
   font-style: normal;
   /*! font-weight: bold; */
 }
 .event-list a p {
-  font-size: 0.875em;
+  font-size: 0.75em;
 }
 
 .event-list a > img {

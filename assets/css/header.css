@@ -83,6 +83,11 @@ header {
         align-self: center;
       }
     }
+    @media (min-width: 60em) {
+      header div {
+        margin-left: 0.75em;
+      }
+    }
     @media (min-width: 99999em) {
       header > div {
         display: flex;
@@ -469,9 +474,12 @@ main > nav ul {
     margin-left: 0;
     padding-left: 0;
   }
-  main > nav li a {
+  header > nav li a {
     color: hsl(195.9, 81.8%, 32%);
   }
+main > nav li a {
+  color: var(--lime-darker);
+}
 
 main > nav:not(:first-child)  li a {
     display: inline-block;

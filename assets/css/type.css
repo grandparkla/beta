@@ -91,12 +91,13 @@ Unit
   } */
   /* main h1,
   main h1 + p, */
-  h1,
-  h2,
-  h3,
-  h4 {
+  /* h1, h2, h3, h4 {
     font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 500;
+  } */
+  h1, h2, h3, h4 {
+    font-family: var(--type-unit);
+    font-weight: inherit;
   }
   h1 {
 /*     text-transform: uppercase;
@@ -365,7 +366,7 @@ h3 {
   h3 {
     margin-top: 3rem;
     font-size: 1.25em;
-}
+  }
 }
 h5, h6 {
   /*! color: rgb(76, 78, 76); */
