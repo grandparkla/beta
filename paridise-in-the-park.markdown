@@ -1,21 +1,12 @@
 ---
 title: Paradise in the Park
-permalink: /events/2019/6/21/paradise-in-the-park/
+permalink: /events/2019/6/1/paradise-in-the-park/
 ---
 
-<nav markdown="1">
-* [Lease event](/rent/)
-</nav>
-
-Paradise in the Park
+<small>Lease event</small> Paradise in the Park <small></small>
 ====================
 
-Saturday from 3 p.m. to 11 p.m.<br />
-_<small>June 1, 2019</small>_
-
-## Event website
-
-[residentadvisor.net](https://www.residentadvisor.net/events/1238995)
+Saturday, June 1, 2019 from 3 p.m. to 11 p.m.
 
 ## Location
 
@@ -27,8 +18,6 @@ Grand Park’s **Event Lawn** _(between Broadway and Spring)_
 
 ## About
 
-Grand Park’s Event Lawn will be the site for the lease event “Paradise in the Park.”
-
 Tickets and event information can be found on the event website:  
 [residentadvisor.net](https://www.residentadvisor.net/events/1238995)
 
@@ -38,5 +27,5 @@ The dog run will be closed for the duration of the event. The playground and res
 
 * * *
 
-_Lease Events help support free year-round programs in Grand Park._
+_[Lease Events](/rent/) help support free year-round programs in Grand Park._
 
