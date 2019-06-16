@@ -7,13 +7,17 @@ About the park
 
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
 
+### Business
+
 <nav markdown="1">
 *   [Rent the park for an event](/rent/)
 *   [Filming & photography](/film-photography/)
-*   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
+*   [For members of the media](/for-media/)
 *   [Contact us](/contact/)
 </nav>
+
+### Support the park
 
 <nav markdown="1">
 *   [Meet the staff](/staff/)
