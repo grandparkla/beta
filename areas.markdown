@@ -22,6 +22,8 @@ Areas of the park
 *   [Metro Station](https://www.google.com/maps/@34.0554164,-118.2453169,3a,75y,160.93h,79.88t/data=!3m8!1e1!3m6!1sAF1QipP6PYGlHXiASxoeXr9EeGZAdRxEvxrGJwxf8Atg!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP6PYGlHXiASxoeXr9EeGZAdRxEvxrGJwxf8Atg%3Dw203-h100-k-no-pi-0-ya75.437515-ro-0-fo100!7i6912!8i3456)
 </nav>
 
+Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
+
 Grand Park spans four city blocks in downtown Los Angeles between The Music Center and City Hall and features distinct amenities, including:
 
 *   Arthur J. Will Memorial Fountain with a quarter inch splash pad and jets open for play
@@ -30,3 +32,72 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
 *   Off-leash dog run
 *   On-site Metro and Purple Lines
 *   Playground with 12-foot tube slide<br /><small>(recommended for ages 2-12)</small>
+
+All areas of the park are open daily. Just drop by for a picnic or a splash!
+
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/splash-pad/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/gardens/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Off-Leash Dog Run</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/performance-lawn/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Performance Lawn</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/performance-lawn.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
