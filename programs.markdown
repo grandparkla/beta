@@ -12,20 +12,14 @@ Programs
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
-*   [Lunch à la park](/lunch/)
+*   [Lunch à la Park](/lunch/)
 *   [Summer](/summer/)
 *   [Fall](/fall/)
 *   [Winter](/winter/)
 *   [Spring](/spring/)
 </nav>
 
-<figure>
-  <img src="/uploads/sunday-sessions-8.jpg" alt="Sunday Sessions" height="500" />
-</figure>
-
-* * *
-
-Lunch à la park
+Lunch à la Park
 ---------------
 
 ### Every week at lunchtime
@@ -36,7 +30,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
@@ -46,7 +40,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/yoga/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
@@ -56,7 +50,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/spring-concerts/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
@@ -70,9 +64,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 Summer season
 -------------
 
-### Free admission events, on select Sundays and holidays
-
-L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
+Free admission events, on select Sundays and holidays
 
 <ol class="event-list">
   <li>
@@ -80,7 +72,6 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
       <div>
         <h3>Summer Season</h3>
         <h4>Sunday Sessions</h4>
-        <p>2019</p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
@@ -90,7 +81,6 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
       <div>
         <h3>Summer Season</h3>
         <h4>4th of July Block Party</h4>
-        <p>2019</p>
       </div>
       <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>
@@ -102,8 +92,6 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
 
 Fall season
 -------------
-
-### Free admission events
 
 Grand Park celebrates the traditions of Día de los Muertos with multiple ways to experience and learn about the holiday.
 
@@ -125,8 +113,6 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
 Winter season
 -------------
 
-### Free admission holiday celebrations
-
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/nyela/">
@@ -142,8 +128,8 @@ Winter season
     <a href="/winter-glow/">
       <div>
         <h3>Winter season</h3>
-        <h4>Winter glow</h4>
-        <p>An immersive nighttime art experience</p>
+        <h4>Winter Glow</h4>
+        <p>an immersive nighttime art experience</p>
       </div>
       <img src="/uploads/winter-glow-3.jpg" height="300" alt="" />
     </a>
@@ -153,9 +139,8 @@ Winter season
 
 * * *
 
-## Spring season
-
-### Free admission events
+Spring season
+-------------
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
@@ -171,8 +156,8 @@ Winter season
   <li>
     <a href="/spring-concerts/">
       <div>
-        <h3>Lunch à la park</h3>
-        <h4>Spring concerts</h4>
+        <h3>Lunch à la Park</h3>
+        <h4>Spring Concerts</h4>
         <p>featuring L.A.’s youth artists</p>
       </div>
       <img src="/uploads/spring-concerts.jpg" height="300" alt="" />

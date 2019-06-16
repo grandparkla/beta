@@ -1,12 +1,12 @@
 ---
-title: Lunch à la park
+title: Lunch à la Park
 ---
 
 <nav markdown="1">
 * [Programs](/programs/)
 </nav>
 
-# Lunch à la park
+# Lunch à la Park
 
 ### Every week at lunchtime
 
@@ -16,8 +16,8 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>Lunch à la park</h3>
-        <h4>Food trucks</h4>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
       <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
@@ -28,7 +28,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/yoga/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
@@ -38,8 +38,8 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/spring-concerts/">
       <div>
-        <h3>Lunch à la park</h3>
-        <h4>Spring concerts</h4>
+        <h3>Lunch à la Park</h3>
+        <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
       <img src="/uploads/spring-concerts.jpg" height="300" alt="" />

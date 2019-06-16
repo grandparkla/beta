@@ -25,8 +25,8 @@ Spring season
   <li>
     <a href="/spring-concerts/">
       <div>
-        <h3>Lunch à la park</h3>
-        <h4>Spring concerts</h4>
+        <h3>Lunch à la Park</h3>
+        <h4>Spring Concerts</h4>
         <p>featuring L.A.’s youth artists</p>
       </div>
       <img src="/uploads/spring-concerts.jpg" height="300" alt="" />

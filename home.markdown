@@ -75,7 +75,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
         <!--
         <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
@@ -91,7 +91,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
   <li>
     <a href="/yoga/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <!--
         <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
@@ -134,7 +134,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 </ol>
 
 
-## Things to Do
+## Things to do
 
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
@@ -146,7 +146,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 </nav>
 
 
-## Plan Your visit
+## Plan your visit
 
 Grand Park is located in downtown Los Angeles between The Music Center and City Hall.
 
@@ -159,7 +159,7 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 </nav>
 
 
-## About the Park
+## About the park
 
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
 

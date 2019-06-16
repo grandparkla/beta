@@ -7,7 +7,7 @@ title: Food Trucks
 * [Lunch à la Park](/lunch/)
 </nav>
 
-# Food trucks
+# Food Trucks
 
 Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time><br />
 _<small>Year-round, except on holidays</small>_
@@ -84,7 +84,7 @@ Trucks will be parked on Olive Court (between Grand and Hill) and the Marketplac
   <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />
 </figure>
 
-Part of Grand Park’s noontime [Lunch à la park](/lunch/) programs, take a break with rotating food trucks in the park.
+Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs, take a break with rotating food trucks in the park.
 
 _**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
 

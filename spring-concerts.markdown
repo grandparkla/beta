@@ -7,7 +7,7 @@ title: Spring Concerts
 * [Lunch à la Park](/lunch/)
 </nav>
 
-Spring concerts <small>featuring L.A.’s youth artists</small>
+Spring Concerts <small>featuring L.A.’s youth artists</small>
 ==============================================================
 
 Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15">1:15 p.m.</time><br />
@@ -60,4 +60,4 @@ May 23
 May 30
 : William Brandt—Spotlight Jazz Combo
 
-_Part of Grand Park’s noontime [Lunch à la park](/lunch/) programs._
+_Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs._

@@ -26,8 +26,8 @@ Winter season
     <a href="/winter-glow/">
       <div>
         <h3>Winter season</h3>
-        <h4>Winter glow</h4>
-        <p>An immersive nighttime art experience</p>
+        <h4>Winter Glow</h4>
+        <p>an immersive nighttime art experience</p>
       </div>
       <img src="/uploads/winter-glow-3.jpg" height="300" alt="" />
     </a>

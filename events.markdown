@@ -19,7 +19,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
-*   [Lunch à la park](/lunch/)
+*   [Lunch à la Park](/lunch/)
 *   [Summer season](/summer/)
 </nav>
 -->
@@ -30,7 +30,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
         <!--
         <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
@@ -46,7 +46,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
   <li>
     <a href="/yoga/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <!--
         <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
@@ -65,7 +65,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 
 * * *
 
-## Lunch à la park<a id="weekly"></a>
+## Lunch à la Park<a id="weekly"></a>
 
 ### Every week at lunchtime
 
@@ -75,7 +75,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/yoga/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <!--
         <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
@@ -93,7 +93,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   <li>
     <a href="/food-trucks/">
       <div>
-        <h3>Lunch à la park</h3>
+        <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
         <!--
         <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>

@@ -36,4 +36,4 @@ Grand Park’s popular yoga sessions return, giving participants the opportunity
   <img src="/uploads/yoga-2.jpg" alt="Yoga" height="500" />
 </figure>
 
-Part of Grand Park’s noontime [Lunch à la park](/lunch/) programs.
+Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.

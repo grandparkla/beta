@@ -34,9 +34,3 @@ L.A.’s finest DJs are hosting dance parties this summer at Grand Park.
   </li>
 </ol>
 
-* * *
-
-<figure>
-  <img src="/uploads/sunday-sessions-9.jpg" alt="Sunday Sessions" height="500" />
-</figure>
-
