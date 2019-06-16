@@ -10,10 +10,14 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 
 <nav markdown="1">
 *   [Today](/events/#today)
+*   [Every day](/events/#daily)
 *   [Every week](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
+
+<!--
 *   [Eat & Drink](/eat-drink/)
+-->
 </nav>
 
 <!-- 
@@ -27,48 +31,59 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/food-trucks/">
+    <a href="/sunday-sessions/">
       <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <!--
-        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
-        -->
+        <h3>Summer Season</h3>
+        <h4>Sunday Sessions</h4>
         <p>
-          Today at 11 a.m.
-          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
+          Today at 2 p.m.
         </p>
       </div>
-      <img src="/uploads/food-trucks-3.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/yoga/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <!--
-        <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
-        -->
-        <p>
-          Today at 12:15 p.m.
-          <!--
-          <br />June 12 &amp; 14<br /><time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
-          -->
-        </p>
-      </div>
-      <img src="/uploads/yoga-3.jpg" height="300" alt="" />
+      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
 
 * * *
 
-## Lunch à la Park<a id="weekly"></a>
+## Every day <a id="daily"></a>
 
-### Every week at lunchtime
+These areas of the park are open daily. Just drop by for a picnic or a splash!
+
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/splash-pad/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/splash-pad.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/performance-lawn/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Performance Lawn</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/performance-lawn.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
+* * *
+
+## Every week<a id="weekly"></a>
+
+### Lunch à la Park
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 

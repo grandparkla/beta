@@ -172,6 +172,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 
 <nav markdown="1">
 *   [Today](/events/#today)
+*   [Every day](/events/#daily)
 *   [Every week](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
