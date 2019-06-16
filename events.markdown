@@ -6,7 +6,10 @@ title: Things to do
 Things to do
 =============================================
 
+<!--
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
+-->
+Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
 <!--
@@ -100,7 +103,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
     <a href="/dog-run/">
       <div>
         <h3>Areas of the Park</h3>
-        <h4>Off-Leash Dog Run</h4>
+        <h4>Dog Run</h4>
         <p>
           Open every day
         </p>

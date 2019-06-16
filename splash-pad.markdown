@@ -9,7 +9,7 @@ announcement: The splash pad is closed today (Saturday, September 22, 2019) for 
 
 # Splash pad
 
-Open every day from 5:30 a.m. to 10:00 p.m.
+Open every day from 5:30 a.m. to 10 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
 The interactive splash pad is open to the public. Visitors of all ages are encouraged to enjoy water play in the splash pad, which features interactive jets.

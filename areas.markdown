@@ -128,7 +128,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
     <a href="/dog-run/">
       <div>
         <h3>Areas of the Park</h3>
-        <h4>Off-Leash Dog Run</h4>
+        <h4>Dog Run</h4>
         <p>
           Open every day
         </p>

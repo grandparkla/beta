@@ -36,7 +36,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>Herzlich willkommen</em>
   <em>Bienvenue</em>
   <em>Welkom</em>
-  <em>yáʼátʼééh</em>
+  <em>yáʼátʼééh</em><!-- navajo: https://glosbe.com/en/nv/welcome -->
   <em>환영</em>
   <em>Maligayang pagdating</em>
   <em>خوش آمدی</em>
@@ -57,7 +57,6 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>желанный</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
-  <!-- navajo: https://glosbe.com/en/nv/welcome -->
 </h1>
 
 <div></div>
@@ -66,48 +65,67 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
-<!--
-All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
--->
-
-<!-- <nav markdown="1">
-*   [Hours](/visit/#hours)
-*   [Directions to the Park](/directions/-to-the-park)
-</nav> -->
-
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
-    <a href="/food-trucks/">
+    <a href="/splash-pad/">
       <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
         <p>
-          Tuesday, June 18
-          <!--
-          Today at 11 a.m.
-          -->
+          Open Today
         </p>
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
-    <a href="/yoga/">
+    <a href="/playground/">
       <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
         <p>
-          Wednesday, June 19
-          <!--
-          Today at 12:15 p.m.
-          -->
+          Open Today
         </p>
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/gardens/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
+        <p>
+          Open Today
+        </p>
+      </div>
+      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Dog Run</h4>
+        <p>
+          Open Today
+        </p>
+      </div>
+      <img src="/uploads/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/performance-lawn/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Performance Lawn</h4>
+        <p>
+          Open Today
+        </p>
+      </div>
+      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
+    </a>
+  </li>
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -123,6 +141,8 @@ All are invited to Grand Park’s free year-round events including live music, e
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/july4/">
       <div>
@@ -136,72 +156,12 @@ All are invited to Grand Park’s free year-round events including live music, e
     </a>
   </li>
 </ol>
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
-    <a href="/splash-pad/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Splash Pad</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/playground/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Playground</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/playground-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/gardens/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Gardens</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/dog-run/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Off-Leash Dog Run</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/dog-run.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <li>
-    <a href="/performance-lawn/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Performance Lawn</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
 
-## Things to do
+
+{% comment %}
+
+
+## [Things to do](/events/)
 
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
@@ -217,12 +177,12 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Programs](/programs/)
 </nav>
 
+* * *
 
 ## Plan your visit
 
 Grand Park is located in downtown Los Angeles between The Music Center and City Hall.
-
-_The park is open every day from 5:30 a.m. to 10:00 p.m._
+The park is open every day from 5:30 a.m. to 10 p.m.
 
 <nav markdown="1">
 *   [Directions to the park](/directions/)
@@ -234,25 +194,19 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 
 ## About the park
 
-A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
-
-### Business
-
-<nav markdown="1">
-*   [Rent the park for an event](/rent/)
-*   [Filming & photography](/film-photography/)
-*   [For vendors](/vendors/)
-*   [For members of the media](/for-media/)
-*   [Contact us](/contact/)
-</nav>
-
-### Support the park
+Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect. Learn more [about the park](/about/).
 
 <nav markdown="1">
 *   [Meet the staff](/staff/)
+*   [Filming & photography](/film-photography/)
+*   [For members of the media](/for-media/)
+*   [For vendors](/vendors/)
 *   [Job opportunities](/job-opportunities/)
-*   [Sign up for news](/news-sign-up/)
-*   [Donate](/donate/)
+*   [Contact us](/contact/)
 </nav>
 
+<p class="action" markdown="1">
+[Rent the park for an event](/rent/)
+</p>
 
+{% endcomment %}

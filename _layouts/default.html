@@ -124,6 +124,9 @@
 
 <main>
   {{ content }}
+
+  {% capture plan_your_day %}{% include plan-your-day.markdown %}{% endcapture %}
+  {{ plan_your_day | markdownify }}
 </main>
 
 <footer class="footer">
@@ -185,14 +188,17 @@
 
 {% comment %}
 
-    <h2>Plan your day at Grand Park</h2>
-    <ul>
-      <!-- <li><a href="/eat-drink/">Find a place to eat</a></li> -->
-      <li><a href="/">Find something to do</a></li>
-      <!-- <li><a href="/programs/">Find your favorite program</a></li> -->
-      <li><a href="/about/#rental-information">Plan your event</a></li>
-    </ul>
 
+
+<h2>Plan your day at Grand Park</h2>
+<nav markdown="1">
+  <ul>
+    <li><a href="/events/">Find something to do</a></li>
+    <li><a href="/visit/">Get directions to the park</a></li>
+    <li><a href="/areas/">Areas of the park</a></li>
+    <li><a href="/about/">About the park</a></li>
+  </ul>
+</nav>
 
 <!-- 
     <h2 class="logo">
