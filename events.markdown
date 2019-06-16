@@ -9,9 +9,12 @@ Things to do
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
 <nav markdown="1">
+<!--
 *   [Today](/events/#today)
+-->
+
 *   [Every day](/events/#daily)
-*   [Every week](/events/#weekly)
+*   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
 
@@ -29,6 +32,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 </nav>
 -->
 
+<!--
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
@@ -45,6 +49,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
     </a>
   </li>
 </ol>
+-->
 
 * * *
 
@@ -78,7 +83,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
     </a>
   </li>
 </ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
   <li>
     <a href="/gardens/">
       <div>
@@ -91,8 +96,6 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
       <img src="/uploads/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/dog-run/">
       <div>
@@ -114,20 +117,36 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-5.jpg" height="300" alt="" />
+      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
 
 * * *
 
-## Every week<a id="weekly"></a>
+## Lunch à la Park <a id="weekly"></a>
 
-### Lunch à la Park
+### Every week at lunchtime
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <!--
+        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
+        -->
+        <p>
+          Tuesday, Wednesday &amp; Thursday
+          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
+        </p>
+      </div>
+      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+    </a>
+  </li>
   <li>
     <a href="/yoga/">
       <div>
@@ -144,22 +163,6 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         </p>
       </div>
       <img src="/uploads/yoga-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/food-trucks/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <!--
-        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
-        -->
-        <p>
-          Tuesday, Wednesday &amp; Thursday
-          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
-        </p>
-      </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

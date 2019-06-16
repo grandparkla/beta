@@ -81,12 +81,11 @@ All are invited to Grand Park’s free year-round events including live music, e
       <div>
         <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
-        <!--
-        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
-        -->
         <p>
+          Tuesday, June 18
+          <!--
           Today at 11 a.m.
-          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
+          -->
         </p>
       </div>
       <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
@@ -97,13 +96,10 @@ All are invited to Grand Park’s free year-round events including live music, e
       <div>
         <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
-        <!--
-        <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
-        -->
         <p>
-          Today at 12:15 p.m.
+          Wednesday, June 19
           <!--
-          <br />June 12 &amp; 14<br /><time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
+          Today at 12:15 p.m.
           -->
         </p>
       </div>
@@ -111,7 +107,7 @@ All are invited to Grand Park’s free year-round events including live music, e
     </a>
   </li>
 </ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -119,9 +115,24 @@ All are invited to Grand Park’s free year-round events including live music, e
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, June 23
+          <!--
+          Today at 2 p.m.
+          -->
         </p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/july4/">
+      <div>
+        <h3>Summer Season</h3>
+        <h4>4th of July Block Party</h4>
+        <p>
+          Thursday, July 4
+        </p>
+      </div>
+      <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -150,8 +161,6 @@ All are invited to Grand Park’s free year-round events including live music, e
       <img src="/uploads/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/gardens/">
       <div>
@@ -164,8 +173,6 @@ All are invited to Grand Park’s free year-round events including live music, e
       <img src="/uploads/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/dog-run/">
       <div>
@@ -178,6 +185,8 @@ All are invited to Grand Park’s free year-round events including live music, e
       <img src="/uploads/dog-run.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/performance-lawn/">
       <div>
@@ -187,21 +196,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Open every day
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-5.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <li>
-    <a href="/july4/">
-      <div>
-        <h3>Summer Season</h3>
-        <h4>4th of July Block Party</h4>
-        <p>
-          Thursday, July 4
-        </p>
-      </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -211,9 +206,13 @@ All are invited to Grand Park’s free year-round events including live music, e
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
+
+<!--
 *   [Today](/events/#today)
+-->
+
 *   [Every day](/events/#daily)
-*   [Every week](/events/#weekly)
+*   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
 </nav>
@@ -237,13 +236,17 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place. Learn more [about the park](/about/).
 
+### Business
+
 <nav markdown="1">
 *   [Rent the park for an event](/rent/)
 *   [Filming & photography](/film-photography/)
-*   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
+*   [For members of the media](/for-media/)
 *   [Contact us](/contact/)
 </nav>
+
+### Support the park
 
 <nav markdown="1">
 *   [Meet the staff](/staff/)

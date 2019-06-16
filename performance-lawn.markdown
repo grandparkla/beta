@@ -1,5 +1,6 @@
 ---
 title: Performance Lawn
+announcement: 'Grand Park’s _Performance Lawn_ will be the site for an event [Summer Salon: The Good Immigrant](/events/2019/6/18/the-good-immigrant/) on **Tuesday, June 18** from 7 p.m. to 8:30 p.m.'
 ---
 
 <nav markdown="1">
@@ -15,7 +16,7 @@ Catch one of Grand Park’s free performances, or enjoy a picnic with friends an
 </p>
 
 <figure>
-  <img src="/uploads/our-la-voices-6.jpg" alt="Performance Lawn" height="500" />
+  <img src="/uploads/performance-lawn-3.jpg" alt="Performance Lawn" height="500" />
 </figure>
 
 ## Location
