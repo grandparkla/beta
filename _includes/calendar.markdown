@@ -3,16 +3,6 @@
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
-    <a href="/food-trucks/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <p>Every Tuesday, Wednesday &amp; Thursday</p>
-      </div>
-      <img src="/uploads/food-trucks-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
     <a href="/events/2019/6/1/paradise-in-the-park/">
       <div>
         <h3>Lease event</h3>
@@ -21,29 +11,19 @@
           Saturday, June 1
         </p>
       </div>
-      <img src="/uploads/strawberry.svg" height="300" alt="" />
+      <img src="/uploads/lime.svg" height="300" alt="" />
     </a>
   </li>
   <li>
-    <a href="/events/2019/6/21/paradise-in-the-park/">
+    <a href="/events/2019/6/18/the-good-immigrant/">
       <div>
-        <h3>Event</h3>
-        <h4>Summer Salon <em><small>The Good Immigrant</small></em></h4>
+        <h3>Partner Event</h3>
+        <h4>Summer Salon: The Good Immigrant</h4>
         <p>
           Tuesday, June 18
         </p>
       </div>
       <img src="/uploads/strawberry.svg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/yoga/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <p>Every Wednesday &amp; Friday</p>
-      </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -58,6 +38,28 @@
         </p>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Every Tuesday, Wednesday &amp; Thursday</p>
+      </div>
+      <img src="/uploads/food-trucks-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Every Wednesday &amp; Friday</p>
+      </div>
+      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
