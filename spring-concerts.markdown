@@ -11,7 +11,7 @@ Spring concerts <small>featuring L.A.’s youth artists</small>
 ==============================================================
 
 Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15">1:15 p.m.</time><br />
-_<small>April 4 – May 30, 2019</small>_<br />
+_<small>April 4 – May 30, 2019</small>_
 
 <figure>
   <img src="/uploads/spring-concerts.jpg" alt="Spring Concerts" height="500" />

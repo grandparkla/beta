@@ -19,6 +19,8 @@
   <link rel="stylesheet" href="/assets/css/event-list.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/featured-event.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/figure-icon.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/figure.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/featured-artists.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/special-notice.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/action.css?v={{ site.version }}" />
 
@@ -69,10 +71,15 @@
 </head>
 <body>
 
-<!-- <section class="special-notice" role="status">
+{% if page.announcement %}
+<section class="special-notice" role="status">
   <h2>Special Announcement</h2>
+  {{ page.announcement | markdownify }}
+  <!--
   <p>The <a href="https://goo.gl/maps/dvPpcZmufWTDPR8r6">splash pad</a> is open!</p>
-</section> -->
+  -->
+</section>
+{% endif %}
 
 <header class="header">
   <div>
@@ -103,7 +110,7 @@
   <nav>
     <ul>
       <li><a href="/events/">Things to do</a></li>
-      <!-- <li><a href="/">Programs</a></li> -->
+      <!-- <li><a href="/programs/">Programs</a></li> -->
       <!-- <li><a href="/eat-drink/">Eat &amp; Drink</a></li> -->
       <li><a href="/visit/">Plan your visit</a></li>
       <li><a href="/about/">About the park</a></li>

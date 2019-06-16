@@ -1,0 +1,169 @@
+
+/* =Figures & Images
+----------------------------------------------- */
+@media (max-width: 40em) {
+  figure,
+  .video,
+  .map {
+    margin-left: -1.45em;
+    margin-right: -1.45em;
+  }
+}
+figure,
+.map,
+.video {
+  margin-top: 1.45em;
+  position: relative;
+}
+@media (min-width: 45em) {
+  .map,
+  figure,
+  .video {
+    margin-top: 2.9em;
+    margin-bottom: 2.9em;
+  }
+}
+
+/* Artist images */
+h3 + figure {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* OPTIONAL: Show a preview image while the real image is loading */
+figure > div {
+  background: rgb(204, 206, 204);
+  position: relative;
+  text-align: center;
+
+  /* KUDOS: http://stackoverflow.com/questions/12224320/defined-edges-with-css3-filter-blur#answer-23370117 */
+  overflow: hidden;
+
+  /* TRICKY: This causes iOS 7 & 8 to crash.
+  -webkit-transform: translate3d(0, 0, 0);
+  */
+}
+figure > div img {
+  display: block;
+  width: 100%;
+}
+figure > div[data-aspect-ratio] a,
+figure > div[data-aspect-ratio] img,
+figure[style*="--image-width"][style*="--image-height"] img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-width: none;
+}
+figure > div[data-aspect-ratio] a {
+  height: 100%;
+}
+figure > div img {
+  position: relative;
+}
+figure > div img.preview {
+  position: absolute;
+  margin: calc(-3em);
+  width: calc(100% + 6em) !important;
+  -webkit-filter: blur(1.5em);
+          filter: blur(1.5em);
+}
+
+figure > div[data-aspect-ratio] iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+figure[style*="--image-width"][style*="--image-height"] > div {
+  position: relative;
+  padding-bottom: calc(var(--image-height)/var(--image-width) * 100%); 
+}
+
+figure > div[data-aspect-ratio="451/676"] {
+  padding-bottom: 149.88913525%;
+}
+
+figure > div[data-aspect-ratio="1280/720"] {
+  padding-bottom: 56.25%;
+}
+
+/* July 4th Map */
+figure > div[data-aspect-ratio="1687/2587"] {
+  padding-bottom: 153.33333333%; 
+}
+
+/* NYELA Map */
+figure > div[data-aspect-ratio="2048/3140"] {
+  padding-bottom: 153.3203125%; 
+}
+
+/* July 4th Road Closures */
+figure > div[data-aspect-ratio="853/940"] {
+  padding-bottom: 110.1992966%;
+}
+@media (min-aspect-ratio: 1/1) {
+  figure > div[data-aspect-ratio-landscape="1678/940"] {
+    padding-bottom: 56.01907032%;
+  }
+}
+
+/* NYELA Road Closures */
+figure > div[data-aspect-ratio="850/942"] {
+  padding-bottom: 110.82352941%;
+}
+@media (min-aspect-ratio: 1/1) {
+  figure > div[data-aspect-ratio-landscape="1680/942"] {
+    padding-bottom: 56.07142857%;
+  }
+}
+
+figure > div[data-aspect-ratio="600/300"] {
+  padding-bottom: 50%;
+}
+@media (min-aspect-ratio: 1/1) {
+  figure > div[data-aspect-ratio-landscape="1920/465"] {
+    padding-bottom: 24.21875%;
+  }
+}
+
+figure > div[data-aspect-ratio="1/1"] {
+  padding-bottom: 100%;
+}
+@media (min-aspect-ratio: 1/1) {
+  figure > div[data-aspect-ratio-landscape="2/1"] {
+    padding-bottom: 50%;
+  }
+}
+
+/* NYELA Artist images */
+figure > div[data-aspect-ratio="2/3"] {
+  padding-bottom: 150%;
+}
+@supports (object-fit: cover) {
+  .featured-artists figure > div[data-aspect-ratio="1/1"] img,
+  .featured-artists figure > div[data-aspect-ratio="3/2"] img,
+  .featured-artists figure > div[data-aspect-ratio="2/3"] img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+figure > div[data-aspect-ratio="5/3"] {
+  padding-bottom: 60%;
+}
+figure > div[data-aspect-ratio="3/2"],
+figure > div[data-aspect-ratio="1000/667"] {
+  padding-bottom: 66.7%;
+}
+figure > div[data-aspect-ratio="5312/2988"] {
+  padding-bottom: 56.25%;
+}

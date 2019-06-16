@@ -38,6 +38,7 @@
 .special-notice h2 {
   font-size: inherit;
   font-weight: inherit;
+  font-family: inherit;
   margin: 0;
   max-width: none;
   /*! opacity: 0.5; */
@@ -78,7 +79,7 @@
 @media (min-width: 60em) {
   .special-notice {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 10em 1fr 10em;
     grid-gap: 1.5em;
   }
   .special-notice * {

@@ -1,0 +1,126 @@
+
+/* =Featured Artists
+----------------------------------------------- */
+
+/* SHIM: Make artist images a little smaller */
+.featured-artists ul,
+.featured-artists li {
+  list-style: none;
+  padding-left: 0;
+}
+.featured-artists img {
+  display: block;
+  width: 100%;
+}
+.featured-artists li {
+  max-width: 25em;
+}
+
+@media (min-width: 45.8em) {
+  /*
+  .all-star-band {
+    width: 40em;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .all-star-band:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .all-star-band figure:nth-child(1) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .all-star-band figure:nth-child(1),
+  .all-star-band figure:nth-child(2),
+  .all-star-band figure:nth-child(3),
+  .all-star-band figure:nth-child(4),
+  .all-star-band figure:nth-child(5) {
+    width: 50%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .beat-junkies {
+    width: 40em;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .beat-junkies figure:nth-child(1),
+  .beat-junkies figure:nth-child(2) {
+    width: 50%;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .beat-junkies figure:nth-child(3) {
+    clear: both;
+  }
+  */
+  
+  .featured-artists > figure {
+    margin-top: 1.45em;
+    margin-bottom: calc(1.45em * 4);
+  }
+
+  .artist-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.45em;
+    margin-bottom: calc(1.45em * 4);
+    /*! max-width: 40em; */
+    /*! margin-left: auto; */
+    /*! margin-right: auto; */
+  }
+  .artist-group > figure {
+    width: 100%;
+    margin: 0;
+  }
+  .artist-group > figure > div {
+    padding-bottom: 150% !important;
+  }
+  .artist-group > figure > div img {
+    object-fit: cover;
+    object-position: center;
+    height: 100% !important;
+  }
+  .artist-group > figure:nth-child(2)[style*="--image-width: 1999; --image-height: 1336;"] {
+    grid-column: 1/-1;
+    grid-row: 2;
+  }
+  .artist-group > figure:nth-child(2)[style*="--image-width: 1999; --image-height: 1336;"] div {
+    padding-bottom: 75% !important
+  }
+  .artist-group > figure[style*="--image-focus: left;"] img {
+    object-position: left;
+  }
+  
+
+
+
+  .featured-artists ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .featured-artists li {
+    flex-basis: 100%;
+  }
+
+  /* In general, items are half of the available width */
+  .featured-artists li:nth-child(n) {
+    flex-basis: 50%;
+  }
+
+  .featured-artists li:nth-child(1):nth-last-child(5) {
+    flex-basis: 100%;
+    max-width: none;
+  }
+  .featured-artists img[src*="babu"] {
+    width: 40em;
+    max-width: none;
+  }
+}

@@ -1,5 +1,5 @@
 ---
-title: 4th of July Block Party
+title: 4th Of July Block Party, Los Angeles, 2019. Grand Park + The Music Center #Go4thDTLA
 ---
 
 <nav markdown="1">
@@ -50,7 +50,9 @@ Grand Park + The Music Center
 This is a _free_ event. There’s no cost to attend.
 
 
-## Schedule
+## When
+
+July 4, 2019
 
 3:00 p.m.
 : Doors Open
@@ -89,7 +91,7 @@ Safety for everyone is número uno. Event entrance protocol includes mandatory b
 
 ### Party in harmony, LA!
 
-This is a space for unity – where Angelenos and visitors from all around the world can celebrate safely together. Any bullying, discrimination, hateful acts or unsafe behaviors are not allowed in this space.   If you see something suspicious, reach out to security or staff (they will be wearing pink vests or shirts) for assistance. Let’s take care of each other, LA fam.
+This is a space for unity – where Angelenos and visitors from all around the world can celebrate together. Any bullying, discrimination, or hateful acts are not allowed in this space.  **If you are an attendee, and you see something, reach out to security or staff (they will be wearing pink vests) for assistance.**
 
 
 ### Getting through bag check

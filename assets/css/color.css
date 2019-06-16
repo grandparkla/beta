@@ -59,6 +59,11 @@
     color: var(--strawberry);
   }
 
+main strong {
+  font-weight: inherit;
+  color: var(--strawberry);
+}
+
   /* a:visited {
     color: var(--text-color);
   } */

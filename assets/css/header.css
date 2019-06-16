@@ -312,6 +312,12 @@ header svg {
   main > dl {
     margin: 0;
   }
+  main h3 + p,
+  main h3 + ol,
+  main h3 + ul,
+  main h3 + dl {
+    margin-top: -0.75em;
+  }
   main > figure {
     margin: 3em 0;
   }
@@ -338,6 +344,7 @@ header svg {
   main > h2 {
     margin-left: 1.5em;
     margin-bottom: 0;
+    grid-row: span 2;
     /*! font-weight: normal; */
   }
   
@@ -357,6 +364,10 @@ header svg {
   }
   main > h2 + p {
     margin-top: 2.625em;
+  }
+  main > .logos {
+    grid-column: 1/-1;
+    max-width: none;
   }
 
 }
