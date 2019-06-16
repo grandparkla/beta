@@ -145,7 +145,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/performance-lawn.jpg" height="300" alt="" />
+      <img src="/uploads/sunday-sessions-5.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

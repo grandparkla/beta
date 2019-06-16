@@ -114,7 +114,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/performance-lawn.jpg" height="300" alt="" />
+      <img src="/uploads/sunday-sessions-5.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
