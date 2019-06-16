@@ -66,6 +66,10 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
+<!--
+All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
+-->
+
 <!-- <nav markdown="1">
 *   [Hours](/visit/#hours)
 *   [Directions to the Park](/directions/-to-the-park)
@@ -106,7 +110,8 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
       <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
-
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -119,6 +124,34 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/splash-pad/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/splash-pad.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/performance-lawn/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Performance Lawn</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/performance-lawn.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/july4/">
       <div>
@@ -132,7 +165,6 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
     </a>
   </li>
 </ol>
-
 
 ## Things to do
 
@@ -154,6 +186,7 @@ _The park is open every day from 5:30 a.m. to 10:00 p.m._
 
 <nav markdown="1">
 *   [Directions to the park](/directions/)
+*   [Areas of the park](/areas/)
 *   [Park rules](/rules/)
 *   [FAQs](/faqs/)
 </nav>

@@ -11,8 +11,8 @@ announcement: 'Due to the rain, _Winter Glow_ will be canceled this evening. Dec
 Winter Glow <small>an immersive nighttime art experience</small>
 ==============================================================
 
-All day, during park hours<br />
-_<small>December, 2018</small>_
+Sundown to 10 p.m.<br />
+_<small>December 1–25, 2018</small>_
 
 <figure>
   <img src="/uploads/winter-glow.jpg" alt="Winter glow" height="500" />

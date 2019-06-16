@@ -13,6 +13,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 *   [Every week](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
+*   [Eat & Drink](/eat-drink/)
 </nav>
 
 <!-- 
