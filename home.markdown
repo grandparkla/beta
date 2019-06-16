@@ -135,7 +135,47 @@ All are invited to Grand Park’s free year-round events including live music, e
           Open every day
         </p>
       </div>
-      <img src="/uploads/splash-pad.jpg" height="300" alt="" />
+      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/gardens/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Off-Leash Dog Run</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/dog-run.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
