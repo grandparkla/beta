@@ -1,12 +1,12 @@
 ---
 title: Winter Glow
 permalink: /winter-glow/
-announcement: 'Due to the rain, _Winter Glow_ will be canceled this evening. December 5–6, 2018'
+# announcement: 'Due to the rain, _Winter Glow_ will be canceled this evening. December 5–6, 2018'
 ---
 
 <nav markdown="1">
 * [Things to do](/events/)
-* [Winter season](/winter/)
+* [Programs](/programs/)
 </nav>
 
 Winter Glow <small>an immersive nighttime art experience</small>

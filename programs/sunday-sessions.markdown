@@ -5,7 +5,7 @@ permalink: /sunday-sessions/
 
 <nav markdown="1">
 * [Things to do](/events/)
-* [Summer season](/summer/)
+* [Programs](/programs/)
 </nav>
 
 # <small>Grand Park presents</small> Sunday Sessions <small>2019</small>

@@ -5,7 +5,7 @@ permalink: /nyela/
 
 <nav markdown="1">
 * [Things to do](/events/)
-* [Winter season](/winter/)
+* [Programs](/programs/)
 </nav>
 
 <small>Grand Park + The Music Center present</small> N.Y.E.L.A. <small>Countdown to 2019</small>

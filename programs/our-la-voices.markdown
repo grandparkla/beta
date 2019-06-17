@@ -5,7 +5,7 @@ permalink: /our-la-voices/
 
 <nav markdown="1">
 * [Things to do](/events/)
-* [Spring season](/spring/)
+* [Programs](/programs/)
 </nav>
 
 Our L.A. Voices <small>a pop-up arts + culture fest</small>

@@ -1,11 +1,11 @@
 ---
-title: 4th Of July Block Party, Los Angeles, 2019. Grand Park + The Music Center #Go4thDTLA
+title: 4th of July Block Party, Los Angeles, 2019. Grand Park + The Music Center #Go4thDTLA
 permalink: /july4/
 ---
 
 <nav markdown="1">
 * [Things to do](/events/)
-* [Summer season](/summer/)
+* [Programs](/programs/)
 </nav>
 
 <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
@@ -187,7 +187,22 @@ _(More updates to follow.)_
 <figure><img src="/uploads/july4/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" /></figure>
 
 
+* * *
 
 
-### Part of Grand Park’s [Summer Season](/summer/) programs.
+## More events <span class="avoid-break">at Grand Park</span>
 
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Sunday Sessions</h3>
+        <h4>Sunday Sessions</h4>
+        <p>
+          Sunday, July 21
+        </p>
+      </div>
+      <img src="/uploads/sunday-sessions-1.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>

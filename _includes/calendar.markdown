@@ -18,7 +18,7 @@
     <a href="/events/2019/6/18/the-good-immigrant/">
       <div>
         <h3>Partner Event</h3>
-        <h4>Summer Salon: The Good Immigrant</h4>
+        <h4>The Good Immigrant: An Evening of Storytelling</h4>
         <p>
           Tuesday, June 18
         </p>
@@ -31,7 +31,7 @@
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, June 23
@@ -87,7 +87,7 @@
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, July 21
@@ -126,7 +126,7 @@
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, August 18
@@ -179,7 +179,7 @@
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, September 22

@@ -32,7 +32,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 
 <nav markdown="1">
 *   [Lunch à la Park](/lunch/)
-*   [Summer season](/summer/)
+*   [Summer season](/)
 </nav>
 -->
 
@@ -43,7 +43,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Today at 2 p.m.

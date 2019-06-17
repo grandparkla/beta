@@ -71,7 +71,7 @@ Have a picnic, stroll through the gardens, play in the splash pad, and enjoy our
   <li>
     <a href="/sunday-sessions/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
         <p>
           Sunday, June 23
