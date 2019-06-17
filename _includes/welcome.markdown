@@ -10,7 +10,6 @@
   <em>خوش آمدید</em>
   <em>Herzlich willkommen</em>
   <em>Bienvenue</em>
-  {% comment %}
   <em>Welkom</em>
   <em>yáʼátʼééh</em><!-- navajo: https://glosbe.com/en/nv/welcome -->
   <em>환영</em>
@@ -33,5 +32,8 @@
   <em>желанный</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
-  {% endcomment %}
+
+{% comment %}
+{% endcomment %}
+
 </h1>
