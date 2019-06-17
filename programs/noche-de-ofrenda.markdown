@@ -89,7 +89,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
     <a href="/día-de-los-muertos-art/">
       <div>
         <h3>Día de los Muertos</h3>
-        <h4>Alters & art installations</h4>
+        <h4>Alters & Art Installations</h4>
         <p>October 28 – November 4, 2018</p>
       </div>
       <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
