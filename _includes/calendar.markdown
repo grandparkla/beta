@@ -17,7 +17,7 @@
   <li>
     <a href="/events/2019/6/18/the-good-immigrant/">
       <div>
-        <h3>Partnership Event</h3>
+        <h3>Partner Event</h3>
         <h4>Summer Salon: The Good Immigrant</h4>
         <p>
           Tuesday, June 18

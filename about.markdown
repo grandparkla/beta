@@ -8,11 +8,13 @@ About the park
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
 <nav markdown="1">
-*   [Meet the staff](/staff/)
 *   [Filming & photography](/film-photography/)
 *   [For members of the media](/for-media/)
 *   [For vendors](/vendors/)
+*   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
+*   [Sign up for news](/news-sign-up/)
+*   [Donate](/donate/)
 *   [Contact us](/contact/)
 </nav>
 
@@ -20,20 +22,17 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 [Rent the park for an event](/rent/)
 </p>
 
-### Support the park
+<div></div>
 
-<nav markdown="1">
-*   [Sign up for news](/news-sign-up/)
-*   [Donate](/donate/)
-</nav>
-
-<figure>
-  <img src="/uploads/sunday-sessions-5.jpg" alt="Sunday Sessions" height="500" />
-</figure>
+## A <span class="avoid-break">gathering place</span>
 
 A city’s urban heart is an expression of its people, its diversity, its interests, and its passions. With its majestic views extending from the Music Center to City Hall, Grand Park provides Angelenos of all walks of life a place where they can come together to celebrate, reflect, and shape the future, in one central gathering place.
 
 Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.
+
+<figure>
+  <img src="/uploads/sunday-sessions-5.jpg" alt="Sunday Sessions" height="500" />
+</figure>
 
 Grand Park has four distinct areas featuring amenities ranging from a restored historic Arthur J. Will Memorial Fountain with a new wade-able membrane pool, a small intimate performance lawn, a community terrace planted with drought tolerant specimen plants representing the diverse cultural make-up of Los Angeles itself, and a grand event lawn.
 
