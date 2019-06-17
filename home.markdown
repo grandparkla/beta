@@ -67,67 +67,32 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 Have a picnic, stroll through the gardens, play in the splash pad, and enjoy our free <span class="avoid-break">events & activities.</span>
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
-  <li>
-    <a href="/splash-pad/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Splash Pad</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/gardens/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Gardens</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/dog-run/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Dog Run</h4>
-        <p>
-          Open every day
-        </p>
-      </div>
-      <img src="/uploads/dog-run.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
-    <a href="/playground/">
+    <a href="/sunday-sessions/">
       <div>
-        <h3>Areas of the Park</h3>
-        <h4>Playground</h4>
+        <h3>Summer Season</h3>
+        <h4>Sunday Sessions</h4>
         <p>
-          Open every day
+          Sunday, June 23
+          <!--
+          Today at 2 p.m.
+          -->
         </p>
       </div>
-      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
-    <a href="/performance-lawn/">
+    <a href="/july4/">
       <div>
-        <h3>Areas of the Park</h3>
-        <h4>Performance Lawn</h4>
+        <h3>Summer Season</h3>
+        <h4>4th of July Block Party</h4>
         <p>
-          Open every day
+          Thursday, July 4
         </p>
       </div>
-      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
+      <img src="/uploads/july4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -166,37 +131,54 @@ Have a picnic, stroll through the gardens, play in the splash pad, and enjoy our
       <img src="/uploads/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/sunday-sessions/">
+    <a href="/splash-pad/">
       <div>
-        <h3>Summer Season</h3>
-        <h4>Sunday Sessions</h4>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
         <p>
-          Sunday, June 23
-          <!--
-          Today at 2 p.m.
-          -->
+          Open every day
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/july4/">
+    <a href="/gardens/">
       <div>
-        <h3>Summer Season</h3>
-        <h4>4th of July Block Party</h4>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
         <p>
-          Thursday, July 4
+          Open every day
         </p>
       </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
+  <!-- <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Dog Run</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+    </a>
+  </li> -->
 </ol>
 
 
