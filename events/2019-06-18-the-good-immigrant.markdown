@@ -1,9 +1,9 @@
 ---
-title: The Good Immigrant
+title: 'Summer Salon: The Good Immigrant'
 permalink: /events/2019/6/18/the-good-immigrant/
 ---
 
-<small>in partnership with The Music Center, PEN America, and Scripps Presents</small> Summer Salon <small>The Good Immigrant</small>
+<small>in partnership with The Music Center, PEN America, and Scripps Presents</small> Summer Salon:<br />The Good Immigrant<small></small>
 ====================
 
 Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
