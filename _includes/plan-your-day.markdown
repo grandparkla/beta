@@ -1,7 +1,7 @@
 
 * * *
 
-## Plan your day <span class="avoid-break">at the park</span>
+## Plan your day at <span class="avoid-break">the park</span>
 
 <nav markdown="1">
 
@@ -11,7 +11,7 @@
 
 </nav>
 
-## About Grand Park
+## About <span class="avoid-break">Grand Park</span>
 
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect. 
 

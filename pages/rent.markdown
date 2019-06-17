@@ -28,6 +28,6 @@ These steps will help you get started:
 [Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
 </p>
 
-## Questions?
+<div></div>
 
-If you have any questions that aren’t answered on this page, please send us an email at : [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)
+_If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
