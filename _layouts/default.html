@@ -71,16 +71,6 @@
 </head>
 <body>
 
-{% if page.announcement %}
-<section class="special-notice" role="status">
-  <h2>Special Announcement</h2>
-  {{ page.announcement | markdownify }}
-  <!--
-  <p>The <a href="https://goo.gl/maps/dvPpcZmufWTDPR8r6">splash pad</a> is open!</p>
-  -->
-</section>
-{% endif %}
-
 <header class="header">
   <div>
     <h2 class="logo">
@@ -121,6 +111,20 @@
 {% comment %}
 {% include flowers.html %}
 {% endcomment %}
+
+{% if site.announcement %}
+<section class="special-notice" role="status">
+  <h2>Special Announcement</h2>
+  {{ site.announcement | markdownify }}
+</section>
+{% endif %}
+
+{% if page.announcement %}
+<section class="special-notice" role="status">
+  <h2>Special Announcement</h2>
+  {{ page.announcement | markdownify }}
+</section>
+{% endif %}
 
 <main>
   {{ content }}

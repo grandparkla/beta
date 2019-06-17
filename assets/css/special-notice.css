@@ -35,6 +35,10 @@
   background-color: var(--strawberry);
   color: var(--snow);
 }
+.special-notice + .special-notice {
+  background-color: var(--lime);
+  color: var(--snow);
+}
 .special-notice h2 {
   font-size: inherit;
   font-weight: inherit;
