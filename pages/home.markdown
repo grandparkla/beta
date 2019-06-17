@@ -86,7 +86,7 @@ Have a picnic, stroll through the gardens, play in the splash pad, and enjoy our
   <li>
     <a href="/july4/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
         <p>
           Thursday, July 4

@@ -82,7 +82,7 @@ A pop-up arts + culture fest
     <a href="/our-la-voices/">
       <div>
         <h3>Our L.A. Voices</h3>
-        <h4>Festival</h4>
+        <h4>Our L.A. Voices Festival</h4>
         <!-- <p>a pop-up arts + culture fest</p> -->
       </div>
       <img src="/uploads/our-la-voices.jpg" height="300" alt="" />
@@ -100,7 +100,7 @@ L.A.’s finest DJs on select Sundays
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Dance & Music Sessions</h4>
       </div>
       <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
@@ -156,7 +156,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
     <a href="/día-de-los-muertos-art/">
       <div>
         <h3>Día de los Muertos</h3>
-        <h4>Alters & art installations</h4>
+        <h4>Alters & Art Installations</h4>
         <!-- <p>October 28 – November 4, 2018</p> -->
       </div>
       <img src="/uploads/día-de-los-muertos.jpg" height="300" alt="" />
@@ -278,7 +278,7 @@ Free admission events, on select Sundays and holidays
   <li>
     <a href="/july4/">
       <div>
-        <h3>Summer Season</h3>
+        <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
       </div>
       <img src="/uploads/july4.jpg" height="300" alt="" />
