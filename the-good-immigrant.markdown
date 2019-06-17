@@ -3,7 +3,7 @@ title: The Good Immigrant
 permalink: /events/2019/6/18/the-good-immigrant/
 ---
 
-<small>Partner Event</small> Summer Salon <small>The Good Immigrant</small>
+<small>Partnership Event</small> Summer Salon <small>The Good Immigrant</small>
 ====================
 
 Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.

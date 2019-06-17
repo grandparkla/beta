@@ -35,6 +35,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>خوش آمدید</em>
   <em>Herzlich willkommen</em>
   <em>Bienvenue</em>
+  {% comment %}
   <em>Welkom</em>
   <em>yáʼátʼééh</em><!-- navajo: https://glosbe.com/en/nv/welcome -->
   <em>환영</em>
@@ -57,6 +58,7 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
   <em>желанный</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
+  {% endcomment %}
 </h1>
 
 <div></div>
@@ -65,29 +67,17 @@ Lunchtime activities, summer dance sessions, free admission holiday celebrations
 
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr 1fr;">
   <li>
     <a href="/splash-pad/">
       <div>
         <h3>Areas of the Park</h3>
         <h4>Splash Pad</h4>
         <p>
-          Open Today
+          Open every day
         </p>
       </div>
       <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/playground/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Playground</h4>
-        <p>
-          Open Today
-        </p>
-      </div>
-      <img src="/uploads/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -96,7 +86,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open Today
+          Open every day
         </p>
       </div>
       <img src="/uploads/gardens-2.jpg" height="300" alt="" />
@@ -108,10 +98,24 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open Today
+          Open every day
         </p>
       </div>
       <img src="/uploads/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open every day
+        </p>
+      </div>
+      <img src="/uploads/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -120,12 +124,50 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
         <h3>Areas of the Park</h3>
         <h4>Performance Lawn</h4>
         <p>
-          Open Today
+          Open every day
         </p>
       </div>
       <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <!--
+        <p>Today from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time></p>
+        -->
+        <p>
+          Tuesday, Wednesday &amp; Thursday
+          <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
+        </p>
+      </div>
+      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <!--
+        <p>Today from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time></p>
+        -->
+        <p>
+          Wednesday &amp; Friday
+          <!--
+          <br />June 12 &amp; 14<br /><time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time>
+          -->
+        </p>
+      </div>
+      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>

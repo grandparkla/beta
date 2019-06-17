@@ -1,6 +1,6 @@
 ---
 title: Performance Lawn
-announcement: 'Grand Park’s _Performance Lawn_ will be the site for an event [Summer Salon: The Good Immigrant](/events/2019/6/18/the-good-immigrant/) on **Tuesday, June 18** from 7 p.m. to 8:30 p.m.'
+announcement: 'Grand Park’s _Performance Lawn_ will be the site for a partnership event [Summer Salon: The Good Immigrant](/events/2019/6/18/the-good-immigrant/) on **Tuesday, June 18** from 7 p.m. to 8:30 p.m.'
 ---
 
 <nav markdown="1">

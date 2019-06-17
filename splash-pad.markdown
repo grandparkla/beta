@@ -1,6 +1,6 @@
 ---
 title: Splash pad
-announcement: The splash pad is closed today (Saturday, September 22, 2019) for a private event. Sorry for any inconvenience!
+# announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 ---
 
 <nav markdown="1">

@@ -9,7 +9,11 @@ title: Programs
 Programs
 ========
 
+All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
+
+<!--
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
+-->
 
 <nav markdown="1">
 *   [Lunch à la Park](/lunch/)
@@ -17,7 +21,17 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Fall](/fall/)
 *   [Winter](/winter/)
 *   [Spring](/spring/)
+
+
+<!--
+*   [Arts & culture](/)
+*   [Classes & activities](/)
+*   [For kids](/kids/)
+*   [Holiday celebrations](/winter/)
+-->
 </nav>
+
+{% comment %}
 
 Lunch à la Park
 ---------------
@@ -86,7 +100,6 @@ Free admission events, on select Sundays and holidays
     </a>
   </li>
 </ol>
-
 
 * * *
 
@@ -165,3 +178,5 @@ Spring season
   </li>
 </ol>
 
+
+{% endcomment %}
