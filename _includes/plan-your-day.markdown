@@ -6,8 +6,8 @@
 <nav markdown="1">
 
 * [Find something to do](/events/)
+* [Find your favorite program](/programs/)
 * [Find out how to get here](/visit/)
-* [Rent the park for an event](/rent/)
 
 </nav>
 
@@ -18,3 +18,7 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 <nav markdown="1">
 * [Learn more about the park](/about/)
 </nav>
+
+<p class="action" markdown="1">
+[Rent the park for an event](/rent/)
+</p>
