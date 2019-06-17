@@ -147,7 +147,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Baile de los Muertos</h4>
         <!-- <p>Saturday, November 3, 2018</p> -->
       </div>
-      <img src="/uploads/día-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -159,7 +159,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Alters & Art Installations</h4>
         <!-- <p>October 28 – November 4, 2018</p> -->
       </div>
-      <img src="/uploads/día-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

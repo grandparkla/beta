@@ -14,7 +14,7 @@ Looking to the Past to Build the Future <small>alters & art installations</small
 October 28 through November 4, 2018
 
 <figure>
-  <img src="/uploads/día-de-los-muertos.jpg" alt="Día de los Muertos" height="500" />
+  <img src="/uploads/dia-de-los-muertos.jpg" alt="Día de los Muertos" height="500" />
 </figure>
 
 ## Location
@@ -59,7 +59,7 @@ LORE Media & Arts founded by Robert Ramirez is a 15-year-old cultural and specia
         <h4>Baile de los Muertos</h4>
         <p>Saturday, November 3, 2018</p>
       </div>
-      <img src="/uploads/día-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

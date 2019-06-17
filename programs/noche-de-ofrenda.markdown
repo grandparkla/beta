@@ -82,7 +82,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
         <h4>Baile de los Muertos</h4>
         <p>Saturday, November 3, 2018</p>
       </div>
-      <img src="/uploads/día-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -92,7 +92,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
         <h4>Alters & art installations</h4>
         <p>October 28 – November 4, 2018</p>
       </div>
-      <img src="/uploads/día-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

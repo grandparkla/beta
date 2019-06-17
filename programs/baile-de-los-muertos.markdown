@@ -14,7 +14,7 @@ permalink: /baile-de-los-muertos/
 Saturday, November 3, 2018 from 8:00 p.m. to midnight
 
 <figure>
-  <img src="/uploads/día-de-los-muertos-2.jpg" alt="Día de los Muertos" height="500" />
+  <img src="/uploads/dia-de-los-muertos-2.jpg" alt="Día de los Muertos" height="500" />
 </figure>
 
 ## Location
@@ -66,7 +66,7 @@ Next level rhythms by the SUBSUELO crew with special guests: El Conjunto Nueva O
         <h4>Alters & art installations</h4>
         <p>October 28 – November 4, 2018</p>
       </div>
-      <img src="/uploads/día-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
