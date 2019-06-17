@@ -2,7 +2,7 @@
 title: Yoga reTREAT
 permalink: /yoga/
 # announcement: 'Yoga Update: Due to soggy lawns and rainy weather, yoga is canceled for today (FRI MAY 10). Apologies for the inconvenience🙏'
-announcement: Yoga Update🧘🏽‍♀️Today’s yoga reTREAT will move to the Performance Lawn (near Hill St). See you there! 12:15pm to 1pm 🧘🏼‍♂️
+# announcement: Today’s yoga reTREAT will move to the Performance Lawn (near Hill St). See you there! 12:15pm to 1pm
 ---
 
 <nav markdown="1">
