@@ -425,7 +425,7 @@ main > nav + h1 {
 
 @media (min-width: 60em) {
   main > h1 {
-    font-size: 5.5vw;
+    font-size: 5vw;
     grid-column: 2/-2;
     margin: 0;
     text-align: left;

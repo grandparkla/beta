@@ -43,5 +43,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.92
+version: 0.0.93
 
