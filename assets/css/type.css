@@ -230,10 +230,14 @@ h1.welcome .waves {
 }
 h1.welcome .sun {
   height: 2.2em;
-  margin: -1em 0;
+  margin: -1em 0 -1.25em;
 }
 h1.welcome svg * {
   fill: currentColor;
+}
+
+h1.welcome > * {
+  margin-right: 0.25em;
 }
 
 
