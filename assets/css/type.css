@@ -229,21 +229,33 @@ h1.welcome .waves {
   margin: -1em 0 -1.6em;
 }
 h1.welcome .sun {
-  height: 2.2em;
+  height: 1.75em;
   margin: -1em 0 -1.25em;
 }
 h1.welcome svg * {
   fill: currentColor;
 }
 
-/* h1.welcome > * {
+/*
+h1.welcome > * {
   margin-right: 0.25em;
-} */
+}
 
+h1.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+*/
+
+/* main > h1.welcome {
+  height: calc(3.675em * 2);
+  overflow: hidden;
+} */
 
 @media (min-width: 20em) {
     main > h1.welcome {
-      font-size: 3.4vmax;
+      font-size: 3.2vmax;
     }
 }
 

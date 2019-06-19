@@ -1,4 +1,4 @@
-<h1 class="welcome">
+<h1 class="welcome" style="display: none">
   <em>Bienvenidos</em>
   <em>ยินดีต้อนรับ</em>
   <em>Welina</em>
@@ -50,6 +50,7 @@
 
     var nextItem
     var parent = items[0].parentNode
+    var maxItems = 12
 
     for (var index = 0; index < items.length; index++) {
 
@@ -61,7 +62,14 @@
       // console.dir(nextItem)
       // console.dir(items)
       parent.insertBefore(nextItem, document.querySelector(selector))
-
+    }
+    
+    items = document.querySelectorAll("h1.welcome > em")
+    for (var index = 0; index < items.length; index++) {
+      if (index > maxItems) {
+        nextItem = items[index]
+        parent.removeChild(nextItem)
+      }
     }
 
     if (Node && Node.ELEMENT_NODE) {
@@ -76,8 +84,7 @@
   }
 
   randomize("h1.welcome > *")
+  document.querySelector("h1.welcome").removeAttribute("style")
 })();
 </script>
-
-
 
