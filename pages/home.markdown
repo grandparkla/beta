@@ -7,6 +7,9 @@ permalink: /
 {% include welcome.markdown %}
 <div></div>
 
+## Welcome!
+
+All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
 
 <ol class="event-list">
   <li>

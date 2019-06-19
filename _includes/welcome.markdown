@@ -32,7 +32,7 @@
   <em>желанный</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
-  <em class="english">Welcome</em>
+  <!-- <em class="english">Welcome</em> -->
 </h1>
 
 <script>
