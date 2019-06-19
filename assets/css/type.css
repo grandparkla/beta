@@ -203,6 +203,8 @@ header a:focus {
     color: var(--evergreen);
     margin: 0;
   }
+
+
 h1.welcome em:nth-of-type(2n+1) {
   color: var(--lime);
 }
@@ -233,9 +235,18 @@ h1.welcome .sun {
 h1.welcome svg * {
   fill: currentColor;
 }
-  @media (min-width: 60em) {
+
+
+@media (min-width: 20em) {
     main > h1.welcome {
-      font-size: 3.4vw;
+      font-size: 3.4vmax;
+    }
+}
+
+    
+    
+@media (min-width: 60em) {
+    main > h1.welcome {
 /*       margin-bottom: -5rem; */
       grid-column: 1/-1;
       margin-left: 1.25em;

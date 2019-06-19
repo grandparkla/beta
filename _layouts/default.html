@@ -69,6 +69,21 @@
   </script>
   {% endif %}
 
+  {% unless site.hide_from_search_engines %}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39280926-1"></script>
+  <script>
+    if (window.location.href.indexOf('grandparkla.org') >= 0) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-39280926-1');
+      gtag('anonymizeIp', true); // https://support.google.com/analytics/answer/2763052
+    }
+  </script>
+  {% endunless %}
+
 </head>
 <body>
 
