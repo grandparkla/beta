@@ -61,6 +61,17 @@
       // console.dir(nextItem)
       // console.dir(items)
       parent.insertBefore(nextItem, document.querySelector(selector))
+
+    }
+
+    if (Node && Node.ELEMENT_NODE) {
+      nextItem = parent.firstChild
+      do {
+        if (nextItem.nodeType == Node.ELEMENT_NODE) {
+          console.log("adding a space")
+          nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
+        }
+      } while(nextItem = nextItem.nextSibling)
     }
   }
 
