@@ -32,6 +32,7 @@
   <em>желанный</em>
   <em>Chào mừng bạn</em>
   <em>स्वागत हे</em>
+  <em class="english">Welcome</em>
 </h1>
 
 <script>
@@ -66,7 +67,7 @@
     
     items = document.querySelectorAll("h1.welcome > em")
     for (var index = 0; index < items.length; index++) {
-      if (index > maxItems) {
+      if (index > maxItems && !items[index].classList.contains("english")) {
         nextItem = items[index]
         parent.removeChild(nextItem)
       }

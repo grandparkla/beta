@@ -8,12 +8,6 @@ permalink: /
 <div></div>
 
 
-## Welcome!
-
-Have a picnic, stroll through the gardens, play in the splash pad,
-and enjoy our free <span class="avoid-break">events & activities.</span>
-
-
 <ol class="event-list">
   <li>
     <a href="/sunday-sessions/">
