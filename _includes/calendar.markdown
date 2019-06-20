@@ -1,31 +1,29 @@
 
+{% assign data_collection = site.collections | where: "label", "events" | first %}
+{% assign data_list = data_collection.docs %}
+{% assign data_list = data_list | sort: "date" %}
+
+
 ## June 2019
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% for event in data_list %}
+  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+  {% if month_year == "2019-06" %}
   <li>
-    <a href="/events/2019/6/1/paradise-in-the-park/">
+    <a href="{{ event.url }}">
       <div>
-        <h3>Lease event</h3>
-        <h4>Paradise in the Park</h4>
+        <h3>{{ event.type }}</h3>
+        <h4>{{ event.title }}</h4>
         <p>
-          Saturday, June 1
+          {{ event.date | date: "%A, %B %e" }}
         </p>
       </div>
-      <img src="/assets/images/events/lime.svg" height="300" alt="" />
+      <img src="{{ event.image }}" height="300" alt="" />
     </a>
   </li>
-  <li>
-    <a href="/events/2019/6/18/the-good-immigrant/">
-      <div>
-        <h3>Partner Event</h3>
-        <h4>The Good Immigrant: An Evening of Storytelling</h4>
-        <p>
-          Tuesday, June 18
-        </p>
-      </div>
-      <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
-    </a>
-  </li>
+  {% endif %}
+{% endfor %}
 </ol>
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -68,6 +66,25 @@
     
 ## July 2019
 
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% for event in data_list %}
+  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+  {% if month_year == "2019-07" %}
+  <li>
+    <a href="{{ event.url }}">
+      <div>
+        <h3>{{ event.type }}</h3>
+        <h4>{{ event.title }}</h4>
+        <p>
+          {{ event.date | date: "%A, %B %e" }}
+        </p>
+      </div>
+      <img src="{{ event.image }}" height="300" alt="" />
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ol>
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/july4/">
@@ -119,6 +136,25 @@
   
 ## August 2019
 
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% for event in data_list %}
+  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+  {% if month_year == "2019-08" %}
+  <li>
+    <a href="{{ event.url }}">
+      <div>
+        <h3>{{ event.type }}</h3>
+        <h4>{{ event.title }}</h4>
+        <p>
+          {{ event.date | date: "%A, %B %e" }}
+        </p>
+      </div>
+      <img src="{{ event.image }}" height="300" alt="" />
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ol>
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
@@ -160,6 +196,25 @@
 
 ## September 2019
 
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% for event in data_list %}
+  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+  {% if month_year == "2019-09" %}
+  <li>
+    <a href="{{ event.url }}">
+      <div>
+        <h3>{{ event.type }}</h3>
+        <h4>{{ event.title }}</h4>
+        <p>
+          {{ event.date | date: "%A, %B %e" }}
+        </p>
+      </div>
+      <img src="{{ event.image }}" height="300" alt="" />
+    </a>
+  </li>
+  {% endif %}
+{% endfor %}
+</ol>
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/yoga/">

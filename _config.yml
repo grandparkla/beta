@@ -9,17 +9,22 @@ hide_from_search_engines: true
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
-# collections:
+collections:
+  events:
+    title: Events
+    output: true
 #   posts:
 #     title: Blog
-#     output: true
-#   events:
-#     title: Events
 #     output: true
 
 defaults:
 - scope:
     path: ''
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: events
   values:
     layout: default
 # - scope:
@@ -30,11 +35,6 @@ defaults:
 #     author: ''
 #     categories: blog
 #     layout: post
-# - scope:
-#     path: ''
-#     type: events
-#   values:
-#     layout: event
 
 exclude:
 - CNAME
@@ -43,5 +43,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.102
+version: 0.0.103
 
