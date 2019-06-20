@@ -11,6 +11,7 @@
   <em>Herzlich willkommen</em>
   <em>Bienvenue</em>
   <em>Welkom</em>
+  <em>歡迎</em>
   <em>yáʼátʼééh</em><!-- navajo: https://glosbe.com/en/nv/welcome -->
   <em>환영</em>
   <em>Maligayang pagdating</em>
