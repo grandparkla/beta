@@ -1,7 +1,7 @@
 <h1 class="welcome" style="display: none">
-  <em>Bienvenidos</em>
+  <em>Bienvenido</em>
   <em>ยินดีต้อนรับ</em>
-  <em>Welina</em>
+  <em>E Komo Mai</em>
   <em>ברוך הבא</em>
   <svg class="sun" width="29" height="37" clip-rule="evenodd" fill-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" viewBox="0 0 285 356.25" xmlns="http://www.w3.org/2000/svg"><path d="m143 74c37 0 68 31 68 69 0 37-31 68-68 68-38 0-69-31-69-68 0-38 31-69 69-69zm0 8c33 0 60 27 60 61 0 33-27 60-60 60-34 0-61-27-61-60 0-34 27-61 61-61z"/><path d="m136 66c10-33-19-17 4-66-9 44 23 42 12 66-6 0-11 0-16 0z"/><path d="m84 94c-16-32-26 1-44-50 25 37 46 13 55 38-4 4-8 7-11 12z"/><path d="m66 149c-33-10-17 19-66-4 44 9 42-23 66-12z"/><path d="m94 201c-32 17 1 26-50 44 37-25 13-46 38-55 4 4 7 8 12 11z"/><path d="m149 219c-10 33 19 17-4 66 9-44-23-42-12-66z"/><path d="m201 192c17 31 26-2 44 50-25-38-46-14-55-39 4-3 8-7 11-11z"/><path d="m219 136c33 10 17-19 66 4-44-9-42 23-66 12 0-6 0-11 0-16z"/><path d="m192 84c31-16-2-26 50-44-38 25-14 46-39 55-3-4-7-8-11-11z"/></svg>
   <em>Txais tos</em>
@@ -51,7 +51,7 @@
 
     var nextItem
     var parent = items[0].parentNode
-    var maxItems = 12
+    var maxItems = 99999999
 
     for (var index = 0; index < items.length; index++) {
 
