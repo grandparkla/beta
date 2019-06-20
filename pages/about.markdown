@@ -16,6 +16,7 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Job opportunities](/job-opportunities/)
 *   [Sign up for news](/news-sign-up/)
 *   [Donate](/donate/)
+*   [Sponsorship](/sponsorship/)
 *   [Contact us](/contact/)
 </nav>
 
