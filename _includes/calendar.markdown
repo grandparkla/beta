@@ -11,7 +11,7 @@
           Saturday, June 1
         </p>
       </div>
-      <img src="/uploads/lime.svg" height="300" alt="" />
+      <img src="/assets/images/events/lime.svg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -23,7 +23,7 @@
           Tuesday, June 18
         </p>
       </div>
-      <img src="/uploads/strawberry.svg" height="300" alt="" />
+      <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -37,7 +37,7 @@
           Sunday, June 23
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -49,7 +49,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -59,7 +59,7 @@
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -78,7 +78,7 @@
           Thursday, July 4
         </p>
       </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -90,7 +90,7 @@
           Sunday, July 21
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-1.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-1.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -100,7 +100,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/food-trucks.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -110,7 +110,7 @@
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
-      <img src="/uploads/yoga-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -129,7 +129,7 @@
           Sunday, August 18
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-3.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -141,7 +141,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -151,7 +151,7 @@
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
-      <img src="/uploads/yoga-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -168,7 +168,7 @@
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -182,7 +182,7 @@
           Sunday, September 22
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -192,7 +192,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/food-trucks-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

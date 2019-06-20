@@ -17,7 +17,7 @@ _<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 </nav>
 
 <figure>
-  <img src="/uploads/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
+  <img src="/uploads/programs/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
 </figure>
 
 
@@ -40,7 +40,7 @@ Map of the Park <a id="map"></a>
 ---------------
 
 <figure>
-  <a href="/uploads/map.jpg"><img src="/uploads/map.jpg" height="500" alt="Map of Grand Park" /></a>
+  <a href="/assets/temporary/map.jpg"><img src="/assets/temporary/map.jpg" height="500" alt="Map of Grand Park" /></a>
 </figure>
 
 

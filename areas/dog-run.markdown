@@ -18,7 +18,7 @@ Grand Park’s dog run features shade, benches, doggie bags and a water fountain
 </p>
 
 <figure>
-  <img src="/uploads/dog-run.jpg" alt="Dog Run" height="500" />
+  <img src="/uploads/areas/dog-run.jpg" alt="Dog Run" height="500" />
 </figure>
 
 ## Location

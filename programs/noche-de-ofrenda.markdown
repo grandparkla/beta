@@ -14,7 +14,7 @@ permalink: /noche-de-ofrenda/
 Saturday, October 27, 2018 from 7 p.m. to 9 p.m.
 
 <figure>
-  <img src="/uploads/noche-de-ofrenda.jpg" alt="Noche de Ofrenda" height="500" />
+  <img src="/uploads/programs/noche-de-ofrenda.jpg" alt="Noche de Ofrenda" height="500" />
 </figure>
 
 ## Location
@@ -70,7 +70,7 @@ The Aztec Dancers will be doing a Dia de los Muertos Ceremonial blessing of the 
 
 _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
 
-![Self Help Graphics & Art. Lore Media & Arts](/uploads/noche-de-ofrenda/self-help-graphics.png)
+![Self Help Graphics & Art. Lore Media & Arts](/uploads/programs/noche-de-ofrenda/self-help-graphics.png)
 
 ## Related events
 
@@ -82,7 +82,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
         <h4>Baile de los Muertos</h4>
         <p>Saturday, November 3, 2018</p>
       </div>
-      <img src="/uploads/dia-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/dia-de-los-muertos-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -92,7 +92,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
         <h4>Alters & Art Installations</h4>
         <p>October 28 – November 4, 2018</p>
       </div>
-      <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/uploads/programs/dia-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

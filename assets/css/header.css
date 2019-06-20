@@ -150,7 +150,7 @@ main {
 
 /*
 body {
-  background-image: url(/uploads/food-trucks-4.jpg);
+  background-image: url(/uploads/programs/food-trucks-4.jpg);
   background-repeat: no-repeat;
   background-position: top left;
   color: white;
@@ -164,7 +164,7 @@ h1 * {
 body {
   /* background-color: #afd2ec; */
   background-image:
-    url(/uploads/sun-rings.svg),
+    url(/assets/images/sun-rings.svg),
     radial-gradient(
       circle at 43.75vw -2vw,
       hsla(56, 97%, 63%, 100%),
@@ -195,7 +195,7 @@ body {
   background-size: 10vw auto, auto, auto, auto;
   background-position: 43.75% -2.5vw, top, top, top;
 
-  /* background-image: url(/uploads/duck-duck-go.svg);
+  /* background-image: url(/assets/temporary/duck-duck-go.svg);
   background-position: 50% 75vh;
   background-repeat: no-repeat; */
 }
@@ -209,8 +209,8 @@ body {
   color: white;
   --text-color: white;
   background-image:
-    url(/uploads/nyela-2019-portrait.png),
-    url(/uploads/nyela-2019-background-portrait-reverse.png);
+    url(/assets/temporary/nyela-2019-portrait.png),
+    url(/assets/temporary/nyela-2019-background-portrait-reverse.png);
   background-size: contain;
   background-position: bottom, top;
 }

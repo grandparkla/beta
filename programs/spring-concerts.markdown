@@ -15,7 +15,7 @@ Thursday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:15"
 _<small>April 4 – May 30, 2019</small>_
 
 <figure>
-  <img src="/uploads/spring-concerts.jpg" alt="Spring Concerts" height="500" />
+  <img src="/uploads/programs/spring-concerts.jpg" alt="Spring Concerts" height="500" />
 </figure>
 
 These weekly lunchtime concerts feature artists from L.A.’s top conservatories and training programs for high school artists. The series includes students from L.A. County High School for the Arts, California School for the Arts, and The Music Center’s Spotlight Program.

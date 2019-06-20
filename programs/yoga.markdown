@@ -16,7 +16,7 @@ Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time date
 _<small>Year-round, except on holidays</small>_
 
 <figure>
-  <img src="/uploads/yoga-4.jpg" alt="Yoga" height="500" />
+  <img src="/uploads/programs/yoga-4.jpg" alt="Yoga" height="500" />
 </figure>
 
 ## Location
@@ -36,7 +36,7 @@ This is a _free_ event. There’s no cost to attend.
 Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.
 
 <figure>
-  <img src="/uploads/yoga-2.jpg" alt="Yoga" height="500" />
+  <img src="/uploads/programs/yoga-2.jpg" alt="Yoga" height="500" />
 </figure>
 
 Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.

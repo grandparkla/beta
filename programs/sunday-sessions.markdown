@@ -14,7 +14,7 @@ Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m
 _<small>June 23, July 21, August 18, and September 22</small>_<br />
 
 <figure>
-  <img src="/uploads/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/programs/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
 
 ## Location
@@ -34,7 +34,7 @@ This is a _free_ event. There’s no cost to attend.
 Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
 
 <figure>
-  <img src="/uploads/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
 
 [Flashback video to Sunday Sessions 2018!](https://vimeo.com/289365164)

@@ -21,7 +21,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Sunday, June 23
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -33,7 +33,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Thursday, July 4
         </p>
       </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -45,7 +45,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Tuesday, Wednesday &amp; Thursday
         </p>
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -57,7 +57,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Wednesday &amp; Friday
         </p>
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -69,7 +69,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Open every day
         </p>
       </div>
-      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -81,7 +81,7 @@ All are invited to Grand Park’s free year-round events including live music, e
           Open every day
         </p>
       </div>
-      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

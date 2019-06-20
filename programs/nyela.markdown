@@ -30,7 +30,7 @@ _<small>Countdown begins at 11:55 p.m.</small>_
 </nav>
 
 <!-- <figure>
-  <img src="/uploads/july4.jpg" alt="July 4" height="500" />
+  <img src="/uploads/programs/july4.jpg" alt="July 4" height="500" />
 </figure> -->
 
 ## Dear LA,
@@ -80,7 +80,7 @@ Can’t make it to Grand Park + The Music Center’s N.Y.E.L.A.? [Watch live on 
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
 <a href="https://www.facebook.com/grandparklosangeles/videos/338417083422029/" class="has-icon">
-<img srcset="/uploads/nyela/live-video-poster-320-wide.jpg 320w, /uploads/nyela/live-video-poster-640-wide.jpg 640w, /uploads/nyela/live-video-poster-768-wide.jpg 768w, /uploads/nyela/live-video-poster.jpg 1080w" sizes="100vw" src="/uploads/nyela/live-video-poster.jpg" width="1000" alt="" />
+<img srcset="/uploads/programs/nyela/live-video-poster-320-wide.jpg 320w, /uploads/programs/nyela/live-video-poster-640-wide.jpg 640w, /uploads/programs/nyela/live-video-poster-768-wide.jpg 768w, /uploads/programs/nyela/live-video-poster.jpg 1080w" sizes="100vw" src="/uploads/programs/nyela/live-video-poster.jpg" width="1000" alt="" />
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
 <title>Video of Grand Park and The Music Center’s New Year’s Eve Celebration</title>
@@ -161,7 +161,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 451; --image-height: 676;">
     <div>
       <a href="https://soundcloud.com/aloe-blacc-official">
-        <img src="/uploads/nyela/artists/aloe-blacc.jpg" width="451" height="676" alt="Aloe Blacc" />
+        <img src="/uploads/programs/nyela/artists/aloe-blacc.jpg" width="451" height="676" alt="Aloe Blacc" />
       </a>
     </div>
   </figure>
@@ -169,7 +169,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 486; --image-height: 730;">
     <div>
       <a href="https://soundcloud.com/maya-jupiter">
-        <img src="/uploads/nyela/artists/maya-jupiter.jpg" width="486" height="730" alt="Maya Jupiter" />
+        <img src="/uploads/programs/nyela/artists/maya-jupiter.jpg" width="486" height="730" alt="Maya Jupiter" />
       </a>
     </div>
   </figure>
@@ -177,7 +177,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 605; --image-height: 909;">
     <div>
       <a href="https://soundcloud.com/irka-mateo">
-        <img src="/uploads/nyela/artists/irka-mateo.jpg" width="605" height="909" alt="Irka Mateo" />
+        <img src="/uploads/programs/nyela/artists/irka-mateo.jpg" width="605" height="909" alt="Irka Mateo" />
       </a>
     </div>
   </figure>
@@ -185,7 +185,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 909; --image-height: 909; --image-focus: left;">
     <div>
       <a href="https://soundcloud.com/mellomusicgroup/georgia-anne-muldrow-akosua">
-        <img src="/uploads/nyela/artists/georgia-muldrow.jpg" width="909" height="909" alt="Georgia Anne Muldrow" />
+        <img src="/uploads/programs/nyela/artists/georgia-muldrow.jpg" width="909" height="909" alt="Georgia Anne Muldrow" />
       </a>
     </div>
   </figure>
@@ -198,7 +198,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
 <figure>
   <div>
     <a href="https://soundcloud.com/iamdjday">
-      <img src="/uploads/nyela/artists/dj-day.jpg" width="500" alt="DJ Day" />
+      <img src="/uploads/programs/nyela/artists/dj-day.jpg" width="500" alt="DJ Day" />
     </a>
   </div>
 </figure>
@@ -211,7 +211,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 375; --image-height: 563;">
     <div>
       <a href="https://soundcloud.com/ericalandia">
-        <img src="/uploads/nyela/artists/erica-landia.jpg" width="375" height="563" alt="Erica Landia" />
+        <img src="/uploads/programs/nyela/artists/erica-landia.jpg" width="375" height="563" alt="Erica Landia" />
       </a>
     </div>
   </figure>
@@ -219,7 +219,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 1999; --image-height: 1336;">
     <div>
       <a href="https://soundcloud.com/kronika1111">
-        <img src="/uploads/nyela/artists/kronika.jpg" width="1999" height="1336" alt="Kronika" />
+        <img src="/uploads/programs/nyela/artists/kronika.jpg" width="1999" height="1336" alt="Kronika" />
       </a>
     </div>
   </figure>
@@ -227,7 +227,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
   <figure style="--image-width: 943; --image-height: 672;">
     <div>
       <a href="https://soundcloud.com/djspinorita/">
-        <img src="/uploads/nyela/artists/spinorita.jpg" width="943" height="672" alt="Spiñorita" />
+        <img src="/uploads/programs/nyela/artists/spinorita.jpg" width="943" height="672" alt="Spiñorita" />
       </a>
     </div>
   </figure>
@@ -344,12 +344,12 @@ This year’s N.Y.E.L.A. is all about L.A. DREAMS!✨ Celebrating the future of 
 
 Don’t miss out. Event maps will be available at the _Grand Park_ info booths. Sign up for our e-mail newsletter at one of the booths and get a **fun glow wand** (while supplies last).
 
-[Downloadable Map](/uploads/nyela/nyela-2019-map.pdf) _(PDF file)_
+[Downloadable Map](/uploads/programs/nyela/nyela-2019-map.pdf) _(PDF file)_
 
 <figure class="feature map">
   <div data-aspect-ratio="2048/3140" style="background-color: black; color: white;">
-    <a href="/uploads/nyela/nyela-2019-map.pdf">
-      <img src="/uploads/nyela/nyela-2019-map.png" width="1000" alt="Event Map" />
+    <a href="/uploads/programs/nyela/nyela-2019-map.pdf">
+      <img src="/uploads/programs/nyela/nyela-2019-map.png" width="1000" alt="Event Map" />
     </a>
   </div>
 </figure>
@@ -364,7 +364,7 @@ The event will take place at Grand Park + The Music Center:<br />
 <figure>
 <div>
 <a href="/nyela-2019-community-letter.pdf">
-<img src="/uploads/nyela/street-closures.png" width="500" alt="Olive Street, Hill Street, Broadway, and Spring Street will be closed in the area around Grand Park (between Temple Street and 2nd Street). 1st Street and 2nd street will also be closed in the area around Grand Park (between Grand Avenue and Main Street)." />
+<img src="/uploads/programs/nyela/street-closures.png" width="500" alt="Olive Street, Hill Street, Broadway, and Spring Street will be closed in the area around Grand Park (between Temple Street and 2nd Street). 1st Street and 2nd street will also be closed in the area around Grand Park (between Grand Avenue and Main Street)." />
 </a>
 </div>
 
@@ -372,7 +372,7 @@ The event will take place at Grand Park + The Music Center:<br />
 
 Street closures will begin taking effect 6 a.m. on Monday, December 31. All streets will reopen by 6 a.m. on Tuesday, January 1.
 
-See the [N.Y.E.L.A. Community Letter](/uploads/nyela/nyela-2019-community-letter.pdf) for more details about streets that will be closed during the event.
+See the [N.Y.E.L.A. Community Letter](/uploads/programs/nyela/nyela-2019-community-letter.pdf) for more details about streets that will be closed during the event.
 
 
 ### Parking
@@ -434,7 +434,7 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
 <a href="https://vimeo.com/165034815" class="has-icon">
-<img srcset="/uploads/nyela/highlights-video-poster-320-wide.jpg 320w, /uploads/nyela/highlights-video-poster-640-wide.jpg 640w, /uploads/nyela/highlights-video-poster-768-wide.jpg 768w, /uploads/nyela/highlights-video-poster-1024-wide.jpg 1024w, /uploads/nyela/highlights-video-poster.jpg 1680w" sizes="100vw" src="/uploads/nyela/highlights-video-poster.jpg" width="1000" alt="" />
+<img srcset="/uploads/programs/nyela/highlights-video-poster-320-wide.jpg 320w, /uploads/programs/nyela/highlights-video-poster-640-wide.jpg 640w, /uploads/programs/nyela/highlights-video-poster-768-wide.jpg 768w, /uploads/programs/nyela/highlights-video-poster-1024-wide.jpg 1024w, /uploads/programs/nyela/highlights-video-poster.jpg 1680w" sizes="100vw" src="/uploads/programs/nyela/highlights-video-poster.jpg" width="1000" alt="" />
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
 <title>Video of Grand Park and The Music Center’s New Year’s Eve Celebration</title>
@@ -454,12 +454,12 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 
 <ul class="logos">
 <!--
-  <li><img src="/uploads/nyela/sponsors/los-angeles.svg" alt="County of Los Angeles" /></li>
-  <li><img src="/uploads/nyela/sponsors/grandpark-musiccenter.svg" alt="Grand Park + The Music Center" style="font-size: 0.75em"  /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/los-angeles.svg" alt="County of Los Angeles" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/grandpark-musiccenter.svg" alt="Grand Park + The Music Center" style="font-size: 0.75em"  /></li>
 -->
-  <li><img src="/uploads/nyela/sponsors/hildal.svg" alt="Supervisor Hilda L. Solis" /></li>
-  <li><img src="/uploads/nyela/sponsors/council-district-14.png" alt="Council District 14, Los Angeles" /></li>
-  <li><img src="/uploads/nyela/sponsors/german-light.svg" alt="German Light Products" /></li>
-  <li><img src="/uploads/nyela/sponsors/kaiser.png" alt="Kaiser Permanente, Los Angeles Medical Center" style="font-size: 0.5em" /></li>
-  <li><img src="/uploads/nyela/sponsors/t-mobile.svg" alt="Metro by T-Mobile" style="font-size: 0.75em" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/hildal.svg" alt="Supervisor Hilda L. Solis" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/council-district-14.png" alt="Council District 14, Los Angeles" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/german-light.svg" alt="German Light Products" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/kaiser.png" alt="Kaiser Permanente, Los Angeles Medical Center" style="font-size: 0.5em" /></li>
+  <li><img src="/uploads/programs/nyela/sponsors/t-mobile.svg" alt="Metro by T-Mobile" style="font-size: 0.75em" /></li>
 </ul>

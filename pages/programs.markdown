@@ -35,7 +35,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -47,7 +47,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -57,7 +57,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
+      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -75,7 +75,7 @@ A pop-up arts + culture fest
         <h4>Lunchtime Workshops</h4>
         <!-- <p>a pop-up arts + culture fest</p> -->
       </div>
-      <img src="/uploads/our-la-voices-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/our-la-voices-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -85,7 +85,7 @@ A pop-up arts + culture fest
         <h4>Our L.A. Voices Festival</h4>
         <!-- <p>a pop-up arts + culture fest</p> -->
       </div>
-      <img src="/uploads/our-la-voices.jpg" height="300" alt="" />
+      <img src="/uploads/programs/our-la-voices.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -102,7 +102,7 @@ L.A.’s finest DJs on select Sundays
         <h3>Sunday Sessions</h3>
         <h4>Dance & Music Sessions</h4>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -119,7 +119,7 @@ Holiday celebration
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
       </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -137,7 +137,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Noche de Ofrenda</h4>
         <!-- <p>Saturday, October 27, 2018</p> -->
       </div>
-      <img src="/uploads/noche-de-ofrenda.jpg" height="300" alt="" />
+      <img src="/uploads/programs/noche-de-ofrenda.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -147,7 +147,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Baile de los Muertos</h4>
         <!-- <p>Saturday, November 3, 2018</p> -->
       </div>
-      <img src="/uploads/dia-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/dia-de-los-muertos-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -159,7 +159,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Alters & Art Installations</h4>
         <!-- <p>October 28 – November 4, 2018</p> -->
       </div>
-      <img src="/uploads/dia-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/uploads/programs/dia-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -176,7 +176,7 @@ A month-long, immersive nighttime art experience
         <h3>Winter Glow</h3>
         <h4>Art Installations</h4>
       </div>
-      <img src="/uploads/winter-glow-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/winter-glow-3.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -193,7 +193,7 @@ Countdown to the new year
         <h3>New Year’s Eve, Los Angeles</h3>
         <h4>N.Y.E.L.A.</h4>
       </div>
-      <img src="/uploads/nyela/live-video-poster.jpg" height="300" alt="" />
+      <img src="/uploads/programs/nyela/live-video-poster.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -233,7 +233,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -243,7 +243,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
+      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -255,7 +255,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -274,7 +274,7 @@ Free admission events, on select Sundays and holidays
         <h3>Sunday Sessions</h3>
         <h4>Sunday Sessions</h4>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -283,7 +283,7 @@ Free admission events, on select Sundays and holidays
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
       </div>
-      <img src="/uploads/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -302,7 +302,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h3>Fall season</h3>
         <h4>Día de los Muertos</h4>
       </div>
-      <img src="/uploads/día-de-los-muertos.jpg" height="300" alt="" />
+      <img src="/assets/temporary/día-de-los-muertos.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -321,7 +321,7 @@ Winter season
         <h4>Winter Glow</h4>
         <p>an immersive nighttime art experience</p>
       </div>
-      <img src="/uploads/winter-glow-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/winter-glow-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -331,7 +331,7 @@ Winter season
         <h4>N.Y.E.L.A.</h4>
         <p>Countdown to 2019, New Year’s Eve</p>
       </div>
-      <img src="/uploads/nyela/live-video-poster.jpg" height="300" alt="" />
+      <img src="/uploads/programs/nyela/live-video-poster.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -350,7 +350,7 @@ Spring season
         <h4>Spring Concerts</h4>
         <p>featuring L.A.’s youth artists</p>
       </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
+      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -360,7 +360,7 @@ Spring season
         <h4>Our L.A. Voices</h4>
         <p>a pop-up arts + culture fest</p>
       </div>
-      <img src="/uploads/our-la-voices.jpg" height="300" alt="" />
+      <img src="/uploads/programs/our-la-voices.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

@@ -49,7 +49,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
           Today at 2 p.m.
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -71,7 +71,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -83,7 +83,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+      <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -95,7 +95,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/dog-run.jpg" height="300" alt="" />
+      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -107,7 +107,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/performance-lawn-4.jpg" height="300" alt="" />
+      <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -121,7 +121,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
           Open every day
         </p>
       </div>
-      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -148,7 +148,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -166,7 +166,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
           -->
         </p>
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

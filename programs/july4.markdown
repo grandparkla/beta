@@ -28,7 +28,7 @@ _<small>Fireworks at 9 p.m.</small>_<br />
 </nav>
 
 <figure>
-  <img src="/uploads/july4.jpg" alt="July 4" height="500" />
+  <img src="/uploads/programs/july4.jpg" alt="July 4" height="500" />
 </figure>
 
 **Hey Los Angeles!**, we look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
@@ -70,7 +70,7 @@ July 4, 2019
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
 <a href="https://vimeo.com/82051161" class="has-icon">
-<img src="/uploads/july4/highlights-video-poster.jpg" width="1000" alt="" />
+<img src="/uploads/programs/july4/highlights-video-poster.jpg" width="1000" alt="" />
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
 <title>Video of Grand Park and The Music Center’s 4th Of July Block Party</title>
@@ -143,48 +143,48 @@ _(More updates to follow.)_
 
 #### Boogaloo Assassins
 
-<figure><img src="/uploads/july4/music-artists/compressed/boogaloo-assassins.jpg" alt="Boogaloo Assassins" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/boogaloo-assassins.jpg" alt="Boogaloo Assassins" /></figure>
 
 #### DJ Linafornia
 
-<figure><img src="/uploads/july4/music-artists/compressed/linafornia.jpg" alt="DJ Linafornia" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/linafornia.jpg" alt="DJ Linafornia" /></figure>
 
 
 #### The Delirians
 
-<figure><img src="/uploads/july4/music-artists/compressed/the-delirians.jpg" alt="The Delirians" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/the-delirians.jpg" alt="The Delirians" /></figure>
 
 
 #### Earth Arrow
 
-<figure><img src="/uploads/july4/music-artists/compressed/earth-arrow.jpg" alt="Earth Arrow" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/earth-arrow.jpg" alt="Earth Arrow" /></figure>
 
 
 #### Victoria La Mala
 
-<figure><img src="/uploads/july4/music-artists/compressed/victoria-la-mala.jpg" alt="Victoria La Mala" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/victoria-la-mala.jpg" alt="Victoria La Mala" /></figure>
 
 
 ### The Front Yard Stage
 
 #### South Soul Spinners 
 
-<figure><img src="/uploads/july4/music-artists/compressed/southern-soul-spinners.jpg" alt="Southern Soul Spinners" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/southern-soul-spinners.jpg" alt="Southern Soul Spinners" /></figure>
 
 
 #### Blaq Pages
 
-<figure><img src="/uploads/july4/music-artists/compressed/blaq-pages.jpg" alt="Blaq Pages" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/blaq-pages.jpg" alt="Blaq Pages" /></figure>
 
 
 #### Foreigner
 
-<figure><img src="/uploads/july4/music-artists/compressed/foreigner.jpg" alt="Foreigner" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/foreigner.jpg" alt="Foreigner" /></figure>
 
 
 #### DJ Lez Lee
 
-<figure><img src="/uploads/july4/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" /></figure>
+<figure><img src="/uploads/programs/july4/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" /></figure>
 
 
 * * *
@@ -202,7 +202,7 @@ _(More updates to follow.)_
           Sunday, July 21
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-1.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-1.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

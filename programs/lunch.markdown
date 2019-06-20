@@ -21,7 +21,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -33,7 +33,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Yoga reTREAT</h4>
         <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
-      <img src="/uploads/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -43,7 +43,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Spring Concerts</h4>
         <!-- <p>Thursday</p> -->
       </div>
-      <img src="/uploads/spring-concerts.jpg" height="300" alt="" />
+      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -51,6 +51,6 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 * * *
 
 <figure>
-  <img src="/uploads/lunch.jpg" alt="Lunch" height="500" />
+  <img src="/uploads/programs/lunch.jpg" alt="Lunch" height="500" />
 </figure>
 

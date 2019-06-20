@@ -17,7 +17,7 @@ Catch one of Grand Park’s free performances, or enjoy a picnic with friends an
 </p>
 
 <figure>
-  <img src="/uploads/performance-lawn-3.jpg" alt="Performance Lawn" height="500" />
+  <img src="/uploads/areas/performance-lawn-3.jpg" alt="Performance Lawn" height="500" />
 </figure>
 
 ## Location

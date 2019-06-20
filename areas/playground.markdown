@@ -17,7 +17,7 @@ Grand Park’s playground features a 12-foot tube slide!<br />
 </p>
 
 <figure>
-  <img src="/uploads/playground-2.jpg" alt="Playground" height="500" />
+  <img src="/uploads/areas/playground-2.jpg" alt="Playground" height="500" />
 </figure>
 
 ## Location

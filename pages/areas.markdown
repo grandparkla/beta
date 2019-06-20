@@ -94,7 +94,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -106,7 +106,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/playground-2.jpg" height="300" alt="" />
+      <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -120,7 +120,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/gardens-2.jpg" height="300" alt="" />
+      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -134,7 +134,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/dog-run.jpg" height="300" alt="" />
+      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -146,7 +146,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open every day
         </p>
       </div>
-      <img src="/uploads/sunday-sessions-5.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-5.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

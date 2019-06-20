@@ -17,7 +17,7 @@ The interactive splash pad is open to the public. Visitors of all ages are encou
 </p>
 
 <figure>
-  <img src="/uploads/splash-pad.jpg" alt="Splash pad" height="500" />
+  <img src="/uploads/areas/splash-pad.jpg" alt="Splash pad" height="500" />
 </figure>
 
 ## Location

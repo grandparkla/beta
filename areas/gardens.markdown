@@ -16,5 +16,5 @@ Grand Park has twenty-four gardens, featuring plants that grow in each of the wo
 </p>
 
 <figure>
-  <img src="/uploads/gardens-2.jpg" alt="Gardens" height="500" />
+  <img src="/uploads/areas/gardens-2.jpg" alt="Gardens" height="500" />
 </figure>

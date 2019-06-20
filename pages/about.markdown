@@ -32,7 +32,7 @@ A city’s urban heart is an expression of its people, its diversity, its intere
 Throughout Grand Park, open spaces are available not only for casual sitting and leisurely strolling, but also for civic gatherings.
 
 <figure>
-  <img src="/uploads/sunday-sessions-5.jpg" alt="Sunday Sessions" height="500" />
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="Sunday Sessions" height="500" />
 </figure>
 
 Grand Park has four distinct areas featuring amenities ranging from a restored historic Arthur J. Will Memorial Fountain with a new wade-able membrane pool, a small intimate performance lawn, a community terrace planted with drought tolerant specimen plants representing the diverse cultural make-up of Los Angeles itself, and a grand event lawn.

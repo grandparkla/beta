@@ -15,7 +15,7 @@ _<small>Year-round, except on holidays</small>_
 
 
 <figure>
-  <img src="/uploads/food-trucks-4.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-4.jpg" alt="Food Truck" height="500" />
 </figure>
 
 
@@ -108,7 +108,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 Trucks will be parked on Olive Court (between Grand and Hill) and the Marketplace (between Spring and Broadway just across the street from City Hall, by the playground) with easy access for jurors, local employees, and all park users.
 
 <figure>
-  <img src="/uploads/food-trucks-3.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-3.jpg" alt="Food Truck" height="500" />
 </figure>
 
 Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs, take a break with rotating food trucks in the park.
