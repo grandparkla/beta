@@ -1,0 +1,6 @@
+---
+layout: null
+permalink: "/robots.txt"
+---
+User-agent: *
+Sitemap: https://beta.grandparkla.org/sitemap.xml

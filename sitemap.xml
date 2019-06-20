@@ -1,0 +1,100 @@
+---
+layout: null
+permalink: "/sitemap.xml"
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+{% comment %}
+######### Pages #########
+{% endcomment %}
+
+  <url>
+    <loc>https://beta.grandparkla.org/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/about/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/contact/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/directions/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/donate/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/faqs/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/film-photography/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/for-media/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/job-opportunities/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/news-sign-up/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/rent/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/rules/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/staff/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/vendors/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/video/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/visit/</loc>
+  </url>
+
+{% comment %}
+######### Events #########
+{% endcomment %}
+
+  <url>
+    <loc>https://beta.grandparkla.org/events/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/calendar/</loc>
+  </url>
+{% for event in site.events %}
+  <url>
+    <loc>https://beta.grandparkla.org{{ event.url }}</loc>
+  </url>
+{% endfor %}
+
+{% comment %}
+######### Programs #########
+{% endcomment %}
+
+  <url>
+    <loc>https://beta.grandparkla.org/programs/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/baile-de-los-muertos/</loc>
+  </url>
+
+{% comment %}
+######### Areas #########
+{% endcomment %}
+
+  <url>
+    <loc>https://beta.grandparkla.org/areas/</loc>
+  </url>
+  <url>
+    <loc>https://beta.grandparkla.org/dog-run/</loc>
+  </url>
+
+</urlset>
