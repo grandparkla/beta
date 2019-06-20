@@ -6,6 +6,7 @@ title: Grand Park
 permalink: pretty
 
 hide_from_search_engines: true
+use_analytics: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
@@ -13,6 +14,7 @@ collections:
   events:
     title: Events
     output: true
+    permalink: /events/:year/:month/:day/:title/
 #   posts:
 #     title: Blog
 #     output: true

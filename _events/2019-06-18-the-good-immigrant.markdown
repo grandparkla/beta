@@ -1,7 +1,5 @@
 ---
 title: 'The Good Immigrant: An Evening of Storytelling'
-permalink: /events/2019/6/18/the-good-immigrant/
-date: 2019-06-18
 type: Partner event
 image: /assets/images/events/strawberry.svg
 ---

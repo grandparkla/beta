@@ -29,6 +29,10 @@
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
   {% endif %}
 
+  {% if page.canonical_url %}
+  <link rel="canonical" href="https://grandparkla.org{{ page.canonical_url }}" />
+  {% endif %}
+
   <!-- for general use -->
   <link rel="icon" type="image/png"    href="/assets/images/favicon.png" />
 
@@ -69,7 +73,7 @@
   </script>
   {% endif %}
 
-  {% unless site.hide_from_search_engines %}
+  {% if site.use_analytics %}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39280926-1"></script>
   <script>
@@ -82,7 +86,7 @@
       gtag('anonymizeIp', true); // https://support.google.com/analytics/answer/2763052
     }
   </script>
-  {% endunless %}
+  {% endif %}
 
 </head>
 <body>

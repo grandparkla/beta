@@ -1,7 +1,5 @@
 ---
 title: Paradise in the Park
-permalink: /events/2019/6/1/paradise-in-the-park/
-date: 2019-06-01
 type: Lease event
 image: /assets/images/events/lime.svg
 

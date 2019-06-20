@@ -1,6 +1,5 @@
 
-{% assign data_collection = site.collections | where: "label", "events" | first %}
-{% assign data_list = data_collection.docs %}
+{% assign data_list = site.events %}
 {% assign data_list = data_list | sort: "date" %}
 
 
