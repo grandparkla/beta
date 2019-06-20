@@ -13,11 +13,13 @@ FAQs
 
 ### Can I shoot my independent film in the park?
 
-Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc](https://www.filmla.com/)., the entity authorized by the Los Angeles County Board of Supervisors to process film permits and scheduling with our rentals team. To contact our rentals team, click [here.](https://grandparkla.org/contact/)
+Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc.](https://www.filmla.com/), the entity authorized by the Los Angeles County Board of Supervisors to process film permits. 
+
+Commercial film and photo shoots also need to be scheduled with our [rentals team](/film-photography/).
 
 ### How about my wedding, graduation or other special event photos?
 
-Thank you for considering Grand Park as the backdrop for the photos of your special moments. Photo shoots using professional grade equipment, including tripods, drones, microphones, cameras, lights, reflectors, etc. must be scheduled with our rentals team. To contact our rentals team, click [here.](https://grandparkla.org/contact/)
+Thank you for considering Grand Park as the backdrop for the photos of your special moments. Photo shoots using professional grade equipment, including tripods, drones, microphones, cameras, lights, reflectors, etc. must be scheduled with our [rentals team](/rent/).
 
 ### Where do visitors park? Is public transportation convenient to the park?
 
@@ -25,7 +27,7 @@ Visitors to Grand Park are encouraged to ride the Metro Red or Purple Lines to C
 
 ### How do visitors learn about upcoming events and activities scheduled for the park?
 
-Information about upcoming events can be found under the [EVENT CALENDAR](https://grandparkla.org/event-calendar/) tab on grandparkla.org or through Grand Park’s social media channels [facebook.com/grandparklosangeles](https://www.facebook.com/grandparklosangeles) and on [Twitter](https://twitter.com/grandpark_la) and [Instagram](https://instagram.com/grandpark_la) @grandpark\_la.
+Information about upcoming events can be found on our [calendar](/calendar/). You can also visit our [Facebook page](https://www.facebook.com/grandparklosangeles), or follow us on [Twitter](https://twitter.com/grandpark_la) or [Instagram](https://instagram.com/grandpark_la).
 
 ### What type of programming takes place?
 
