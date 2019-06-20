@@ -1,30 +1,12 @@
 ---
-title: A title for this event
+title: A title for this page
 
-# Examples: “Lease event”, “Partner event”…
-type: Partner event
-
-# Example A: /assets/images/events/lime.svg
-# Example B: /assets/images/events/strawberry.svg
-image: /assets/images/events/lime.svg
+# URL for this page. It’s best to use lowercase letters and dashes instead of spaces for your URL.
+permalink: /title-for-this-page/
 ---
 
-<small>Partner event</small> Title for this event <small>Sub title (optional)</small>
-=====================================================================================
-
-Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
-
-* * *
-
-## Location
-
-Grand Park
-
-<p class="action" markdown="1">
-[Directions to the Park](/directions/)
-</p>
-
-## About
+Title for this page
+===================
 
 This is the first paragraph of text.
 

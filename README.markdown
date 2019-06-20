@@ -13,6 +13,9 @@ https://grandparkla.org
 * [How to make changes](https://github.com/grandparkla/grandpark/blob/master/_how-to/make-changes.markdown)
 * [How to see a preview of your changes](https://github.com/grandparkla/grandpark/blob/master/_how-to/preview-your-changes.markdown)
 
+## Events
+
+* [How to add an event page](https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-event.markdown)
 
 ## Images
 
