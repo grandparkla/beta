@@ -253,20 +253,25 @@ h1.welcome {
   overflow: hidden;
 } */
 
-@media (min-width: 20em) {
+/* @media (min-width: 20em) {
     main > h1.welcome {
       font-size: 3.2vmax;
     }
-}
+} */
 
+main > h1.welcome {
+  font-size: 1.125em;
+  max-width: none;
+}
     
     
 @media (min-width: 60em) {
     main > h1.welcome {
+      font-size: 2vmax;
 /*       margin-bottom: -5rem; */
       grid-column: 1/-1;
-      margin-left: 1.25em;
-      margin-right: 1.25em;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
 /*       color: var(--lime); */
     }
 /*     h1.welcome em:nth-of-type(2n+1) {
