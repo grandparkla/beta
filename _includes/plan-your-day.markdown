@@ -25,6 +25,7 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 
 <nav markdown="1">
 * [Learn more about the park](/about/)
+* [Donate](/donate/)
 * [Contact us](/contact/)
 </nav>
 
