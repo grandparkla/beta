@@ -41,6 +41,24 @@ _(close to City Hall)_
 *   [Off-leash Dog Run](/dog-run/)
 </nav>
 
+
+* * *
+
+
+### Map of the Park
+
+<div></div>
+
+<a href="/assets/images/map.png">
+  <img src="/assets/images/map.png" height="300" style="width: 45em; height: auto; max-width: 100%" alt="Map of Grand Park" />
+</a>
+
+
+
+{% comment %}
+
+
+
 <figure>
 <div data-aspect-ratio-landscape="2/1" data-aspect-ratio="1/1">
 <a href="https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614" class="has-icon">
@@ -72,6 +90,15 @@ C9.3,11.7,9.3,11.2,9.1,10.9z"/>
 </div>
 </figure>
 
+
+
+
+
+<figure>
+  <a href="/assets/images/map.png">
+    <img src="/assets/images/map.png" height="300" alt="Map of Grand Park" />
+  </a>
+</figure>
 
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
@@ -151,4 +178,5 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
   </li>
 </ol>
 
+{% endcomment %}
 
