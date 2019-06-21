@@ -10,6 +10,10 @@ permalink: /rent/
 Rent the park for an event
 ==================
 
+<nav markdown="1">
+*   [Filming & photography](/film-photography/)
+</nav>
+
 ### The park is open to everyone!
 
 Individuals, companies and organizations are welcome to rent space for public or private events at the park. We host anything from weddings to entire graduations.
@@ -31,4 +35,12 @@ These steps will help you get started:
 <div></div>
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
+
+
+### Need to film in Grand Park?
+
+<p class="action" markdown="1">
+[Filming & photography](/film-photography/)
+</p>
+
 
