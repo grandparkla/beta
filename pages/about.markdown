@@ -20,6 +20,10 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 [Rent the park for an event](/rent/)
 </p>
 
+<p class="action" markdown="1">
+[Filming & photography](/film-photography/)
+</p>
+
 <div></div>
 
 ## A <span class="avoid-break">gathering place</span>

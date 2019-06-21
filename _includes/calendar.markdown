@@ -94,7 +94,7 @@
           Thursday, July 4
         </p>
       </div>
-      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

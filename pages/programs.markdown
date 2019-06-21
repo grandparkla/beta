@@ -119,7 +119,7 @@ Holiday celebration
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
       </div>
-      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -283,7 +283,7 @@ Free admission events, on select Sundays and holidays
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
       </div>
-      <img src="/uploads/programs/july4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

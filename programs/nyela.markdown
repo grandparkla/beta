@@ -30,7 +30,7 @@ _<small>Countdown begins at 11:55 p.m.</small>_
 </nav>
 
 <!-- <figure>
-  <img src="/uploads/programs/july4.jpg" alt="July 4" height="500" />
+  <img src="/uploads/programs/4thofjuly.jpg" alt="July 4" height="500" />
 </figure> -->
 
 ## Dear LA,

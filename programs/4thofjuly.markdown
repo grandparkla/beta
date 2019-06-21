@@ -1,26 +1,20 @@
 ---
-title: 4th of July Block Party, Los Angeles, 2019. Grand Park + The Music Center #Go4thDTLA
+title: 4th of July Block Party, 2019 // Grand Park + The Music Center // #go4thDTLA
 permalink: /4thofjuly/
 ---
-
-<nav markdown="1">
-* [Things to do](/events/)
-* [Programs](/programs/)
-</nav>
 
 <!--
 <style>
   body {
     background-image:
+      url(/uploads/programs/4thofjuly/poster/stars-left.svg),
+      url(/uploads/programs/4thofjuly/poster/stars-right.svg),
+      url(/uploads/programs/4thofjuly/poster/ferris-wheel.svg),
       url(/uploads/programs/4thofjuly/poster/stars.svg),
       url(/uploads/programs/4thofjuly/poster/gradient.svg);
-    background-size: 50vh auto, 100vh auto;
-    background-position: 50% 1.5em, top;
-    background-repeat: repeat-x;
-  }
-  body,
-  body * {
-    color: var(--snow) !important;
+    background-size: 80vh auto, 80vh auto, calc(80vh + 15em), 50vh auto, calc(80vh + 15em) auto;
+    background-position: 7.5vw 12.5em, 92.5% 75vh, 50% 10em, 50% 1.5em, top;
+    background-repeat: no-repeat, no-repeat, no-repeat, repeat-x, repeat-x;
   }
   header {
     color: var(--snow);
@@ -28,7 +22,28 @@ permalink: /4thofjuly/
   header a {
     color: inherit !important;
   }
+  h1 img {
+    font-size: 100vmax;
+    display: block;
+    width: 1em;
+    margin-left: -0.5em;
+    margin-bottom: -0.6em;
+    max-width: none;
+    height: auto;
+  }
 </style>
+
+<h1 style="position: relative; z-index: 1;">
+  <img
+    src="/uploads/programs/4thofjuly/poster/block-party.svg"
+    alt="4th of July Block Party, 2019 // Grand Park + The Music Center"
+  />
+</h1>
+
+<main style="height: 10vmax; grid-column: 1/-1; background: var(--snow); margin-left: -1.5em; margin-right: -1.5em;" markdown="1">
+</main>
+
+<div></div><div></div><div></div><div></div>
 -->
 
 <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
@@ -50,14 +65,11 @@ _<small>Fireworks at 9 p.m.</small>_<br />
 {% endcomment %}
 </nav>
 
-<figure>
-  <img src="/uploads/programs/july4.jpg" alt="July 4" height="500" />
-</figure>
-
 **Hey Los Angeles!**, we look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
 
 [Sign up for updates](http://grandparkla.org/sign-up/) from Grand Park + The Music Center 
 <!-- and get **free** Grand Park Sunglasses <em>(while supplies last)</em>. -->
+
 
 
 ## Location
