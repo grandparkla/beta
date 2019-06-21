@@ -118,7 +118,7 @@ All are invited to Grand Park’s free year-round events including live music, e
     </a>
   </li>
   <li>
-    <a href="/july4/">
+    <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>

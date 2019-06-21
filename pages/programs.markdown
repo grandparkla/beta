@@ -16,7 +16,7 @@ All are invited to Grand Park’s free year-round events including live music, e
 *   [Lunch à la Park](/lunch/)
 *   [Our L.A. Voices](/our-la-voices/)
 *   [Sunday Sessions](/sunday-sessions/)
-*   [4th of July Block Party](/july4/)
+*   [4th of July Block Party](/4thofjuly/)
 *   [Día de los Muertos](/día-de-los-muertos/)
 *   [Winter Glow](/winter-glow/)
 *   [New Year’s Eve, Los Angeles](/nyela/)
@@ -114,7 +114,7 @@ Holiday celebration
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/july4/">
+    <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>
@@ -278,7 +278,7 @@ Free admission events, on select Sundays and holidays
     </a>
   </li>
   <li>
-    <a href="/july4/">
+    <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>

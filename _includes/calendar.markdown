@@ -86,7 +86,7 @@
 </ol>
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
-    <a href="/july4/">
+    <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
         <h4>4th of July Block Party</h4>

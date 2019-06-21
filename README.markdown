@@ -13,13 +13,18 @@ https://grandparkla.org
 * [How to make changes](https://github.com/grandparkla/grandpark/blob/master/_how-to/make-changes.markdown)
 * [How to see a preview of your changes](https://github.com/grandparkla/grandpark/blob/master/_how-to/preview-your-changes.markdown)
 
+## Images
+
+* [How to add an image](https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-image.markdown)
+
 ## Events
 
 * [How to add an event page](https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-event.markdown)
 
-## Images
+## Announcements
 
-* [How to add an image](https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-image.markdown)
+* [How to add an announcement](https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-announcement.markdown)
+* [How to hide an announcement](https://github.com/grandparkla/grandpark/blob/master/_how-to/hide-an-announcement.markdown)
 
 ## Develop
 

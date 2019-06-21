@@ -46,7 +46,7 @@ Parking for Grand Park is available in Lot 10 on N Broadway between First Street
 
 ### Grand Park + The Music Center’s 4th of July Block Party
 
-Please check the [event page](/july4/) for the latest details on recommended parking and street closures. This page will be updated on a regular basis. Note that Lot 10 on N Broadway will be closed for this event.
+Please check the [event page](/4thofjuly/) for the latest details on recommended parking and street closures. This page will be updated on a regular basis. Note that Lot 10 on N Broadway will be closed for this event.
 
 ## Metro
 
