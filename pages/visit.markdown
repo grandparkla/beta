@@ -14,6 +14,7 @@ _<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 *   [Areas of the park](/areas/)
 *   [Park rules](/rules/)
 *   [FAQs](/faqs/)
+*   [Alerts & Closures](/alerts/)
 </nav>
 
 <figure>

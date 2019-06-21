@@ -134,14 +134,14 @@
 
 {% for announcement in site.announcements %}
 <section class="special-notice" role="status">
-  <h2>Special Announcement</h2>
+  <h2>Alerts &amp; Closures</h2>
   {{ announcement.content | markdownify }}
 </section>
 {% endfor %}
 
 {% if page.announcement %}
 <section class="special-notice" role="status">
-  <h2>Special Announcement</h2>
+  <h2>Alerts &amp; Closures</h2>
   {{ page.announcement | markdownify }}
 </section>
 {% endif %}
