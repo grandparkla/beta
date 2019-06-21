@@ -32,7 +32,7 @@ Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(clos
 
 
 <!--
-Past food trucks are listed here, to make it easy to copy and paste:
+Past food trucks are listed here, to make it easier to copy and paste:
 
 : Boba Taco
 : [Angry Pig](https://www.yelp.com/biz/angry-pig-los-angeles)
@@ -89,16 +89,6 @@ Olive Court
 : Boba Taco
 : [Made in Brooklyn Pizza](http://mibpizza.com)
 : Main Squeeze Lemonade
-
-
-### Friday, June 21
-
-Marketplace
-: _To be announced_
-
-Olive Court
-: [Dogtown Dogs](http://dogtowndog.com)
-: [Go Fusion](https://roaminghunger.com/go-fusion-n-grill/)
 
 
 ## About

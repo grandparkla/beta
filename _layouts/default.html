@@ -132,12 +132,12 @@
 {% include flowers.html %}
 {% endcomment %}
 
-{% if site.announcement %}
+{% for announcement in site.announcements %}
 <section class="special-notice" role="status">
   <h2>Special Announcement</h2>
-  {{ site.announcement | markdownify }}
+  {{ announcement.content | markdownify }}
 </section>
-{% endif %}
+{% endfor %}
 
 {% if page.announcement %}
 <section class="special-notice" role="status">

@@ -1,6 +1,99 @@
 ---
 title: Grand Park / The Park for Everyone
 permalink: /
+
+welcome:
+
+# From a person
+
+  # Chinese (simplified)
+  - 欢迎
+
+  # Filipino
+  - Maligayang pagdating
+
+  # Hawaiian
+  - E Komo Mai
+
+  # Spanish
+  - Bienvenido
+  
+# From Google Translate
+
+  # Arabic
+  - أهلا بك
+
+  # Armenian
+  - Բարի գալուստ
+
+  # Chinese (traditional)
+  - 歡迎
+
+  # Croatian
+  - Dobrodošli
+
+  # Dutch
+  - Welkom
+
+  # French
+  - Bienvenue
+
+  # German
+  - Herzlich willkommen
+
+  # Greek
+  - καλως ΗΡΘΑΤΕ
+
+  # Hebrew
+  - ברוך הבא
+
+  # Hindi
+  - स्वागत हे 
+
+  # Hungarian
+  - Üdvözöljük
+
+  # Hmong
+  - Txais tos
+
+  # Italian
+  - Benvenuta
+
+  # Japanese
+  - ようこそ
+
+  # Korean
+  - 환영
+
+  # Lao
+  - ຍິນດີຕ້ອນຮັບ
+
+  # Navajo: https://glosbe.com/en/nv/welcome
+  - yáʼátʼééh
+
+  # Persian
+  - خوش آمدید
+
+  # Polish
+  - Witamy
+
+  # Portugese
+  - Bem vinda
+
+  # Russian
+  - приветствовать
+
+  # Swedish
+  - Välkommen
+
+  # Thai
+  - ยินดีต้อนรับ
+
+  # Vietnamese
+  - Chào mừng bạn 
+
+  # Yiddish
+  - באַגריסונג
 ---
 
 

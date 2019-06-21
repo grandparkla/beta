@@ -11,6 +11,9 @@ use_analytics: false
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
 collections:
+  announcements:
+    title: Announcements
+    output: false
   events:
     title: Events
     output: true
