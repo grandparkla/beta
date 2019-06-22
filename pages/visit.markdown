@@ -33,7 +33,7 @@ These areas of the park are currently closed or are closing soon.
 </figure> -->
 
 
-Directions to the park
+Directions
 ----
 
 {% include directions.markdown %}

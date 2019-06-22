@@ -7,14 +7,14 @@ permalink: /rent/
 * [About the park](/about/)
 </nav>
 
-Rent the park for an event
+Rent the park
 ==================
 
 ### The park is open to everyone!
 
 Individuals, companies and organizations are welcome to rent space for public or private events at the park. We host anything from weddings to entire graduations.
 
-_Interested in hosting your event at Grand Park?_
+#### Interested in hosting your event at Grand Park?
 
 These steps will help you get started:
 

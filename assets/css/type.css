@@ -395,8 +395,7 @@ h1 {
 }
 h2 {
   color: var(--headline-color);
-  /*! font-style: italic; */
-/*   font-weight: normal; */
+  font-style: italic;
   margin-top: 1.5em;
   font-size: 1.5em;
   line-height: 1.2;
@@ -410,6 +409,8 @@ header h2 {
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25em;
+  font-style: italic;
+  font-weight: normal;
 }
 @media (min-width: 60em) {
   h3 {
