@@ -12,6 +12,57 @@ Meet the Staff <small>Team Grand Park</small>
 
 <div></div>
 
+<style>
+h2 {
+  grid-column: 1/4 !important;
+}
+h2 + p {
+  grid-column: 4/-2 !important;
+}
+main > figure {
+  grid-column: 3/-2 !important;
+  margin: 1.5em 0;
+}
+@media (min-width: 60em) {
+  main > figure {
+    margin-left: -3em;
+  }
+}
+
+@media (false) {
+  main > figure {
+    grid-column: 1/3;
+    align-self: center;
+    justify-self: end;
+    margin: 0;
+  }
+  h2 small {
+    font-style: italic;
+  }
+}
+main > figure img {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  object-fit: cover;
+}
+
+h2 small em {
+  letter-spacing: 0.1em;
+  font-style: normal;
+  font-family: "Noto Sans SC";
+  text-transform: lowercase;
+  font-variant: small-caps;
+  font-size: 0.5em;
+}
+
+h2 {
+  grid-column-start: 3;
+}
+
+</style>
+
+
 
 
 Kat Carrido Bonds
