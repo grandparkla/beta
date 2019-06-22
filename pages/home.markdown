@@ -102,7 +102,7 @@ welcome:
 
 ## Welcome!
 
-All are invited to attend Grand Park’s free events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens any day of the year!
+All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens!
 
 <ol class="event-list">
   <li>

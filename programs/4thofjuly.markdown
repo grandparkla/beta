@@ -46,11 +46,22 @@ permalink: /4thofjuly/
 <div></div><div></div><div></div><div></div>
 -->
 
+<figure>
+  <picture>
+    <source srcset="/uploads/programs/4thofjuly/poster/landscape.png" media="(min-aspect-ratio: 1/1)" />
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait.png" />
+    <img src="/uploads/programs/4thofjuly/poster/portrait.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
+  </picture>
+</figure>
+
+<!--
 <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
 =======================
 
 Thursday from <time datetime="14:00">3 p.m.</time> to <time datetime="21:30">9:30 p.m.</time><br />
 _<small>Fireworks at 9 p.m.</small>_<br />
+-->
+
 
 <nav markdown="1">
 * [Directions to the park](/directions/)
@@ -88,7 +99,7 @@ This is a _free_ event. There’s no cost to attend.
 
 ## When
 
-July 4, 2019
+Thursday, July 4, 2019
 
 3:00 p.m.
 : Doors Open

@@ -267,7 +267,7 @@ main > h1.welcome {
     
 @media (min-width: 60em) {
     main > h1.welcome {
-      font-size: 2.8vmax;
+      font-size: 2.4vmax;
 /*       margin-bottom: -5rem; */
       grid-column: 1/-1;
       margin-left: 2.5em;
