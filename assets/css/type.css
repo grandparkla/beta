@@ -267,7 +267,7 @@ main > h1.welcome {
     
 @media (min-width: 60em) {
     main > h1.welcome {
-      font-size: 2vmax;
+      font-size: 2.8vmax;
 /*       margin-bottom: -5rem; */
       grid-column: 1/-1;
       margin-left: 2.5em;
@@ -400,6 +400,9 @@ h2 {
   margin-top: 1.5em;
   font-size: 1.5em;
   line-height: 1.2;
+}
+h2 a {
+  color: inherit;
 }
 header h2 {
   color: inherit;
