@@ -202,7 +202,7 @@ _(More updates to follow.)_
 
 ### The Front Yard Stage
 
-#### South Soul Spinners 
+#### Southern Soul Spinners 
 
 <figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/southern-soul-spinners.jpg" alt="Southern Soul Spinners" /></figure>
 

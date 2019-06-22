@@ -10,10 +10,6 @@ permalink: /film-photography/
 Filming & photography
 ==================
 
-<nav markdown="1">
-*   [Rent the park for an event](/rent/)
-</nav>
-
 ### Need to film in Grand Park?
 
 Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc.](https://www.filmla.com/), the entity authorized by the Los Angeles County Board of Supervisors to process film permits. 
@@ -41,6 +37,6 @@ _If you have any questions that aren’t answered on this page, please send us a
 
 ### Interested in hosting your event at Grand Park?
 
-<p class="action" markdown="1">
-[Renting the park](/rent/)
-</p>
+<nav markdown="1">
+*   [Rent the park for an event](/rent/)
+</nav>

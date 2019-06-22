@@ -64,6 +64,10 @@ main strong {
   color: var(--strawberry);
 }
 
+  svg {
+    fill: currentColor;
+  }
+
   /* a:visited {
     color: var(--text-color);
   } */

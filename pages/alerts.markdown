@@ -1,9 +1,9 @@
 ---
-title: Alerts & Closures
+title: Alerts & closures
 permalink: /alerts/
 ---
 
-## Alerts & Closures
+## Alerts & closures
 
 Heads Up 🚧 Grand Park is prep preppin’ for summer! The fountain, splash pad and playground will be closed for maintenance and park improvements. Including a new shade structure to the playground!
 
