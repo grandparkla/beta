@@ -46,22 +46,11 @@ permalink: /4thofjuly/
 <div></div><div></div><div></div><div></div>
 -->
 
-<figure>
-  <picture>
-    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" media="(min-aspect-ratio: 1/1)" />
-    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" />
-    <img src="/uploads/programs/4thofjuly/poster/portrait-2.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
-  </picture>
-</figure>
-
-<!--
 <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
 =======================
 
 Thursday from <time datetime="14:00">3 p.m.</time> to <time datetime="21:30">9:30 p.m.</time><br />
-_<small>Fireworks at 9 p.m.</small>_<br />
--->
-
+_<small>Fireworks at 9 p.m.</small>_
 
 <nav markdown="1">
 * [Directions to the park](/directions/)
@@ -75,6 +64,14 @@ _<small>Fireworks at 9 p.m.</small>_<br />
 * [Transportation](#transportation)
 {% endcomment %}
 </nav>
+
+<figure>
+  <picture>
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" media="(min-aspect-ratio: 1/1)" />
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" />
+    <img src="/uploads/programs/4thofjuly/poster/portrait-2.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
+  </picture>
+</figure>
 
 **Hey Los Angeles!**, we look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
 
