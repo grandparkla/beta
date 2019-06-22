@@ -14,7 +14,7 @@ Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m
 _<small>June 23, July 21, August 18, and September 22</small>_<br />
 
 <figure>
-  <img src="/uploads/programs/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/programs/sunday-sessions-poster.png" alt="Sunday Sessions" height="500" />
 </figure>
 
 ## Location
