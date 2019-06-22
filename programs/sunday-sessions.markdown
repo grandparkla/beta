@@ -34,7 +34,7 @@ This is a _free_ event. There’s no cost to attend.
 Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
 
 <figure>
-  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/programs/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
 
 [Flashback video to Sunday Sessions 2018!](https://vimeo.com/289365164)
@@ -58,3 +58,7 @@ September 22
 : Dublab’s 20th Anniversary
 
 _Stay tuned as we announce DJs in the coming weeks!_
+
+<figure>
+  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+</figure>

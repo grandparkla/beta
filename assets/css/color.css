@@ -13,8 +13,12 @@
     --strawberry:        hsl(329, 90%, 48%);
     --strawberry-darker: hsl(329, 80%, 38%);
     --strawberry:        hsl(333, 79%, 58%);
-    --strawberry-darker: hsl(333, 79%, 58%);
+    --strawberry-darker: hsl(333, 79%, 48%);
     --strawberry-brightest: hsl(333,  3%, 97%);
+    --strawberry:        hsl(330, 82%, 60%);
+    --strawberry-darker: hsl(330, 82%, 60%);
+    --strawberry-brightest: hsl(330,  3%, 97%);
+
 
     --lime:              hsl(86, 53%, 51%);
     --lime:              hsl(86, 43%, 51%);
