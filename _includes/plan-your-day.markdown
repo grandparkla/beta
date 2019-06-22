@@ -1,7 +1,7 @@
 
 <div style="margin-top: 4.5em"></div>
 
-<h2 class="logo" style="transform: rotate(-5deg); font-size: 25vmax; margin: 0 auto 0; grid-column: 1/-1; max-width: none;">
+<h2 class="logo" style="transform: skewY(-5deg); font-size: 25vmax; margin: 0 auto 0; grid-column: 1/-1; max-width: none;">
   <a href="/" style="color: var(--strawberry);display: block; margin: 0 auto;">
     <svg viewBox="0 0 157.1 35.9" width="158" height="36" class="grand-park" style="width: 1em; height: 0.5em; display: block; margin: 0 auto;">
       <title>Grand Park</title>
