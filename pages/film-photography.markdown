@@ -37,6 +37,6 @@ _If you have any questions that aren’t answered on this page, please send us a
 
 ### Interested in hosting your event at Grand Park?
 
-<nav markdown="1">
-*   [Rent the park for an event](/rent/)
-</nav>
+<p class="action" markdown="1">
+[Rent the park for an event](/rent/)
+</p>

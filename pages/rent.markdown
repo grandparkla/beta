@@ -35,7 +35,7 @@ _If you have any questions that aren’t answered on this page, please send us a
 
 ### Need to film in Grand Park?
 
-<nav markdown="1">
-*   [Filming & photography](/film-photography/)
-</nav>
+<p class="action" markdown="1">
+[Filming & photography](/film-photography/)
+</p>
 
