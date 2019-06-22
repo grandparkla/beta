@@ -232,7 +232,7 @@ _(More updates to follow.)_
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, July 21
         </p>

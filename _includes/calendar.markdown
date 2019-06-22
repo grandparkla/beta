@@ -29,7 +29,7 @@
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, June 23
         </p>
@@ -101,7 +101,7 @@
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, July 21
         </p>
@@ -159,7 +159,7 @@
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, August 18
         </p>
@@ -231,7 +231,7 @@
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, September 22
         </p>

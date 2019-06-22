@@ -118,7 +118,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
         <h3>Areas of the Park</h3>
         <h4>Splash Pad</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
@@ -130,7 +130,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
         <h3>Areas of the Park</h3>
         <h4>Playground</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
@@ -144,7 +144,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
@@ -158,7 +158,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
@@ -170,7 +170,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
         <h3>Areas of the Park</h3>
         <h4>Performance Lawn</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-5.jpg" height="300" alt="" />

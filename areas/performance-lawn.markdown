@@ -10,7 +10,7 @@ announcement: 'Grand Park’s _Performance Lawn_ will be the site for a partner 
 
 # Performance Lawn
 
-Open every day from 5:30 a.m. to 10 p.m.
+Open daily from 5:30 a.m. to 10 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
 Catch one of Grand Park’s free performances, or enjoy a picnic with friends any day of the year.

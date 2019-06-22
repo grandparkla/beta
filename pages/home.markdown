@@ -102,14 +102,14 @@ welcome:
 
 ## Welcome!
 
-All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
+All are invited to attend Grand Park’s free events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens any day of the year!
 
 <ol class="event-list">
   <li>
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Sunday, June 23
         </p>
@@ -159,7 +159,7 @@ All are invited to Grand Park’s free year-round events including live music, e
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
@@ -171,7 +171,7 @@ All are invited to Grand Park’s free year-round events including live music, e
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />

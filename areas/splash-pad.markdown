@@ -10,7 +10,7 @@ announcement: "The fountain and splash pad will be closed for maintenance and pa
 
 # Splash pad
 
-Open every day from 5:30 a.m. to 10 p.m.
+Open daily from 5:30 a.m. to 10 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
 The interactive splash pad is open to the public. Visitors of all ages are encouraged to enjoy water play in the splash pad, which features interactive jets.

@@ -2,7 +2,7 @@
 title: Off-Leash Dog Run
 permalink: /dog-run/
 # announcement: Grand Park’s Dog Run will be closed December 30-31 and the morning of January 1, for the [N.Y.E.L.A.](https://grandparkla.org/event/new-years-eve-la/) event. It will reopen at 2pm on January 1. Deepest apologies for the inconvenience.
-# announcement: Grand Park’s dog run, playground and restrooms near the Event Lawn (by Spring St.) will be closed at 2 pm on **Saturday, June 1st** for the [Paradise in the Park](/events/2019/6/1/paradise-in-the-park/) event. All amenities reopen on Sunday, June 2nd by 8 am.
+# announcement: Grand Park’s dog run, playground and restrooms near the Event Lawn (by Spring St.) will be closed at 2 pm on **Saturday, June 1st** for the [Paradise in the Park](/events/2019/06/01/paridise-in-the-park/) event. All amenities reopen on Sunday, June 2nd by 8 am.
 ---
 
 <nav markdown="1">
@@ -11,7 +11,7 @@ permalink: /dog-run/
 
 # Off-Leash Dog Run
 
-Open every day from 5:30 a.m. to 10 p.m.
+Open daily from 5:30 a.m. to 10 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
 Grand Park’s dog run features shade, benches, doggie bags and a water fountain for your four-footed friends!

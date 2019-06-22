@@ -12,7 +12,7 @@ announcement: "The playground will be closed for maintenance and park improvemen
 
 # Playground
 
-Open every day from 8 a.m. to 8 p.m.
+Open daily from 8 a.m. to 8 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
 Grand Park’s playground features a 12-foot tube slide!<br />

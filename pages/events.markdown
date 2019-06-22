@@ -21,7 +21,6 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Announcements & Closures](/events/#announcements)
 -->
 
-
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -49,7 +48,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Sunday Sessions</h4>
+        <h4>Music & Dance Sessions</h4>
         <p>
           Today at 2 p.m.
         </p>
@@ -97,11 +96,31 @@ Playground closures start today WED JUN 19 through WED JUL 3. The fountain and s
 </ol>
 -->
 
+
+## Tomorrow
+
+There is one event scheduled for tomorrow.
+
+<ol class="event-list" style="grid-template-columns:  1fr;">
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Sunday Sessions</h3>
+        <h4>Music & Dance Sessions</h4>
+        <p>
+          Sunday, June 23
+        </p>
+      </div>
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
 * * *
 
 ## Every day <a id="daily"></a>
 
-These areas of the park are open daily. Just drop by for a picnic or a splash!
+These [areas of the park](/areas/) are open daily. Just drop by!
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
@@ -110,7 +129,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
@@ -122,7 +141,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
         <h3>Areas of the Park</h3>
         <h4>Performance Lawn</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
@@ -136,7 +155,7 @@ These areas of the park are open daily. Just drop by for a picnic or a splash!
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open every day
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />

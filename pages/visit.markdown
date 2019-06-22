@@ -17,9 +17,20 @@ _<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 *   [Alerts & closures](/alerts/)
 </nav>
 
-<figure>
+## Closed areas
+
+These areas of the park are currently closed or are closing soon.
+
+[Splash Pad](/splash-pad/)
+: June 24 – 28
+
+[Playground](/playground/)
+: June 19 – July 3
+
+
+<!-- <figure>
   <img src="/uploads/programs/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
-</figure>
+</figure> -->
 
 
 Directions to the park

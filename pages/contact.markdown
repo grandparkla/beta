@@ -27,13 +27,17 @@ Los Angeles, CA 90012
 213-972-8080  
 [grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org)
 
-### Interested in hosting your event at Grand Park?
+## Host an event
+
+Interested in hosting your event at Grand Park?
 
 <p class="action" markdown="1">
 [Rent the park for an event](/rent/)
 </p>
 
-### Need to film in Grand Park?
+## Filming & photography
+
+Need to film in Grand Park?
 
 <p class="action" markdown="1">
 [Filming & photography](/film-photography/)
