@@ -8,6 +8,32 @@ permalink: /sunday-sessions/
 * [Programs](/programs/)
 </nav>
 
+<style>
+:root {
+  --strawberry: hsl(331, 81%, 61%);
+  --text-color: hsl(300, 2%, 22%);
+  --headline-color: var(--text-color);
+  --link-color: var(--text-color);
+}
+body {
+  background: var(--strawberry);
+}
+body a {
+  color: inherit !important;
+}
+body h1 {
+  color: inherit !important;
+}
+body strong {
+  color: inherit !important;
+  font-weight: bold;
+}
+.action a {
+  background: var(--text-color) !important;
+  color: var(--strawberry) !important;
+}
+</style>
+
 # <small>Grand Park presents</small> Sunday Sessions <small>2019</small>
 
 Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time><br />
@@ -34,10 +60,8 @@ This is a _free_ event. There’s no cost to attend.
 Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
 
 <figure>
-  <img src="/uploads/programs/sunday-sessions-2.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure>
-
-[Flashback video to Sunday Sessions 2018!](https://vimeo.com/289365164)
 
 This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music.
 
@@ -59,6 +83,21 @@ September 22
 
 _Stay tuned as we announce DJs in the coming weeks!_
 
-<figure>
-  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+## Flashback video to Sunday Sessions 2018!
+
+<figure class="feature">
+<div data-aspect-ratio="1280/720">
+<a href="https://vimeo.com/289365164" class="has-icon">
+<img src="/uploads/programs/sunday-sessions-2.jpg" width="1000" alt="" />
+<span class="icon play">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
+<title>Video of Sunday Sessions</title>
+<switch>
+<polygon fill="black" points="29.2,16.9 0,0 0,33.7 29.2,16.9 0,0 0,33.7 "></polygon>
+<foreignobject>Video of Sunday Sessions</foreignobject>
+</switch>
+</svg>
+</span>
+</a>
+</div>
 </figure>
