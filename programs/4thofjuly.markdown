@@ -48,9 +48,9 @@ permalink: /4thofjuly/
 
 <figure>
   <picture>
-    <source srcset="/uploads/programs/4thofjuly/poster/landscape.png" media="(min-aspect-ratio: 1/1)" />
-    <source srcset="/uploads/programs/4thofjuly/poster/portrait.png" />
-    <img src="/uploads/programs/4thofjuly/poster/portrait.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" media="(min-aspect-ratio: 1/1)" />
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" />
+    <img src="/uploads/programs/4thofjuly/poster/portrait-2.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
   </picture>
 </figure>
 
