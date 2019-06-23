@@ -16,6 +16,11 @@ stylesheets:
 # <small>Grand Park presents</small> Sunday Sessions <small>2019</small>
 -->
 
+<style>
+  main h2 {
+    font-family: "Chicago FLF", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+</style>
 
 
 <h1>
