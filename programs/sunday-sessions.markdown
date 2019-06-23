@@ -33,6 +33,7 @@ main {
 main h2 {
   font-family: "Chicago FLF", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   border-width: 0.125em 0;
   border-style: solid;
@@ -40,6 +41,35 @@ main h2 {
   align-self: start;
   justify-self: end;
   display: inline-block;
+}
+
+main hr {
+  border-width: 0;
+}
+main hr + h2 {
+  margin-top: 0;
+  display: block;
+  justify-self: stretch;
+  background-color: var(--text-color);
+  color: var(--strawberry);
+  grid-column: 1/-1;
+  margin-left: -0.75em;
+  margin-right: -0.75em;
+  text-align: center;
+  max-width: none;
+  border-width: 0;
+  padding: 0.25em 1.5em;
+  font-size: 2em;
+}
+main hr + h2 + dl {
+  grid-column: 1/-1;
+  max-width: none;
+}
+main hr + h2 + dl + p {
+  max-width: none;
+  grid-column: 1/-1;
+  align-self: stretch;
+  text-align: center;
 }
 
 :root {
@@ -64,6 +94,35 @@ body strong {
 
 dl {
   text-align: center;
+  border-width: 0 2vmax;
+  border-style: solid;
+  border-color: var(--text-color);
+  margin-left: -1.2em !important;
+  margin-right: -1.2em !important;
+  max-width: none;
+  box-sizing: border-box;
+  width: 100vw;
+  margin-top: -1.5em !important;
+  padding-top: 3em;
+  margin-bottom: 0 !imporant;
+  position: relative;
+}
+dl::before,
+dl::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2em;
+  background-image: url(/uploads/programs/sunday-sessions/lines.svg);
+  background-repeat: repeat-y;
+  top: 0;
+}
+dl::before {
+  left: 0;
+}
+dl::after {
+  right: 0;
+  transform: rotate(180deg);
 }
 dt {
   display: inline-block;
@@ -89,9 +148,11 @@ dd img {
 dl {
   display: grid;
   grid-template-columns: 1fr;
-  margin-bottom: 3em !important;
+  padding-bottom: 6em !important;
   justify-self: start;
   font-size: 1.25em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 dt,
@@ -124,18 +185,53 @@ dt + dd {
   margin-top: 0.375em !important;
 }
 
+@media (min-width: 60em) {
+  dl {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-bottom: 7.5em !important;
+  }
+  dt:nth-of-type(n) + dd + dd {
+    grid-row: 1/2;
+  }
+  dt {
+    grid-row: 2/3;
+  }
+  dt + dd {
+    grid-row: 3/4;
+  }
+  dd + dt + dd + dd {
+    margin-top: 0 !important;
+  }
+  dt:nth-of-type(2),
+  dt:nth-of-type(2) + dd,
+  dt:nth-of-type(2) + dd + dd,
+  dt:nth-of-type(4),
+  dt:nth-of-type(4) + dd,
+  dt:nth-of-type(4) + dd + dd {
+    transform: translateY(7.5rem);
+  }
+}
+
 .action a {
   background: var(--text-color) !important;
   color: var(--strawberry) !important;
 }
-figure {
-  filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
+main figure {
   border-width: 4vmax 2vmax;
   border-style: solid;
   border-color: var(--text-color);
+  grid-column: 1/-1;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  max-width: none;
 }
-figure img {
+main hr + h2 + figure {
+  margin-top: -1.5em;
+  border-top-width: 0;
+}
+main figure img {
   display: block;
+  filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
 }
 .social-links {
   filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
@@ -164,9 +260,13 @@ h1 .smiley img:nth-child(3) {
   transform: rotate(10deg);
 }
 
-.logos {
+main .logos {
+  margin-top: -1.5em;
   background-color: var(--text-color);
+  margin-left: -1.5em;
+  margin-right: -1.5em;
 }
+
 
 
 
@@ -210,19 +310,9 @@ Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and H
 
 This is a _free_ event. There’s no cost to attend.
 
-<figure>
-  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
-</figure>
+* * *
 
-## DJ<span style="text-transform: none;">s</span><br />Dancing
-
-Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
-
-This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music.
-
-Guests can picnic or purchase food from food trucks and cocktails from the bar (21+ only) and enjoy the sounds of summer in a beautiful setting right in the heart of Downtown L.A.
-
-### Flashback video to Sunday Sessions 2018!
+## Flashback video to Sunday <span class="avoid-break">Sessions 2018!</span>
 
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
@@ -240,10 +330,30 @@ Guests can picnic or purchase food from food trucks and cocktails from the bar (
 </a>
 </div>
 </figure>
+<!-- 
+<figure>
+  <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
+</figure> -->
+
+## DJ<span style="text-transform: none;">s</span><br />Dancing
+
+Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
+
+This popular series of free outdoor dance parties will celebrate the contribution of Los Angeles artists to the American-originated, globally embraced art form of House music.
+
+Guests can picnic or purchase food from food trucks and cocktails from the bar (21+ only) and enjoy the sounds of summer in a beautiful setting right in the heart of Downtown L.A.
 
 <!-- <figure style="filter: unset; border-width: 0;">
   <img src="/uploads/programs/sunday-sessions-poster-bottom.png" alt="Sunday Sessions" height="500" />
 </figure> -->
+
+* * *
+
+<p markdown="1" style="grid-column: 1/-1; text-align: center; max-width: none;">
+_Stay tuned as we announce DJs in the coming weeks!_
+</p>
+
+* * *
 
 ## Summer Schedule
 
@@ -263,12 +373,11 @@ Guests can picnic or purchase food from food trucks and cocktails from the bar (
 : **Dublab** 20th Anniversary
 : ![](/uploads/programs/sunday-sessions/artists/dublab.svg)
 
-_Stay tuned as we announce DJs in the coming weeks!_
-
 
 <ul class="logos">
   <li><img src="/uploads/programs/sunday-sessions/sponsors/fusicology.svg" alt="Fusicology" /></li>
   <li><img src="/uploads/programs/sunday-sessions/sponsors/funktion.svg" alt="Funktion-One Sound by Higher 9" /></li>
 </ul>
+
 
 
