@@ -26,7 +26,7 @@ body {
 
 main,
 main h2 {
-  font-family: "Unit", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Unit", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 main > nav:first-child,
 main h2 {

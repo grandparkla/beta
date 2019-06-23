@@ -41,7 +41,7 @@
 }
 
 main {
-  font-family: cooper-black-std, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.375;
 }
 main {
@@ -108,7 +108,7 @@ main figure img {
 } */
 
 main h2 {
-  font-family: "Chicago FLF", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Chicago FLF", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;

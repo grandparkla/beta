@@ -54,11 +54,18 @@
   // })();
   </script>
 
+  {% unless page.stylesheets %}
   <style>
     main h2 {
-      font-family: cooper-black-std, "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      /* text-transform: none; */
+    }
+    main dt,
+    main dd {
+      /* text-transform: none; */
     }
   </style>
+  {% endunless %}
 
   <style media="false">
     :root {

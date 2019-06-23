@@ -18,7 +18,7 @@ stylesheets:
 
 <style>
   main h2 {
-    font-family: "Chicago FLF", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Chicago FLF", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
 </style>
 
