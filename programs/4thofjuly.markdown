@@ -1,6 +1,10 @@
 ---
 title: 4th of July Block Party, 2019 // Grand Park + The Music Center // #go4thDTLA
 permalink: /4thofjuly/
+stylesheets:
+  # Jim’s TypeKit account
+  - https://use.typekit.net/pfy0mzp.css
+  - /assets/css/sunday-sessions.css
 ---
 
 <!--

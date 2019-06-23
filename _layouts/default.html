@@ -8,8 +8,8 @@
   <title>{{ title }}{% unless title contains site.title %} // {{ site.title }}{% endunless %}</title>
 
   <!-- Jim’s TypeKit account
-  <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
   -->
+  <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Noto+Sans+JP|Noto+Sans+KR|Noto+Sans+SC|Noto+Sans+TC|Noto+Sans:400,400i,700,700i&display=swap&subset=cyrillic,japanese,korean,thai,vietnamese" rel="stylesheet">
 
@@ -24,57 +24,16 @@
   <link rel="stylesheet" href="/assets/css/featured-artists.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/special-notice.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/action.css?v={{ site.version }}" />
+  <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" />
 
-  
-  <style media="false">
-h2 {
-  grid-column: 1/4 !important;
-}
-h2 + p {
-  grid-column: 4/-2 !important;
-}
-main > figure {
-  grid-column: 3/-2 !important;
-  margin: 1.5em 0;
-}
-@media (min-width: 60em) {
-  main > figure {
-    margin-left: -3em;
-  }
-}
-
-@media (false) {
-  main > figure {
-    grid-column: 1/3;
-    align-self: center;
-    justify-self: end;
-    margin: 0;
-  }
-  h2 small {
-    font-style: italic;
-  }
-}
-main > figure img {
-  border-radius: 50%;
-  width: 15em;
-  height: 15em;
-  object-fit: cover;
-}
-
-h2 small em {
-  letter-spacing: 0.1em;
-  font-style: normal;
-  font-family: "Noto Sans SC";
-  text-transform: lowercase;
-  font-variant: small-caps;
-  font-size: 0.5em;
-}
-
-h2 {
-  grid-column-start: 3;
-}
-
-</style>
+  {% if page.stylesheets %}
+    {% assign stylesheets = page.stylesheets %}
+  {% elsif layout.stylesheets %}
+    {% assign stylesheets = layout.stylesheets %}
+  {% endif %}
+  {% for url in stylesheets %}
+  <link rel="stylesheet" href="{{ url }}?v={{ site.version }}" />
+  {% endfor %}
 
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
