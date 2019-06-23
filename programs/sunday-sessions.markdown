@@ -32,6 +32,12 @@ body strong {
   background: var(--text-color) !important;
   color: var(--strawberry) !important;
 }
+figure {
+  filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
+}
+.social-links {
+  filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
+}
 </style>
 
 # <small>Grand Park presents</small> Sunday Sessions <small>2019</small>
@@ -39,8 +45,8 @@ body strong {
 Sunday from <time datetime="14:00">2 p.m.</time> to <time datetime="20:00">8 p.m.</time><br />
 _<small>June 23, July 21, August 18, and September 22</small>_<br />
 
-<figure>
-  <img src="/uploads/programs/sunday-sessions-poster.png" alt="Sunday Sessions" height="500" />
+<figure style="filter: unset;">
+  <img src="/uploads/programs/sunday-sessions-poster-top.png" alt="Sunday Sessions" height="500" />
 </figure>
 
 ## Location
@@ -83,6 +89,10 @@ September 22
 
 _Stay tuned as we announce DJs in the coming weeks!_
 
+<figure style="filter: unset;">
+  <img src="/uploads/programs/sunday-sessions-poster-bottom.png" alt="Sunday Sessions" height="500" />
+</figure>
+
 ## Flashback video to Sunday Sessions 2018!
 
 <figure class="feature">
@@ -101,3 +111,4 @@ _Stay tuned as we announce DJs in the coming weeks!_
 </a>
 </div>
 </figure>
+
