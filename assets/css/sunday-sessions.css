@@ -15,7 +15,7 @@
   --text-color: var(--midnight);
   --text-color-invert: var(--snow);
   --image-filter: unset;
-  --svg-filter: brightness(1);
+  --svg-filter: grayscale(100%) brightness(0.5);
   --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
 
   /* light on dark */
@@ -67,21 +67,26 @@ dl img[src*="svg"] {
 main figure img {
   display: block;
 }
-.event-list img,
-main figure {
-  border: 0.75em solid var(--text-color);
-  box-sizing: border-box;
+
+@media (min-width: 1px) {
+  .event-list img,
+  main figure {
+    border: 0.75em solid var(--text-color);
+    box-sizing: border-box;
+  }
+  .event-list a > div {
+    background-color: var(--text-color);
+    color: var(--text-color-invert);
+  }
+  .social-links {
+    filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
+  }
+  h1.welcome svg {
+    filter: var(--svg-filter);
+  }
 }
-.event-list a > div {
-  background-color: var(--text-color);
-  color: var(--text-color-invert);
-}
-.social-links {
-  filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
-}
-h1.welcome svg {
-  filter: var(--svg-filter);
-}
+
+
 .logos svg {
   color: var(--background-color);
 }
@@ -134,8 +139,8 @@ main hr + h2 {
   margin-top: 0;
   display: block;
   justify-self: stretch;
-  background-color: var(--text-color);
-  color: var(--background-color);
+  background-color: var(--text-color, black);
+  color: var(--background-color, white);
   grid-column: 1/-1;
   margin-left: -0.75em;
   margin-right: -0.75em;
@@ -156,18 +161,20 @@ main hr + h2 + dl + p {
   text-align: center;
 }
 
-body {
-  background: var(--background-color);
-}
-body a {
-  color: inherit !important;
-}
-body h1 {
-  color: inherit !important;
-}
-body strong {
-  color: inherit !important;
-  font-weight: bold;
+@media (min-width: 1px) {
+  body {
+    background: var(--background-color);
+  }
+  body a {
+    color: inherit !important;
+  }
+  body h1 {
+    color: inherit !important;
+  }
+  body strong {
+    color: inherit !important;
+    font-weight: bold;
+  }
 }
 
 dl {
@@ -208,8 +215,8 @@ dt {
   display: inline-block;
   justify-self: center;
   padding: 0em 0.375em 0.1em;
-  background: var(--text-color);
-  color: var(--background-color);
+  background: var(--text-color, black);
+  color: var(--background-color, white);
   font-style: normal;
   font-size: 1.25em;
 }
@@ -294,8 +301,8 @@ dt + dd {
 }
 
 .action a {
-  background: var(--text-color) !important;
-  color: var(--background-color) !important;
+  background: var(--text-color, black) !important;
+  color: var(--background-color, white) !important;
 }
 main figure {
   /* border-width: 4vmax 2vmax;
@@ -359,14 +366,18 @@ main .logos {
   margin-right: -1.5em;
 }
 
-h1.welcome em:nth-of-type(2n+1) {
-  color: inherit;
-  opacity: 0.875;
+@media (min-width: 1px) {
+  h1.welcome em:nth-of-type(2n+1) {
+    color: inherit;
+    opacity: 0.875;
+  }
+  h1.welcome em:nth-of-type(3n+1) {
+    color: inherit;
+    opacity: 0.75;
+  }
 }
-h1.welcome em:nth-of-type(3n+1) {
-  color: inherit;
-  opacity: 0.75;
-}
+
+
 
 
 .staff-list ~ dl {

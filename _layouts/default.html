@@ -8,8 +8,8 @@
   <title>{{ title }}{% unless title contains site.title %} // {{ site.title }}{% endunless %}</title>
 
   <!-- Jim’s TypeKit account
-  <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
   -->
+  <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
 
   <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree|Noto+Sans+JP|Noto+Sans+KR|Noto+Sans+SC|Noto+Sans+TC|Noto+Sans:400,400i,700,700i&display=swap&subset=cyrillic,japanese,korean,thai,vietnamese" rel="stylesheet">
 
@@ -24,7 +24,7 @@
   <link rel="stylesheet" href="/assets/css/featured-artists.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/special-notice.css?v={{ site.version }}" />
   <link rel="stylesheet" href="/assets/css/action.css?v={{ site.version }}" />
-  <!-- <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" /> -->
+  <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" />
 
   {% if page.stylesheets %}
     {% assign stylesheets = page.stylesheets %}
@@ -34,6 +34,60 @@
   {% for url in stylesheets %}
   <link rel="stylesheet" href="{{ url }}?v={{ site.version }}" />
   {% endfor %}
+
+  <script>
+  // (function() {
+  //   function addStyles() {
+  //     var link
+  // 
+  //     // Jim’s TypeKit account
+  //     link = document.createElement("link")
+  //     link.setAttribute("rel", "stylesheet")
+  //     link.setAttribute("href", "https://use.typekit.net/pfy0mzp.css")
+  //     document.head.insertBefore(link, document.head.querySelector("script"))
+  // 
+  //     link = document.createElement("link")
+  //     link.setAttribute("rel", "stylesheet")
+  //     link.setAttribute("href", "/assets/css/sunday-sessions.css?v={{ site.version }}")
+  //     document.head.insertBefore(link, document.head.querySelector("script"))
+  //   }
+  // })();
+  </script>
+
+  <style>
+    main h2 {
+      font-family: cooper-black-std;
+    }
+  </style>
+
+  <style media="false">
+    :root {
+      --background-color: var(--snow);
+      
+      --text-color: var(--strawberry);
+      --text-color-invert: var(--snow);
+      --image-filter: unset;
+      --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
+      --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+
+      --text-color: var(--lime);
+      --svg-filter: grayscale(100%) sepia(100%) hue-rotate(30deg) brightness(2.5) saturate(4);
+
+      /* light on dark */
+
+      --background-color: var(--sky);
+
+      --background-color: var(--lime);
+
+      --background-color: var(--strawberry);
+
+      --text-color: var(--snow);
+      --text-color-invert: var(--midnight);
+      --image-filter: invert(100%);
+      --svg-filter: brightness(10);
+      --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+    }
+  </style>
 
   <style media="false">
   :root {
@@ -52,7 +106,7 @@
     --text-color: var(--midnight);
     --text-color-invert: var(--snow);
     --image-filter: unset;
-    --svg-filter: brightness(1);
+    --svg-filter: grayscale(100%) brightness(0.5);
     --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
 
   {% endif %}
