@@ -83,7 +83,7 @@ _<small>Fireworks at 9 p.m.</small>_
 
 
 
-## Location
+## Where
 
 Grand Park + The Music Center
 
@@ -110,6 +110,7 @@ Thursday, July 4, 2019
 9:30 p.m.
 : Event Ends
 
+* * *
 
 ## Highlights from <span class="avoid-break">past events</span>
 

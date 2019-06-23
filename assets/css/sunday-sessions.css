@@ -366,6 +366,15 @@ main .logos {
   margin-right: -1.5em;
 }
 
+
+h1.welcome {
+  font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h1.welcome em[data-message*="Dobrodošli"],
+h1.welcome em[data-message*="Chào mừng bạn"] {
+  font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 @media (min-width: 1px) {
   h1.welcome em:nth-of-type(2n+1) {
     color: inherit;
