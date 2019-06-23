@@ -92,7 +92,7 @@
   color: var(--lime-darkest);
   align-self: end;
   justify-self: start;
-  margin: 0.75em;
+  margin: 0.375em;
 }
 .event-list a > div > * {
   margin: 0;
