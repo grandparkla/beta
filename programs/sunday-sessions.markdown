@@ -260,6 +260,24 @@ h1 .smiley img:nth-child(3) {
   transform: rotate(10deg);
 }
 
+div.smiley img:nth-child(1) {
+margin-top: -4vw;
+font-size: 7vw;
+  left: 4.5vw;
+  transform: rotate(45deg);
+}
+div.smiley img:nth-child(2) {
+  margin-top: 0vw;
+  font-size: 5vw;
+  right: 6vw;
+}
+div.smiley img:nth-child(3) {
+  margin-top: 30vw;
+  right: 4.5vw;
+  font-size: 9vw;
+  transform: rotate(10deg);
+}
+
 main .logos {
   margin-top: -1.5em;
   background-color: var(--text-color);
@@ -335,6 +353,10 @@ This is a _free_ event. There’s no cost to attend.
   <img src="/uploads/programs/sunday-sessions-1.jpg" alt="Sunday Sessions August 2018 crowd shot" height="500" />
 </figure> -->
 
+
+
+<p><img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" style="float: right; height: 10.25vw; width: auto; transform: rotate(15deg); margin-bottom: 1em;" /></p>
+
 ## DJ<span style="text-transform: none;">s</span><br />Dancing
 
 Dance and music are the centerpiece for every hot summer party. For its seventh summer, _Grand Park’s Sunday Sessions_ hosts L.A.’s finest House music curators and DJs on select Sundays from June through September.
@@ -347,11 +369,11 @@ Guests can picnic or purchase food from food trucks and cocktails from the bar (
   <img src="/uploads/programs/sunday-sessions-poster-bottom.png" alt="Sunday Sessions" height="500" />
 </figure> -->
 
-* * *
 
-<p markdown="1" style="grid-column: 1/-1; text-align: center; max-width: none;">
-_Stay tuned as we announce DJs in the coming weeks!_
-</p>
+_Stay tuned as we announce DJs in the coming weeks!_ <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" style="float: right; height: 5vmax; width: auto; margin-left: 0.5em; shape-outside: circle(50%);" /> 
+
+
+
 
 * * *
 
@@ -380,4 +402,8 @@ _Stay tuned as we announce DJs in the coming weeks!_
 </ul>
 
 
-
+<div class="smiley">
+  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+</div>
