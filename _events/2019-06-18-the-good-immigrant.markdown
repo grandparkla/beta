@@ -9,8 +9,6 @@ image: /assets/images/events/strawberry.svg
 
 Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
 
-* * *
-
 ## Location
 
 Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and Hill Street

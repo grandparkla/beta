@@ -10,7 +10,7 @@ permalink: /staff/
 Meet the Staff <small>Team Grand Park</small>
 ==============
 
-<div></div>
+<div class="staff-list"></div>
 
 <style>
 h2 {
@@ -28,7 +28,6 @@ main > figure {
     margin-left: -3em;
   }
 }
-
 
 main > figure {
   border-radius: 50%;

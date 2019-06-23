@@ -79,8 +79,7 @@ _<small>Fireworks at 9 p.m.</small>_
 
 **Hey Los Angeles!**, we look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
 
-[Sign up for updates](http://grandparkla.org/sign-up/) from Grand Park + The Music Center 
-<!-- and get **free** Grand Park Sunglasses <em>(while supplies last)</em>. -->
+<!-- [Sign up for updates](/news-sign-up/) from Grand Park + The Music Center and get **free** Grand Park Sunglasses <em>(while supplies last)</em>. -->
 
 
 
@@ -183,6 +182,8 @@ Food vendors will be onsite.
 
 _(More updates to follow.)_
 
+
+* * *
 
 ## Featured artists <a id="artists"></a>
 

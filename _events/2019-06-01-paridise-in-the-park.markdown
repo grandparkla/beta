@@ -11,8 +11,6 @@ announcement: Grand Park’s dog run, playground and restrooms near the Event La
 
 Saturday, June 1, 2019 from 3 p.m. to 11 p.m.
 
-* * *
-
 ## Location
 
 Grand Park’s **Event Lawn** _(between Broadway and Spring)_

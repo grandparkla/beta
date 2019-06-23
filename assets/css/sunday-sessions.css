@@ -50,7 +50,7 @@ main {
 main > p,
 main > ul,
 main > ol,
-main > nav {
+main > nav:not(:first-child) {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -367,3 +367,19 @@ h1.welcome em:nth-of-type(3n+1) {
   color: inherit;
   opacity: 0.75;
 }
+
+
+.staff-list ~ dl {
+  font-size: unset;
+  text-align: left;
+}
+.staff-list ~ dl dt {
+  margin-left: 0;
+  align-self: start;
+  justify-self: start;
+}
+.staff-list ~ dl dd {
+  font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: unset;
+}
+
