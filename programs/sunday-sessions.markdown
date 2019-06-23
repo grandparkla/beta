@@ -119,8 +119,10 @@ _Stay tuned as we announce DJs in the coming weeks!_ <img src="/uploads/programs
 
 
 <ul class="logos">
-  <li><img src="/uploads/programs/sunday-sessions/sponsors/fusicology.svg" alt="Fusicology" /></li>
-  <li><img src="/uploads/programs/sunday-sessions/sponsors/funktion.svg" alt="Funktion-One Sound by Higher 9" /></li>
+  <li>{% include sunday-sessions/fusicology.svg %}</li>
+  <li>{% include sunday-sessions/funktion.svg %}</li>
+  <!-- <li><img src="/uploads/programs/sunday-sessions/sponsors/fusicology.svg" alt="Fusicology" /></li>
+  <li><img src="/uploads/programs/sunday-sessions/sponsors/funktion.svg" alt="Funktion-One Sound by Higher 9" /></li> -->
 </ul>
 
 

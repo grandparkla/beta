@@ -3,6 +3,10 @@ title: Alerts & closures
 permalink: /alerts/
 ---
 
+<nav markdown="1">
+* [Plan your visit](/visit/)
+</nav>
+
 # Alerts & closures
 
 <div></div>

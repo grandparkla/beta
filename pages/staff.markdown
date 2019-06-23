@@ -29,19 +29,14 @@ main > figure {
   }
 }
 
-@media (false) {
-  main > figure {
-    grid-column: 1/3;
-    align-self: center;
-    justify-self: end;
-    margin: 0;
-  }
-  h2 small {
-    font-style: italic;
-  }
+
+main > figure {
+  border-radius: 50%;
+  width: 15em;
+  height: 15em;
+  overflow: hidden;
 }
 main > figure img {
-  border-radius: 50%;
   width: 15em;
   height: 15em;
   object-fit: cover;
@@ -56,9 +51,6 @@ h2 small em {
   font-size: 0.5em;
 }
 
-h2 {
-  grid-column-start: 3;
-}
 
 </style>
 

@@ -35,6 +35,99 @@
   <link rel="stylesheet" href="{{ url }}?v={{ site.version }}" />
   {% endfor %}
 
+  <style>
+  :root {
+
+  {% if page.url == "/areas/" or
+        page.url == "/dog-run/" or
+        page.url == "/splash-pad/" or
+        page.url == "/playground/" or
+        page.url == "/performance-lawn/" or
+        page.url == "/gardens/" %}
+
+    /* dark on light */
+
+    --background-color: var(--banana);
+
+    --text-color: var(--midnight);
+    --text-color-invert: var(--snow);
+    --image-filter: unset;
+    --svg-filter: brightness(1);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+
+  {% endif %}
+
+  {% if page.url == "/events/" or
+        page.url == "/lunch/" or
+        page.url == "/calendar/" or
+        page.url == "/programs/" or
+        page.url == "/food-trucks/" or
+        page.url == "/yoga/" or
+        page.url == "/sunday-sessions/" %}
+
+    /* light on dark */
+
+    --background-color: var(--strawberry);
+
+    --text-color: var(--snow);
+    --text-color-invert: var(--midnight);
+    --image-filter: invert(100%);
+    --svg-filter: brightness(10);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+
+  {% endif %}
+  
+  {% if page.url == "/visit/" or
+      page.url == "/directions/" or
+      page.url == "/rules/" or
+      page.url == "/faqs/" or
+      page.url == "/alerts/" or
+      page.url == "/areas/" or
+      page.url == "/dog-run/" or
+      page.url == "/splash-pad/" or
+      page.url == "/playground/" or
+      page.url == "/performance-lawn/" or
+      page.url == "/gardens/" %}
+
+    /* light on dark */
+        
+    --background-color: var(--lime);
+
+    --text-color: var(--snow);
+    --text-color-invert: var(--midnight);
+    --image-filter: invert(100%);
+    --svg-filter: brightness(10);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+
+  {% endif %}
+
+  {% if page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/film-photography/" or
+        page.url == "/staff/" or
+        page.url == "/job-opportunities/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/for-media/" or
+        page.url == "/for-vendors/" or
+        page.url == "/sponsorship/" or
+        page.url == "/contact/" or
+        page.url == "/donate/" %}
+
+    /* light on dark */
+
+    --background-color: var(--sky);
+
+    --text-color: var(--snow);
+    --text-color-invert: var(--midnight);
+    --image-filter: invert(100%);
+    --svg-filter: brightness(10);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+
+  {% endif %}
+
+  }
+  </style>
+
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
   {% endif %}

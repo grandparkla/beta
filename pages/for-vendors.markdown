@@ -1,6 +1,6 @@
 ---
 title: For vendors
-permalink: /vendors/
+permalink: /for-vendors/
 ---
 
 <nav markdown="1">

@@ -73,6 +73,10 @@
     height: 4.35em; /* 1.45 x 3 */
     object-fit: contain;
   }
+  .logos svg {
+    width: auto;
+    height: 4.35em; /* 1.45 x 3 */
+  }
   @media (min-width: 100em) {
     .logos li {
       font-size: 1.5em;

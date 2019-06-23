@@ -1,4 +1,38 @@
 
+:root {
+  --midnight: hsl(300, 2%, 22%);
+  --strawberry: hsl(331, 81%, 61%);
+  --banana:     hsl(48, 97%, 71%);
+  --sky:        hsl(191, 75%, 54%);
+  --lime:       hsl(77, 51%, 51%);
+  --headline-color: var(--text-color);
+  --link-color: var(--text-color);
+  
+  /* dark on light */
+
+  --background-color: var(--banana);
+
+  --text-color: var(--midnight);
+  --text-color-invert: var(--snow);
+  --image-filter: unset;
+  --svg-filter: brightness(1);
+  --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+
+  /* light on dark */
+
+  --background-color: var(--sky);
+
+  --background-color: var(--lime);
+
+  --background-color: var(--strawberry);
+
+  --text-color: var(--snow);
+  --text-color-invert: var(--midnight);
+  --image-filter: invert(100%);
+  --svg-filter: brightness(10);
+  --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+}
+
 @font-face{
   font-family:"Chicago FLF";
   src: url("/assets/fonts/chicago-flf/ChicagoFLF.ttf") format("truetype");
@@ -13,32 +47,60 @@ main {
 main {
   font-size: 1.25em;
 }
-main p {
+main > p,
+main > ul,
+main > ol,
+main > nav {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 dl img,
 footer img {
-  filter: invert(100%);
+  filter: var(--image-filter);
 }
 h1 img[src*="svg"],
-.smiley img[src*="svg"],
+img[src*="smiley.svg"],
 dl img[src*="svg"] {
-  filter: brightness(10);
+  filter: var(--svg-filter);
 }
 .event-list img,
 main figure img {
   display: block;
-  /* filter: grayscale(100%) sepia(50%) hue-rotate(280deg); */
-  border: 0.75em solid var(--snow);
+}
+.event-list img,
+main figure {
+  border: 0.75em solid var(--text-color);
   box-sizing: border-box;
+}
+.event-list a > div {
+  background-color: var(--text-color);
+  color: var(--text-color-invert);
 }
 .social-links {
   filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
 }
 h1.welcome svg {
-  filter: brightness(10);
+  filter: var(--svg-filter);
 }
+.logos svg {
+  color: var(--background-color);
+}
+.logos svg,
+.logos svg * {
+  fill: currentColor;
+}
+
+.special-notice {
+  background: var(--snow);
+  color: var(--midnight);
+}
+
+/* .event-list a div {
+  color: var(--background-color);
+}
+.event-list a div h3 {
+  opacity: 1;
+} */
 
 main h2 {
   font-family: "Chicago FLF", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -50,7 +112,19 @@ main h2 {
   padding: 0.125em 0;
   align-self: start;
   justify-self: end;
-  display: inline-block;
+  display: table;
+}
+main h2.logo {
+  border-width: 0.025em 0;
+  padding: 0;
+}
+
+@media (max-width: 60em) {
+  main h2.logo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5em !important;
+  }
 }
 
 main hr {
@@ -61,7 +135,7 @@ main hr + h2 {
   display: block;
   justify-self: stretch;
   background-color: var(--text-color);
-  color: var(--strawberry);
+  color: var(--background-color);
   grid-column: 1/-1;
   margin-left: -0.75em;
   margin-right: -0.75em;
@@ -82,15 +156,8 @@ main hr + h2 + dl + p {
   text-align: center;
 }
 
-:root {
-  --strawberry: hsl(331, 81%, 61%);
-  --text-color: hsl(300, 2%, 22%);
-  --text-color: var(--snow);
-  --headline-color: var(--text-color);
-  --link-color: var(--text-color);
-}
 body {
-  background: var(--strawberry);
+  background: var(--background-color);
 }
 body a {
   color: inherit !important;
@@ -124,24 +191,25 @@ main hr + h2 + dl::before,
 main hr + h2 + dl::after {
   content: "";
   position: absolute;
-  height: 100%;
+  height: 110%;
   width: 2em;
-  background-image: url(/uploads/programs/sunday-sessions/lines.svg);
+  background-image: var(--lines-url);
   background-repeat: repeat-y;
-  top: 0;
+  top: -5%;
 }
 main hr + h2 + dl::before {
-  left: 0;
+  left: -2px;
 }
 main hr + h2 + dl::after {
-  right: 0;
+  right: -2px;
   transform: rotate(180deg);
 }
 dt {
   display: inline-block;
+  justify-self: center;
   padding: 0em 0.375em 0.1em;
   background: var(--text-color);
-  color: var(--strawberry);
+  color: var(--background-color);
   font-style: normal;
   font-size: 1.25em;
 }
@@ -194,7 +262,7 @@ dl {
 .summer-schedule ~ dl dt {
   margin-top: 0.375em !important;
 }
-.summer-schedule ~ dl dt + dd {
+dt + dd {
   margin-top: 0.375em !important;
 }
 
@@ -227,7 +295,7 @@ dl {
 
 .action a {
   background: var(--text-color) !important;
-  color: var(--strawberry) !important;
+  color: var(--background-color) !important;
 }
 main figure {
   /* border-width: 4vmax 2vmax;
@@ -278,7 +346,7 @@ div.smiley img:nth-child(2) {
   right: 6vw;
 }
 div.smiley img:nth-child(3) {
-  margin-top: 30vw;
+  margin-top: 20vw;
   right: 4.5vw;
   font-size: 9vw;
   transform: rotate(10deg);

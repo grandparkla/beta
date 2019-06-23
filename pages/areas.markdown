@@ -3,6 +3,10 @@ title: Areas of the park
 permalink: /areas/
 ---
 
+<nav markdown="1">
+* [Plan your visit](/visit/)
+</nav>
+
 Areas of the park
 ========
 
