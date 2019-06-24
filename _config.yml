@@ -8,7 +8,7 @@ permalink: pretty
 hide_from_search_engines: true
 use_analytics: false
 
-use_theme: true
+use_theme: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
