@@ -26,9 +26,7 @@ Individuals, companies and organizations are welcome to rent space for public or
 These steps will help you get started:
 
 1. Check out the [frequently asked questions](/uploads/faqs-january-2016.pdf).
-
 2. Fill out and submit the [event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form).
-
 3. Sit back and relax.<br /><small><i>Many thanks for your patience.</i></small>
 
 <p class="action" markdown="1">
