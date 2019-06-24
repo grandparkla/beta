@@ -31,6 +31,7 @@
   <link rel="stylesheet" href="{{ url }}?v={{ site.version }}" />
   {% endfor %}
 
+
   <script>
   // (function() {
   //   function addStyles() {
@@ -52,7 +53,9 @@
 
   {% unless page.stylesheets %}
   <!-- Jim’s TypeKit account -->
+  {% if site.use_theme %}
   <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
+  {% endif %}
   <style>
     main h2 {
       font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -90,7 +93,31 @@
       color: var(--text-color);
     } */
   </style>
+  {% if site.use_theme %}
   <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" />
+  {% else %}
+  <style>
+    main hr {
+      border-width: 0;
+    }
+    main hr + h2 {
+      margin-top: 0;
+      display: block;
+      justify-self: stretch;
+      background-color: var(--lime);
+      color: var(--snow);
+      grid-column: 1/-1;
+      margin-left: -0.75em;
+      margin-right: -0.75em;
+      text-align: center;
+      max-width: none;
+      border-width: 0;
+      padding: 0.25em 1.5em;
+      font-size: 2em;
+      font-style: normal;
+    }
+  </style>
+  {% endif %}
   {% endunless %}
 
   <style media="false">
@@ -121,7 +148,8 @@
       --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
     }
   </style>
-
+  
+  {% if site.use_theme %}
   <style>
   :root {
 
@@ -214,6 +242,7 @@
 
   }
   </style>
+  {% endif %}
 
   {% if page.redirect %}
   <meta http-equiv="refresh" content="0; url={{ page.redirect }}" />
