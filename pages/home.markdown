@@ -105,18 +105,6 @@ All are invited to attend Grand Park’s free year-round events & activities, ha
 
 <ol class="event-list">
   <li>
-    <a href="/sunday-sessions/">
-      <div>
-        <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
-        <p>
-          Sunday, June 23
-        </p>
-      </div>
-      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
     <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
@@ -128,6 +116,18 @@ All are invited to attend Grand Park’s free year-round events & activities, ha
       <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
   </li>
+    <li>
+      <a href="/sunday-sessions/">
+        <div>
+          <h3>Sunday Sessions</h3>
+          <h4>Music & Dance Sessions</h4>
+          <p>
+            Sunday, July 21
+          </p>
+        </div>
+        <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
+      </a>
+    </li>
   <li>
     <a href="/food-trucks/">
       <div>

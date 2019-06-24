@@ -26,20 +26,6 @@
 {% endfor %}
 </ol>
 {% endcomment %}
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <li>
-    <a href="/sunday-sessions/">
-      <div>
-        <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
-        <p>
-          Sunday, June 23
-        </p>
-      </div>
-      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/food-trucks/">
@@ -59,6 +45,20 @@
         <p>Every Wednesday &amp; Friday</p>
       </div>
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Sunday Sessions</h3>
+        <h4>Music & Dance Sessions</h4>
+        <p>
+          Sunday, June 23
+        </p>
+      </div>
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -110,7 +110,7 @@
           Sunday, July 21
         </p>
       </div>
-      <img src="/uploads/programs/sunday-sessions-1.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
