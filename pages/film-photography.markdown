@@ -5,10 +5,13 @@ permalink: /film-photography/
 
 <nav markdown="1">
 * [About the park](/about/)
+* [Rent the park](/rent/)
 </nav>
 
 Filming & photography
 ==================
+
+<main markdown="1">
 
 ### Need to film in Grand Park?
 
@@ -22,21 +25,31 @@ Learn about filming in the park and tell us a little bit about your planned phot
 [Film & photoshoot inquiry form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform)
 </p>
 
-<!-- 
-<figure>
-  <img src="https://thesource.metro.net/wp-content/uploads/2019/03/5c80271cf18d8c00099a9ef6-eight.jpg" alt="Captain Marvel" height="500" />
-  <figcaption>Some scenes in the movie <em>“Captain Marvel”</em> were filmed at Grand Park. Source: <a href="https://thesource.metro.net/2018/09/18/captain-marvel-goes-metro/">Captain Marvel goes Metro</a>. Photo credit: Chuck Zlotnick / Marvel Studios</figcaption>
-</figure>
--->
+_<small>If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)</small>_
+
+</main>
+
+<main markdown="1" class="banana">
 
 
-<div></div>
+## Host an event
 
-_If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
+### The park is open to everyone!
 
+Individuals, companies and organizations are welcome to rent space for public or private events at the park. We host anything from weddings to entire graduations.
 
-### Interested in hosting your event at Grand Park?
+#### Interested in hosting your event at Grand Park?
+
+These steps will help you get started:
+
+1. Check out the [frequently asked questions](/uploads/faqs-january-2016.pdf).
+2. Fill out and submit the [event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form).
+3. Sit back and relax.<br /><small><i>Many thanks for your patience.</i></small>
 
 <p class="action" markdown="1">
-[Rent the park](/rent/)
+[Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
 </p>
+
+_<small>If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)</small>_
+
+</main>

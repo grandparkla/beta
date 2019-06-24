@@ -52,7 +52,7 @@
 
   {% unless page.stylesheets %}
   <!-- Jim’s TypeKit account -->
-  <!-- <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" /> -->
+  <link rel="stylesheet" href="https://use.typekit.net/pfy0mzp.css" />
   <style>
     main h2 {
       font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -73,12 +73,12 @@
       padding-right: 1.5em;
       padding-left: 1.5em;
     }
-    hr + hr {
+    /* hr + hr {
       display: none;
     }
     main main hr:last-child {
       display: none;
-    }
+    } */
     /* main hr + main hr:first-child {
       display: none;
     } */
@@ -90,7 +90,7 @@
       color: var(--text-color);
     } */
   </style>
-  <!-- <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" /> -->
+  <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" />
   {% endunless %}
 
   <style media="false">
@@ -122,7 +122,7 @@
     }
   </style>
 
-  <style media="false">
+  <style>
   :root {
 
   {% if page.url == "/areas/" or

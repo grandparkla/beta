@@ -181,9 +181,11 @@ main hr + h2 + dl + p {
 }
 
 dl {
+  padding-top: 3em;
+}
+.summer-schedule ~ dl {
   text-align: center;
   margin-top: -1.2em !important;
-  padding-top: 3em;
   margin-bottom: 0 !imporant;
   position: relative;
 }
@@ -215,19 +217,22 @@ main hr + h2 + dl::after {
   transform: rotate(180deg);
 }
 dt {
+  justify-self: start;
   display: inline-block;
-  justify-self: center;
   padding: 0em 0.375em 0.1em;
   background: var(--text-color, black);
   color: var(--background-color, white);
   font-style: normal;
   font-size: 1.25em;
 }
+.summer-schedule ~ dl dt {
+  justify-self: center;
+}
 dt,
 dd {
   text-transform: uppercase;
 }
-dd strong {
+.summer-schedule ~ dl dd strong {
   font-size: 1.5em;
   display: block;
 }
@@ -240,12 +245,12 @@ dl {
   display: grid;
   grid-template-columns: 1fr;
   justify-self: start;
-  font-size: 1.25em;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
 }
 .summer-schedule ~ dl {
   padding-bottom: 6em !important;
+  font-size: 1.25em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .summer-schedule ~ dl dt,
@@ -394,7 +399,7 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
 
 
 
-.staff-list ~ dl {
+/* .staff-list ~ dl {
   font-size: unset;
   text-align: left;
 }
@@ -406,9 +411,17 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
 .staff-list ~ dl dd {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: unset;
+} */
+
+dl dd {
+  font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: unset;
 }
 
-
+.summer-schedule ~ dl dd {
+  font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
 
 
 main main {
@@ -465,35 +478,44 @@ main main.strawberry {
 }
 main main.lime {
   --background-color: var(--lime);
+--background-color: var(--strawberry);
   --text-color: var(--snow);
   --text-color-invert: var(--midnight);
   --headline-color: var(--snow);
 }
 main main.sky {
   --background-color: var(--sky);
+--background-color: var(--strawberry);
   --text-color: var(--snow);
   --text-color-invert: var(--midnight);
   --headline-color: var(--snow);
 }
 main main.strawberry > p,
+main main.strawberry > ul,
+main main.strawberry > ol,
 main main.strawberry > nav,
 main main.lime > p,
+main main.lime > ul,
+main main.lime > ol,
 main main.lime > nav,
 main main.sky > p,
+main main.sky > ul,
+main main.sky > ol,
 main main.sky > nav {
   color: var(--snow);
 }
 
-main main.banana {
+/* main main.banana {
   --background-color: var(--banana);
   --text-color: var(--midnight);
   --text-color-invert: var(--snow);
   --headline-color: var(--midnight);
+  
 }
 main main.banana > p,
 main main.banana > nav {
   color: var(--midnight);
-}
+} */
 
 /* footer {
   background-color: var(--snow);

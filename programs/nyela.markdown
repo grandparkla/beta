@@ -267,7 +267,7 @@ Event begins at 8pm on December 31. [Projections](#projections) and music run al
 
 ## Countdown Stage
 
-#### Located at Grand Park’s Event Lawn near City Hall & Spring Street
+Located at Grand Park’s Event Lawn near City Hall & Spring Street
 
 _Hosted By [Mario Hernandez](https://twitter.com/cinemario)_
 
@@ -303,7 +303,7 @@ _Hosted By [Mario Hernandez](https://twitter.com/cinemario)_
 
 ## Get Down Stage
 
-#### Located at Grand Park’s Performance Lawn between Grand Avenue and Hill Street
+Located at Grand Park’s Performance Lawn between Grand Avenue and Hill Street
 
 _Hosted by Valiyah_
 
@@ -337,9 +337,9 @@ _Hosted by Valiyah_
 
 <main markdown="1">
 
-* * *
+## Fun!
 
-## Fun Stuff to Hear, <span class="avoid-break">See and Do!</span>
+_Fun Stuff to Hear, <span class="avoid-break">See and Do!</span>_
 
 ### 2 Music Stages
 
@@ -380,7 +380,9 @@ This year’s N.Y.E.L.A. is all about L.A. DREAMS!✨ Celebrating the future of 
 
 ## Event Map
 
-Don’t miss out. Event maps will be available at the _Grand Park_ info booths. Sign up for our e-mail newsletter at one of the booths and get a **fun glow wand** (while supplies last).
+### Don’t miss out!
+
+Event maps will be available at the _Grand Park_ info booths. Sign up for our e-mail newsletter at one of the booths and get a **fun glow wand** (while supplies last).
 
 [Downloadable Map](/uploads/programs/nyela/nyela-2019-map.pdf) _(PDF file)_
 
@@ -408,6 +410,10 @@ The event will take place at Grand Park + The Music Center:<br />
 
 ## Street Closures
 
+Street closures will begin taking effect 6 a.m. on Monday, December 31. All streets will reopen by 6 a.m. on Tuesday, January 1.
+
+See the [N.Y.E.L.A. Community Letter](/uploads/programs/nyela/nyela-2019-community-letter.pdf) for more details about streets that will be closed during the event.
+
 <figure>
 <div>
 <a href="/nyela-2019-community-letter.pdf">
@@ -416,10 +422,6 @@ The event will take place at Grand Park + The Music Center:<br />
 </div>
 
 </figure>
-
-Street closures will begin taking effect 6 a.m. on Monday, December 31. All streets will reopen by 6 a.m. on Tuesday, January 1.
-
-See the [N.Y.E.L.A. Community Letter](/uploads/programs/nyela/nyela-2019-community-letter.pdf) for more details about streets that will be closed during the event.
 
 
 ## Parking
