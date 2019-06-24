@@ -17,6 +17,8 @@ _<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 *   [Alerts & closures](/alerts/)
 </nav>
 
+<main markdown="1">
+
 ## Closed areas
 
 These areas of the park are currently closed or are closing soon.
@@ -31,6 +33,9 @@ These areas of the park are currently closed or are closing soon.
   <img src="/uploads/programs/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
 </figure> -->
 
+</main>
+
+<div></div>
 
 Directions
 ----

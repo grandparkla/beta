@@ -10,6 +10,10 @@ permalink: /staff/
 Meet the Staff <small>Team Grand Park</small>
 ==============
 
+
+<div></div>
+
+
 <div class="staff-list"></div>
 
 <style media="false">

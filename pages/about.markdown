@@ -67,7 +67,7 @@ _If you have any questions that aren’t answered on this page, please send us a
 
 ## Contact us
 
-<nav markdown="1">
+<nav markdown="1" style="grid-column-start: 2; margin-top: 0;">
 *   [For members of the media](/for-media/)
 *   [For vendors](/for-vendors/)
 *   [Sponsorship](/sponsorship/)
