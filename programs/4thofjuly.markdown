@@ -7,6 +7,35 @@ stylesheets:
   - /assets/css/sunday-sessions.css
 ---
 
+<style>
+:root {
+  --light-blue: hsl(190, 67%, 64%);
+  --blue: hsl(243, 55%, 22%);
+  --purple: hsl(286, 57%, 37%);
+  --pink: hsl(336, 86%, 54%);
+  --orange: hsl(36, 99%, 71%);
+}
+header {
+  background-color: var(--blue);
+  background-image: 
+    url(/uploads/programs/4thofjuly/poster/stars.svg);
+  background-size: 100vh auto;
+  background-repeat: repeat-x;
+  background-position: bottom;
+}
+body > main {
+  background-image: 
+    url(/uploads/programs/4thofjuly/poster/stars-right.svg),
+    url(/uploads/programs/4thofjuly/poster/stars-left.svg),
+    url(/uploads/programs/4thofjuly/poster/stars.svg),
+    url(/uploads/programs/4thofjuly/poster/ferris-wheel.svg),
+    linear-gradient(to bottom, var(--blue), var(--blue) 50vw, var(--purple), var(--pink), var(--orange) 100vw, var(--orange));
+  background-size: 60vw auto, 60vw auto, 100vh auto, 107.5vw auto, auto auto;
+  background-repeat: no-repeat, no-repeat, repeat-x, no-repeat, repeat-x;
+  background-position: 90% 60vw, 10% 0, top, top, top;
+}
+</style>
+
 <!--
 <style>
   body {
@@ -37,23 +66,39 @@ stylesheets:
   }
 </style>
 
-<h1 style="position: relative; z-index: 1;">
-  <img
-    src="/uploads/programs/4thofjuly/poster/block-party.svg"
-    alt="4th of July Block Party, 2019 // Grand Park + The Music Center"
-  />
-</h1>
-
 <main style="height: 10vmax; grid-column: 1/-1; background: var(--snow); margin-left: -1.5em; margin-right: -1.5em;" markdown="1">
 </main>
 
 <div></div><div></div><div></div><div></div>
 -->
 
+<h1 style="position: relative; z-index: 1; margin: 0; font-size: 85vw; height: 0.9em; grid-column: 1/-1;">
+  <img style="display: block; margin: 0; filter: unset; width: 1.734em; height: 1.8817em; transform: translateX(-50%); max-width: none;"
+    src="/uploads/programs/4thofjuly/poster/block-party.svg"
+    alt="4th of July Block Party, 2019 // Grand Park + The Music Center"
+  />
+</h1>
+
+<main markdown="1" style="position: relative; z-index: 1;">
+
+<!--
 <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
 =======================
+-->
 
-Thursday from <time datetime="14:00">3 p.m.</time> to <time datetime="21:30">9:30 p.m.</time><br />
+<!-- <figure>
+  <picture>
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" media="(min-aspect-ratio: 1/1)" />
+    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" />
+    <img src="/uploads/programs/4thofjuly/poster/portrait-2.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
+  </picture>
+</figure> -->
+
+<div></div><div></div>
+
+## Thursday, <span class="avoid-break">July 4, 2019</span>
+
+from <time datetime="14:00">3 p.m.</time> to <time datetime="21:30">9:30 p.m.</time><br />
 _<small>Fireworks at 9 p.m.</small>_
 
 <nav markdown="1">
@@ -69,15 +114,9 @@ _<small>Fireworks at 9 p.m.</small>_
 {% endcomment %}
 </nav>
 
-<figure>
-  <picture>
-    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" media="(min-aspect-ratio: 1/1)" />
-    <source srcset="/uploads/programs/4thofjuly/poster/portrait-2.png" />
-    <img src="/uploads/programs/4thofjuly/poster/portrait-2.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
-  </picture>
-</figure>
+### Hey Los Angeles!
 
-**Hey Los Angeles!**, we look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
+We look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
 
 <!-- [Sign up for updates](/news-sign-up/) from Grand Park + The Music Center and get **free** Grand Park Sunglasses <em>(while supplies last)</em>. -->
 
@@ -97,9 +136,7 @@ Grand Park + The Music Center
 This is a _free_ event. There’s no cost to attend.
 
 
-## When
-
-Thursday, July 4, 2019
+## Schedule
 
 3:00 p.m.
 : Doors Open
@@ -117,7 +154,7 @@ Thursday, July 4, 2019
 <figure class="feature">
 <div data-aspect-ratio="1280/720">
 <a href="https://vimeo.com/82051161" class="has-icon">
-<img src="/uploads/programs/4thofjuly/highlights-video-poster.jpg" width="1000" alt="" />
+<img src="/uploads/programs/4thofjuly.jpg" width="1000" alt="" />
 <span class="icon play">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.2 33.7" width="29" height="34">
 <title>Video of Grand Park and The Music Center’s 4th Of July Block Party</title>
@@ -255,3 +292,5 @@ _(More updates to follow.)_
     </a>
   </li>
 </ol>
+
+</main>

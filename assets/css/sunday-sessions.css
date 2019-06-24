@@ -531,8 +531,10 @@ main main.banana > nav {
   --image-filter: unset;
   --svg-filter: unset;
 } */
-main + footer {
-  margin-top: -6em;
+
+main main:last-child {
+  margin-bottom: -4.5em;
+  padding-bottom: 6em;
 }
 
 main nav + hr {
