@@ -61,4 +61,4 @@ May 23
 May 30
 : William Brandt—Spotlight Jazz Combo
 
-_Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs._
+### Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.

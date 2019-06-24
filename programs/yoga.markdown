@@ -19,6 +19,8 @@ _<small>Year-round, except on holidays</small>_
   <img src="/uploads/programs/yoga-4.jpg" alt="Yoga" height="500" />
 </figure>
 
+Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.
+
 ## Location
 
 Grand Park’s **Performance Lawn** _(between Grand and Hill)_
@@ -31,12 +33,8 @@ Grand Park’s **Performance Lawn** _(between Grand and Hill)_
 
 This is a _free_ event. There’s no cost to attend.
 
-## About
-
-Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.
-
 <figure>
   <img src="/uploads/programs/yoga-2.jpg" alt="Yoga" height="500" />
 </figure>
 
-Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.
+### Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.
