@@ -121,10 +121,6 @@ There is one event scheduled for today.
 -->
 
 
-<main markdown="1" class="strawberry">
-
-* * *
-
 ## Every day <a id="daily"></a>
 
 These [areas of the park](/areas/) are open daily. Just drop by!
@@ -170,11 +166,6 @@ These [areas of the park](/areas/) are open daily. Just drop by!
   </li>
 </ol>
 
-</main>
-
-<main markdown="1" class="strawberry">
-
-* * *
 
 ## Lunch à la Park <a id="weekly"></a>
 
@@ -219,7 +210,6 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
-</main>
 
 <main markdown="1">
 
