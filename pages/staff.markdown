@@ -12,7 +12,7 @@ Meet the Staff <small>Team Grand Park</small>
 
 <div class="staff-list"></div>
 
-<style>
+<style media="false">
 h2 {
   grid-column: 1/4 !important;
 }
@@ -29,6 +29,11 @@ main > figure {
   }
 }
 
+
+
+</style>
+
+<style>
 main > figure {
   border-radius: 50%;
   width: 15em;
@@ -40,19 +45,25 @@ main > figure img {
   height: 15em;
   object-fit: cover;
 }
-
+main > figure {
+  grid-column: 3/-2 !important;
+  margin: 1.5em 0;
+}
 h2 small em {
   letter-spacing: 0.1em;
   font-style: normal;
-  font-family: "Noto Sans SC";
+  <!-- font-family: "Noto Sans SC";
   text-transform: lowercase;
-  font-variant: small-caps;
+  font-variant: small-caps; -->
   font-size: 0.5em;
 }
-
-
+.staff-list ~ dl {
+  margin-bottom: 3em;
+}
+.staff-list ~ dl:last-child {
+  margin-bottom: 6em;
+}
 </style>
-
 
 
 
@@ -257,4 +268,20 @@ Likes
 
 30 seconds on the Mic
 : I am Angela. The new Business Manager. Welcome to our park. #haiku #grandpark #dtla
+
+<main markdown="1" class="lime">
+
+* * *
+
+## Job Opportunities
+
+### Join the Grand Park team!
+
+<p class="action" markdown="1">
+[Program Manager, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/program_manager__gp_jan2019.pdf)
+</p>
+
+<div></div>
+
+</main>
 

@@ -10,6 +10,7 @@ permalink: /rules/
 Park rules
 ==========
 
+<main markdown="1">
 
 ### You are welcome to...
 
@@ -55,3 +56,4 @@ Park rules
 
 <small><i>This list is subject to change, and subject to the discretion of Grand Park and/or The Music Center security. Special events may have additional prohibited items.</i></small>
 
+</main>

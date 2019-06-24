@@ -37,7 +37,7 @@ _<small>If you have any questions that aren’t answered on this page, please se
 
 </main>
 
-<main markdown="1" class="sky">
+<main markdown="1" class="lime">
 
 ## Filming & photography
 

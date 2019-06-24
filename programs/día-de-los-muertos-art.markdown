@@ -39,6 +39,12 @@ Since its incorporation in 1973, SHG has produced over 1,000 art print editions,
 
 LORE Media & Arts founded by Robert Ramirez is a 15-year-old cultural and specials events production company. LORE, as well as our newly developing foundation, works with NPO’s, NGOs, private corporations, and government/ civic entities to facilitate opportunities for at-risk people in marginalized communities to connect with professional visual artists and community leaders, in order to create public visual arts-based events that promote positive cultural identity of Latino and Mesoamerican indigenous communities, and to empower participants via scholarships to pursue higher academic achievement, and to encourage civic and neighborhood community building through the arts.
 
+* * *
+
+<main markdown="1" class="sky">
+
+* * *
+
 ## Related events
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -63,4 +69,6 @@ LORE Media & Arts founded by Robert Ramirez is a 15-year-old cultural and specia
     </a>
   </li>
 </ol>
+
+</main>
 

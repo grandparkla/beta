@@ -17,6 +17,14 @@ stylesheets:
 -->
 
 <style>
+
+  @font-face{
+    font-family:"Chicago FLF";
+    src: url("/assets/fonts/chicago-flf/ChicagoFLF.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+
   main h2 {
     font-family: "Chicago FLF", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }

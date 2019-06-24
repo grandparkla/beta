@@ -72,6 +72,12 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
 
 ![Self Help Graphics & Art. Lore Media & Arts](/uploads/programs/noche-de-ofrenda/self-help-graphics.png)
 
+* * *
+
+<main markdown="1" class="sky">
+
+* * *
+
 ## Related events
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -96,3 +102,5 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
     </a>
   </li>
 </ol>
+
+</main>

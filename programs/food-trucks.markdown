@@ -28,6 +28,13 @@ Grand Park’s **Marketplace** _(close to City Hall)_ and **Olive Court** _(clos
 </p>
 
 
+* * *
+
+
+<main markdown="1" class="banana">
+
+* * *
+
 ## Dates
 
 
@@ -55,7 +62,7 @@ Past food trucks are listed here, to make it easier to copy and paste:
 -->
 
 
-### Tuesday, June 18
+## Tuesday, June 18
 
 Marketplace
 : [The Big Cheese](http://bigcheesesocal.com)
@@ -68,7 +75,7 @@ Olive Court
 : [Thai Mex Cocina](https://www.instagram.com/thaimexcocina/?hl=en)
 
 
-### Wednesday, June 19
+## Wednesday, June 19
 
 Marketplace
 : [Ooh La La Crepes](https://www.yelp.com/biz/oooh-lala-crepes-gourmet-food-truck-san-fernando)
@@ -80,7 +87,7 @@ Olive Court
 : [The Donut Truck](https://www.facebook.com/ladonuttruck/)
 
 
-### Thursday, June 20
+## Thursday, June 20
 
 Marketplace
 : [Wise BBQ](https://wisebarbecue.com)
@@ -90,6 +97,11 @@ Olive Court
 : [Made in Brooklyn Pizza](http://mibpizza.com)
 : Main Squeeze Lemonade
 
+* * *
+
+</main>
+
+<main markdown="1" class="lime">
 
 ## About
 
@@ -97,12 +109,19 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 
 Trucks will be parked on Olive Court (between Grand and Hill) and the Marketplace (between Spring and Broadway just across the street from City Hall, by the playground) with easy access for jurors, local employees, and all park users.
 
+_**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
+
 <figure>
   <img src="/uploads/programs/food-trucks-3.jpg" alt="Food Truck" height="500" />
 </figure>
 
-Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs, take a break with rotating food trucks in the park.
+_Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs._
 
-_**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
+<!--
+Take a break with rotating food trucks in the park.
+-->
 
+* * *
+
+</main>
 

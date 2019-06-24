@@ -46,6 +46,12 @@ Next level rhythms by the SUBSUELO crew with special guests: El Conjunto Nueva O
 * [Julio y su Teclado Màgico](https://www.facebook.com/Julio-y-su-teclado-mágico-385752418482347/)
 * [Irene Diaz](https://www.facebook.com/irenediazmusic/)
 
+* * *
+
+<main markdown="1" class="sky">
+
+* * *
+
 ## Related events
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -70,4 +76,6 @@ Next level rhythms by the SUBSUELO crew with special guests: El Conjunto Nueva O
     </a>
   </li>
 </ol>
+
+</main>
 

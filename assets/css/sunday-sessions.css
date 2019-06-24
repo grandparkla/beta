@@ -33,12 +33,12 @@
   --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
 }
 
-@font-face{
+/* @font-face{
   font-family:"Chicago FLF";
   src: url("/assets/fonts/chicago-flf/ChicagoFLF.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
-}
+} */
 
 main {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -110,7 +110,7 @@ main figure img {
 } */
 
 main h2 {
-  font-family: "Chicago FLF", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font-family: "Chicago FLF", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
   font-style: normal;
   font-weight: normal;
   text-transform: uppercase;
@@ -239,11 +239,13 @@ dd img {
 dl {
   display: grid;
   grid-template-columns: 1fr;
-  padding-bottom: 6em !important;
   justify-self: start;
   font-size: 1.25em;
   padding-left: 1.5em;
   padding-right: 1.5em;
+}
+.summer-schedule ~ dl {
+  padding-bottom: 6em !important;
 }
 
 .summer-schedule ~ dl dt,
@@ -410,6 +412,7 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
 
 
 main main {
+  padding: 1.5em 1.5em 3em;
   margin-top: 3em;
   --background-color: var(--snow);
   --text-color: var(--strawberry);
@@ -419,12 +422,12 @@ main main {
   color: var(--text-color);
   margin-left: -1.5em;
   margin-right: -1.5em;
-  padding-right: 1.5em;
-  padding-left: 1.5em;
   font-size: inherit;
 }
 main main > p,
-main main > nav {
+main main > nav,
+main main > ol,
+main main > ul {
   color: var(--midnight);
 }
 
