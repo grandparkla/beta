@@ -81,7 +81,6 @@ This is a _free_ event. There’s no cost to attend.
 </figure> -->
 
 
-
 <p><img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" style="float: right; height: 10.25vw; width: auto; transform: rotate(15deg); margin-bottom: 1em;" /></p>
 
 ## DJ<span style="text-transform: none;">s</span><br />Dancing
@@ -130,9 +129,3 @@ _Stay tuned as we announce DJs in the coming weeks!_ <img src="/uploads/programs
   <li><img src="/uploads/programs/sunday-sessions/sponsors/funktion.svg" alt="Funktion-One Sound by Higher 9" /></li> -->
 </ul>
 
-
-<div class="smiley">
-  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
-  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
-  <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
-</div>

@@ -450,7 +450,6 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 </figure>
 
 
-## Sponsored by
 
 <ul class="logos">
 <!--

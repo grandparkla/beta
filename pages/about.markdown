@@ -9,7 +9,7 @@ About the park
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
 <nav markdown="1">
-*   [Rent the park for an event](/rent/)
+*   [Rent the park](/rent/)
 *   [Filming & photography](/film-photography/)
 *   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
@@ -18,7 +18,9 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Donate](/donate/)
 </nav>
 
-<div></div>
+<main markdown="1" class="sky">
+
+* * *
 
 ## A <span class="avoid-break">gathering place</span>
 
@@ -34,6 +36,7 @@ Grand Park has four distinct areas featuring amenities ranging from a restored h
 
 The new Grand Park allows for a strong visual and physical connection from Grand Avenue via a series of stairs, accessible ramps and sloped walks as well as a new elevator to invite more pedestrians into a vibrant garden environment, a place to come together in a welcoming and distinctly urban oasis.
 
+</main>
 
 <!--
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.

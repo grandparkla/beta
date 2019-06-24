@@ -30,7 +30,7 @@ Los Angeles, CA 90012
 ### Interested in hosting your event at Grand Park?
 
 <p class="action" markdown="1">
-[Rent the park for an event](/rent/)
+[Rent the park](/rent/)
 </p>
 
 ### Need to film in Grand Park?

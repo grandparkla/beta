@@ -21,7 +21,7 @@ _<small>December 1–25, 2018</small>_
 
 _Grand Park’s Winter Glow_ is a new month-long, immersive nighttime art experience that will take over Grand Park in celebration of the holidays.  As the days shorten and darken, the park will celebrate light as a giver of warmth, a source of beauty and the key component to bringing people together during the fall and winter months.  Families will make new holiday memories strolling together through this 12-acre art, projection and light display, exhibit and installation and experience the wonder of Grand Park lit up like never before.  Iconic elements of the park, including the Arthur J. Will Memorial Fountain, will shine in new and exciting ways.  Familiar pathways will lead to exciting new discoveries as the latest in light and projection technology transforms spaces in the park.
 
-## Location
+## Where
 
 Grand Park
 
@@ -33,14 +33,12 @@ Grand Park
 
 This is a _free_ event. There’s no cost to attend.
 
-## Sponsors
+<figure>
+  <img src="/uploads/programs/winter-glow-2.jpg" alt="Winter glow" height="500" />
+</figure>
 
 <ul class="logos">
   <li><img src="/uploads/programs/winter-glow/german-light.svg" alt="German Light Products" /></li>
   <li><a href="https://twobitcircus.com/"><img src="/uploads/programs/winter-glow/two-bit-circus.png" alt="Two Bit Circus" /></a></li>
 </ul>
-
-<figure>
-  <img src="/uploads/programs/winter-glow-2.jpg" alt="Winter glow" height="500" />
-</figure>
 

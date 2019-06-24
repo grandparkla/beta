@@ -315,8 +315,17 @@
 <main>
   {{ content }}
 
-  {% capture plan_your_day %}{% include plan-your-day.markdown %}{% endcapture %}
-  {{ plan_your_day | markdownify }}
+  <main markdown="1">
+  
+    <!-- <div class="smiley">
+      <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+      <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+      <img src="/uploads/programs/sunday-sessions/smiley.svg" alt="" height="500" />
+    </div> -->
+
+    {% capture plan_your_day %}{% include plan-your-day.markdown %}{% endcapture %}
+    {{ plan_your_day | markdownify }}
+  </main>
 </main>
 
 <footer class="footer">

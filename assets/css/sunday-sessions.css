@@ -54,7 +54,9 @@ main > nav:not(:first-child) {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-dl img,
+dl img {
+  filter: var(--image-filter);
+}
 footer img {
   filter: var(--image-filter);
 }
@@ -135,6 +137,7 @@ main h2.logo {
 main hr {
   border-width: 0;
 }
+main main hr:first-child + h2,
 main hr + h2 {
   margin-top: 0;
   display: block;
@@ -403,3 +406,100 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
   text-transform: unset;
 }
 
+
+
+
+main main {
+  margin-top: 3em;
+  --background-color: var(--snow);
+  --text-color: var(--strawberry);
+  --headline-color: var(--strawberry);
+  grid-column: 1/-1;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  font-size: inherit;
+}
+main main > p,
+main main > nav {
+  color: var(--midnight);
+}
+
+main .logos + main {
+  margin-top: -6em;
+}
+
+main + main {
+  margin-top: -1.5em;
+}
+
+main main hr:first-child {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+}
+main main hr:first-child + h2 {
+  grid-row: 1/2;
+  margin-top: -2.25em;
+}
+
+/* hr + h2 + main {
+  margin-top: -1.5em;
+}
+
+main + hr {
+  margin-top: -1.5em;
+} */
+
+main main.strawberry {
+  --background-color: var(--strawberry);
+  --text-color: var(--snow);
+  --text-color-invert: var(--midnight);
+  --headline-color: var(--snow);
+}
+main main.lime {
+  --background-color: var(--lime);
+  --text-color: var(--snow);
+  --text-color-invert: var(--midnight);
+  --headline-color: var(--snow);
+}
+main main.sky {
+  --background-color: var(--sky);
+  --text-color: var(--snow);
+  --text-color-invert: var(--midnight);
+  --headline-color: var(--snow);
+}
+main main.strawberry > p,
+main main.strawberry > nav,
+main main.lime > p,
+main main.lime > nav,
+main main.sky > p,
+main main.sky > nav {
+  color: var(--snow);
+}
+
+main main.banana {
+  --background-color: var(--banana);
+  --text-color: var(--midnight);
+  --text-color-invert: var(--snow);
+  --headline-color: var(--midnight);
+}
+main main.banana > p,
+main main.banana > nav {
+  color: var(--midnight);
+}
+
+/* footer {
+  background-color: var(--snow);
+  color: var(--midnight);
+} */
+/* footer .social-links {
+  --image-filter: unset;
+  --svg-filter: unset;
+} */
+main + footer {
+  margin-top: -6em;
+}

@@ -96,6 +96,9 @@ Playground closures start today WED JUN 19 through WED JUL 3. The fountain and s
 </ol>
 -->
 
+<main markdown="1" class="sky">
+
+* * *
 
 ## Today
 
@@ -115,6 +118,10 @@ There is one event scheduled for today.
     </a>
   </li>
 </ol>
+
+</main>
+
+<main markdown="1" class="lime">
 
 * * *
 
@@ -163,6 +170,10 @@ These [areas of the park](/areas/) are open daily. Just drop by!
   </li>
 </ol>
 
+</main>
+
+<main markdown="1" class="strawberry">
+
 * * *
 
 ## Lunch à la Park <a id="weekly"></a>
@@ -208,7 +219,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
-* * *
+</main>
 
 {% include calendar.markdown %}
 

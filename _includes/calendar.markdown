@@ -2,10 +2,14 @@
 {% assign data_list = site.events %}
 {% assign data_list = data_list | sort: "date" %}
 
+<main markdown="1" class="sky">
+
+* * *
 
 ## June 2019
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% comment %}
 {% for event in data_list %}
   {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
   {% if month_year == "2019-06" %}
@@ -23,6 +27,7 @@
   </li>
   {% endif %}
 {% endfor %}
+{% endcomment %}
 </ol>
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -60,6 +65,10 @@
     </a>
   </li>
 </ol>
+
+</main>
+
+<main markdown="1" class="banana">
 
 * * *
     
@@ -131,6 +140,10 @@
   </li>
 </ol>
 
+</main>
+
+<main markdown="1" class="lime">
+
 * * *
   
 ## August 2019
@@ -191,6 +204,10 @@
   </li>
 </ol>
 
+</main>
+
+<main markdown="1" class="strawberry">
+
 * * *
 
 ## September 2019
@@ -250,3 +267,5 @@
     </a>
   </li>
 </ol>
+
+</main>

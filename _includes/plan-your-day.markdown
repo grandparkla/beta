@@ -66,7 +66,7 @@ _<small>The playground is open from 8 a.m. to 8 p.m.</small>_
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect. Learn more [about the park](/about/).
 
 <nav markdown="1">
-*   [Rent the park for an event](/rent/)
+*   [Rent the park](/rent/)
 *   [Filming & photography](/film-photography/)
 *   [Meet the staff](/staff/)
 *   [Job opportunities](/job-opportunities/)
