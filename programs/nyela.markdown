@@ -33,7 +33,7 @@ _<small>Countdown begins at 11:55 p.m.</small>_
   <img src="/uploads/programs/4thofjuly.jpg" alt="July 4" height="500" />
 </figure> -->
 
-## Dear LA,
+### Dear LA,
 
 Thank you for coming together to celebrate 2018 and ring in 2019! This year’s theme is _LA Dreams_. What is your dream for LA? We posed this question to 5th & 6th graders across the county, and their [art and words](/my-dream-la) inspire the 3D projection art you will see on City Hall tonight. Let’s dance, laugh, hug, make new friends and countdown to the new year!
 
@@ -43,20 +43,6 @@ Be sure to check out all the [yummy food](#food-trucks), [live music](#featured-
 
 _Love,  
 Grand Park_
-
-
-## Location
-
-Grand Park + The Music Center
-
-<p class="action" markdown="1">
-[Directions to the Park](/directions/)
-</p>
-
-
-## Cost
-
-This is a _free_ event. There’s no cost to attend.
 
 
 ## When
@@ -72,6 +58,25 @@ The event begins on December 31, 2018 and ends on January 1, 2019.
 1:00 a.m.
 : Event ends
 
+
+## Where
+
+Grand Park + The Music Center
+
+<p class="action" markdown="1">
+[Directions to the Park](/directions/)
+</p>
+
+
+## Cost
+
+This is a _free_ event. There’s no cost to attend.
+
+* * *
+
+<main markdown="1" class="sky">
+
+* * *
 
 ## Watch Live!
 
@@ -94,6 +99,8 @@ Can’t make it to Grand Park + The Music Center’s N.Y.E.L.A.? [Watch live on 
 </a>
 </div>
 </figure>
+
+</main>
 
 
 ## Safety
@@ -148,11 +155,15 @@ Food vendors will be onsite.
 _(More updates to follow.)_ -->
 
 
+* * *
+
+<main markdown="1" class="lime featured-artists">
+
+* * *
+
 ## Featured artists <a id="artists"></a>
 
-<div class="featured-artists" markdown="1">
-
-### [Aloe Blacc](https://soundcloud.com/aloe-blacc-official) + [Maya Jupiter](https://soundcloud.com/maya-jupiter) and Special Guests
+## [Aloe Blacc](https://soundcloud.com/aloe-blacc-official) + [Maya Jupiter](https://soundcloud.com/maya-jupiter) and Special Guests
 
 _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldrow](https://soundcloud.com/mellomusicgroup/georgia-anne-muldrow-akosua), and the Grand Scheme_
 
@@ -193,7 +204,7 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
 </div>
 
 
-### [DJ Day](https://soundcloud.com/iamdjday)
+## [DJ Day](https://soundcloud.com/iamdjday)
 
 <figure>
   <div>
@@ -204,7 +215,9 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
 </figure>
 
 
-### The N.Y.E.L.A. All-Female DJ Lineup featuring<br />[Ericalandia](https://soundcloud.com/ericalandia), [Kronika](https://soundcloud.com/kronika1111) and [Spiñorita](https://soundcloud.com/djspinorita/)
+## The N.Y.E.L.A. All-Female DJ Lineup
+
+_featuring [Ericalandia](https://soundcloud.com/ericalandia), [Kronika](https://soundcloud.com/kronika1111) and [Spiñorita](https://soundcloud.com/djspinorita/)_
 
 <div class="artist-group">
 
@@ -234,8 +247,11 @@ _featuring [Irka Mateo](https://soundcloud.com/irka-mateo), [Georgia Anne Muldro
 
 </div>
 
-</div><!-- class="featured-artists" -->
+</main>
 
+<main markdown="1">
+
+* * *
 
 ## Event Schedule
 
@@ -243,8 +259,13 @@ Event begins at 8pm on December 31. [Projections](#projections) and music run al
 
 *Experience some of L.A.’s best on two music stages:* 
 
+<div></div>
 
-### Countdown Stage
+</main>
+
+<main markdown="1">
+
+## Countdown Stage
 
 #### Located at Grand Park’s Event Lawn near City Hall & Spring Street
 
@@ -274,8 +295,13 @@ _Hosted By [Mario Hernandez](https://twitter.com/cinemario)_
 12:00 to 1:00 a.m.
 : [Aloe Blacc](https://soundcloud.com/aloe-blacc-official), [Maya Jupiter](https://soundcloud.com/maya-jupiter) + Friends
 
+* * *
 
-### Get Down Stage
+</main>
+
+<main markdown="1" class="banana">
+
+## Get Down Stage
 
 #### Located at Grand Park’s Performance Lawn between Grand Avenue and Hill Street
 
@@ -305,6 +331,13 @@ _Hosted by Valiyah_
 12:30 to 1:00 a.m.
 : [Spiñorita](https://soundcloud.com/djspinorita/)
 
+* * *
+
+</main>
+
+<main markdown="1">
+
+* * *
 
 ## Fun Stuff to Hear, <span class="avoid-break">See and Do!</span>
 
@@ -339,6 +372,11 @@ _Projected on the LA County Hall of Records_
 
 This year’s N.Y.E.L.A. is all about L.A. DREAMS!✨ Celebrating the future of L.A. County imagined through the collective thoughtfulness and creativity of its children. Attendees will enjoy [the work of L.A. County 5th & 6th graders](/my-dream-la), whose dreams inspired the 3D animated countdown.
 
+* * *
+
+</main>
+
+<main markdown="1" class="strawberry">
 
 ## Event Map
 
@@ -354,12 +392,21 @@ Don’t miss out. Event maps will be available at the _Grand Park_ info booths. 
   </div>
 </figure>
 
+* * *
+
+</main>
+
+
+<main markdown="1" class="sky">
+
+* * *
+
 ## Transportation
 
 The event will take place at Grand Park + The Music Center:<br />
 [200 North Grand Avenue<br />Los Angeles, California 90012](https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614)
 
-### Street Closures
+## Street Closures
 
 <figure>
 <div>
@@ -375,7 +422,7 @@ Street closures will begin taking effect 6 a.m. on Monday, December 31. All stre
 See the [N.Y.E.L.A. Community Letter](/uploads/programs/nyela/nyela-2019-community-letter.pdf) for more details about streets that will be closed during the event.
 
 
-### Parking
+## Parking
 
 Due to street closures, **the parking area underneath Grand Park (Lot 10) will not be accessible during the event**.
 
@@ -397,7 +444,7 @@ Chinatown Garage
 [LA Times Parking](https://www.google.com/maps/place/221+W+2nd+St,+Los+Angeles,+CA+90012/@34.0522233,-118.2483941,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c64eadc4ee6d:0x40845fc2a2ae4142!8m2!3d34.0522233!4d-118.2462054)
 : located at 221 W. 2nd Street. Enter on 2nd Street. 
 
-### Go Metro
+## Go Metro
 
 Metro will operate 24-hour, overnight service on Metro Rail, plus Orange and Silver Lines on New Year’s Eve with free fares from 9 p.m. on December 31, 2018 to 2 a.m. on January 1, 2019.
 
@@ -405,15 +452,17 @@ While the Metro Red/Purple Line to _Civic Center/Grand Park Station_ exits direc
 
 Plan your trip at [metro.net](https://www.metro.net/) or call 323.GO.METRO (323.466.3876).
 
-### Metro Bikes
+## Metro Bikes
 
 **Ride a Metro Bike to NYELA!** Check out and return your bike to nearby stations _Main & 1st_ or _Grand & Temple_. See [Station Map](https://bikeshare.metro.net/stations/) for a full list of stations.
 
-### Bicycle Parking
+## Bicycle Parking
 
 Valet parking for bicycles will be available at [Hill Street and West 2nd Street](https://www.google.com/maps/place/S+Hill+St+%26+W+2nd+St,+Los+Angeles,+CA+90012/@34.0531231,-118.2499742,17z/data=!3m1!4b1!4m5!3m4!1s0x80c2c64c3c8c1705:0x58663dce62ee9943!8m2!3d34.0531231!4d-118.2477855).
 
 The valet service is **free** and will be provided by the [Los Angeles County Bicycle Coalition](https://la-bike.org).
+
+## Rideshare
 
 ### Taking Rideshare Like Lyft Or Uber?
 
@@ -428,6 +477,13 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 
 *This address is for navigation only and is not an official event or affiliate address.*
 
+* * *
+
+</main>
+
+<main markdown="1" class="lime">
+
+* * *
 
 ## Highlights from <span class="avoid-break">past events</span>
 
@@ -449,9 +505,9 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 </div>
 </figure>
 
+</main>
 
-
-<ul class="logos">
+<ul class="logos" style="padding-top: 3em">
 <!--
   <li><img src="/uploads/programs/nyela/sponsors/los-angeles.svg" alt="County of Los Angeles" /></li>
   <li><img src="/uploads/programs/nyela/sponsors/grandpark-musiccenter.svg" alt="Grand Park + The Music Center" style="font-size: 0.75em"  /></li>
