@@ -36,6 +36,44 @@ body > main {
 }
 </style>
 
+<style>
+
+main,
+main h2 {
+  font-family: "Unit", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main > nav:first-child,
+main h2 {
+  font-weight: bold;
+  border-width: 0;
+}
+
+main > h1 {
+  text-transform: uppercase;
+  color: var(--text-color-secondary) !important;
+}
+main > h1 small:last-of-type {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+@media (min-width: 60em) {
+  main > h1 {
+    font-size: 7vw;
+    line-height: 1;
+  }
+  main > h1 small:last-of-type {
+    display: block;
+    font-size: 2rem;
+  }
+}
+
+h3 {
+  font-weight: bold;
+  font-style: normal;
+}
+</style>
+
 <!--
 <style>
   body {
@@ -79,11 +117,14 @@ body > main {
   />
 </h1>
 
-<main markdown="1" style="position: relative; z-index: 1;">
+<main markdown="1" style="position: relative; z-index: 1; padding-top: 3em;">
+
+<nav markdown="1">
+* [Things to do](/events/)
+* [Programs](/programs/)
+</nav>
 
 <!--
-<small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
-=======================
 -->
 
 <!-- <figure>
@@ -94,9 +135,10 @@ body > main {
   </picture>
 </figure> -->
 
-<div></div><div></div>
+<!-- <small>Grand Park + The Music Center present</small> 4th of July Block Party <small>2019</small>
+======================= -->
 
-## Thursday, <span class="avoid-break">July 4, 2019</span>
+<h1 style="font-size: 3em; margin-top: 1.5em;">Thursday, July 4, 2019</h1>
 
 from <time datetime="14:00">3 p.m.</time> to <time datetime="21:30">9:30 p.m.</time><br />
 _<small>Fireworks at 9 p.m.</small>_
@@ -114,11 +156,13 @@ _<small>Fireworks at 9 p.m.</small>_
 {% endcomment %}
 </nav>
 
-### Hey Los Angeles!
+## Hey Los Angeles!
 
 We look forward to seeing you this July 4th for the USA’s b-day, where we will make wishes and celebrate our dreams. Let’s enjoy the beautiful day, chill, munch, dance, splash, play, and top it off with fireworks under the DTLA skyline.
 
 <!-- [Sign up for updates](/news-sign-up/) from Grand Park + The Music Center and get **free** Grand Park Sunglasses <em>(while supplies last)</em>. -->
+
+
 
 
 
@@ -131,12 +175,9 @@ Grand Park + The Music Center
 </p>
 
 
-## Cost
+## When
 
-This is a _free_ event. There’s no cost to attend.
-
-
-## Schedule
+Thursday, July 4, 2019
 
 3:00 p.m.
 : Doors Open
@@ -146,6 +187,10 @@ This is a _free_ event. There’s no cost to attend.
 
 9:30 p.m.
 : Event Ends
+
+## Free / Gratis
+
+This is a _free_ event. There’s no cost to attend.
 
 * * *
 
