@@ -13,8 +13,6 @@
 
 </span>
 
-</h1>
-
 <script>
 (function() {
 
@@ -59,4 +57,8 @@
   document.querySelector("h1.welcome").removeAttribute("style")
 })();
 </script>
+
+
+</h1>
+
 

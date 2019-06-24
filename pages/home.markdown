@@ -35,6 +35,9 @@ welcome:
   # Dutch
   - Welkom
 
+  # English
+  - Welcome
+
   # French
   - Bienvenue
 
@@ -97,9 +100,6 @@ welcome:
 ---
 
 {% include welcome.markdown %}
-<div></div>
-
-## Welcome!
 
 All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens!
 
