@@ -44,9 +44,9 @@ main {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.375;
 }
-main {
+/* main {
   font-size: 1.25em;
-}
+} */
 main > p,
 main > ul,
 main > ol,
@@ -425,10 +425,12 @@ dl dd {
 
 
 main main {
+  --midnight: hsl(300, 2%, 32%);
   padding: 1.5em 1.5em 3em;
   margin-top: 3em;
   --background-color: var(--snow);
   --text-color: var(--strawberry);
+  --text-color-invert: var(--snow);
   --headline-color: var(--strawberry);
   grid-column: 1/-1;
   background-color: var(--background-color);
@@ -439,7 +441,7 @@ main main {
 }
 main main > p,
 main main > nav,
-main main > ol,
+main main > ol:not(.event-list),
 main main > ul {
   color: var(--midnight);
 }
@@ -470,22 +472,20 @@ main + hr {
   margin-top: -1.5em;
 } */
 
-main main.strawberry {
-  --background-color: var(--strawberry);
-  --text-color: var(--snow);
-  --text-color-invert: var(--midnight);
-  --headline-color: var(--snow);
-}
 main main.lime {
   --background-color: var(--lime);
---background-color: var(--strawberry);
   --text-color: var(--snow);
   --text-color-invert: var(--midnight);
   --headline-color: var(--snow);
 }
 main main.sky {
   --background-color: var(--sky);
---background-color: var(--strawberry);
+  --text-color: var(--snow);
+  --text-color-invert: var(--midnight);
+  --headline-color: var(--snow);
+}
+main main.strawberry {
+  --background-color: var(--strawberry);
   --text-color: var(--snow);
   --text-color-invert: var(--midnight);
   --headline-color: var(--snow);
@@ -505,14 +505,18 @@ main main.sky > nav {
   color: var(--snow);
 }
 
-/* main main.banana {
-  --background-color: var(--banana);
+main main.banana {
+  /* --background-color: var(--banana);
   --text-color: var(--midnight);
   --text-color-invert: var(--snow);
-  --headline-color: var(--midnight);
+  --headline-color: var(--midnight); */
   
+  --background-color: var(--snow);
+  --text-color: var(--strawberry);
+  --text-color-invert: var(--snow);
+  --headline-color: var(--strawberry);
 }
-main main.banana > p,
+/* main main.banana > p,
 main main.banana > nav {
   color: var(--midnight);
 } */
@@ -528,3 +532,18 @@ main main.banana > nav {
 main + footer {
   margin-top: -6em;
 }
+
+main nav + hr {
+  margin-top: 0;
+}
+main nav + main {
+  margin-top: 4.5em;
+}
+main main .event-list:last-child {
+  padding-bottom: 4.5em;
+}
+/* @media (min-width: 60em) {
+  main main hr + h2 + .event-list {
+    margin-top: -1.5em;
+  }
+} */

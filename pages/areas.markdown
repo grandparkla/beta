@@ -49,13 +49,15 @@ _(close to City Hall)_
 * * *
 
 
-### Map of the Park
+## Map of the Park
 
 <div></div>
 
+<figure style="width: 35em; justify-self: center;">
 <a href="/assets/images/map.png">
-  <img src="/assets/images/map.png" height="300" style="width: 45em; height: auto; max-width: 100%" alt="Map of Grand Park" />
+  <img src="/assets/images/map.png" height="300" style="width: 35em; height: auto; max-width: 100%" alt="Map of Grand Park" />
 </a>
+</figure>
 
 
 

@@ -2,14 +2,11 @@
 {% assign data_list = site.events %}
 {% assign data_list = data_list | sort: "date" %}
 
-<main markdown="1" class="sky">
-
-* * *
 
 ## June 2019
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
 {% comment %}
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
 {% for event in data_list %}
   {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
   {% if month_year == "2019-06" %}
@@ -27,8 +24,8 @@
   </li>
   {% endif %}
 {% endfor %}
-{% endcomment %}
 </ol>
+{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
@@ -66,14 +63,11 @@
   </li>
 </ol>
 
-</main>
 
-<main markdown="1" class="banana">
-
-* * *
     
 ## July 2019
 
+{% comment %}
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
 {% for event in data_list %}
   {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
@@ -93,6 +87,7 @@
   {% endif %}
 {% endfor %}
 </ol>
+{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/4thofjuly/">
@@ -140,14 +135,11 @@
   </li>
 </ol>
 
-</main>
 
-<main markdown="1" class="lime">
-
-* * *
   
 ## August 2019
 
+{% comment %}
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
 {% for event in data_list %}
   {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
@@ -167,6 +159,7 @@
   {% endif %}
 {% endfor %}
 </ol>
+{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
@@ -204,14 +197,11 @@
   </li>
 </ol>
 
-</main>
 
-<main markdown="1" class="strawberry">
-
-* * *
 
 ## September 2019
 
+{% comment %}
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
 {% for event in data_list %}
   {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
@@ -231,6 +221,7 @@
   {% endif %}
 {% endfor %}
 </ol>
+{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/yoga/">
@@ -268,4 +259,3 @@
   </li>
 </ol>
 
-</main>

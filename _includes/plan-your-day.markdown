@@ -67,12 +67,15 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 
 <nav markdown="1">
 *   [Rent the park](/rent/)
-*   [Filming & photography](/film-photography/)
 *   [Meet the staff](/staff/)
-*   [Job opportunities](/job-opportunities/)
 *   [Sign up for news](/news-sign-up/)
-*   [Contact us](/contact/)
 *   [Donate](/donate/)
+*   [Contact us](/contact/)
+
+<!--
+*   [Filming & photography](/film-photography/)
+*   [Job opportunities](/job-opportunities/)
+-->
 </nav>
 
 

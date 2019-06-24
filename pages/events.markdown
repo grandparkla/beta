@@ -96,8 +96,6 @@ Playground closures start today WED JUN 19 through WED JUL 3. The fountain and s
 </ol>
 -->
 
-<main markdown="1" class="sky">
-
 * * *
 
 ## Today
@@ -119,7 +117,6 @@ There is one event scheduled for today.
   </li>
 </ol>
 
-</main>
 
 <main markdown="1" class="lime">
 
@@ -221,6 +218,13 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 
 </main>
 
+<main markdown="1">
+
+* * *
+
+## Calendar
+
 {% include calendar.markdown %}
 
+</main>
 
