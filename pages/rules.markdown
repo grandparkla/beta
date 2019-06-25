@@ -27,12 +27,12 @@ main > nav:first-child {
   grid-row-start: 1;
 }
 main > h1 + nav {
-    grid-column: 3/-3;
+    grid-column-end: -3;
 }
 </style>
 
 <div class="girl">
-{% include backgrounds/flower-hat-girl.svg %}
+{% include backgrounds/picnic.svg %}
 </div>
 {% endif %}
 

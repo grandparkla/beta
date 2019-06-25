@@ -7,6 +7,8 @@ permalink: /faqs/
 * [Plan your visit](/visit/)
 </nav>
 
+{% comment %}
+
 {% if site.use_illustrations %}
 <style>
 .girl {
@@ -35,6 +37,8 @@ main > h1 + nav {
 {% include backgrounds/flower-hat-girl.svg %}
 </div>
 {% endif %}
+
+{% endcomment %}
 
 FAQs
 ====
