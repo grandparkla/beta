@@ -115,7 +115,7 @@ _Stay tuned as we announce DJs in the coming weeks!_ <img src="/uploads/programs
 
 6/23
 : **Qvolé** Collective
-: ![](/uploads/programs/sunday-sessions/artists/qvolé.svg)
+: ![](/uploads/programs/sunday-sessions/artists/qvole.svg)
 
 7/21
 : **Low** by Forward Rhythm
