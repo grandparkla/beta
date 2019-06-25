@@ -154,7 +154,6 @@
   
   {% if site.use_theme %}
   <style>
-  :root {
 
   {% if page.url == "/areas/" or
         page.url == "/dog-run/" or
@@ -162,7 +161,8 @@
         page.url == "/playground/" or
         page.url == "/performance-lawn/" or
         page.url == "/gardens/" %}
-
+        
+  :root {
     /* dark on light */
 
     --background-color: var(--banana);
@@ -172,6 +172,7 @@
     --image-filter: unset;
     --svg-filter: grayscale(100%) brightness(0.5);
     --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
 
   {% endif %}
 
@@ -183,6 +184,7 @@
         page.url == "/yoga/" or
         page.url == "/sunday-sessions/" %}
 
+  :root {
     /* light on dark */
 
     --background-color: var(--strawberry);
@@ -192,6 +194,7 @@
     --image-filter: invert(100%);
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+  }
 
   {% endif %}
   
@@ -207,6 +210,7 @@
       page.url == "/performance-lawn/" or
       page.url == "/gardens/" %}
 
+  :root {
     /* light on dark */
         
     --background-color: var(--lime);
@@ -216,6 +220,20 @@
     --image-filter: invert(100%);
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+  }
+
+  /*
+  body {
+    background-image:
+      url(/assets/images/background/leaf-3.svg),
+      url(/assets/images/background/leaf.svg),
+      url(/assets/images/background/leaf-2.svg);
+    background-repeat: no-repeat;
+
+    background-size: 16vmax auto, 17vmax auto, 15vmax auto;
+    background-position: 10vw 27vh, 33vw 29vh, 60vw 28vh;
+  }
+  */
 
   {% endif %}
 
@@ -231,6 +249,7 @@
         page.url == "/contact/" or
         page.url == "/donate/" %}
 
+  :root {
     /* light on dark */
 
     --background-color: var(--sky);
@@ -240,7 +259,40 @@
     --image-filter: invert(100%);
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+  }
 
+  /*
+  body {
+    background-image:
+      url(/assets/images/background/sun-rings.svg),
+      radial-gradient(
+        circle at 43.75vw -2vw,
+        hsla(56, 97%, 63%, 100%),
+        hsla(56, 97%, 63%, 100%) 1vw,
+        hsla(56, 97%, 100%, 80%) 2vw,
+        hsla(56, 97%, 100%, 0) 20vw,
+        hsla(56, 97%, 100%, 0)
+      ),
+      linear-gradient(
+        175deg,
+        hsla(196, 82%, 72%, 33%),
+        hsla(196, 82%, 72%, 0%) 30vmax,
+        hsla(196, 82%, 72%, 0%)
+      ),
+      radial-gradient(
+        circle at 43.75vw 0, 
+        hsla(196, 82%, 72%, 66%),
+        hsla(196, 82%, 72%, 0%) 20vmax,
+        hsla(196, 82%, 72%, 0%)
+      ),
+      url(/assets/images/background/wave.svg);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, repeat-x;
+
+    background-size: 10vw auto, auto, auto, auto, 200vw auto;
+    background-position: 43.75% -2.5vw, top, top, top, 43.75% 30vh;
+  }
+  */
+  
   {% endif %}
 
   }
@@ -531,7 +583,7 @@
 
 {% endcomment %}
 
-
+<small>Icons by <a href="https://thenounproject.com/search/?q=leaf&creator=3230700&i=1391986">kareemovic</a>, <a href="https://thenounproject.com/search/?q=wave&i=1190591">Andrew Doane</a>, and <a href="https://thenounproject.com/search/?q=sun&i=2601311">Vectors Point</a> from the Noun Project.</small>
 
 </footer>
 

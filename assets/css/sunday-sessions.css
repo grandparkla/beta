@@ -4,7 +4,9 @@
   --strawberry: hsl(331, 81%, 61%);
   --banana:     hsl(48, 97%, 71%);
   --sky:        hsl(191, 75%, 54%);
+  --sky:        hsl(191, 75%, 49%);
   --lime:       hsl(77, 51%, 51%);
+  --lime:       hsl(77, 51%, 46%);
   --headline-color: var(--text-color);
   --link-color: var(--text-color);
   

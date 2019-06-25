@@ -10,6 +10,9 @@ permalink: /staff/
 Meet the Staff <small>Team Grand Park</small>
 ==============
 
+<nav markdown="1">
+* [Job opportunities](/job-opportunities/)
+</nav>
 
 <div></div>
 

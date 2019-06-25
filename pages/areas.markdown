@@ -12,6 +12,10 @@ Areas of the park
 
 All areas of the park are open daily. Just drop by for a picnic or a splash!
 
+<nav markdown="1">
+* [Map of the park](#map)
+</nav>
+
 ### Between Grand Avenue and Hill Street
 
 _(close to The Music Center)_
@@ -49,7 +53,7 @@ _(close to City Hall)_
 * * *
 
 
-## Map of the Park
+## Map of the Park <a id="map"></a>
 
 <div></div>
 
