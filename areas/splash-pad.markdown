@@ -8,6 +8,36 @@ announcement: "The fountain and splash pad will be closed for maintenance and pa
 * [Areas of the park](/areas/)
 </nav>
 
+{% if site.use_illustrations %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 1/5;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+}
+main h1 {
+  grid-column-end: -3;
+}
+main h1 + p,
+main h1 + p + p {
+  grid-column-end: -3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + nav {
+    grid-column: 3/-3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/fountain.svg %}
+</div>
+{% endif %}
+
 # Splash pad
 
 Open daily from 5:30 a.m. to 10 p.m.

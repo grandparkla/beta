@@ -133,7 +133,7 @@ main > h1.welcome {
 @media (min-width: 60em) {
   main > h1.welcome {
     padding-left: 2.25em;
-    padding-right: 2.25em;
+    padding-right: 3em;
   }
   main > h1.welcome + p {
     margin-top: 3em;
