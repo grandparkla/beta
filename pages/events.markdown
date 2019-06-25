@@ -3,9 +3,7 @@ title: Things to do
 permalink: /events/
 ---
 
-{% comment %}
-{% endcomment %}
-
+{% if site.use_theme %}
 <style>
 .girl {
   grid-column: -3/-1;
@@ -26,7 +24,7 @@ main h1 + p {
 <div class="girl">
 {% include backgrounds/star-hat-girl.svg %}
 </div>
-
+{% endif %}
 
 Things to do
 =============================================
