@@ -14,7 +14,7 @@ permalink: /calendar/
   grid-row: 2/6;
 }
 .girl svg {
-  height: 15vmax;
+  height: 20vmax;
   width: auto;
 }
 main h1 {
@@ -29,7 +29,7 @@ main h1 + nav {
 </style>
 
 <div class="girl">
-{% include backgrounds/calendar.svg %}
+{% include backgrounds/fiesta.svg %}
 </div>
 {% endif %}
 
