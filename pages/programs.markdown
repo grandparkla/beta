@@ -7,7 +7,7 @@ permalink: /programs/
 *   [Things to do](/events/)
 </nav>
 
-{% if site.use_theme %}
+{% if site.use_illustrations %}
 <style>
 .girl {
   grid-column: -3/-1;
