@@ -142,6 +142,7 @@ There is one event scheduled for today.
 
 -->
 
+<div></div>
 
 ## Every day <a id="daily"></a>
 

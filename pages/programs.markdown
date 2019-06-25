@@ -7,6 +7,32 @@ permalink: /programs/
 *   [Things to do](/events/)
 </nav>
 
+{% if site.use_theme %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 2/6;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+}
+main h1 {
+  grid-column: 2/-3;
+}
+main h1 + p {
+  grid-column: 2/-3;
+}
+main h1 + nav {
+  grid-column: 3/-3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/star-hat-girl.svg %}
+</div>
+{% endif %}
+
 Programs
 ========
 
