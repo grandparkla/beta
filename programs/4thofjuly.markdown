@@ -25,8 +25,8 @@ header {
 }
 body > main {
   background-image: 
-    url(/uploads/programs/4thofjuly/poster/stars-right.svg),
-    url(/uploads/programs/4thofjuly/poster/stars-left.svg),
+    url(/uploads/programs/4thofjuly/poster/stars-right.png),
+    url(/uploads/programs/4thofjuly/poster/stars-left.png),
     url(/uploads/programs/4thofjuly/poster/stars.svg),
     url(/uploads/programs/4thofjuly/poster/ferris-wheel.svg),
     linear-gradient(to bottom, var(--blue), var(--blue) 50vw, var(--purple), var(--pink), var(--orange) 100vw, var(--orange));
@@ -72,6 +72,47 @@ h3 {
   font-weight: bold;
   font-style: normal;
 }
+
+body > main > h1:first-of-type {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  font-size: 85vw;
+  height: 0.9em;
+  grid-column: 1/-1;
+}
+
+body > main > h1:first-of-type img {
+  display: block;
+  margin: 0;
+  filter: unset;
+  width: calc(3072 / 1675 * 1em);
+  height: calc(3336 / 1675 * 1em);
+  transform: translateX(-50%);
+  max-width: none;
+}
+
+@media (min-aspect-ratio: 5/4) {
+  body > main {
+    background-image: 
+      url(/uploads/programs/4thofjuly/poster/stars-right.png),
+      url(/uploads/programs/4thofjuly/poster/stars-left.png),
+      url(/uploads/programs/4thofjuly/poster/stars.svg),
+      url(/uploads/programs/4thofjuly/poster/ferris-wheel.svg),
+      linear-gradient(to bottom, var(--blue), var(--blue) 25vw, var(--purple), var(--pink), var(--orange) 50vw, var(--orange));
+    background-size: 60vw auto, 60vw auto, 100vh auto, 95vw auto, auto auto;
+    background-position: 90% 40vw, 10% 0, top, top, top;
+  }
+  body > main > h1:first-of-type {
+    height: 0.55em;
+  }
+  body > main > h1:first-of-type img {
+    width: calc(3076 / 1675 * 1em);
+    height: calc(1856 / 1675 * 1em);
+    transform: translateX(-43%);
+    margin-top: 0.15em;
+  }
+}
 </style>
 
 <!--
@@ -110,11 +151,12 @@ h3 {
 <div></div><div></div><div></div><div></div>
 -->
 
-<h1 style="position: relative; z-index: 1; margin: 0; font-size: 85vw; height: 0.9em; grid-column: 1/-1;">
-  <img style="display: block; margin: 0; filter: unset; width: 1.734em; height: 1.8817em; transform: translateX(-50%); max-width: none;"
-    src="/uploads/programs/4thofjuly/poster/block-party.svg"
-    alt="4th of July Block Party, 2019 // Grand Park + The Music Center"
-  />
+<h1>
+  <picture>
+    <source srcset="/uploads/programs/4thofjuly/poster/block-party-landscape.png" media="(min-aspect-ratio: 5/4)" />
+    <source srcset="/uploads/programs/4thofjuly/poster/block-party.png" />
+    <img src="/uploads/programs/4thofjuly/poster/block-party.png" alt="4th of July Block Party, 2019 // Grand Park + The Music Center" height="500" />
+  </picture>
 </h1>
 
 <main markdown="1" style="position: relative; z-index: 1; padding-top: 3em;">
