@@ -8,9 +8,9 @@ permalink: pretty
 hide_from_search_engines: true
 use_analytics: false
 
-use_theme_sunday: false
-use_illustrations: false
-use_sunshine: true
+use_theme_sunday: true
+use_illustrations: true
+use_sunshine: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
@@ -52,5 +52,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.121
+version: 0.0.122
 
