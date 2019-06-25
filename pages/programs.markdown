@@ -29,7 +29,7 @@ main h1 + nav {
 </style>
 
 <div class="girl">
-{% include backgrounds/star-hat-girl.svg %}
+{% include backgrounds/trumpet.svg %}
 </div>
 {% endif %}
 
