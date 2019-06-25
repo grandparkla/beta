@@ -1,5 +1,9 @@
 <h1 class="welcome" style="display: none">
 
+<i class="girl">
+{% include backgrounds/flower-hat-girl.svg %}
+</i>
+
 <span>
 
 {% for message in page.welcome %}

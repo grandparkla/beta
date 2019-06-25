@@ -99,9 +99,54 @@ welcome:
   - באַגריסונג
 ---
 
+{% if site.use_illustrations %}
+<style>
+main > h1.welcome span {
+  height: auto;
+  overflow: visible;
+  margin: 0;
+}
+main > h1.welcome span svg {
+  display: none;
+}
+</style>
+
+<style>
+.girl {
+  display: block;
+  float: right;
+  shape-outside: circle(50%);
+}
+.girl svg {
+  display: block;
+  height: 20vw !important;
+  width: 20vw !important;
+  max-width: none !important;
+  margin-left: 0.75em;
+  margin-bottom: 0.75em;
+}
+main > h1.welcome {
+  width: auto;
+  overflow: visible;
+  margin-left: 0em;
+}
+@media (min-width: 60em) {
+  main > h1.welcome {
+    padding-left: 2.25em;
+    padding-right: 2.25em;
+  }
+  main > h1.welcome + p {
+    margin-top: 3em;
+    margin-bottom: 1.5em;
+  }
+}
+</style>
+
+{% endif %}
+
 {% include welcome.markdown %}
 
-All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens!
+<p>All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, play in the splashpad, or stroll through the gardens!</p>
 
 <ol class="event-list">
   <li>

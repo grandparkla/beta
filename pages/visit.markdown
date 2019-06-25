@@ -22,7 +22,7 @@ main h1 + p {
 </style>
 
 <div class="girl">
-{% include backgrounds/flower-hat-girl.svg %}
+{% include backgrounds/flower-hat-girl-2.svg %}
 </div>
 {% endif %}
 
