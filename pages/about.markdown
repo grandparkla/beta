@@ -3,8 +3,7 @@ title: About the park
 permalink: /about/
 ---
 
-{% comment %}
-{% endcomment %}
+{% if site.use_theme %}
 <style>
 .girl {
   grid-column: -3/-1;
@@ -25,6 +24,7 @@ main h1 + p {
 <div class="girl">
 {% include backgrounds/business-girl.svg %}
 </div>
+{% endif %}
 
 About the park
 ==============
