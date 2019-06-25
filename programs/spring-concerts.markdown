@@ -22,7 +22,7 @@ These weekly lunchtime concerts feature artists from L.A.’s top conservatories
 
 ## Location
 
-Grand Park’s **Performance Lawn** _(between Grand and Hill)_
+Grand Park’s [Performance Lawn](/performance-lawn/) _(between Grand and Hill)_
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)

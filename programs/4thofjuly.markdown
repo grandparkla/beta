@@ -88,7 +88,7 @@ body > main > h1:first-of-type img {
   filter: unset;
   width: calc(3072 / 1675 * 1em);
   height: calc(3336 / 1675 * 1em);
-  transform: translateX(-50%);
+  transform: translateX(-52.5%);
   max-width: none;
 }
 

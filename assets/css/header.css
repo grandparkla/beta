@@ -171,8 +171,9 @@ h1 * {
 
 body {
   /* background-color: #afd2ec; */
+  /*
   background-image:
-    url(/assets/images/sun-rings.svg),
+    url(/assets/images/background/sun-rings.svg),
     radial-gradient(
       circle at 43.75vw -2vw,
       hsla(56, 97%, 63%, 100%),
@@ -202,6 +203,7 @@ body {
 
   background-size: 10vw auto, auto, auto, auto;
   background-position: 43.75% -2.5vw, top, top, top;
+  */
 
   /* background-image: url(/assets/temporary/duck-duck-go.svg);
   background-position: 50% 75vh;
