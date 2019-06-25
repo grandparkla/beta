@@ -332,6 +332,7 @@
   {% endif %}
 
   
+  {% unless page.stylesheets %}
   {% if site.use_illustrations %}
   body {
     background-image:
@@ -342,6 +343,7 @@
     background-position: 43.75% -4.5vmax;
   }
   {% endif %}
+  {% endunless %}
 
   </style>
   {% endif %}

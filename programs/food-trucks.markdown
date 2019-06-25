@@ -63,6 +63,7 @@ Past food trucks are listed here, to make it easier to copy and paste:
 : [Made in Brooklyn Pizza](http://mibpizza.com)
 : Main Squeeze Lemonade
 : [Ooh La La Crepes](https://www.yelp.com/biz/oooh-lala-crepes-gourmet-food-truck-san-fernando)
+: [Shrimp and Taco Stop](http://www.theshrimpandtacostop.com/)
 : [Street Kitchen LA](http://www.streetkitchenla.com/)
 : [The Donut Truck](https://www.facebook.com/ladonuttruck/)
 : [The Tropic Truck](http://www.thetropictruck.com/)
@@ -70,39 +71,36 @@ Past food trucks are listed here, to make it easier to copy and paste:
 -->
 
 
-## Tuesday, <span class="avoid-break">June 18</span>
+## Tuesday, <span class="avoid-break">June 25</span>
 
 Marketplace
-: [The Big Cheese](http://bigcheesesocal.com)
-: [Jack Fruit Cafe](https://jackfruitcafe.com)
-: Boba Taco
-: [Fette Schwein](http://www.fettes-schwein.com)
-
-Olive Court
-: [The Tropic Truck](http://www.thetropictruck.com)
-: [Thai Mex Cocina](https://www.instagram.com/thaimexcocina/?hl=en)
-
-
-## Wednesday, <span class="avoid-break">June 19</span>
-
-Marketplace
-: [Ooh La La Crepes](https://www.yelp.com/biz/oooh-lala-crepes-gourmet-food-truck-san-fernando)
-
-Olive Court
-: [Cali Banh Mi](https://www.calibanhmi.com)
 : [Belly Bombz](https://bellybombz.com)
-: [Street Kitchen LA](http://www.streetkitchenla.com)
+
+Olive Court
+: [Thai Mex Cocina](https://www.instagram.com/thaimexcocina/?hl=en)
+: [Canvas Foods LA](https://www.canvasfoodsla.com/)
+: [The Tropic Truck](http://www.thetropictruck.com)
+
+
+## Wednesday, <span class="avoid-break">June 26</span>
+
+Marketplace
+: _To be announced_
+
+Olive Court
+: [La Panini Grill](http://www.lapaninigrill.com/)
+: [Go Fusion](https://www.facebook.com/Go-Fusion-N-Grill-872969412717755/)
 : [The Donut Truck](https://www.facebook.com/ladonuttruck/)
 
 
-## Thursday, <span class="avoid-break">June 20</span>
+## Thursday, <span class="avoid-break">June 27</span>
 
 Marketplace
-: [Wise BBQ](https://wisebarbecue.com)
+: [Shrimp and Taco Stop](http://www.theshrimpandtacostop.com/)
 
 Olive Court
 : Boba Taco
-: [Made in Brooklyn Pizza](http://mibpizza.com)
+: [Gourmet Genie](http://www.gourmetgenietogo.com/)
 : Main Squeeze Lemonade
 
 
