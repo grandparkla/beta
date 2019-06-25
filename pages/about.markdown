@@ -3,7 +3,7 @@ title: About the park
 permalink: /about/
 ---
 
-{% if site.use_theme %}
+{% if site.use_illustrations %}
 <style>
 .girl {
   grid-column: -3/-1;
