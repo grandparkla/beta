@@ -114,26 +114,29 @@ main > h1.welcome span svg {
 <style>
 .girl {
   display: block;
-  float: right;
-  shape-outside: circle(50%);
 }
 .girl svg {
   display: block;
-  height: 20vw !important;
-  width: 20vw !important;
+  height: 20vmax !important;
+  width: auto !important;
   max-width: none !important;
-  margin-left: 0.75em;
   margin-bottom: 0.75em;
 }
 main > h1.welcome {
   width: auto;
   overflow: visible;
   margin-left: 0em;
+  margin-right: 0em;
 }
 @media (min-width: 60em) {
+  .girl {
+    float: right;
+    shape-outside: circle(50%);
+    margin-left: 0.75em;
+  }
   main > h1.welcome {
     padding-left: 2.25em;
-    padding-right: 3em;
+    padding-right: 2.25em;
   }
   main > h1.welcome + p {
     margin-top: 3em;
