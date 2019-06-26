@@ -17,11 +17,10 @@ permalink: /rules/
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + h3,
+main h1 + h3 + ul {
+  grid-column-end: -3;
 }
 main > nav:first-child {
   grid-row-start: 1;
@@ -46,8 +45,9 @@ Park rules
 *   play in the splash pad
 *   walk your dog on a leash
 
-<main markdown="1">
+<div></div>
 
+<main markdown="1">
 
 ### These things are prohibited in the park…
 

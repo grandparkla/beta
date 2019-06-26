@@ -17,11 +17,10 @@ permalink: /lunch/
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + h3,
+main h1 + h3 + p {
+  grid-column-end: -3;
 }
 main > nav:first-child {
   grid-row-start: 1;
@@ -41,6 +40,8 @@ main > h1 + nav {
 ### Every week at lunchtime
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
+
+<div></div>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>

@@ -38,37 +38,37 @@ body > main {
 
 <style>
 
-main,
-main h2 {
+body > main,
+body > main h2 {
   font-family: "Unit", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-main > nav:first-child,
-main h2 {
+body > main > nav:first-child,
+body > main h2 {
   font-weight: bold;
   border-width: 0;
 }
 
-main > h1 {
+body > main > h1 {
   text-transform: uppercase;
   color: var(--text-color-secondary) !important;
 }
-main > h1 small:last-of-type {
+body > main > h1 small:last-of-type {
   text-transform: uppercase;
   font-weight: 600;
 }
 
 @media (min-width: 60em) {
-  main > h1 {
+  body > main > h1 {
     font-size: 7vw;
     line-height: 1;
   }
-  main > h1 small:last-of-type {
+  body > main > h1 small:last-of-type {
     display: block;
     font-size: 2rem;
   }
 }
 
-h3 {
+body > main h3 {
   font-weight: bold;
   font-style: normal;
 }
@@ -159,7 +159,7 @@ body > main > h1:first-of-type img {
   </picture>
 </h1>
 
-<main markdown="1" style="position: relative; z-index: 1; padding-top: 3em;">
+<main markdown="1" style="position: relative; z-index: 1; padding-top: 3em;" class="strawberry">
 
 <nav markdown="1">
 * [Things to do](/events/)
@@ -236,6 +236,12 @@ This is a _free_ event. There’s no cost to attend.
 
 * * *
 
+</main>
+
+<main markdown="1" class="strawberry" style="position: relative; z-index: 1;">
+
+* * *
+
 ## Highlights from <span class="avoid-break">past events</span>
 
 <figure class="feature">
@@ -255,6 +261,14 @@ This is a _free_ event. There’s no cost to attend.
 </div>
 </figure>
 
+
+* * *
+
+</main>
+
+<main markdown="1" class="sky" style="position: relative; z-index: 1;">
+
+* * *
 
 ## Safety
 
@@ -307,6 +321,11 @@ Food vendors will be onsite.
 
 _(More updates to follow.)_
 
+* * *
+
+</main>
+
+<main markdown="1" class="strawberry" style="position: relative; z-index: 1;">
 
 * * *
 
@@ -359,9 +378,13 @@ _(More updates to follow.)_
 
 <figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" /></figure>
 
-
 * * *
 
+</main>
+
+<main markdown="1" class="lime" style="position: relative; z-index: 1;">
+
+* * *
 
 ## More events <span class="avoid-break">at Grand Park</span>
 
