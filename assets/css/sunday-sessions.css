@@ -561,3 +561,15 @@ main main .event-list:last-child {
     margin-top: -1.5em;
   }
 } */
+
+
+.camera svg,
+.girl svg {
+  color: inherit;
+}
+.camera svg,
+.camera svg path,
+.girl svg,
+.girl svg path {
+  fill: currentColor;
+}
