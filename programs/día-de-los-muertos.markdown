@@ -23,8 +23,7 @@ permalink: /día-de-los-muertos/
   fill: currentColor;
 }
 main h1,
-main h1 + h3,
-main h1 + h3 + ul {
+main h1 + p {
   grid-column-end: -3;
 }
 main > nav:first-child {

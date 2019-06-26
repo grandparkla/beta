@@ -8,6 +8,38 @@ permalink: /nyela/
 * [Programs](/programs/)
 </nav>
 
+{% if site.use_illustrations %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 1/5;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+  color: inherit;
+}
+.girl svg,
+.girl svg path {
+  fill: currentColor;
+}
+main h1,
+main h1 + p {
+  grid-column-end: -3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + nav {
+    grid-column-end: -3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/fireworks.svg %}
+</div>
+{% endif %}
+
 <small>Grand Park + The Music Center present</small> N.Y.E.L.A. <small>Countdown to 2019</small>
 =======================
 

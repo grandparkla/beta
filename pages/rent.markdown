@@ -17,11 +17,11 @@ permalink: /rent/
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + div,
+main h1 + div + h2 + h3,
+main h1 + div + h2 + h3 + p {
+  grid-column-end: -3;
 }
 main > nav:first-child {
   grid-row-start: 1;
