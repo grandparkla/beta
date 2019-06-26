@@ -384,6 +384,7 @@ main .logos {
 h1.welcome {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+h1.welcome em[data-message*="欢迎"],
 h1.welcome em[data-message*="Dobrodošli"],
 h1.welcome em[data-message*="Chào mừng bạn"] {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;

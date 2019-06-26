@@ -72,7 +72,7 @@ welcome:
   - ຍິນດີຕ້ອນຮັບ
 
   # Navajo: https://glosbe.com/en/nv/welcome
-  - yáʼátʼééh
+  - Yáʼátʼééh
 
   # Persian
   - خوش آمدید
