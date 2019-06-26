@@ -151,7 +151,27 @@ main > h1.welcome {
 
 <p>All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, stroll through the gardens, or play in the splash pad!</p>
 
-<ol class="event-list">
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Today at <time datetime="11:00">11 a.m.</time></p>
+      </div>
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Today at <time datetime="12:15">12:15 p.m.</time></p>
+      </div>
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
   <li>
     <a href="/4thofjuly/">
       <div>
@@ -176,7 +196,7 @@ main > h1.welcome {
         <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
       </a>
     </li>
-  <li>
+  <!-- <li>
     <a href="/food-trucks/">
       <div>
         <h3>Lunch à la Park</h3>
@@ -199,7 +219,7 @@ main > h1.welcome {
       </div>
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
   <li>
     <a href="/dog-run/">
       <div>

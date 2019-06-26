@@ -33,7 +33,7 @@ main > h1 + nav {
 </style>
 
 <div class="girl">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/picnic.svg %}
 </div>
 {% endif %}
 

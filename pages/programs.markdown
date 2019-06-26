@@ -17,14 +17,12 @@ permalink: /programs/
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
-}
-main h1 + nav {
-  grid-column: 3/-3;
+main h1,
+main h1 + p,
+main h1 + p + nav,
+main h1 + p + nav + div,
+main h1 + p + nav + div + h2 + p {
+  grid-column-end: -3;
 }
 </style>
 
@@ -48,6 +46,7 @@ All are invited to Grand Park’s free year-round events including live music, e
 *   [New Year’s Eve, Los Angeles](/nyela/)
 </nav>
 
+<div></div>
 
 ## Lunch à la Park
 

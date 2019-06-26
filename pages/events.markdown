@@ -35,14 +35,7 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <span class="avoid-break">and more!</span>
 
 <nav markdown="1">
-<!--
 *   [Today](/events/#today)
--->
-
-<!--
-*   [Announcements & Closures](/events/#announcements)
--->
-
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -62,61 +55,30 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 </nav>
 -->
 
-<!--
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
-
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <li>
-    <a href="/sunday-sessions/">
-      <div>
-        <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
-        <p>
-          Today at 2 p.m.
-        </p>
-      </div>
-      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
--->
-
-<!--
-* * *
-
-## Announcements & Closures <a id="announcements"></a>
-
-Heads Up 🚧 Grand Park is prep preppin’ for summer! The fountain, splash pad and playground will be closed for maintenance and park improvements. Including a new shade structure to the playground!
-
-Playground closures start today WED JUN 19 through WED JUL 3. The fountain and splash pad will be closed from MON JUN 24 through FRI JUN 28. Apologies for the inconvenience. Thank you for your patience🙏
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
-    <a href="/splash-pad/">
+    <a href="/food-trucks/">
       <div>
-        <h3>Areas of the Park</h3>
-        <h4>Splash Pad</h4>
-        <p>
-          Closed from June 24 until June 28
-        </p>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Today at <time datetime="11:00">11 a.m.</time></p>
       </div>
-      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
-    <a href="/playground/">
+    <a href="/yoga/">
       <div>
-        <h3>Areas of the Park</h3>
-        <h4>Playground</h4>
-        <p>
-          Closed from June 19 until July 3
-        </p>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Today at <time datetime="12:15">12:15 p.m.</time></p>
       </div>
-      <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
--->
 
 <!--
 * * *
