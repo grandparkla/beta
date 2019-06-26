@@ -484,10 +484,10 @@ main > nav:first-child a {
   text-decoration: none;
 }
 main > nav:first-child a::after {
-  content: "/";
+  content: "//";
   padding-left: 0.5em;
   padding-right: 0.25em;
-  opacity: 0.125;
+  opacity: 0.25;
 /*   color: var(--lime-darkest); */
   text-decoration: none !important;
   display: inline-block;
