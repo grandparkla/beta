@@ -32,7 +32,7 @@ Things to do
 <!--
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 -->
-Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
+Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <span class="avoid-break">and more!</span>
 
 <nav markdown="1">
 <!--

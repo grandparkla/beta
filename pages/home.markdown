@@ -149,7 +149,7 @@ main > h1.welcome {
 
 {% include welcome.markdown %}
 
-<p>All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, stroll through the gardens, or play in the splashpad!</p>
+<p>All are invited to attend Grand Park’s free year-round events & activities, have a picnic on the lawn, stroll through the gardens, or play in the splash pad!</p>
 
 <ol class="event-list">
   <li>

@@ -460,6 +460,7 @@
 {% for announcement in site.announcements %}
 <section class="special-notice" role="status">
   <h2>
+    {% include backgrounds/alert.svg %}
     Alerts &amp; Closures
   </h2>
   {{ announcement.content | markdownify }}
@@ -591,7 +592,7 @@
       <h4><a href="/">Things to Do</a></h4>
       <ul>
         <li><a href="/">Today</a></li>
-        <li><a href="/">Every Day</a></li><!-- Coffee Shop, Splashpad, Gardens -->
+        <li><a href="/">Every Day</a></li><!-- Coffee Shop, Splash pad, Gardens -->
         <!-- <li><a href="/">Weekdays</a></li>Every Tuesday, Wednesday and Thursday. Recurring events like Lunch à la Park -->
         <li><a href="/">Seasonal</a></li>
         <li><a href="/">Calendar</a></li>
