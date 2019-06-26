@@ -4,6 +4,7 @@ permalink: /lunch/
 ---
 
 <nav markdown="1">
+* [Things to do](/events/)
 * [Programs](/programs/)
 </nav>
 

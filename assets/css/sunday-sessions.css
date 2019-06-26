@@ -563,6 +563,10 @@ main main .event-list:last-child {
 } */
 
 
+nav ~ .camera,
+nav ~ .girl {
+  margin-top: 1.5em;
+}
 .camera svg,
 .girl svg {
   color: inherit;

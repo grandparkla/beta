@@ -51,8 +51,8 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 
 <h2 class="plan-your-day"><a href="/visit/">Plan your visit</a></h2>
 
-Grand Park is open every day from 5:30 a.m. to 10 p.m.<br />
-_<small>The playground is open from 8 a.m. to 8 p.m.</small>_
+Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
+_<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
 
 <nav markdown="1">
 *   [Directions to the park](/directions/)

@@ -4,6 +4,7 @@ permalink: /día-de-los-muertos/
 ---
 
 <nav markdown="1">
+* [Things to do](/events/)
 * [Programs](/programs/)
 </nav>
 

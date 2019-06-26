@@ -13,11 +13,10 @@ permalink: /about/
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + p,
+main h1 + p + nav {
+  grid-column-end: -3;
 }
 </style>
 

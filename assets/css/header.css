@@ -472,6 +472,7 @@ main > nav:not(:first-child)  {
 }
 main > nav:first-child {
   font-size: 0.75em;
+  font-style: italic;
 }
 main > nav:first-child li {
   display: inline;
