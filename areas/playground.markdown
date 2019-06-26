@@ -24,8 +24,13 @@ Grand Park, between Broadway and Spring Street
 
 ## About
 
-Grand Park’s playground features a 12-foot tube slide!<br />
-<small>(recommended for ages 2-12)</small>
+Grand Park’s playground features a 12-foot tube slide!
+
+Climber & slides
+: recommended for ages 5-12
+
+Play area
+: recommended for ages 2-12
 
 <figure>
   <img src="/uploads/areas/playground-2.jpg" alt="Playground" height="500" />

@@ -148,7 +148,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
 *   24 gardens featuring plants that grow in the world’s six floristic kingdoms
 *   Off-leash dog run
 *   On-site Metro and Purple Lines
-*   Playground with 12-foot tube slide<br /><small>(recommended for ages 2-12)</small>
+*   Playground with 12-foot tube slide<br /><small>(recommended for ages 5-12)</small>
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
