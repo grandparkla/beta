@@ -86,7 +86,7 @@ _(close to City Hall)_
 
 <div></div>
 
-<figure style="width: 35em; justify-self: center;">
+<figure style="max-width: 35em; justify-self: center;">
 <a href="/assets/images/map.png">
   <img src="/assets/images/map.png" height="300" style="width: 35em; height: auto; max-width: 100%" alt="Map of Grand Park" />
 </a>

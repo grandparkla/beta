@@ -48,14 +48,19 @@ main {
 }
 .event-list li h4 {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: normal;
 }
 /* main {
   font-size: 1.25em;
 } */
+main > h3,
+main > h4,
+main > h5,
+main > h6,
 main > p,
 main > ul,
 main > ol,
-main > nav:not(:first-child) {
+main > nav {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -418,11 +423,13 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
   text-transform: unset;
 } */
 
+dl dt,
 dl dd {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: unset;
 }
 
+.summer-schedule ~ dl dt,
 .summer-schedule ~ dl dd {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;

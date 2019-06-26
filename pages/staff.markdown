@@ -276,9 +276,7 @@ Likes
 30 seconds on the Mic
 : I am Angela. The new Business Manager. Welcome to our park. #haiku #grandpark #dtla
 
-<main markdown="1" class="lime">
-
-* * *
+<main markdown="1" class="lime" style="border-top: 1em solid var(--snow)">
 
 ## Job Opportunities
 

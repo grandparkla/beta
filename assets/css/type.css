@@ -436,7 +436,7 @@ h3 {
     font-size: 1.25em;
   }
 }
-h5, h6 {
+h4, h5, h6 {
   /*! color: rgb(76, 78, 76); */
   font-style: italic;
   font-weight: normal;

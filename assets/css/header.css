@@ -391,13 +391,13 @@ hr {
   padding-top: 1px; */
 }
 
-@media (min-width: 60em) {
+/* @media (min-width: 60em) { */
   hr {
     grid-column: 2/-2;
     margin-top: 3em;
     padding-top: 1.5em;
   }
-}
+/* } */
 
 /* main > hr + h2 {
   grid-column: 1/-1;
