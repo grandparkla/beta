@@ -83,7 +83,7 @@
 @media (min-width: 60em) {
   .special-notice {
     display: grid;
-    grid-template-columns: 10em 1fr 10em;
+    grid-template-columns: 12em 1fr 12em;
     grid-gap: 1.5em;
   }
   .special-notice * {
@@ -100,5 +100,23 @@
     grid-row: 1;
     grid-column: 2/-2;
   }
+}
+
+
+.special-notice svg {
+  height: 3em;
+  width: auto;
+  color: inherit;
+  vertical-align: middle;
+}
+.special-notice svg:first-child {
+  margin-right: 0.5em;
+}
+.special-notice svg:last-child {
+  margin-left: 0.5em;
+}
+.special-notice svg,
+.special-notice svg path {
+  fill: currentColor;
 }
 
