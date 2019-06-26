@@ -59,10 +59,43 @@ These steps will help you get started:
 [Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
 </p>
 
+<main markdown="1">
 
-## Filming & photography
+{% if site.use_illustrations %}
+  <style>
+  .camera {
+    grid-column: -3/-1;
+    grid-row: 1/5;
+  }
+  .camera + h2 + h3,
+  .camera + h2 + h3 + p,
+  .camera + h2 + h3 + p + p,
+  .camera + h2 + h3 + p + p + p {
+    grid-column-end: -3;
+  }
+  .camera svg {
+    height: 20vmax;
+    width: auto;
+    color: inherit;
+  }
+  .camera svg,
+  .camera svg path {
+    fill: currentColor;
+  }
+  </style>
 
-### Need to film in Grand Park?
+  <div class="camera">
+  {% include backgrounds/camera.svg %}
+  </div>
+{% endif %}
+
+<h2>
+  Filming & photography
+</h2>
+
+<h3>
+  Need to film in Grand Park?
+</h3>
 
 Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc.](https://www.filmla.com/), the entity authorized by the Los Angeles County Board of Supervisors to process film permits. 
 
@@ -78,3 +111,6 @@ Learn about filming in the park and tell us a little bit about your planned phot
 ## Questions
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
+
+
+</main>

@@ -64,7 +64,33 @@ Los Angeles, CA 90012
 
 ## Rent the park
 
-<div></div>
+{% if site.use_illustrations %}
+  <style>
+  .camera {
+    grid-column: -3/-1;
+    grid-row: 1/5;
+  }
+  .camera + h2 + h3,
+  .camera + h2 + h3 + p,
+  .camera + h2 + h3 + p + p,
+  .camera + h2 + h3 + p + p + p {
+    grid-column-end: -3;
+  }
+  .camera svg {
+    height: 20vmax;
+    width: auto;
+    color: inherit;
+  }
+  .camera svg,
+  .camera svg path {
+    fill: currentColor;
+  }
+  </style>
+
+  <div class="camera">
+  {% include backgrounds/camera.svg %}
+  </div>
+{% endif %}
 
 ## Host an event
 
