@@ -65,17 +65,13 @@ Grand Park’s [Marketplace](/areas/) _(close to City Hall)_ and [Olive Court](/
 
 
 
-* * *
-
-
 <main markdown="1">
-
-* * *
 
 ## Trucks & Dates
 
 
 <!--
+
 Past food trucks are listed here, to make it easier to copy and paste:
 
 : Boba Taco
@@ -97,10 +93,14 @@ Past food trucks are listed here, to make it easier to copy and paste:
 : [The Donut Truck](https://www.facebook.com/ladonuttruck/)
 : [The Tropic Truck](http://www.thetropictruck.com/)
 : [Wise BBQ](https://wisebarbecue.com)
+
+: _To be announced_
+
 -->
 
+<div></div>
 
-## Tuesday, <span class="avoid-break">June 25</span>
+### Tuesday, <span class="avoid-break">June 25</span>
 
 Marketplace
 : [Belly Bombz](https://bellybombz.com)
@@ -110,19 +110,22 @@ Olive Court
 : [Canvas Foods LA](https://www.canvasfoodsla.com/)
 : [The Tropic Truck](http://www.thetropictruck.com)
 
+<div></div>
 
-## Wednesday, <span class="avoid-break">June 26</span>
+
+### Wednesday, <span class="avoid-break">June 26</span>
 
 Marketplace
-: _To be announced_
+: [Dogtown Dogs](http://dogtowndog.com)
 
 Olive Court
 : [La Panini Grill](http://www.lapaninigrill.com/)
 : [Go Fusion](https://www.facebook.com/Go-Fusion-N-Grill-872969412717755/)
 : [The Donut Truck](https://www.facebook.com/ladonuttruck/)
 
+<div></div>
 
-## Thursday, <span class="avoid-break">June 27</span>
+### Thursday, <span class="avoid-break">June 27</span>
 
 Marketplace
 : [Shrimp and Taco Stop](http://www.theshrimpandtacostop.com/)
@@ -131,6 +134,120 @@ Olive Court
 : Boba Taco
 : [Gourmet Genie](http://www.gourmetgenietogo.com/)
 : Main Squeeze Lemonade
+
+<div></div>
+
+{% comment %}
+
+<style>
+table {
+  font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  grid-column: 2/-2;
+  color: var(--midnight);
+}
+table {
+  margin-top: 4.5em;
+  margin-bottom: 4.5em;
+  border-collapse: collapse;
+}
+
+thead th {
+  font-weight: normal;
+}
+thead th small {
+  font-style: italic;
+  display: block;
+}
+
+tbody th[scope] {
+  font-style: italic;
+  font-weight: normal;
+  color: var(--text-color);
+}
+
+
+tbody th,
+tbody td {
+  border-top: 0.15em solid hsl(0, 0%, 95%);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 1.5em 0;
+  vertical-align: top;
+}
+th:first-child {
+  padding-left: 0;
+}
+td:last-child {
+  padding-right: 0;
+}
+
+table ul {
+  margin: 0;
+}
+table ul,
+table li {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+</style>
+
+<table>
+<thead>
+<tr>
+  <th scope="col" style="opacity: 0;">Date</th>
+  <th scope="col">Marketplace <small>(close to City Hall)</small></th>
+  <th scope="col">Olive Court <small>(close to Starbucks)</small></th>
+</tr>
+</thead>
+<tbody>
+  
+<tr>
+<th scope="row">
+Tuesday, <span class="avoid-break">June 25</span>
+</th>
+<td markdown="1">
+* [Belly Bombz](https://bellybombz.com)
+</td>
+<td markdown="1">
+* [Thai Mex Cocina](https://www.instagram.com/thaimexcocina/?hl=en)
+* [Canvas Foods LA](https://www.canvasfoodsla.com/)
+* [The Tropic Truck](http://www.thetropictruck.com)
+</td>
+</tr>
+  
+<tr>
+<th scope="row">Wednesday, <span class="avoid-break">June 26</span></th>
+<td markdown="1">
+* [Dogtown Dogs](http://dogtowndog.com)
+</td>
+<td markdown="1">
+* [La Panini Grill](http://www.lapaninigrill.com/)
+* [Go Fusion](https://www.facebook.com/Go-Fusion-N-Grill-872969412717755/)
+* [The Donut Truck](https://www.facebook.com/ladonuttruck/)
+</td>
+</tr>
+  
+<tr>
+<th scope="row">Thursday, <span class="avoid-break">June 27</span></th>
+<td markdown="1">
+* [Shrimp and Taco Stop](http://www.theshrimpandtacostop.com/)
+</td>
+<td markdown="1">
+* Boba Taco
+* [Gourmet Genie](http://www.gourmetgenietogo.com/)
+* Main Squeeze Lemonade
+</td>
+</tr>
+
+</tbody>
+</table>
+{% endcomment %}
 
 
 <figure>

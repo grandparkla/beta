@@ -453,14 +453,13 @@
   </nav>
 </header>
 
-{% comment %}
-{% include flowers.html %}
-{% endcomment %}
-
 {% for announcement in site.announcements %}
 <section class="special-notice" role="status">
   <h2>
+    {% comment %}
     {% include backgrounds/alert.svg %}
+    {% include backgrounds/construction.svg %}
+    {% endcomment %}
     Alerts &amp; Closures
   </h2>
   {{ announcement.content | markdownify }}
@@ -470,7 +469,10 @@
 {% if page.announcement %}
 <section class="special-notice" role="status">
   <h2>
+    {% comment %}
     {% include backgrounds/alert.svg %}
+    {% include backgrounds/construction.svg %}
+    {% endcomment %}
     Alerts &amp; Closures
   </h2>
   {{ page.announcement | markdownify }}

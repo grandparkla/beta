@@ -428,11 +428,19 @@ dl dd {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: unset;
 }
+dl dt {
+  font-size: inherit;
+  font-style: italic;
+}
 
 .summer-schedule ~ dl dt,
 .summer-schedule ~ dl dd {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
+}
+.summer-schedule ~ dl dt {
+  font-style: unset;
+  font-size: 1.25em;
 }
 
 
@@ -454,7 +462,8 @@ main main {
 main main > p,
 main main > nav,
 main main > ol:not(.event-list),
-main main > ul {
+main main > ul,
+main main > dl {
   color: var(--midnight);
 }
 /* main main .event-list li[data-type*="Lease"] {
