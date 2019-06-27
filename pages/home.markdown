@@ -128,6 +128,20 @@ main > h1.welcome {
   margin-left: 0em;
   margin-right: 0em;
 }
+@media (false) {
+  .girl {
+    transform: rotate(45deg);
+  }
+  main > h1.welcome {
+    transform: rotate(-45deg);
+    opacity: 0.5;
+    position: absolute;
+    z-index: -2;
+    writing-mode: sideways-lr;
+    margin-bottom: 50vw
+    width: calc(50vmax);
+  }
+}
 @media (min-width: 60em) {
   .girl {
     float: right;

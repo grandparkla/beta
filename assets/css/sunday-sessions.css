@@ -2,9 +2,11 @@
 :root {
   --midnight: hsl(300, 2%, 22%);
   --strawberry: hsl(331, 81%, 61%);
+  --strawberry: hsl(338, 81%, 61%);
   --banana:     hsl(48, 97%, 71%);
   --sky:        hsl(191, 75%, 54%);
   --sky:        hsl(191, 75%, 49%);
+  --sky:        hsl(191, 65%, 49%);
   --lime:       hsl(77, 51%, 51%);
   --lime:       hsl(77, 51%, 46%);
   --headline-color: var(--text-color);
