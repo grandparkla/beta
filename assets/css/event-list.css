@@ -17,15 +17,10 @@
   margin-bottom: 3em;
 }
 .event-list + .event-list {
-  margin-top: -1.5em;
-}
-@media (min-width: 60em) {
-  .event-list + .event-list {
-    margin-top: 1.5em;
-  }
+  margin-top: -2.9em;
 }
 .event-list li {
-  margin-top: 1.5em;
+  margin-top: 0.1em;
 }
 
 .event-list a > img {
@@ -47,13 +42,19 @@
   fill: currentColor;
 }
 
-@media(min-width: 40em) {
+@media(min-width: 60em) {
   .event-list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 1.5em;
     grid-row-gap: 6em;
+    margin-left: 0;
+    margin-right: 0;
   }
+  .event-list + .event-list {
+    margin-top: 1.5em;
+  }
+
   .event-list li {
     margin-top: 0;
   }
