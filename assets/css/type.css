@@ -293,7 +293,7 @@ main > h1.welcome span {
       text-shadow: none;
     } */
     main > h1.welcome span {
-      font-size: 3.2vmax;
+      font-size: 2.4vmax;
       height: 4.825em;
       margin-right: -10em;
     }

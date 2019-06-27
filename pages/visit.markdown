@@ -1,14 +1,14 @@
 ---
 title: Plan your visit
 permalink: /visit/
-announcement: "🚧 The fountain, splash pad and playground are [currently closed](/alerts/) for maintenance and park improvements. Thank you for your patience 🙏"
+# announcement: "🚧 The fountain, splash pad and playground are [currently closed](/alerts/) for maintenance and park improvements. Thank you for your patience 🙏"
 ---
 
 {% if site.use_illustrations %}
 <style>
 .girl {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 1/4;
 }
 .girl svg {
   height: 20vmax;
@@ -40,6 +40,16 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
+<section class="special-notice" role="status">
+  <h2>
+    
+    Alerts &amp; Closures
+  </h2>
+  <p>🚧 The fountain, splash pad and playground are <a href="/alerts/">currently closed</a> for maintenance and park improvements. Thank you for your patience 🙏</p>
+
+</section>
+
+{% comment %}
 <main markdown="1">
 
 ## Closed areas
@@ -59,41 +69,13 @@ These areas of the park are currently closed or are closing soon.
 </main>
 
 <div></div>
-
-<main markdown="1" class="lime">
-
-{% if site.use_illustrations %}
-  <style>
-  .camera {
-    grid-column: -3/-1;
-    grid-row: 1/6;
-  }
-  .camera + h2 + p,
-  .camera + h2 + p + p {
-    grid-column-end: -3;
-  }
-  .camera svg {
-    height: 20vmax;
-    width: auto;
-    color: inherit;
-  }
-  .camera svg,
-  .camera svg path {
-    fill: currentColor;
-  }
-  </style>
-
-  <div class="camera">
-  {% include backgrounds/park-signs.svg %}
-  </div>
-{% endif %}
+{% endcomment %}
 
 Directions
 ----
 
 {% include directions.markdown %}
 
-</main>
 
 <!--
 *   [Map of the Park](#map)

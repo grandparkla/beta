@@ -120,3 +120,7 @@
   fill: currentColor;
 }
 
+
+main .special-notice {
+  grid-column: 2/-2;
+}

@@ -62,8 +62,14 @@ main > h6,
 main > p,
 main > ul,
 main > ol,
-main > nav {
+main > nav:not(:first-child) {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+main > nav:first-child {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.675em;
+  font-style: normal;
 }
 
 dl img {

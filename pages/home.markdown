@@ -164,10 +164,10 @@ main > h1.welcome {
 
 {% include welcome.markdown %}
 
-<p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p>
-
 {% if site.events_today %}
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
+
+<!-- <p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p> -->
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -192,8 +192,12 @@ main > h1.welcome {
   </li> -->
 </ol>
 
+## Happening soon
+
 {% elsif site.events_tomorrow %}
 ## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
+
+<!-- <p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p> -->
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -203,23 +207,30 @@ main > h1.welcome {
         <h4>Food Trucks</h4>
         <p>Tomorrow at <time datetime="11:00">11 a.m.</time></p>
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
     </a>
   </li>
-  <!-- <li>
+  <li>
     <a href="/yoga/">
       <div>
         <h3>Lunch à la Park</h3>
         <h4>Yoga reTREAT</h4>
         <p>Tomorrow at <time datetime="12:15">12:15 p.m.</time></p>
       </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
-  </li> -->
+  </li>
 </ol>
-{% endif %}
 
 ## Happening soon
+
+{% else %}
+
+## Happening soon
+
+<!-- <p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p> -->
+
+{% endif %}
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
