@@ -8,8 +8,8 @@ permalink: pretty
 hide_from_search_engines: true
 use_analytics: false
 
-use_theme_sunday: true
-use_illustrations: true
+use_theme_sunday: false
+use_illustrations: false
 use_sunshine: false
 use_dark_on_light: false
 
