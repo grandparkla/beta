@@ -42,7 +42,9 @@
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
 
 <nav markdown="1">
-*   [Today](/events/#today)
+<!-- *   [Today](/events/#today) -->
+
+*   [Tomorrow](/events/#tomorrow)
 *   [Every day](/events/#daily)
 *   [Lunchtime](/lunch/)
 *   [Calendar](/calendar/)

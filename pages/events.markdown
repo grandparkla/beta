@@ -34,7 +34,11 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <span class="avoid-break">and more!</span>
 
 <nav markdown="1">
+<!--
 *   [Today](/events/#today)
+-->
+
+*   [Tomorrow](/events/#tomorrow)
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -54,6 +58,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 </nav>
 -->
 
+<!--
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -78,30 +83,22 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
     </a>
   </li>
 </ol>
+-->
 
-<!--
-* * *
+## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
 
-## Today
-
-There is one event scheduled for today.
-
-<ol class="event-list" style="grid-template-columns:  1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/sunday-sessions/">
+    <a href="/food-trucks/">
       <div>
-        <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
-        <p>
-          Sunday, June 23
-        </p>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Tomorrow at <time datetime="11:00">11 a.m.</time></p>
       </div>
-      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
-
--->
 
 <div></div>
 
@@ -116,7 +113,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open daily
+          Open today
         </p>
       </div>
       <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
@@ -128,7 +125,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Performance Lawn</h4>
         <p>
-          Open daily
+          Open today
         </p>
       </div>
       <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
@@ -142,7 +139,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open daily
+          Open today
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
