@@ -1,7 +1,7 @@
 ---
 title: Plan your visit
 permalink: /visit/
-announcement: "The fountain, splash pad and playground are [currently closed](/alerts/) for maintenance and park improvements. Thank you for your patience."
+announcement: "🚧 The fountain, splash pad and playground are [currently closed](/alerts/) for maintenance and park improvements. Thank you for your patience 🙏"
 ---
 
 {% if site.use_illustrations %}
