@@ -195,6 +195,8 @@ main > h1.welcome {
 ## Happening soon
 
 {% elsif site.events_tomorrow %}
+
+
 ## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
 
 <!-- <p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p> -->

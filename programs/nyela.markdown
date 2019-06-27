@@ -100,7 +100,7 @@ Grand Park + The Music Center
 </p>
 
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
 

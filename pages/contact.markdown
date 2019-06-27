@@ -42,18 +42,24 @@ Contact us
 *   [Sponsorship](/sponsorship/)
 </nav>
 
-#### Grand Park’s mailing address is:
+<main markdown="1" class="sky-light">
+
+## Mailing address
 
 Grand Park  
 200 N Grand Avenue  
 Los Angeles, CA 90012
 
-#### For general questions, please call us or send us an email
+## Have a question?
+
+Please call us or send us an email.
 
 213-972-8080  
 [grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org)
 
 * * *
+
+</main>
 
 <main markdown="1" class="sky-light">
 
@@ -127,7 +133,7 @@ Learn about filming in the park and tell us a little bit about your planned phot
 
 <div></div>
 
-## Questions
+## Rental questions
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
 

@@ -357,13 +357,29 @@
   
   {% unless page.stylesheets %}
   {% if site.use_illustrations %}
-  body {
+  /* body {
     background-image:
       url(/assets/images/background/sun-2.svg);
     background-repeat: no-repeat;
 
     background-size: 10vmax auto;
     background-position: 43.75% -4.5vmax;
+  } */
+  body > .sun {
+    position: absolute;
+    left: 43.75%;
+    top: 0;
+    transform: translate(-50%, -4.5vmax);
+  }
+  body > .sun svg {
+    height: auto;
+    width: 10vmax;
+    color: inherit;
+  }
+  body > .sun svg,
+  body > .sun svg path {
+    fill: currentColor;
+    stroke: transparent;
   }
   {% endif %}
   {% endunless %}
@@ -383,10 +399,10 @@
         --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
       }
       {% if site.use_illustrations %}
-      body {
+      /* body {
         background-image:
           url(/assets/images/background/sun-strawberry.svg);
-      }
+      } */
       {% endif %}
       header h3,
       body > main > p,
@@ -438,10 +454,10 @@
       }
       
       {% if site.use_illustrations %}
-      body {
+      /* body {
         background-image:
           url(/assets/images/background/sun-lime.svg);
-      }
+      } */
       {% endif %}
       body > main > p,
       body > main > nav,
@@ -598,6 +614,16 @@
 
 </head>
 <body>
+
+{% unless page.stylesheets %}
+{% if site.use_illustrations %}
+
+<div class="sun">
+{% include backgrounds/sun.svg %}
+</div>
+
+{% endif %}
+{% endunless %}
 
 <header class="header">
   <div>

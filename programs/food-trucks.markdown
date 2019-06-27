@@ -59,7 +59,7 @@ _**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge
 <div></div>
 
 
-## Location
+## Where
 
 Grand Park’s [Marketplace](/areas/) and [Olive Court](/areas/)
 

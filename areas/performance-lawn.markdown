@@ -8,15 +8,44 @@ permalink: /performance-lawn/
 * [Areas of the park](/areas/)
 </nav>
 
+{% if site.use_illustrations %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 1/8;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+}
+main h1,
+main h1 + p,
+main h1 + p + p,
+main h1 + p + p + h2 + p {
+  grid-column-end: -3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + nav {
+    grid-column: 3/-3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/picnic.svg %}
+</div>
+{% endif %}
+
 # Performance Lawn
 
 Open daily from 5:30 a.m. to 10 p.m.
 
 <p style="grid-column-start: 2" markdown="1">
-Catch one of Grand Park’s free performances, or enjoy a picnic with friends any day of the year.
+Catch one of Grand Park’s free performances, or enjoy a picnic with friends any <span class="avoid-break">day of the year.</span>
 </p>
 
-## Location
+## Where
 
 Grand Park, between Grand Avenue and Hill Street
 

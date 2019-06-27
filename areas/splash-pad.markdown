@@ -46,7 +46,7 @@ Open daily from 5:30 a.m. to 10 p.m.
 The interactive splash pad is open to the public. Visitors of all ages are encouraged to enjoy water play in the splash pad, which features interactive jets.
 </p>
 
-## Location
+## Where
 
 Arthur J. Will Memorial Fountain, between Grand Avenue and Hill Street
 

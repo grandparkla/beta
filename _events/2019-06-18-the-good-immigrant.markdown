@@ -43,7 +43,7 @@ Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
 
 <div></div>
 
-## Location
+## Where
 
 Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and Hill Street
 

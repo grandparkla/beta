@@ -49,7 +49,7 @@ Saturday, November 3, 2018 from 8:00 p.m. to midnight
   <img src="/uploads/programs/dia-de-los-muertos-2.jpg" alt="Día de los Muertos" height="500" />
 </figure>
 
-## Location
+## Where
 
 Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and Hill Street
 
@@ -57,7 +57,7 @@ Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and H
 [Directions to the Park](/directions/)
 </p>
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
 

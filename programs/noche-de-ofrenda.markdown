@@ -49,7 +49,7 @@ Saturday, October 27, 2018 from 7 p.m. to 9 p.m.
   <img src="/uploads/programs/noche-de-ofrenda.jpg" alt="Noche de Ofrenda" height="500" />
 </figure>
 
-## Location
+## Where
 
 Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and Hill Street
 

@@ -45,7 +45,7 @@ Saturday, June 1, 2019 from 3 p.m. to 11 p.m.
 
 <div></div>
 
-## Location
+## Where
 
 Grand Park’s **Event Lawn** _(between Broadway and Spring)_
 

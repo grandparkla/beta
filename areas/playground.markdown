@@ -14,7 +14,7 @@ announcement: "The playground will be closed for maintenance and park improvemen
 
 Open daily from 8 a.m. to 8 p.m.
 
-## Location
+## Where
 
 Grand Park, between Broadway and Spring Street
 

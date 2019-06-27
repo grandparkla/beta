@@ -20,7 +20,7 @@ _<small>April 4 – May 30, 2019</small>_
 
 These weekly lunchtime concerts feature artists from L.A.’s top conservatories and training programs for high school artists. The series includes students from L.A. County High School for the Arts, California School for the Arts, and The Music Center’s Spotlight Program.
 
-## Location
+## Where
 
 Grand Park’s [Performance Lawn](/performance-lawn/) _(between Grand and Hill)_
 
@@ -28,7 +28,7 @@ Grand Park’s [Performance Lawn](/performance-lawn/) _(between Grand and Hill)_
 [Directions to the Park](/directions/)
 </p>
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
 

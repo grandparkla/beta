@@ -2,7 +2,7 @@
 title: Yoga reTREAT
 permalink: /yoga/
 # announcement: 'Yoga Update: Due to soggy lawns and rainy weather, yoga is canceled for today (FRI MAY 10). Apologies for the inconvenience🙏'
-announcement: "June 26 & 28: Yoga is relocating to the [Community Terrace](/areas/) between Hill + Broadway 🧘🏻‍♂️"
+# announcement: "June 26 & 28: Yoga is relocating to the [Community Terrace](/areas/) between Hill + Broadway 🧘🏻‍♂️"
 ---
 
 <nav markdown="1">
@@ -14,6 +14,15 @@ announcement: "June 26 & 28: Yoga is relocating to the [Community Terrace](/area
 
 Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time><br />
 _<small>Year-round, except on holidays</small>_
+
+<section class="special-notice" role="status">
+  <h2>
+    
+    Alerts &amp; Closures
+  </h2>
+  <p>June 26 & 28: Yoga is relocating to the <a href="/areas/" class="avoid-break">Community Terrace</a> between Hill + Broadway 🧘🏻‍♂️</p>
+
+</section>
 
 <figure>
   <img src="/uploads/programs/yoga-4.jpg" alt="Yoga" height="500" />

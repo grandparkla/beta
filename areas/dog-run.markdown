@@ -17,7 +17,7 @@ Open daily from 5:30 a.m. to 10 p.m.
 Grand Park’s dog run features shade, benches, doggie bags and a water fountain for your four-footed friends!
 </p>
 
-## Location
+## Where
 
 Grand Park, between Broadway and Spring Street
 

@@ -51,7 +51,7 @@ October 28 through November 4, 2018
   <img src="/uploads/programs/dia-de-los-muertos.jpg" alt="Día de los Muertos" height="500" />
 </figure>
 
-## Location
+## Where
 
 Grand Park
 

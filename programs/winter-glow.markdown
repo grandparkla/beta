@@ -61,7 +61,7 @@ Grand Park
 [Directions to the Park](/directions/)
 </p>
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
 
