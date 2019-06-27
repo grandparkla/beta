@@ -11,7 +11,7 @@ permalink: /alerts/
 <style>
 .girl {
   grid-column: -3/-1;
-  grid-row: 1/5;
+  grid-row: 1/6;
 }
 .girl svg {
   height: 20vmax;

@@ -11,6 +11,7 @@ use_analytics: false
 use_theme_sunday: true
 use_illustrations: true
 use_sunshine: false
+use_dark_on_light: false
 
 events_today: true
 events_tomorrow: false

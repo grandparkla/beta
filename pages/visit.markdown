@@ -8,7 +8,7 @@ announcement: "🚧 The fountain, splash pad and playground are [currently close
 <style>
 .girl {
   grid-column: -3/-1;
-  grid-row: 1/5;
+  grid-row: 1/6;
 }
 .girl svg {
   height: 20vmax;
@@ -66,7 +66,7 @@ These areas of the park are currently closed or are closing soon.
   <style>
   .camera {
     grid-column: -3/-1;
-    grid-row: 1/5;
+    grid-row: 1/6;
   }
   .camera + h2 + p,
   .camera + h2 + p + p {

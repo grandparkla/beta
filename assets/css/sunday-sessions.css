@@ -94,12 +94,13 @@ main figure img {
     filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
   }
   h1.welcome svg {
-    filter: var(--svg-filter);
+    /* filter: var(--svg-filter); */
+    color: inherit;
   }
 }
 
 
-.logos svg {
+main .logos svg {
   color: var(--background-color);
 }
 .logos svg,
@@ -459,6 +460,14 @@ main main {
   margin-right: -1.5em;
   font-size: inherit;
 }
+main main.sky-light {
+  --text-color: var(--sky);
+  --headline-color: var(--sky);
+}
+main main.lime-light {
+  --text-color: var(--lime);
+  --headline-color: var(--lime);
+}
 main main > p,
 main main > nav,
 main main > ol:not(.event-list),
@@ -583,6 +592,12 @@ main main .event-list:last-child {
 nav ~ .camera,
 nav ~ .girl {
   margin-top: 1.5em;
+}
+@media (min-width: 60em) {
+  nav ~ .camera,
+  nav ~ .girl {
+    margin-top: 0;
+  }
 }
 .camera svg,
 .girl svg {

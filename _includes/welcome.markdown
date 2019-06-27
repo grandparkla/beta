@@ -1,8 +1,10 @@
 <h1 class="welcome" style="display: none">
 
+{% if site.use_illustrations %}
 <i class="girl">
 {% include backgrounds/flower-hat-girl.svg %}
 </i>
+{% endif %}
 
 <span>
 

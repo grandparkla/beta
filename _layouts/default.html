@@ -297,6 +297,7 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
 
+
   /*
   body {
     background-image:
@@ -332,6 +333,13 @@
   {% endif %}
 
   
+    
+
+
+
+
+
+  
   {% unless page.stylesheets %}
   {% if site.use_illustrations %}
   body {
@@ -344,6 +352,168 @@
   }
   {% endif %}
   {% endunless %}
+
+  
+  {% unless page.stylesheets %}
+  {% if site.use_dark_on_light %}
+      :root {
+        /* light on dark */
+
+        --background-color: var(--snow);
+
+        --text-color: var(--strawberry);
+        --text-color-invert: var(--snow);
+        --image-filter: unset;
+        --svg-filter: unset;
+        --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+      }
+      {% if site.use_illustrations %}
+      body {
+        background-image:
+          url(/assets/images/background/sun-strawberry.svg);
+      }
+      {% endif %}
+      header h3,
+      body > main > p,
+      body > main > nav,
+      body > main > ol:not(.event-list),
+      body > main > ul,
+      body > main > dl {
+        color: var(--midnight);
+      }
+      .special-notice {
+        border-width: 0.25em 0;
+        border-style: solid;
+        border-color: var(--text-color);
+        color: var(--text-color);
+      }
+      footer {
+        --background-color: var(--strawberry);
+        --text-color: var(--snow);
+        --text-color-invert: var(--midnight);
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+      footer .logos svg {
+        color: inherit;
+      }
+
+      {% if page.url == "/visit/" or
+            page.url == "/directions/" or
+            page.url == "/rules/" or
+            page.url == "/faqs/" or
+            page.url == "/alerts/" or
+            page.url == "/areas/" or
+            page.url == "/dog-run/" or
+            page.url == "/splash-pad/" or
+            page.url == "/playground/" or
+            page.url == "/performance-lawn/" or
+            page.url == "/gardens/" %}
+
+      :root {
+        /* light on dark */
+
+        --background-color: var(--snow);
+
+        --text-color: var(--lime);
+        --text-color-invert: var(--snow);
+        --image-filter: unset;
+        --svg-filter: unset;
+        --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+      }
+      
+      {% if site.use_illustrations %}
+      body {
+        background-image:
+          url(/assets/images/background/sun-lime.svg);
+      }
+      {% endif %}
+      body > main > p,
+      body > main > nav,
+      body > main > ol:not(.event-list),
+      body > main > ul,
+      body > main > dl {
+        color: var(--midnight);
+      }
+      .special-notice {
+        border-width: 0.25em 0;
+        border-style: solid;
+        border-color: var(--text-color);
+        color: var(--text-color);
+      }
+      footer {
+        --background-color: var(--lime);
+        --text-color: var(--snow);
+        --text-color-invert: var(--midnight);
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+      footer .logos svg {
+        color: inherit;
+      }
+
+      {% endif %}
+
+      {% if page.url == "/about/" or
+            page.url == "/rent/" or
+            page.url == "/film-photography/" or
+            page.url == "/staff/" or
+            page.url == "/job-opportunities/" or
+            page.url == "/news-sign-up/" or
+            page.url == "/for-media/" or
+            page.url == "/for-vendors/" or
+            page.url == "/sponsorship/" or
+            page.url == "/contact/" or
+            page.url == "/donate/" %}
+
+      :root {
+        /* light on dark */
+
+        --background-color: var(--snow);
+
+        --text-color: var(--sky);
+        --text-color-invert: var(--snow);
+        --image-filter: unset;
+        --svg-filter: unset;
+        --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+      }
+      
+      {% if site.use_illustrations %}
+      body {
+        background-image:
+          url(/assets/images/background/sun-sky.svg);
+      }
+      {% endif %}
+      body > main > p,
+      body > main > nav,
+      body > main > ol:not(.event-list),
+      body > main > ul,
+      body > main > dl {
+        color: var(--midnight);
+      }
+      .special-notice {
+        border-width: 0.25em 0;
+        border-style: solid;
+        border-color: var(--text-color);
+        color: var(--text-color);
+      }
+      footer {
+        --background-color: var(--sky);
+        --text-color: var(--snow);
+        --text-color-invert: var(--midnight);
+        background-color: var(--background-color);
+        color: var(--text-color);
+      }
+      footer .logos svg {
+        color: inherit;
+      }
+
+      {% endif %}
+
+
+  {% endif %}
+  {% endunless %}
+
 
   </style>
   {% endif %}
@@ -500,8 +670,8 @@
   <h2 class="powered-by">Grand Park is a <span>Los Angeles County park</span> powered by <a href="https://www.musiccenter.org">The Music Center</a></h2>
 
   <ul class="logos">
-    <li><img src="/assets/images/sponsors/los-angeles.svg" alt="County of Los Angeles" /></li>
-    <li><img src="/assets/images/sponsors/grandpark-musiccenter.svg" alt="Grand Park + The Music Center" style="font-size: 0.75em" /></li>
+    <li>{% include sponsors/los-angeles.svg %}</li>
+    <li style="font-size: 0.75em">{% include sponsors/grandpark-musiccenter.svg %}</li>
   </ul>
 
   <p class="legal"><em>The information on this page is subject to change.</em> Please check back here, <a href="https://twitter.com/grandpark_la">@grandpark_la</a>, or <a href="https://twitter.com/musiccenterla">@musiccenterla</a> <span class="avoid-break">for updates.</span></p>
@@ -552,94 +722,7 @@
     </li>
   </ul>
 
-{% comment %}
-
-
-
-<h2>Plan your day at Grand Park</h2>
-<nav markdown="1">
-  <ul>
-    <li><a href="/events/">Find something to do</a></li>
-    <li><a href="/visit/">Get directions to the park</a></li>
-    <li><a href="/areas/">Areas of the park</a></li>
-    <li><a href="/about/">About the park</a></li>
-  </ul>
-</nav>
-
-<!-- 
-    <h2 class="logo">
-      <a href="/">
-        <svg viewBox="0 0 157.1 35.9" width="158" height="36" class="grand-park">
-          <title>Grand Park</title>
-          <switch>
-            <g>
-              <path d="M13.5,11.3V5.8c0-2.8-0.4-5.6-4.9-5.8v0H4.9v0C0.4,0.2,0,3,0,5.8v23.7c0,4.7,1.2,6.1,4.9,6.2v0l3.6,0v0 c3.7,0,4.9-1.5,4.9-6.2V16.7H8.8H6.4v4.3h2.4v8.2c0,1.2-0.1,2-1.5,2H6.2c-1.3,0-1.5-0.8-1.5-2V6.8c0-1.4,0-2.5,1.9-2.5h0.3 c1.8,0,1.9,1.1,1.9,2.5v4.4H13.5z"/>
-              <path d="M136.3,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 h-7.6v35.7l4.7,0v-0.1h-0.1V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C136.4,33.6,136.3,32.9,136.3,28.6"/>
-              <path d="M30.1,28.6v-3.9c0-4.6-0.4-6.6-3.5-7c-0.1,0-0.1-0.2,0-0.2c3.5-0.1,3.7-2.7,3.7-8.8c0-7.1-0.6-8.6-6.3-8.6 l-7.6,0v35.7l4.7,0v-0.1H21V4.3h0.1l2.4,0c2,0,2.2,0.1,2.2,4c0,5.9-0.1,7-2.4,7h-0.3v3.9c1.3,0,1.4,0.1,1.9,1.1 c0.5,1.2,0.6,4,0.6,5.4v5c0,6,5.6,5,5.6,5C30.2,33.6,30.1,32.9,30.1,28.6"/>
-              <path d="M78,0h-8.5v35.7l4.6,0V4.3l2.8,0c1.8,0,1.9,1.1,1.9,2.5v22.5c0,1.2-0.1,2-1.5,2H76v4.4h2.3c3.8,0,5-1.5,5-6.2 V5.8C83.3,2.9,82.9,0,78,0"/>
-              <polygon points="43.7,0 38.1,0 32.7,35.7 37.2,35.7 38.1,29.9 40.9,29.9 40.9,25.4 38.7,25.4 40.9,10.3 44.6,35.7 49.2,35.7 "/>
-              <polygon points="109.8,0 104.4,35.7 108.9,35.7 109.8,29.9 112.6,29.9 112.6,25.4 110.4,25.4 112.6,10.3 116.3,35.7 120.9,35.7 115.4,0 "/>
-              <path d="M61.5,0L61.5,0L61.5,0l0,23.5c0-0.2-5.4-23.5-5.4-23.5l-5,0v35.7h3.6v0l1,0V12.5c1.4,6.3,5,23.2,5,23.2l5.1,0 V0H61.5z"/>
-              <path d="M100.4,10.3c0,3.9-0.3,5-2.3,5h-0.6v4l1.1,0c5.5,0,6.4-2.2,6.4-8.6v-2c0-7.1-0.7-8.6-6.3-8.6h-7.6v35.7h4.7 v-0.1l-0.1,0V4.4h0.1h2.4c2,0,2.2,0.1,2.2,4V10.3z"/>
-              <rect x="139.8" y="0.1" width="4.5" height="35.7"/>
-              <polygon points="151.5,0.2 145.2,17.6 151.8,35.9 157.1,35.9 149.8,17 156.5,0.2 "/>
-            </g>
-            <foreignobject>Grand Park</foreignobject>
-          </switch>
-        </svg>
-      </a>
-    </h2> -->
-
-    <nav>
-      <h4><a href="/">Things to Do</a></h4>
-      <ul>
-        <li><a href="/">Today</a></li>
-        <li><a href="/">Every Day</a></li><!-- Coffee Shop, Splash pad, Gardens -->
-        <!-- <li><a href="/">Weekdays</a></li>Every Tuesday, Wednesday and Thursday. Recurring events like Lunch à la Park -->
-        <li><a href="/">Seasonal</a></li>
-        <li><a href="/">Calendar</a></li>
-      </ul>
-      <h4><a href="/">Programs</a></h4>
-      <ul>
-        <li><a href="/">Health &amp; Wellness</a></li>
-        <li><a href="/">Arts &amp; Culture</a></li>
-        <li><a href="/">Classes &amp; Activities</a></li>
-        <li><a href="/">Kids</a></li>
-      </ul>
-      <h4><a href="/eat-drink/">Eat &amp; Drink</a></h4>
-      <ul>
-        <li><a href="/eat-drink/">Coffee Shop</a></li>
-        <li><a href="/eat-drink/">Food Trucks</a></li>
-        <li><a href="/eat-drink/">Pop-Up Markets</a></li>
-      </ul>
-      <h4><a href="/visit/">Visiting the Park</a></h4>
-      <ul>
-        <li><a href="/visit/">Hours &amp; Directions</a></li>
-        <li><a href="/visit/">Map &amp; Park Areas</a></li>
-        <li><a href="/visit/">Rules &amp; Regulations</a></li>
-        <li><a href="/visit/">Gardens</a></li>
-        <li><a href="/visit/">Nearby Architecture</a></li>
-        <li><a href="/visit/">History</a></li>
-      </ul>
-      <h4><a href="/about/">About</a></h4>
-      <ul>
-        <li><a href="/about/">Management &amp; Board</a></li>
-        <li><a href="/about/">Awards &amp; Press</a></li>
-        <li><a href="/about/">Brand Partnerships</a></li>
-        <li><a href="/about/">Hold an Event</a></li>
-        <li><a href="/about/">Film &amp; Photography</a></li>
-        <li><a href="/about/">Job Openings</a></li>
-        <li><a href="/about/">Contact Us</a></li>
-        <li><a href="/about/">Donate</a></li>
-        <!--
-        <li><a href="/">Foundation</a></li>
-        <li><a href="/">Grand Park Rangers</a></li>
-        -->
-      </ul>
-    </nav>
-
-{% endcomment %}
-
+{% if site.use_illustrations %}
 <p style="max-width: 35em; margin-left: auto; margin-right: auto;">
   <small>
     Icons by
@@ -656,6 +739,7 @@
     from the Noun Project.
   </small>
 </p>
+{% endif %}
 
 </footer>
 

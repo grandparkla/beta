@@ -11,23 +11,20 @@ permalink: /contact/
 <style>
 .girl {
   grid-column: -3/-1;
-  grid-row: 1/5;
+  grid-row: 1/6;
 }
 .girl svg {
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + nav,
+main h1 + nav + h4,
+main h1 + nav + h4 + p {
+  grid-column-end: -3;
 }
 main > nav:first-child {
   grid-row-start: 1;
-}
-main > h1 + nav {
-    grid-column: 3/-3;
 }
 </style>
 
@@ -90,7 +87,7 @@ These steps will help you get started:
   <style>
   .camera {
     grid-column: -3/-1;
-    grid-row: 1/5;
+    grid-row: 1/6;
   }
   .camera + h2 + h3,
   .camera + h2 + h3 + p,
