@@ -43,11 +43,11 @@
       {% if site.use_illustrations %}
         {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
         {% if icon_number == '1' %}
-          <img src="/assets/images/events/sky.svg" height="300" alt="" />
-          {% include backgrounds/tent.svg %}
-        {% else %}
-          <img src="/assets/images/events/lime.svg" height="300" alt="" />
+          <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
           {% include backgrounds/enchanted-woods.svg %}
+        {% else %}
+          <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+          {% include backgrounds/tent.svg %}
         {% endif %}
       {% else %}
         <img src="{{ event.image }}" height="300" alt="" />

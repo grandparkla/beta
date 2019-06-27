@@ -4,10 +4,44 @@ type: Partner event
 image: /assets/images/events/lime.svg
 ---
 
-<small>In partnership with The Music Center, PEN America, and Scripps Presents</small> The Good Immigrant <small>An Evening of Storytelling</small>
+{% if site.use_illustrations %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 1/5;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+  color: inherit;
+}
+.girl svg,
+.girl svg path {
+  fill: currentColor;
+}
+main h1,
+main h1 + p {
+  grid-column-end: -3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + p {
+    grid-column-end: -3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/tent.svg %}
+</div>
+{% endif %}
+
+<small>In partnership with The Music Center, PEN America, <span class="avoid-break">and Scripps Presents</span></small> The Good Immigrant <small>An Evening of Storytelling</small>
 ====================
 
 Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
+
+<div></div>
 
 ## Location
 
