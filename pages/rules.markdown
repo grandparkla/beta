@@ -47,7 +47,7 @@ Park rules
 
 <div></div>
 
-<main markdown="1">
+<main markdown="1" class="lime-light">
 
 ### These things are prohibited in the park…
 

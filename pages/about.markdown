@@ -43,11 +43,11 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 -->
 </nav>
 
+<main markdown="1" class="sky-light">
+
 * * *
 
 ## Rent the park
-
-<div></div>
 
 ## Host an event
 
@@ -67,7 +67,9 @@ These steps will help you get started:
 [Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
 </p>
 
-<main markdown="1" class="sky">
+</main>
+
+<main markdown="1" class="sky-light">
 
 {% if site.use_illustrations %}
   <style>
@@ -117,9 +119,16 @@ Learn about filming in the park and tell us a little bit about your planned phot
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
 
+
+<div></div>
+
+<div></div>
+
 </main>
 
-<main markdown="1">
+<main markdown="1" class="sky">
+
+<div></div>
 
 ## Contact us
 
@@ -145,8 +154,10 @@ Los Angeles, CA 90012
 </main>
 
 
-<main markdown="1" class="lime">
+<main markdown="1" class="lime-light">
 
+
+<div></div>
 
 ## Donate
 
@@ -157,8 +168,12 @@ Grand Park is powered by The Music Center (a non-profit organization) with free 
 </p>
 
 
+<div></div>
+
 
 </main>
+
+
 
 
 

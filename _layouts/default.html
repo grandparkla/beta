@@ -231,6 +231,10 @@
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
+  main main.strawberry-light hr:first-child + h2,
+  main main:not([class]) hr:first-child + h2 {
+    border-top: 0.05em solid var(--background-color);
+  }
 
   {% endif %}
   
@@ -295,6 +299,10 @@
     --image-filter: invert(100%);
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+  }
+
+  main main.sky-light hr:first-child + h2 {
+    border-top: 0.05em solid var(--background-color);
   }
 
 

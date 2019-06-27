@@ -43,29 +43,35 @@ Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <t
 _<small>Year-round, except on holidays</small>_
 
 
+
 <figure>
   <img src="/uploads/programs/food-trucks-4.jpg" alt="Food Truck" height="500" />
 </figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
-Trucks will be parked on Olive Court (between Grand and Hill) and the Marketplace (between Spring and Broadway just across the street from City Hall, by the playground) with easy access for jurors, local employees, and all park users.
-
 _**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
+
+<main markdown="1">
+
+<div></div>
+
+<div></div>
 
 
 ## Location
 
-Grand Park’s [Marketplace](/areas/) _(close to City Hall)_ and [Olive Court](/areas/) _(close to Starbucks)_
+Grand Park’s [Marketplace](/areas/) and [Olive Court](/areas/)
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)
 </p>
 
+Trucks will be parked on Olive Court (between Grand and Hill) and the Marketplace (between Spring and Broadway just across the street from City Hall, by the playground) with easy access for jurors, local employees, and all park users.
 
 
 
-<main markdown="1">
+
 
 ## Trucks & Dates
 

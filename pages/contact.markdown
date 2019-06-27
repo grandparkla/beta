@@ -55,7 +55,7 @@ Los Angeles, CA 90012
 
 * * *
 
-<main markdown="1">
+<main markdown="1" class="sky-light">
 
 * * *
 
@@ -81,7 +81,7 @@ These steps will help you get started:
 
 </main>
 
-<main markdown="1">
+<main markdown="1" class="sky-light">
 
 {% if site.use_illustrations %}
   <style>

@@ -2,7 +2,7 @@
 title: Yoga reTREAT
 permalink: /yoga/
 # announcement: 'Yoga Update: Due to soggy lawns and rainy weather, yoga is canceled for today (FRI MAY 10). Apologies for the inconvenience🙏'
-# announcement: Today’s yoga reTREAT will move to the Performance Lawn (near Hill St). See you there! 12:15pm to 1pm
+announcement: "June 26 & 28: Yoga is relocating to the [Community Terrace](/areas/) between Hill + Broadway 🧘🏻‍♂️"
 ---
 
 <nav markdown="1">
@@ -21,20 +21,24 @@ _<small>Year-round, except on holidays</small>_
 
 Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.
 
-## Location
+<main markdown="1">
 
-Grand Park’s [Performance Lawn](/performance-lawn/) _(between Grand and Hill)_
+## Where
+
+Grand Park’s [Community Terrace](/areas/) _(between Hill and Broadway)_
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)
 </p>
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
 
-<figure>
-  <img src="/uploads/programs/yoga-2.jpg" alt="Yoga" height="500" />
-</figure>
+<div></div>
+
+<div></div>
 
 ### Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.
+
+</main>

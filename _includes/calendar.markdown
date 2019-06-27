@@ -23,7 +23,7 @@
         <h4>Yoga reTREAT</h4>
         <p>Every Wednesday &amp; Friday</p>
       </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

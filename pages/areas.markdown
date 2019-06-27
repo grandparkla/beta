@@ -45,6 +45,8 @@ All areas of the park are open daily. Just drop by for a picnic or a splash!
 * [Map of the park](#map)
 </nav>
 
+<main markdown="1" class="lime-light">
+
 ### Between Grand Avenue and Hill Street
 
 _(close to The Music Center)_
@@ -78,9 +80,7 @@ _(close to City Hall)_
 *   [Off-leash Dog Run](/dog-run/)
 </nav>
 
-
 * * *
-
 
 ## Map of the Park <a id="map"></a>
 
@@ -91,6 +91,10 @@ _(close to City Hall)_
   <img src="/assets/images/map.png" height="300" style="width: 35em; height: auto; max-width: 100%" alt="Map of Grand Park" />
 </a>
 </figure>
+
+
+
+</main>
 
 
 

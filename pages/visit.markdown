@@ -40,7 +40,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
-<main markdown="1">
+<main markdown="1" class="lime-light">
 
 ## Closed areas
 

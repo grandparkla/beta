@@ -39,7 +39,7 @@ main > h1 + nav {
 Rent the park
 ==================
 
-<div></div>
+<main markdown="1" class="sky-light">
 
 ## Host an event
 
@@ -59,7 +59,9 @@ These steps will help you get started:
 [Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
 </p>
 
-<main markdown="1" class="sky">
+</main>
+
+<main markdown="1" class="sky-light">
 
 {% if site.use_illustrations %}
   <style>
@@ -107,13 +109,19 @@ Learn about filming in the park and tell us a little bit about your planned phot
 [Film & photoshoot inquiry form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform)
 </p>
 
+<div></div>
+
 </main>
+
+
 
 <main markdown="1" class="sky">
 
 ## Questions
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
+
+
 
 
 </main>
