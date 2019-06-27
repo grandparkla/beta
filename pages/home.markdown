@@ -151,31 +151,60 @@ main > h1.welcome {
 
 <p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and to attend Grand Park’s free year-round events & activities!</p>
 
+{% if site.events_today %}
+## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
+
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Today at <time datetime="11:00">11 a.m.</time></p>
+      </div>
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Today at <time datetime="12:15">12:15 p.m.</time></p>
+      </div>
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
+{% elsif site.events_tomorrow %}
+## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
+
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Tomorrow at <time datetime="11:00">11 a.m.</time></p>
+      </div>
+      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <!-- <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Tomorrow at <time datetime="12:15">12:15 p.m.</time></p>
+      </div>
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li> -->
+</ol>
+{% endif %}
+
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
-    <a href="/gardens/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Gardens</h4>
-        <p>
-          Open today
-        </p>
-      </div>
-      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/dog-run/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Dog Run</h4>
-        <p>
-          Open today
-        </p>
-      </div>
-      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
-    </a>
-  </li>
   <li>
     <a href="/4thofjuly/">
       <div>
@@ -200,53 +229,6 @@ main > h1.welcome {
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <!-- <li>
-    <a href="/food-trucks/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <p>Today at <time datetime="11:00">11 a.m.</time></p>
-      </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-  <li>
-    <a href="/yoga/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <p>Today at <time datetime="12:15">12:15 p.m.</time></p>
-      </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
-    </a>
-  </li> -->
-  <!-- <li>
-    <a href="/4thofjuly/">
-      <div>
-        <h3>4th of July</h3>
-        <h4>4th of July Block Party</h4>
-        <p>
-          Thursday, July 4
-        </p>
-      </div>
-      <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
-    </a>
-  </li>
-    <li>
-      <a href="/sunday-sessions/">
-        <div>
-          <h3>Sunday Sessions</h3>
-          <h4>Music & Dance Sessions</h4>
-          <p>
-            Sunday, July 21
-          </p>
-        </div>
-        <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
-      </a>
-    </li> -->
   <li>
     <a href="/food-trucks/">
       <div>
@@ -269,6 +251,30 @@ main > h1.welcome {
         </p>
       </div>
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Dog Run</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/gardens/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

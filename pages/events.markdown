@@ -34,11 +34,11 @@ Relax, have a picnic, play in the splash pad, and enjoy our free events & activi
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <span class="avoid-break">and more!</span>
 
 <nav markdown="1">
-<!--
+{% if site.events_today -%}
 *   [Today](/events/#today)
--->
-
+{% elsif site.events_tomorrow -%}
 *   [Tomorrow](/events/#tomorrow)
+{% endif -%}
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -58,10 +58,12 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 </nav>
 -->
 
-<!--
-## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+{% if site.events_today %}
+
+## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
+
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/food-trucks/">
       <div>
@@ -83,9 +85,9 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
     </a>
   </li>
 </ol>
--->
 
-## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
+{% elsif site.events_tomorrow %}
+## <a id="tomorrow"></a> Tomorrow at <span class="avoid-break">Grand Park</span>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -98,11 +100,46 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
       <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
+  <!-- <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Tomorrow at <time datetime="12:15">12:15 p.m.</time></p>
+      </div>
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+    </a>
+  </li> -->
 </ol>
+{% endif %}
+
+<!--
+* * *
+
+## Today
+
+There is one event scheduled for today.
+
+<ol class="event-list" style="grid-template-columns:  1fr;">
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Sunday Sessions</h3>
+        <h4>Music & Dance Sessions</h4>
+        <p>
+          Sunday, June 23
+        </p>
+      </div>
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
+
+-->
 
 <div></div>
 
-## Every day <a id="daily"></a>
+## <a id="daily"></a> Every day
 
 These [areas of the park](/areas/) are open daily. Just drop by!
 
@@ -113,7 +150,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Dog Run</h4>
         <p>
-          Open today
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
@@ -125,7 +162,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Performance Lawn</h4>
         <p>
-          Open today
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
@@ -139,7 +176,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         <h3>Areas of the Park</h3>
         <h4>Gardens</h4>
         <p>
-          Open today
+          Open daily
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />

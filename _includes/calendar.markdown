@@ -48,7 +48,7 @@
     </a>
   </li>
 </ol>
-<!-- <ol class="event-list" style="grid-template-columns: 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -61,7 +61,7 @@
       <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol> -->
+</ol>
 
 
     
