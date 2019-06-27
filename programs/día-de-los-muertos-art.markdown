@@ -59,6 +59,8 @@ Grand Park
 [Directions to the Park](/directions/)
 </p>
 
+<main markdown="1">
+
 ## About
 
 Grand Park celebrates the traditions of Día de los Muertos with multiple ways to experience and learn about the holiday. In partnership with Self-Help Graphics & Art and Lore Media & Art, the park will present 50 altars and art installations created by local artists and community groups that reflect the theme _Looking to the Past to Build the Future._
@@ -75,7 +77,9 @@ LORE Media & Arts founded by Robert Ramirez is a 15-year-old cultural and specia
 
 * * *
 
-<main markdown="1" class="sky">
+</main>
+
+<main markdown="1" class="strawberry">
 
 * * *
 

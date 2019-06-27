@@ -44,7 +44,7 @@
 
 main {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 1.375;
+  /* line-height: 1.375; */
 }
 .event-list li h4 {
   font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -131,6 +131,8 @@ main h2 {
   align-self: start;
   justify-self: end;
   display: table;
+  margin-top: 1.4em;
+  /* margin-top: 1.25em; */
 }
 main h2.logo {
   border-width: 0.025em 0;

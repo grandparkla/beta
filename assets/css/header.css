@@ -363,7 +363,7 @@ header svg {
   }
 
 
-  main > h2 + * {
+  main > h2 + *:not(h2) {
     margin-top: 3.375rem;
   }
   main > h2 + h3 {
@@ -484,7 +484,8 @@ main > nav:first-child a {
   text-decoration: none;
 }
 main > nav:first-child a::after {
-  content: "//";
+  /* content: "//"; */
+  content: "/";
   padding-left: 0.5em;
   padding-right: 0.25em;
   opacity: 0.25;

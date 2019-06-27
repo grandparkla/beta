@@ -57,9 +57,11 @@ Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and H
 [Directions to the Park](/directions/)
 </p>
 
-## Cost
+## Free / Gratis
 
 This is a _free_ event. There’s no cost to attend.
+
+<main markdown="1">
 
 ## About
 
@@ -106,7 +108,9 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
 
 * * *
 
-<main markdown="1" class="sky">
+</main>
+
+<main markdown="1" class="strawberry">
 
 * * *
 

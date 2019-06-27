@@ -61,6 +61,8 @@ Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and H
 
 This is a _free_ event. There’s no cost to attend.
 
+<main markdown="1">
+
 ## About
 
 Baile de los Muertos takes its cue from the celebration of Dia de los Muertos and allows us to celebrate in the ancient and joyful ritual of a dance party. Take the opportunity to view the altars and installations from our week long celebration while enjoying the energy of the drum beats. Gather, dance, and celebrate to remember friends & family who have passed before us… Celebrate life in the present, only to join our transitioned loved ones in the afterlife… which we hope to see them dancing.
@@ -80,7 +82,9 @@ Next level rhythms by the SUBSUELO crew with special guests: El Conjunto Nueva O
 
 * * *
 
-<main markdown="1" class="sky">
+</main>
+
+<main markdown="1" class="strawberry">
 
 * * *
 

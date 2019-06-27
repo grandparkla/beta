@@ -95,7 +95,8 @@
   <style>
     main h2 {
       font-family: cooper-black-std, "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      /* text-transform: none; */
+      /* text-transform: none;
+      border-width: 0; */
     }
     main dt,
     main dd {
@@ -131,6 +132,12 @@
   </style>
   {% if site.use_theme_sunday %}
   <link rel="stylesheet" href="/assets/css/sunday-sessions.css?v={{ site.version }}" />
+  <style>
+    main h2 {
+      text-transform: none;
+      border-width: 0;
+    }
+  </style>
   {% else %}
   <style>
     main hr {
@@ -231,10 +238,10 @@
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
-  main main.strawberry-light hr:first-child + h2,
+  /* main main.strawberry-light hr:first-child + h2,
   main main:not([class]) hr:first-child + h2 {
     border-top: 0.05em solid var(--background-color);
-  }
+  } */
 
   {% endif %}
   
@@ -301,9 +308,9 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
 
-  main main.sky-light hr:first-child + h2 {
+  /* main main.sky-light hr:first-child + h2 {
     border-top: 0.05em solid var(--background-color);
-  }
+  } */
 
 
   /*
