@@ -457,6 +457,12 @@ main main > ol:not(.event-list),
 main main > ul {
   color: var(--midnight);
 }
+main main .event-list li[data-type*="Lease"] {
+  --text-color: var(--sky);
+}
+main main .event-list li[data-type*="Partner"] {
+  --text-color: var(--lime);
+}
 
 main .logos + main {
   margin-top: -6em;

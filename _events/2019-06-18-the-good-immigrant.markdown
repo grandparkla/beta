@@ -1,7 +1,7 @@
 ---
 title: 'The Good Immigrant: An Evening of Storytelling'
 type: Partner event
-image: /assets/images/events/strawberry.svg
+image: /assets/images/events/lime.svg
 ---
 
 <small>In partnership with The Music Center, PEN America, and Scripps Presents</small> The Good Immigrant <small>An Evening of Storytelling</small>

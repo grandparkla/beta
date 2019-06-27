@@ -12,8 +12,8 @@ use_theme_sunday: true
 use_illustrations: true
 use_sunshine: false
 
-events_today: false
-events_tomorrow: true
+events_today: true
+events_tomorrow: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 

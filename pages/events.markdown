@@ -74,7 +74,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
       <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
     </a>
   </li>
-  <li>
+  <!-- <li>
     <a href="/yoga/">
       <div>
         <h3>Lunch à la Park</h3>
@@ -83,7 +83,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
       </div>
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
 </ol>
 
 {% elsif site.events_tomorrow %}

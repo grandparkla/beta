@@ -60,11 +60,40 @@ These areas of the park are currently closed or are closing soon.
 
 <div></div>
 
+<main markdown="1" class="lime">
+
+{% if site.use_illustrations %}
+  <style>
+  .camera {
+    grid-column: -3/-1;
+    grid-row: 1/5;
+  }
+  .camera + h2 + p,
+  .camera + h2 + p + p {
+    grid-column-end: -3;
+  }
+  .camera svg {
+    height: 20vmax;
+    width: auto;
+    color: inherit;
+  }
+  .camera svg,
+  .camera svg path {
+    fill: currentColor;
+  }
+  </style>
+
+  <div class="camera">
+  {% include backgrounds/park-signs.svg %}
+  </div>
+{% endif %}
+
 Directions
 ----
 
 {% include directions.markdown %}
 
+</main>
 
 <!--
 *   [Map of the Park](#map)

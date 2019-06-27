@@ -35,6 +35,18 @@
   object-fit: cover;
 }
 
+.event-list a > svg {
+  height: 20vmax;
+  width: auto;
+  color: var(--snow);
+  align-self: center;
+  justify-self: center;
+}
+.event-list a > svg,
+.event-list a > svg path {
+  fill: currentColor;
+}
+
 @media(min-width: 40em) {
   .event-list {
     display: grid;
@@ -72,8 +84,8 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background: var(--strawberry);
-  background: black;
+  /* background: var(--strawberry);
+  background: black; */
   color: white;
   text-decoration: none;
 }
