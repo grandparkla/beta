@@ -149,7 +149,7 @@ main > h1.welcome {
 
 {% include welcome.markdown %}
 
-<p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and to attend Grand Park’s free year-round events & activities!</p>
+<p>All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round events & activities!</p>
 
 {% if site.events_today %}
 ## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
@@ -204,6 +204,8 @@ main > h1.welcome {
 </ol>
 {% endif %}
 
+## Happening soon
+
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/4thofjuly/">
@@ -229,6 +231,11 @@ main > h1.welcome {
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+  
+## Lunch à la park
+  
+<ol class="event-list">
   <li>
     <a href="/food-trucks/">
       <div>
@@ -253,6 +260,11 @@ main > h1.welcome {
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+  
+## Every day
+
+<ol class="event-list">
   <li>
     <a href="/dog-run/">
       <div>
