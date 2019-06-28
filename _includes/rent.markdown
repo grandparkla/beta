@@ -1,4 +1,4 @@
-## Host an event
+## <a id="event"></a> Host an event
 
 ### The park is open to everyone!
 
@@ -48,7 +48,7 @@ These steps will help you get started:
   </div>
 {% endif %}
 
-## Filming & photography
+## <a id="filming-photography"></a> Filming & photography
 
 ### Need to film in Grand Park?
 
@@ -64,7 +64,7 @@ Learn about filming in the park and tell us a little bit about your planned phot
 
 <div></div>
 
-## Rental Questions
+## <a id="questions"></a> Rental Questions
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
 
