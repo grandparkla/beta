@@ -2,6 +2,7 @@
 title: Paradise in the Park
 type: Lease event
 image: /assets/images/events/sky.svg
+featured: false
 
 # announcement: Grand Park’s dog run, playground and restrooms near the Event Lawn (by Spring St.) will be closed at 2 pm on **Saturday, June 1st** for the [Paradise in the Park](/events/2019/06/01/paridise-in-the-park/) event. All amenities reopen on Sunday, June 2nd by 8 am.
 ---

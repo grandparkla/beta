@@ -2,6 +2,7 @@
 title: 'The Good Immigrant: An Evening of Storytelling'
 type: Partner event
 image: /assets/images/events/lime.svg
+featured: false
 ---
 
 {% if site.use_illustrations %}

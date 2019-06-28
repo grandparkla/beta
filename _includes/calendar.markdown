@@ -6,7 +6,7 @@
 ## June 2019
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
+  <!-- <li>
     <a href="/food-trucks/">
       <div>
         <h3>Lunch à la Park</h3>
@@ -25,11 +25,12 @@
       </div>
       <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
   {% for event in data_list %}
     {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
     {% if month_year == "2019-06" %}
-    <li data-type="{{ event.type }}">
+    {% unless event.featured == false %}
+    <li data-type="{{ event.type }}" style="grid-column: span 2;">
       <a href="{{ event.url }}">
         <div>
           <h3>{{ event.type }}</h3>
@@ -52,10 +53,11 @@
         {% endif %}
       </a>
     </li>
+    {% endunless %}
     {% endif %}
   {% endfor %}
 </ol>
-<ol class="event-list" style="grid-template-columns: 1fr;">
+<!-- <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -68,7 +70,7 @@
       <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
+</ol> -->
 
 
     

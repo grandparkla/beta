@@ -6,8 +6,8 @@ title: Grand Park
 permalink: pretty
 future: true # https://jekyllrb.com/docs/upgrading/2-to-3/#future-posts
 
-hide_from_search_engines: true
-use_analytics: false
+hide_from_search_engines: false
+use_analytics: true
 
 use_theme_sunday: true
 use_illustrations: true
@@ -15,7 +15,7 @@ use_sunshine: false
 use_dark_on_light: false
 use_unit: true
 
-events_today: true
+events_today: false
 events_tomorrow: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
@@ -58,5 +58,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.143
+version: 0.0.144
 
