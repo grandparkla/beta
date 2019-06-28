@@ -2,7 +2,7 @@
 
 {% if site.use_illustrations %}
 <i class="girl">
-{% include backgrounds/magic-forest.svg %}
+{% include backgrounds/enchanted-woods.svg %}
 </i>
 {% endif %}
 

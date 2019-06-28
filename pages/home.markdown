@@ -109,6 +109,12 @@ main > h1.welcome span {
 main > h1.welcome span svg {
   display: none;
 }
+/*
+main h1,
+main h1 + h2 + p {
+  grid-column-end: -4;
+}
+*/
 </style>
 
 <style>

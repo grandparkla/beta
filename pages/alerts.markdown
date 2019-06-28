@@ -29,7 +29,7 @@ main nav:first-child {
 </style>
 
 <div class="girl">
-{% include backgrounds/hard-hat-girl.svg %}
+{% include backgrounds/fountain.svg %}
 </div>
 {% endif %}
 
