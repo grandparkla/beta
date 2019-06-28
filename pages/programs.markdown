@@ -181,7 +181,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
     <a href="/día-de-los-muertos-art/">
       <div>
         <h3>Día de los Muertos</h3>
-        <h4>Alters & Art Installations</h4>
+        <h4>Altars & Art Installations</h4>
         <!-- <p>October 28 – November 4, 2018</p> -->
       </div>
       <img src="/uploads/programs/dia-de-los-muertos.jpg" height="300" alt="" />

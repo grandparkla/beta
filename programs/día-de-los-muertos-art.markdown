@@ -1,5 +1,5 @@
 ---
-title: Alters & Art Installations / Día de los Muertos
+title: Altars & Art Installations / Día de los Muertos
 permalink: /día-de-los-muertos-art/
 ---
 
@@ -42,7 +42,7 @@ main > h1 + nav {
 </div>
 {% endif %}
 
-Looking to the Past to Build the Future <small>alters & art installations</small>
+Looking to the Past to Build the Future <small>Altars & Art Installations</small>
 ==============================================================
 
 October 28 through November 4, 2018

@@ -158,6 +158,9 @@ main > h1.welcome {
     margin-bottom: 1.5em;
   }
 }
+
+
+
 </style>
 
 {% endif %}
@@ -166,6 +169,10 @@ main > h1.welcome {
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
+
+## Welcome to Grand Park
+
+All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
 <main markdown="1">
 
