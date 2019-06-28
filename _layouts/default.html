@@ -546,7 +546,7 @@
   {% endunless %}
 
 
-  {% unless page.stylesheets %}
+  {% unless page.stylesheets and page.url == "/sunday-sessions/" %}
   {% if site.use_unit %}
   
     main,
