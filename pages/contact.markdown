@@ -36,111 +36,42 @@ main > nav:first-child {
 Contact us
 ==========
 
-<nav markdown="1">
-*   [For members of the media](/for-media/)
-*   [For vendors](/for-vendors/)
-*   [Sponsorship](/sponsorship/)
-</nav>
+{% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
+{{ markdown_text | markdownify }}
 
 <main markdown="1" class="sky-light">
 
-## Mailing address
+## Media Contact
 
-Grand Park  
-200 N Grand Avenue  
-Los Angeles, CA 90012
+For information about Grand Park, contact:
 
-## Have a question?
+Lisa Ducore  
+[lducore@musiccenter.org](mailto:lducore@musiccenter.org)  
+213-972-3328
 
-Please call us or send us an email.
-
-213-972-8080  
-[grandparkinfo@musiccenter.org](mailto:grandparkinfo@musiccenter.org)
-
-* * *
+Get more information [for members of the media](/for-media/).
 
 </main>
 
-<main markdown="1" class="sky-light">
 
-* * *
+<!-- <main markdown="1" class="lime">
 
-## Rent the park
+## For Vendors
 
-## Host an event
+### Grand Park is currently working with local vendors to enhance events.
 
-### The park is open to everyone!
+All needs are met at the moment, _but_ if you’d like to let us know who you are and what you sell, please fill out and submit the [vendor inquiry form](https://docs.google.com/forms/d/1nETieVIcp_6Ijb_waW-UNpZO08NzK0wS7KmAkdJ98TE/viewform).
 
-Individuals, companies and organizations are welcome to rent space for public or private events at the park. We host anything from weddings to entire graduations.
-
-#### Interested in hosting your event at Grand Park?
-
-These steps will help you get started:
-
-1. Check out the [frequently asked questions](/uploads/faqs-january-2016.pdf).
-2. Fill out and submit the [event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form).
-3. Sit back and relax.<br /><small><i>Many thanks for your patience.</i></small>
+<small>We will contact you only if the opportunity arises and there is a need for what you’re selling.</small>
 
 <p class="action" markdown="1">
-[Event inquiry form](https://docs.google.com/forms/d/1dbi1DBdRRkFe5EzJ7tjhtt9VPhrnaVtFtNTQiEffYvY/viewform?usp=send_form)
+[Vendor inquiry form](https://docs.google.com/forms/d/1nETieVIcp_6Ijb_waW-UNpZO08NzK0wS7KmAkdJ98TE/viewform)
 </p>
 
-</main>
-
-<main markdown="1" class="sky-light">
-
-{% if site.use_illustrations %}
-  <style>
-  .camera {
-    grid-column: -3/-1;
-    grid-row: 1/6;
-  }
-  .camera + h2 + h3,
-  .camera + h2 + h3 + p,
-  .camera + h2 + h3 + p + p,
-  .camera + h2 + h3 + p + p + p {
-    grid-column-end: -3;
-  }
-  .camera svg {
-    height: 20vmax;
-    width: auto;
-    color: inherit;
-  }
-  .camera svg,
-  .camera svg path {
-    fill: currentColor;
-  }
-  </style>
-
-  <div class="camera">
-  {% include backgrounds/camera.svg %}
-  </div>
-{% endif %}
-
-## Filming & photography
-
-### Need to film in Grand Park?
-
-Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc.](https://www.filmla.com/), the entity authorized by the Los Angeles County Board of Supervisors to process film permits. 
-
-Commercial film and photo shoots also need to be scheduled with our rentals team.
-
-Learn about filming in the park and tell us a little bit about your planned photo shoot to help us help you. Please fill out and submit the [inquiry form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform).
-
-<p class="action" markdown="1">
-[Film & photoshoot inquiry form](https://docs.google.com/forms/d/1WXV1JURZdfIIjBqFqwSWOQ8pyboJRp9_0M_zUio4QiE/viewform)
-</p>
-
-<div></div>
-
-## Rental questions
-
-_If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
+</main> -->
 
 
-</main>
-
-<main markdown="1" class="lime">
+<main markdown="1" class="lime-light">
 
 ## Sponsorship
 
@@ -151,3 +82,4 @@ Please send an email to [sponsorship@musiccenter.org](sponsorship@musiccenter.or
 <div></div>
 
 </main>
+

@@ -46,99 +46,10 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
-
-<!--
-*   [Eat & Drink](/eat-drink/)
--->
 </nav>
 
-<!-- 
-Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and more!
-
-<nav markdown="1">
-*   [Lunch à la Park](/lunch/)
-*   [Summer season](/)
-</nav>
--->
-
-
-{% if site.events_today %}
-
-## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
-
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <!-- <li>
-    <a href="/food-trucks/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <p>Today at <time datetime="11:00">11 a.m.</time></p>
-      </div>
-      <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
-    </a>
-  </li> -->
-  <li>
-    <a href="/yoga/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <p>Today at <time datetime="12:15">12:15 p.m.</time></p>
-      </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-
-{% elsif site.events_tomorrow %}
-## <a id="tomorrow"></a> Tomorrow at <span class="avoid-break">Grand Park</span>
-
-<ol class="event-list" style="grid-template-columns: 1fr;">
-  <!-- <li>
-    <a href="/food-trucks/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Food Trucks</h4>
-        <p>Tomorrow at <time datetime="11:00">11 a.m.</time></p>
-      </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
-    </a>
-  </li> -->
-  <li>
-    <a href="/yoga/">
-      <div>
-        <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <p>Tomorrow at <time datetime="12:15">12:15 p.m.</time></p>
-      </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-{% endif %}
-
-<!--
-* * *
-
-## Today
-
-There is one event scheduled for today.
-
-<ol class="event-list" style="grid-template-columns:  1fr;">
-  <li>
-    <a href="/sunday-sessions/">
-      <div>
-        <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
-        <p>
-          Sunday, June 23
-        </p>
-      </div>
-      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-
--->
+{% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
+{{ today_tomorrow | markdownify }}
 
 <div></div>
 
