@@ -13,6 +13,7 @@ use_theme_sunday: true
 use_illustrations: true
 use_sunshine: false
 use_dark_on_light: false
+use_unit: true
 
 events_today: false
 events_tomorrow: true
@@ -57,5 +58,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.136
+version: 0.0.137
 

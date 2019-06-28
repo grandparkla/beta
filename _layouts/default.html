@@ -546,6 +546,54 @@
   {% endunless %}
 
 
+  {% unless page.stylesheets %}
+  {% if site.use_unit %}
+  
+    main,
+    main h2,
+    .event-list li h4 {
+      font-family: "Unit", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .event-list li h4 {
+      font-weight: bold;
+    }
+    main > nav:first-child,
+    main h2 {
+      font-weight: bold;
+      border-width: 0;
+    }
+
+    main > h1 {
+      color: var(--text-color-secondary) !important;
+    }
+    main > h1 small:last-of-type {
+      font-weight: 600;
+    }
+
+    @media (min-width: 60em) {
+      main > h1 {
+        font-size: 7vw;
+        line-height: 1;
+      }
+      main > h1 small:last-of-type {
+        display: block;
+        font-size: 2rem;
+      }
+    }
+
+    h3 {
+      font-weight: bold;
+      font-style: normal;
+    }
+
+    main > h1.welcome {
+      text-transform: none;
+      font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    
+  {% endif %}
+  {% endunless %}
+
   </style>
   {% endif %}
 
