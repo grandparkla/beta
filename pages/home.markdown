@@ -229,15 +229,15 @@ main > h1.welcome {
 
 <ol class="event-list">
   <li>
-    <a href="/dog-run/">
+    <a href="/splash-pad/">
       <div>
         <h3>Areas of the Park</h3>
-        <h4>Dog Run</h4>
+        <h4>Splash Pad</h4>
         <p>
           Open daily
         </p>
       </div>
-      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
+      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -250,6 +250,30 @@ main > h1.welcome {
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/dog-run/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Dog Run</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/dog-run.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/performance-lawn/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Performance Lawn</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

@@ -61,6 +61,30 @@ These [areas of the park](/areas/) are open daily. Just drop by!
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
+    <a href="/splash-pad/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Splash Pad</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/gardens/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Gardens</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
     <a href="/dog-run/">
       <div>
         <h3>Areas of the Park</h3>
@@ -82,20 +106,6 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         </p>
       </div>
       <img src="/uploads/areas/performance-lawn-4.jpg" height="300" alt="" />
-    </a>
-  </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr">
-  <li>
-    <a href="/gardens/">
-      <div>
-        <h3>Areas of the Park</h3>
-        <h4>Gardens</h4>
-        <p>
-          Open daily
-        </p>
-      </div>
-      <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
