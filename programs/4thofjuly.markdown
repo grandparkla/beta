@@ -112,11 +112,11 @@ body > main > h1:first-of-type img {
     transform: translateX(-43%);
     margin-top: 0.15em;
   }
-  body > main > main:first-of-type {
-    position: relative;
-    z-index: 1;
-    padding-top: 3em;
-  }
+}
+body > main > main:first-of-type {
+  position: relative;
+  z-index: 1;
+  padding-top: 3em;
 }
 </style>
 
@@ -395,6 +395,7 @@ featuring _Southern Soul Spinners, Blaq Pages, Foreigner,_ and _DJ Lez Lee_
   </figure>
 </div>
 
+* * *
 
 </main>
 
@@ -424,7 +425,9 @@ See the [4th of July Community Letter](/uploads/programs/4thofjuly/4thofjuly-201
 
 
 
-<main markdown="1" class="sky">
+* * *
+
+<main markdown="1" class="strawberry">
 
 * * *
 

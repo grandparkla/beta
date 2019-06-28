@@ -38,7 +38,7 @@ Rent the park
 * [Questions](#questions)
 </nav>
 
-<main markdown="1" class="sky">
+<main markdown="1" class="sky-light">
 
 {% capture markdown_text %}{% include rent.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}

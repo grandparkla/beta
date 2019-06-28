@@ -43,7 +43,7 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 -->
 </nav>
 
-<main markdown="1" class="sky">
+<main markdown="1" class="sky-light">
 
 * * *
 
