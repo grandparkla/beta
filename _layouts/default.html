@@ -554,6 +554,10 @@
     .event-list li h4 {
       font-family: "Unit", "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
+    /* main nav,
+    main h2 {
+      font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    } */
     .event-list li h4 {
       font-weight: bold;
     }
@@ -562,9 +566,14 @@
       font-weight: bold;
       border-width: 0;
     }
+    main > nav:first-child {
+      position: relative;
+      z-index: 1;
+    }
 
     main > h1 {
       color: var(--text-color-secondary) !important;
+      line-height: 1;
     }
     main > h1 small:last-of-type {
       font-weight: 600;
@@ -581,14 +590,15 @@
       }
     }
 
-    h3 {
+    /* h3 {
       font-weight: bold;
       font-style: normal;
-    }
+    } */
 
     main > h1.welcome {
       text-transform: none;
       font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: bold;
     }
     
   {% endif %}
