@@ -13,5 +13,5 @@ Job Opportunities
 ### Join the Grand Park team!
 
 <p class="action" markdown="1">
-[MarketingCoordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
+[Marketing Coordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
 </p>
