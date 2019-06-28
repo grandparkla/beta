@@ -190,11 +190,11 @@ _<small>Fireworks at 9 p.m.</small>_
 * [Safety](#safety)
 * [Food for sale](#food)
 * [Featured artists](#artists)
+* [Transportation](#transportation)
 
 {% comment %}
 * [Schedule](#event-schedule)
 * [Map](#event-map)
-* [Transportation](#transportation)
 {% endcomment %}
 </nav>
 
@@ -380,11 +380,35 @@ _(More updates to follow.)_
 
 * * *
 
-</main>
-
-<main markdown="1" class="lime" style="position: relative; z-index: 1;">
 
 * * *
+
+## Transportation
+
+The event will take place at Grand Park + The Music Center:<br />
+[200 North Grand Avenue<br />Los Angeles, California 90012](https://www.google.com/maps/place/Grand%20Park%20LA/@34.056329,-118.246771,16z/data=!4m5!3m4!1s0x0:0xebf5893d7caaf0de!8m2!3d34.0563289!4d-118.2467713?ll=34.056329,-118.246771&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=17002646865384763614)
+
+## Street Closures
+
+Street closures will begin taking effect the evening of Tuesday, July 3. All streets will reopen by 6 a.m. on Friday, July 5.
+
+See the [4th of July Community Letter](/uploads/programs/4thofjuly/4thofjuly-2019-community-letter.pdf) for more details about streets that will be closed during the event.
+
+<figure>
+<div>
+<a href="(/uploads/programs/4thofjuly/4thofjuly-2019-community-letter.pdf">
+<img src="/uploads/programs/4thofjuly/street-closures.png" width="500" alt="Olive Street, Hill Street, Broadway, and Spring Street will be closed in the area around Grand Park (between Temple Street and 2nd Street). 1st Street and 2nd street will also be closed in the area around Grand Park (between Grand Avenue and Main Street)." />
+</a>
+</div>
+
+</figure>
+
+
+
+<main markdown="1" class="sky">
+
+* * *
+
 
 ## More events <span class="avoid-break">at Grand Park</span>
 

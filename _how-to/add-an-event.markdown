@@ -25,9 +25,7 @@ image: /assets/images/events/lime.svg
 <small>Partner event</small> Title for this event <small>Sub title (optional)</small>
 =====================================================================================
 
-Tuesday, June 18, 2019 from 7 p.m. to 8:30 p.m.
-
-* * *
+Sunday, January 1, 2020 from 7 p.m. to 8:30 p.m.
 
 ## Where
 
@@ -37,18 +35,15 @@ Grand Park
 [Directions to the Park](/directions/)
 </p>
 
-## About
+## Example heading
 
-This is the first paragraph of text.
-
-## And here’s an example of a second-level heading
-
-To see more examples, try opening some of the other pages–or read the markdown guide:
-https://guides.github.com/features/mastering-markdown/
+Here’s a paragraph of text. To see more examples, try opening some of the other pages–or read the [markdown guide](https://guides.github.com/features/mastering-markdown/)
 
 ```
 
 *You can copy one of the other [event pages](https://github.com/grandparkla/grandpark/tree/master/_events) or the [starter template](https://github.com/grandparkla/grandpark/tree/master/_events/_starter-template.markdown) to use as a starting point.*
+
+*Or you can fill out this form: [Add an Event](https://beta.grandparkla.org/admin/add-an-event/). This will add your changes to the [staging website](https://github.com/grandparkla/grandpark/blob/master/_how-to/preview-your-changes.markdown).*
 
 5. Press the `Commit changes` button
 

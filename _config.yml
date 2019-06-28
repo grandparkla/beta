@@ -4,6 +4,7 @@ hide_from_search_engines: true
 title: Grand Park
 
 permalink: pretty
+future: true # https://jekyllrb.com/docs/upgrading/2-to-3/#future-posts
 
 hide_from_search_engines: true
 use_analytics: false
@@ -12,6 +13,7 @@ use_theme_sunday: false
 use_illustrations: false
 use_sunshine: false
 use_dark_on_light: false
+use_unit: true
 
 events_today: false
 events_tomorrow: true
@@ -56,5 +58,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.136
+version: 0.0.138
 

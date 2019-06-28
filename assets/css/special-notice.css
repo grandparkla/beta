@@ -35,6 +35,7 @@
   background-color: hsl(192, 67%, 59%); /* blue */
   background-color: var(--strawberry);
   color: var(--snow);
+  font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .special-notice + .special-notice {
   background-color: var(--lime);

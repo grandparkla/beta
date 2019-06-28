@@ -482,7 +482,7 @@ main main > p,
 main main > nav,
 main main > ol:not(.event-list),
 main main > ul,
-main main > dl {
+main main:not([class="sky"]):not([class="lime"]):not([class="strawberry"]) > dl {
   color: var(--midnight);
 }
 /* main main .event-list li[data-type*="Lease"] {
