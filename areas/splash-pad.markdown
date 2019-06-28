@@ -1,7 +1,7 @@
 ---
 title: Splash pad
 permalink: /splash-pad/
-announcement: "The fountain and splash pad will be closed for maintenance and park improvements from Monday, June 24 through Friday, June 28. Thank you for your patience."
+# announcement: "The fountain and splash pad will be closed for maintenance and park improvements from Monday, June 24 through Friday, June 28. Thank you for your patience."
 ---
 
 <nav markdown="1">

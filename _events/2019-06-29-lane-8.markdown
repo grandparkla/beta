@@ -6,7 +6,7 @@ type: Lease Event
 
 # Example A: /assets/images/events/lime.svg
 # Example B: /assets/images/events/strawberry.svg
-image: /assets/images/events/strawberry.svg
+image: /uploads/events/2019-06-29-lane-8.jpg
 ---
 
 <small>Lease Event</small> Lane 8 <small></small>
@@ -16,8 +16,15 @@ Saturday, June 29, 2019 from 2 p.m. to 9 p.m.
 
 ## Where
 
-Grand Park’s [Event Lawn](/areas/)
+Grand Park’s [Event Lawn](/areas/) _(near Spring Street)_
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)
 </p>
+
+<figure>
+  <img src="/uploads/events/2019-06-29-lane-8.jpg" alt="This never happened. Summer Gatherings. Lane 8" height="500" />
+</figure>
+
+### [Lease Events](/rent/) help support free year-round programs in Grand Park.
+

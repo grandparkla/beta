@@ -13,5 +13,5 @@ Job Opportunities
 ### Join the Grand Park team!
 
 <p class="action" markdown="1">
-[Program Manager, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/program_manager__gp_jan2019.pdf)
+[MarketingCoordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
 </p>

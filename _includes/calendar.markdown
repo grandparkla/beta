@@ -39,6 +39,8 @@
             {{ event.date | date: "%A, %B %e" }}
           </p>
         </div>
+        <img src="{{ event.image }}" height="300" alt="" />
+        {% comment %}
         {% if site.use_illustrations %}
           {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
           {% if icon_number == '1' %}
@@ -51,6 +53,7 @@
         {% else %}
           <img src="{{ event.image }}" height="300" alt="" />
         {% endif %}
+        {% endcomment %}
       </a>
     </li>
     {% endunless %}
