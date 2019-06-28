@@ -496,8 +496,10 @@ main .logos + main {
   margin-top: -6em;
 }
 
-main + main {
-  margin-top: -1.5em;
+@media (min-width: 60em) {
+  main + main {
+    margin-top: -1.5em;
+  }
 }
 
 main main hr:first-child {

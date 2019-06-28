@@ -15,8 +15,8 @@ use_sunshine: false
 use_dark_on_light: false
 use_unit: true
 
-events_today: false
-events_tomorrow: true
+events_today: true
+events_tomorrow: false
 
 # announcement: The splash pad is closed today (Saturday, September 22, 2018) for a private event.
 
@@ -58,5 +58,5 @@ exclude:
 - Gemfile.lock
 - _node
 
-version: 0.0.139
+version: 0.0.140
 

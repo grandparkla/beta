@@ -112,6 +112,11 @@ body > main > h1:first-of-type img {
     transform: translateX(-43%);
     margin-top: 0.15em;
   }
+  body > main > main:first-of-type {
+    position: relative;
+    z-index: 1;
+    padding-top: 3em;
+  }
 }
 </style>
 
@@ -159,7 +164,7 @@ body > main > h1:first-of-type img {
   </picture>
 </h1>
 
-<main markdown="1" style="position: relative; z-index: 1; padding-top: 3em;" class="strawberry">
+<main markdown="1" class="strawberry-light">
 
 <nav markdown="1">
 * [Things to do](/events/)
@@ -234,13 +239,11 @@ Thursday, July 4, 2019
 
 This is a _free_ event. There’s no cost to attend.
 
-* * *
 
 </main>
 
-<main markdown="1" class="strawberry" style="position: relative; z-index: 1;">
+<main markdown="1" class="strawberry">
 
-* * *
 
 ## Highlights from <span class="avoid-break">past events</span>
 
@@ -261,14 +264,9 @@ This is a _free_ event. There’s no cost to attend.
 </div>
 </figure>
 
-
-* * *
-
 </main>
 
-<main markdown="1" class="sky" style="position: relative; z-index: 1;">
-
-* * *
+<main markdown="1" class="strawberry-light">
 
 ## Safety
 
@@ -325,61 +323,82 @@ _(More updates to follow.)_
 
 </main>
 
-<main markdown="1" class="strawberry" style="position: relative; z-index: 1;">
+<main markdown="1" class="strawberry">
 
 * * *
 
-## Featured artists <a id="artists"></a>
+## <a id="artists"></a> Featured artists
 
-### The backyard stage
+## The backyard stage
 
-#### Boogaloo Assassins
+featuring _Boogaloo Assassins, DJ Linafornia, The Delirians, Earth Arrow,_ and _Victoria La Mala_
 
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/boogaloo-assassins.jpg" alt="Boogaloo Assassins" /></figure>
+<div class="artist-group" markdown="1" style="grid-gap: 1.5em; grid-column: 2/-2;">
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px; grid-column: span 2">
+    <div style="padding-bottom: 66.8% !important;">
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/boogaloo-assassins.jpg" alt="Boogaloo Assassins" />
+    </div>
+  </figure>
 
-#### DJ Linafornia
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/linafornia.jpg" alt="DJ Linafornia" />
+    </div>
+  </figure>
 
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/linafornia.jpg" alt="DJ Linafornia" /></figure>
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/victoria-la-mala.jpg" alt="Victoria La Mala" />
+    </div>
+  </figure>
+
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px; grid-column: span 2">
+    <div style="padding-bottom: 66.8% !important;">
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/the-delirians.jpg" alt="The Delirians" />
+    </div>
+  </figure>
+  
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px; grid-column: span 2">
+    <div style="padding-bottom: 66.8% !important;">
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/earth-arrow.jpg" alt="Earth Arrow" />
+    </div>
+  </figure>
+</div>
+
+## The Front Yard Stage
+
+featuring _Southern Soul Spinners, Blaq Pages, Foreigner,_ and _DJ Lez Lee_
+
+<div class="artist-group" markdown="1" style="grid-gap: 1.5em; grid-column: 2/-2;">
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/southern-soul-spinners.jpg" alt="Southern Soul Spinners" />
+    </div>
+  </figure>
+
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/blaq-pages.jpg" alt="Blaq Pages" />
+    </div>
+  </figure>
+
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/foreigner.jpg" alt="Foreigner" />
+    </div>
+  </figure>
+
+  <figure style="--image-width: 1000; --image-height: 668; margin-top: 1px; margin-bottom: 1px;">
+    <div>
+      <img src="/uploads/programs/4thofjuly/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" />
+    </div>
+  </figure>
+</div>
 
 
-#### The Delirians
+</main>
 
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/the-delirians.jpg" alt="The Delirians" /></figure>
-
-
-#### Earth Arrow
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/earth-arrow.jpg" alt="Earth Arrow" /></figure>
-
-
-#### Victoria La Mala
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/victoria-la-mala.jpg" alt="Victoria La Mala" /></figure>
-
-
-### The Front Yard Stage
-
-#### Southern Soul Spinners 
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/southern-soul-spinners.jpg" alt="Southern Soul Spinners" /></figure>
-
-
-#### Blaq Pages
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/blaq-pages.jpg" alt="Blaq Pages" /></figure>
-
-
-#### Foreigner
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/foreigner.jpg" alt="Foreigner" /></figure>
-
-
-#### DJ Lez Lee
-
-<figure><img src="/uploads/programs/4thofjuly/music-artists/compressed/dj-lez-lee.jpg" alt="DJ Lez Lee" /></figure>
-
-* * *
-
+<main markdown="1" class="strawberry-light">
 
 * * *
 
