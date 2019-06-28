@@ -1,0 +1,283 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8" />
+  <title>Add an event</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.5;
+      font-size: 100%;
+      margin: 0;
+      padding: 3em 3em 6em;
+      background-color: #efefef;
+      background-color: hsl(0, 0%, 98%);
+    }
+    form ul,
+    form li {
+      list-style: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+    form li + li {
+      margin-top: 1.5em;
+    }
+    form li label > span:first-child {
+      display: inline-block;
+      margin-bottom: 0.75em;
+    }
+    form li > small:last-child {
+      display: block;
+      padding: 0.75rem 1.5rem;
+      font-style: italic;
+    }
+    input[type="text"],
+    input[type="date"],
+    textarea {
+      border-width: 0;
+      padding: 1.5em 1.5em;
+      font-size: inherit;
+      font-family: inherit;
+      color: inherit;
+      align-self: start;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .url-preview {
+      opacity: 0.5;
+    }
+    h1 {
+      text-align: center;
+    }
+    h1 + p {
+      text-align: center;
+      margin-bottom: 4.5rem;
+    }
+    .submit {
+      margin-top: 6em;
+      text-align: center;
+    }
+    button {
+      padding: 0.75em 1.5em;
+      background-color: hsl(100, 65%, 65%);
+      color: hsl(0, 0%, 100%);
+      border-width: 0;
+      border-radius: 0.25em;
+      font-size: 1.25em;
+      font-family: inherit;
+      justify-self: start;
+      cursor: pointer;
+    }
+    @media (min-width: 60em) {
+      form li {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+      }
+      form li label {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap: 1.5em;
+      }
+      form li br {
+        display: none;
+      }
+      form li label > span:first-child {
+        justify-self: end;
+        text-align: right;
+        display: block;
+        padding: 1.5em 0;
+      }
+      .has-url-preview {
+        display: grid;
+        grid-template-columns: max-content auto;
+        grid-column-gap: 0.75em;
+      }
+      .has-url-preview > span:first-child {
+        padding-top: 1.5em;
+      }
+      form li > small:last-child {
+      }
+    }
+  </style>
+</head>
+<body>
+
+<form action="https://github.com/grandparkla/grandpark/new/staging/_events" method="get">
+  <h1>Add an event</h1>
+  <p>Learn more about <a href="https://github.com/grandparkla/grandpark/blob/master/_how-to/add-an-event.markdown" target="_blank">how to add an event</a></p>
+  <ul>
+    <li>
+      <label>
+        <span>Event name:</span><br />
+        <input type="text" name="yaml_title" />
+      </label>
+      <br />
+      <small>Example: The Good Immigrant</small>
+    </li>
+    <li>
+      <label>
+        <span>Event type:</span><br />
+        <input type="text" name="yaml_type" />
+      </label>
+      <br />
+      <small>Examples: “Lease event”, “Partner event”</small>
+    </li>
+    <li>
+      <label>
+        <span>Date</span><br />
+        <input type="date" name="yaml_date" placeholder="YYYY-MM-DD" required />
+      </label>
+      <br />
+      <small>
+        The date of this event. (If the event spans multiple days, please enter the first day.)
+      </small>
+    </li>
+    <li>
+      <label>
+        <span>URL:</span><br />
+        <span class="has-url-preview">
+          <span class="url-preview">beta.grandparkla.org/events/</span>
+          <input type="text" name="markdown_filename" required />
+        </span>
+      </label>
+      <br />
+      <small>It’s best to use lowercase letters and dashes instead of spaces or punctuation for your URL.</small>
+    </li>
+  </ul>
+  <p class="submit">
+    This form will prepare a commit for the <a target="_blank" href="https://github.com/grandparkla/grandpark/blob/master/_how-to/preview-your-changes.markdown">staging website</a>.<br /><em>After you press submit, be sure commit your changes on GitHub (the next screen).</em>
+    <br /><br />
+    <button type="submit">Submit</button>
+  </p>
+  <input type="hidden" name="filename" />
+  <input type="hidden" name="value" />
+  <input type="hidden" name="message" />
+</form>
+
+
+<script>
+(function() {
+
+  function stringToURI(str) {
+    return String(str).toLowerCase()
+      .replace(/\s/g, '-')
+      .replace(/\//g, '-')
+      .replace(/\&/g, '-')
+      .replace(/\./g, '-')
+      .replace(/\:/g, '-')
+      .replace(/\|/g, '-')
+      .replace(/\_/g, '-')
+      .replace(/\,/g, "-")
+      .replace(/\+/g, "-")
+      .replace(/\r\n?/, '-')
+      .replace(/\'/g, '')
+      .replace(/\‘/g, '')
+      .replace(/\’/g, '')
+      .replace(/\“/g, '')
+      .replace(/\”/g, '')
+      .replace(/\(/g, '')
+      .replace(/\)/g, '')
+      .replace(/\{/g, '')
+      .replace(/\}/g, '')
+      .replace(/\"/g, '')
+      .replace(/\#/g, '')
+      .replace(/\;/g, '')
+      .replace(/\-\-\-\-/g, '-')
+      .replace(/\-\-\-/g, '-')
+      .replace(/\-\-/g, '-')
+      .replace(/^\-/g, '') // Remove starting dash
+      .replace(/\-$/g, '') // Remove trailing dash
+      .replace(/ /, '') // Remove empty spaces
+      .replace(/ /, '') // Remove empty spaces
+      .trim();
+  }
+
+  function updateFileField(e) {
+    const yamlTitleField = document.querySelector(`[name="yaml_title"]`)
+    const yamlDateField  = document.querySelector(`[name="yaml_date"]`)
+    const markdownFileNameField = document.querySelector(`[name="markdown_filename"]`)
+    if (yamlTitleField.value != null && 
+        yamlTitleField.value != "" && 
+        yamlDateField.value  != null && 
+        yamlDateField.value  != "" &&
+        (markdownFileNameField.value == null || 
+         markdownFileNameField.value == "")) {
+      markdownFileNameField.value = `${stringToURI(yamlDateField.value)}-${stringToURI(yamlTitleField.value)}`
+    }
+  }
+
+  document.querySelector(`[name="yaml_title"]`).addEventListener("blur", updateFileField)
+  document.querySelector(`[name="yaml_date"]`).addEventListener("blur", updateFileField)
+
+})();
+</script>
+
+<script>
+(function() {
+
+function getSafeYamlValue(value) {
+  if (value.includes(":")) {
+    return `'${value}'`
+  } else {
+    return value
+  }
+}
+
+function getFieldValue(fieldName) {
+  return getSafeYamlValue(document.querySelector(`[name="${fieldName}"]`).value)
+}
+
+document.querySelector("form").addEventListener("submit", e => {
+
+const template =
+`---
+title: ${ getFieldValue("yaml_title") }
+
+# Examples: “Lease event”, “Partner event”…
+type: ${ getFieldValue("yaml_type") }
+
+# Example A: /assets/images/events/lime.svg
+# Example B: /assets/images/events/strawberry.svg
+image: /assets/images/events/strawberry.svg
+---
+
+<small>Partner event</small> Title for this event <small>Sub title (optional)</small>
+=====================================================================================
+
+Sunday, January 1, 2020 from 7 p.m. to 8:30 p.m.
+
+## Where
+
+Grand Park
+
+<p class="action" markdown="1">
+[Directions to the Park](/directions/)
+</p>
+
+## Example heading
+
+Here’s a paragraph of text. To see more examples, try opening some of the other pages–or read the [markdown guide](https://guides.github.com/features/mastering-markdown/)
+
+`
+
+const textareaField = document.querySelector(`[name="markdown_content"]`)
+const valueField = document.querySelector(`[name="value"]`)
+valueField.value = template + (textareaField ? textareaField.value : "")
+
+const markdownFileNameField = document.querySelector(`[name="markdown_filename"]`)
+const fileNameField = document.querySelector(`[name="filename"]`)
+fileNameField.value = `_events/${markdownFileNameField.value}.markdown`
+
+const messageField = document.querySelector(`[name="message"]`)
+messageField.value = `Add a new event page for “${ document.querySelector(`[name="yaml_title"]`).value }”`
+
+})
+
+})();
+</script>
+
+</body>
+</html>

@@ -26,36 +26,34 @@
       <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
   </li>
-</ol>
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-{% for event in data_list %}
-  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
-  {% if month_year == "2019-06" %}
-  <li data-type="{{ event.type }}">
-    <a href="{{ event.url }}">
-      <div>
-        <h3>{{ event.type }}</h3>
-        <h4>{{ event.title }}</h4>
-        <p>
-          {{ event.date | date: "%A, %B %e" }}
-        </p>
-      </div>
-      {% if site.use_illustrations %}
-        {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
-        {% if icon_number == '1' %}
-          <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
-          {% include backgrounds/enchanted-woods.svg %}
+  {% for event in data_list %}
+    {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+    {% if month_year == "2019-06" %}
+    <li data-type="{{ event.type }}">
+      <a href="{{ event.url }}">
+        <div>
+          <h3>{{ event.type }}</h3>
+          <h4>{{ event.title }}</h4>
+          <p>
+            {{ event.date | date: "%A, %B %e" }}
+          </p>
+        </div>
+        {% if site.use_illustrations %}
+          {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
+          {% if icon_number == '1' %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/enchanted-woods.svg %}
+          {% else %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/tent.svg %}
+          {% endif %}
         {% else %}
-          <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
-          {% include backgrounds/tent.svg %}
+          <img src="{{ event.image }}" height="300" alt="" />
         {% endif %}
-      {% else %}
-        <img src="{{ event.image }}" height="300" alt="" />
-      {% endif %}
-    </a>
-  </li>
-  {% endif %}
-{% endfor %}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
 </ol>
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
@@ -76,28 +74,35 @@
     
 ## July 2019
 
-{% comment %}
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-{% for event in data_list %}
-  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
-  {% if month_year == "2019-07" %}
-  <li>
-    <a href="{{ event.url }}">
-      <div>
-        <h3>{{ event.type }}</h3>
-        <h4>{{ event.title }}</h4>
-        <p>
-          {{ event.date | date: "%A, %B %e" }}
-        </p>
-      </div>
-      <img src="{{ event.image }}" height="300" alt="" />
-    </a>
-  </li>
-  {% endif %}
-{% endfor %}
-</ol>
-{% endcomment %}
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+  {% for event in data_list %}
+    {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+    {% if month_year == "2019-07" %}
+    <li data-type="{{ event.type }}">
+      <a href="{{ event.url }}">
+        <div>
+          <h3>{{ event.type }}</h3>
+          <h4>{{ event.title }}</h4>
+          <p>
+            {{ event.date | date: "%A, %B %e" }}
+          </p>
+        </div>
+        {% if site.use_illustrations %}
+          {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
+          {% if icon_number == '1' %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/enchanted-woods.svg %}
+          {% else %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/tent.svg %}
+          {% endif %}
+        {% else %}
+          <img src="{{ event.image }}" height="300" alt="" />
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
   <li>
     <a href="/4thofjuly/">
       <div>
@@ -148,27 +153,6 @@
   
 ## August 2019
 
-{% comment %}
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-{% for event in data_list %}
-  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
-  {% if month_year == "2019-08" %}
-  <li>
-    <a href="{{ event.url }}">
-      <div>
-        <h3>{{ event.type }}</h3>
-        <h4>{{ event.title }}</h4>
-        <p>
-          {{ event.date | date: "%A, %B %e" }}
-        </p>
-      </div>
-      <img src="{{ event.image }}" height="300" alt="" />
-    </a>
-  </li>
-  {% endif %}
-{% endfor %}
-</ol>
-{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
@@ -204,33 +188,40 @@
       <img src="/uploads/programs/yoga-3.jpg" height="300" alt="" />
     </a>
   </li>
+  {% for event in data_list %}
+    {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+    {% if month_year == "2019-08" %}
+    <li data-type="{{ event.type }}">
+      <a href="{{ event.url }}">
+        <div>
+          <h3>{{ event.type }}</h3>
+          <h4>{{ event.title }}</h4>
+          <p>
+            {{ event.date | date: "%A, %B %e" }}
+          </p>
+        </div>
+        {% if site.use_illustrations %}
+          {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
+          {% if icon_number == '1' %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/enchanted-woods.svg %}
+          {% else %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/tent.svg %}
+          {% endif %}
+        {% else %}
+          <img src="{{ event.image }}" height="300" alt="" />
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
 </ol>
 
 
 
 ## September 2019
 
-{% comment %}
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-{% for event in data_list %}
-  {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
-  {% if month_year == "2019-09" %}
-  <li>
-    <a href="{{ event.url }}">
-      <div>
-        <h3>{{ event.type }}</h3>
-        <h4>{{ event.title }}</h4>
-        <p>
-          {{ event.date | date: "%A, %B %e" }}
-        </p>
-      </div>
-      <img src="{{ event.image }}" height="300" alt="" />
-    </a>
-  </li>
-  {% endif %}
-{% endfor %}
-</ol>
-{% endcomment %}
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/yoga/">
@@ -266,5 +257,33 @@
       <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
     </a>
   </li>
+  {% for event in data_list %}
+    {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
+    {% if month_year == "2019-09" %}
+    <li data-type="{{ event.type }}">
+      <a href="{{ event.url }}">
+        <div>
+          <h3>{{ event.type }}</h3>
+          <h4>{{ event.title }}</h4>
+          <p>
+            {{ event.date | date: "%A, %B %e" }}
+          </p>
+        </div>
+        {% if site.use_illustrations %}
+          {% capture icon_number %}{% cycle '1', '2' %}{% endcapture %}
+          {% if icon_number == '1' %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/enchanted-woods.svg %}
+          {% else %}
+            <img src="/assets/images/events/strawberry.svg" height="300" alt="" />
+            {% include backgrounds/tent.svg %}
+          {% endif %}
+        {% else %}
+          <img src="{{ event.image }}" height="300" alt="" />
+        {% endif %}
+      </a>
+    </li>
+    {% endif %}
+  {% endfor %}
 </ol>
 
