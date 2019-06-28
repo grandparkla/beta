@@ -125,7 +125,7 @@ L.A.’s finest DJs on select Sundays
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
+        <h4>Day Dance Party</h4>
       </div>
       <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
@@ -297,7 +297,7 @@ Free admission events, on select Sundays and holidays
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
+        <h4>Day Dance Party</h4>
       </div>
       <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>

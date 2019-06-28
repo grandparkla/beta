@@ -468,7 +468,7 @@ See the [4th of July Community Letter](/uploads/programs/4thofjuly/4thofjuly-201
     <a href="/sunday-sessions/">
       <div>
         <h3>Sunday Sessions</h3>
-        <h4>Music & Dance Sessions</h4>
+        <h4>Day Dance Party</h4>
         <p>
           Sunday, July 21
         </p>
