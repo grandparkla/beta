@@ -103,6 +103,7 @@ welcome:
 <style>
 main > h1.welcome span {
   margin: 0;
+  height: 3.75em;
 }
 @media (min-width: 60em) {
   main > h1.welcome span {
@@ -114,7 +115,10 @@ main > h1.welcome span svg {
 }
 main h1,
 main h1 + h2 + p {
-  grid-column-end: -4;
+  grid-column-end: -3;
+}
+main h1 + h2 + p {
+  max-width: 30em;
 }
 </style>
 
