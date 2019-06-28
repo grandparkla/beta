@@ -9,14 +9,14 @@ type: Event
 image: /assets/images/events/strawberry.svg
 ---
 
-<small>Event</small> Lane8 <small></small>
+<small>Event</small> Lane 8 <small></small>
 =====================================================================================
 
 Saturday, June 29, 2019 from 2 p.m. to 9 p.m.
 
 ## Where
 
-Grand Park
+Grand Park’s [Event Lawn](/areas/)
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)

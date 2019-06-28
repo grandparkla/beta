@@ -17,7 +17,7 @@ permalink: /visit/
 main h1,
 main h1 + p,
 main h1 + p + nav {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 </style>
 

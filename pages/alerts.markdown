@@ -18,10 +18,13 @@ permalink: /alerts/
   width: auto;
 }
 main h1,
+main nav:first-child {
+  grid-column-end: -3;
+}
 main h1 + h2 + p,
 main h1 + h2 + p + h2 + p,
 main nav:first-child {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 </style>
 
