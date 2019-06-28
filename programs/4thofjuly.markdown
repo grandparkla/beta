@@ -120,6 +120,38 @@ body > main > main:first-of-type {
 }
 </style>
 
+<style>
+
+main main hr:first-child + h2,
+main hr + h2 {
+  transform: skewY(-5deg);
+  
+  font-size: 5vmax;
+  
+  margin: 1.5em auto 1em;
+  
+  grid-column: 1/-1;
+  
+  max-width: none;
+  
+  text-transform: uppercase;
+  
+  border-width: 0.125em 0;
+  
+  border-style: solid;
+  
+  background-color: unset;
+  
+  color: inherit;
+  
+  display: table;
+  
+  padding: 0.4em 0 0.5em;
+  
+  line-height: 1;
+}
+</style>
+
 <!--
 <style>
   body {
@@ -428,9 +460,6 @@ See the [4th of July Community Letter](/uploads/programs/4thofjuly/4thofjuly-201
 * * *
 
 <main markdown="1" class="strawberry">
-
-* * *
-
 
 ## More events <span class="avoid-break">at Grand Park</span>
 

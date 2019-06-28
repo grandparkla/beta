@@ -517,8 +517,6 @@ Use the drop off/pick up zone near the [1st Street and North Los Angeles Street
 
 <main markdown="1" class="lime">
 
-* * *
-
 ## Highlights from <span class="avoid-break">past events</span>
 
 <figure class="feature">

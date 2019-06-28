@@ -137,6 +137,34 @@
       text-transform: none;
       border-width: 0;
     }
+    main main hr:first-child + h2,
+    main hr + h2 {
+      transform: skewY(-5deg);
+      
+      font-size: 5vmax;
+      
+      margin: 1.5em auto 1em;
+      
+      grid-column: 1/-1;
+      
+      max-width: none;
+      
+      text-transform: uppercase;
+      
+      border-width: 0.125em 0;
+      
+      border-style: solid;
+      
+      background-color: unset;
+      
+      color: inherit;
+      
+      display: table;
+      
+      padding: 0.4em 0 0.5em;
+      
+      line-height: 1;
+    }
   </style>
   {% else %}
   <style>
