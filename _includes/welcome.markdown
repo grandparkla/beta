@@ -1,11 +1,5 @@
 <h1 class="welcome" style="display: none">
 
-{% if site.use_illustrations %}
-<i class="girl">
-{% include backgrounds/enchanted-woods.svg %}
-</i>
-{% endif %}
-
 <span>
 
 {% for message in page.welcome %}
@@ -35,6 +29,7 @@
 
     var nextItem
     var parent = items[0].parentNode
+    var maxItems = 5
 
     for (var index = 0; index < items.length; index++) {
 
@@ -57,9 +52,34 @@
         }
       } while(nextItem = nextItem.nextSibling)
     }
+    
+    items = document.querySelectorAll("h1.welcome > span > em")
+
+    function update() {
+      console.log("update")
+      let toShow = [
+        getRandomInt(items.length),
+        getRandomInt(items.length),
+        getRandomInt(items.length),
+        getRandomInt(items.length),
+        getRandomInt(items.length),
+        getRandomInt(items.length),
+        getRandomInt(items.length)
+      ]
+      for (var index = 0; index < items.length; index++) {
+        nextItem = items[index]
+        if (toShow.includes(index)) {
+          nextItem.classList.remove("hidden")
+        } else {
+          nextItem.classList.add("hidden")
+        }
+      }
+    }
+    setInterval(update, 3000);
+    update();
   }
 
-  randomize("h1.welcome span > *")
+  randomize("h1.welcome > span > *")
   document.querySelector("h1.welcome").removeAttribute("style")
 })();
 </script>

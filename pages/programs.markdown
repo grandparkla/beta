@@ -40,10 +40,10 @@ All are invited to Grand Park’s free year-round events including live music, e
 *   [Lunch à la Park](/lunch/)
 *   [Our L.A. Voices](/our-la-voices/)
 *   [Sunday Sessions](/sunday-sessions/)
-*   [4th of July Block Party](/4thofjuly/)
+*   [4th of July](/4thofjuly/)
 *   [Día de los Muertos](/día-de-los-muertos/)
 *   [Winter Glow](/winter-glow/)
-*   [New Year’s Eve, Los Angeles](/nyela/)
+*   [New Year’s Eve](/nyela/)
 </nav>
 
 <div></div>
@@ -60,7 +60,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -258,7 +258,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

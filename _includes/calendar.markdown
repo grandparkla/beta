@@ -180,7 +180,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -259,7 +259,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   {% for event in data_list %}

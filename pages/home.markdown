@@ -109,24 +109,20 @@ main > h1.welcome span {
 main > h1.welcome span svg {
   display: none;
 }
-/*
 main h1,
 main h1 + h2 + p {
   grid-column-end: -4;
 }
-*/
 </style>
 
 <style>
 .girl {
-  display: block;
+  grid-column: -3/-1;
+  grid-row: 1/3;
 }
 .girl svg {
-  display: block;
-  height: 20vmax !important;
-  width: auto !important;
-  max-width: none !important;
-  margin-bottom: 0.75em;
+  height: 20vmax;
+  width: auto;
 }
 main > h1.welcome {
   width: auto;
@@ -134,30 +130,16 @@ main > h1.welcome {
   margin-left: 0em;
   margin-right: 0em;
 }
-@media (false) {
-  .girl {
-    transform: rotate(45deg);
-  }
-  main > h1.welcome {
-    transform: rotate(-45deg);
-    opacity: 0.5;
-    position: absolute;
-    z-index: -2;
-    writing-mode: sideways-lr;
-    margin-bottom: 50vw
-    width: calc(50vmax);
-  }
-}
 @media (min-width: 60em) {
-  .girl {
-    float: right;
-    shape-outside: circle(50%);
-    shape-margin: -1.5em;
-    margin-right: 3em;
-  }
   main > h1.welcome {
     padding-left: 2.25em;
     padding-right: 2.25em;
+    padding-left: 0;
+    padding-right: 0;
+    grid-column: 2/-3;
+  }
+  main > h1.welcome span {
+    /* font-size: 3.8vw; */
   }
   main > h1.welcome + p {
     margin-top: 3em;
@@ -165,9 +147,22 @@ main > h1.welcome {
   }
 }
 
-
+main > h1.welcome em {
+  transition: opacity 0.2s;
+}
+main > h1.welcome em.hidden {
+  opacity: 0;
+  position: absolute;
+  left: -9999px;
+}
 
 </style>
+
+{% if site.use_illustrations %}
+<div class="girl">
+{% include backgrounds/enchanted-woods.svg %}
+</div>
+{% endif %}
 
 {% endif %}
 
@@ -176,7 +171,8 @@ main > h1.welcome {
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
-## Welcome to Grand Park
+
+## Welcome to <span class="avoid-break">Grand Park</span>
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
@@ -223,7 +219,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           Tuesday, Wednesday &amp; Thursday
         </p>
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

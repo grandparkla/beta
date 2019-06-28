@@ -131,7 +131,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
-      <img src="/uploads/programs/food-trucks-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

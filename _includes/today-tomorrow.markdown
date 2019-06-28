@@ -14,7 +14,7 @@
         <h4>Food Trucks</h4>
         <p>{% if site.events_today %}Today{% else %}Tomorrow{% endif %} at <time datetime="11:00">11 a.m.</time></p>
       </div>
-      <img src="/uploads/programs/food-trucks-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
     </a>
   </li> -->
   <li>

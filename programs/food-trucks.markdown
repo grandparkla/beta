@@ -45,7 +45,7 @@ _<small>Year-round, except on holidays</small>_
 
 
 <figure>
-  <img src="/uploads/programs/food-trucks-4.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-2.jpg" alt="Food Truck" height="500" />
 </figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
@@ -254,11 +254,6 @@ Tuesday, <span class="avoid-break">June 25</span>
 </tbody>
 </table>
 {% endcomment %}
-
-
-<figure>
-  <img src="/uploads/programs/food-trucks-3.jpg" alt="Food Truck" height="500" />
-</figure>
 
 
 ### Part of Grand Park’s noontime [Lunch à la Park](/lunch/) programs.
