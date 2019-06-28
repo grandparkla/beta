@@ -14,8 +14,10 @@ permalink: /rules/
   grid-row: 1/6;
 }
 .girl svg {
-  height: 20vmax;
-  width: auto;
+  height: 17vmax;
+  width: 12vmax;
+  margin-top: 1em;
+  margin-left: 1em;
 }
 main h1,
 main h1 + h3,

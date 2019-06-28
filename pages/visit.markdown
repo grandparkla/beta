@@ -22,7 +22,7 @@ main h1 + p + nav {
 </style>
 
 <div class="girl">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/magic-forest.svg %}
 </div>
 {% endif %}
 
