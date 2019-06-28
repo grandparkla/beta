@@ -38,6 +38,8 @@ These steps will help you get started:
   .camera svg,
   .camera svg path {
     fill: currentColor;
+    stroke: var(--background-color);
+    stroke-width: 0.25em;
   }
   </style>
 

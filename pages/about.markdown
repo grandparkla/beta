@@ -58,6 +58,56 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 
 <div></div>
 
+{% comment %}
+{% if site.use_illustrations %}
+<style>
+.business-girl {
+  margin-top: 1.5em;
+  grid-column: -3/-1;
+  grid-row: 1/6;
+}
+.business-girl + h2 {
+  grid-row: 1/2;
+}
+.business-girl + h2 + nav {
+  grid-row: 1/2;
+}
+.business-girl + h2 + nav + h4 {
+  grid-row: 2/3;
+}
+.business-girl + h2 + nav + h4 + p {
+  grid-row: 3/4;
+}
+.business-girl + h2 + nav + h4 + p + h4 {
+  grid-row: 4/5;
+}
+.business-girl + h2 + nav + h4 + p + h4 + p {
+  grid-row: 5/6;
+}
+.business-girl + h2 + nav,
+.business-girl + h2 + nav + h4,
+.business-girl + h2 + nav + h4 + p,
+.business-girl + h2 + nav + h4 + p + h4,
+.business-girl + h2 + nav + h4 + p + h4 + p {
+  grid-column-end: -3;
+}
+.business-girl svg {
+  height: 20vmax;
+  width: auto;
+  color: inherit;
+}
+.business-girl svg,
+.business-girl svg path {
+  fill: currentColor;
+}
+</style>
+
+<div class="business-girl">
+{% include backgrounds/business-girl.svg %}
+</div>
+{% endif %}
+{% endcomment %}
+
 ## Contact us
 
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
