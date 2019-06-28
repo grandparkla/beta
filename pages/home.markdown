@@ -102,9 +102,12 @@ welcome:
 {% if site.use_illustrations %}
 <style>
 main > h1.welcome span {
-  height: auto;
-  overflow: visible;
   margin: 0;
+}
+@media (min-width: 60em) {
+  main > h1.welcome span {
+    height: 3em;
+  }
 }
 main > h1.welcome span svg {
   display: none;
@@ -139,11 +142,14 @@ main > h1.welcome {
     grid-column: 2/-3;
   }
   main > h1.welcome span {
-    /* font-size: 3.8vw; */
+    font-size: 3.2vw;
   }
   main > h1.welcome + p {
     margin-top: 3em;
     margin-bottom: 1.5em;
+  }
+  main > h1.welcome + h2 {
+    max-width: 7em;
   }
 }
 

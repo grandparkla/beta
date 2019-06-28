@@ -52,14 +52,14 @@ main > h1 + nav {
 Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time><br />
 _<small>Year-round, except on holidays</small>_
 
-<section class="special-notice" role="status">
+<!-- <section class="special-notice" role="status">
   <h2>
     
     Alerts &amp; Closures
   </h2>
   <p>June 26 & 28: Yoga is relocating to the <a href="/areas/" class="avoid-break">Community Terrace</a> between Hill + Broadway 🧘🏻‍♂️</p>
 
-</section>
+</section> -->
 
 <figure>
   <img src="/uploads/programs/yoga-4.jpg" alt="Yoga" height="500" />

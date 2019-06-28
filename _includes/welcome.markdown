@@ -62,8 +62,6 @@
         getRandomInt(items.length),
         getRandomInt(items.length),
         getRandomInt(items.length),
-        getRandomInt(items.length),
-        getRandomInt(items.length),
         getRandomInt(items.length)
       ]
       for (var index = 0; index < items.length; index++) {
