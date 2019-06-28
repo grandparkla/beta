@@ -167,6 +167,8 @@ main > h1.welcome {
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
+<main markdown="1">
+
 ## Happening soon
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -277,4 +279,6 @@ main > h1.welcome {
     </a>
   </li>
 </ol>
+
+</main>
 
