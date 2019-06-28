@@ -10,6 +10,43 @@ permalink: /yoga/
 * [Lunch à la Park](/lunch/)
 </nav>
 
+{% if site.use_illustrations %}
+<style>
+.girl {
+  grid-column: -3/-1;
+  grid-row: 1/6;
+}
+.girl svg {
+  height: 20vmax;
+  width: auto;
+  color: inherit;
+}
+.girl svg,
+.girl svg path {
+  fill: currentColor;
+}
+.girl svg * {
+  color: inherit !important;
+}
+main h1 {
+  grid-column: 2/-3;
+}
+main h1 + p {
+  grid-column: 2/-3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + nav {
+    grid-column: 3/-3;
+}
+</style>
+
+<div class="girl">
+{% include backgrounds/yoga-mat.svg %}
+</div>
+{% endif %}
+
 # Yoga reTREAT
 
 Wednesday and Friday from <time datetime="12:15">12:15 p.m.</time> to <time datetime="13:00">1:00 p.m.</time><br />

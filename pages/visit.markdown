@@ -51,18 +51,8 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 
 <main markdown="1">
 
-## Closed areas
-
-These areas of the park are currently closed or are closing soon.
-
-[Event Lawn & nearby Restrooms](/areas/)
-: June 29 – June 30
-
-[Splash Pad](/splash-pad/)
-: June 24 – 28
-
-[Playground](/playground/)
-: June 19 – July 3
+{% capture markdown_text %}{% include closed-areas.markdown %}{% endcapture %}
+{{ markdown_text | markdownify }}
 
 </main>
 
