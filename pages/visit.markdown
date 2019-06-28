@@ -17,7 +17,7 @@ permalink: /visit/
 main h1,
 main h1 + p,
 main h1 + p + nav {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 </style>
 
@@ -40,21 +40,23 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
-<section class="special-notice" role="status">
+<!-- <section class="special-notice" role="status">
   <h2>
     
     Alerts &amp; Closures
   </h2>
   <p>🚧 The fountain, splash pad and playground are <a href="/alerts/">currently closed</a> for maintenance and park improvements. Thank you for your patience 🙏</p>
 
-</section>
+</section> -->
 
-{% comment %}
 <main markdown="1">
 
 ## Closed areas
 
 These areas of the park are currently closed or are closing soon.
+
+[Event Lawn & nearby Restrooms](/areas/)
+: June 29 – June 30
 
 [Splash Pad](/splash-pad/)
 : June 24 – 28
@@ -62,14 +64,9 @@ These areas of the park are currently closed or are closing soon.
 [Playground](/playground/)
 : June 19 – July 3
 
-<!-- <figure>
-  <img src="/uploads/programs/sunday-sessions-9.jpg" alt="Sunday sessions" height="500" />
-</figure> -->
-
 </main>
 
 <div></div>
-{% endcomment %}
 
 Directions
 ----

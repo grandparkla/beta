@@ -448,7 +448,7 @@ See the [N.Y.E.L.A. Community Letter](/uploads/programs/nyela/nyela-2019-communi
 
 <figure>
 <div>
-<a href="/nyela-2019-community-letter.pdf">
+<a href="/uploads/programs/nyela-2019-community-letter.pdf">
 <img src="/uploads/programs/nyela/street-closures.png" width="500" alt="Olive Street, Hill Street, Broadway, and Spring Street will be closed in the area around Grand Park (between Temple Street and 2nd Street). 1st Street and 2nd street will also be closed in the area around Grand Park (between Grand Avenue and Main Street)." />
 </a>
 </div>
