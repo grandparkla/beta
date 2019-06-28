@@ -21,7 +21,7 @@ main h1 + p + nav {
 </style>
 
 <div class="girl">
-{% include backgrounds/star-hat-girl.svg %}
+{% include backgrounds/picnic.svg %}
 </div>
 {% endif %}
 
