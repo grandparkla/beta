@@ -57,19 +57,27 @@
 
     function update() {
       console.log("update")
-      let toShow = [
-        getRandomInt(items.length),
-        getRandomInt(items.length),
-        getRandomInt(items.length),
-        getRandomInt(items.length),
-        getRandomInt(items.length)
-      ]
+      let toShow = []
+      let counter = 1
+      do {
+        let randomInt = getRandomInt(items.length)
+        if (!toShow.includes(randomInt)) {
+          toShow.push(randomInt)
+        }
+      } while(toShow.length < 5)
+      console.dir(toShow)
       for (var index = 0; index < items.length; index++) {
         nextItem = items[index]
         if (toShow.includes(index)) {
           nextItem.classList.remove("hidden")
+          nextItem.classList.add(`visible-${counter++}`)
         } else {
           nextItem.classList.add("hidden")
+          nextItem.classList.remove(`visible-1`)
+          nextItem.classList.remove(`visible-2`)
+          nextItem.classList.remove(`visible-3`)
+          nextItem.classList.remove(`visible-4`)
+          nextItem.classList.remove(`visible-5`)
         }
       }
     }

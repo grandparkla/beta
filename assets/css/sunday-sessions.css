@@ -406,7 +406,7 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 1px) {
+@media (false) {
   h1.welcome em:nth-of-type(2n+1) {
     color: inherit;
     opacity: 0.875;
@@ -414,6 +414,23 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
   h1.welcome em:nth-of-type(3n+1) {
     color: inherit;
     opacity: 0.75;
+  }
+}
+
+
+@media (min-width: 1px) {
+  h1.welcome em:nth-of-type(n) {
+    opacity: 1;
+    color: inherit;
+  }
+  h1.welcome em.visible-2 {
+    opacity: 0.875;
+  }
+  h1.welcome em.visible-3 {
+    opacity: 0.75;
+  }
+  h1.welcome em.visible-5 {
+    opacity: 0.875;
   }
 }
 
