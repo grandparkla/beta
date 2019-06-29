@@ -64,7 +64,7 @@
         if (!toShow.includes(randomInt)) {
           toShow.push(randomInt)
         }
-      } while(toShow.length < 5)
+      } while(toShow.length < 6)
       console.dir(toShow)
       for (var index = 0; index < items.length; index++) {
         nextItem = items[index]
@@ -78,6 +78,7 @@
           nextItem.classList.remove(`visible-3`)
           nextItem.classList.remove(`visible-4`)
           nextItem.classList.remove(`visible-5`)
+          nextItem.classList.remove(`visible-6`)
         }
       }
     }

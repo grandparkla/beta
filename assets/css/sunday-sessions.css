@@ -432,6 +432,15 @@ h1.welcome em[data-message*="Chào mừng bạn"] {
   h1.welcome em.visible-5 {
     opacity: 0.875;
   }
+  h1.welcome em.visible-6 {
+    opacity: 0.75;
+  }
+  h1.welcome em.visible-8 {
+    opacity: 0.875;
+  }
+  h1.welcome em.visible-9 {
+    opacity: 0.75;
+  }
 }
 
 

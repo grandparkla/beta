@@ -35,9 +35,6 @@ welcome:
   # Dutch
   - Welkom
 
-  # English
-  - Welcome
-
   # French
   - Bienvenue
 
@@ -101,14 +98,23 @@ welcome:
 
 {% if site.use_illustrations %}
 <style>
-main > h1.welcome span {
-  margin: 0;
-  height: 3.75em;
+body > main {
+  padding-top: 1.5em;
+}
+main > h1.welcome {
+  display: grid;
+  height: 7.5em;
 }
 @media (min-width: 60em) {
-  main > h1.welcome span {
-    height: 3em;
+  main > h1.welcome {
+    height: 7.5em;
   }
+}
+main > h1.welcome span {
+  margin: 0;
+  display: block;
+  align-self: end;
+  height: auto;
 }
 main > h1.welcome span svg {
   display: none;
@@ -119,17 +125,28 @@ main h1 + h2 + p {
 }
 main h1 + h2 + p {
   max-width: 30em;
+  margin-bottom: 7.5em;
+}
+@media (min-width: 60em) {
+  main h1 + h2 + p {
+    margin-bottom: 0;
+  }
 }
 </style>
 
 <style>
 .illustration {
-  grid-column: -3/-1;
-  grid-row: 1/3;
+  position: absolute;
+  right: 10%;
+  transform: translate(0, -100%);
+  color: var(--snow);
 }
 .illustration svg {
-  height: 20vmax;
+  display: block;
+  height: 13.125vmax;
   width: auto;
+  position: relative;
+  top: -1.5em;
 }
 main > h1.welcome {
   width: auto;
@@ -143,10 +160,10 @@ main > h1.welcome {
     padding-right: 2.25em;
     padding-left: 0;
     padding-right: 0;
-    grid-column: 2/-3;
+    grid-column: 2/-2;
   }
   main > h1.welcome span {
-    font-size: 3.2vw;
+    font-size: 3.5vw;
   }
   main > h1.welcome + p {
     margin-top: 3em;
@@ -170,12 +187,6 @@ main > h1.welcome em.hidden {
 
 </style>
 
-{% if site.use_illustrations %}
-<div class="illustration">
-{% include backgrounds/trees.svg %}
-</div>
-{% endif %}
-
 {% endif %}
 
 {% include welcome.markdown %}
@@ -189,6 +200,12 @@ main > h1.welcome em.hidden {
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
 <main markdown="1">
+
+{% if site.use_illustrations %}
+<div class="illustration">
+{% include backgrounds/trees-edited.svg %}
+</div>
+{% endif %}
 
 ## Happening soon
 
