@@ -81,7 +81,7 @@
         }
       }
     }
-    setInterval(update, 3000);
+    setInterval(update, 6000);
     update();
   }
 

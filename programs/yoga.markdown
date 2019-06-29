@@ -71,7 +71,10 @@ Grand Park’s popular yoga sessions return, giving participants the opportunity
 
 ## Where
 
+<!--
 Grand Park’s [Community Terrace](/areas/) _(between Hill and Broadway)_
+-->
+Grand Park’s [Performance Lawn](/performance-lawn/) _(between Grand and Hill)_
 
 <p class="action" markdown="1">
 [Directions to the Park](/directions/)
