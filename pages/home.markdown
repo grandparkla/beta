@@ -170,7 +170,7 @@ main > h1.welcome em.hidden {
 
 {% if site.use_illustrations %}
 <div class="girl">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/trees.svg %}
 </div>
 {% endif %}
 

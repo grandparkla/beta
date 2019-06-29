@@ -33,10 +33,8 @@ Things to do
 <!--
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 -->
-<!--
 Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <span class="avoid-break">and more!</span>
--->
-All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
+<!-- All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span> -->
 
 <nav markdown="1">
 {% if site.events_today -%}
