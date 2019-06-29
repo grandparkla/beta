@@ -113,7 +113,7 @@ main > h1.welcome {
 main > h1.welcome span {
   margin: 0;
   display: block;
-  align-self: end;
+  align-self: start;
   height: auto;
 }
 main > h1.welcome span svg {
