@@ -617,22 +617,22 @@ main main .event-list:last-child {
 
 
 nav ~ .camera,
-nav ~ .girl {
+nav ~ .illustration {
   margin-top: 1.5em;
 }
 @media (min-width: 60em) {
   nav ~ .camera,
-  nav ~ .girl {
+  nav ~ .illustration {
     margin-top: 0;
   }
 }
 .camera svg,
-.girl svg {
+.illustration svg {
   color: inherit;
 }
 .camera svg,
 .camera svg path,
-.girl svg,
-.girl svg path {
+.illustration svg,
+.illustration svg path {
   fill: currentColor;
 }

@@ -12,17 +12,17 @@ permalink: /día-de-los-muertos-art/
 
 {% if site.use_illustrations %}
 <style>
-.girl {
+.illustration {
   grid-column: -3/-1;
   grid-row: 1/6;
 }
-.girl svg {
+.illustration svg {
   height: 20vmax;
   width: auto;
   color: inherit;
 }
-.girl svg,
-.girl svg path {
+.illustration svg,
+.illustration svg path {
   fill: currentColor;
 }
 main h1,
@@ -37,7 +37,7 @@ main > h1 + nav {
 }
 </style>
 
-<div class="girl">
+<div class="illustration">
 {% include backgrounds/ofrenda.svg %}
 </div>
 {% endif %}

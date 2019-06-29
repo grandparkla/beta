@@ -9,11 +9,11 @@ permalink: /programs/
 
 {% if site.use_illustrations %}
 <style>
-.girl {
+.illustration {
   grid-column: -3/-1;
   grid-row: 2/6;
 }
-.girl svg {
+.illustration svg {
   height: 20vmax;
   width: auto;
 }
@@ -26,7 +26,7 @@ main h1 + p + nav + div + h2 + p {
 }
 </style>
 
-<div class="girl">
+<div class="illustration">
 {% include backgrounds/fireworks.svg %}
 </div>
 {% endif %}

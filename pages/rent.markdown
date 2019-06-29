@@ -9,11 +9,11 @@ permalink: /rent/
 
 {% if site.use_illustrations %}
 <style>
-.girl {
+.illustration {
   grid-column: -3/-1;
   grid-row: 1/4;
 }
-.girl svg {
+.illustration svg {
   height: 20vmax;
   width: auto;
 }
@@ -24,7 +24,7 @@ main h1 + nav {
 }
 </style>
 
-<div class="girl">
+<div class="illustration">
 {% include backgrounds/magic-forest.svg %}
 </div>
 {% endif %}

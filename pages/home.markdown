@@ -123,11 +123,11 @@ main h1 + h2 + p {
 </style>
 
 <style>
-.girl {
+.illustration {
   grid-column: -3/-1;
   grid-row: 1/3;
 }
-.girl svg {
+.illustration svg {
   height: 20vmax;
   width: auto;
 }
@@ -157,9 +157,11 @@ main > h1.welcome {
   }
 }
 
+/*
 main > h1.welcome em {
   transition: opacity 0.2s;
 }
+*/
 main > h1.welcome em.hidden {
   opacity: 0;
   position: absolute;
@@ -169,7 +171,7 @@ main > h1.welcome em.hidden {
 </style>
 
 {% if site.use_illustrations %}
-<div class="girl">
+<div class="illustration">
 {% include backgrounds/trees.svg %}
 </div>
 {% endif %}

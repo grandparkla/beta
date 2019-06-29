@@ -5,11 +5,11 @@ permalink: /events/
 
 {% if site.use_illustrations %}
 <style>
-.girl {
+.illustration {
   grid-column: -3/-1;
   grid-row: 1/6;
 }
-.girl svg {
+.illustration svg {
   height: 17vmax;
   width: 12vmax;
   margin-top: 1em;
@@ -22,7 +22,7 @@ main h1 + p + nav {
 }
 </style>
 
-<div class="girl">
+<div class="illustration">
 {% include backgrounds/picnic.svg %}
 </div>
 {% endif %}
