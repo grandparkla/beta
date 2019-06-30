@@ -43,16 +43,20 @@ Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <t
 _<small>Year-round, except on holidays</small>_
 
 
-<main markdown="1">
 
-<div></div>
-
-<div></div>
+<figure>
+  <img src="/uploads/programs/food-trucks-4.jpg" alt="Food Truck" height="500" />
+</figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
 
 _**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
 
+<main markdown="1">
+
+<div></div>
+
+<div></div>
 
 
 ## Where
@@ -253,7 +257,7 @@ Tuesday, <span class="avoid-break">June 25</span>
 
 
 <figure>
-  <img src="/uploads/programs/food-trucks-2.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-3.jpg" alt="Food Truck" height="500" />
 </figure>
 
 

@@ -64,7 +64,7 @@ Learn about filming in the park and tell us a little bit about your planned phot
 
 <div></div>
 
-## <a id="questions"></a> Rental Questions
+## <a id="questions"></a> Rental questions
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
 

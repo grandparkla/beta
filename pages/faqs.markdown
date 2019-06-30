@@ -49,7 +49,7 @@ FAQs
 
 Commercial film and photo shoots – including student and non-profit organizations – require a permit from [Film LA, Inc.](https://www.filmla.com/), the entity authorized by the Los Angeles County Board of Supervisors to process film permits. 
 
-Commercial film and photo shoots also need to be scheduled with our [rentals team](/film-photography/).
+Commercial film and photo shoots also need to be scheduled with our [rentals team](/rent/).
 
 ### How about my wedding, graduation or other special event photos?
 
