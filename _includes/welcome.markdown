@@ -82,7 +82,7 @@
         }
       }
     }
-    setInterval(update, 6000);
+    setInterval(update, 9000);
     update();
   }
 
