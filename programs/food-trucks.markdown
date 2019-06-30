@@ -42,10 +42,8 @@ main > h1 + nav {
 Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time><br />
 _<small>Year-round, except on holidays</small>_
 
-
-
 <figure>
-  <img src="/uploads/programs/food-trucks-4.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks.jpg" alt="Food Truck" height="500" />
 </figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
@@ -257,7 +255,7 @@ Tuesday, <span class="avoid-break">June 25</span>
 
 
 <figure>
-  <img src="/uploads/programs/food-trucks-3.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-2.jpg" alt="Food Truck" height="500" />
 </figure>
 
 
