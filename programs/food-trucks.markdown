@@ -50,7 +50,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 
 _**Jurors:** Enjoy 10% off during your lunch break, simply show your juror badge. Discount good for both locations – Grand Park’s Marketplace and Olive Court._
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 <div></div>
 

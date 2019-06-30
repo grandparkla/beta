@@ -91,12 +91,20 @@ main figure img {
 @media (min-width: 1px) {
   .event-list img,
   main figure {
-    border: 0.75em solid var(--text-color);
+    border: 0.375em solid var(--text-color);
     box-sizing: border-box;
+  }
+  main[class*="light"] > .event-list img,
+  main[class*="light"] > figure {
+    border-width: 0;
   }
   .event-list a > div {
     background-color: var(--text-color);
     color: var(--text-color-invert);
+  }
+  main[class*="light"] > .event-list a > div {
+    background-color: var(--snow);
+    color: var(--midnight);
   }
   .social-links {
     filter: grayscale(100%) sepia(50%) hue-rotate(280deg);

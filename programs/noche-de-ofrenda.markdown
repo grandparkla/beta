@@ -61,7 +61,7 @@ Grand Park’s [Performance Lawn](/performance-lawn/) between Grand Avenue and H
 
 This is a _free_ event. There’s no cost to attend.
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 ## About
 

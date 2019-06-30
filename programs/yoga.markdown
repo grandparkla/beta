@@ -67,7 +67,7 @@ _<small>Year-round, except on holidays</small>_
 
 Grand Park’s popular yoga sessions return, giving participants the opportunity to relax, rejuvenate and re-energize.
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 ## Where
 

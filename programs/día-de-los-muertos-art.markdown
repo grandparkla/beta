@@ -59,7 +59,7 @@ Grand Park
 [Directions to the Park](/directions/)
 </p>
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 ## About
 

@@ -281,7 +281,7 @@ _featuring [Ericalandia](https://soundcloud.com/ericalandia), [Kronika](https://
 
 </main>
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 * * *
 
@@ -295,7 +295,7 @@ Event begins at 8pm on December 31. [Projections](#projections) and music run al
 
 </main>
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 ## Countdown Stage
 
@@ -367,7 +367,7 @@ _Hosted by Valiyah_
 
 </main>
 
-<main markdown="1">
+<main markdown="1" class="strawberry-light">
 
 ## Fun!
 
