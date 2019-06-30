@@ -7,7 +7,7 @@ permalink: /events/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 1/4;
 }
 .illustration svg {
   height: 17vmax;
@@ -48,10 +48,10 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 *   [Programs](/programs/)
 </nav>
 
+<main markdown="1" class="lime-light">
+
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
-
-<div></div>
 
 ## <a id="daily"></a> Every day
 
@@ -152,7 +152,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
-* * *
+</main>
 
 <main markdown="1" class="lime-light">
 
