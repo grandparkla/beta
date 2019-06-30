@@ -199,7 +199,7 @@ main > h1.welcome em.hidden {
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
-<main markdown="1">
+<main markdown="1" class="lime-light">
 
 {% if site.use_illustrations %}
 <div class="illustration">
