@@ -56,6 +56,7 @@ Park rules
 *   Alcohol. Grand Park may have events that include alcohol, and only alcohol within the bar area is authorized.
 *   Narcotics or illegal drugs
 *   Drones
+*   Drone operation 
 *   Bathing in pools or fountain
 *   Camping
 *   Cooking
@@ -63,7 +64,7 @@ Park rules
 *   Entering upper fountain pools
 *   Feeding animals
 *   Explosives
-*   Firecrackers or explosives
+*   Firecrackers
 *   Firearms
 *   Fires
 *   Lawn umbrellas
@@ -84,6 +85,43 @@ Park rules
 *   Unauthorized vending
 *   Unleashed animals
 *   Weapons
+
+<small><i>This list is subject to change, and subject to the discretion of Grand Park and/or The Music Center security. Special events may have additional prohibited items.</i></small>
+
+### Special events
+
+These additional things are prohibited in the park during the [4th of July Block Party](/4thofjuly/) and [N.Y.E.L.A.](/nyela/) events…
+
+* Aerosol cans 
+* Amplified noise
+* Bags and backpacks measuring larger than standard backpack size (16.75 inches x 13 inches x 8.5 inches)
+* Bicycles ([valet parking for bicycles will be available](/4thofjuly/#bicycles))
+* Chairs
+* Coolers
+* Confetti cannons
+* Fire matches 
+* Flag Poles
+* Generators
+* Glass
+* Identity-covering costumes
+* Lighters
+* Narcotics
+* Sealed or open beverage bottles with liquid including water (fountains and water for purchase will be available)
+* Outside solicitation 
+* Projection devices 
+* Printed signage (larger than 8.5 inches x 11 inches)
+* Props
+* Public intoxication
+* Ride share scooters
+* Rollerblading
+* Selfie sticks
+* Skateboarding
+* Smartboards & smartboarding
+* Smoking paraphernalia
+* Sparklers
+* Staking objects to ground
+* Sticks
+* Umbrellas
 
 <small><i>This list is subject to change, and subject to the discretion of Grand Park and/or The Music Center security. Special events may have additional prohibited items.</i></small>
 

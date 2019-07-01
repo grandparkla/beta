@@ -370,8 +370,14 @@ header svg {
     margin-top: 1.75em;
   }
   main > h3 + h4 {
+    margin-top: 0;
+  }
+  /* main > h3 + h4 {
     margin-top: 3.65em;
   }
+  main > h2 + h3 + h4 {
+    margin-top: 0;
+  } */
   main > h2 + p {
     margin-top: 2.625em;
   }
