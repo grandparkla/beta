@@ -2,7 +2,7 @@
 {% assign data_list = site.events %}
 {% assign data_list = data_list | sort: "date" %}
 
-
+{% comment %}
 ## June 2019
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
@@ -75,6 +75,7 @@
   </li>
 </ol> -->
 
+{% endcomment %}
 
     
 ## July 2019

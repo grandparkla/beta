@@ -96,6 +96,14 @@ welcome:
   - באַגריסונג
 ---
 
+<style>
+body > main > main:first-of-type > h2:first-of-type,
+body > main > main:first-of-type > .event-list + h2 {
+  position: absolute;
+  left: -9999px;
+}
+</style>
+
 {% if site.use_illustrations %}
 <style>
 body > main {
@@ -191,9 +199,6 @@ main > h1.welcome em.hidden {
 
 {% include welcome.markdown %}
 
-{% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
-{{ today_tomorrow | markdownify }}
-
 
 ## Welcome to <span class="avoid-break">Grand Park</span>
 
@@ -206,6 +211,10 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% include backgrounds/trees-edited.svg %}
 </div>
 {% endif %}
+
+
+{% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
+{{ today_tomorrow | markdownify }}
 
 ## Happening soon
 

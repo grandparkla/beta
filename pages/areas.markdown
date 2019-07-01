@@ -11,7 +11,7 @@ permalink: /areas/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 1/5;
 }
 .illustration svg {
   height: 20vmax;

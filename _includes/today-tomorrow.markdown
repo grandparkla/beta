@@ -1,23 +1,23 @@
 {% if site.events_today or site.events_tomorrow %}
 
 {% if site.events_today %}
-## Today at <span class="avoid-break">Grand Park</span> <a id="today"></a>
+## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
 {% else %}
-## Tomorrow at <span class="avoid-break">Grand Park</span> <a id="tomorrow"></a>
+## <a id="tomorrow"></a> Tomorrow at <span class="avoid-break">Grand Park</span>
 {% endif %}
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
-  <!-- <li>
+  <li>
     <a href="/food-trucks/">
       <div>
         <h3>Lunch à la Park</h3>
         <h4>Food Trucks</h4>
         <p>{% if site.events_today %}Today{% else %}Tomorrow{% endif %} at <time datetime="11:00">11 a.m.</time></p>
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks.jpg" height="300" alt="" />
     </a>
-  </li> -->
-  <li>
+  </li>
+  <!-- <li>
     <a href="/yoga/">
       <div>
         <h3>Lunch à la Park</h3>
@@ -26,7 +26,7 @@
       </div>
       <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
 </ol>
 
 {% endif %}
