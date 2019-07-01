@@ -455,9 +455,24 @@ See the [4th of July Community Letter](/uploads/programs/4thofjuly/4thofjuly-201
 
 </figure>
 
+* * *
 
+</main>
+
+<main markdown="1" class="strawberry-light">
 
 * * *
+
+<ul class="logos" style="background-color: transparent;">
+  <!-- <li><img src="/assets/images/sponsors/los-angeles.svg" alt="County of Los Angeles" /></li>
+  <li><img src="/assets/images/sponsors/grandpark-musiccenter.svg" alt="Grand Park + The Music Center" style="font-size: 0.75em"  /></li> -->
+  <li><img src="/assets/images/sponsors/hildal.svg" alt="Supervisor Hilda L. Solis" /></li>
+  <li><img src="/assets/images/sponsors/council-district-14.png" alt="Council District 14, Los Angeles" /></li>
+</ul>
+
+* * *
+
+</main>
 
 <main markdown="1" class="strawberry">
 
