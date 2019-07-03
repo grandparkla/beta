@@ -345,7 +345,13 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       if (englishIndex) {
         // console.log(englishIndex)
         // console.log(items[englishIndex])
-        for (let index = 0; index < itemsAtRandom.length; index+=3) {
+        let targetIndex = itemsAtRandom.indexOf(englishIndex);
+        // console.log(targetIndex)
+        if (targetIndex > -1) {
+          // console.log("removing the item: " + targetIndex)
+          itemsAtRandom.splice(targetIndex, 1);
+        }
+        for (let index = 1; index < itemsAtRandom.length; index+=6) {
           itemsAtRandom.splice(index, 0, englishIndex)
         }
         // console.log(itemsAtRandom)
@@ -353,9 +359,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
       function update() {
         // console.log("update")
+        let toShow = [itemsAtRandom[cursor]]
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
-        let toShow = [itemsAtRandom[cursor]]
         let counter = 1
         // do {
         //   let randomInt = getRandomInt(items.length)
@@ -380,7 +386,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           }
         }
       }
-      setInterval(update, 2500)
+      setInterval(update, 2400)
       update()
     }
 
@@ -402,8 +408,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       }
     } while(imagesAtRandom.length < images.length)
 
+    /*
     console.log(imagesAtRandom)
-    let itemsToRemove = [5, 6, 8, 18, 19, 20, 36, 39, 41, 42, 43]
+    let itemsToRemove = [5, 6, 8, 18, 19, 20, 36, 38, 39, 41, 42, 43]
     for (let index = 0; index < itemsToRemove.length; index++) {
       let targetIndex = imagesAtRandom.indexOf(itemsToRemove[index] - 1);
       // console.log(targetIndex)
@@ -412,18 +419,23 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         imagesAtRandom.splice(targetIndex, 1);
       }
     }
+    */
 
     function updateImage() {
+      currentImage = images[imagesAtRandom[cursor]]
       cursor++
       if (cursor > imagesAtRandom.length - 1) cursor = 0
-      currentImage = images[imagesAtRandom[cursor]]
       currentImage.style.zIndex = zIndex++
-      currentImage.style.opacity = 1
       currentImage.style.display = "block"
-      if (previousImage) previousImage.style.opacity = 0
-      if (previousImage) previousImage.style.display = "none"
+      setTimeout(() => {
+        currentImage.style.opacity = 1
+        setTimeout(() => {
+          if (previousImage) previousImage.style.opacity = 0
+          if (previousImage) previousImage.style.display = "none"
+        }, 500)
+      }, 1)
     }
-    setInterval(updateImage, 7500)
+    setInterval(updateImage, 5760)
     updateImage()
   })();
 
