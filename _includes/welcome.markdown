@@ -1,6 +1,11 @@
 <h1 class="welcome">
 
 <b>
+{% for image_index in (1..35) %}
+  {% capture image_filename %}{{ image_index }}.jpg{% endcapture %}
+  <img src="/assets/temporary/welcome/384-wide/{{ image_filename }}" srcset="/assets/temporary/welcome/384-wide/{{ image_filename }} 384w, /assets/temporary/welcome/512-wide/{{ image_filename }} 512w, /assets/temporary/welcome/768-wide/{{ image_filename }} 768w, /assets/temporary/welcome/1024-wide/{{ image_filename }} 1024w, /assets/temporary/welcome/1536-wide/{{ image_filename }} 1536w, /assets/temporary/welcome/2048-wide/{{ image_filename }} 2048w" sizes="100vw" alt="Photo {{ image_index }}" />
+{% endfor %}
+{% comment %}
   <img src="/assets/temporary/welcome/2048-wide/1.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/2048-wide/2.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/2048-wide/3.jpg" alt="" style="opacity: 0;" />
@@ -36,6 +41,7 @@
   <img src="/assets/temporary/welcome/2048-wide/33.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/2048-wide/34.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/2048-wide/35.jpg" alt="" style="opacity: 0;" />
+{% endcomment %}
 </b>
 
 <span style="opacity: 0;">
