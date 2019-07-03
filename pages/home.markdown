@@ -354,20 +354,32 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   }
 
   randomize("h1.welcome > span > *")
-  document.querySelector("h1.welcome span").removeAttribute("style")
+  document.querySelector("h1.welcome span").removeAttribute("style");
 
-  let zIndex = 1
-  let currentImage
-  let previousImage
-  let images = document.querySelectorAll(".welcome > b > img")
-  function updateImage() {
-    currentImage = images[getRandomInt(images.length - 1)]
-    currentImage.style.zIndex = zIndex++
-    currentImage.style.opacity = 1
-    previousImage.style.opacity = 0
-  }
-  setInterval(updateImage, 9000);
-  updateImage();
+  (function() {
+    let zIndex = 1
+    let cursor = 0
+    let currentImage
+    let previousImage
+    let images = document.querySelectorAll(".welcome > b > img")
+    let imagesAtRandom = []
+    do {
+      let randomInt = getRandomInt(images.length)
+      if (!imagesAtRandom.includes(randomInt)) {
+        imagesAtRandom.push(randomInt)
+      }
+    } while(imagesAtRandom.length < images.length)
+    function updateImage() {
+      cursor++
+      if (cursor > imagesAtRandom.length - 1) cursor = 0
+      currentImage = images[imagesAtRandom[cursor]]
+      currentImage.style.zIndex = zIndex++
+      currentImage.style.opacity = 1
+      previousImage.style.opacity = 0
+    }
+    setInterval(updateImage, 9000);
+    updateImage();
+  })();
 
 })();
 </script>
