@@ -1,6 +1,30 @@
-<h1 class="welcome" style="display: none">
+<h1 class="welcome">
 
-<span>
+<b>
+  <img src="/assets/temporary/welcome/1.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/3.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/4.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/5.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/6.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/7.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/8.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/9.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/10.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/11.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/12.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/13.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/14.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/15.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/16.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/17.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/18.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/19.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/20.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/21.jpg" alt="" style="opacity: 0;" />
+</b>
+
+<span style="opacity: 0;">
 
 {% for message in page.welcome %}
   <em data-message="{{ message }}">{{ message }}</em>
@@ -13,83 +37,6 @@
 
 </span>
 
-<script>
-(function() {
-
-  if (!document.body.querySelector || !document.body.querySelectorAll) return
-
-  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-  function getRandomInt(max) {
-    return Math.floor(Math.random() * Math.floor(max));
-  }
-
-  function randomize(selector) {
-    var items = document.querySelectorAll(selector)
-    if (items.length < 1) return
-
-    var nextItem
-    var parent = items[0].parentNode
-    var maxItems = 5
-
-    for (var index = 0; index < items.length; index++) {
-
-      // Get a random item
-      nextItem = items[getRandomInt(items.length)]
-
-      // Move it before the first item
-      parent.removeChild(nextItem)
-      // console.dir(nextItem)
-      // console.dir(items)
-      parent.insertBefore(nextItem, document.querySelector(selector))
-    }
-
-    if (Node && Node.ELEMENT_NODE) {
-      nextItem = parent.firstChild
-      do {
-        if (nextItem.nodeType == Node.ELEMENT_NODE) {
-          console.log("adding a space")
-          nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
-        }
-      } while(nextItem = nextItem.nextSibling)
-    }
-    
-    items = document.querySelectorAll("h1.welcome > span > em")
-
-    function update() {
-      console.log("update")
-      let toShow = []
-      let counter = 1
-      do {
-        let randomInt = getRandomInt(items.length)
-        if (!toShow.includes(randomInt)) {
-          toShow.push(randomInt)
-        }
-      } while(toShow.length < 6)
-      console.dir(toShow)
-      for (var index = 0; index < items.length; index++) {
-        nextItem = items[index]
-        if (toShow.includes(index)) {
-          nextItem.classList.remove("hidden")
-          nextItem.classList.add(`visible-${counter++}`)
-        } else {
-          nextItem.classList.add("hidden")
-          nextItem.classList.remove(`visible-1`)
-          nextItem.classList.remove(`visible-2`)
-          nextItem.classList.remove(`visible-3`)
-          nextItem.classList.remove(`visible-4`)
-          nextItem.classList.remove(`visible-5`)
-          nextItem.classList.remove(`visible-6`)
-        }
-      }
-    }
-    setInterval(update, 9000);
-    update();
-  }
-
-  randomize("h1.welcome > span > *")
-  document.querySelector("h1.welcome").removeAttribute("style")
-})();
-</script>
 
 
 </h1>

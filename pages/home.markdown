@@ -197,12 +197,178 @@ main > h1.welcome em.hidden {
 
 {% endif %}
 
+<style>
+.welcome {
+  background-color: var(--midnight);
+  position: relative;
+  height: auto !important;
+}
+.welcome img {
+  object-fit: cover;
+  object-position: center;
+  position: relative;
+  min-height: calc(66vw);
+  box-sizing: border-box;
+  display: block;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  align-self: stretch;
+  transition: opacity 0.2s;
+}
+main > h1.welcome span {
+  padding: 1.5em !important;
+  position: relative;
+  z-index: 999999;
+  display: flex !important;
+  min-height: calc(66vw);
+  box-sizing: border-box;
+}
+.welcome > * {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+.welcome > b {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  min-height: calc(66vw);
+  position: relative;
+}
+.welcome > b::after {
+  content: "";
+  position: absolute;
+  z-index: 9999;
+  background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.25), hsla(0, 0%, 0%, 0) 25%, hsla(0, 0%, 0%, 0));
+  width: 100%;
+  height: 100%;
+}
+.welcome {
+  grid-column: 1/-1 !important;
+  margin-left: -1.5em !important;
+  margin-right: -1.5em !important;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+@media (min-width: 60em) {
+  main > h1.welcome {
+    margin-top: -10em;
+  }
+  main > h1.welcome span {
+    font-size: 7vw;
+  }
+  header {
+    position: relative;
+    z-index: 9999999999;
+  }
+}
+</style>
+
 {% include welcome.markdown %}
+
+
 
 
 ## Welcome to <span class="avoid-break">Grand Park</span>
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
+
+<script>
+(function() {
+
+  if (!document.body.querySelector || !document.body.querySelectorAll) return
+
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  function randomize(selector) {
+    var items = document.querySelectorAll(selector)
+    if (items.length < 1) return
+
+    var nextItem
+    var parent = items[0].parentNode
+    var maxItems = 5
+
+    for (var index = 0; index < items.length; index++) {
+
+      // Get a random item
+      nextItem = items[getRandomInt(items.length)]
+
+      // Move it before the first item
+      parent.removeChild(nextItem)
+      // console.dir(nextItem)
+      // console.dir(items)
+      parent.insertBefore(nextItem, document.querySelector(selector))
+    }
+
+    if (Node && Node.ELEMENT_NODE) {
+      nextItem = parent.firstChild
+      do {
+        if (nextItem.nodeType == Node.ELEMENT_NODE) {
+          console.log("adding a space")
+          nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
+        }
+      } while(nextItem = nextItem.nextSibling)
+    }
+    
+    items = document.querySelectorAll("h1.welcome > span > em")
+
+    function update() {
+      console.log("update")
+      let toShow = []
+      let counter = 1
+      do {
+        let randomInt = getRandomInt(items.length)
+        if (!toShow.includes(randomInt)) {
+          toShow.push(randomInt)
+        }
+      } while(toShow.length < 1)
+      console.dir(toShow)
+      for (var index = 0; index < items.length; index++) {
+        nextItem = items[index]
+        if (toShow.includes(index)) {
+          nextItem.classList.remove("hidden")
+          nextItem.classList.add(`visible-${counter++}`)
+        } else {
+          nextItem.classList.add("hidden")
+          nextItem.classList.remove(`visible-1`)
+          nextItem.classList.remove(`visible-2`)
+          nextItem.classList.remove(`visible-3`)
+          nextItem.classList.remove(`visible-4`)
+          nextItem.classList.remove(`visible-5`)
+          nextItem.classList.remove(`visible-6`)
+        }
+      }
+    }
+    setInterval(update, 2000);
+    update();
+  }
+
+  randomize("h1.welcome > span > *")
+  document.querySelector("h1.welcome span").removeAttribute("style")
+
+  let zIndex = 1
+  let currentImage
+  let previousImage
+  let images = document.querySelectorAll(".welcome > b > img")
+  function updateImage() {
+    currentImage = images[getRandomInt(images.length - 1)]
+    currentImage.style.zIndex = zIndex++
+    currentImage.style.opacity = 1
+    previousImage.style.opacity = 0
+  }
+  setInterval(updateImage, 9000);
+  updateImage();
+
+})();
+</script>
 
 <main markdown="1" class="lime-light">
 
