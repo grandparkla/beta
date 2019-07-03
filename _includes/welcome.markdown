@@ -5,10 +5,10 @@
   <img src="/assets/temporary/welcome/2.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/3.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/4.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/5.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/6.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/5.jpg" alt="" style="opacity: 0;" /> -->
+  <!-- <img src="/assets/temporary/welcome/6.jpg" alt="" style="opacity: 0;" /> -->
   <img src="/assets/temporary/welcome/7.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/8.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/8.jpg" alt="" style="opacity: 0;" /> -->
   <img src="/assets/temporary/welcome/9.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/10.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/11.jpg" alt="" style="opacity: 0;" />
@@ -20,7 +20,7 @@
   <img src="/assets/temporary/welcome/17.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/18.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/19.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/20.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/20.jpg" alt="" style="opacity: 0;" /> -->
   <img src="/assets/temporary/welcome/21.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/22.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/23.jpg" alt="" style="opacity: 0;" />

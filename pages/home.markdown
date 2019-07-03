@@ -289,72 +289,86 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
   }
+  
+  (function() {
 
-  function randomize(selector) {
-    var items = document.querySelectorAll(selector)
-    if (items.length < 1) return
+    function randomize(selector) {
+      var items = document.querySelectorAll(selector)
+      if (items.length < 1) return
 
-    var nextItem
-    var parent = items[0].parentNode
-    var maxItems = 5
+      var nextItem
+      var parent = items[0].parentNode
+      var maxItems = 5
 
-    for (var index = 0; index < items.length; index++) {
+      for (var index = 0; index < items.length; index++) {
 
-      // Get a random item
-      nextItem = items[getRandomInt(items.length)]
+        // Get a random item
+        nextItem = items[getRandomInt(items.length)]
 
-      // Move it before the first item
-      parent.removeChild(nextItem)
-      // console.dir(nextItem)
-      // console.dir(items)
-      parent.insertBefore(nextItem, document.querySelector(selector))
-    }
+        // Move it before the first item
+        parent.removeChild(nextItem)
+        // console.dir(nextItem)
+        // console.dir(items)
+        parent.insertBefore(nextItem, document.querySelector(selector))
+      }
 
-    if (Node && Node.ELEMENT_NODE) {
-      nextItem = parent.firstChild
-      do {
-        if (nextItem.nodeType == Node.ELEMENT_NODE) {
-          console.log("adding a space")
-          nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
-        }
-      } while(nextItem = nextItem.nextSibling)
-    }
-    
-    items = document.querySelectorAll("h1.welcome > span > em")
-
-    function update() {
-      console.log("update")
-      let toShow = []
-      let counter = 1
+      if (Node && Node.ELEMENT_NODE) {
+        nextItem = parent.firstChild
+        do {
+          if (nextItem.nodeType == Node.ELEMENT_NODE) {
+            console.log("adding a space")
+            nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
+          }
+        } while(nextItem = nextItem.nextSibling)
+      }
+      
+      items = document.querySelectorAll("h1.welcome > span > em")
+      
+      let cursor = 0
+      let itemsAtRandom = []
       do {
         let randomInt = getRandomInt(items.length)
-        if (!toShow.includes(randomInt)) {
-          toShow.push(randomInt)
+        if (!itemsAtRandom.includes(randomInt)) {
+          itemsAtRandom.push(randomInt)
         }
-      } while(toShow.length < 1)
-      console.dir(toShow)
-      for (var index = 0; index < items.length; index++) {
-        nextItem = items[index]
-        if (toShow.includes(index)) {
-          nextItem.classList.remove("hidden")
-          nextItem.classList.add(`visible-${counter++}`)
-        } else {
-          nextItem.classList.add("hidden")
-          nextItem.classList.remove(`visible-1`)
-          nextItem.classList.remove(`visible-2`)
-          nextItem.classList.remove(`visible-3`)
-          nextItem.classList.remove(`visible-4`)
-          nextItem.classList.remove(`visible-5`)
-          nextItem.classList.remove(`visible-6`)
+      } while(itemsAtRandom.length < items.length)
+
+      function update() {
+        console.log("update")
+        cursor++
+        if (cursor > itemsAtRandom.length - 1) cursor = 0
+        let toShow = [itemsAtRandom[cursor]]
+        let counter = 1
+        // do {
+        //   let randomInt = getRandomInt(items.length)
+        //   if (!toShow.includes(randomInt)) {
+        //     toShow.push(randomInt)
+        //   }
+        // } while(toShow.length < 1)
+        console.dir(toShow)
+        for (var index = 0; index < items.length; index++) {
+          nextItem = items[index]
+          if (toShow.includes(index)) {
+            nextItem.classList.remove("hidden")
+            nextItem.classList.add(`visible-${counter++}`)
+          } else {
+            nextItem.classList.add("hidden")
+            nextItem.classList.remove(`visible-1`)
+            nextItem.classList.remove(`visible-2`)
+            nextItem.classList.remove(`visible-3`)
+            nextItem.classList.remove(`visible-4`)
+            nextItem.classList.remove(`visible-5`)
+            nextItem.classList.remove(`visible-6`)
+          }
         }
       }
+      setInterval(update, 2500)
+      update()
     }
-    setInterval(update, 2000);
-    update();
-  }
 
-  randomize("h1.welcome > span > *")
-  document.querySelector("h1.welcome span").removeAttribute("style");
+    randomize("h1.welcome > span > *")
+    document.querySelector("h1.welcome span").removeAttribute("style")
+  })();
 
   (function() {
     let zIndex = 1
@@ -377,8 +391,8 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       currentImage.style.opacity = 1
       previousImage.style.opacity = 0
     }
-    setInterval(updateImage, 9000);
-    updateImage();
+    setInterval(updateImage, 9000)
+    updateImage()
   })();
 
 })();
