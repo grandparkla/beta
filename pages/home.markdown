@@ -218,12 +218,13 @@ main > h1.welcome em.hidden {
   transition: opacity 0.2s;
 }
 main > h1.welcome span {
-  padding: 1.5em !important;
+  padding: 33vw 1.5rem 0 !important;
   position: relative;
   z-index: 999999;
   display: flex !important;
   min-height: calc(66vw);
   box-sizing: border-box;
+  text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
 }
 .welcome > * {
   grid-column: 1/-1;
@@ -293,14 +294,14 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   (function() {
 
     function randomize(selector) {
-      var items = document.querySelectorAll(selector)
+      let items = document.querySelectorAll(selector)
       if (items.length < 1) return
 
-      var nextItem
-      var parent = items[0].parentNode
-      var maxItems = 5
+      let nextItem
+      let parent = items[0].parentNode
+      let maxItems = 5
 
-      for (var index = 0; index < items.length; index++) {
+      for (let index = 0; index < items.length; index++) {
 
         // Get a random item
         nextItem = items[getRandomInt(items.length)]
@@ -333,6 +334,22 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         }
       } while(itemsAtRandom.length < items.length)
 
+      let englishIndex
+      for (let index = 0; index < items.length; index++) {
+        // console.log(items[index].getAttribute("data-message"))
+        if (items[index].getAttribute("data-message") == "Welcome") {
+          englishIndex = index
+        }
+      }
+      if (englishIndex) {
+        console.log(englishIndex)
+        console.log(items[englishIndex])
+        for (let index = 0; index < itemsAtRandom.length; index+=3) {
+          itemsAtRandom.splice(index, 0, englishIndex)
+        }
+        console.log(itemsAtRandom)
+      }
+
       function update() {
         console.log("update")
         cursor++
@@ -346,7 +363,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         //   }
         // } while(toShow.length < 1)
         console.dir(toShow)
-        for (var index = 0; index < items.length; index++) {
+        for (let index = 0; index < items.length; index++) {
           nextItem = items[index]
           if (toShow.includes(index)) {
             nextItem.classList.remove("hidden")
@@ -389,7 +406,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       currentImage = images[imagesAtRandom[cursor]]
       currentImage.style.zIndex = zIndex++
       currentImage.style.opacity = 1
-      previousImage.style.opacity = 0
+      currentImage.style.display = "block"
+      if (previousImage) previousImage.style.opacity = 0
+      if (previousImage) previousImage.style.display = "none"
     }
     setInterval(updateImage, 7500)
     updateImage()
