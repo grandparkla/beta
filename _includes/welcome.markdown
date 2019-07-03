@@ -22,6 +22,20 @@
   <img src="/assets/temporary/welcome/19.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/20.jpg" alt="" style="opacity: 0;" />
   <img src="/assets/temporary/welcome/21.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/22.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/23.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/24.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/25.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/26.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/27.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/28.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/29.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/30.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/31.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/32.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/33.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/34.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/35.jpg" alt="" style="opacity: 0;" />
 </b>
 
 <span style="opacity: 0;">

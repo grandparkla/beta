@@ -35,6 +35,9 @@ welcome:
   # Dutch
   - Welkom
 
+  # English
+  - Welcome
+
   # French
   - Bienvenue
 
@@ -199,7 +202,6 @@ main > h1.welcome em.hidden {
 
 <style>
 .welcome {
-  background-color: var(--midnight);
   position: relative;
   height: auto !important;
 }
