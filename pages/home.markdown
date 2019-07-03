@@ -318,7 +318,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         nextItem = parent.firstChild
         do {
           if (nextItem.nodeType == Node.ELEMENT_NODE) {
-            console.log("adding a space")
+            // console.log("adding a space")
             nextItem.parentNode.insertBefore(document.createTextNode(" "), nextItem)
           }
         } while(nextItem = nextItem.nextSibling)
@@ -343,16 +343,16 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         }
       }
       if (englishIndex) {
-        console.log(englishIndex)
-        console.log(items[englishIndex])
+        // console.log(englishIndex)
+        // console.log(items[englishIndex])
         for (let index = 0; index < itemsAtRandom.length; index+=3) {
           itemsAtRandom.splice(index, 0, englishIndex)
         }
-        console.log(itemsAtRandom)
+        // console.log(itemsAtRandom)
       }
 
       function update() {
-        console.log("update")
+        // console.log("update")
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
         let toShow = [itemsAtRandom[cursor]]
@@ -363,7 +363,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         //     toShow.push(randomInt)
         //   }
         // } while(toShow.length < 1)
-        console.dir(toShow)
+        // console.dir(toShow)
         for (let index = 0; index < items.length; index++) {
           nextItem = items[index]
           if (toShow.includes(index)) {
@@ -401,6 +401,18 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         imagesAtRandom.push(randomInt)
       }
     } while(imagesAtRandom.length < images.length)
+
+    console.log(imagesAtRandom)
+    let itemsToRemove = [5, 6, 8, 18, 19, 20, 36, 39, 41, 42, 43]
+    for (let index = 0; index < itemsToRemove.length; index++) {
+      let targetIndex = imagesAtRandom.indexOf(itemsToRemove[index] - 1);
+      // console.log(targetIndex)
+      if (targetIndex > -1) {
+        // console.log("removing the item: " + targetIndex)
+        imagesAtRandom.splice(targetIndex, 1);
+      }
+    }
+
     function updateImage() {
       cursor++
       if (cursor > imagesAtRandom.length - 1) cursor = 0
