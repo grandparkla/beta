@@ -268,6 +268,7 @@ main > h1.welcome span {
   header {
     position: relative;
     z-index: 9999999999;
+    text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
   }
 }
 </style>
