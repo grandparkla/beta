@@ -1,7 +1,7 @@
 <h1 class="welcome">
 
 <b>
-{% for image_index in (1..35) %}
+{% for image_index in (1..44) %}
   {% capture image_filename %}{{ image_index }}.jpg{% endcapture %}
   <img src="/assets/temporary/welcome/384-wide/{{ image_filename }}" srcset="/assets/temporary/welcome/384-wide/{{ image_filename }} 384w, /assets/temporary/welcome/512-wide/{{ image_filename }} 512w, /assets/temporary/welcome/768-wide/{{ image_filename }} 768w, /assets/temporary/welcome/1024-wide/{{ image_filename }} 1024w, /assets/temporary/welcome/1536-wide/{{ image_filename }} 1536w, /assets/temporary/welcome/2048-wide/{{ image_filename }} 2048w" sizes="100vw" alt="Photo {{ image_index }}" style="display: none; opacity: 0;" />
 {% endfor %}
