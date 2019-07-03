@@ -201,15 +201,21 @@ main > h1.welcome em.hidden {
 {% endif %}
 
 <style>
+body > .sun {
+  display: none;
+}
 .welcome {
   position: relative;
   height: auto !important;
+  border-width: 0.375em 0;
+  border-style: solid;
+  border-color: var(--text-color);
 }
 .welcome img {
   object-fit: cover;
   object-position: center;
   position: relative;
-  min-height: calc(66vw);
+  min-height: calc(100vw);
   box-sizing: border-box;
   display: block;
   grid-column: 1/-1;
@@ -222,11 +228,17 @@ main > h1.welcome span {
   position: relative;
   z-index: 999999;
   display: flex !important;
-  min-height: calc(66vw);
+  min-height: calc(100vw);
   box-sizing: border-box;
   text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
   flex-wrap: wrap;
   align-content: flex-end;
+}
+@media (min-aspect-ratio: 1/1) {
+  .welcome img,
+  main > h1.welcome span {
+    min-height: calc(66vw);
+  }
 }
 main > h1.welcome span > * {
   margin: 0 0.25em !important;
@@ -263,17 +275,22 @@ main > h1.welcome span > * {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
-@media (min-width: 60em) {
+@media (min-width: 50em) {
   main > h1.welcome {
-    margin-top: -10em;
-  }
-  main > h1.welcome span {
-    font-size: 7vw;
+    margin-top: -12.5em !important;
   }
   header {
     position: relative;
     z-index: 9999999999;
     text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
+  }
+  main > h1.welcome span {
+    font-size: 7vw;
+  }
+}
+@media (min-width: 60em) {
+  main > h1.welcome {
+    margin-top: -10em;
   }
 }
 </style>
@@ -385,7 +402,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           nextItem = items[index]
           if (toShow.includes(index)) {
             nextItem.classList.remove("hidden")
-            nextItem.classList.add(`visible-${counter++}`)
+            // nextItem.classList.add(`visible-${counter++}`)
           } else {
             nextItem.classList.add("hidden")
             nextItem.classList.remove(`visible-1`)
@@ -419,8 +436,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       }
     } while(imagesAtRandom.length < images.length)
 
+    /*
     console.log(imagesAtRandom)
-    let itemsToRemove = [5, 6, 8, 18, 19, 20, 36, 38, 39, 41, 42, 43]
+    let itemsToRemove = [5, 6, 8, 18, 19, 20, 25, 36, 38, 39, 40, 41, 42, 43]
     for (let index = 0; index < itemsToRemove.length; index++) {
       let targetIndex = imagesAtRandom.indexOf(itemsToRemove[index] - 1);
       // console.log(targetIndex)
@@ -429,6 +447,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         imagesAtRandom.splice(targetIndex, 1);
       }
     }
+    */
 
     function updateImage() {
       currentImage = images[imagesAtRandom[cursor]]
