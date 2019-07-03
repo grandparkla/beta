@@ -218,13 +218,18 @@ main > h1.welcome em.hidden {
   transition: opacity 0.2s;
 }
 main > h1.welcome span {
-  padding: 33vw 1.5rem 0 !important;
+  padding: 0.75em !important;
   position: relative;
   z-index: 999999;
   display: flex !important;
   min-height: calc(66vw);
   box-sizing: border-box;
   text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+main > h1.welcome span > * {
+  margin: 0 0.25em !important;
 }
 .welcome > * {
   grid-column: 1/-1;
@@ -351,7 +356,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           // console.log("removing the item: " + targetIndex)
           itemsAtRandom.splice(targetIndex, 1);
         }
-        for (let index = 1; index < itemsAtRandom.length; index+=6) {
+        for (let index = 1; index < itemsAtRandom.length; index+=3) {
           itemsAtRandom.splice(index, 0, englishIndex)
         }
         // console.log(itemsAtRandom)
@@ -360,6 +365,12 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       function update() {
         // console.log("update")
         let toShow = [itemsAtRandom[cursor]]
+        cursor++
+        if (cursor > itemsAtRandom.length - 1) cursor = 0
+        toShow.push(itemsAtRandom[cursor])
+        cursor++
+        if (cursor > itemsAtRandom.length - 1) cursor = 0
+        toShow.push(itemsAtRandom[cursor])
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
         let counter = 1
@@ -386,7 +397,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           }
         }
       }
-      setInterval(update, 2400)
+      setInterval(update, 8090)
       update()
     }
 
@@ -408,7 +419,6 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       }
     } while(imagesAtRandom.length < images.length)
 
-    /*
     console.log(imagesAtRandom)
     let itemsToRemove = [5, 6, 8, 18, 19, 20, 36, 38, 39, 41, 42, 43]
     for (let index = 0; index < itemsToRemove.length; index++) {
@@ -419,7 +429,6 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         imagesAtRandom.splice(targetIndex, 1);
       }
     }
-    */
 
     function updateImage() {
       currentImage = images[imagesAtRandom[cursor]]
@@ -435,7 +444,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         }, 500)
       }, 1)
     }
-    setInterval(updateImage, 5760)
+    setInterval(updateImage, 8090)
     updateImage()
   })();
 
