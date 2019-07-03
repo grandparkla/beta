@@ -1,41 +1,41 @@
 <h1 class="welcome">
 
 <b>
-  <img src="/assets/temporary/welcome/1.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/2.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/3.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/4.jpg" alt="" style="opacity: 0;" />
-  <!-- <img src="/assets/temporary/welcome/5.jpg" alt="" style="opacity: 0;" /> -->
-  <!-- <img src="/assets/temporary/welcome/6.jpg" alt="" style="opacity: 0;" /> -->
-  <img src="/assets/temporary/welcome/7.jpg" alt="" style="opacity: 0;" />
-  <!-- <img src="/assets/temporary/welcome/8.jpg" alt="" style="opacity: 0;" /> -->
-  <img src="/assets/temporary/welcome/9.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/10.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/11.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/12.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/13.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/14.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/15.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/16.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/17.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/18.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/19.jpg" alt="" style="opacity: 0;" />
-  <!-- <img src="/assets/temporary/welcome/20.jpg" alt="" style="opacity: 0;" /> -->
-  <img src="/assets/temporary/welcome/21.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/22.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/23.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/24.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/25.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/26.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/27.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/28.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/29.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/30.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/31.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/32.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/33.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/34.jpg" alt="" style="opacity: 0;" />
-  <img src="/assets/temporary/welcome/35.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/1.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/2.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/3.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/4.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/2048-wide/5.jpg" alt="" style="opacity: 0;" /> -->
+  <!-- <img src="/assets/temporary/welcome/2048-wide/6.jpg" alt="" style="opacity: 0;" /> -->
+  <img src="/assets/temporary/welcome/2048-wide/7.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/2048-wide/8.jpg" alt="" style="opacity: 0;" /> -->
+  <img src="/assets/temporary/welcome/2048-wide/9.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/10.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/11.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/12.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/13.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/14.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/15.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/16.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/17.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/18.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/19.jpg" alt="" style="opacity: 0;" />
+  <!-- <img src="/assets/temporary/welcome/2048-wide/20.jpg" alt="" style="opacity: 0;" /> -->
+  <img src="/assets/temporary/welcome/2048-wide/21.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/22.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/23.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/24.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/25.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/26.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/27.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/28.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/29.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/30.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/31.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/32.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/33.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/34.jpg" alt="" style="opacity: 0;" />
+  <img src="/assets/temporary/welcome/2048-wide/35.jpg" alt="" style="opacity: 0;" />
 </b>
 
 <span style="opacity: 0;">

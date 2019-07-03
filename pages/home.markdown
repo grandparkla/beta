@@ -391,7 +391,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       currentImage.style.opacity = 1
       previousImage.style.opacity = 0
     }
-    setInterval(updateImage, 9000)
+    setInterval(updateImage, 7500)
     updateImage()
   })();
 
