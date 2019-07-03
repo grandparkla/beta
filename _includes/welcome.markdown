@@ -9,6 +9,7 @@
        or image_index == 19
        or image_index == 20
        or image_index == 25
+       or image_index == 26
        or image_index == 36
        or image_index == 38
        or image_index == 39
