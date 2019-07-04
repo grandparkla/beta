@@ -373,7 +373,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           // console.log("removing the item: " + targetIndex)
           itemsAtRandom.splice(targetIndex, 1);
         }
-        for (let index = 1; index < itemsAtRandom.length; index+=3) {
+        for (let index = 1; index < itemsAtRandom.length - 3; index+=3) {
           itemsAtRandom.splice(index, 0, englishIndex)
         }
         // console.log(itemsAtRandom)
@@ -381,15 +381,21 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
       function update() {
         // console.log("update")
-        let toShow = [itemsAtRandom[cursor]]
+
+        let toShow
+
+        toShow = [itemsAtRandom[cursor]]
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
+
         toShow.push(itemsAtRandom[cursor])
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
+
         toShow.push(itemsAtRandom[cursor])
         cursor++
         if (cursor > itemsAtRandom.length - 1) cursor = 0
+
         let counter = 1
         // do {
         //   let randomInt = getRandomInt(items.length)

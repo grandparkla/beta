@@ -2,12 +2,14 @@
 
 <b>
 {% for image_index in (1..44) %}
-{% unless image_index == 5
+{% unless image_index == 3
+       or image_index == 5
        or image_index == 6
        or image_index == 8
        or image_index == 18
        or image_index == 19
        or image_index == 20
+       or image_index == 21
        or image_index == 25
        or image_index == 26
        or image_index == 36
