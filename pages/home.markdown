@@ -259,6 +259,7 @@ main > h1.welcome span > * {
   min-height: calc(66vw);
   position: relative;
 }
+/*
 .welcome > b::after {
   content: "";
   position: absolute;
@@ -267,6 +268,7 @@ main > h1.welcome span > * {
   width: 100%;
   height: 100%;
 }
+*/
 .welcome {
   grid-column: 1/-1 !important;
   margin-left: -1.5em !important;
