@@ -293,6 +293,66 @@ main > h1.welcome span > * {
     margin-top: -10em;
   }
 }
+
+body > main > h1.welcome {
+  margin-bottom: 0;
+}
+body > main > main:first-of-type {
+  margin-top: 0;
+  padding-top: 3em;
+}
+@media (min-width: 60em) {
+  body > main > main:first-of-type {
+    margin-top: -1.5em;
+    padding-top: 4.5em;
+  }
+}
+
+h1.welcome {
+  border-width: 0 !important;
+}
+main > h1.welcome {
+  background: var(--lime);
+}
+h1.welcome,
+h1.welcome span {
+  color: var(--snow);
+}
+@media (min-width: 50em) {
+  header {
+    text-shadow: none;
+  }
+  header li a {
+    background-color: var(--strawberry);
+    color: var(--snow);
+  }
+  header h2,
+  header h3 {
+    background-color: var(--snow);
+  }
+  header li {
+    color: var(--snow);
+  }
+  header h2,
+  header h3 {
+    display: table;
+  }
+  header h2 {
+    padding: 1.5em 1.5em 2.5em;
+    margin: -1.5em -1.5em -2.5em;
+  }
+  header h3 {
+    position: relative;
+    z-index: 1;
+  }
+  header li a[href*="visit"] {
+    background-color: var(--lime);
+  }
+  header li a[href*="about"] {
+    background-color: var(--sky);
+  }
+}
+
 </style>
 
 {% include welcome.markdown %}
@@ -300,9 +360,6 @@ main > h1.welcome span > * {
 
 
 
-## Welcome to <span class="avoid-break">Grand Park</span>
-
-All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
 <script>
 (function() {
@@ -476,9 +533,14 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 })();
 </script>
 
-<main markdown="1" class="lime-light">
+<main markdown="1" class="strawberry-light">
 
-{% if site.use_illustrations %}
+
+<h2 style="position: static; max-width: 8em">Welcome to <span class="avoid-break">Grand Park</span></h2>
+
+All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
+
+{% if site.use_illustrations and false %}
 <div class="illustration">
 {% include backgrounds/trees-edited.svg %}
 </div>
@@ -488,7 +550,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
+{% comment %}
 ## Happening soon
+{% endcomment %}
 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>

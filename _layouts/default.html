@@ -247,13 +247,10 @@
 
   {% endif %}
 
-  {% if page.url == "/events/" or
-        page.url == "/lunch/" or
+  {% if page.url == "/" or
+        page.url == "/events/" or
         page.url == "/calendar/" or
-        page.url == "/programs/" or
-        page.url == "/food-trucks/" or
-        page.url == "/yoga/" or
-        page.url == "/sunday-sessions/" %}
+        page.url == "/programs/" %}
 
   :root {
     /* light on dark */
@@ -265,6 +262,34 @@
     --image-filter: invert(100%);
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
+  }
+  :root {
+    --background-color: var(--snow);
+    
+    --text-color: var(--strawberry);
+    --text-color-secondary: var(--strawberry);
+    --text-color-invert: var(--snow);
+    --image-filter: unset;
+    --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
+  header {
+    color: var(--midnight);
+  }
+  header h2 {
+    color: var(--strawberry);
+  }
+  body > .sun svg {
+    color: hsl(48, 97%, 71%) !important;
+  }
+  main > p,
+  main > nav {
+    color: var(--midnight);
+  }
+  figure,
+  figure img,
+  .event-list img {
+    border-width: 0 !important;
   }
   /* main main.strawberry-light hr:first-child + h2,
   main main:not([class]) hr:first-child + h2 {
@@ -296,6 +321,38 @@
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
+  
+  {% if page.url == "/visit/" or
+        page.url == "/areas/" %}
+  :root {
+    --background-color: var(--snow);
+    
+    --text-color: var(--lime);
+    --text-color-secondary: var(--lime);
+    --text-color-invert: var(--snow);
+    --image-filter: unset;
+    --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
+  header {
+    color: var(--midnight);
+  }
+  header h2 {
+    color: var(--strawberry);
+  }
+  body > .sun svg {
+    color: hsl(48, 97%, 71%) !important;
+  }
+  main > p,
+  main > nav {
+    color: var(--midnight);
+  }
+  figure,
+  figure img,
+  .event-list img {
+    border-width: 0 !important;
+  }
+  {% endif %}
 
   /*
   body {
@@ -334,6 +391,37 @@
     --svg-filter: brightness(10);
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
+  
+  {% if page.url == "/about/" %}
+  :root {
+    --background-color: var(--snow);
+    
+    --text-color: var(--strawberry);
+    --text-color-secondary: var(--sky);
+    --text-color-invert: var(--snow);
+    --image-filter: unset;
+    --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
+    --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
+  header {
+    color: var(--midnight);
+  }
+  header h2 {
+    color: var(--strawberry);
+  }
+  body > .sun svg {
+    color: hsl(48, 97%, 71%) !important;
+  }
+  main > p,
+  main > nav {
+    color: var(--midnight);
+  }
+  figure,
+  figure img,
+  .event-list img {
+    border-width: 0 !important;
+  }
+  {% endif %}
 
   /* main main.sky-light hr:first-child + h2 {
     border-top: 0.05em solid var(--background-color);

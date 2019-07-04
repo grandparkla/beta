@@ -10,7 +10,7 @@ hide_from_search_engines: true
 use_analytics: false
 
 use_theme_sunday: true
-use_illustrations: false
+use_illustrations: true
 use_sunshine: false
 use_dark_on_light: false
 use_unit: true

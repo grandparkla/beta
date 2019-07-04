@@ -21,13 +21,17 @@ main h1 + p + nav {
 }
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/fountain.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 Plan your visit
 =================
+
+<div></div>
 
 <figure>
   <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo 1" height="500" />

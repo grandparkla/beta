@@ -34,10 +34,6 @@ main h1 + p + nav + div + h2 + p {
 Programs
 ========
 
-<figure>
-  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
-</figure>
-
 All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
 
 <nav markdown="1">

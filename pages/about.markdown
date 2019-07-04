@@ -20,14 +20,18 @@ main h1 + p + nav {
 }
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/magic-forest.svg %}
 </div>
+{% endcomment %}
 
 {% endif %}
 
 About the park
 ==============
+
+<div></div>
 
 <figure>
   <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
@@ -53,6 +57,11 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 * * *
 
 ## Rent the park
+
+<figure>
+  <img src="https://thesource.metro.net/wp-content/uploads/2019/03/5c80271cf18d8c00099a9ef6-eight.jpg" alt="Captain Marvel" height="500" />
+  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">Some scenes from <em>Captain Marvel</em> were filmed at Grand Park / Credit: Chuck Zlotnick. Marvel Studios. <a href="https://thesource.metro.net/2019/03/07/captain-marvel-who-is-allowed-to-drive-skate-transit-in-vegas-hwr-march-7/">metro.net</a></figcaption>
+</figure>
 
 {% capture markdown_text %}{% include rent.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}

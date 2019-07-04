@@ -31,9 +31,11 @@ main > h1 + nav {
 }
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/fountain.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 Areas of the park

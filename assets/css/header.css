@@ -101,13 +101,18 @@ header {
         /*! font-weight: 500; */
       }
     }
-@media (min-width: 65em) {
+/* @media (min-width: 65em) {
   header nav ul {
     display: flex;
   }
   header nav ul li {
     margin: 0 0 0 1.5em;
   }
+} */
+header nav ul li a {
+  display: inline-block;
+  padding: 0.125em 0.375em;
+  margin: -0.125em -0.375em;
 }
 
 
