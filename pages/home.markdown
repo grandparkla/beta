@@ -318,40 +318,6 @@ h1.welcome,
 h1.welcome span {
   color: var(--snow);
 }
-@media (min-width: 50em) {
-  header {
-    text-shadow: none;
-  }
-  header li a {
-    background-color: var(--strawberry);
-    color: var(--snow);
-  }
-  header h2,
-  header h3 {
-    background-color: var(--snow);
-  }
-  header li {
-    color: var(--snow);
-  }
-  header h2,
-  header h3 {
-    display: table;
-  }
-  header h2 {
-    padding: 1.5em 1.5em 2.5em;
-    margin: -1.5em -1.5em -2.5em;
-  }
-  header h3 {
-    position: relative;
-    z-index: 1;
-  }
-  header li a[href*="visit"] {
-    background-color: var(--lime);
-  }
-  header li a[href*="about"] {
-    background-color: var(--sky);
-  }
-}
 
 </style>
 
