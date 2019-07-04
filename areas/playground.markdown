@@ -2,7 +2,7 @@
 title: Playground
 permalink: /playground/
 
-announcement: "The playground will be closed for maintenance and park improvements, (including a new shade structure) from Wednesday, June 19 through Wednesday, July 3. Thank you for your patience."
+# announcement: "The playground will be closed for maintenance and park improvements, (including a new shade structure) from Wednesday, June 19 through Wednesday, July 3. Thank you for your patience."
 
 ---
 
