@@ -29,6 +29,10 @@ main h1 + p + nav {
 Plan your visit
 =================
 
+<figure>
+  <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+
 Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
 _<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
 
@@ -49,6 +53,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 
 </section> -->
 
+{% comment %}
 <main markdown="1">
 
 * * *
@@ -59,6 +64,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 {{ markdown_text | markdownify }}
 
 </main>
+{% endcomment %}
 
 * * *
 

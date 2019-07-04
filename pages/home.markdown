@@ -107,7 +107,7 @@ body > main > main:first-of-type > .event-list + h2 {
 }
 </style>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations or true %}
 <style>
 body > main {
   padding-top: 1.5em;

@@ -45,6 +45,10 @@ All areas of the park are open daily. Just drop by for a picnic or a splash!
 * [Map of the park](#map)
 </nav>
 
+<figure>
+  <img src="/assets/temporary/misc/splash-pad.jpg" alt="Photo 1" height="500" />
+</figure>
+
 <main markdown="1" class="lime-light">
 
 ### Between Grand Avenue and Hill Street

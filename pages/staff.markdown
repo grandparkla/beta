@@ -14,7 +14,9 @@ Meet the Staff <small>Team Grand Park</small>
 * [Job opportunities](/job-opportunities/)
 </nav>
 
-<div></div>
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
 
 
 <div class="staff-list"></div>

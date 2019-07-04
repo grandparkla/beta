@@ -34,6 +34,10 @@ main h1 + p + nav + div + h2 + p {
 Programs
 ========
 
+<figure>
+  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
+</figure>
+
 All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
 
 <nav markdown="1">
@@ -162,7 +166,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Noche de Ofrenda</h4>
         <!-- <p>Saturday, October 27, 2018</p> -->
       </div>
-      <img src="/uploads/programs/noche-de-ofrenda.jpg" height="300" alt="" />
+      <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="300" />
     </a>
   </li>
   <li>

@@ -98,7 +98,7 @@ Next level rhythms by the SUBSUELO crew with special guests: El Conjunto Nueva O
         <h4>Noche de Ofrenda</h4>
         <p>Saturday, October 27, 2018</p>
       </div>
-      <img src="/uploads/programs/noche-de-ofrenda.jpg" height="300" alt="" />
+      <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="300" />
     </a>
   </li>
   <li>
