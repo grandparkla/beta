@@ -7,7 +7,7 @@ permalink: /alerts/
 * [Plan your visit](/visit/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -35,10 +35,7 @@ main nav:first-child {
 
 # Alerts & closures
 
-<main markdown="1" class="lime-sky">
-
 {% capture markdown_text %}{% include closed-areas.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
 
-</main>
 

@@ -7,7 +7,7 @@ permalink: /rent/
 * [About the park](/about/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -29,6 +29,37 @@ main h1 + nav {
 </div>
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  body > main > h1:first-of-type {
+    grid-row: 2/3;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    align-self: start;
+  }
+  body > .sun {
+    display: none;
+  }
+}
+</style>
+
 Rent the park
 ==================
 
@@ -37,6 +68,10 @@ Rent the park
 * [Filming & photography](#filming-photography)
 * [Questions](#questions)
 </nav>
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0210.JPG" alt="Photo 1" height="500" />
+</figure>
 
 <main markdown="1" class="sky-light">
 

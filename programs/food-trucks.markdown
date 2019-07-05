@@ -8,7 +8,7 @@ permalink: /food-trucks/
 * [Lunch à la Park](/lunch/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -43,7 +43,7 @@ Tuesday, Wednesday and Thursday from <time datetime="11:00">11 a.m.</time> to <t
 _<small>Year-round, except on holidays</small>_
 
 <figure>
-  <img src="/uploads/programs/food-trucks.jpg" alt="Food Truck" height="500" />
+  <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
 </figure>
 
 Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.

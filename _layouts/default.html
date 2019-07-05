@@ -362,7 +362,9 @@
   }
   
   {% if page.url == "/visit/" or
-        page.url == "/areas/" %}
+        page.url == "/areas/" or
+        page.url == "/alerts/" or
+        page.url == "/rules/" %}
   :root {
     --background-color: var(--snow);
     
@@ -372,6 +374,12 @@
     --image-filter: unset;
     --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
     --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
+  body > main > h2 {
+    color: var(--text-color-secondary);
+  }
+  body > main > dl > dt {
+    background-color: var(--text-color-secondary);
   }
   header {
     color: var(--midnight);
@@ -383,6 +391,7 @@
     color: hsl(48, 97%, 71%) !important;
   }
   main > p,
+  main > ul,
   main > nav {
     color: var(--midnight);
   }
@@ -470,7 +479,12 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
   
-  {% if page.url == "/about/" %}
+  {% if page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/staff/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/contact/" or
+        page.url == "/donate/" %}
   :root {
     --background-color: var(--snow);
     
@@ -480,6 +494,12 @@
     --image-filter: unset;
     --svg-filter: grayscale(100%) sepia(100%) hue-rotate(280deg) brightness(1.5) saturate(4);
     --lines-url: url(/uploads/programs/sunday-sessions/lines.svg);
+  }
+  body > main > h2 {
+    color: var(--text-color-secondary);
+  }
+  body > main > dl > dt {
+    background-color: var(--text-color-secondary);
   }
   header {
     color: var(--midnight);
@@ -491,8 +511,12 @@
     color: hsl(48, 97%, 71%) !important;
   }
   main > p,
-  main > nav {
+  main > nav,
+  main > dl {
     color: var(--midnight);
+  }
+  main > h1 small {
+    color: inherit;
   }
   figure,
   figure img,

@@ -28,10 +28,42 @@ main h1 + p + nav {
 
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  /*
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  */
+  body > main > h1:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    margin-bottom: 2.25em;
+    align-self: end;
+  }
+  body > .sun {
+    display: none;
+  }
+}
+</style>
+
 About the park
 ==============
-
-<div></div>
 
 <figure>
   <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />

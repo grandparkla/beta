@@ -62,7 +62,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Baile de los Muertos</h4>
         <p>Saturday, November 3, 2018</p>
       </div>
-      <img src="/uploads/programs/dia-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2017_10_28_17_NocheDeOfrenda2017_Javier_Guillen-1.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

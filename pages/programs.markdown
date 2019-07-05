@@ -7,7 +7,7 @@ permalink: /programs/
 *   [Things to do](/events/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -31,8 +31,43 @@ main h1 + p + nav + div + h2 + p {
 </div>
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  body > main > h1:first-of-type {
+    grid-row: 2/3;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    align-self: start;
+  }
+  body > .sun {
+    display: none;
+  }
+}
+</style>
+
 Programs
 ========
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="500" />
+</figure>
 
 All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
 
@@ -72,7 +107,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -172,7 +207,7 @@ Grand Park celebrates the traditions of Día de los Muertos with multiple ways t
         <h4>Baile de los Muertos</h4>
         <!-- <p>Saturday, November 3, 2018</p> -->
       </div>
-      <img src="/uploads/programs/dia-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2017_10_28_17_NocheDeOfrenda2017_Javier_Guillen-1.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -258,7 +293,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

@@ -7,7 +7,7 @@ permalink: /contact/
 * [About the park](/about/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -44,8 +44,56 @@ main > h1 + nav {
 </div>
 {% endif %}
 
+
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  body > main > h1:first-of-type {
+    grid-row: 2/3;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    align-self: start;
+  }
+  body > .sun {
+    display: none;
+  }
+  body > main > h1:first-of-type + figure {
+    position: relative;
+  }
+  body > main > h1:first-of-type + figure::after {
+    content: "";
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0) 50%, hsla(0, 0%, 0%, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+</style>
+
 Contact us
 ==========
+
+<figure>
+  <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
 
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}

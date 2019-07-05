@@ -64,7 +64,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
         <h4>Food Trucks</h4>
         <!-- <p>Tuesday, Wednesday &amp; Thursday</p> -->
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

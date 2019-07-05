@@ -28,13 +28,57 @@ main h1 + p + nav {
 {% endcomment %}
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  /*
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  */
+  body > main > h1:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    margin-bottom: 2.25em;
+    align-self: end;
+  }
+  body > .sun {
+    display: none;
+  }
+  body > main > h1:first-of-type + figure {
+    position: relative;
+  }
+  body > main > h1:first-of-type + figure::after {
+    content: "";
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.5), hsla(0, 0%, 0%, 0) 50%, hsla(0, 0%, 0%, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+</style>
+
 Plan your visit
 =================
 
-<div></div>
-
 <figure>
-  <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
 </figure>
 
 Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 

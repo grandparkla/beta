@@ -29,10 +29,42 @@ main h1 + p + nav {
 {% endif %}
 {% endcomment %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  /*
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  */
+  body > main > h1:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    margin-bottom: 2.25em;
+    align-self: end;
+  }
+  body > .sun {
+    display: none;
+  }
+}
+</style>
+
 Things to do
 =============================================
-
-<div></div>
 
 <figure>
   <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
@@ -81,7 +113,7 @@ These [areas of the park](/areas/) are open daily. Just drop by!
           Open daily
         </p>
       </div>
-      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
     </a>
   </li>
   <li>
@@ -143,7 +175,7 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
           <!--<br />June 11–13<br /><time datetime="11:00">11 a.m.</time> to <time datetime="14:00">2 p.m.</time>-->
         </p>
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

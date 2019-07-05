@@ -3,35 +3,12 @@ title: Meet the Staff
 permalink: /staff/
 ---
 
+
 <nav markdown="1">
 * [About the park](/about/)
 </nav>
 
-Meet the Staff <small>Team Grand Park</small>
-==============
 
-<main markdown="1" class="lime-light">
-
-## Job Opportunities
-
-### Join the Grand Park team!
-
-<p class="action" markdown="1">
-[Marketing Coordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
-</p>
-
-<div></div>
-
-</main>
-
-{% comment %}
-<figure>
-  <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-</figure>
-{% endcomment %}
-
-
-<div class="staff-list"></div>
 
 <style media="false">
 h2 {
@@ -40,12 +17,12 @@ h2 {
 h2 + p {
   grid-column: 4/-2 !important;
 }
-main > figure {
+main > .staff-list ~ figure {
   grid-column: 3/-2 !important;
   margin: 1.5em 0;
 }
 @media (min-width: 60em) {
-  main > figure {
+  main > .staff-list ~ figure {
     margin-left: -3em;
   }
 }
@@ -55,18 +32,18 @@ main > figure {
 </style>
 
 <style>
-main > figure {
+main > .staff-list ~ figure {
   border-radius: 50%;
   width: 15em;
   height: 15em;
   overflow: hidden;
 }
-main > figure img {
+main > .staff-list ~ figure img {
   width: 15em;
   height: 15em;
   object-fit: cover;
 }
-main > figure {
+main > .staff-list ~ figure {
   grid-column: 3/-2 !important;
   margin: 1.5em 0;
 }
@@ -85,6 +62,23 @@ h2 small em {
   margin-bottom: 6em;
 }
 </style>
+
+Meet the Staff <small>Team Grand Park</small>
+==============
+
+{% comment %}
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+{% endcomment %}
+
+<nav markdown="1">
+* [Job Opportunities](/job-opportunities/)
+</nav>
+
+
+<div class="staff-list"></div>
+
 
 
 
@@ -291,3 +285,17 @@ Likes
 : I am Angela. The new Business Manager. Welcome to our park. #haiku #grandpark #dtla
 
 
+
+<main markdown="1" class="lime">
+
+## Job Opportunities
+
+### Join the Grand Park team!
+
+<p class="action" markdown="1">
+[Marketing Coordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
+</p>
+
+<div></div>
+
+</main>

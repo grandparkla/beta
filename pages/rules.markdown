@@ -7,7 +7,7 @@ permalink: /rules/
 * [Plan your visit](/visit/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -46,10 +46,6 @@ Park rules
 *   spread blankets on the grass and have a picnic
 *   play in the splash pad
 *   walk your dog on a leash
-
-<div></div>
-
-<main markdown="1" class="lime-light">
 
 ### These things are prohibited in the park…
 
@@ -125,4 +121,3 @@ These additional things are prohibited in the park during the [4th of July Block
 
 <small><i>This list is subject to change, and subject to the discretion of Grand Park and/or The Music Center security. Special events may have additional prohibited items.</i></small>
 
-</main>

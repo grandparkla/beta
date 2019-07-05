@@ -57,5 +57,5 @@ Arthur J. Will Memorial Fountain, between Grand Avenue and Hill Street
 </p>
 
 <figure>
-  <img src="/uploads/areas/splash-pad-3.jpg" alt="Splash pad" height="500" />
+  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>

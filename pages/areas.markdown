@@ -38,6 +38,37 @@ main > h1 + nav {
 {% endcomment %}
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    grid-row: 1/3;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: -15em;
+    position: relative;
+    z-index: -1;
+  }
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  body > main > h1:first-of-type {
+    grid-row: 2/3;
+    position: relative;
+    z-index: 1;
+    color: var(--snow) !important;
+    align-self: start;
+  }
+  body > .sun {
+    display: none;
+  }
+}
+</style>
+
 Areas of the park
 ========
 
@@ -48,10 +79,10 @@ All areas of the park are open daily. Just drop by for a picnic or a splash!
 </nav>
 
 <figure>
-  <img src="/assets/temporary/misc/splash-pad.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>
 
-<main markdown="1" class="lime-light">
+<main markdown="1" class="lime">
 
 ### Between Grand Avenue and Hill Street
 
@@ -85,6 +116,9 @@ _(close to City Hall)_
 *   [Marketplace](https://www.google.com/maps/@34.0540165,-118.2437182,3a,75y,89.22h,90t/data=!3m8!1e1!3m6!1sAF1QipPxDlDYHxAb98V4h_NMhSLrSd8502jzoHFixVhH!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPxDlDYHxAb98V4h_NMhSLrSd8502jzoHFixVhH%3Dw203-h100-k-no-pi-0-ya47.057156-ro-0-fo100!7i8704!8i4352)
 *   [Off-leash Dog Run](/dog-run/)
 </nav>
+
+</main>
+<main markdown="1" class="lime-light">
 
 * * *
 
@@ -170,7 +204,7 @@ Grand Park spans four city blocks in downtown Los Angeles between The Music Cent
           Open daily
         </p>
       </div>
-      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
     </a>
   </li>
   <li>

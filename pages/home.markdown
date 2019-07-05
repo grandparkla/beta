@@ -563,7 +563,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           Tuesday, Wednesday &amp; Thursday
         </p>
       </div>
-      <img src="/uploads/programs/food-trucks-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -592,7 +592,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           Open daily
         </p>
       </div>
-      <img src="/uploads/areas/splash-pad-3.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
     </a>
   </li>
   <li>
