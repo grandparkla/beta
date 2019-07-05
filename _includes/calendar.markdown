@@ -79,7 +79,7 @@
 
     
 ## July 2019
-
+<!-- 
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   {% for event in data_list %}
     {% capture month_year %}{{ event.date | date: "%Y-%m" }}{% endcapture %}
@@ -121,6 +121,8 @@
       <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
   </li>
+</ol> -->
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
       <div>
@@ -133,6 +135,8 @@
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/food-trucks/">
       <div>

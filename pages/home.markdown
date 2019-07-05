@@ -524,8 +524,8 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 ## Happening soon
 {% endcomment %}
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
-  <li>
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <!-- <li>
     <a href="/4thofjuly/">
       <div>
         <h3>4th of July</h3>
@@ -536,7 +536,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
       </div>
       <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
     </a>
-  </li>
+  </li> -->
   <li>
     <a href="/sunday-sessions/">
       <div>
