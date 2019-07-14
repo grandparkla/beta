@@ -38,9 +38,24 @@ main h1 + p + nav + div + h2 + p {
     grid-row: 1/3;
     margin-left: -1.5em;
     margin-right: -1.5em;
-    margin-top: -15em;
+    margin-top: -15.5em;
     position: relative;
     z-index: -1;
+  }
+  body > main > figure:first-of-type::after {
+    content: "";
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  body > main > figure:first-of-type img {
+    width: 100%;
+    height: calc(100vh + 1.5rem);
+    min-height: 50vw;
+    object-fit: cover;
   }
   body > main > nav:first-of-type {
     grid-row: 1/2;

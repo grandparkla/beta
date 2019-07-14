@@ -237,7 +237,9 @@ main > h1.welcome span {
 @media (min-aspect-ratio: 1/1) {
   .welcome img,
   main > h1.welcome span {
-    min-height: calc(66vw);
+    width: 100%;
+    height: calc(100vh + 1.5rem);
+    min-height: 50vw;
   }
 }
 main > h1.welcome span > * {
@@ -256,7 +258,7 @@ main > h1.welcome span > * {
   display: grid !important;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  min-height: calc(66vw);
+  /* min-height: calc(66vw); */
   position: relative;
 }
 /*
