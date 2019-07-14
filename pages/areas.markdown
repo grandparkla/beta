@@ -42,7 +42,7 @@ main > h1 + nav {
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
-    grid-row: 1/3;
+    grid-row: 1/4;
     margin-left: -1.5em;
     margin-right: -1.5em;
     margin-top: -15.5em;
@@ -67,9 +67,9 @@ main > h1 + nav {
   body > main > nav:first-of-type {
     grid-row: 1/2;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     color: var(--snow);
-    align-self: end;
+    align-self: start;
   }
   body > main > h1:first-of-type {
     grid-row: 2/3;
@@ -87,15 +87,15 @@ main > h1 + nav {
 Areas of the park
 ========
 
+<figure>
+  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+</figure>
+
 All areas of the park are open daily. Just drop by for a picnic or a splash!
 
 <nav markdown="1">
 * [Map of the park](#map)
 </nav>
-
-<figure>
-  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
-</figure>
 
 <main markdown="1" class="lime">
 

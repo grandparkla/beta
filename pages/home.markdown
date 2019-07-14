@@ -215,7 +215,7 @@ body > .sun {
   object-fit: cover;
   object-position: center;
   position: relative;
-  min-height: calc(100vw);
+  min-height: calc(66vw);
   box-sizing: border-box;
   display: block;
   grid-column: 1/-1;
@@ -228,7 +228,7 @@ main > h1.welcome span {
   position: relative;
   z-index: 999999;
   display: flex !important;
-  min-height: calc(100vw);
+  min-height: calc(66vw);
   box-sizing: border-box;
   text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
   flex-wrap: wrap;
@@ -261,16 +261,14 @@ main > h1.welcome span > * {
   /* min-height: calc(66vw); */
   position: relative;
 }
-/*
 .welcome > b::after {
   content: "";
   position: absolute;
   z-index: 9999;
-  background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.25), hsla(0, 0%, 0%, 0) 25%, hsla(0, 0%, 0%, 0));
+  background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.25), hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0));
   width: 100%;
   height: 100%;
 }
-*/
 .welcome {
   grid-column: 1/-1 !important;
   margin-left: -1.5em !important;

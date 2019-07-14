@@ -31,12 +31,16 @@ main h1 + nav {
 
 <style>
 @media (min-width: 60em) {
+  body > main {
+    grid-template-rows: auto 7vw 13.5em auto;
+  }
   body > main > figure:first-of-type {
     grid-column: 1/-1;
-    grid-row: 1/3;
+    grid-row: 1/4;
     margin-left: -1.5em;
     margin-right: -1.5em;
     margin-top: -15.5em;
+    margin-bottom: 0;
     position: relative;
     z-index: -1;
   }
@@ -58,7 +62,7 @@ main h1 + nav {
   body > main > nav:first-of-type {
     grid-row: 1/2;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     color: var(--snow);
     align-self: end;
   }
@@ -66,6 +70,13 @@ main h1 + nav {
     grid-row: 2/3;
     position: relative;
     z-index: 1;
+    color: var(--snow) !important;
+    align-self: start;
+  }
+  body > main > h1:first-of-type + nav {
+    grid-row: 3/4;
+    position: relative;
+    z-index: 2;
     color: var(--snow) !important;
     align-self: start;
   }

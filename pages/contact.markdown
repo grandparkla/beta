@@ -59,7 +59,7 @@ main > h1 + nav {
   body > main > nav:first-of-type {
     grid-row: 1/2;
     position: relative;
-    z-index: 1;
+    z-index: 2;
     color: var(--snow);
     align-self: end;
   }

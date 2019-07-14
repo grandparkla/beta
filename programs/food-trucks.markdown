@@ -8,7 +8,7 @@ permalink: /food-trucks/
 * [Lunch à la Park](/lunch/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;

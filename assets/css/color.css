@@ -227,12 +227,13 @@ main strong {
     color: var(--strawberry);
   } */
 @media (min-width: 60em) {
-  main h1 + p {
+  main h1 + p,
+  main h1 + figure + p {
       grid-column: 2/-2;
     }
 }
 
-main h1 + p {
+main h1 + figure + p {
 /*   color: var(--strawberry); */
   font-size: 1.125em;
 }
