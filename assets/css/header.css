@@ -499,10 +499,11 @@ main > nav:first-child a::after {
   content: "/";
   padding-left: 0.5em;
   padding-right: 0.25em;
-  opacity: 0.25;
+  /* opacity: 0.25; */
 /*   color: var(--lime-darkest); */
   text-decoration: none !important;
   display: inline-block;
+    color: var(--headline-color);
 }
 
 main > nav ul {
@@ -528,6 +529,9 @@ main > nav:not(:first-child)  li a {
     position: relative;
     text-decoration: none;
   }
+main > h1 + nav,
+main > h1 + p + nav {
+}
 /*   main > nav li a {
     border-left: 0.125em solid;
   } */
@@ -546,7 +550,8 @@ main > nav:not(:first-child)  li a {
     left: -0.3em;
     bottom: 25%;
 /*     color: var(--lime); */
-    opacity: 0.125;
+    /* opacity: 0.125; */
+      color: var(--headline-color);
   }
   main > nav:not(:first-child)  li:first-child a::before {
     height: 50%;

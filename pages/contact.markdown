@@ -11,7 +11,7 @@ permalink: /contact/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 3/6;
 }
 .illustration svg {
   height: 20vmax;

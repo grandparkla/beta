@@ -11,7 +11,7 @@ permalink: /rent/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
+  grid-row: 3/4;
 }
 .illustration svg {
   height: 20vmax;

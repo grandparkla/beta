@@ -8,7 +8,7 @@ permalink: /visit/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
+  grid-row: 2/4;
 }
 .illustration svg {
   height: 15vmax;
@@ -32,21 +32,16 @@ main h1 + figure + p + nav {
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
-    grid-row: 1/6;
+    grid-row: 1/2;
     margin-left: -1.5em;
     margin-right: -1.5em;
     margin-top: -15.5em;
-    margin-bottom: 0;
     position: relative;
     z-index: -1;
-    border-top-width: 0;
-    border-left-width: 0;
-    border-right-width: 0;
-    overflow: hidden;
   }
   body > main > figure:first-of-type::after {
     content: "";
-    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.125), hsla(0, 0%, 0%, 0.125));
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0));
     position: absolute;
     top: 0;
     left: 0;
@@ -55,39 +50,32 @@ main h1 + figure + p + nav {
   }
   body > main > figure:first-of-type img {
     width: 100%;
-    height: 100%;
-    min-height: 0;
+    height: calc(100vh + 1.5rem);
+    min-height: 50vw;
     object-fit: cover;
-    filter: blur(0.75vw);
-    transform: scale(1.025);
   }
+  .illustration {
+    grid-row: 3/4;
+  }
+  /*
+  body > main > nav:first-of-type {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 1;
+    color: var(--snow);
+    align-self: end;
+  }
+  */
   body > main > h1:first-of-type {
     grid-row: 1/2;
     position: relative;
     z-index: 1;
     color: var(--snow) !important;
+    margin-bottom: 2.25em;
+    align-self: end;
   }
-  body > main > h1:first-of-type + p,
-  body > main > h1:first-of-type + figure + p {
-    grid-row: 2/3;
-    color: var(--snow) !important;
-  }
-  body > main > h1:first-of-type + p + nav,
-  body > main > h1:first-of-type + figure + p + nav {
-    grid-row: 3/4;
-    color: var(--snow) !important;
-  }
-  body > main {
-    grid-template-rows: repeat(6, min-content);
-  }
-  body > main > figure:first-of-type + main {
-    margin-top: -1.5em;
-  }
-  body > .sun svg {
-    color: var(--snow) !important;
-  }
-  .illustration {
-    color: var(--snow);
+  body > .sun {
+    display: none;
   }
 }
 </style>

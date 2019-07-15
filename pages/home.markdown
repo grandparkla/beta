@@ -592,7 +592,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   
 ## Every day
 
-<ol class="event-list">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/splash-pad/">
       <div>
@@ -602,9 +602,11 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           Open daily
         </p>
       </div>
-      <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+      <img src="/assets/temporary/misc/Select_JMC1743.jpg" style="object-position: bottom;" alt="Splash Pad" height="500" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/gardens/">
       <div>
@@ -615,6 +617,18 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

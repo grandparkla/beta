@@ -15,7 +15,7 @@ permalink: /performance-lawn/
   grid-row: 1/8;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
 main h1,

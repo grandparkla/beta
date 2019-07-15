@@ -330,6 +330,10 @@
       margin: -0.875em -0.875em -2em;
     }
   }
+  footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
+  }
   /* main main.strawberry-light hr:first-child + h2,
   main main:not([class]) hr:first-child + h2 {
     border-top: 0.05em solid var(--background-color);
@@ -440,6 +444,10 @@
       padding: 0.875em 0.875em 2em;
       margin: -0.875em -0.875em -2em;
     }
+  }
+  footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
   }
   {% endif %}
 
@@ -563,6 +571,10 @@
       padding: 0.875em 0.875em 2em;
       margin: -0.875em -0.875em -2em;
     }
+  }
+  footer {
+    background-color: var(--text-color);
+    color: var(--background-color);
   }
   {% endif %}
 
@@ -822,6 +834,9 @@
     main h2 {
       font-weight: bold;
       border-width: 0;
+    }
+    main > nav:first-child {
+      font-weight: inherit;
     }
     main > nav:first-child {
       position: relative;

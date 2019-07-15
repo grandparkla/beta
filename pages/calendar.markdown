@@ -11,7 +11,7 @@ permalink: /calendar/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
+  grid-row: 3/5;
 }
 .illustration svg {
   height: 20vmax;
@@ -22,6 +22,9 @@ main h1,
 main h1 + p,
 main h1 + nav {
   grid-column-end: -4;
+}
+main h1 + nav + main {
+  margin-top: 0;
 }
 </style>
 

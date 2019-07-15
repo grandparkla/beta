@@ -14,7 +14,7 @@ permalink: /gardens/
   grid-row: 1/6;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
 main h1 {

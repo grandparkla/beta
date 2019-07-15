@@ -11,7 +11,7 @@ permalink: /programs/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/5;
+  grid-row: 3/5;
 }
 .illustration svg {
   height: 20vmax;
@@ -36,11 +36,10 @@ main h1 + figure + p + nav {
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
-    grid-row: 1/6;
+    grid-row: 1/3;
     margin-left: -1.5em;
     margin-right: -1.5em;
     margin-top: -15.5em;
-    margin-bottom: 0;
     position: relative;
     z-index: -1;
     border-top-width: 0;
@@ -48,6 +47,7 @@ main h1 + figure + p + nav {
     border-right-width: 0;
     overflow: hidden;
   }
+  /*
   body > main > figure:first-of-type::after {
     content: "";
     background-image: linear-gradient(to right, hsla(267, 94%, 12%, 0.75), hsla(267, 94%, 12%, 0.75) 33%, hsla(267, 94%, 12%, 0));
@@ -57,10 +57,20 @@ main h1 + figure + p + nav {
     width: 100%;
     height: 100%;
   }
-  body > main > figure:first-of-type img {
+  */
+  body > main > figure:first-of-type::after {
+    content: "";
+    background-image: linear-gradient(to top, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0.25) 25%, hsla(0, 0%, 0%, 0));
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    min-height: 0;
+  }
+  body > main > figure:first-of-type img {
+    width: 100%;
+    height: calc(100vh + 1.5rem);
+    min-height: 50vw;
     object-fit: cover;
     /*
     filter: blur(0.75vw);
@@ -72,25 +82,30 @@ main h1 + figure + p + nav {
     position: relative;
     z-index: 2;
     color: var(--snow);
-    align-self: start;
+    align-self: end;
   }
   body > main > h1:first-of-type {
     grid-row: 2/3;
+    align-self: start;
     position: relative;
     z-index: 1;
     color: var(--snow) !important;
   }
   body > main > h1:first-of-type + p,
   body > main > h1:first-of-type + figure + p {
+  /*
     grid-row: 3/4;
     color: var(--snow) !important;
     text-shadow: 0 0 0.75em hsla(267, 94%, 12%, 1);
+    */
   }
   body > main > h1:first-of-type + p + nav,
   body > main > h1:first-of-type + figure + p + nav {
+  /*
     grid-row: 4/5;
     color: var(--snow) !important;
     text-shadow: 0 0 0.75em hsla(267, 94%, 12%, 1);
+    */
   }
   body > main {
     grid-template-rows: repeat(6, min-content);
@@ -102,8 +117,13 @@ main h1 + figure + p + nav {
     color: var(--snow) !important;
     display: none;
   }
+  /*
   .illustration {
     color: var(--snow);
+  }
+  */
+  .illustration {
+    grid-row: 4/6;
   }
 }
 </style>
@@ -139,7 +159,7 @@ All are invited to Grand Park’s free year-round events including live music, e
   <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
 </figure>
 
-<main markdown="1" class="lime-light">
+<main markdown="1" class="strawberry-light">
 
 ## Lunch à la Park
 

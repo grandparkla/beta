@@ -62,7 +62,7 @@ main > h6,
 main > p,
 main > ul,
 main > ol,
-main > nav:not(:first-child) {
+main > nav {
   font-family: "Noto Sans", 'Noto Sans JP', 'Noto Sans HK', 'Noto Sans KR', 'Bai Jamjuree', "Public Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 main > nav:first-child {

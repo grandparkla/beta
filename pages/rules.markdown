@@ -14,8 +14,8 @@ permalink: /rules/
   grid-row: 1/6;
 }
 .illustration svg {
-  height: 17vmax;
-  width: 12vmax;
+  height: 15vmax;
+  width: 15vmax;
   margin-top: 1em;
   margin-left: 1em;
 }

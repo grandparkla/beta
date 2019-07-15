@@ -11,23 +11,18 @@ permalink: /directions/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 3/6;
 }
 .illustration svg {
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1 + p,
+main h1 + p + p {
+  grid-column-end: -4;
 }
 main > nav:first-child {
   grid-row-start: 1;
-}
-main > h1 + nav {
-    grid-column: 3/-3;
 }
 </style>
 

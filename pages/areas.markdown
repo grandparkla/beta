@@ -11,7 +11,7 @@ permalink: /areas/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/5;
+  grid-row: 3/6;
 }
 .illustration svg {
   height: 17vmax;
@@ -28,6 +28,7 @@ main > nav:first-child {
 }
 main > h1 + nav {
     grid-column: 3/-3;
+    align-self: start;
 }
 </style>
 

@@ -7,11 +7,11 @@ permalink: /events/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
+  grid-row: 2/4;
 }
 .illustration svg {
-  height: 17vmax;
-  width: 12vmax;
+  height: 15vmax;
+  width: 15vmax;
   margin-top: 1em;
   margin-left: 1em;
 }
@@ -107,7 +107,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 </figure>
 -->
 
-<main markdown="1" class="lime-light">
+<main markdown="1" class="strawberry-light">
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
@@ -116,7 +116,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 
 These [areas of the park](/areas/) are open daily. Just drop by!
 
-<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
+<ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/splash-pad/">
       <div>
@@ -126,9 +126,11 @@ These [areas of the park](/areas/) are open daily. Just drop by!
           Open daily
         </p>
       </div>
-      <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+      <img src="/assets/temporary/misc/Select_JMC1743.jpg" style="object-position: bottom;" alt="Splash Pad" height="500" />
     </a>
   </li>
+</ol>
+<ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/gardens/">
       <div>
@@ -139,6 +141,18 @@ These [areas of the park](/areas/) are open daily. Just drop by!
         </p>
       </div>
       <img src="/uploads/areas/gardens-2.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/playground/">
+      <div>
+        <h3>Areas of the Park</h3>
+        <h4>Playground</h4>
+        <p>
+          Open daily
+        </p>
+      </div>
+      <img src="/uploads/areas/playground-2.jpg" height="300" alt="" />
     </a>
   </li>
   <li>

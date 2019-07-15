@@ -53,12 +53,12 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, and 
 *   [Programs](/programs/)
 </nav>
 
-<h2 class="plan-your-day"><a href="/visit/">Plan your visit</a></h2>
+<h2 class="plan-your-day" style="--headline-color: var(--lime);"><a href="/visit/">Plan your visit</a></h2>
 
 Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
 _<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
 
-<nav markdown="1">
+<nav markdown="1" style="--headline-color: var(--lime);">
 *   [Directions to the park](/directions/)
 *   [Map & park areas](/areas/)
 *   [Park rules](/rules/)
@@ -66,11 +66,11 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
-<h2 class="plan-your-day"><a href="/about/">About the park</a></h2>
+<h2 class="plan-your-day" style="--headline-color: var(--sky);"><a href="/about/">About the park</a></h2>
 
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect. Learn more [about the park](/about/).
 
-<nav markdown="1">
+<nav markdown="1" style="--headline-color: var(--sky);">
 *   [Rent the park](/rent/)
 *   [Meet the staff](/staff/)
 *   [Sign up for news](/news-sign-up/)

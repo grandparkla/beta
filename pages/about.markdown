@@ -7,7 +7,7 @@ permalink: /about/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
+  grid-row: 2/4;
 }
 .illustration svg {
   height: 17vmax;
@@ -51,6 +51,9 @@ main h1 + p + nav {
     height: calc(100vh + 1.5rem);
     min-height: 50vw;
     object-fit: cover;
+  }
+  .illustration {
+    grid-row: 3/4;
   }
   /*
   body > main > nav:first-of-type {
