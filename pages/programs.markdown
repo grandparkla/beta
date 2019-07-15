@@ -36,20 +36,6 @@ main h1 + figure + p + nav {
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
-    margin-left: -1.5em;
-    margin-right: -1.5em;
-    margin-bottom: 0;
-  }
-  body > main > figure:first-of-type img {
-    height: 50vw;
-    object-fit: cover;
-  }
-</style>
-
-<style media="false">
-@media (min-width: 60em) {
-  body > main > figure:first-of-type {
-    grid-column: 1/-1;
     grid-row: 1/3;
     margin-left: -1.5em;
     margin-right: -1.5em;
@@ -142,6 +128,22 @@ main h1 + figure + p + nav {
 }
 </style>
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    /*
+    grid-column: 1/-1;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-bottom: 0;
+    */
+  }
+  body > main > figure:first-of-type img {
+    height: 50vw;
+    object-fit: cover;
+  }
+</style>
+
 Programs
 ========
 
@@ -160,17 +162,17 @@ All are invited to Grand Park’s free year-round events including live music, e
 {% comment %}
 
 <figure>
-  <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="" height="500" />
+  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
 </figure>
 
 {% endcomment %}
 
 <figure>
-  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="500" />
 </figure>
 
 <main markdown="1" class="strawberry-light">

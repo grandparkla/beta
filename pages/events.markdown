@@ -27,7 +27,7 @@ main h1 + p + nav {
 </div>
 {% endif %}
 
-<style media="false">
+<style>
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -76,6 +76,22 @@ main h1 + p + nav {
 }
 </style>
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    /*
+    grid-column: 1/-1;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-bottom: 0;
+    */
+  }
+  body > main > figure:first-of-type img {
+    height: 50vw;
+    object-fit: cover;
+  }
+</style>
+
 Things to do
 =============================================
 
@@ -102,10 +118,11 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 <figure>
   <img src="/assets/temporary/welcome/384-wide/32.jpg" srcset="/assets/temporary/welcome/384-wide/32.jpg 384w, /assets/temporary/welcome/512-wide/32.jpg 512w, /assets/temporary/welcome/768-wide/32.jpg 768w, /assets/temporary/welcome/1024-wide/32.jpg 1024w, /assets/temporary/welcome/1536-wide/32.jpg 1536w, /assets/temporary/welcome/2048-wide/32.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
+-->
+
 <figure>
   <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
 </figure>
--->
 
 <main markdown="1" class="strawberry-light">
 
