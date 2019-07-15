@@ -32,6 +32,20 @@ main h1 + figure + p + nav {
 </div>
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-bottom: 0;
+  }
+  body > main > figure:first-of-type img {
+    height: 50vw;
+    object-fit: cover;
+  }
+</style>
+
 <style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {

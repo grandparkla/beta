@@ -298,7 +298,7 @@ main > h1.welcome span > * {
     font-size: 5.25vw;
   }
 }
-@media (min-width: 50em) and (false) {
+@media (min-width: 60em) {
   main > h1.welcome {
     margin-top: -12.5em !important;
   }
@@ -314,7 +314,7 @@ main > h1.welcome span > * {
     color: var(--snow) !important;
   }
 }
-@media (min-width: 60em) and (false) {
+@media (min-width: 60em) {
   main > h1.welcome {
     margin-top: -10em;
   }

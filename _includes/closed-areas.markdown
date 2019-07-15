@@ -1,5 +1,5 @@
 
-All parks areas are currently open!
+All parks areas are currently open.
 
 <!--
 ## June 28, 2019

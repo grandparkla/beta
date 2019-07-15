@@ -44,6 +44,19 @@ main > h1 + nav {
 </div>
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    margin-top: 0;
+    grid-column: 1/-1;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+  }
+  body > main > figure:first-of-type img {
+    height: 50vw;
+    object-fit: cover;
+  }
+</style>
 
 <style media="false">
 @media (min-width: 60em) {
