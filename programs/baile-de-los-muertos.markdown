@@ -22,6 +22,8 @@ permalink: /baile-de-los-muertos/
 .illustration svg,
 .illustration svg path {
   fill: currentColor;
+  stroke: var(--background-color);
+  stroke-width: 1px;
 }
 main h1,
 main h1 + p {
@@ -46,7 +48,7 @@ main > h1 + nav {
 Saturday, November 3, 2018 from 8:00 p.m. to midnight
 
 <figure>
-  <img src="/uploads/programs/dia-de-los-muertos-2.jpg" alt="Día de los Muertos" height="500" />
+  <img src="/assets/temporary/misc/2017_10_28_17_NocheDeOfrenda2017_Javier_Guillen-1.jpg" alt="Día de los Muertos" height="500" />
 </figure>
 
 ## Where

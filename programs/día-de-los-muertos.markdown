@@ -22,6 +22,8 @@ permalink: /día-de-los-muertos/
 .illustration svg,
 .illustration svg path {
   fill: currentColor;
+  stroke: var(--background-color);
+  stroke-width: 1px;
 }
 main h1,
 main h1 + p {

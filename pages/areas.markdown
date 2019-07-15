@@ -37,6 +37,24 @@ main > h1 + nav {
 </div>
 {% endif %}
 
+<style>
+@media (min-width: 60em) {
+  body > main > figure:first-of-type {
+    grid-column: 1/-1;
+    margin-left: -1.5em;
+    margin-right: -1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /*
+  body > main > figure:first-of-type img {
+    height: 50vw;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  */
+</style>
+
 <style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
@@ -89,14 +107,15 @@ Areas of the park
 All areas of the park are open daily. Just drop by for a picnic or a splash!
 
 <nav markdown="1">
-* [Map of the park](#map)
+* [Park areas](#list)
+* [Map](#map)
 </nav>
 
 <figure>
   <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>
 
-<main markdown="1" class="lime-light">
+<main markdown="1" class="lime-light" id="list">
 
 ### Between Grand Avenue and Hill Street
 
@@ -136,7 +155,7 @@ _(close to City Hall)_
 
 * * *
 
-## Map of the Park <a id="map"></a>
+## <a id="map"></a> Map of the Park
 
 <div></div>
 

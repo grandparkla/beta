@@ -22,6 +22,8 @@ permalink: /noche-de-ofrenda/
 .illustration svg,
 .illustration svg path {
   fill: currentColor;
+  stroke: var(--background-color);
+  stroke-width: 1px;
 }
 main h1,
 main h1 + p {
@@ -128,7 +130,7 @@ _[#NochedeOfrenda](https://twitter.com/search?q=%23NochedeOfrenda)_
         <h4>Baile de los Muertos</h4>
         <p>Saturday, November 3, 2018</p>
       </div>
-      <img src="/uploads/programs/dia-de-los-muertos-2.jpg" height="300" alt="" />
+      <img src="/assets/temporary/misc/2017_10_28_17_NocheDeOfrenda2017_Javier_Guillen-1.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
