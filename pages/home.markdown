@@ -240,11 +240,21 @@ main > h1.welcome span {
   flex-wrap: wrap;
   align-content: flex-end;
 }
+/*
 @media (min-aspect-ratio: 1/1) {
   .welcome img,
   main > h1.welcome span {
     width: 100%;
     height: calc(100vh + 1.5rem);
+    min-height: 50vw;
+  }
+}
+*/
+@media (min-width: 40em) {
+  .welcome img,
+  main > h1.welcome span {
+    width: 100%;
+    height: 50vw;
     min-height: 50vw;
   }
 }
@@ -284,6 +294,11 @@ main > h1.welcome span > * {
   grid-template-rows: 1fr;
 }
 @media (min-width: 50em) {
+  main > h1.welcome span {
+    font-size: 5.25vw;
+  }
+}
+@media (min-width: 50em) and (false) {
   main > h1.welcome {
     margin-top: -12.5em !important;
   }
@@ -298,11 +313,8 @@ main > h1.welcome span > * {
   body > .sun svg {
     color: var(--snow) !important;
   }
-  main > h1.welcome span {
-    font-size: 7vw;
-  }
 }
-@media (min-width: 60em) {
+@media (min-width: 60em) and (false) {
   main > h1.welcome {
     margin-top: -10em;
   }
