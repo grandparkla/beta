@@ -7,7 +7,7 @@ permalink: /rent/
 * [About the park](/about/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -25,11 +25,11 @@ main h1 + nav {
 </style>
 
 <div class="illustration">
-{% include backgrounds/magic-forest.svg %}
+{% include backgrounds/tent.svg %}
 </div>
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main {
     grid-template-rows: auto 7vw 13.5em auto;

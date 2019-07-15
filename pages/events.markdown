@@ -3,7 +3,6 @@ title: Things to do
 permalink: /events/
 ---
 
-{% comment %}
 {% if site.use_illustrations %}
 <style>
 .illustration {
@@ -27,9 +26,8 @@ main h1 + p + nav {
 {% include backgrounds/picnic.svg %}
 </div>
 {% endif %}
-{% endcomment %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -81,16 +79,6 @@ main h1 + p + nav {
 Things to do
 =============================================
 
-<figure>
-  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
-</figure>
-
-{% comment %}
-<figure>
-  <img src="/assets/temporary/welcome/384-wide/32.jpg" srcset="/assets/temporary/welcome/384-wide/32.jpg 384w, /assets/temporary/welcome/512-wide/32.jpg 512w, /assets/temporary/welcome/768-wide/32.jpg 768w, /assets/temporary/welcome/1024-wide/32.jpg 1024w, /assets/temporary/welcome/1536-wide/32.jpg 1536w, /assets/temporary/welcome/2048-wide/32.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-</figure>
-{% endcomment %}
-
 <!--
 Relax, have a picnic, play in the splash pad, and enjoy our free events & activities.
 -->
@@ -108,6 +96,16 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
 </nav>
+
+<!--
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/32.jpg" srcset="/assets/temporary/welcome/384-wide/32.jpg 384w, /assets/temporary/welcome/512-wide/32.jpg 512w, /assets/temporary/welcome/768-wide/32.jpg 768w, /assets/temporary/welcome/1024-wide/32.jpg 1024w, /assets/temporary/welcome/1536-wide/32.jpg 1536w, /assets/temporary/welcome/2048-wide/32.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
+</figure>
+-->
 
 <main markdown="1" class="lime-light">
 

@@ -14,13 +14,14 @@ permalink: /alerts/
   grid-row: 1/4;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
 main h1,
 main nav:first-child {
   grid-column-end: -3;
 }
+main h1 + p,
 main h1 + h2 + p,
 main h1 + h2 + p + h2 + p,
 main nav:first-child {
@@ -29,7 +30,7 @@ main nav:first-child {
 </style>
 
 <div class="illustration">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/fountain-edited-2.svg %}
 </div>
 {% endif %}
 

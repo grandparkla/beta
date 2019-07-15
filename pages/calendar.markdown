@@ -11,20 +11,17 @@ permalink: /calendar/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 2/6;
+  grid-row: 1/4;
 }
 .illustration svg {
   height: 20vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
-}
+main > nav:first-of-type,
+main h1,
+main h1 + p,
 main h1 + nav {
-  grid-column: 3/-3;
+  grid-column-end: -4;
 }
 </style>
 
@@ -46,8 +43,6 @@ Calendar
 *   [August](#august-2019)
 *   [September](#september-2019)
 </nav>
-
-<div></div>
 
 <main markdown="1" class="lime-light">
   

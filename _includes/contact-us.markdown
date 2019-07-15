@@ -1,10 +1,4 @@
 
-<nav markdown="1">
-*   [For members of the media](/for-media/)
-*   [For vendors](/for-vendors/)
-*   [Sponsorship](/sponsorship/)
-</nav>
-
 #### Grand Park’s mailing address is:
 
 Grand Park  

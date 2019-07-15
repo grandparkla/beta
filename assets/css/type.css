@@ -445,6 +445,8 @@ h4, h5, h6 {
 figcaption {
   font-style: italic;
   font-size: 0.75em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
 }
 
   /* Limit line lengths, for readability. */

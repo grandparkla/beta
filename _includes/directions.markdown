@@ -34,12 +34,6 @@ C9.3,11.7,9.3,11.2,9.1,10.9z"/>
 </div>
 </figure>
 
-<main markdown="1" class="lime-light">
-
-<div></div>
-
-<div></div>
-
 Grand Park stretches from The Music Center on the west to City Hall on the east between First and Temple streets. With close proximity to major freeways and major public transportation hubs, Grand Park is an easy and fun destination for all.
 
 Pedestrian entrances to the park are located at 200 North Grand Avenue, 221 North Hill Street, 221 North Broadway and 227 North Spring Street.
@@ -57,5 +51,3 @@ Please check the [event page](/4thofjuly/) for the latest details on recommended
 ## Metro
 
 Taking the metro is quick and easy with these simple directions: Metro [Red or Purple Line](http://media.metro.net/riding_metro/bus_overview/images/802.pdf) to Civic Center/Grand Park Station or the [Gold Line](http://media.metro.net/riding_metro/bus_overview/images/804.pdf) to Union Station or Little Tokyo/Arts District Station. Plan your best route using the [Trip Planner](http://www.metro.net/).
-
-</main>

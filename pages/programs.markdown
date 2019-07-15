@@ -7,7 +7,7 @@ permalink: /programs/
 *   [Things to do](/events/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -17,6 +17,7 @@ permalink: /programs/
   height: 20vmax;
   width: auto;
 }
+body > main > nav:first-of-type,
 main h1,
 main h1 + p,
 main h1 + p + nav,
@@ -110,13 +111,6 @@ main h1 + figure + p + nav {
 Programs
 ========
 
-<figure>
-  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="" height="500" />
-  <!--
-  <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="500" />
-  -->
-</figure>
-
 All are invited to Grand Park’s free year-round events including live music, exercise sessions, holiday gatherings, lunchtime activities, and much more!
 
 <nav markdown="1">
@@ -129,7 +123,23 @@ All are invited to Grand Park’s free year-round events including live music, e
 *   [New Year’s Eve](/nyela/)
 </nav>
 
-<div></div>
+{% comment %}
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/33.jpg" srcset="/assets/temporary/welcome/384-wide/33.jpg 384w, /assets/temporary/welcome/512-wide/33.jpg 512w, /assets/temporary/welcome/768-wide/33.jpg 768w, /assets/temporary/welcome/1024-wide/33.jpg 1024w, /assets/temporary/welcome/1536-wide/33.jpg 1536w, /assets/temporary/welcome/2048-wide/33.jpg 2048w" sizes="100vw" alt="Noche de Ofrenda" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="" height="500" />
+</figure>
+
+{% endcomment %}
+
+<figure>
+  <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<main markdown="1" class="lime-light">
 
 ## Lunch à la Park
 
@@ -306,6 +316,8 @@ Countdown to the new year
   </li>
 </ol>
 
+</main>
+
 
 <!-- ### Winter Glow
 
@@ -475,3 +487,5 @@ Spring season
 
 
 {% endcomment %}
+
+

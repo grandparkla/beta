@@ -11,7 +11,7 @@ permalink: /visit/
   grid-row: 1/4;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
 main h1,
@@ -24,11 +24,11 @@ main h1 + figure + p + nav {
 </style>
 
 <div class="illustration">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/fountain-edited-2.svg %}
 </div>
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -95,10 +95,6 @@ main h1 + figure + p + nav {
 Plan your visit
 =================
 
-<figure>
-  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
-</figure>
-
 Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
 _<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
 
@@ -109,6 +105,10 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [FAQs](/faqs/)
 *   [Alerts & closures](/alerts/)
 </nav>
+
+<figure>
+  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
+</figure>
 
 <!-- <section class="special-notice" role="status">
   <h2>

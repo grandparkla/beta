@@ -7,43 +7,32 @@ permalink: /faqs/
 * [Plan your visit](/visit/)
 </nav>
 
-{% comment %}
-
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 1/4;
+  margin-bottom: -1.5em;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
-}
+main h1,
 main > nav:first-child {
-  grid-row-start: 1;
-}
-main > h1 + nav {
-    grid-column: 3/-3;
+  grid-column-end: -4;
 }
 </style>
 
 <div class="illustration">
-{% include backgrounds/flower-hat-girl.svg %}
+{% include backgrounds/fountain-edited-2.svg %}
 </div>
 {% endif %}
-
-{% endcomment %}
 
 FAQs
 ====
 
-<main markdown="1" class="lime-light">
+<div></div>
 
 ### Can I shoot my independent film in the park?
 
@@ -112,5 +101,3 @@ Yes. Visitors are free to move furniture for use within the same area of the par
 ### Can anyone hold an event at the park? Where is information available?
 
 The park is open to everyone. Individuals, companies and organizations are welcome to rent space for public or private events at the park. If you’re interested in renting a space in Grand Park, please visit the [rental information](/rent/) page.
-
-</main>

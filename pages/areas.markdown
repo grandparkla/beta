@@ -14,7 +14,7 @@ permalink: /areas/
   grid-row: 1/5;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 17vmax;
   width: auto;
 }
 main h1 {
@@ -31,14 +31,12 @@ main > h1 + nav {
 }
 </style>
 
-{% comment %}
 <div class="illustration">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/palm-trees.svg %}
 </div>
-{% endcomment %}
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -87,17 +85,17 @@ main > h1 + nav {
 Areas of the park
 ========
 
-<figure>
-  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
-</figure>
-
 All areas of the park are open daily. Just drop by for a picnic or a splash!
 
 <nav markdown="1">
 * [Map of the park](#map)
 </nav>
 
-<main markdown="1" class="lime">
+<figure>
+  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+</figure>
+
+<main markdown="1" class="lime-light">
 
 ### Between Grand Avenue and Hill Street
 

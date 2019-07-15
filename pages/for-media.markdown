@@ -20,7 +20,7 @@ For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/vis
 *   [News Releases](#news-releases)
 </nav>
 
-
+<main markdown="1" class="sky-light">
 
 ## Media Contact
 
@@ -161,3 +161,5 @@ Lisa Ducore
     ](http://grandpark.lacounty.gov/pdf/Grand%20Park%20Opening%20Events%20Release%20FINAL_6.25.12.pdf)([English](http://grandpark.lacounty.gov/pdf/GLORIA%20MOLINA%20JOINS%20CIVIC%20ARTISTIC%20AND%20COMMUNITY%20LEADERS%20TO%20CELEBRATE%20GRAND%20PARK%20OPENING.pdf)) ([Spanish](http://grandpark.lacounty.gov/pdf/SPAN/GHG_Grand%20Park%20Civic%20Dedication%20Release%20SPANISH%20FINAL.pdf))
 *   [NATIONAL DANCE DAY BRINGS THE COMMUNITY TOGETHER FOR PUBLIC INAUGURATION OF GRAND PARK JULY 28, 2012  
     ](http://grandpark.lacounty.gov/pdf/Grand%20Park%20Opening%20Weekend%20Release%20-%20FINAL.pdf)
+
+</main>

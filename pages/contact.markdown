@@ -7,7 +7,7 @@ permalink: /contact/
 * [About the park](/about/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -40,12 +40,12 @@ main > h1 + nav {
 </style>
 
 <div class="illustration">
-{% include backgrounds/magic-forest.svg %}
+{% include backgrounds/enchanted-forest.svg %}
 </div>
 {% endif %}
 
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -90,6 +90,12 @@ main > h1 + nav {
 
 Contact us
 ==========
+
+<nav markdown="1">
+*   [For members of the media](/for-media/)
+*   [For vendors](/for-vendors/)
+*   [Sponsorship](/sponsorship/)
+</nav>
 
 <figure>
   <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1" height="500" />

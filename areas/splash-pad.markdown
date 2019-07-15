@@ -15,7 +15,7 @@ permalink: /splash-pad/
   grid-row: 1/6;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 15vmax;
   width: auto;
 }
 main h1 {
@@ -34,7 +34,7 @@ main > h1 + nav {
 </style>
 
 <div class="illustration">
-{% include backgrounds/fountain.svg %}
+{% include backgrounds/fountain-edited-2.svg %}
 </div>
 {% endif %}
 

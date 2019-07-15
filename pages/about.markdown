@@ -10,7 +10,7 @@ permalink: /about/
   grid-row: 1/4;
 }
 .illustration svg {
-  height: 20vmax;
+  height: 17vmax;
   width: auto;
 }
 main h1,
@@ -20,15 +20,13 @@ main h1 + p + nav {
 }
 </style>
 
-{% comment %}
 <div class="illustration">
-{% include backgrounds/magic-forest.svg %}
+{% include backgrounds/magic-forest-edited-2.svg %}
 </div>
-{% endcomment %}
 
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -80,10 +78,6 @@ main h1 + p + nav {
 About the park
 ==============
 
-<figure>
-  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-</figure>
-
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
 <nav markdown="1">
@@ -99,16 +93,15 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 -->
 </nav>
 
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+
 <main markdown="1" class="sky-light">
 
 * * *
 
 ## Rent the park
-
-<figure>
-  <img src="https://thesource.metro.net/wp-content/uploads/2019/03/5c80271cf18d8c00099a9ef6-eight.jpg" alt="Captain Marvel" height="500" />
-  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">Some scenes from <em>Captain Marvel</em> were filmed at Grand Park / Credit: Chuck Zlotnick. Marvel Studios. <a href="https://thesource.metro.net/2019/03/07/captain-marvel-who-is-allowed-to-drive-skate-transit-in-vegas-hwr-march-7/">metro.net</a></figcaption>
-</figure>
 
 {% capture markdown_text %}{% include rent.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
@@ -170,6 +163,12 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 {% endcomment %}
 
 ## Contact us
+
+<nav markdown="1">
+*   [For members of the media](/for-media/)
+*   [For vendors](/for-vendors/)
+*   [Sponsorship](/sponsorship/)
+</nav>
 
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}

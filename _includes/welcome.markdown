@@ -6,6 +6,7 @@
        or image_index == 5
        or image_index == 6
        or image_index == 8
+       or image_index == 16
        or image_index == 18
        or image_index == 19
        or image_index == 20

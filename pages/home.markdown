@@ -107,8 +107,43 @@ body > main > main:first-of-type > .event-list + h2 {
 }
 </style>
 
-{% if site.use_illustrations or true %}
+{% if site.use_illustrations %}
 <style>
+.illustration {
+  grid-column: -3/-1;
+  grid-row: 1/4;
+}
+.illustration svg {
+  height: 13.5vmax;
+  width: 13.5vmax;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+body > main > main:first-of-type > h2:first-child + p,
+body > main > main:first-of-type > h2:first-child + p + nav {
+  grid-column-end: -3;
+}
+body > main > main:first-of-type > h2:first-child + p {
+  max-width: 30em;
+}
+</style>
+
+<style>
+/*
+.illustration {
+  position: absolute;
+  right: 10%;
+  transform: translate(0, -100%);
+  color: var(--snow);
+}
+.illustration svg {
+  display: block;
+  height: 13.125vmax;
+  width: auto;
+  position: relative;
+  top: -1.5em;
+}
+*/
 body > main {
   padding-top: 1.5em;
 }
@@ -130,34 +165,8 @@ main > h1.welcome span {
 main > h1.welcome span svg {
   display: none;
 }
-main h1,
-main h1 + h2 + p {
-  grid-column-end: -3;
-}
-main h1 + h2 + p {
-  max-width: 30em;
-  margin-bottom: 7.5em;
-}
-@media (min-width: 60em) {
-  main h1 + h2 + p {
-    margin-bottom: 0;
-  }
-}
-</style>
-
-<style>
-.illustration {
-  position: absolute;
-  right: 10%;
-  transform: translate(0, -100%);
-  color: var(--snow);
-}
-.illustration svg {
-  display: block;
-  height: 13.125vmax;
-  width: auto;
-  position: relative;
-  top: -1.5em;
+main > h1.welcome span svg {
+  display: none;
 }
 main > h1.welcome {
   width: auto;
@@ -201,9 +210,6 @@ main > h1.welcome em.hidden {
 {% endif %}
 
 <style>
-body > .sun {
-  display: none;
-}
 .welcome {
   position: relative;
   height: auto !important;
@@ -284,9 +290,13 @@ main > h1.welcome span > * {
   header {
     position: relative;
     z-index: 9999999999;
-    /*
-    text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
-    */
+  }
+  body > .sun {
+    z-index: 9999999999;
+    display: none;
+  }
+  body > .sun svg {
+    color: var(--snow) !important;
   }
   main > h1.welcome span {
     font-size: 7vw;
@@ -510,9 +520,9 @@ h1.welcome span {
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <div class="illustration">
-{% include backgrounds/trees-edited.svg %}
+{% include backgrounds/trees-edited-2.svg %}
 </div>
 {% endif %}
 

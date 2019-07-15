@@ -525,11 +525,16 @@ main > nav li a {
 main > nav:not(:first-child)  li a {
     display: inline-block;
     padding: 0.25em 0.75em;
-    text-decoration: none;
     position: relative;
+    text-decoration: none;
   }
 /*   main > nav li a {
     border-left: 0.125em solid;
+  } */
+  /* main > h1 + figure:first-of-type,
+  main > h1 + p + figure:first-of-type,
+  main > h1 + p + nav + figure:first-of-type  {
+    margin-bottom: 0;
   } */
   
   
