@@ -1,5 +1,5 @@
 ---
-title: Rent the park for an event
+title: Rent the park
 permalink: /rent/
 ---
 

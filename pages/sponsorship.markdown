@@ -12,4 +12,4 @@ Sponsorship
 
 ### Is your company interested in supporting the park?
 
-Please send an email to [sponsorship@musiccenter.org](sponsorship@musiccenter.org)
+Please send an email to [mailto:sponsorship@musiccenter.org](sponsorship@musiccenter.org)
