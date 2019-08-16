@@ -27,7 +27,42 @@ main h1 + p + nav {
 </div>
 {% endif %}
 
+
+{% if false %}
+{% if site.use_illustrations %}
 <style>
+.illustration {
+  grid-column: -3/-1;
+  grid-row: 1/4;
+  position: absolute;
+  right: 0;
+}
+.illustration svg {
+  height: 55vmax;
+  width: 45vmax;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+main h1,
+main h1 + p,
+main h1 + p + nav {
+  grid-column-end: -3;
+}
+main h1 + p {
+  grid-column-end: -1;
+  margin-right: 45vmax;
+}
+</style>
+
+<div class="illustration">
+{% include trees/palm.svg %}
+</div>
+{% endif %}
+{% endif %}
+
+
+
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -76,7 +111,7 @@ main h1 + p + nav {
 }
 </style>
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     /*

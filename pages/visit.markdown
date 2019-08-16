@@ -28,7 +28,7 @@ main h1 + figure + p + nav {
 </div>
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
@@ -80,7 +80,7 @@ main h1 + figure + p + nav {
 }
 </style>
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     /*

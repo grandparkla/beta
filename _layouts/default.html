@@ -247,6 +247,30 @@
 
   {% endif %}
 
+  
+  {% if page.url == "/" or
+        page.url == "/events/" or
+        page.url == "/calendar/" or
+        page.url == "/programs/" %}
+        
+  /* header li a {
+    background-color: var(--snow) !important;
+    color: var(--strawberry) !important;
+  } */
+  /* body {
+    background-image: linear-gradient(to bottom right, hsl(328, 79%, 61%), hsl(232, 90%, 80%));
+  } */
+  /* header {
+    border-bottom: 0.375em solid var(--text-color);
+    padding-bottom: 3em;
+  } */
+  /* body > .sun {
+    display: none;
+  } */
+
+  {% endif %}
+
+  {% if false %}
   {% if page.url == "/" or
         page.url == "/events/" or
         page.url == "/calendar/" or
@@ -340,6 +364,7 @@
   } */
 
   {% endif %}
+  {% endif %}
   
   {% if page.url == "/visit/" or
       page.url == "/directions/" or
@@ -365,6 +390,7 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
   
+  {% if false %}
   {% if page.url == "/visit/" or
         page.url == "/areas/" or
         page.url == "/alerts/" or
@@ -450,6 +476,7 @@
     color: var(--background-color);
   }
   {% endif %}
+  {% endif %}
 
   /*
   body {
@@ -489,6 +516,7 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
   
+  {% if false %}
   {% if page.url == "/about/" or
         page.url == "/rent/" or
         page.url == "/staff/" or
@@ -576,6 +604,7 @@
     background-color: var(--text-color);
     color: var(--background-color);
   }
+  {% endif %}
   {% endif %}
 
   /* main main.sky-light hr:first-child + h2 {

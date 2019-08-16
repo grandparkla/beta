@@ -286,19 +286,33 @@ main > h1.welcome span > * {
   height: 100%;
 }
 .welcome {
+  /*
   grid-column: 1/-1 !important;
+  */
   margin-left: -1.5em !important;
   margin-right: -1.5em !important;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
+@media (min-width: 60em) {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+/*
+@media (min-width: 60em) {
+  .welcome {
+    margin-left: -6.25vw !important;
+    margin-right: -6.25vw !important;
+  }
+}
+*/
 @media (min-width: 50em) {
   main > h1.welcome span {
     font-size: 5.25vw;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 60em) and (false) {
   main > h1.welcome {
     margin-top: -12.5em !important;
   }
@@ -314,14 +328,15 @@ main > h1.welcome span > * {
     color: var(--snow) !important;
   }
 }
-@media (min-width: 60em) {
+@media (min-width: 60em) and (false) {
   main > h1.welcome {
     margin-top: -10em;
   }
 }
 
 body > main > h1.welcome {
-  margin-bottom: 0;
+  margin-top: 3em;
+  margin-bottom: 7.5em;
 }
 body > main > main:first-of-type {
   margin-top: 0;
@@ -335,10 +350,10 @@ body > main > main:first-of-type {
 }
 
 h1.welcome {
-  border-width: 0 !important;
+  border: 0.375em solid var(--text-color) !important;
 }
 main > h1.welcome {
-  background: var(--lime);
+  background: var(--strawberry);
 }
 h1.welcome,
 h1.welcome span {

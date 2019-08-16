@@ -68,10 +68,11 @@ Learn about filming in the park and tell us a little bit about your planned phot
 
 _If you have any questions that aren’t answered on this page, please send us an email at: [gprentals@musiccenter.org](mailto:gprentals@musiccenter.org)_
 
-
+<!--
 <figure>
   <img src="https://thesource.metro.net/wp-content/uploads/2019/03/5c80271cf18d8c00099a9ef6-eight.jpg" alt="Captain Marvel" height="500" />
   <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">Some scenes from <em>Captain Marvel</em> were filmed at Grand Park / Credit: Chuck Zlotnick. Marvel Studios. <a href="https://thesource.metro.net/2019/03/07/captain-marvel-who-is-allowed-to-drive-skate-transit-in-vegas-hwr-march-7/">metro.net</a></figcaption>
 </figure>
+-->
 
 </main>
