@@ -144,9 +144,11 @@ body > main > main:first-of-type > h2:first-child + p {
   top: -1.5em;
 }
 */
+/*
 body > main {
   padding-top: 1.5em;
 }
+*/
 main > h1.welcome {
   display: grid;
   height: 7.5em;
@@ -362,6 +364,11 @@ h1.welcome span {
 
 </style>
 
+<h1>Welcome to <span class="avoid-break">Grand Park</span></h1>
+
+All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
+
+
 {% include welcome.markdown %}
 
 
@@ -542,7 +549,7 @@ h1.welcome span {
 
 <main markdown="1" class="strawberry-light">
 
-
+{% comment %}
 <h2 style="position: static; max-width: 8em">Welcome to <span class="avoid-break">Grand Park</span></h2>
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
@@ -552,6 +559,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% include backgrounds/trees-edited-2.svg %}
 </div>
 {% endif %}
+{% endcomment %}
 
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
@@ -580,7 +588,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, July 21
+          Sunday, September 22
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />

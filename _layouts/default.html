@@ -267,6 +267,48 @@
   /* body > .sun {
     display: none;
   } */
+  
+  </style>
+  <style>
+  .illustration-palm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.25;
+    color: white;
+    color: var(--snow);
+  }
+  .illustration-palm svg {
+    height: 150vw;
+    width: 150vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm svg * {
+    fill: currentColor;
+  }
+  body > .sun {
+    display: none;
+  }
+  .illustration {
+    display: none;
+  }
+  </style>
+
+  <template id="illustration-palm-template">
+    <div class="illustration-palm">
+    {% include trees/palm.svg %}
+    </div>
+  </template>
+  <script>
+  document.addEventListener("DOMContentLoaded", e => {
+    let template = document.getElementById("illustration-palm-template");
+    let clone = document.importNode(template.content, true);
+    document.body.insertBefore(clone, document.body.firstChild);
+  })
+  </script>
+  <style>
 
   {% endif %}
 
@@ -390,6 +432,55 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
   
+  {% if page.url == "/visit/" or
+        page.url == "/areas/" or
+        page.url == "/alerts/" or
+        page.url == "/directions/" or
+        page.url == "/faqs/" or
+        page.url == "/rules/" %}
+  </style>
+  <style>
+  .illustration-palm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.25;
+    color: white;
+    color: var(--snow);
+  }
+  .illustration-palm svg {
+    height: 150vw;
+    width: 150vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm svg * {
+    fill: currentColor;
+  }
+  body > .sun {
+    display: none;
+  }
+  .illustration {
+    display: none;
+  }
+  </style>
+
+  <template id="illustration-palm-template">
+    <div class="illustration-palm">
+    {% include trees/palm.svg %}
+    </div>
+  </template>
+  <script>
+  document.addEventListener("DOMContentLoaded", e => {
+    let template = document.getElementById("illustration-palm-template");
+    let clone = document.importNode(template.content, true);
+    document.body.insertBefore(clone, document.body.firstChild);
+  })
+  </script>
+  <style>
+  {% endif %}
+
   {% if false %}
   {% if page.url == "/visit/" or
         page.url == "/areas/" or
@@ -516,6 +607,55 @@
     --lines-url: url(/uploads/programs/sunday-sessions/lines-bright.svg);
   }
   
+  {% if page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/staff/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/contact/" or
+        page.url == "/donate/" %}
+  </style>
+  <style>
+  .illustration-palm {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 0.25;
+    color: white;
+    color: var(--snow);
+  }
+  .illustration-palm svg {
+    height: 150vw;
+    width: 150vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm svg * {
+    fill: currentColor;
+  }
+  body > .sun {
+    display: none;
+  }
+  .illustration {
+    display: none;
+  }
+  </style>
+
+  <template id="illustration-palm-template">
+    <div class="illustration-palm">
+    {% include trees/palm.svg %}
+    </div>
+  </template>
+  <script>
+  document.addEventListener("DOMContentLoaded", e => {
+    let template = document.getElementById("illustration-palm-template");
+    let clone = document.importNode(template.content, true);
+    document.body.insertBefore(clone, document.body.firstChild);
+  })
+  </script>
+  <style>
+  {% endif %}
+
   {% if false %}
   {% if page.url == "/about/" or
         page.url == "/rent/" or
