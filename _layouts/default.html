@@ -289,7 +289,8 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 5%, hsl(338, 86%, 61%));
+    background-image: linear-gradient(to bottom, hsl(36, 91%, 61%), hsl(338, 91%, 61%) 50vh, hsl(338, 91%, 61%));
+    background-image: linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 66.6vh, hsl(338, 86%, 61%))
     /*
     background-image:
       url(/assets/images/background/sun-rings.svg),
@@ -320,29 +321,29 @@
   }
   .illustration-palm-1 {
     position: absolute;
-    top: -15vw;
-    left: -5vw;
+    left: -15vw;
     z-index: -1;
     opacity: 0.25;
     color: var(--midnight);
+    transform: translateY(calc(-100% + 6em));
   }
   .illustration-palm-1 svg {
-    height: 75vw;
-    width: 50vw;
+    height: 66.6vh;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
   .illustration-palm-2 {
     position: absolute;
-    top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
     color: var(--snow);
+    transform: translateY(calc(-66.6% + 6em));
   }
   .illustration-palm-2 svg {
-    height: 100vw;
-    width: 55vw;
+    height: 75vw;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -354,6 +355,20 @@
   }
   .illustration {
     display: none;
+  }
+  @media (min-width: 60em) {
+    .illustration-palm-1 {
+      left: -5vw;
+    }
+    .illustration-palm-1 svg {
+      height: 75vw;
+    }
+    .illustration-palm-1 {
+      transform: translateY(calc(-50% + 6em));
+    }
+    .illustration-palm-2 {
+      transform: translateY(calc(-25% + 6em));
+    }
   }
   </style>
   
@@ -369,7 +384,13 @@
   document.addEventListener("DOMContentLoaded", e => {
     let template = document.getElementById("illustration-palm-template");
     let clone = document.importNode(template.content, true);
-    document.body.insertBefore(clone, document.body.firstChild);
+    if (document.querySelector("main figure")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
+    } else if (document.querySelector("main .welcome")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main main")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
+    }
   })
   </script>
   <style>
@@ -523,33 +544,62 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, var(--sky), var(--lime) 5%, var(--lime));
+    background-image: linear-gradient(to bottom, hsl(36, 91%, 61%), hsl(338, 91%, 61%) 50vh, hsl(338, 91%, 61%));
+    background-image: linear-gradient(to bottom, hsla(80, 74%, 57%, 1), var(--lime) 66.6vh, var(--lime));
+    background-image: linear-gradient(to bottom, var(--sky), var(--lime) 66.6vh, var(--lime));
+    /*
+    background-image:
+      url(/assets/images/background/sun-rings.svg),
+      radial-gradient(
+        circle at 43.75vw -2vw,
+        hsla(56, 97%, 63%, 100%),
+        hsla(56, 97%, 63%, 100%) 1vw,
+        hsla(56, 97%, 100%, 80%) 2vw,
+        hsla(56, 97%, 100%, 0) 20vw,
+        hsla(56, 97%, 100%, 0)
+      ),
+      linear-gradient(
+        to bottom,
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 30vmax,
+        hsla(11, 81%, 72%, 0%)
+      ),
+      radial-gradient(
+        circle at 43.75vw 0, 
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 20vmax,
+        hsla(11, 81%, 72%, 0%)
+      );
+    background-repeat: no-repeat;
+    background-size: 10vw auto, auto, auto, auto;
+    background-position: 43.75% -2.5vw, top, top, top;
+    */
   }
   .illustration-palm-1 {
     position: absolute;
-    top: -15vw;
-    left: -5vw;
+    left: -15vw;
     z-index: -1;
     opacity: 0.25;
     color: var(--midnight);
+    transform: translateY(calc(-100% + 6em));
   }
   .illustration-palm-1 svg {
-    height: 75vw;
-    width: 50vw;
+    height: 66.6vh;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
   .illustration-palm-2 {
     position: absolute;
-    top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
     color: var(--snow);
+    transform: translateY(calc(-66.6% + 6em));
   }
   .illustration-palm-2 svg {
-    height: 100vw;
-    width: 55vw;
+    height: 75vw;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -561,6 +611,20 @@
   }
   .illustration {
     display: none;
+  }
+  @media (min-width: 60em) {
+    .illustration-palm-1 {
+      left: -5vw;
+    }
+    .illustration-palm-1 svg {
+      height: 75vw;
+    }
+    .illustration-palm-1 {
+      transform: translateY(calc(-50% + 6em));
+    }
+    .illustration-palm-2 {
+      transform: translateY(calc(-25% + 6em));
+    }
   }
   </style>
   
@@ -576,7 +640,13 @@
   document.addEventListener("DOMContentLoaded", e => {
     let template = document.getElementById("illustration-palm-template");
     let clone = document.importNode(template.content, true);
-    document.body.insertBefore(clone, document.body.firstChild);
+    if (document.querySelector("main figure")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
+    } else if (document.querySelector("main .welcome")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main main")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
+    }
   })
   </script>
   <style>
@@ -735,33 +805,63 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, hsl(224, 51%, 46%), var(--sky) 5%, var(--sky));
+    background-image: linear-gradient(to bottom, hsl(36, 91%, 61%), hsl(338, 91%, 61%) 50vh, hsl(338, 91%, 61%));
+    background-image: linear-gradient(to bottom, hsla(80, 74%, 57%, 1), var(--lime) 66.6vh, var(--lime));
+    background-image: linear-gradient(to bottom, var(--sky), var(--lime) 66.6vh, var(--lime));
+    background-image: linear-gradient(to bottom, hsl(224, 51%, 46%), var(--sky) 66.6vh, var(--sky));
+    /*
+    background-image:
+      url(/assets/images/background/sun-rings.svg),
+      radial-gradient(
+        circle at 43.75vw -2vw,
+        hsla(56, 97%, 63%, 100%),
+        hsla(56, 97%, 63%, 100%) 1vw,
+        hsla(56, 97%, 100%, 80%) 2vw,
+        hsla(56, 97%, 100%, 0) 20vw,
+        hsla(56, 97%, 100%, 0)
+      ),
+      linear-gradient(
+        to bottom,
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 30vmax,
+        hsla(11, 81%, 72%, 0%)
+      ),
+      radial-gradient(
+        circle at 43.75vw 0, 
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 20vmax,
+        hsla(11, 81%, 72%, 0%)
+      );
+    background-repeat: no-repeat;
+    background-size: 10vw auto, auto, auto, auto;
+    background-position: 43.75% -2.5vw, top, top, top;
+    */
   }
   .illustration-palm-1 {
     position: absolute;
-    top: -15vw;
-    left: -5vw;
+    left: -15vw;
     z-index: -1;
     opacity: 0.25;
     color: var(--midnight);
+    transform: translateY(calc(-100% + 6em));
   }
   .illustration-palm-1 svg {
-    height: 75vw;
-    width: 50vw;
+    height: 66.6vh;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
   .illustration-palm-2 {
     position: absolute;
-    top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
     color: var(--snow);
+    transform: translateY(calc(-66.6% + 6em));
   }
   .illustration-palm-2 svg {
-    height: 100vw;
-    width: 55vw;
+    height: 75vw;
+    width: auto;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -773,6 +873,20 @@
   }
   .illustration {
     display: none;
+  }
+  @media (min-width: 60em) {
+    .illustration-palm-1 {
+      left: -5vw;
+    }
+    .illustration-palm-1 svg {
+      height: 75vw;
+    }
+    .illustration-palm-1 {
+      transform: translateY(calc(-50% + 6em));
+    }
+    .illustration-palm-2 {
+      transform: translateY(calc(-25% + 6em));
+    }
   }
   </style>
   
@@ -788,7 +902,13 @@
   document.addEventListener("DOMContentLoaded", e => {
     let template = document.getElementById("illustration-palm-template");
     let clone = document.importNode(template.content, true);
-    document.body.insertBefore(clone, document.body.firstChild);
+    if (document.querySelector("main figure")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
+    } else if (document.querySelector("main .welcome")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main main")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
+    }
   })
   </script>
   <style>
