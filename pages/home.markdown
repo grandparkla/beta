@@ -311,7 +311,7 @@ main > h1.welcome span > * {
 */
 @media (min-width: 50em) {
   main > h1.welcome span {
-    font-size: 5.25vw;
+    font-size: 4vw;
   }
 }
 @media (min-width: 60em) and (false) {

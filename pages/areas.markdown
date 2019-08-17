@@ -37,7 +37,7 @@ main > h1 + nav {
 </div>
 {% endif %}
 
-<style>
+<style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
     grid-column: 1/-1;
