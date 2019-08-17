@@ -558,6 +558,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 .illustration-group {
   display: grid;
   grid-template-columns: 1fr;
+  width: 23vmax;
 }
 .illustration-group > div {
   grid-column: 1/-1;
@@ -566,16 +567,29 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 .illustration-city-hall svg {
   transform: scaleX(-1);
 }
+.illustration-city-hall-sun {
+  width: 3.75vmax;
+  height: 3.75vmax;
+  background-color: var(--banana);
+  border-radius: 50%;
+}
+
+@media (min-width: 60em) {
+  .illustration-group {
+    transform: scale(0.65);
+  }
+}
 </style>
 <div class="illustration illustration-group">
+  <div class="illustration-city-hall-sun"></div>
   <div>
   {% include trees/city-hall-edited.svg %}
   </div>
-  <div class="illustration-city-hall" style="transform: translate(-25%, -6%) scale(1.2); filter: brightness(75%) saturate(0.85);">
-  {% include trees/palm.svg %}
+  <div class="illustration-city-hall" style="transform: translate(22.5%, -9%) scale(1.2); filter: brightness(75%) saturate(0.85);">
+  {% include trees/palm-2.svg %}
   </div>
-  <div style="transform: translate(22.5%, 10%) scale(0.75); filter: brightness(75%) saturate(0.85);">
-  {% include trees/palm.svg %}
+  <div style="transform: translate(10%, 10%) scale(0.75); filter: brightness(75%) saturate(0.85);">
+  {% include trees/palm-2.svg %}
   </div>
 </div>
 {% endif %}
