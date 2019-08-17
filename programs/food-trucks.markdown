@@ -255,7 +255,7 @@ Tuesday, <span class="avoid-break">June 25</span>
 
 
 <figure>
-  <img src="/uploads/programs/food-trucks-2.jpg" alt="Food Truck" height="500" />
+  <img src="/uploads/programs/food-trucks-5.jpg" alt="Food Truck" height="500" />
 </figure>
 
 

@@ -1,7 +1,7 @@
 <h1 class="welcome">
 
 <b>
-{% for image_index in (1..44) %}
+{% for image_index in (1..46) %}
 {% unless image_index == 3
        or image_index == 5
        or image_index == 6
@@ -20,7 +20,7 @@
        or image_index == 42
        or image_index == 43 %}
   {% capture image_filename %}{{ image_index }}.jpg{% endcapture %}
-  <img src="/assets/temporary/welcome/384-wide/{{ image_filename }}" srcset="/assets/temporary/welcome/384-wide/{{ image_filename }} 384w, /assets/temporary/welcome/512-wide/{{ image_filename }} 512w, /assets/temporary/welcome/768-wide/{{ image_filename }} 768w, /assets/temporary/welcome/1024-wide/{{ image_filename }} 1024w, /assets/temporary/welcome/1536-wide/{{ image_filename }} 1536w, /assets/temporary/welcome/2048-wide/{{ image_filename }} 2048w" sizes="100vw" alt="Photo {{ image_index }}" style="display: none; opacity: 0; object-position: top" />
+  <img src="/assets/temporary/welcome/384-wide/{{ image_filename }}" srcset="/assets/temporary/welcome/384-wide/{{ image_filename }} 384w, /assets/temporary/welcome/512-wide/{{ image_filename }} 512w, /assets/temporary/welcome/768-wide/{{ image_filename }} 768w, /assets/temporary/welcome/1024-wide/{{ image_filename }} 1024w, /assets/temporary/welcome/1536-wide/{{ image_filename }} 1536w, /assets/temporary/welcome/2048-wide/{{ image_filename }} 2048w" sizes="100vw" alt="Photo {{ image_index }}" style="display: none; opacity: 0; object-position: {% if forloop.index == 1 or forloop.index == 7 or forloop.index == 10 or forloop.index == 15 or forloop.index == 17 or forloop.index == 32 %}top{% else %}center{% endif %}" />
 {% endunless %}
 {% endfor %}
 {% comment %}
