@@ -272,12 +272,13 @@
   <style>
   header {
     position: relative;
+    padding-bottom: 4rem;
   }
   header::after {
     content: "";
     border-bottom: 0.15em solid;
     position: absolute;
-    bottom: -1.125em;
+    bottom: 0;
     left: 1.5rem;
     width: calc(100vw - 3rem);
   }
@@ -288,20 +289,60 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, hsl(11, 81%, 61%), hsla(338, 81%, 61%, 1) 5%, hsla(338, 81%, 61%, 1));
+    background-image: linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 5%, hsl(338, 86%, 61%));
+    /*
+    background-image:
+      url(/assets/images/background/sun-rings.svg),
+      radial-gradient(
+        circle at 43.75vw -2vw,
+        hsla(56, 97%, 63%, 100%),
+        hsla(56, 97%, 63%, 100%) 1vw,
+        hsla(56, 97%, 100%, 80%) 2vw,
+        hsla(56, 97%, 100%, 0) 20vw,
+        hsla(56, 97%, 100%, 0)
+      ),
+      linear-gradient(
+        to bottom,
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 30vmax,
+        hsla(11, 81%, 72%, 0%)
+      ),
+      radial-gradient(
+        circle at 43.75vw 0, 
+        hsla(11, 81%, 72%, 66%),
+        hsla(11, 81%, 72%, 0%) 20vmax,
+        hsla(11, 81%, 72%, 0%)
+      );
+    background-repeat: no-repeat;
+    background-size: 10vw auto, auto, auto, auto;
+    background-position: 43.75% -2.5vw, top, top, top;
+    */
   }
-  .illustration-palm {
+  .illustration-palm-1 {
+    position: absolute;
+    top: -15vw;
+    left: -5vw;
+    z-index: -1;
+    opacity: 0.25;
+    color: var(--snow);
+  }
+  .illustration-palm-1 svg {
+    height: 100vw;
+    width: 50vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm-2 {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
-    color: white;
-    color: var(--snow);
+    color: var(--midnight);
   }
-  .illustration-palm svg {
-    height: 150vw;
-    width: 150vw;
+  .illustration-palm-2 svg {
+    height: 75vw;
+    width: 50vw;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -315,10 +356,13 @@
     display: none;
   }
   </style>
-
+  
   <template id="illustration-palm-template">
-    <div class="illustration-palm">
+    <div class="illustration-palm illustration-palm-1">
     {% include trees/palm.svg %}
+    </div>
+    <div class="illustration-palm illustration-palm-2">
+    {% include trees/palm-2.svg %}
     </div>
   </template>
   <script>
@@ -462,12 +506,13 @@
   <style>
   header {
     position: relative;
+    padding-bottom: 4rem;
   }
   header::after {
     content: "";
     border-bottom: 0.15em solid;
     position: absolute;
-    bottom: -1.125em;
+    bottom: 0;
     left: 1.5rem;
     width: calc(100vw - 3rem);
   }
@@ -478,20 +523,33 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, hsl(86, 43%, 41%), var(--lime) 5%, var(--lime));
+    background-image: linear-gradient(to bottom, hsl(338, 86%, 61%), var(--lime) 5%, var(--lime));
   }
-  .illustration-palm {
+  .illustration-palm-1 {
+    position: absolute;
+    top: -10vw;
+    left: -5vw;
+    z-index: -1;
+    opacity: 0.25;
+    color: var(--midnight);
+  }
+  .illustration-palm-1 svg {
+    height: 100vw;
+    width: 60vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm-2 {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
-    color: white;
     color: var(--snow);
   }
-  .illustration-palm svg {
-    height: 150vw;
-    width: 150vw;
+  .illustration-palm-2 svg {
+    height: 75vw;
+    width: 40vw;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -505,10 +563,13 @@
     display: none;
   }
   </style>
-
+  
   <template id="illustration-palm-template">
-    <div class="illustration-palm">
+    <div class="illustration-palm illustration-palm-1">
     {% include trees/palm.svg %}
+    </div>
+    <div class="illustration-palm illustration-palm-2">
+    {% include trees/palm-2.svg %}
     </div>
   </template>
   <script>
@@ -657,12 +718,13 @@
   <style>
   header {
     position: relative;
+    padding-bottom: 4rem;
   }
   header::after {
     content: "";
     border-bottom: 0.15em solid;
     position: absolute;
-    bottom: -1.125em;
+    bottom: 0;
     left: 1.5rem;
     width: calc(100vw - 3rem);
   }
@@ -673,20 +735,33 @@
     }
   }
   body {
-    background-image: linear-gradient(to bottom, hsl(196, 79%, 36%), var(--sky) 5%, var(--sky));
+    background-image: linear-gradient(to bottom, var(--lime), var(--sky) 5%, var(--sky));
   }
-  .illustration-palm {
+  .illustration-palm-1 {
+    position: absolute;
+    top: -15vw;
+    left: -5vw;
+    z-index: -1;
+    opacity: 0.25;
+    color: var(--snow);
+  }
+  .illustration-palm-1 svg {
+    height: 75vw;
+    width: 50vw;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+  .illustration-palm-2 {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
     opacity: 0.25;
-    color: white;
-    color: var(--snow);
+    color: var(--midnight);
   }
-  .illustration-palm svg {
-    height: 150vw;
-    width: 150vw;
+  .illustration-palm-2 svg {
+    height: 75vw;
+    width: 50vw;
     margin-top: 1em;
     margin-left: 1em;
   }
@@ -700,10 +775,13 @@
     display: none;
   }
   </style>
-
+  
   <template id="illustration-palm-template">
-    <div class="illustration-palm">
+    <div class="illustration-palm illustration-palm-1">
     {% include trees/palm.svg %}
+    </div>
+    <div class="illustration-palm illustration-palm-2">
+    {% include trees/palm-2.svg %}
     </div>
   </template>
   <script>
