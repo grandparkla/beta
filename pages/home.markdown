@@ -119,6 +119,9 @@ body > main > main:first-of-type > .event-list + h2 {
   margin-top: 1em;
   margin-left: 1em;
 }
+.illustration svg * {
+  fill: currentColor;
+}
 body > main > main:first-of-type > h2:first-child + p,
 body > main > main:first-of-type > h2:first-child + p + nav {
   grid-column-end: -3;
@@ -551,8 +554,29 @@ h1.welcome span {
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
 
 {% if site.use_illustrations %}
-<div class="illustration">
-{% include backgrounds/trees-edited-2.svg %}
+<style>
+.illustration-group {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.illustration-group > div {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+}
+.illustration-city-hall svg {
+  transform: scaleX(-1);
+}
+</style>
+<div class="illustration illustration-group">
+  <div>
+  {% include trees/city-hall-edited.svg %}
+  </div>
+  <div class="illustration-city-hall" style="transform: translate(-25%, -6%) scale(1.2); filter: brightness(75%) saturate(0.85);">
+  {% include trees/palm.svg %}
+  </div>
+  <div style="transform: translate(22.5%, 10%) scale(0.75); filter: brightness(75%) saturate(0.85);">
+  {% include trees/palm.svg %}
+  </div>
 </div>
 {% endif %}
 
