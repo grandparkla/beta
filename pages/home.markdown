@@ -341,13 +341,16 @@ main > h1.welcome span > * {
 
 body > main > h1.welcome {
   margin-top: 0;
-  margin-bottom: 7.5em;
 }
 body > main > main:first-of-type {
   margin-top: 0;
   padding-top: 3em;
 }
 @media (min-width: 60em) {
+  body > main > h1.welcome {
+    margin-top: 0;
+    margin-bottom: 7.5em;
+  }
   body > main > main:first-of-type {
     margin-top: -1.5em;
     padding-top: 4.5em;
