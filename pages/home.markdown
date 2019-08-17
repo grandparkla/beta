@@ -256,8 +256,8 @@ main > h1.welcome span {
   .welcome img,
   main > h1.welcome span {
     width: 100%;
-    height: 50vw;
-    min-height: 50vw;
+    height: 66vh;
+    min-height: 66vh;
   }
 }
 main > h1.welcome span > * {
@@ -311,7 +311,7 @@ main > h1.welcome span > * {
 */
 @media (min-width: 50em) {
   main > h1.welcome span {
-    font-size: 4vw;
+    font-size: 3vw;
   }
 }
 @media (min-width: 60em) and (false) {
@@ -337,7 +337,7 @@ main > h1.welcome span > * {
 }
 
 body > main > h1.welcome {
-  margin-top: 3em;
+  margin-top: 0;
   margin-bottom: 7.5em;
 }
 body > main > main:first-of-type {
@@ -364,13 +364,8 @@ h1.welcome span {
 
 </style>
 
-<h1>Welcome to <span class="avoid-break">Grand Park</span></h1>
-
-All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
-
 
 {% include welcome.markdown %}
-
 
 
 
@@ -549,7 +544,8 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
 <main markdown="1" class="strawberry-light">
 
-{% comment %}
+
+
 <h2 style="position: static; max-width: 8em">Welcome to <span class="avoid-break">Grand Park</span></h2>
 
 All are invited to have a picnic on the lawn, stroll through the gardens, play in the splash pad, and attend Grand Park’s free year-round <span class="avoid-break">events & activities!</span>
@@ -559,7 +555,6 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% include backgrounds/trees-edited-2.svg %}
 </div>
 {% endif %}
-{% endcomment %}
 
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
