@@ -584,26 +584,26 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
 @media (min-width: 60em) {
   .illustration-group {
-    transform: scale(0.65) translateY(3.75em);
+    transform: scale(0.65) translateY(3.875em);
   }
 }
 </style>
-<div class="illustration illustration-group">
+<div class="illustration illustration-group" style="color: hsl(32, 93%, 72%)">
   <div class="illustration-city-hall-sun"></div>
   <div>
   {% include trees/city-hall-edited.svg %}
   </div>
-  <div class="illustration-city-hall" style="transform: translate(22.5%, -9%) scale(1.2); filter: brightness(75%) saturate(0.85);">
+  <div class="illustration-city-hall" style="transform: translate(22.5%, -9%) scale(1.2); filter: brightness(95%) saturate(0.95);">
   {% include trees/palm-2.svg %}
   </div>
-  <div style="transform: translate(10%, 10%) scale(0.75); filter: brightness(75%) saturate(0.85);">
+  <div style="transform: translate(10%, 11%) scale(0.75); filter: brightness(95%) saturate(0.95);">
   {% include trees/palm-2.svg %}
   </div>
 </div>
 {% endif %}
 
 </main>
-<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, var(--strawberry), var(--banana))">
+<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry))">
 
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
