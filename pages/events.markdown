@@ -245,7 +245,6 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 </ol>
 
 
-<main markdown="1" class="lime-light">
 
 * * *
 
@@ -253,5 +252,4 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 
 {% include calendar.markdown %}
 
-</main>
 

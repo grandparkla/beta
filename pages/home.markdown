@@ -548,7 +548,7 @@ h1.welcome span {
 })();
 </script>
 
-<main markdown="1" class="strawberry-light">
+<main markdown="1" class="strawberry-light" style="padding-top: 2.25em; padding-bottom: 0;">
 
 
 
@@ -579,7 +579,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
 @media (min-width: 60em) {
   .illustration-group {
-    transform: scale(0.65);
+    transform: scale(0.65) translateY(3.75em);
   }
 }
 </style>
