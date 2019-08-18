@@ -106,10 +106,10 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 
 <nav markdown="1">
 {% if site.events_today -%}
-*   [Today](/events/#today)
 {% elsif site.events_tomorrow -%}
 *   [Tomorrow](/events/#tomorrow)
 {% endif -%}
+*   [Today](/events/#today)
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -130,6 +130,35 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
+
+## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
+
+<ol class="event-list" style="grid-template-columns: 1fr;">
+  <!-- <li>
+    <a href="/4thofjuly/">
+      <div>
+        <h3>4th of July</h3>
+        <h4>4th of July Block Party</h4>
+        <p>
+          Thursday, July 4
+        </p>
+      </div>
+      <img src="/uploads/programs/4thofjuly.jpg" height="300" alt="" />
+    </a>
+  </li> -->
+  <li>
+    <a href="/sunday-sessions/">
+      <div>
+        <h3>Sunday Sessions</h3>
+        <h4>Day Dance Party</h4>
+        <p>
+          Sunday, August 18
+        </p>
+      </div>
+      <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
+    </a>
+  </li>
+</ol>
 
 ## <a id="daily"></a> Every day
 
