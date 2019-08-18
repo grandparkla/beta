@@ -422,6 +422,17 @@
   })
   </script>
   <style>
+  {% if page.url == "/" %}
+  /* SHIM: Make space for the palm trees */
+  @media (max-width: 60em) {
+    body > main {
+      padding-top: 35vw !important;
+    }
+    .illustration-palm-1 {
+      transform: translateY(calc(-100% + 28em)) scaleX(-1);
+    }
+  }
+  {% endif %}
 
   {% endif %}
 
