@@ -46,9 +46,6 @@ Calendar
 *   [August](#august-2019)
 *   [September](#september-2019)
 </nav>
-
-<main markdown="1" class="lime-light">
   
 {% include calendar.markdown %}
 
-</main>

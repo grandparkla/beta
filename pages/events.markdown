@@ -127,7 +127,6 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
   <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
 </figure>
 
-<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, var(--strawberry), var(--banana))">
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
@@ -245,7 +244,6 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
-</main>
 
 <main markdown="1" class="lime-light">
 

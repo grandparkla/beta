@@ -635,8 +635,12 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   </li>
 </ol>
   
-## Lunch à la park
-  
+## Lunch à la Park <a id="weekly"></a>
+
+### Every week at lunchtime
+
+Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.
+
 <ol class="event-list">
   <li>
     <a href="/food-trucks/">
@@ -664,7 +668,9 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   </li>
 </ol>
   
-## Every day
+## <a id="daily"></a> Every day
+
+These [areas of the park](/areas/) are open daily. Just drop by!
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
