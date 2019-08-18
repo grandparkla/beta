@@ -92,6 +92,7 @@ main figure img {
   .event-list img,
   main figure {
     border: 0.375em solid var(--text-color);
+    background-color: var(--text-color);
     box-sizing: border-box;
   }
   main[class*="light"] > .event-list img,

@@ -363,6 +363,7 @@ body > main > main:first-of-type {
 }
 
 h1.welcome {
+  background: var(--text-color) !important;
   border: 0.375em solid var(--text-color) !important;
 }
 main > h1.welcome {
