@@ -964,6 +964,13 @@
     background-image: linear-gradient(to bottom, hsl(224, 51%, 46%), var(--sky) 66.6vh, var(--sky));
     background-image: linear-gradient(to bottom, hsl(189, 100%, 58%), var(--sky) 66.6vh, var(--sky));
     background-image: linear-gradient(to bottom, hsl(213, 61%, 45%), hsl(195, 65%, 49%) 66.6vh, hsl(195, 65%, 49%));
+
+    background-image: radial-gradient(circle at 43.75vw -2vw, hsl(11, 86%, 74%), hsla(11, 86%, 74%, 0) 66.6vh, hsla(86, 51%, 46%, 0)),
+                      linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 66.6vh, hsl(31, 94%, 72%) 50%, hsl(31, 94%, 72%));
+
+    background-image: radial-gradient(circle at 43.75vw -2vw, hsl(213, 86%, 74%), hsla(213, 61%, 45%, 0) 66.6vh, hsla(195, 65%, 49%, 0)),
+                      linear-gradient(to bottom, hsl(213, 61%, 45%), hsl(195, 65%, 49%) 66.6vh, hsl(195, 65%, 49%));
+
     /*
     background-image: url(/assets/images/DzytGrNW0AEi-H3.jpg), linear-gradient(to bottom, hsl(224, 51%, 46%), var(--sky) 66.6vh, var(--sky));
     background-repeat: no-repeat;
@@ -1002,6 +1009,7 @@
     background-position: 43.75% -2.5vw, top, top, top;
     */
   }
+  /*
   body::before {
     content: "";
     background-image: url(/uploads/programs/4thofjuly/poster/stars.svg);
@@ -1013,6 +1021,7 @@
     height: 100vh;
     filter: blur(1px);
   }
+  */
   /*
   .illustration-palm-1 {
     position: absolute;
@@ -1116,7 +1125,6 @@
     top: 0 !important;
     transform: translate(-50%, -4.5vmax) scale(2) !important;
     filter: blur(0.75em);
-    display: none;
   }
   body > .sun path,
   body > .sun circle {
@@ -1648,7 +1656,16 @@
       page.url == "/alerts/" or
       page.url == "/directions/" or
       page.url == "/faqs/" or
-      page.url == "/rules/" %}
+      page.url == "/rules/" or
+      
+      page.url == "/about/" or
+      page.url == "/rent/" or
+      page.url == "/staff/" or
+      page.url == "/news-sign-up/" or
+      page.url == "/contact/" or
+      page.url == "/donate/"
+      
+       %}
 <div class="sun">
 {% include backgrounds/sun-3.svg %}
 </div>
