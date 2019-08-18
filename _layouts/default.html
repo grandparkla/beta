@@ -340,7 +340,7 @@
     position: absolute;
     right: 0;
     z-index: -1;
-    opacity: 0.25;
+    opacity: 0.1;
     color: var(--snow);
     transform: translateY(calc(-66.6% + 6em));
   }
@@ -354,7 +354,16 @@
     fill: currentColor;
   }
   body > .sun {
-    display: none;
+    position: absolute;
+    z-index: -1;
+    left: 43.75%;
+    top: 0 !important;
+    transform: translate(-50%, -4.5vmax) scale(2) !important;
+    filter: blur(0.75em);
+  }
+  body > .sun path,
+  body > .sun circle {
+    fill: hsla(48, 97%, 71%, 1) !important;
   }
   body > main > .illustration {
     display: none;
@@ -591,7 +600,7 @@
     position: absolute;
     right: 0;
     z-index: -1;
-    opacity: 0.25;
+    opacity: 0.1;
     color: var(--snow);
     transform: translateY(calc(-100% + 6em));
   }
@@ -619,7 +628,17 @@
     fill: currentColor;
   }
   body > .sun {
-    display: none;
+    position: absolute;
+    z-index: -1;
+    left: 43.75%;
+    top: 0 !important;
+    transform: translate(-50%, -4.5vmax) scale(2) !important;
+    filter: blur(0.75em);
+  }
+  body > .sun path,
+  body > .sun circle {
+    fill: hsla(48, 97%, 71%, 1) !important;
+    fill: white !important;
   }
   body > main > .illustration {
     display: none;
@@ -857,6 +876,17 @@
     background-position: 43.75% -2.5vw, top, top, top;
     */
   }
+  body::before {
+    content: "";
+    background-image: url(/uploads/programs/4thofjuly/poster/stars.svg);
+    background-size: 100vh auto;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    filter: blur(1px);
+  }
   .illustration-palm-1 {
     position: absolute;
     left: -15vw;
@@ -875,7 +905,7 @@
     position: absolute;
     right: 0;
     z-index: -1;
-    opacity: 0.25;
+    opacity: 0.1;
     color: var(--snow);
     transform: translateY(calc(-66.6% + 6em));
   }
@@ -1397,9 +1427,25 @@
 {% unless page.stylesheets %}
 {% if site.use_illustrations %}
 
+{% if page.url == "/" or
+      page.url == "/events/" or
+      page.url == "/calendar/" or
+      page.url == "/programs/" or
+
+      page.url == "/visit/" or
+      page.url == "/areas/" or
+      page.url == "/alerts/" or
+      page.url == "/directions/" or
+      page.url == "/faqs/" or
+      page.url == "/rules/" %}
+<div class="sun">
+{% include backgrounds/sun-3.svg %}
+</div>
+{% else %}
 <div class="sun">
 {% include backgrounds/sun.svg %}
 </div>
+{% endif %}
 
 {% endif %}
 {% endunless %}
