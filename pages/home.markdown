@@ -611,7 +611,11 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
 <div></div>
 
+{% comment %}
 ## Happening soon
+{% endcomment %}
+
+## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <!-- <li>
@@ -632,7 +636,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, September 22
+          Sunday, August 18
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />

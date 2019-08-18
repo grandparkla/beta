@@ -129,7 +129,7 @@
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, September 22
+          Sunday, August 18
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
@@ -251,7 +251,7 @@
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, September 22
+          Sunday, August 18
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-4.jpg" height="300" alt="" />
