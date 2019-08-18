@@ -39,4 +39,6 @@ main nav:first-child {
 {% capture markdown_text %}{% include closed-areas.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
 
-
+<div></div>
+<div></div>
+<div></div>

@@ -1,5 +1,5 @@
 
-All parks areas are currently open.
+<h2 style="grid-column: 2/-2; justify-self: start">All parks areas are currently open.</h2>
 
 <!--
 ## June 28, 2019
