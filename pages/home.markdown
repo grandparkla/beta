@@ -597,13 +597,16 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 </div>
 {% endif %}
 
+</main>
+<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, var(--strawberry), var(--banana))">
+
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
-{% comment %}
+<div></div>
+
 ## Happening soon
-{% endcomment %}
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <!-- <li>

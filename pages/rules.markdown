@@ -49,6 +49,8 @@ Park rules
 *   play in the splash pad
 *   walk your dog on a leash
 
+<main class="lime-light" markdown="1">
+
 ### These things are prohibited in the park…
 
 *   Alcohol. Grand Park may have events that include alcohol, and only alcohol within the bar area is authorized.
@@ -123,3 +125,4 @@ These additional things are prohibited in the park during the [4th of July Block
 
 <small><i>This list is subject to change, and subject to the discretion of Grand Park and/or The Music Center security. Special events may have additional prohibited items.</i></small>
 
+</main>
