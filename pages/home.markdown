@@ -186,6 +186,11 @@ main > h1.welcome {
     padding-left: 0;
     padding-right: 0;
     grid-column: 2/-2;
+    width: 133.333vh;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-self: center;
   }
   main > h1.welcome span {
     font-size: 3.5vw;
