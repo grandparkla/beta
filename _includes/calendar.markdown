@@ -75,7 +75,6 @@
   </li>
 </ol> -->
 
-{% endcomment %}
 
     
 ## July 2019
@@ -158,6 +157,7 @@
     </a>
   </li>
 </ol>
+{% endcomment %}
 
 
   
@@ -251,7 +251,7 @@
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, August 18
+          Sunday, September 22
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-4.jpg" height="300" alt="" />
