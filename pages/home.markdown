@@ -231,7 +231,9 @@ main > h1.welcome em.hidden {
   object-fit: cover;
   object-position: center;
   position: relative;
+  height: calc(66vw);
   min-height: calc(66vw);
+  width: 100%;
   box-sizing: border-box;
   display: block;
   grid-column: 1/-1;
@@ -249,6 +251,7 @@ main > h1.welcome span {
   text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
   flex-wrap: wrap;
   align-content: flex-end;
+  align-items: flex-end;
 }
 /*
 @media (min-aspect-ratio: 1/1) {
