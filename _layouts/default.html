@@ -422,30 +422,7 @@
     }
   }
   </style>
-  
-  <template id="illustration-palm-template">
-    <div class="illustration-palm illustration-palm-1">
-    {% include trees/palm.svg %}
-    </div>
-    <div class="illustration-palm illustration-palm-2">
-    {% include trees/palm.svg %}
-    </div>
-  </template>
-  <script>
-  document.addEventListener("DOMContentLoaded", e => {
-    let template = document.getElementById("illustration-palm-template");
-    let clone = document.importNode(template.content, true);
-    if (document.querySelector("main figure")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
-    } else if (document.querySelector("main .welcome")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
-    } else if (document.querySelector("main .event-list")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
-    } else if (document.querySelector("main main")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
-    }
-  })
-  </script>
+
   <style>
   {% if page.url == "/" %}
   /* SHIM: Make space for the palm trees */
@@ -816,30 +793,7 @@
     }
   }
   </style>
-  
-  <template id="illustration-palm-template">
-    <div class="illustration-palm illustration-palm-1">
-    {% include trees/palm.svg %}
-    </div>
-    <div class="illustration-palm illustration-palm-2">
-    {% include trees/palm.svg %}
-    </div>
-  </template>
-  <script>
-  document.addEventListener("DOMContentLoaded", e => {
-    let template = document.getElementById("illustration-palm-template");
-    let clone = document.importNode(template.content, true);
-    if (document.querySelector("main figure")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
-    } else if (document.querySelector("main .welcome")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
-    } else if (document.querySelector("main .event-list")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
-    } else if (document.querySelector("main main")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
-    }
-  })
-  </script>
+
   <style>
   {% endif %}
 
@@ -1214,30 +1168,7 @@
     }
   }
   </style>
-  
-  <template id="illustration-palm-template">
-    <div class="illustration-palm illustration-palm-1">
-    {% include trees/palm.svg %}
-    </div>
-    <div class="illustration-palm illustration-palm-2">
-    {% include trees/palm.svg %}
-    </div>
-  </template>
-  <script>
-  document.addEventListener("DOMContentLoaded", e => {
-    let template = document.getElementById("illustration-palm-template");
-    let clone = document.importNode(template.content, true);
-    if (document.querySelector("main figure")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
-    } else if (document.querySelector("main .welcome")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
-    } else if (document.querySelector("main .event-list")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
-    } else if (document.querySelector("main main")) {
-      document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
-    }
-  })
-  </script>
+
   <style>
   {% endif %}
 
@@ -1813,6 +1744,51 @@
     {{ plan_your_day | markdownify }}
   </main>
 </main>
+
+{% if page.url == "/" or
+      page.url == "/events/" or
+      page.url == "/calendar/" or
+      page.url == "/programs/" or
+
+      page.url == "/visit/" or
+      page.url == "/areas/" or
+      page.url == "/alerts/" or
+      page.url == "/directions/" or
+      page.url == "/faqs/" or
+      page.url == "/rules/" or
+      
+      page.url == "/about/" or
+      page.url == "/rent/" or
+      page.url == "/staff/" or
+      page.url == "/news-sign-up/" or
+      page.url == "/contact/" or
+      page.url == "/donate/"
+      
+       %}
+<template id="illustration-palm-template">
+  <div class="illustration-palm illustration-palm-1">
+  {% include trees/palm.svg %}
+  </div>
+  <div class="illustration-palm illustration-palm-2">
+  {% include trees/palm.svg %}
+  </div>
+</template>
+<script>
+(function() {
+  let template = document.getElementById("illustration-palm-template");
+  let clone = document.importNode(template.content, true);
+  if (document.querySelector("main figure")) {
+    document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
+  } else if (document.querySelector("main .welcome")) {
+    document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+  } else if (document.querySelector("main .event-list")) {
+    document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
+  } else if (document.querySelector("main main")) {
+    document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
+  }
+})();
+</script>
+{% endif %}
 
 <footer class="footer">
 
