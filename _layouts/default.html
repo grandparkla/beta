@@ -370,6 +370,12 @@
     width: auto;
     margin-top: 1em;
     margin-left: 1em;
+    -webkit-mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+    -webkit-mask-size: cover;
+    -webkit-mask-type: alpha;
+    mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+    mask-size: cover;
+    mask-type: alpha;
   }
   .illustration-palm svg * {
     fill: currentColor;
@@ -433,6 +439,8 @@
       document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
     } else if (document.querySelector("main .welcome")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main .event-list")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
     } else if (document.querySelector("main main")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
     }
@@ -819,6 +827,8 @@
       document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
     } else if (document.querySelector("main .welcome")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main .event-list")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
     } else if (document.querySelector("main main")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
     }
@@ -1209,6 +1219,8 @@
       document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
     } else if (document.querySelector("main .welcome")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
+    } else if (document.querySelector("main .event-list")) {
+      document.querySelector("main").insertBefore(clone, document.querySelector("main .event-list"));
     } else if (document.querySelector("main main")) {
       document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
     }
