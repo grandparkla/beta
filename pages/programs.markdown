@@ -178,7 +178,7 @@ All are invited to Grand Park’s free year-round events including live music, e
 
 ## Lunch à la Park
 
-<p style="margin-right: 10em">Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.</p>
+<p style="margin-right: 30vw">Come into the sunshine and enjoy everyone’s favorite time of the workday – the mighty lunch.</p>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
