@@ -10,8 +10,12 @@ permalink: /news-sign-up/
 Sign up for news
 =======
 
-<div></div>
-<div></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <main markdown="1" class="strawberry-light">
 

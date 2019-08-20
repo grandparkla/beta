@@ -10,8 +10,12 @@ permalink: /donate/
 Donate
 ======
 
-<div></div>
-<div></div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <main class="sky-light" markdown="1">
 
