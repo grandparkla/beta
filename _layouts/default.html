@@ -459,10 +459,10 @@
     header nav ul li + li::before {
       content: " ";
       border-top: 0.125em solid;
-      width: 90%;
-      display: block;
+      width: calc(100% - 1.5em);
       margin-left: auto;
-      margin-right: auto;
+      margin-right: 0.75em;
+      display: block;
       opacity: 0.5;
     }
   }
@@ -882,10 +882,10 @@
     header nav ul li + li::before {
       content: " ";
       border-top: 0.125em solid;
-      width: 90%;
-      display: block;
+      width: calc(100% - 1.5em);
       margin-left: auto;
-      margin-right: auto;
+      margin-right: 0.75em;
+      display: block;
       opacity: 0.5;
     }
   }
@@ -1309,10 +1309,10 @@
     header nav ul li + li::before {
       content: " ";
       border-top: 0.125em solid;
-      width: 90%;
-      display: block;
+      width: calc(100% - 1.5em);
       margin-left: auto;
-      margin-right: auto;
+      margin-right: 0.75em;
+      display: block;
       opacity: 0.5;
     }
   }
@@ -1922,9 +1922,11 @@
       
        %}
 <template id="illustration-palm-template">
+  {% if page.url == "/" %}
   <div class="illustration-palm illustration-palm-1">
   {% include trees/palm.svg %}
   </div>
+  {% endif %}
   {% if page.url == "/events/" or
         page.url == "/calendar/" or
         page.url == "/programs/" or
@@ -1943,7 +1945,7 @@
         page.url == "/contact/" or
         page.url == "/donate/" %}
     <div class="illustration-palm illustration-palm-2 illustration-sticker">
-    {% include trees/sticker.svg %}
+    {% include trees/sticker-fountain.svg %}
     </div>
   {% else %}
     <div class="illustration-palm illustration-palm-2">
