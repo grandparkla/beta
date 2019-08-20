@@ -377,6 +377,15 @@
     mask-size: cover;
     mask-type: alpha;
   }
+  .illustration-sticker {
+    right: 10vw;
+    transform: translateY(calc(-66.6% - 3em));
+  }
+  .illustration-sticker svg {
+    height: 25vw;
+    -webkit-mask-image: unset;
+    mask-image: unset;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -419,6 +428,14 @@
     }
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
+    }
+    .illustration-sticker {
+      right: 10vw;
+    }
+    .illustration-sticker svg {
+      height: 25vw;
+      -webkit-mask-image: unset;
+      mask-image: unset;
     }
   }
   header nav ul {
@@ -783,6 +800,15 @@
     mask-size: cover;
     mask-type: alpha;
   }
+  .illustration-sticker {
+    right: 10vw;
+    transform: translateY(calc(-66.6% - 3em));
+  }
+  .illustration-sticker svg {
+    height: 25vw;
+    -webkit-mask-image: unset;
+    mask-image: unset;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -826,6 +852,14 @@
     }
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
+    }
+    .illustration-sticker {
+      right: 10vw;
+    }
+    .illustration-sticker svg {
+      height: 25vw;
+      -webkit-mask-image: unset;
+      mask-image: unset;
     }
   }
   header nav ul {
@@ -1193,6 +1227,15 @@
     mask-size: cover;
     mask-type: alpha;
   }
+  .illustration-sticker {
+    right: 10vw;
+    transform: translateY(calc(-66.6% - 3em));
+  }
+  .illustration-sticker svg {
+    height: 25vw;
+    -webkit-mask-image: unset;
+    mask-image: unset;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -1236,6 +1279,14 @@
     }
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
+    }
+    .illustration-sticker {
+      right: 10vw;
+    }
+    .illustration-sticker svg {
+      height: 25vw;
+      -webkit-mask-image: unset;
+      mask-image: unset;
     }
   }
   header nav ul {
@@ -1874,9 +1925,31 @@
   <div class="illustration-palm illustration-palm-1">
   {% include trees/palm.svg %}
   </div>
-  <div class="illustration-palm illustration-palm-2">
-  {% include trees/palm.svg %}
-  </div>
+  {% if page.url == "/events/" or
+        page.url == "/calendar/" or
+        page.url == "/programs/" or
+
+        page.url == "/visit/" or
+        page.url == "/areas/" or
+        page.url == "/alerts/" or
+        page.url == "/directions/" or
+        page.url == "/faqs/" or
+        page.url == "/rules/" or
+
+        page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/staff/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/contact/" or
+        page.url == "/donate/" %}
+    <div class="illustration-palm illustration-palm-2 illustration-sticker">
+    {% include trees/sticker.svg %}
+    </div>
+  {% else %}
+    <div class="illustration-palm illustration-palm-2">
+    {% include trees/palm.svg %}
+    </div>
+  {% endif %}
 </template>
 <script>
 (function() {

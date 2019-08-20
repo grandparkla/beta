@@ -104,7 +104,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 
 <nav markdown="1">
 *   [Directions to the park](/directions/)
-*   [Map & park areas](/areas/)
+*   [Areas of the park](/areas/)
 *   [Park rules](/rules/)
 *   [FAQs](/faqs/)
 *   [Alerts & closures](/alerts/)
