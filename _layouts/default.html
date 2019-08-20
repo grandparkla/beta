@@ -476,6 +476,16 @@
       -webkit-mask-image: unset;
       mask-image: unset;
     }
+    main > nav:first-of-type,
+    main h1,
+    main h1 + p,
+    main h1 + nav,
+    main h1 + p + nav {
+      margin-left: calc(100vw / 8 * 0.75) !important;
+    }
+    main h1 {
+      grid-column-end: -2 !important;
+    }
   }
   header nav ul {
     --purple: hsl(256, 58%, 66%);
@@ -937,6 +947,16 @@
       height: auto;
       -webkit-mask-image: unset;
       mask-image: unset;
+    }
+    main > nav:first-of-type,
+    main h1,
+    main h1 + p,
+    main h1 + nav,
+    main h1 + p + nav {
+      margin-left: calc(100vw / 8 * 0.75) !important;
+    }
+    main h1 {
+      grid-column-end: -2 !important;
     }
   }
   header nav ul {
@@ -1408,6 +1428,16 @@
     }
     main h1, main h1 + p, main h1 + p + nav {
       grid-column-end: -4 !important;
+    }
+    main > nav:first-of-type,
+    main h1,
+    main h1 + p,
+    main h1 + nav,
+    main h1 + p + nav {
+      margin-left: calc(100vw / 8 * 0.75) !important;
+    }
+    main h1 {
+      grid-column-end: -2 !important;
     }
   }
   header nav ul {
