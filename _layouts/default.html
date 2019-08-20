@@ -386,6 +386,13 @@
     -webkit-mask-image: unset;
     mask-image: unset;
   }
+  .illustration-swirl {
+    right: 2.5vw;
+    transform: translateY(calc(-66.6% - 1.5em)) scaleX(-1);
+  }
+  .illustration-swirl svg {
+    height: 15vw;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -436,6 +443,13 @@
       height: 25vw;
       -webkit-mask-image: unset;
       mask-image: unset;
+    }
+    .illustration-swirl {
+      right: 2.5vw;
+      transform: translateY(calc(-25% + 22em)) scaleX(-1);
+    }
+    .illustration-swirl svg {
+      height: 15vw;
     }
   }
   header nav ul {
@@ -809,6 +823,13 @@
     -webkit-mask-image: unset;
     mask-image: unset;
   }
+  .illustration-swirl {
+    right: 2.5vw;
+    transform: translateY(calc(-66.6% - 1.5em)) scaleX(-1);
+  }
+  .illustration-swirl svg {
+    height: 15vw;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -860,6 +881,13 @@
       height: 25vw;
       -webkit-mask-image: unset;
       mask-image: unset;
+    }
+    .illustration-swirl {
+      right: 2.5vw;
+      transform: translateY(calc(-25% + 22em)) scaleX(-1);
+    }
+    .illustration-swirl svg {
+      height: 15vw;
     }
   }
   header nav ul {
@@ -1236,6 +1264,13 @@
     -webkit-mask-image: unset;
     mask-image: unset;
   }
+  .illustration-swirl {
+    right: 2.5vw;
+    transform: translateY(calc(-66.6% - 1.5em)) scaleX(-1);
+  }
+  .illustration-swirl svg {
+    height: 15vw;
+  }
   .illustration-palm svg * {
     fill: currentColor;
   }
@@ -1287,6 +1322,13 @@
       height: 25vw;
       -webkit-mask-image: unset;
       mask-image: unset;
+    }
+    .illustration-swirl {
+      right: 2.5vw;
+      transform: translateY(calc(-25% + 22em)) scaleX(-1);
+    }
+    .illustration-swirl svg {
+      height: 15vw;
     }
   }
   header nav ul {
@@ -1901,8 +1943,16 @@
   </main>
 </main>
 
-{% if page.url == "/" or
-      page.url == "/events/" or
+{% if page.url == "/" %}
+<template id="illustration-palm-template">
+  <div class="illustration-palm illustration-palm-1">
+  {% include trees/palm.svg %}
+  </div>
+  <div class="illustration-palm illustration-palm-2">
+  {% include trees/palm.svg %}
+  </div>
+</template>
+{% elsif page.url == "/events/" or
       page.url == "/calendar/" or
       page.url == "/programs/" or
 
@@ -1912,50 +1962,27 @@
       page.url == "/directions/" or
       page.url == "/faqs/" or
       page.url == "/rules/" or
-      
+
       page.url == "/about/" or
       page.url == "/rent/" or
       page.url == "/staff/" or
       page.url == "/news-sign-up/" or
       page.url == "/contact/" or
-      page.url == "/donate/"
-      
-       %}
+      page.url == "/donate/" %}
 <template id="illustration-palm-template">
-  {% if page.url == "/" %}
   <div class="illustration-palm illustration-palm-1">
-  {% include trees/palm.svg %}
+  {% include trees/swirl.svg %}
   </div>
-  {% endif %}
-  {% if page.url == "/events/" or
-        page.url == "/calendar/" or
-        page.url == "/programs/" or
-
-        page.url == "/visit/" or
-        page.url == "/areas/" or
-        page.url == "/alerts/" or
-        page.url == "/directions/" or
-        page.url == "/faqs/" or
-        page.url == "/rules/" or
-
-        page.url == "/about/" or
-        page.url == "/rent/" or
-        page.url == "/staff/" or
-        page.url == "/news-sign-up/" or
-        page.url == "/contact/" or
-        page.url == "/donate/" %}
-    <div class="illustration-palm illustration-palm-2 illustration-sticker">
-    {% include trees/sticker-fountain.svg %}
-    </div>
-  {% else %}
-    <div class="illustration-palm illustration-palm-2">
-    {% include trees/palm.svg %}
-    </div>
-  {% endif %}
+  <div class="illustration-palm illustration-palm-2 illustration-swirl">
+  {% include trees/fountain.svg %}
+  </div>
 </template>
+{% endif %}
+
 <script>
 (function() {
   let template = document.getElementById("illustration-palm-template");
+  if (!template) return;
   let clone = document.importNode(template.content, true);
   if (document.querySelector("main figure")) {
     document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
@@ -1968,7 +1995,6 @@
   }
 })();
 </script>
-{% endif %}
 
 <footer class="footer">
 
