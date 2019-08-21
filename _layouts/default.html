@@ -408,7 +408,7 @@
   .illustration-palm svg * {
     fill: currentColor;
   }
-  body > .sun {
+  body > .sun-3 {
     position: absolute;
     z-index: -1;
     left: 43.75%;
@@ -416,10 +416,15 @@
     transform: translate(-50%, -4.5vmax) scale(2) !important;
     filter: blur(0.75em);
   }
-  body > .sun path,
-  body > .sun circle {
+  body > .sun-3 path,
+  body > .sun-3 circle {
     fill: hsla(48, 97%, 71%, 1) !important;
   }
+  /*
+  body > .splash-sun {
+    transform: translate(-50%, -4.5vmax) rotate(20deg) !important;
+  }
+  */
   body > main > .illustration {
     display: none;
   }
@@ -885,7 +890,7 @@
   .illustration-palm svg * {
     fill: currentColor;
   }
-  body > .sun {
+  body > .sun-3 {
     position: absolute;
     z-index: -1;
     left: 43.75%;
@@ -893,8 +898,8 @@
     transform: translate(-50%, -4.5vmax) scale(2) !important;
     filter: blur(0.75em);
   }
-  body > .sun path,
-  body > .sun circle {
+  body > .sun-3 path,
+  body > .sun-3 circle {
     fill: hsla(48, 97%, 71%, 1) !important;
     fill: hsla(56, 96%, 91%, 1) !important;
   }
@@ -1369,7 +1374,7 @@
   .illustration-palm svg * {
     fill: currentColor;
   }
-  body > .sun {
+  body > .sun-3 {
     position: absolute;
     z-index: -1;
     left: 43.75%;
@@ -1377,8 +1382,8 @@
     transform: translate(-50%, -4.5vmax) scale(2) !important;
     filter: blur(0.75em);
   }
-  body > .sun path,
-  body > .sun circle {
+  body > .sun-3 path,
+  body > .sun-3 circle {
     fill: hsla(48, 97%, 71%, 1) !important;
     fill: hsla(48, 97%, 97%, 1) !important;
   }
@@ -1977,9 +1982,13 @@
       page.url == "/donate/"
       
        %}
-  {% if false %}
-  <div class="sun">
+  {% if page.url == "/" %}
+  <div class="sun sun-3">
   {% include backgrounds/sun-3.svg %}
+  </div>
+  {% else %}
+  <div class="sun splash-sun">
+  {% include backgrounds/splash-sun-5.svg %}
   </div>
   {% endif %}
 {% else %}
