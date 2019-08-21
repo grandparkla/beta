@@ -422,11 +422,30 @@
     left: 43.75%;
     top: 0 !important;
     transform: translate(-50%, -4.5vmax) scale(2) !important;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  body > .sun-3 svg,
+  body > .sun-3::before {
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+    align-self: center;
+    justify-self: center;
+  }
+  body > .sun-3 svg {
     filter: blur(0.75em);
   }
   body > .sun-3 path,
   body > .sun-3 circle {
     fill: hsla(48, 97%, 71%, 1) !important;
+  }
+  body > .sun-3::before {
+    content: "";
+    width: 1.25em;
+    height: 1.2em;
+    border-radius: 50%;
+    background-color: var(--snow);
   }
   /*
   body > .splash-sun {
