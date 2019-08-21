@@ -185,7 +185,7 @@
         <h4>Food Trucks</h4>
         <p>Every Tuesday, Wednesday &amp; Thursday</p>
       </div>
-      <img src="/assets/temporary/misc/2018_LunchalaPark_Javier_Guillen.jpg" height="300" alt="" />
+      <img src="/uploads/programs/food-trucks-5.jpg" height="300" alt="" />
     </a>
   </li>
   <li>
@@ -295,5 +295,32 @@
     </li>
     {% endif %}
   {% endfor %}
+</ol>
+
+
+
+## October 2019
+
+<ol class="event-list">
+  <li>
+    <a href="/food-trucks/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Food Trucks</h4>
+        <p>Every Tuesday, Wednesday &amp; Thursday</p>
+      </div>
+      <img src="/uploads/programs/food-trucks-5.jpg" height="300" alt="" />
+    </a>
+  </li>
+  <li>
+    <a href="/yoga/">
+      <div>
+        <h3>Lunch à la Park</h3>
+        <h4>Yoga reTREAT</h4>
+        <p>Every Wednesday &amp; Friday</p>
+      </div>
+      <img src="/uploads/programs/yoga-2.jpg" height="300" alt="" />
+    </a>
+  </li>
 </ol>
 
