@@ -478,6 +478,7 @@
     }
     body > main > nav:first-of-type,
     main h1,
+    main h1 + h2,
     main h1 + p,
     main h1 + nav,
     main h1 + p + nav {
@@ -955,6 +956,7 @@
     }
     body > main > nav:first-of-type,
     main h1,
+    main h1 + h2,
     main h1 + p,
     main h1 + nav,
     main h1 + p + nav {
@@ -1441,6 +1443,7 @@
     }
     body > main > nav:first-of-type,
     main h1,
+    main h1 + h2,
     main h1 + p,
     main h1 + nav,
     main h1 + p + nav {
@@ -1974,9 +1977,11 @@
       page.url == "/donate/"
       
        %}
-<div class="sun">
-{% include backgrounds/sun-3.svg %}
-</div>
+  {% if false %}
+  <div class="sun">
+  {% include backgrounds/sun-3.svg %}
+  </div>
+  {% endif %}
 {% else %}
 <div class="sun">
 {% include backgrounds/sun.svg %}
