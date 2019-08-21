@@ -78,12 +78,14 @@ Meet the Staff <small>Team Grand Park</small>
 ==============
 
 <nav markdown="1">
-* [Job Opportunities](/job-opportunities/)
 </nav>
 
+<!--
+* [Job Opportunities](/job-opportunities/)
 <figure>
   <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
+-->
 
 
 <div class="staff-list"></div>
@@ -294,17 +296,23 @@ Likes
 : I am Angela. The new Business Manager. Welcome to our park. #haiku #grandpark #dtla
 
 
+<div></div>
+<div></div>
+<div></div>
 
+<!--
 <main markdown="1" class="lime">
 
 ## Job Opportunities
 
 ### Join the Grand Park team!
 
+There are no openings at this time.
+
 <p class="action" markdown="1">
 [Marketing Coordinator, Grand Park](https://www.musiccenter.org/globalassets/documentspac/job-postings/marketing_coordinator_gp___arpil2019.pdf)
 </p>
 
-<div></div>
 
 </main>
+-->
