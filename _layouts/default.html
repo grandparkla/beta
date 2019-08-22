@@ -2292,6 +2292,26 @@
   </main>
 </main>
 
+
+{% if page.url == "/" or
+      page.url == "/events/" or
+      page.url == "/calendar/" or
+      page.url == "/programs/" or
+      
+      page.url == "/visit/" or
+      page.url == "/areas/" or
+      page.url == "/alerts/" or
+      page.url == "/directions/" or
+      page.url == "/faqs/" or
+      page.url == "/rules/" or
+
+      page.url == "/about/" or
+      page.url == "/rent/" or
+      page.url == "/staff/" or
+      page.url == "/news-sign-up/" or
+      page.url == "/contact/" or
+      page.url == "/donate/" %}
+
 <template id="illustration-palm-template">
   <div class="illustration-palm illustration-palm-1">
   {% include trees/palm.svg %}
@@ -2349,6 +2369,8 @@
   }
 })();
 </script>
+
+{% endif %}
 
 <footer class="footer">
 
