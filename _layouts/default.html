@@ -2378,6 +2378,25 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
+  {% elsif
+    page.url == "/calendar/" or
+    page.url == "/programs/" or
+
+    page.url == "/areas/" or
+    page.url == "/dog-run/" or
+    page.url == "/playground/" or
+    page.url == "/performance-lawn/" or
+    page.url == "/gardens/" or
+
+    page.url == "/job-opportunities/" or
+    page.url == "/news-sign-up/" or
+    page.url == "/for-media/" or
+    page.url == "/for-vendors/" or
+    page.url == "/sponsorship/" or
+    page.url == "/donate/" %}
+  let templateName = "illustration-flowers-template";
+  {% elsif page.url == "/splash-pad/" %}
+  let templateName = "illustration-splash-pad-template";
   {% else %}
   let templateName = templateNames[getRandomInt(2)];
   {% endif %}
