@@ -426,6 +426,7 @@
   .illustration-swirl-2 {
     color: hsla(338, 81%, 80%, 1);
     color: hsl(338, 56%, 35%);
+    color: var(--snow);
   }
   .illustration-palm svg * {
     fill: currentColor;
@@ -989,6 +990,7 @@
   .illustration-swirl-2 {
     color: hsla(77, 51%, 70%, 1);
     color: hsla(86, 45%, 31%, 1);
+    color: var(--snow);
   }
   .illustration-palm svg * {
     fill: currentColor;
@@ -1535,6 +1537,7 @@
   .illustration-swirl-2 {
     color: hsla(191, 65%, 70%, 1);
     color: hsla(195, 55%, 26%, 1);
+    color: var(--snow);
   }
   .illustration-palm svg * {
     fill: currentColor;
@@ -2289,7 +2292,6 @@
   </main>
 </main>
 
-{% if page.url == "/" %}
 <template id="illustration-palm-template">
   <div class="illustration-palm illustration-palm-1">
   {% include trees/palm.svg %}
@@ -2298,20 +2300,7 @@
   {% include trees/palm.svg %}
   </div>
 </template>
-{% elsif page.url == "/events/" or
-
-      page.url == "/areas/" or
-      page.url == "/alerts/" or
-      page.url == "/directions/" or
-      page.url == "/faqs/" or
-      page.url == "/rules/" or
-
-      page.url == "/rent/" or
-      page.url == "/staff/" or
-      page.url == "/news-sign-up/" or
-      page.url == "/contact/" or
-      page.url == "/donate/" %}
-<template id="illustration-palm-template">
+<template id="illustration-splash-pad-template">
   <div class="illustration-palm illustration-palm-1 illustration-swirl-1">
   {% include trees/swirl.svg %}
   </div>
@@ -2319,14 +2308,7 @@
   {% include trees/splash-pad.svg %}
   </div>
 </template>
-{% elsif 
-      page.url == "/calendar/" or
-      page.url == "/programs/" or
-      
-            page.url == "/visit/" or
-
-      page.url == "/about/" %}
-<template id="illustration-palm-template">
+<template id="illustration-flowers-template">
   <div class="illustration-palm illustration-palm-1 illustration-flowers-1">
   {% include trees/flowers.svg %}
   </div>
@@ -2334,11 +2316,27 @@
   {% include trees/flowers.svg %}
   </div>
 </template>
-{% endif %}
 
 <script>
 (function() {
-  let template = document.getElementById("illustration-palm-template");
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  const templateNames = [
+    "illustration-palm-template",
+    "illustration-splash-pad-template",
+    "illustration-flowers-template"
+  ];
+
+  {% if page.url == "/" %}
+  let templateName = templateNames[0];
+  {% else %}
+  let templateName = templateNames[getRandomInt(3)];
+  {% endif %}
+
+  let template = document.getElementById(templateName);
   if (!template) return;
   let clone = document.importNode(template.content, true);
   if (document.querySelector("main figure")) {
