@@ -25,7 +25,7 @@
 .event-list a > img {
   width: 100%;
   height: calc(100vw);
-  height: calc(50vh - 3em);
+  height: calc(100vw - 3em);
   object-fit: cover;
 }
 
@@ -59,11 +59,11 @@
   }
   .event-list a > img {
     width: 100%;
-    height: calc(50vh - 3em);
+    height: calc(33vw);
     object-fit: cover;
   }
   .event-list li:first-child:last-child a > img {
-    height: calc(75vh - 3em);
+    height: calc(33vw);
   }
 }
 /*
@@ -103,14 +103,14 @@
 .event-list a > div {
   position: relative;
   z-index: 1;
-  padding: 0.75em;
+  padding: 1em 1.125em;
   background-color: white;
   color: black;
   background-color: var(--snow);
   color: var(--lime-darkest);
   align-self: end;
   justify-self: start;
-  margin: 0.375em;
+  margin: 0;
 }
 .event-list a > div > * {
   margin: 0;

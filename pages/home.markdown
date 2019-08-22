@@ -231,8 +231,8 @@ main > h1.welcome em.hidden {
   object-fit: cover;
   object-position: center;
   position: relative;
-  height: calc(100vw);
-  min-height: calc(100vw);
+  height: calc(100vw - 3em);
+  min-height: calc(100vw - 3em);
   width: 100%;
   box-sizing: border-box;
   display: block;
@@ -246,7 +246,7 @@ main > h1.welcome span {
   position: relative;
   z-index: 999999;
   display: flex !important;
-  min-height: calc(100vw);
+  min-height: calc(100vw - 3em);
   box-sizing: border-box;
   text-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.25);
   flex-wrap: wrap;
@@ -314,9 +314,11 @@ main > h1.welcome span > * {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 }
-@media (min-width: 60em) {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+@media (min-width: 20em) {
+  .welcome {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
 }
 /*
 @media (min-width: 60em) {
@@ -354,6 +356,10 @@ main > h1.welcome span > * {
 }
 
 body > main > h1.welcome {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+}
+body > main:first-of-type > main:first-of-type > h2:first-of-type {
   margin-top: 0;
 }
 body > main > main:first-of-type {
