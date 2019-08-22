@@ -298,6 +298,9 @@
                       linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 66.6vh, hsl(31, 94%, 72%) 50%, hsl(31, 94%, 72%));
 
     background-image: linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 66.6vh, hsl(31, 94%, 72%) 50%, hsl(31, 94%, 72%));
+
+
+
     /*
     background-image:
       url(/assets/images/background/sun-rings.svg),
@@ -378,6 +381,17 @@
     mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
     mask-size: cover;
     mask-type: alpha;
+  }
+  .illustration-flowers-1 {
+    transform: translateY(calc(-100% + 6em));
+    left: -1.5em;
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-66.6% + 0em)) scaleX(-1);
+  }
+  .illustration-flowers-2 svg {
+    margin-top: 0;
+    margin-left: 0;
   }
   .illustration-sticker {
     right: 10vw;
@@ -931,6 +945,17 @@
     mask-size: cover;
     mask-type: alpha;
   }
+  .illustration-flowers-1 {
+    transform: translateY(calc(-100% + 6em));
+    left: -1.5em;
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-66.6% + 0em)) scaleX(-1);
+  }
+  .illustration-flowers-2 svg {
+    margin-top: 0;
+    margin-left: 0;
+  }
   .illustration-sticker {
     right: 10vw;
     transform: translateY(calc(-66.6% - 3em));
@@ -1465,6 +1490,17 @@
     mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
     mask-size: cover;
     mask-type: alpha;
+  }
+  .illustration-flowers-1 {
+    transform: translateY(calc(-100% + 6em));
+    left: -1.5em;
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-66.6% + 0em)) scaleX(-1);
+  }
+  .illustration-flowers-2 svg {
+    margin-top: 0;
+    margin-left: 0;
   }
   .illustration-sticker {
     right: 10vw;
@@ -2263,17 +2299,13 @@
   </div>
 </template>
 {% elsif page.url == "/events/" or
-      page.url == "/calendar/" or
-      page.url == "/programs/" or
 
-      page.url == "/visit/" or
       page.url == "/areas/" or
       page.url == "/alerts/" or
       page.url == "/directions/" or
       page.url == "/faqs/" or
       page.url == "/rules/" or
 
-      page.url == "/about/" or
       page.url == "/rent/" or
       page.url == "/staff/" or
       page.url == "/news-sign-up/" or
@@ -2285,6 +2317,21 @@
   </div>
   <div class="illustration-palm illustration-palm-2 illustration-swirl-2">
   {% include trees/splash-pad.svg %}
+  </div>
+</template>
+{% elsif 
+      page.url == "/calendar/" or
+      page.url == "/programs/" or
+      
+            page.url == "/visit/" or
+
+      page.url == "/about/" %}
+<template id="illustration-palm-template">
+  <div class="illustration-palm illustration-palm-1 illustration-flowers-1">
+  {% include trees/flowers.svg %}
+  </div>
+  <div class="illustration-palm illustration-palm-2 illustration-flowers-2">
+  {% include trees/flowers.svg %}
   </div>
 </template>
 {% endif %}

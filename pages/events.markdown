@@ -131,6 +131,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
+
 ## <a id="today"></a> Today at<br /><span class="avoid-break">Grand Park</span>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
