@@ -359,9 +359,6 @@ body > main > h1.welcome {
   margin-top: 0;
   margin-bottom: 1.5em;
 }
-body > main:first-of-type > main:first-of-type > h2:first-of-type {
-  margin-top: 0;
-}
 body > main > main:first-of-type {
   margin-top: 0;
   padding-top: 3em;
