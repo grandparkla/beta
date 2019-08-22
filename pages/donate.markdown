@@ -10,13 +10,6 @@ permalink: /donate/
 Donate
 ======
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <main class="sky-light" markdown="1">
 
 <div></div>

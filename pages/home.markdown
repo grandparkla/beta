@@ -262,7 +262,6 @@ main > h1.welcome span {
     min-height: 50vw;
   }
 }
-*/
 @media (min-aspect-ratio: 2/3) {
   .welcome img,
   main > h1.welcome span {
@@ -270,6 +269,7 @@ main > h1.welcome span {
     min-height: 66vw;
   }
 }
+*/
 @media (min-aspect-ratio: 1/1) {
   .welcome img,
   main > h1.welcome span {

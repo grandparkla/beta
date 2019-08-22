@@ -294,6 +294,9 @@
     }
   }
   */
+  :root {
+    --strawberry: hsl(338, 80%, 55%);
+  }
   body {
     background-image: linear-gradient(to bottom, hsl(36, 91%, 61%), hsl(338, 91%, 61%) 50vh, hsl(338, 91%, 61%));
     background-image: linear-gradient(to bottom, hsl(11, 86%, 61%), hsl(338, 86%, 61%) 66.6vh, hsl(338, 86%, 61%));
@@ -305,8 +308,14 @@
 
     background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), hsl(338, 86%, 61%) 66.6vh, hsl(31, 94%, 72%) 50%, hsl(31, 94%, 72%));
     background-image: linear-gradient(to bottom, hsl(338, 86%, 61%), hsl(338, 86%, 61%) 33.3vh, hsl(31, 90%, 68%) 100vh, hsl(338, 86%, 61%));
+
+    background-color: hsl(338, 80%, 55%);
+    background-image: linear-gradient(to bottom, var(--strawberry), var(--strawberry) 33.3vh, hsl(31, 90%, 68%) 100vh, var(--strawberry));
     
     /*
+
+
+
     background-color: hsl(340, 74%, 49%);
     background-image: linear-gradient(to bottom, hsl(340, 74%, 49%), hsl(32, 70%, 64%) 133.3vh, hsl(338, 86%, 61%) 75%, hsl(338, 86%, 61%));
     */
@@ -568,22 +577,26 @@
         page.url == "/spring-concerts/" %}
   @media (min-width: 77em) {
     body > main > nav:first-of-type,
-    main h1,
-    main h1 + h2,
-    main h1 + p,
-    main h1 + p + p,
-    main h1 + nav,
-    main h1 + p + nav {
+    main > h1,
+    main > h1 + h2,
+    main > h1 + p,
+    main > h1 + p + p,
+    main > h1 + nav,
+    main > h1 + p + nav {
       margin-left: calc(100vw / 8 * 1) !important;
     }
-    main h1 {
+    main > h1 + nav,
+    main > h1 + p + nav {
+      grid-column-end: -2 !important;
+    }
+    main > h1 {
       grid-column-end: -2 !important;
     }
   }
   {% endunless %}
-  main h1 + nav,
-  main h1 + p + nav,
-  main h1 + p + p {
+  main > h1 + nav,
+  main > h1 + p + nav,
+  main > h1 + p + p {
     margin-bottom: 6em;
   }
   header nav ul {
@@ -1141,21 +1154,25 @@
   }
   @media (min-width: 77em) {
     body > main > nav:first-of-type,
-    main h1,
-    main h1 + h2,
-    main h1 + p,
-    main h1 + p + p,
-    main h1 + nav,
-    main h1 + p + nav {
+    main > h1,
+    main > h1 + h2,
+    main > h1 + p,
+    main > h1 + p + p,
+    main > h1 + nav,
+    main > h1 + p + nav {
       margin-left: calc(100vw / 8 * 1) !important;
     }
-    main h1 {
+    main > h1 + nav,
+    main > h1 + p + nav {
+      grid-column-end: -2 !important;
+    }
+    main > h1 {
       grid-column-end: -2 !important;
     }
   }
-  main h1 + nav,
-  main h1 + p + nav,
-  main h1 + p + p {
+  main > h1 + nav,
+  main > h1 + p + nav,
+  main > h1 + p + p {
     margin-bottom: 6em;
   }
   header nav ul {
@@ -1406,6 +1423,20 @@
                       linear-gradient(to bottom, hsl(213, 61%, 45%), hsl(195, 65%, 49%) 66.6vh, hsl(195, 65%, 49%));
 
     background-image: linear-gradient(to bottom, var(--sky), hsl(197, 65%, 49%));
+
+    
+    background-image: linear-gradient(to bottom, hsl(199, 70%, 74%), hsl(206, 100%, 30%));
+        
+    background-color: hsl(338, 80%, 55%);
+    background-image: linear-gradient(to bottom, hsl(206, 100%, 30%), hsl(206, 100%, 30%) 33.3vh, var(--sky) 100vh, hsl(206, 100%, 30%));
+    
+    background-image: linear-gradient(to bottom, hsl(195, 100%, 47%), hsl(197, 100%, 43%) 33.3vh, hsl(198, 70%, 74%) 100vh, hsl(206, 97%, 31%));
+    background-image: linear-gradient(to bottom, hsl(197, 100%, 43%), hsl(197, 100%, 43%) 33.3vh, hsl(198, 70%, 74%) 100vh, hsl(206, 97%, 31%));
+
+    background-image: linear-gradient(to bottom, hsl(191, 100%, 43%), hsl(191, 100%, 43%) 33.3vh, hsl(191, 70%, 74%) 100vh, hsl(200, 97%, 31%));
+    background-image: linear-gradient(to bottom, hsl(191, 100%, 43%), hsl(191, 100%, 43%) 33.3vh, hsl(191, 70%, 55%) 100vh, hsl(191, 100%, 43%));
+
+
 
     /*
     background-image: url(/assets/images/DzytGrNW0AEi-H3.jpg), linear-gradient(to bottom, hsl(224, 51%, 46%), var(--sky) 66.6vh, var(--sky));
@@ -1719,21 +1750,25 @@
     }
     */
     body > main > nav:first-of-type,
-    main h1,
-    main h1 + h2,
-    main h1 + p,
-    main h1 + p + p,
-    main h1 + nav,
-    main h1 + p + nav {
+    main > h1,
+    main > h1 + h2,
+    main > h1 + p,
+    main > h1 + p + p,
+    main > h1 + nav,
+    main > h1 + p + nav {
       margin-left: calc(100vw / 8 * 1) !important;
     }
-    main h1 {
+    main > h1 + nav,
+    main > h1 + p + nav {
+      grid-column-end: -2 !important;
+    }
+    main > h1 {
       grid-column-end: -2 !important;
     }
   }
-  main h1 + nav,
-  main h1 + p + nav,
-  main h1 + p + p {
+  main > h1 + nav,
+  main > h1 + p + nav,
+  main > h1 + p + p {
     margin-bottom: 6em;
   }
   header nav ul {
@@ -2310,7 +2345,7 @@
       page.url == "/donate/"
       
        %}
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/events/" %}
   <div class="sun sun-3">
   {% include backgrounds/sun-3.svg %}
   </div>
@@ -2488,11 +2523,18 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
+  {% elsif page.url == "/events/" %}
+  let templateName = "illustration-palm-template";
+  {% elsif page.url == "/visit/" %}
+  let templateName = "illustration-flowers-template";
+  {% elsif page.url == "/about/" %}
+  let templateName = "illustration-splash-pad-template";
   {% elsif page.url == "/gardens/" %}
-  let templateName = "illustration-heart-template";
+  let templateName = "illustration-flowers-template";
   {% elsif page.url == "/splash-pad/" %}
   let templateName = "illustration-splash-pad-template";
   {% else %}
+  return;
   let templateName = templateNames[getRandomInt(3)];
   {% endif %}
 

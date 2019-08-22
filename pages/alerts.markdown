@@ -40,5 +40,3 @@ main nav:first-child {
 {{ markdown_text | markdownify }}
 
 <div></div>
-<div></div>
-<div></div>

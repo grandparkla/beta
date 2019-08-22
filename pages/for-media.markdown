@@ -7,7 +7,7 @@ permalink: /for-media/
 * [About the park](/about/)
 </nav>
 
-For members of the media
+For members <span class="avoid-break">of the media</span>
 =========
 
 For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/visit/news-bureau/gp-press-gallery/).

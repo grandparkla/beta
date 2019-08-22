@@ -32,15 +32,6 @@ main > nav:first-child {
 FAQs
 ====
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
 <main class="lime-light" markdown="1">
 
 ### Can I shoot my independent film in the park?

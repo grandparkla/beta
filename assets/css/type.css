@@ -268,11 +268,16 @@ main > h1.welcome {
 }
 
 main > h1.welcome span {
-  font-size: 1.5em;
+  font-size: 1.25em;
   display: block;
   margin-left: -1em;
   margin-right: -7em;
   height: 6em;
+}
+@media (min-width: 30em) {
+  main > h1.welcome span {
+    font-size: 1.5em;
+  }
 }
 /* @media (max-aspect-ratio: 1/1) {
   main > h1.welcome span {
