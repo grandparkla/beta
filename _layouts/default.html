@@ -533,11 +533,13 @@
       -webkit-mask-image: unset;
       mask-image: unset;
     }
-    {% unless 
-          page.url == "/lunch/" or
-          page.url == "/yoga/" or
-          page.url == "/food-trucks/" or
-          page.url == "/spring-concerts/" %}
+  }
+  {% unless 
+        page.url == "/lunch/" or
+        page.url == "/yoga/" or
+        page.url == "/food-trucks/" or
+        page.url == "/spring-concerts/" %}
+  @media (min-width: 77em) {
     body > main > nav:first-of-type,
     main h1,
     main h1 + h2,
@@ -550,8 +552,8 @@
     main h1 {
       grid-column-end: -2 !important;
     }
-    {% endunless %}
   }
+  {% endunless %}
   main h1 + nav,
   main h1 + p + nav,
   main h1 + p + p {
@@ -1089,6 +1091,8 @@
       -webkit-mask-image: unset;
       mask-image: unset;
     }
+  }
+  @media (min-width: 77em) {
     body > main > nav:first-of-type,
     main h1,
     main h1 + h2,
@@ -1640,9 +1644,13 @@
       -webkit-mask-image: unset;
       mask-image: unset;
     }
+  }
+  @media (min-width: 77em) {
+    /*
     main h1, main h1 + p, main h1 + p + nav {
       grid-column-end: -4 !important;
     }
+    */
     body > main > nav:first-of-type,
     main h1,
     main h1 + h2,
