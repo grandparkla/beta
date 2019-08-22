@@ -250,6 +250,10 @@
   
   {% if page.url == "/" or
         page.url == "/events/" or
+        page.url == "/lunch/" or
+        page.url == "/yoga/" or
+        page.url == "/food-trucks/" or
+        page.url == "/spring-concerts/" or
         page.url == "/calendar/" or
         page.url == "/programs/" %}
         
@@ -467,9 +471,15 @@
     transform: translate(-50%, -4.5vmax) rotate(-135deg) !important;
   }
   */
+  {% unless
+      page.url == "/lunch/" or
+      page.url == "/yoga/" or
+      page.url == "/food-trucks/" or
+      page.url == "/spring-concerts/" %}
   body > main > .illustration {
     display: none;
   }
+  {% endunless %}
   footer {
     background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 94%, 72%));
   }
@@ -523,6 +533,11 @@
       -webkit-mask-image: unset;
       mask-image: unset;
     }
+    {% unless 
+          page.url == "/lunch/" or
+          page.url == "/yoga/" or
+          page.url == "/food-trucks/" or
+          page.url == "/spring-concerts/" %}
     body > main > nav:first-of-type,
     main h1,
     main h1 + h2,
@@ -535,6 +550,7 @@
     main h1 {
       grid-column-end: -2 !important;
     }
+    {% endunless %}
   }
   main h1 + nav,
   main h1 + p + nav,
@@ -638,6 +654,10 @@
   {% if false %}
   {% if page.url == "/" or
         page.url == "/events/" or
+        page.url == "/lunch/" or
+        page.url == "/yoga/" or
+        page.url == "/food-trucks/" or
+        page.url == "/spring-concerts/" or
         page.url == "/calendar/" or
         page.url == "/programs/" %}
 
@@ -761,7 +781,7 @@
         page.url == "/splash-pad/" or
         page.url == "/playground/" or
         page.url == "/performance-lawn/" or
-        page.url == "/gardens/"
+        page.url == "/gardens/" or
         page.url == "/alerts/" or
         page.url == "/directions/" or
         page.url == "/faqs/" or
@@ -2184,6 +2204,10 @@
 
 {% if page.url == "/" or
       page.url == "/events/" or
+      page.url == "/lunch/" or
+      page.url == "/yoga/" or
+      page.url == "/food-trucks/" or
+      page.url == "/spring-concerts/" or
       page.url == "/calendar/" or
       page.url == "/programs/" or
 
@@ -2193,7 +2217,7 @@
       page.url == "/splash-pad/" or
       page.url == "/playground/" or
       page.url == "/performance-lawn/" or
-      page.url == "/gardens/"
+      page.url == "/gardens/" or
       page.url == "/alerts/" or
       page.url == "/directions/" or
       page.url == "/faqs/" or
@@ -2221,9 +2245,11 @@
   </div>
   {% endif %}
 {% else %}
+{% comment %}
 <div class="sun">
 {% include backgrounds/sun.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 {% endif %}
@@ -2322,7 +2348,7 @@
       page.url == "/splash-pad/" or
       page.url == "/playground/" or
       page.url == "/performance-lawn/" or
-      page.url == "/gardens/"
+      page.url == "/gardens/" or
       page.url == "/alerts/" or
       page.url == "/directions/" or
       page.url == "/faqs/" or
