@@ -25,7 +25,7 @@
 .event-list a > img {
   width: 100%;
   height: calc(100vw);
-  height: calc(66vh - 3em);
+  height: calc(50vh - 3em);
   object-fit: cover;
 }
 
@@ -59,16 +59,21 @@
   }
   .event-list a > img {
     width: 100%;
-    height: calc(66vh - 3em);
+    height: calc(50vh - 3em);
     object-fit: cover;
   }
+  .event-list li:first-child:last-child a > img {
+    height: calc(75vh - 3em);
+  }
 }
+/*
 @media(min-width: 60em) {
   .event-list {
     margin-left: -6.25vw;
     margin-right: -6.25vw;
   }
 }
+*/
 
 
 /*

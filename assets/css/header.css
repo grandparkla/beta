@@ -335,8 +335,10 @@ header svg {
   }
   main > figure {
     margin: 3em 0;
+    /*
     margin-left: -6.25vw;
     margin-right: -6.25vw;
+    */
   }
   main > h2 + figure,
   main > h3 + figure,
