@@ -593,12 +593,12 @@
       grid-column-end: -2 !important;
     }
   }
-  {% endunless %}
   main > h1 + nav,
   main > h1 + p + nav,
   main > h1 + p + p {
     margin-bottom: 6em;
   }
+  {% endunless %}
   header nav ul {
     --purple: hsl(256, 58%, 66%);
     background: var(--snow);
@@ -850,6 +850,7 @@
     }
   }
   */
+
   body {
     background-image: linear-gradient(to bottom, hsl(36, 91%, 61%), hsl(338, 91%, 61%) 50vh, hsl(338, 91%, 61%));
     background-image: linear-gradient(to bottom, hsla(80, 74%, 57%, 1), var(--lime) 66.6vh, var(--lime));
@@ -863,6 +864,18 @@
                       linear-gradient(to bottom, hsl(100, 51%, 46%), hsla(86, 51%, 46%, 1) 66.6vh, hsla(86, 51%, 46%, 1));
                       
     background-image: linear-gradient(to bottom, var(--lime), var(--banana));
+
+
+
+    background-color: hsl(191, 100%, 43%);
+    background-image: linear-gradient(to bottom, hsl(191, 100%, 43%), hsl(191, 100%, 43%) 33.3vh, hsl(191, 70%, 55%) 100vh, hsl(191, 100%, 43%));
+
+    background-color: var(--lime);
+    background-image: linear-gradient(to bottom, var(--lime), var(--lime) 33.3vh, var(--banana) 100vh, var(--lime));
+
+    background-image: linear-gradient(to bottom, var(--lime), var(--lime) 33.3vh, hsl(70, 61%, 59%) 100vh, var(--lime));
+
+
     /*
     background-image: url(/assets/images/DzytGrNW0AEi-H3.jpg), linear-gradient(to bottom, hsl(100, 51%, 46%), var(--lime) 66.6vh, var(--lime));
     background-repeat: no-repeat;
@@ -1095,9 +1108,13 @@
     fill: hsla(48, 97%, 71%, 1) !important;
     fill: hsla(56, 96%, 91%, 1) !important;
   }
+  {% unless 
+        page.url == "/visit/" or
+        page.url == "/areas/" %}
   body > main > .illustration {
     display: none;
   }
+  {% endunless %}
   footer {
     background-image: linear-gradient(to bottom, var(--lime), var(--banana));
   }
@@ -1152,6 +1169,9 @@
       mask-image: unset;
     }
   }
+  {% unless 
+        page.url == "/visit/" or
+        page.url == "/areas/" %}
   @media (min-width: 77em) {
     body > main > nav:first-of-type,
     main > h1,
@@ -1175,6 +1195,7 @@
   main > h1 + p + p {
     margin-bottom: 6em;
   }
+  {% endunless %}
   header nav ul {
     --purple: hsl(256, 58%, 66%);
     background: var(--snow);
@@ -1427,13 +1448,15 @@
     
     background-image: linear-gradient(to bottom, hsl(199, 70%, 74%), hsl(206, 100%, 30%));
         
-    background-color: hsl(338, 80%, 55%);
     background-image: linear-gradient(to bottom, hsl(206, 100%, 30%), hsl(206, 100%, 30%) 33.3vh, var(--sky) 100vh, hsl(206, 100%, 30%));
     
     background-image: linear-gradient(to bottom, hsl(195, 100%, 47%), hsl(197, 100%, 43%) 33.3vh, hsl(198, 70%, 74%) 100vh, hsl(206, 97%, 31%));
     background-image: linear-gradient(to bottom, hsl(197, 100%, 43%), hsl(197, 100%, 43%) 33.3vh, hsl(198, 70%, 74%) 100vh, hsl(206, 97%, 31%));
 
     background-image: linear-gradient(to bottom, hsl(191, 100%, 43%), hsl(191, 100%, 43%) 33.3vh, hsl(191, 70%, 74%) 100vh, hsl(200, 97%, 31%));
+
+    
+    background-color: hsl(191, 100%, 43%);
     background-image: linear-gradient(to bottom, hsl(191, 100%, 43%), hsl(191, 100%, 43%) 33.3vh, hsl(191, 70%, 55%) 100vh, hsl(191, 100%, 43%));
 
 
@@ -1686,9 +1709,12 @@
     fill: hsla(48, 97%, 71%, 1) !important;
     fill: hsla(48, 97%, 97%, 1) !important;
   }
+  {% unless 
+        page.url == "/about/" %}
   body > main > .illustration {
     display: none;
   }
+  {% endunless %}
   footer {
     background-image: linear-gradient(to bottom, var(--sky), hsl(224, 51%, 46%));
   }
@@ -1743,6 +1769,8 @@
       mask-image: unset;
     }
   }
+  {% unless 
+        page.url == "/about/" %}
   @media (min-width: 77em) {
     /*
     main h1, main h1 + p, main h1 + p + nav {
@@ -1771,6 +1799,7 @@
   main > h1 + p + p {
     margin-bottom: 6em;
   }
+  {% endunless %}
   header nav ul {
     --purple: hsl(256, 58%, 66%);
     background: var(--snow);
@@ -2345,7 +2374,7 @@
       page.url == "/donate/"
       
        %}
-  {% if page.url == "/" or page.url == "/events/" %}
+  {% if page.url == "/" or page.url == "/calendar/" %}
   <div class="sun sun-3">
   {% include backgrounds/sun-3.svg %}
   </div>
@@ -2523,11 +2552,11 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/events/" %}
+  {% elsif page.url == "/calendar/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/visit/" %}
+  {% elsif page.url == "/programs/" %}
   let templateName = "illustration-flowers-template";
-  {% elsif page.url == "/about/" %}
+  {% elsif page.url == "/events/" %}
   let templateName = "illustration-splash-pad-template";
   {% elsif page.url == "/gardens/" %}
   let templateName = "illustration-flowers-template";

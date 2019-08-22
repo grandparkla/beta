@@ -21,11 +21,51 @@ main h1 + figure + p,
 main h1 + figure + p + nav {
   grid-column-end: -4;
 }
+
+nav + figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+nav + figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  nav + figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 2/4;
+    justify-self: end;
+    align-self: start;
+  }
+  nav + figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  nav + figure {
+    margin-right: 5vw;
+    grid-row: 1/4;
+  }
+  nav + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/fountain-edited-2.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 <style media="false">
