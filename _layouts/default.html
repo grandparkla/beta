@@ -2374,7 +2374,7 @@
       page.url == "/donate/"
       
        %}
-  {% if page.url == "/" or page.url == "/calendar/" %}
+  {% if page.url == "/" %}
   <div class="sun sun-3">
   {% include backgrounds/sun-3.svg %}
   </div>
@@ -2551,8 +2551,6 @@
   ];
 
   {% if page.url == "/" %}
-  let templateName = "illustration-palm-template";
-  {% elsif page.url == "/calendar/" %}
   let templateName = "illustration-palm-template";
   {% elsif page.url == "/programs/" %}
   let templateName = "illustration-flowers-template";
