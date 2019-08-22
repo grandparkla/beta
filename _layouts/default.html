@@ -2325,15 +2325,14 @@
   }
 
   const templateNames = [
-    "illustration-palm-template",
     "illustration-splash-pad-template",
     "illustration-flowers-template"
   ];
 
   {% if page.url == "/" %}
-  let templateName = templateNames[0];
+  let templateName = "illustration-palm-template";
   {% else %}
-  let templateName = templateNames[getRandomInt(3)];
+  let templateName = templateNames[getRandomInt(2)];
   {% endif %}
 
   let template = document.getElementById(templateName);
