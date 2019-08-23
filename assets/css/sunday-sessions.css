@@ -107,10 +107,23 @@ main figure img {
     background-color: var(--snow);
     color: var(--midnight);
   }
+  /*
   .social-links {
     filter: grayscale(100%) sepia(50%) hue-rotate(280deg);
   }
+  */
+  .social-links .circle {
+    fill: transparent;
+  }
+  .social-links a {
+    border-radius: 50%;
+    border: 2px solid;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+  }
   h1.welcome svg {
+    display: block;
     /* filter: var(--svg-filter); */
     color: inherit;
   }
