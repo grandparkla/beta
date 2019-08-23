@@ -53,6 +53,8 @@ nav + figure img {
     grid-row: 3/6;
     justify-self: end;
     align-self: start;
+    margin-bottom: 0;
+    margin-top: -1.5em;
   }
   nav + figure img {
     width: 25vw;
@@ -65,8 +67,8 @@ nav + figure img {
     grid-row: 2/6;
   }
   nav + figure img {
-    width: calc(2.5/8 * 100vw - 3em);
-    height: calc(2.5/8 * 100vw - 3em);
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 </style>
@@ -152,11 +154,9 @@ Areas of the park
 * [Map](#map)
 </nav>
 
-{% comment %}
 <figure>
   <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>
-{% endcomment %}
 
 <main markdown="1" class="lime-light" id="list">
 

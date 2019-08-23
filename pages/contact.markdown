@@ -59,6 +59,7 @@ nav + figure img {
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
+    margin-top: -3em;
   }
   nav + figure img {
     width: 25vw;
@@ -148,11 +149,9 @@ Contact us
 *   [Sponsorship](/sponsorship/)
 </nav>
 
-<!--
 <figure>
   <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1" height="500" />
 </figure>
--->
 
 <main markdown="1" class="sky-light">
 

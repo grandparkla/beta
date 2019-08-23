@@ -566,7 +566,7 @@ h1.welcome span {
 })();
 </script>
 
-<main markdown="1" class="strawberry-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden;">
+<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden;">
 
 
 
@@ -601,7 +601,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   }
 }
 </style>
-<div class="illustration illustration-group" style="color: hsl(32, 93%, 72%); color: hsl(31, 90%, 68%); color: var(--strawberry);">
+<div class="illustration illustration-group" style="color: hsl(32, 93%, 72%); color: hsl(31, 90%, 68%); color: var(--strawberry); color: var(--lime)">
   <div class="illustration-city-hall-sun"></div>
   <div>
   {% include trees/city-hall-edited.svg %}
@@ -616,7 +616,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% endif %}
 
 </main>
-<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--sky), hsl(31, 90%, 68%)); background: transparent;">
+<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana));">
 
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}

@@ -40,9 +40,10 @@ nav + figure img {
     width: auto;
     height: auto;
     grid-column: -3/-1;
-    grid-row: 2/4;
+    grid-row: 2/5;
     justify-self: end;
     align-self: start;
+    margin-bottom: 0;
   }
   nav + figure img {
     width: 25vw;
@@ -52,7 +53,7 @@ nav + figure img {
 @media (min-width: 80em) {
   nav + figure {
     margin-right: 5vw;
-    grid-row: 1/4;
+    grid-row: 1/5;
   }
   nav + figure img {
     width: calc(2.5/8 * 100vw - 3em);

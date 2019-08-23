@@ -40,6 +40,7 @@ nav + figure img {
     grid-row: 2/4;
     justify-self: end;
     align-self: start;
+    margin-bottom: 0;
   }
   nav + figure img {
     width: 25vw;
