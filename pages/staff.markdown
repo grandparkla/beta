@@ -55,6 +55,7 @@ nav + figure img {
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
+    margin-top: -1.5em;
   }
   nav + figure img {
     width: 25vw;
@@ -150,7 +151,7 @@ h2 small em {
 }
 </style>
 
-Meet the Staff <small>Team Grand Park</small>
+<small>Team Grand Park</small> Meet the Staff <small></small>
 ==============
 
 <nav markdown="1">

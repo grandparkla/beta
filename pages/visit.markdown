@@ -44,6 +44,7 @@ nav + figure img {
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
+    margin-top: 0;
   }
   nav + figure img {
     width: 25vw;

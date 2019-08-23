@@ -2564,10 +2564,6 @@
   let templateName = "illustration-flowers-template";
   {% elsif page.url == "/events/" %}
   let templateName = "illustration-splash-pad-template";
-  {% elsif page.url == "/gardens/" %}
-  let templateName = "illustration-flowers-template";
-  {% elsif page.url == "/splash-pad/" %}
-  let templateName = "illustration-splash-pad-template";
   {% else %}
   return;
   let templateName = templateNames[getRandomInt(3)];
