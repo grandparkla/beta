@@ -176,6 +176,8 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 </main>
 {% endcomment %}
 
+<main class="lime-light" markdown="1">
+
 * * *
 
 Directions
@@ -183,6 +185,7 @@ Directions
 
 {% include directions.markdown %}
 
+</main>
 
 <!--
 *   [Map of the Park](#map)

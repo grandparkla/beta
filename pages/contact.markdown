@@ -37,6 +37,44 @@ main > nav:first-child {
 main > h1 + nav {
     grid-column: 3/-3;
 }
+nav + figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+nav + figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  nav + figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 3/6;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+  }
+  nav + figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  nav + figure {
+    margin-right: 5vw;
+    grid-row: 2/6;
+  }
+  nav + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
 </style>
 
 <div class="illustration">
@@ -110,14 +148,16 @@ Contact us
 *   [Sponsorship](/sponsorship/)
 </nav>
 
+<!--
 <figure>
   <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1" height="500" />
 </figure>
+-->
+
+<main markdown="1" class="sky-light">
 
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
-
-<main markdown="1" class="sky-light">
 
 ## Media Contact
 

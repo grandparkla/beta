@@ -145,16 +145,18 @@ nav + figure img {
 Areas of the park
 ========
 
-All areas of the park are open daily. Just drop by for a picnic or a splash!
+<p style="max-width: 25em">All areas of the park are open daily. Just drop by for a picnic or a splash!</p>
 
 <nav markdown="1">
 * [Park areas](#list)
 * [Map](#map)
 </nav>
 
+{% comment %}
 <figure>
   <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>
+{% endcomment %}
 
 <main markdown="1" class="lime-light" id="list">
 

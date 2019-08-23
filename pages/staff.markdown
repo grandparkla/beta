@@ -8,6 +8,78 @@ permalink: /staff/
 * [About the park](/about/)
 </nav>
 
+{% if site.use_illustrations %}
+<style>
+.illustration {
+  grid-column: -3/-1;
+  grid-row: 3/6;
+}
+.illustration svg {
+  height: 17vmax;
+  width: auto;
+}
+main h1 {
+  grid-column-end: -3;
+}
+main h1 + p,
+main h1 + p + nav {
+  grid-column-end: -3;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+main > h1 + nav {
+  grid-column-end: -3;
+  align-self: start;
+}
+
+nav + figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+nav + figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  nav + figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 3/6;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+  }
+  nav + figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  nav + figure {
+    margin-right: 5vw;
+    grid-row: 2/6;
+  }
+  nav + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
+</style>
+
+{% comment %}
+<div class="illustration">
+{% include backgrounds/palm-trees.svg %}
+</div>
+{% endcomment %}
+{% endif %}
+
 <style media="false">
 @media (min-width: 60em) {
   body > main > figure:first-of-type {
@@ -35,6 +107,10 @@ main > .staff-list ~ figure {
 @media (min-width: 60em) {
   main > .staff-list ~ figure {
     margin-left: -3em;
+  }
+  main > .staff-list {
+    margin-top: -1.5em;
+    margin-bottom: -1.5em;
   }
 }
 
@@ -78,17 +154,16 @@ Meet the Staff <small>Team Grand Park</small>
 ==============
 
 <nav markdown="1">
+* [Staff list](#staff-list)
+* [Job Opportunities](/job-opportunities/)
 </nav>
 
-<!--
-* [Job Opportunities](/job-opportunities/)
 <figure>
   <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
--->
 
 
-<div class="staff-list"></div>
+<div class="staff-list" id="staff-list"></div>
 
 
 
