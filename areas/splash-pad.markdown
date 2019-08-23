@@ -31,18 +31,60 @@ main > nav:first-child {
 main > h1 + nav {
     grid-column: 3/-3;
 }
+
+main figure:last-of-type {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+main figure:last-of-type img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  main figure:last-of-type {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 3/6;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+    margin-top: -1.5em;
+  }
+  main figure:last-of-type img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  main figure:last-of-type {
+    margin-right: 5vw;
+    grid-row: 2/6;
+  }
+  main figure:last-of-type img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/fountain-edited-2.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 # Splash pad
 
 Open daily from 5:30 a.m. to 10 p.m.
 
-<p style="grid-column-start: 2" markdown="1">
+<p style="grid-column-start: 2; max-width: 33em;" markdown="1">
 The interactive splash pad is open to the public. Visitors of all ages are encouraged to enjoy water play in the splash pad, which features interactive jets.
 </p>
 
