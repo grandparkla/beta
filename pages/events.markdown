@@ -173,7 +173,6 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 </figure>
 -->
 
-
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
@@ -321,10 +320,13 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
 
 
 
+<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana)); background-image: linear-gradient(to bottom, var(--lime), hsl(58, 56%, 58%)); background-image: linear-gradient(to bottom, hsla(90, 51%, 40%, 1), hsla(90, 51%, 40%, 1) 33.3vh, hsla(77, 51%, 46%, 1) 100vh, var(--lime)); background-image: none; background-color: var(--lime); background-image: linear-gradient(to bottom, var(--lime), hsl(70, 61%, 59%)); border-top: 1.5em solid var(--snow);">
+
 * * *
 
 ## Calendar
 
 {% include calendar.markdown %}
 
+</main>
 

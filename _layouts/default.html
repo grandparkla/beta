@@ -568,7 +568,7 @@
       transform: scaleX(-1);
     }
     .illustration-swirl-2 svg {
-      width: 30vw;
+      width: 25vw;
       height: auto;
       -webkit-mask-image: unset;
       mask-image: unset;
@@ -619,10 +619,6 @@
   header nav ul li a {
     padding: 0.375em 0.75em;
     margin: 0;
-    /*
-    font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    */
   }
   @media (max-width: 64.99999em) {
     header nav ul li + li::before {
@@ -1191,7 +1187,7 @@
       transform: scaleX(-1);
     }
     .illustration-swirl-2 svg {
-      width: 30vw;
+      width: 25vw;
       height: auto;
       -webkit-mask-image: unset;
       mask-image: unset;
@@ -1243,10 +1239,6 @@
   header nav ul li a {
     padding: 0.375em 0.75em;
     margin: 0;
-    /*
-    font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    */
   }
   @media (max-width: 64.99999em) {
     header nav ul li + li::before {
@@ -1805,7 +1797,7 @@
       transform: scaleX(-1);
     }
     .illustration-swirl-2 svg {
-      width: 30vw;
+      width: 25vw;
       height: auto;
       -webkit-mask-image: unset;
       mask-image: unset;
@@ -1857,10 +1849,6 @@
   header nav ul li a {
     padding: 0.375em 0.75em;
     margin: 0;
-    /*
-    font-family: unit, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 500;
-    */
   }
   @media (max-width: 64.99999em) {
     header nav ul li + li::before {
@@ -2378,6 +2366,97 @@
   </script>
   {% endif %}
 
+  
+  
+  {% if page.url == "/" or
+        page.url == "/events/" or
+        page.url == "/lunch/" or
+        page.url == "/yoga/" or
+        page.url == "/food-trucks/" or
+        page.url == "/spring-concerts/" or
+        page.url == "/calendar/" or
+        page.url == "/programs/" or
+
+        page.url == "/visit/" or
+        page.url == "/areas/" or
+        page.url == "/dog-run/" or
+        page.url == "/splash-pad/" or
+        page.url == "/playground/" or
+        page.url == "/performance-lawn/" or
+        page.url == "/gardens/" or
+        page.url == "/alerts/" or
+        page.url == "/directions/" or
+        page.url == "/faqs/" or
+        page.url == "/rules/" or
+        
+        page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/staff/" or
+        page.url == "/job-opportunities/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/for-media/" or
+        page.url == "/for-vendors/" or
+        page.url == "/sponsorship/" or
+        page.url == "/contact/" or
+        page.url == "/donate/"
+        
+         %}
+  <style media="false">
+    header nav ul li a span[style] {
+      display: block !important;
+    }
+    header nav ul li a {
+      display: grid;
+      grid-template-columns: 1/1;
+      grid-template-rows: 1/1;
+    }
+    header nav ul li::before {
+      content: none !important;
+    }
+    header nav ul li a > * {
+      grid-column: 1/-1;
+      grid-row: 1/-1;
+      align-self: center;
+      justify-self: center;
+    }
+    header nav ul li a span + span {
+      position: relative;
+      z-index: 1;
+    }
+    header nav ul li a svg {
+      transform: rotate(-43deg);
+      color: var(--midnight);
+    }
+    header nav ul li a svg path {
+      fill: currentColor !important;
+    }
+    header nav ul li:nth-child(1) {
+      transform: rotate(15deg);
+    }
+    header nav ul li:nth-child(2) {
+      transform: rotate(-30deg);
+    }
+    header nav ul li:nth-child(3) {
+      transform: rotate(15deg);
+    }
+    header nav ul li:nth-child(1) a svg {
+      color: var(--strawberry);
+      color: hsl(20, 87%, 68%);
+      color: hsl(48, 90%, 68%);
+      color: var(--banana);
+    }
+    header nav ul li:nth-child(1) a {
+      color: var(--midnight) !important;
+    }
+    header nav ul li:nth-child(2) a svg {
+      color: var(--lime);
+    }
+    header nav ul li:nth-child(3) a svg {
+      color: var(--sky);
+    }
+  </style>
+  {% endif %}
+
 </head>
 <body>
 
@@ -2465,11 +2544,32 @@
   </div>
   <nav>
     <ul>
-      <li><a href="/events/">Things to do</a></li>
+      <li>
+        <a href="/events/">
+          <span style="display: none">
+          {% include trees/leaf-3.svg %}
+          </span>
+          <span>Things to do</span>
+        </a>
+      </li>
       <!-- <li><a href="/programs/">Programs</a></li> -->
       <!-- <li><a href="/eat-drink/">Eat &amp; Drink</a></li> -->
-      <li><a href="/visit/">Plan your visit</a></li>
-      <li><a href="/about/">About the park</a></li>
+      <li>
+        <a href="/visit/">
+          <span style="display: none">
+          {% include trees/leaf-3.svg %}
+          </span>
+          <span>Plan your visit</span>
+        </a>
+      </li>
+      <li>
+        <a href="/about/">
+          <span style="display: none">
+          {% include trees/leaf-3.svg %}
+          </span>
+          <span>About the park</span>
+        </a>
+      </li>
       <!-- <li><a href="/rent/">Rent the park</a></li>
       <li><a href="/donate/">Donate</a></li> -->
     </ul>
