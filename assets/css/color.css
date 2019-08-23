@@ -233,6 +233,7 @@ main strong {
     }
 }
 
+main h1 + p,
 main h1 + figure + p {
 /*   color: var(--strawberry); */
   font-size: 1.125em;
