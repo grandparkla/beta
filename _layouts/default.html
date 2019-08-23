@@ -560,6 +560,7 @@
     }
     .illustration-swirl-2 {
       margin-top: 9em;
+      margin-top: 1.5em;
       right: 7.5vw;
       transform: scaleX(-1);
     }
@@ -570,7 +571,8 @@
       mask-image: unset;
     }
   }
-  {% unless 
+  {% unless
+        true or
         page.url == "/lunch/" or
         page.url == "/yoga/" or
         page.url == "/food-trucks/" or
@@ -1170,8 +1172,13 @@
     }
   }
   {% unless 
+        true or
         page.url == "/visit/" or
-        page.url == "/areas/" %}
+        page.url == "/areas/" or
+        page.url == "/directions/" or
+        page.url == "/faqs/" or
+        page.url == "/rules/" or
+        page.url == "/alerts/" %}
   @media (min-width: 77em) {
     body > main > nav:first-of-type,
     main > h1,
@@ -1770,6 +1777,7 @@
     }
   }
   {% unless 
+        true or
         page.url == "/about/" %}
   @media (min-width: 77em) {
     /*
@@ -2379,7 +2387,7 @@
   {% include backgrounds/sun-3.svg %}
   </div>
   {% else %}
-  <div class="sun splash-sun" style="opacity: 0;">
+  <div class="sun splash-sun" style="opacity: 0">
   {% include backgrounds/splash-sun-6.svg %}
   </div>
   {% endif %}
@@ -2513,7 +2521,7 @@
   </div>
 </template>
 <template id="illustration-splash-pad-template">
-  <div class="illustration-palm illustration-palm-1 illustration-swirl-1">
+  <div class="illustration-palm illustration-palm-1 illustration-swirl-1" style="display: none">
   {% include trees/swirl.svg %}
   </div>
   <div class="illustration-palm illustration-palm-2 illustration-swirl-2">
@@ -2579,7 +2587,7 @@
   }
 
   if (templateName === "illustration-splash-pad-template") {
-    document.querySelector(".splash-sun").style.opacity = "1";
+    // document.querySelector(".splash-sun").style.opacity = "1";
   }
 
 })();
