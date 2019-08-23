@@ -33,5 +33,5 @@ Play area
 : recommended for ages 2-12
 
 <figure>
-  <img src="/uploads/areas/playground-2.jpg" alt="Playground" height="500" />
+  <img src="/uploads/areas/playground-1.jpg" alt="Playground" height="500" />
 </figure>
