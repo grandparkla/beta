@@ -2597,7 +2597,7 @@
   let templateName = "illustration-palm-template";
   {% elsif page.url == "/programs/" %}
   let templateName = "illustration-flowers-template";
-  {% elsif page.url == "/calendar/" and false %}
+  {% elsif page.url == "/areas/" %}
   let templateName = "illustration-splash-pad-template";
   {% else %}
   return;
@@ -2607,14 +2607,14 @@
   let template = document.getElementById(templateName);
   if (!template) return;
   let clone = document.importNode(template.content, true);
-  if (document.querySelector("main figure")) {
-    document.querySelector("main").insertBefore(clone, document.querySelector("main figure"));
-  } else if (document.querySelector("main .welcome")) {
-    document.querySelector("main").insertBefore(clone, document.querySelector("main .welcome"));
-  } else if (document.querySelector("main h1 ~ nav")) {
-    document.querySelector("main").insertBefore(clone, document.querySelector("main h1 ~ nav").nextSibling);
-  } else if (document.querySelector("main main")) {
-    document.querySelector("main").insertBefore(clone, document.querySelector("main main"));
+  if (document.querySelector("body > main > figure")) {
+    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > figure"));
+  } else if (document.querySelector("body > main > .welcome")) {
+    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > .welcome"));
+  } else if (document.querySelector("body > main > h1 ~ nav")) {
+    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > h1 ~ nav").nextSibling);
+  } else if (document.querySelector("body > main > main")) {
+    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > main"));
   }
 
   if (templateName === "illustration-splash-pad-template") {

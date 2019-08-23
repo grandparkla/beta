@@ -144,25 +144,61 @@ nav + figure img {
 }
 </style>
 
+<style>
+body > main > main > h2 {
+  grid-column: 3/6;
+  justify-self: start;
+  text-align: left;
+  margin-left: 0;
+}
+body > main > main > h2 + nav {
+  margin-top: 0;
+}
+body > main > main > h2 + nav {
+  grid-column: 3/6;
+}
+body > main > main > h2 small {
+  font-style: italic;
+  font-weight: normal;
+}
+body > main > main > h2 small[class] {
+  margin-top: 0.75em;
+  display: block;
+  font-size: 0.6666666667em;
+}
+</style>
+
 Areas of the park
 ========
 
+<!--
 <p style="max-width: 25em">All areas of the park are open daily. Just drop by for a picnic or a splash!</p>
+-->
 
+{% comment %}
 <nav markdown="1">
 * [Park areas](#list)
 * [Map](#map)
 </nav>
+{% endcomment %}
 
+{% comment %}
 <figure>
   <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1"   height="500" />
 </figure>
+{% endcomment %}
 
-<main markdown="1" class="lime-light" id="list">
+<main markdown="1" class="lime" id="list" style="background: transparent;">
 
-### Between Grand Avenue and Hill Street
+<h2>
+  <small>Between</small>
+  Grand Avenue
+  <small>and</small>
+  Hill Street
+  <small class="avoid-break">(Close to The Music Center)</small>
+</h2>
 
-_(close to The Music Center)_
+
 
 <nav markdown="1">
 *   [Fountain Overlook](https://www.google.com/maps/@34.0566769,-118.2473678,3a,75y,268.99h,90t/data=!3m8!1e1!3m6!1sAF1QipOSqCkOrYhHvAlE7jz5qoGyWozxBXV-QTyqa-6m!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOSqCkOrYhHvAlE7jz5qoGyWozxBXV-QTyqa-6m%3Dw203-h100-k-no-pi-0-ya268.77747-ro0-fo100!7i4096!8i2048)
@@ -173,7 +209,7 @@ _(close to The Music Center)_
 *   [Gardens](/gardens/)
 </nav>
 
-### Between Hill Street and Broadway
+## <small>Between</small> Hill Street <small>and</small> Broadway
 
 <nav markdown="1">
 *   [Community Terrace](https://www.google.com/maps/@34.0552361,-118.245177,3a,75y,17.44h,81.6t/data=!3m8!1e1!3m6!1sAF1QipPtp9sNgxC3pehPweyL_lLNWCBea8eshiLT6wmy!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPtp9sNgxC3pehPweyL_lLNWCBea8eshiLT6wmy%3Dw203-h100-k-no-pi-0-ya72.9286-ro-0-fo100!7i6912!8i3456)
@@ -181,9 +217,7 @@ _(close to The Music Center)_
 *   [Metro Station](https://www.google.com/maps/@34.0554164,-118.2453169,3a,75y,160.93h,79.88t/data=!3m8!1e1!3m6!1sAF1QipP6PYGlHXiASxoeXr9EeGZAdRxEvxrGJwxf8Atg!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipP6PYGlHXiASxoeXr9EeGZAdRxEvxrGJwxf8Atg%3Dw203-h100-k-no-pi-0-ya75.437515-ro-0-fo100!7i6912!8i3456)
 </nav>
 
-### Between Broadway and Spring Street
-
-_(close to City Hall)_
+## <small>Between</small> Broadway <small>and</small> Spring Street <small class="avoid-break">(Close to City Hall)</small>
 
 <nav markdown="1">
 *   [Event Lawn](https://www.google.com/maps/@34.0544049,-118.2440014,3a,75y,115.14h,90t/data=!3m8!1e1!3m6!1sAF1QipM0DHAIwelTkFxdqyPziAa69fl2YvFrvEGPrZs!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipM0DHAIwelTkFxdqyPziAa69fl2YvFrvEGPrZs%3Dw203-h100-k-no-pi-0-ya129.52591-ro0-fo100!7i8000!8i4000)
@@ -192,6 +226,10 @@ _(close to City Hall)_
 *   [Marketplace](https://www.google.com/maps/@34.0540165,-118.2437182,3a,75y,89.22h,90t/data=!3m8!1e1!3m6!1sAF1QipPxDlDYHxAb98V4h_NMhSLrSd8502jzoHFixVhH!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipPxDlDYHxAb98V4h_NMhSLrSd8502jzoHFixVhH%3Dw203-h100-k-no-pi-0-ya47.057156-ro-0-fo100!7i8704!8i4352)
 *   [Off-leash Dog Run](/dog-run/)
 </nav>
+
+<div></div>
+<div></div>
+<div></div>
 
 </main>
 <main markdown="1" class="lime-light">
