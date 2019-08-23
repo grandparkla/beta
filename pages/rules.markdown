@@ -90,7 +90,7 @@ Park rules
 *   walk your dog on a leash
 
 <figure>
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
 </figure>
 
 <main class="lime-light" markdown="1">

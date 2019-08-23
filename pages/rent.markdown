@@ -150,7 +150,10 @@ Rent the park
 </nav>
 
 <figure>
+  <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1"  height="500" />
+  {% comment %}
   <img src="/assets/temporary/misc/NYELA2019-0210.JPG" alt="Photo 1" height="500" />
+  {% endcomment %}
 </figure>
 
 <main markdown="1" class="sky-light">

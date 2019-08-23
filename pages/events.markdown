@@ -20,11 +20,53 @@ main h1 + p,
 main h1 + p + nav {
   grid-column-end: -3;
 }
+
+nav + figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+nav + figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  nav + figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 2/5;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  nav + figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  nav + figure {
+    margin-right: 5vw;
+    grid-row: 1/5;
+  }
+  nav + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/picnic.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 
@@ -115,6 +157,10 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 *   [Calendar](/calendar/)
 *   [Programs](/programs/)
 </nav>
+
+<figure>
+  <img src="/assets/temporary/park/umbrellas.jpg"  alt="Photo 1" height="500" />
+</figure>
 
 <!--
 

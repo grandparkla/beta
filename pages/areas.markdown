@@ -155,7 +155,7 @@ Areas of the park
 </nav>
 
 <figure>
-  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1"   height="500" />
 </figure>
 
 <main markdown="1" class="lime-light" id="list">

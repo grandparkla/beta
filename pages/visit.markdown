@@ -153,7 +153,10 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 </nav>
 
 <figure>
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+  {% comment %}
   <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
+  {% endcomment %}
 </figure>
 
 <!-- <section class="special-notice" role="status">
