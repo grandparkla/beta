@@ -2401,6 +2401,70 @@
         page.url == "/donate/"
         
          %}
+  <style>
+    .event-list a > div {
+      background-color: transparent;
+      color: white;
+      padding: 1.5em 1.625em;
+      font-size: 1.25em;
+    }
+    .event-list a {
+      position: relative;
+    }
+    .event-list a::after {
+      content: "";
+      position: absolute;
+      bottom: 0.375em;
+      left: 0.375em;
+      width: calc(100% - 0.75em);
+      height: calc(100% - 0.75em);
+      background: linear-gradient(to top, hsla(0, 0%, 0%, 0.5), transparent 50%, transparent);
+    }
+    .event-list a h3 {
+      opacity: 1;
+    }
+  </style>
+  <style media="false">
+    .event-list a span[style] {
+      display: block !important;
+      display: block !important;
+      position: relative;
+      z-index: 1;
+      width: 5em;
+      height: 5em;
+      transform: translate(-20%, -30%) rotate(-84deg);
+      justify-self: end;
+    }
+    .event-list:nth-of-type(2n+1) li a span[style] {
+      transform: translate(-20%, -30%) rotate(-114deg);
+    }
+    .event-list:nth-of-type(3n+1) li a span[style] {
+      transform: translate(-20%, -30%) rotate(-94deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] {
+      transform: translate(-20%, -30%) rotate(-54deg);
+    }
+    .event-list li:nth-child(3n+1) a span[style] {
+      transform: translate(-20%, -30%) rotate(-84deg);
+    }
+    /*
+    .event-list a span[style] + span[style] {
+      justify-self: end;
+    }
+    */
+    .event-list:nth-of-type(2n+1) li a span[style] + span[style] {
+      transform: translate(20%, -30%) rotate(94deg);
+    }
+    .event-list:nth-of-type(3n+1) li a span[style] + span[style] {
+      transform: translate(20%, -30%) rotate(114deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] + span[style] {
+      transform: translate(20%, -30%) rotate(84deg);
+    }
+    .event-list li:nth-child(3n+1) a span[style] + span[style] {
+      transform: translate(20%, -30%) rotate(54deg);
+    }
+  </style>
   <style media="false">
     header nav ul li a span[style] {
       display: block !important;
@@ -2804,6 +2868,20 @@
 {% endif %}
 
 </footer>
+
+<script>
+(function() {
+  let template = `
+    <span style="display: none">
+    {% include trees/leaf-3.svg %}
+    </span>
+  `;
+  document.querySelectorAll(".event-list a").forEach(item => {
+    item.insertAdjacentHTML("afterbegin", template);
+    item.insertAdjacentHTML("afterbegin", template);
+  });
+})();
+</script>
 
 </body>
 </html>
