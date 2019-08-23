@@ -173,7 +173,7 @@
           Sunday, August 18
         </p>
       </div>
-      <img src="/uploads/programs/sunday-sessions-3.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

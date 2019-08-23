@@ -224,13 +224,13 @@ All are invited to Grand Park’s free year-round events including live music, e
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
-    <a href="/yoga/">
+    <a href="/spring-concerts/">
       <div>
         <h3>Lunch à la Park</h3>
-        <h4>Yoga reTREAT</h4>
-        <!-- <p>Wednesday &amp; Friday</p> -->
+        <h4>Spring Concerts</h4>
+        <!-- <p>Thursday</p> -->
       </div>
-      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
+      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
@@ -246,13 +246,13 @@ All are invited to Grand Park’s free year-round events including live music, e
     </a>
   </li>
   <li>
-    <a href="/spring-concerts/">
+    <a href="/yoga/">
       <div>
         <h3>Lunch à la Park</h3>
-        <h4>Spring Concerts</h4>
-        <!-- <p>Thursday</p> -->
+        <h4>Yoga reTREAT</h4>
+        <!-- <p>Wednesday &amp; Friday</p> -->
       </div>
-      <img src="/uploads/programs/spring-concerts.jpg" height="300" alt="" />
+      <img src="/uploads/programs/yoga-4.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

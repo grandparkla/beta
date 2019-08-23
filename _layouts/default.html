@@ -541,6 +541,9 @@
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
     }
+    .illustration-flowers-2 {
+      transform: translateY(calc(-25% + 18em)) scaleX(-1);
+    }
     .illustration-sticker {
       right: 10vw;
     }
@@ -1162,6 +1165,9 @@
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
     }
+    .illustration-flowers-2 {
+      transform: translateY(calc(-25% + 18em)) scaleX(-1);
+    }
     .illustration-sticker {
       right: 10vw;
     }
@@ -1772,6 +1778,9 @@
     }
     .illustration-palm-2 {
       transform: translateY(calc(-25% + 12em)) scaleX(-1);
+    }
+    .illustration-flowers-2 {
+      transform: translateY(calc(-25% + 18em)) scaleX(-1);
     }
     .illustration-sticker {
       right: 10vw;
@@ -2586,9 +2595,9 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/programs/" and false %}
-  let templateName = "illustration-flowers-template";
   {% elsif page.url == "/programs/" %}
+  let templateName = "illustration-flowers-template";
+  {% elsif page.url == "/calendar/" and false %}
   let templateName = "illustration-splash-pad-template";
   {% else %}
   return;
