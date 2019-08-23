@@ -201,11 +201,11 @@ All are invited to Grand Park’s free year-round events including live music, e
 *   [New Year’s Eve](/nyela/)
 </nav>
 
+{% comment %}
 <figure>
   <img src="/assets/temporary/misc/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-139.jpg" alt="Photo 1" height="500" />
 </figure>
 
-{% comment %}
 
 <figure>
   <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="" height="500" />
