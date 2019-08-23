@@ -684,11 +684,19 @@
   {% if page.url == "/" %}
   /* SHIM: Make space for the palm trees */
   @media (max-width: 60em) {
+    /*
     body > main {
       padding-top: 35vw !important;
     }
+    */
     .illustration-palm-1 {
       transform: translateY(calc(-100% + 20em)) scaleX(-1);
+    }
+    .illustration-palm-1 svg {
+      height: 25em;
+    }
+    .illustration-palm-2 {
+      transform: translateY(calc(-15% + 0em));
     }
   }
   {% endif %}
