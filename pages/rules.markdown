@@ -7,7 +7,7 @@ permalink: /rules/
 * [Plan your visit](/visit/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -30,11 +30,53 @@ main > nav:first-child {
 main > h1 + nav {
     grid-column-end: -3;
 }
+
+h1 + h3 + ul + figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+h1 + h3 + ul + figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  h1 + h3 + ul + figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 3/6;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+    margin-top: -1.5em;
+  }
+  h1 + h3 + ul + figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+@media (min-width: 80em) {
+  h1 + h3 + ul + figure {
+    margin-right: 5vw;
+    grid-row: 2/6;
+  }
+  h1 + h3 + ul + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
 </style>
 
+{% comment %}
 <div class="illustration">
 {% include backgrounds/picnic.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 Park rules
@@ -46,6 +88,10 @@ Park rules
 *   spread blankets on the grass and have a picnic
 *   play in the splash pad
 *   walk your dog on a leash
+
+<figure>
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+</figure>
 
 <main class="lime-light" markdown="1">
 
