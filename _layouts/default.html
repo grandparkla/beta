@@ -2453,11 +2453,6 @@
     .event-list li:nth-child(3n+1) a span[style] {
       transform: translate(-20%, 40%) rotate(-84deg);
     }
-    /*
-    .event-list a span[style] + span[style] {
-      justify-self: end;
-    }
-    */
     .event-list:nth-of-type(2n+1) li a span[style] + span[style] {
       transform: translate(30%, 50%) rotate(88deg);
     }
@@ -2474,7 +2469,41 @@
       transform: translate(40%, 40%) rotate(-24deg);
     }
     .event-list li:nth-child(2n+1) a span[style] + span[style] {
-      transform: translate(0%, -10%) rotate(0deg);
+      transform: translate(-35%, -10%) rotate(0deg);
+    }
+    .event-list a span[style] + span[style] + span[style] {
+      align-self: start;
+      justify-self: end;
+    }
+    .event-list:nth-of-type(2n+1) li a span[style] + span[style] + span[style] {
+      transform: translate(20%, -40%) rotate(-94deg);
+    }
+    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] {
+      transform: translate(20%, -40%) rotate(-54deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] + span[style] + span[style] {
+      transform: translate(20%, -40%) rotate(-1154deg);
+    }
+    .event-list li:nth-child(3n+1) a span[style] + span[style] + span[style] {
+      transform: translate(20%, -40%) rotate(-84deg);
+    }
+    .event-list:nth-of-type(2n+1) li a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(50%, -50%) rotate(120deg);
+    }
+    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(50%, -50%) rotate(88deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(50%, -50%) rotate(56deg);
+    }
+    .event-list li:nth-child(3n+1) a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(50%, -50%) rotate(82deg);
+    }
+    .event-list li:nth-child(2n) a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(60%, -40%) rotate(1deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] + span[style] + span[style] + span[style] {
+      transform: translate(35%, -10%) rotate(-24deg);
     }
   </style>
   <style media="false">
@@ -2889,7 +2918,7 @@
     </span>
   `;
   let flowerTemplate = `
-    <span style="display: none">
+    <span style="display: none; position: relative; z-index: 9999;">
     {% include trees/flower.svg %}
     </span>
   `;
