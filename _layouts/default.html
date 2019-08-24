@@ -2990,9 +2990,13 @@
     leafTemplate,
     flowerTemplate
   ];
+  let everyOther = 1;
   document.querySelectorAll(".event-list a").forEach(item => {
-    item.insertAdjacentHTML("afterbegin", templates[getRandomInt(2)]);
-    item.insertAdjacentHTML("afterbegin", leafTemplate);
+    if (everyOther % 3 === 0 || everyOther % 3 === 1) {
+      item.insertAdjacentHTML("afterbegin", templates[getRandomInt(2)]);
+      item.insertAdjacentHTML("afterbegin", leafTemplate);
+    }
+    everyOther++;
   });
 })();
 </script>
