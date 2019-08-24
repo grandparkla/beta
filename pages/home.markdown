@@ -99,7 +99,7 @@ welcome:
   - באַגריסונג
 ---
 
-<style>
+<style media="false ">
 body > main > main:first-of-type > h2:first-of-type,
 body > main > main:first-of-type > .event-list + h2 {
   position: absolute;
@@ -389,7 +389,9 @@ h1.welcome span {
 </style>
 
 
+{% comment %}
 {% include welcome.markdown %}
+{% endcomment %}
 
 
 
@@ -566,7 +568,8 @@ h1.welcome span {
 })();
 </script>
 
-<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden;">
+{% comment %}
+<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden; display: none;">
 
 
 
@@ -615,21 +618,29 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 </div>
 {% endif %}
 
-
 </main>
-<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana)); background-image: linear-gradient(to bottom, var(--lime), hsl(58, 56%, 58%)); background-image: linear-gradient(to bottom, hsla(90, 51%, 40%, 1), hsla(90, 51%, 40%, 1) 33.3vh, hsla(77, 51%, 46%, 1) 100vh, var(--lime)); background-image: none; background-color: var(--lime); background-image: linear-gradient(to bottom, var(--lime), hsl(70, 61%, 59%))">
-
+{% endcomment %}
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
-<div></div>
-
 {% comment %}
 ## Happening soon
+
+## <a id="today"></a> Today at<br /><span class="avoid-break">Grand Park</span>
+
+## Welcome to <span class="avoid-break">Grand Park</span>
 {% endcomment %}
 
-## <a id="today"></a> Today at <span class="avoid-break">Grand Park</span>
+<h1>Welcome!</h1>
+
+<nav markdown="1">
+*   [Find something to do](/events/)
+*   [Find out how to get here](/directions/)
+*   [Rent the park](/rent/)
+</nav>
+
+<h2>Soon at<br />Grand Park</h2>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <!-- <li>
@@ -650,7 +661,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, August 18
+          Sunday, September 22
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
@@ -760,5 +771,5 @@ These [areas of the park](/areas/) are open daily. Just drop by!
   </li>
 </ol>
 
-</main>
-
+<div></div>
+<div></div>

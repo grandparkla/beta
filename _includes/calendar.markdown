@@ -163,6 +163,7 @@
   
 ## August 2019
 
+<!--
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <li>
     <a href="/sunday-sessions/">
@@ -177,6 +178,7 @@
     </a>
   </li>
 </ol>
+-->
 <ol class="event-list" style="grid-template-columns: 1fr 1fr;">
   <li>
     <a href="/food-trucks/">

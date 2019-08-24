@@ -148,10 +148,10 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 
 <nav markdown="1">
 {% if site.events_today -%}
+*   [Today](/events/#today)
 {% elsif site.events_tomorrow -%}
 *   [Tomorrow](/events/#tomorrow)
 {% endif -%}
-*   [Today](/events/#today)
 *   [Every day](/events/#daily)
 *   [Lunchtime](/events/#weekly)
 *   [Calendar](/calendar/)
@@ -176,7 +176,11 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
 
+{% comment %}
 ## <a id="today"></a> Today at<br /><span class="avoid-break">Grand Park</span>
+{% endcomment %}
+
+## Happening soon
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <!-- <li>
@@ -197,7 +201,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
         <h3>Sunday Sessions</h3>
         <h4>Day Dance Party</h4>
         <p>
-          Sunday, August 18
+          Sunday, September 22
         </p>
       </div>
       <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
