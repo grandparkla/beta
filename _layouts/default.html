@@ -2418,34 +2418,40 @@
       left: 0.375em;
       width: calc(100% - 0.75em);
       height: calc(100% - 0.75em);
+      background: radial-gradient(
+        ellipse at 15% 100%,
+        hsla(0, 0%, 0%, 0.5),
+        transparent 66%,
+        transparent);
       background: linear-gradient(to top, hsla(0, 0%, 0%, 0.5), transparent 50%, transparent);
     }
     .event-list a h3 {
       opacity: 1;
     }
   </style>
-  <style media="false">
+  <style>
     .event-list a span[style] {
       display: block !important;
       display: block !important;
       position: relative;
       z-index: 1;
-      width: 5em;
-      height: 5em;
-      transform: translate(-20%, -30%) rotate(-84deg);
-      justify-self: end;
+      width: 3em;
+      height: 3em;
+      transform: translate(-20%, -20%) rotate(-84deg);
+      justify-self: start;
+      align-self: end;
     }
     .event-list:nth-of-type(2n+1) li a span[style] {
-      transform: translate(-20%, -30%) rotate(-114deg);
+      transform: translate(-20%, 40%) rotate(-114deg);
     }
     .event-list:nth-of-type(3n+1) li a span[style] {
-      transform: translate(-20%, -30%) rotate(-94deg);
+      transform: translate(-20%, 40%) rotate(-94deg);
     }
     .event-list li:nth-child(2n+1) a span[style] {
-      transform: translate(-20%, -30%) rotate(-54deg);
+      transform: translate(-20%, 40%) rotate(-54deg);
     }
     .event-list li:nth-child(3n+1) a span[style] {
-      transform: translate(-20%, -30%) rotate(-84deg);
+      transform: translate(-20%, 40%) rotate(-84deg);
     }
     /*
     .event-list a span[style] + span[style] {
@@ -2453,16 +2459,40 @@
     }
     */
     .event-list:nth-of-type(2n+1) li a span[style] + span[style] {
-      transform: translate(20%, -30%) rotate(94deg);
+      transform: translate(30%, 50%) rotate(88deg);
     }
     .event-list:nth-of-type(3n+1) li a span[style] + span[style] {
-      transform: translate(20%, -30%) rotate(114deg);
+      transform: translate(30%, 50%) rotate(120deg);
     }
     .event-list li:nth-child(2n+1) a span[style] + span[style] {
-      transform: translate(20%, -30%) rotate(84deg);
+      transform: translate(30%, 50%) rotate(82deg);
     }
     .event-list li:nth-child(3n+1) a span[style] + span[style] {
-      transform: translate(20%, -30%) rotate(54deg);
+      transform: translate(30%, 50%) rotate(56deg);
+    }
+    
+    .event-list:nth-of-type(2n+1) li a span[style] + span[style] + span[style] {
+      transform: translate(60%, 30%) rotate(48deg);
+    }
+    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] {
+      transform: translate(60%, 30%) rotate(80deg);
+    }
+    .event-list li:nth-child(2n+1) a span[style] + span[style] + span[style] {
+      transform: translate(60%, 30%) rotate(42deg);
+    }
+    .event-list li:nth-child(3n+1) a span[style] + span[style] + span[style] {
+      transform: translate(60%, 30%) rotate(16deg);
+    }
+
+    
+    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] {
+      display: none !important;
+    }
+    .event-list:nth-of-type(5n+1) li a span[style] + span[style] {
+      display: none !important;
+    }
+    .event-list:nth-of-type(5n+1) li a span[style] + span[style] + span[style] {
+      display: block !important;
     }
   </style>
   <style media="false">
@@ -2871,14 +2901,29 @@
 
 <script>
 (function() {
-  let template = `
+  let leafTemplate = `
     <span style="display: none">
     {% include trees/leaf-3.svg %}
     </span>
   `;
+  let flowerTemplate = `
+    <span style="display: none">
+    {% include trees/flower.svg %}
+    </span>
+  `;
+  // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+  function getRandomInt(max) {
+    return Math.floor(Math.random() * Math.floor(max));
+  }
+
+  const templates = [
+    leafTemplate,
+    flowerTemplate
+  ];
   document.querySelectorAll(".event-list a").forEach(item => {
-    item.insertAdjacentHTML("afterbegin", template);
-    item.insertAdjacentHTML("afterbegin", template);
+    item.insertAdjacentHTML("afterbegin", templates[getRandomInt(2)]);
+    item.insertAdjacentHTML("afterbegin", leafTemplate);
+    item.insertAdjacentHTML("afterbegin", leafTemplate);
   });
 })();
 </script>
