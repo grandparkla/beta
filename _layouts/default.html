@@ -2990,9 +2990,9 @@
     leafTemplate,
     flowerTemplate
   ];
-  let everyOther = 1;
+  let everyOther = 0;
   document.querySelectorAll(".event-list a").forEach(item => {
-    if (everyOther % 3 === 0 || everyOther % 3 === 1) {
+    if (everyOther % 3 === 1 || everyOther % 3 === 2) {
       item.insertAdjacentHTML("afterbegin", templates[getRandomInt(2)]);
       item.insertAdjacentHTML("afterbegin", leafTemplate);
     }
