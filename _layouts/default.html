@@ -2470,30 +2470,6 @@
     .event-list li:nth-child(3n+1) a span[style] + span[style] {
       transform: translate(30%, 50%) rotate(56deg);
     }
-    
-    .event-list:nth-of-type(2n+1) li a span[style] + span[style] + span[style] {
-      transform: translate(60%, 30%) rotate(48deg);
-    }
-    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] {
-      transform: translate(60%, 30%) rotate(80deg);
-    }
-    .event-list li:nth-child(2n+1) a span[style] + span[style] + span[style] {
-      transform: translate(60%, 30%) rotate(42deg);
-    }
-    .event-list li:nth-child(3n+1) a span[style] + span[style] + span[style] {
-      transform: translate(60%, 30%) rotate(16deg);
-    }
-
-    
-    .event-list:nth-of-type(3n+1) li a span[style] + span[style] + span[style] {
-      display: none !important;
-    }
-    .event-list:nth-of-type(5n+1) li a span[style] + span[style] {
-      display: none !important;
-    }
-    .event-list:nth-of-type(5n+1) li a span[style] + span[style] + span[style] {
-      display: block !important;
-    }
   </style>
   <style media="false">
     header nav ul li a span[style] {
@@ -2922,7 +2898,6 @@
   ];
   document.querySelectorAll(".event-list a").forEach(item => {
     item.insertAdjacentHTML("afterbegin", templates[getRandomInt(2)]);
-    item.insertAdjacentHTML("afterbegin", leafTemplate);
     item.insertAdjacentHTML("afterbegin", leafTemplate);
   });
 })();
