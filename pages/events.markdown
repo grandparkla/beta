@@ -318,9 +318,52 @@ Come into the sunshine and enjoy everyone’s favorite time of the workday – t
   </li>
 </ol>
 
+{% comment %}
+<style>
+.hill {
+  grid-column: 1/-1;
+  margin-left: -1.5em;
+  margin-right: -1.5em;
+  margin-top: -1.5em;
+}
+.hill svg {
+  display: block;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  bottom: -1px;
+  width: 100vw;
+  height: calc(173.2/1658.8 * 100vw);
+  max-width: none;
+  color: var(--snow);
+}
+.hill svg path {
+  fill: currentColor;
+}
+</style>
 
+<div class="hill" style="
+    /* background: hsl(31, 90%, 68%); */
+">
+  <svg style="color: hsl(77, 100%, 89%);/* background: hsla(0, 0%, 99%, 0.5); */" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1658.8 173.2" preserveAspectRatio="none">
+  <path d="M1662.1,177.1L1662.1,177.1L-2.8,174.3l1.1-66.6c0,0,389,62.5,534.7,59.2c195-4.5,399.6-12.8,655.5-68.3
+  	C1427.4,46.8,1563.9,7.3,1664.4,0L1662.1,177.1z"></path>
+  </svg>
+</div>
 
-<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana)); background-image: linear-gradient(to bottom, var(--lime), hsl(58, 56%, 58%)); background-image: linear-gradient(to bottom, hsla(90, 51%, 40%, 1), hsla(90, 51%, 40%, 1) 33.3vh, hsla(77, 51%, 46%, 1) 100vh, var(--lime)); background-image: none; background-color: var(--lime); background-image: linear-gradient(to bottom, var(--lime), hsl(70, 61%, 59%)); border-top: 1.5em solid var(--snow);">
+<div class="hill" style="
+    background: hsl(31, 90%, 68%);
+    transform: scale(1, 1);
+">
+  <svg style="color: hsl(76, 51%, 46%);background: hsl(77, 100%, 89%);
+  height: calc(173.2/1658.8 * 50vw);" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1658.8 173.2" preserveAspectRatio="none">
+  <path d="M1662.1,177.1L1662.1,177.1L-2.8,174.3l1.1-66.6c0,0,389,62.5,534.7,59.2c195-4.5,399.6-12.8,655.5-68.3
+  	C1427.4,46.8,1563.9,7.3,1664.4,0L1662.1,177.1z"></path>
+  </svg>
+</div>
+{% endcomment %}
+
+<main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana)); background-image: linear-gradient(to bottom, var(--lime), hsl(58, 56%, 58%)); background-image: linear-gradient(to bottom, hsla(90, 51%, 40%, 1), hsla(90, 51%, 40%, 1) 33.3vh, hsla(77, 51%, 46%, 1) 100vh, var(--lime)); background-image: none; background-color: var(--lime); background-image: linear-gradient(to bottom, var(--lime), hsl(70, 61%, 59%)); border-top: 0.375em solid hsl(77, 100%, 89%);">
 
 * * *
 
