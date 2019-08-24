@@ -385,8 +385,9 @@
     position: absolute;
     right: 0;
     z-index: -1;
-    opacity: 0.95;
+    opacity: 1;
     color: var(--snow);
+    color: hsl(351, 59%, 92%);
     transform: translateY(calc(-66.6% + 0em));
   }
   .illustration-palm-2 svg {
@@ -2407,6 +2408,29 @@
         page.url == "/donate/"
         
          %}
+ 
+  {% if page.url == "/" and false %}
+  <style>
+    main > nav:not(:first-child) ul {
+      display: flex;
+      flex-direction: column;
+      justify-items: stretch;
+      align-items: stretch;
+      align-content: stretch;
+    }
+    main > nav:not(:first-child) ul li {
+      margin-top: 0.75em;
+    }
+    main > nav:not(:first-child) ul a {
+      padding: 0.375em 1em;
+      border: 0.125em solid;
+    }
+    main > nav:not(:first-child) ul a::before {
+      content: none;
+    }
+  </style>
+  {% endif %}
+
   <style>
     .event-list a > div {
       background-color: transparent;
@@ -2435,7 +2459,7 @@
       opacity: 1;
     }
   </style>
-  <style>
+  <style media="false">
     .event-list a span[style] {
       display: block !important;
       display: block !important;

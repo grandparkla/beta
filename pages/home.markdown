@@ -389,9 +389,7 @@ h1.welcome span {
 </style>
 
 
-{% comment %}
 {% include welcome.markdown %}
-{% endcomment %}
 
 
 
@@ -568,8 +566,7 @@ h1.welcome span {
 })();
 </script>
 
-{% comment %}
-<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden; display: none;">
+<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden;">
 
 
 
@@ -619,7 +616,6 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 {% endif %}
 
 </main>
-{% endcomment %}
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}
 {{ today_tomorrow | markdownify }}
@@ -632,6 +628,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 ## Welcome to <span class="avoid-break">Grand Park</span>
 {% endcomment %}
 
+{% comment %}
 <h1>Welcome!</h1>
 
 <nav markdown="1">
@@ -639,6 +636,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 *   [Find out how to get here](/directions/)
 *   [Rent the park](/rent/)
 </nav>
+{% endcomment %}
 
 <h2>Soon at<br />Grand Park</h2>
 
