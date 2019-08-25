@@ -11,28 +11,32 @@ permalink: /rules/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/6;
+  grid-row: 3/6;
 }
 .illustration svg {
-  height: 15vmax;
-  width: 15vmax;
-  margin-top: 1em;
-  margin-left: 1em;
+  height: 20vmax;
+  width: auto;
+  color: inherit;
+}
+.illustration svg,
+.illustration svg path {
+  fill: currentColor;
+}
+.illustration svg * {
+  color: inherit !important;
 }
 main h1,
 main h1 + h3,
-main h1 + h3 + ul {
+main > h1 + h3 + ul {
   grid-column-end: -4;
 }
 main h1 + h3,
-main h1 + h3 + ul {
+main > h1 + h3 + ul {
   grid-column-start: 2;
+  grid-column-end: -5;
 }
 main > nav:first-child {
   grid-row-start: 1;
-}
-main > h1 + nav {
-    grid-column-end: -4;
 }
 
 body > main > figure {
@@ -65,12 +69,12 @@ body > main > figure img {
   }
   body > main > figure + figure {
     grid-column: -4/-2;
-    grid-row: 3/6;
+    grid-row: 4/7;
     left: -10vw;
   }
   body > main > figure + figure + figure {
     grid-column: -3/-1;
-    grid-row: 4/7;
+    grid-row: 5/8;
     left: unset;
   }
   body > main > figure img {
@@ -78,13 +82,13 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -10vw;
+    margin-top: -5vw;
   }
 }
 @media (min-width: 80em) {
   body > main > figure {
     margin-right: 5vw;
-    grid-row: 1/4;
+    grid-row: 1/5;
   }
   body > main > figure img {
     width: calc(2/8 * 100vw - 3em);

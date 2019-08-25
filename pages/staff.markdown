@@ -8,7 +8,7 @@ permalink: /staff/
 * [About the park](/about/)
 </nav>
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -19,26 +19,30 @@ permalink: /staff/
   width: auto;
 }
 main h1 {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 main h1 + p,
 main h1 + p + nav {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 main > nav:first-child {
   grid-row-start: 1;
 }
 main > h1 + nav {
-  grid-column-end: -3;
+  grid-column-end: -4;
   align-self: start;
 }
 
-nav + figure {
+body > main > figure:nth-of-type(1),
+body > main > figure:nth-of-type(2),
+body > main > figure:nth-of-type(3) {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-nav + figure img {
+body > main > figure:nth-of-type(1) img,
+body > main > figure:nth-of-type(2) img,
+body > main > figure:nth-of-type(3) img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -47,29 +51,46 @@ nav + figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  nav + figure {
+  body > main > figure:nth-of-type(1),
+  body > main > figure:nth-of-type(2),
+  body > main > figure:nth-of-type(3) {
     width: auto;
     height: auto;
     grid-column: -3/-1;
-    grid-row: 3/6;
+    grid-row: 2/4;
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
-    margin-top: -1.5em;
+    margin-top: 0;
   }
-  nav + figure img {
+  body > main > figure:nth-of-type(1) img,
+  body > main > figure:nth-of-type(2) img,
+  body > main > figure:nth-of-type(3) img {
     width: 25vw;
     height: 25vw;
   }
+  body > main > figure:nth-of-type(2),
+  body > main > figure:nth-of-type(3) {
+    grid-column: -4/-2;
+    grid-row: 3/6;
+    left: -10vw;
+  }
+  body > main > figure:nth-of-type(3) {
+    grid-column: -3/-1;
+    grid-row: 4/7;
+    left: unset;
+  }
 }
 @media (min-width: 80em) {
-  nav + figure {
+  body > main > figure:nth-of-type(1) {
     margin-right: 5vw;
-    grid-row: 2/6;
+    grid-row: 1/4;
   }
-  nav + figure img {
-    width: calc(2.5/8 * 100vw - 3em);
-    height: calc(2.5/8 * 100vw - 3em);
+  body > main > figure:nth-of-type(1) img,
+  body > main > figure:nth-of-type(2) img,
+  body > main > figure:nth-of-type(3) img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 </style>
@@ -159,9 +180,19 @@ h2 small em {
 * [Job Opportunities](/job-opportunities/)
 </nav>
 
+<!--
 <figure>
   <img src="/assets/temporary/welcome/384-wide/19.jpg" srcset="/assets/temporary/welcome/384-wide/19.jpg 384w, /assets/temporary/welcome/512-wide/19.jpg 512w, /assets/temporary/welcome/768-wide/19.jpg 768w, /assets/temporary/welcome/1024-wide/19.jpg 1024w, /assets/temporary/welcome/1536-wide/19.jpg 1536w, /assets/temporary/welcome/2048-wide/19.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
+
+<figure>
+  <img src="/assets/temporary/not-optimized/Select_JMC4067.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/46.jpg" srcset="/assets/temporary/welcome/384-wide/46.jpg 384w, /assets/temporary/welcome/512-wide/46.jpg 512w, /assets/temporary/welcome/768-wide/46.jpg 768w, /assets/temporary/welcome/1024-wide/46.jpg 1024w, /assets/temporary/welcome/1536-wide/46.jpg 1536w, /assets/temporary/welcome/2048-wide/46.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+-->
 
 
 <div class="staff-list" id="staff-list"></div>
