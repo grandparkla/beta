@@ -204,7 +204,7 @@ Lunchtime yoga, summer dance sessions, free admission holiday celebrations, <spa
           Sunday, September 22
         </p>
       </div>
-      <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>

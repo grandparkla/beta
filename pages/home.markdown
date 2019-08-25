@@ -662,7 +662,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
           Sunday, September 22
         </p>
       </div>
-      <img src="/uploads/programs/sunday-sessions-8.jpg" height="300" alt="" />
+      <img src="/uploads/programs/sunday-sessions-2.jpg" height="300" alt="" />
     </a>
   </li>
 </ol>
