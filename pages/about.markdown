@@ -16,7 +16,7 @@ permalink: /about/
 main h1,
 main h1 + p,
 main h1 + p + nav {
-  grid-column-end: -3;
+  grid-column-end: -4;
 }
 
 body > main > figure {
@@ -48,24 +48,21 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > figure + figure {
-    grid-column: -5/-3;
-    grid-row: 4/6;
+    grid-column: -4/-2;
+    grid-row: 3/6;
+    left: -10vw;
   }
   body > main > figure + figure + figure {
     grid-column: -3/-1;
-    grid-row: 4/6;
+    grid-row: 4/7;
+    left: unset;
   }
   body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
-  body > main > figure + figure img {
-    width: 30vw;
-    height: 30vw;
-  }
-  body > main > figure + figure + figure img {
-    width: 20vw;
-    height: 20vw;
+  body > main > main:first-of-type {
+    margin-top: -10vw;
   }
 }
 @media (min-width: 80em) {
@@ -74,8 +71,8 @@ body > main > figure img {
     grid-row: 1/4;
   }
   body > main > figure img {
-    width: calc(2.5/8 * 100vw - 3em);
-    height: calc(2.5/8 * 100vw - 3em);
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 </style>

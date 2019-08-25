@@ -22,21 +22,25 @@ permalink: /rules/
 main h1,
 main h1 + h3,
 main h1 + h3 + ul {
-  grid-column-end: -3;
+  grid-column-end: -4;
+}
+main h1 + h3,
+main h1 + h3 + ul {
+  grid-column-start: 2;
 }
 main > nav:first-child {
   grid-row-start: 1;
 }
 main > h1 + nav {
-    grid-column-end: -3;
+    grid-column-end: -4;
 }
 
-h1 + h3 + ul + figure {
+body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-h1 + h3 + ul + figure img {
+body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -45,29 +49,46 @@ h1 + h3 + ul + figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  h1 + h3 + ul + figure {
+  body > main > figure {
     width: auto;
     height: auto;
     grid-column: -3/-1;
-    grid-row: 3/6;
+    grid-row: 2/4;
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
-    margin-top: -1.5em;
+    margin-top: 0;
   }
-  h1 + h3 + ul + figure img {
+  body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  body > main > figure + figure {
+    grid-column: -4/-2;
+    grid-row: 3/6;
+    left: -10vw;
+  }
+  body > main > figure + figure + figure {
+    grid-column: -3/-1;
+    grid-row: 4/7;
+    left: unset;
+  }
+  body > main > figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+  body > main > main:first-of-type {
+    margin-top: -10vw;
+  }
 }
 @media (min-width: 80em) {
-  h1 + h3 + ul + figure {
+  body > main > figure {
     margin-right: 5vw;
-    grid-row: 2/6;
+    grid-row: 1/4;
   }
-  h1 + h3 + ul + figure img {
-    width: calc(2.5/8 * 100vw - 3em);
-    height: calc(2.5/8 * 100vw - 3em);
+  body > main > figure img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 </style>
@@ -90,8 +111,18 @@ Park rules
 *   walk your dog on a leash
 
 <figure>
-  <img src="/assets/temporary/misc/Select_JMC1743.jpg" alt="Splash Pad" height="500" />
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-123.jpg" alt="Photo" height="500" />
 </figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC3860.jpg" alt="Photo" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
+</figure>
+
+
 
 <main class="lime-light" markdown="1">
 

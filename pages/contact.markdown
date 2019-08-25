@@ -25,24 +25,21 @@ permalink: /contact/
 .illustration svg * {
   color: inherit !important;
 }
-main h1 {
-  grid-column: 2/-3;
-}
-main h1 + p {
-  grid-column: 2/-3;
+main h1,
+main h1 + p,
+main > h1 + nav {
+  grid-column-end: -4;
 }
 main > nav:first-child {
   grid-row-start: 1;
 }
-main > h1 + nav {
-    grid-column: 3/-3;
-}
-nav + figure {
+
+body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-nav + figure img {
+body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -51,29 +48,46 @@ nav + figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  nav + figure {
+  body > main > figure {
     width: auto;
     height: auto;
     grid-column: -3/-1;
-    grid-row: 3/6;
+    grid-row: 2/4;
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
-    margin-top: -3em;
+    margin-top: 0;
   }
-  nav + figure img {
+  body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  body > main > figure + figure {
+    grid-column: -4/-2;
+    grid-row: 3/6;
+    left: -10vw;
+  }
+  body > main > figure + figure + figure {
+    grid-column: -3/-1;
+    grid-row: 4/7;
+    left: unset;
+  }
+  body > main > figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+  body > main > main:first-of-type {
+    margin-top: -10vw;
+  }
 }
 @media (min-width: 80em) {
-  nav + figure {
+  body > main > figure {
     margin-right: 5vw;
-    grid-row: 2/6;
+    grid-row: 1/4;
   }
-  nav + figure img {
-    width: calc(2.5/8 * 100vw - 3em);
-    height: calc(2.5/8 * 100vw - 3em);
+  body > main > figure img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 </style>
@@ -150,10 +164,15 @@ Contact us
 </nav>
 
 <figure>
-  {% comment %}
-  <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-  {% endcomment %}
-  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen-84.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC3943.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <main markdown="1" class="sky-light">
