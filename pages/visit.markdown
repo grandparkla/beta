@@ -22,12 +22,12 @@ main h1 + figure + p + nav {
   grid-column-end: -4;
 }
 
-nav + figure {
+body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-nav + figure img {
+body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -36,7 +36,7 @@ nav + figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  nav + figure {
+  body > main > figure {
     width: auto;
     height: auto;
     grid-column: -3/-1;
@@ -46,17 +46,33 @@ nav + figure img {
     margin-bottom: 0;
     margin-top: 0;
   }
-  nav + figure img {
+  body > main > figure + figure {
+    grid-column: -5/-3;
+    grid-row: 4/6;
+  }
+  body > main > figure + figure + figure {
+    grid-column: -3/-1;
+    grid-row: 4/6;
+  }
+  body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  body > main > figure + figure img {
+    width: 30vw;
+    height: 30vw;
+  }
+  body > main > figure + figure + figure img {
+    width: 20vw;
+    height: 20vw;
+  }
 }
 @media (min-width: 80em) {
-  nav + figure {
+  body > main > figure {
     margin-right: 5vw;
     grid-row: 1/5;
   }
-  nav + figure img {
+  body > main > figure img {
     width: calc(2.5/8 * 100vw - 3em);
     height: calc(2.5/8 * 100vw - 3em);
   }
@@ -154,9 +170,12 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 
 <figure>
   <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
-  {% comment %}
-  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
-  {% endcomment %}
+</figure>
+<figure>
+  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <!-- <section class="special-notice" role="status">
