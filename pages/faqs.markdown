@@ -47,7 +47,7 @@ body > main > main > p {
 body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
-  grid-column-end: 7;
+  grid-column-end: 6;
 }
 
 body > main > figure {
@@ -93,7 +93,7 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -10vw;
+    margin-top: -30vw;
   }
     body > main > figure {
       grid-row: 1/5;
@@ -157,18 +157,16 @@ FAQs
 
 
 <figure>
-  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="Photo" height="500" />
 </figure>
 
-<!--
 <figure>
   <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-112.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="Photo" height="500" />
+  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
 </figure>
--->
 
 
 
