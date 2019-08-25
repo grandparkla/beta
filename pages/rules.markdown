@@ -32,11 +32,18 @@ main > h1 + h3 + ul {
 }
 main h1 + h3,
 main > h1 + h3 + ul {
-  grid-column-start: 2;
-  grid-column-end: -5;
+  grid-column-end: -4;
 }
 main > nav:first-child {
   grid-row-start: 1;
+}
+body > main > h3,
+body > main > ul,
+body > main > main > h3,
+body > main > main > ul,
+body > main > main > p {
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
 
 body > main > figure {
@@ -71,18 +78,20 @@ body > main > figure img {
     grid-column: -4/-2;
     grid-row: 4/7;
     left: -10vw;
+    top: -3.5vw;
   }
   body > main > figure + figure + figure {
     grid-column: -3/-1;
     grid-row: 5/8;
     left: unset;
+    top: unset;
   }
   body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -5vw;
+    margin-top: -10vw;
   }
 }
 @media (min-width: 80em) {
