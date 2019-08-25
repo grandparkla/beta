@@ -143,8 +143,9 @@ FAQs
 </figure>
 
 <figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-134.jpg" alt="Photo" height="500" />
+  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
 </figure>
+
 
 
 <main class="lime-light" markdown="1">

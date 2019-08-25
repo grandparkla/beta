@@ -124,11 +124,11 @@ Park rules
 *   walk your dog on a leash
 
 <figure>
-  <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo" height="500" />
+  <img src="/uploads/areas/performance-lawn-4.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
+  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>
