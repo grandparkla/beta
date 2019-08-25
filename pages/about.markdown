@@ -174,11 +174,11 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 </nav>
 
 <figure>
-  <img src="/assets/temporary/park/splash-2.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
 </figure>
 
 <figure>

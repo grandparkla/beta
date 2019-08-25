@@ -638,7 +638,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 </nav>
 {% endcomment %}
 
-<h2>Soon at<br />Grand Park</h2>
+<h2>Happening soon</h2>
 
 <ol class="event-list" style="grid-template-columns: 1fr;">
   <!-- <li>

@@ -11,35 +11,23 @@ permalink: /contact/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 3/6;
+  grid-row: 3/4;
 }
 .illustration svg {
   height: 20vmax;
   width: auto;
-  color: inherit;
 }
-.illustration svg,
-.illustration svg path {
-  fill: currentColor;
-}
-.illustration svg * {
-  color: inherit !important;
-}
+main nav:first-child,
 main h1,
-main h1 + p,
-main > h1 + nav {
-  grid-column-end: -4;
+main h1 + nav {
+  grid-column-end: -3;
 }
-main > nav:first-child {
-  grid-row-start: 1;
-}
-
-body > main > figure {
+nav + figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-body > main > figure img {
+nav + figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -48,46 +36,29 @@ body > main > figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  body > main > figure {
+  nav + figure {
     width: auto;
     height: auto;
     grid-column: -3/-1;
-    grid-row: 2/4;
+    grid-row: 3/6;
     justify-self: end;
     align-self: start;
     margin-bottom: 0;
-    margin-top: 0;
+    margin-top: -3em;
   }
-  body > main > figure img {
+  nav + figure img {
     width: 25vw;
     height: 25vw;
-  }
-  body > main > figure + figure {
-    grid-column: -4/-2;
-    grid-row: 3/6;
-    left: -10vw;
-  }
-  body > main > figure + figure + figure {
-    grid-column: -3/-1;
-    grid-row: 4/7;
-    left: unset;
-  }
-  body > main > figure img {
-    width: 25vw;
-    height: 25vw;
-  }
-  body > main > main:first-of-type {
-    margin-top: -10vw;
   }
 }
 @media (min-width: 80em) {
-  body > main > figure {
+  nav + figure {
     margin-right: 5vw;
-    grid-row: 1/4;
+    grid-row: 2/6;
   }
-  body > main > figure img {
-    width: calc(2/8 * 100vw - 3em);
-    height: calc(2/8 * 100vw - 3em);
+  nav + figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
   }
 }
 </style>
@@ -164,15 +135,7 @@ Contact us
 </nav>
 
 <figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-</figure>
-
-<figure>
-  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
-</figure>
-
-<figure>
-  <img src="/assets/temporary/optimized/Select_JMC3943.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <main markdown="1" class="sky-light">
