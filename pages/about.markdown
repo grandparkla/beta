@@ -64,6 +64,9 @@ body > main > figure img {
   body > main > main:first-of-type {
     margin-top: -10vw;
   }
+    body > main > figure {
+      grid-row: 1/5;
+    }
 }
 @media (min-width: 80em) {
   body > main > figure {

@@ -42,7 +42,7 @@ body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 7;
 }
 
 body > main > figure {
@@ -88,8 +88,11 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -20vw;
+    margin-top: -10vw;
   }
+    body > main > figure {
+      grid-row: 1/5;
+    }
 }
 @media (min-width: 80em) {
   body > main > figure {

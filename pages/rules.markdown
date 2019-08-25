@@ -25,13 +25,7 @@ permalink: /rules/
 .illustration svg * {
   color: inherit !important;
 }
-main h1,
-main h1 + h3,
-main > h1 + h3 + ul {
-  grid-column-end: -4;
-}
-main h1 + h3,
-main > h1 + h3 + ul {
+main h1 {
   grid-column-end: -4;
 }
 main > nav:first-child {
@@ -44,6 +38,11 @@ body > main > main > ul,
 body > main > main > p {
   grid-column-start: 2;
   grid-column-end: 5;
+}
+body > main > main > h3,
+body > main > main > ul,
+body > main > main > p {
+  grid-column-end: 7;
 }
 
 body > main > figure {
@@ -93,11 +92,13 @@ body > main > figure img {
   body > main > main:first-of-type {
     margin-top: -10vw;
   }
+    body > main > figure {
+      grid-row: 1/5;
+    }
 }
 @media (min-width: 80em) {
   body > main > figure {
     margin-right: 5vw;
-    grid-row: 1/5;
   }
   body > main > figure img {
     width: calc(2/8 * 100vw - 3em);
