@@ -19,12 +19,12 @@ main h1 + p + nav {
   grid-column-end: -3;
 }
 
-nav + figure {
+body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
   border-radius: 50%;
 }
-nav + figure img {
+body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
@@ -33,7 +33,7 @@ nav + figure img {
   max-width: none;
 }
 @media (min-width: 60em) {
-  nav + figure {
+  body > main > figure {
     width: auto;
     height: auto;
     grid-column: -3/-1;
@@ -43,17 +43,37 @@ nav + figure img {
     margin-bottom: 0;
     margin-top: 0;
   }
-  nav + figure img {
+  body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  body > main > figure + figure {
+    grid-column: -5/-3;
+    grid-row: 4/6;
+  }
+  body > main > figure + figure + figure {
+    grid-column: -3/-1;
+    grid-row: 4/6;
+  }
+  body > main > figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+  body > main > figure + figure img {
+    width: 30vw;
+    height: 30vw;
+  }
+  body > main > figure + figure + figure img {
+    width: 20vw;
+    height: 20vw;
+  }
 }
 @media (min-width: 80em) {
-  nav + figure {
+  body > main > figure {
     margin-right: 5vw;
     grid-row: 1/4;
   }
-  nav + figure img {
+  body > main > figure img {
     width: calc(2.5/8 * 100vw - 3em);
     height: calc(2.5/8 * 100vw - 3em);
   }
@@ -157,10 +177,15 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 </nav>
 
 <figure>
-  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
-  {% comment %}
   <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-  {% endcomment %}
+</figure>
+
+<figure>
+  <img src="/assets/temporary/misc/2017_11_4_17_GrandAveArts2017_Javier_Guillen-17.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/park/splash-2.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <main markdown="1" class="sky-light">
