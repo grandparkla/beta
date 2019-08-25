@@ -18,7 +18,7 @@ These steps will help you get started:
 
 <main markdown="1" class="sky-light">
 
-{% if site.use_illustrations %}
+{% if site.use_illustrations and false %}
   <style>
   .camera {
     grid-column: -3/-1;

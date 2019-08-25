@@ -37,12 +37,12 @@ body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 4;
 }
 body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
-  grid-column-end: 7;
+  grid-column-end: 6;
 }
 
 body > main > figure {
@@ -90,7 +90,7 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -10vw;
+    margin-top: -20vw;
   }
     body > main > figure {
       grid-row: 1/5;
@@ -101,6 +101,20 @@ body > main > figure img {
     margin-right: 5vw;
   }
   body > main > figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
+@media (min-width: 60em) {
+  body > main > figure:nth-of-type(2) {
+    left: -10vw;
+    top: 5vw;
+  }
+  body > main > figure:nth-of-type(2) img {
+    width: calc(1.5/8 * 100vw - 3em);
+    height: calc(1.5/8 * 100vw - 3em);
+  }
+  body > main > figure:nth-of-type(3) img {
     width: calc(2/8 * 100vw - 3em);
     height: calc(2/8 * 100vw - 3em);
   }
@@ -125,11 +139,11 @@ Park rules
 *   walk your dog on a leash
 
 <figure>
-  <img src="/uploads/areas/performance-lawn-4.jpg" alt="Photo" height="500" />
+  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>
-  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
+  <img src="/uploads/areas/performance-lawn-4.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>

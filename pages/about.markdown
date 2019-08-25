@@ -74,10 +74,77 @@ body > main > figure img {
     grid-row: 1/4;
   }
   body > main > figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
+@media (min-width: 60em) {
+  body > main > figure:nth-of-type(2) {
+    left: -10vw;
+    top: 5vw;
+  }
+  body > main > figure:nth-of-type(2) img {
+    width: calc(1.5/8 * 100vw - 3em);
+    height: calc(1.5/8 * 100vw - 3em);
+  }
+  body > main > figure:nth-of-type(3) img {
     width: calc(2/8 * 100vw - 3em);
     height: calc(2/8 * 100vw - 3em);
   }
 }
+
+@media (min-width: 60em) and false {
+  body > main > h1 {
+    margin-top: 0.75em;
+  }
+  /*
+  body > main > h1 {
+    font-size: 12vw;
+    grid-column: 2/-1;
+    z-index: 1;
+    margin-top: -0.5em;
+    margin-bottom: 0.125em;
+  }
+  body > main > h1 + p {
+    justify-self: end;
+    text-align: right;
+    font-size: inherit;
+  }
+  body > main > nav:not(:first-child) {
+    grid-row: 3/4;
+    grid-column: 6/8;
+    padding: 0.5em 0 4.5em 0.75em;
+  }
+  */
+  body > main > figure:nth-of-type(1) {
+    grid-row: 3/4;
+    grid-row: 1/2;
+    grid-column: 1/4;
+    justify-self: center;
+    left: unset;
+    margin-right: unset;
+  }
+  body > main > figure:nth-of-type(2) {
+    grid-row: 3/4;
+    grid-row: 1/2;
+    grid-column: 4/6;
+    justify-self: center;
+    left: unset;
+    margin-right: unset;
+  }
+  body > main > figure:nth-of-type(3) {
+    grid-row: 3/4;
+    grid-row: 1/2;
+    grid-column: -4/-1;
+    justify-self: center;
+    left: unset;
+    margin-right: unset;
+  }
+  body > main > main:first-of-type {
+    margin-top: 4.5em;
+  }
+}
+
 </style>
 
 {% comment %}
@@ -177,16 +244,17 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 </nav>
 
 <figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-</figure>
-
-<figure>
   <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <figure>
   <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
+
+
 
 <main markdown="1" class="sky-light">
 

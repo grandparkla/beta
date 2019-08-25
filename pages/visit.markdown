@@ -73,6 +73,20 @@ body > main > figure img {
     grid-row: 1/5;
   }
   body > main > figure img {
+    width: calc(2.5/8 * 100vw - 3em);
+    height: calc(2.5/8 * 100vw - 3em);
+  }
+}
+@media (min-width: 60em) {
+  body > main > figure:nth-of-type(2) {
+    left: -10vw;
+    top: 5vw;
+  }
+  body > main > figure:nth-of-type(2) img {
+    width: calc(1.5/8 * 100vw - 3em);
+    height: calc(1.5/8 * 100vw - 3em);
+  }
+  body > main > figure:nth-of-type(3) img {
     width: calc(2/8 * 100vw - 3em);
     height: calc(2/8 * 100vw - 3em);
   }
@@ -169,10 +183,10 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 </nav>
 
 <figure>
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
 <figure>
-  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
 <figure>
   <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
