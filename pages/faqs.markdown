@@ -7,7 +7,7 @@ permalink: /faqs/
 * [Plan your visit](/visit/)
 </nav>
 
-{% if site.use_illustrations and false %}
+{% if site.use_illustrations %}
 <style>
 .illustration {
   grid-column: -3/-1;
@@ -35,6 +35,14 @@ main > h1 + nav {
 }
 main > nav:first-child {
   grid-row-start: 1;
+}
+body > main > h3,
+body > main > ul,
+body > main > main > h3,
+body > main > main > ul,
+body > main > main > p {
+  grid-column-start: 2;
+  grid-column-end: 5;
 }
 
 body > main > figure {
@@ -80,7 +88,7 @@ body > main > figure img {
     height: 25vw;
   }
   body > main > main:first-of-type {
-    margin-top: -5vw;
+    margin-top: -20vw;
   }
 }
 @media (min-width: 80em) {
@@ -125,19 +133,19 @@ FAQs
 </nav>
 -->
 
-<!--
+
 <figure>
-  <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="Photo" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-112.jpg" alt="Photo" height="500" />
 </figure>
 
 <figure>
-  <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen-134.jpg" alt="Photo" height="500" />
 </figure>
--->
+
 
 <main class="lime-light" markdown="1">
 
