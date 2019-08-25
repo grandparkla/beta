@@ -11,26 +11,133 @@ permalink: /faqs/
 <style>
 .illustration {
   grid-column: -3/-1;
-  grid-row: 1/4;
-  margin-bottom: -1.5em;
+  grid-row: 3/6;
 }
 .illustration svg {
-  height: 15vmax;
+  height: 20vmax;
   width: auto;
+  color: inherit;
+}
+.illustration svg,
+.illustration svg path {
+  fill: currentColor;
+}
+.illustration svg * {
+  color: inherit !important;
 }
 main h1,
-main > nav:first-child {
+main h1 + p,
+main > h1 + nav {
   grid-column-end: -4;
+}
+main > h1 + nav {
+  grid-column: 2/8;
+}
+main > nav:first-child {
+  grid-row-start: 1;
+}
+
+body > main > figure {
+  width: calc(100vw - 3em);
+  height: calc(100vw - 3em);
+  border-radius: 50%;
+}
+body > main > figure img {
+  display: block;
+  width: calc(100vw - 3.75em);
+  height: calc(100vw - 3.75em);
+  object-fit: cover;
+  border-radius: 50%;
+  max-width: none;
+}
+@media (min-width: 60em) {
+  body > main > figure {
+    width: auto;
+    height: auto;
+    grid-column: -3/-1;
+    grid-row: 2/4;
+    justify-self: end;
+    align-self: start;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  body > main > figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+  body > main > figure + figure {
+    grid-column: -4/-2;
+    grid-row: 3/6;
+    left: -10vw;
+  }
+  body > main > figure + figure + figure {
+    grid-column: -3/-1;
+    grid-row: 4/7;
+    left: unset;
+  }
+  body > main > figure img {
+    width: 25vw;
+    height: 25vw;
+  }
+  body > main > main:first-of-type {
+    margin-top: -5vw;
+  }
+}
+@media (min-width: 80em) {
+  body > main > figure {
+    margin-right: 5vw;
+    grid-row: 1/4;
+  }
+  body > main > figure img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
+  }
 }
 </style>
 
-<div class="illustration">
+{% comment %}
+<div class="illustration"> 
 {% include backgrounds/fountain-edited-2.svg %}
 </div>
+{% endcomment %}
 {% endif %}
 
 FAQs
 ====
+
+<!--
+<nav markdown="1">
+*   [Can I shoot my independent film in the park?](#can-i-shoot-my-independent-film-in-the-park)
+*   [How about my wedding, graduation or other special event photos?](#how-about-my-wedding-graduation-or-other-special-event-photos)
+*   [Where do visitors park? Is public transportation convenient to the park?](#where-do-visitors-park-is-public-transportation-convenient-to-the-park)
+*   [How do visitors learn about upcoming events and activities scheduled for the park?](#how-do-visitors-learn-about-upcoming-events-and-activities-scheduled-for-the-park)
+*   [What type of programming takes place?](#what-type-of-programming-takes-place)
+*   [Is picnicking allowed at the park?](#is-picnicking-allowed-at-the-park)
+*   [Is the splash pad portion of the fountain open/accessible to the public? Are park visitors allowed to play in the water?](#is-the-splash-pad-portion-of-the-fountain-openaccessible-to-the-public-are-park-visitors-allowed-to-play-in-the-water)
+*   [How is the park conserving water?](#how-is-the-park-conserving-water)
+*   [Can I recycle at the park?](#can-i-recycle-at-the-park)
+*   [Can I bring my dog to the park?](#can-i-bring-my-dog-to-the-park)
+*   [How can visitors get information about accessibility?](#how-can-visitors-get-information-about-accessibility)
+*   [How can visitors trust that Grand Park is a safe and secure environment?](#how-can-visitors-trust-that-grand-park-is-a-safe-and-secure-environment)
+*   [Are there public restrooms?](#are-there-public-restrooms)
+*   [Can visitors move the pink furniture?](#can-visitors-move-the-pink-furniture)
+*   [Can anyone hold an event at the park? Where is information available?](#can-anyone-hold-an-event-at-the-park-where-is-information-available)
+</nav>
+-->
+
+<!--
+<figure>
+  <img src="/assets/temporary/misc/2018_7_17_18_LunchalaPark_Javier_Guillen.jpg" alt="Photo" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/misc/2018_2_14_18_LoversRock_Javier_Guillen-14.jpg" alt="Photo" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
+</figure>
+-->
 
 <main class="lime-light" markdown="1">
 

@@ -168,7 +168,7 @@ Contact us
 </figure>
 
 <figure>
-  <img src="/assets/temporary/optimized/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen-84.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
 </figure>
 
 <figure>
