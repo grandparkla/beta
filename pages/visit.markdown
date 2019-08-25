@@ -60,9 +60,11 @@ body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  /*
   body > main > main:first-of-type {
     margin-top: -10vw;
   }
+  */
     body > main > figure {
       grid-row: 1/5;
     }
@@ -185,12 +187,14 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 <figure>
   <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
+<!--
 <figure>
   <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
 <figure>
   <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
 </figure>
+-->
 
 <!-- <section class="special-notice" role="status">
   <h2>

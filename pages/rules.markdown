@@ -37,12 +37,12 @@ body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
   grid-column-start: 2;
-  grid-column-end: 4;
+  grid-column-end: 7;
 }
 body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
-  grid-column-end: 6;
+  grid-column-end: 7;
 }
 
 body > main > figure {
@@ -89,9 +89,11 @@ body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  /*
   body > main > main:first-of-type {
     margin-top: -20vw;
   }
+  */
     body > main > figure {
       grid-row: 1/5;
     }
@@ -138,6 +140,12 @@ Park rules
 *   play in the splash pad
 *   walk your dog on a leash
 
+
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<!--
 <figure>
   <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
@@ -149,6 +157,7 @@ Park rules
 <figure>
   <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
 </figure>
+-->
 
 
 
