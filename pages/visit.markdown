@@ -94,10 +94,12 @@ body > main > figure img {
 
 @media (min-width: 60em) {
   body > main > h1 {
+    margin-top: 0.75em;
+  }
+  body > main > h1 {
     grid-column: 2/-1;
-    grid-row: 1/2;
     z-index: 1;
-    margin-top: 0;
+    margin-top: 0em;
     /*
     text-shadow: 0 0 1em var(--sky);
     */
@@ -128,7 +130,8 @@ body > main > figure img {
     right: -1.5em;
   }
   body > main > figure:nth-of-type(1) {
-    grid-row: 2/3;
+    grid-row: 3/4;
+    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: start;
@@ -137,7 +140,8 @@ body > main > figure img {
     margin: unset;
   }
   body > main > figure:nth-of-type(2) {
-    grid-row: 2/3;
+    grid-row: 3/4;
+    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: center;
@@ -146,7 +150,8 @@ body > main > figure img {
     margin: unset;
   }
   body > main > figure:nth-of-type(3) {
-    grid-row: 2/3;
+    grid-row: 3/4;
+    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: end;
@@ -259,10 +264,10 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
   <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
 <figure>
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
 </figure>
 <figure>
-  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
 
 <!-- <section class="special-notice" role="status">

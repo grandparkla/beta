@@ -100,7 +100,7 @@ body > main > figure img {
   body > main > h1 {
     grid-column: 2/-1;
     z-index: 1;
-    margin-top: -1.5em;
+    margin-top: 0em;
     /*
     text-shadow: 0 0 1em var(--sky);
     */
@@ -117,13 +117,14 @@ body > main > figure img {
     grid-row: 3/4;
     grid-column: 2/5;
     justify-self: end;
-    text-align: right;
+    text-align: left;
     padding: 0.5em 1.9em 4.5em 0;
     position: relative;
     left: 2vw;
   }
   body > main > nav:not(:first-child) li a {
     text-decoration: underline;
+    display: block;
   }
   body > main > nav:not(:first-child) li a::before {
     left: unset;
