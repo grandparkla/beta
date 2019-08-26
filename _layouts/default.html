@@ -2459,7 +2459,7 @@
       opacity: 1;
     }
   </style>
-  <style>
+  <style {% unless page.url == "/programs/" %}media="false"{% endunless %}>
     .event-list a span[style] {
       display: block !important;
       display: block !important;
@@ -2889,7 +2889,7 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/programs/" %}
+  {% elsif page.url == "/programs/" and false %}
   let templateName = "illustration-flowers-template";
   {% elsif page.url == "/areas/" %}
   let templateName = "illustration-splash-pad-template";
