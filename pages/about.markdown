@@ -358,6 +358,12 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
 
+
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC2505.jpg" alt="Photo 1" height="500" />
+</figure>
+
 <div></div>
 
 </main>
@@ -372,17 +378,6 @@ Grand Park is powered by The Music Center (a non-profit organization) with free 
 <p class="action" markdown="1">
 [Donate](/donate/)
 </p>
-
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-
-<figure>
-  <img src="/assets/temporary/optimized/Select_JMC2505.jpg" alt="Photo 1" height="500" />
-</figure>
 
 
 </main>
