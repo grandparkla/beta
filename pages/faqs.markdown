@@ -42,12 +42,13 @@ body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
   grid-column-start: 2;
-  grid-column-end: 7;
+  grid-column-end: 8;
 }
 body > main > main > h3,
 body > main > main > ul,
 body > main > main > p {
-  grid-column-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 8;
 }
 
 body > main > figure {
@@ -118,6 +119,84 @@ body > main > figure img {
     width: calc(1.5/8 * 100vw - 3em);
     height: calc(1.5/8 * 100vw - 3em);
   }
+  body > main > figure:nth-of-type(3) img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
+  }
+}
+
+
+@media (min-width: 60em) {
+  main > nav:first-child {
+    grid-row: 1/2;
+    position: relative;
+    z-index: 2;
+  }
+  body > main > h1 {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 0.25em;
+    /*
+    text-shadow: 0 0 1em var(--sky);
+    */
+  }
+  body > main > h1 + p {
+    grid-row: 3/4;
+    grid-column: 5/-2;
+    font-size: inherit;
+    position: relative;
+    left: 2vw;
+    padding-top: 0.125em;
+  }
+  body > main > nav:not(:first-child) {
+    grid-row: 1/2;
+    grid-column: 2/5;
+    justify-self: end;
+    text-align: right;
+    padding: 0.5em 1.9em 4.5em 0;
+    position: relative;
+    left: 2vw;
+  }
+  body > main > nav:not(:first-child) li a {
+    text-decoration: underline;
+  }
+  body > main > nav:not(:first-child) li a::before {
+    left: unset;
+    right: -1.5em;
+  }
+  body > main > figure:nth-of-type(1) {
+    grid-row: 2/3;
+    grid-column: 2/-2;
+    align-self: start;
+    justify-self: start;
+    left: unset;
+    top: unset;
+    margin: unset;
+  }
+  body > main > figure:nth-of-type(2) {
+    grid-row: 2/3;
+    grid-column: 2/-2;
+    align-self: start;
+    justify-self: center;
+    left: unset;
+    top: unset;
+    margin: unset;
+  }
+  body > main > figure:nth-of-type(3) {
+    grid-row: 2/3;
+    grid-column: 2/-2;
+    align-self: start;
+    justify-self: end;
+    left: unset;
+    top: unset;
+    margin: unset;
+  }
+  body > main > main:first-of-type {
+    margin-top: 4.5em;
+  }
+  body > main > figure:nth-of-type(1) img,
+  body > main > figure:nth-of-type(2) img,
   body > main > figure:nth-of-type(3) img {
     width: calc(2/8 * 100vw - 3em);
     height: calc(2/8 * 100vw - 3em);

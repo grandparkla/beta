@@ -93,55 +93,80 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) and false {
+@media (min-width: 60em) {
   body > main > h1 {
     margin-top: 0.75em;
   }
-  /*
   body > main > h1 {
-    font-size: 12vw;
     grid-column: 2/-1;
     z-index: 1;
-    margin-top: -0.5em;
-    margin-bottom: 0.125em;
+    margin-top: -1.5em;
+    /*
+    text-shadow: 0 0 1em var(--sky);
+    */
   }
   body > main > h1 + p {
-    justify-self: end;
-    text-align: right;
+    grid-row: 3/4;
+    grid-column: 5/-2;
     font-size: inherit;
+    position: relative;
+    left: 2vw;
+    padding-top: 0.125em;
   }
   body > main > nav:not(:first-child) {
     grid-row: 3/4;
-    grid-column: 6/8;
-    padding: 0.5em 0 4.5em 0.75em;
+    grid-column: 2/5;
+    justify-self: end;
+    text-align: right;
+    padding: 0.5em 1.9em 4.5em 0;
+    position: relative;
+    left: 2vw;
   }
-  */
+  body > main > nav:not(:first-child) li a {
+    text-decoration: underline;
+  }
+  body > main > nav:not(:first-child) li a::before {
+    left: unset;
+    right: -1.5em;
+  }
   body > main > figure:nth-of-type(1) {
     grid-row: 3/4;
     grid-row: 1/2;
-    grid-column: 1/4;
-    justify-self: center;
+    grid-column: 2/-2;
+    align-self: start;
+    justify-self: start;
     left: unset;
-    margin-right: unset;
+    top: unset;
+    margin: unset;
   }
   body > main > figure:nth-of-type(2) {
     grid-row: 3/4;
     grid-row: 1/2;
-    grid-column: 4/6;
+    grid-column: 2/-2;
+    align-self: start;
     justify-self: center;
     left: unset;
-    margin-right: unset;
+    top: unset;
+    margin: unset;
   }
   body > main > figure:nth-of-type(3) {
     grid-row: 3/4;
     grid-row: 1/2;
-    grid-column: -4/-1;
-    justify-self: center;
+    grid-column: 2/-2;
+    align-self: start;
+    justify-self: end;
     left: unset;
-    margin-right: unset;
+    top: unset;
+    margin: unset;
   }
   body > main > main:first-of-type {
     margin-top: 4.5em;
+  }
+  body > main > figure:nth-of-type(1) img,
+  body > main > figure:nth-of-type(2) img,
+  body > main > figure:nth-of-type(3) img {
+    width: calc(2/8 * 100vw - 3em);
+    height: calc(2/8 * 100vw - 3em);
   }
 }
 
@@ -242,12 +267,12 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Job opportunities](/job-opportunities/)
 -->
 </nav>
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
 
 <figure>
   <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
-</figure>
-<figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
 </figure>
 
 <figure>
