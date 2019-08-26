@@ -373,7 +373,20 @@ Grand Park is powered by The Music Center (a non-profit organization) with free 
 [Donate](/donate/)
 </p>
 
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<figure>
+  <img src="/assets/temporary/optimized/Select_JMC2505.jpg" alt="Photo 1" height="500" />
+</figure>
+
+
 </main>
+
 
 
 
