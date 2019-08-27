@@ -292,6 +292,11 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 {% capture markdown_text %}{% include rent.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
 
+<figure style="border-radius: 0; height: auto; background: transparent; grid-column: 3/7;">
+  <a href="/uploads/ulta-at-grand-park-ad.jpg"><img src="/uploads/ulta-at-grand-park.jpg" alt="ulta at grand park " height="500" style="object-position: top; border-radius: 0; height: auto;" /></a>
+  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)"><a href="/uploads/ulta-at-grand-park-ad.jpg">ULTA photo shoot</a> at Grand Park</figcaption>
+</figure>
+
 </main>
 
 <main markdown="1" class="sky">

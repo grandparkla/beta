@@ -388,6 +388,36 @@ h1.welcome span {
 
 </style>
 
+<style>
+h1.welcome span {
+  background: transparent;
+  color: var(--lime);
+  grid-row: 2/3;
+}
+.welcome > b {
+  grid-row: 1/2;
+}
+/*
+.welcome img,
+main > h1.welcome span {
+  height: 50vh;
+  min-height: 50vh;
+}
+*/
+h1.welcome span {
+  height: auto !important;
+  min-height: 3.875em !important;
+  text-shadow: none !important;
+  align-content: flex-start !important;
+  align-items: flex-start !important;
+}
+@media (min-width: 60em) {
+  body > main > h1.welcome {
+    margin-top: -3.75em;
+  }
+}
+</style>
+
 
 {% include welcome.markdown %}
 
