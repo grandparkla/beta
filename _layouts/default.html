@@ -2919,14 +2919,27 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/events/" %}
+  {% elsif 
+        page.url == "/events/" or
+        page.url == "/calendar/" or
+        page.url == "/programs/" %}
   let templateName = "illustration-flowers-template";
-  {% elsif page.url == "/visit/" %}
+  {% elsif page.url == "/areas/" %}
+  let templateName = "illustration-splash-pad-template";
+  {% elsif page.url == "/visit/" or
+      page.url == "/directions/" or
+      page.url == "/alerts/" or
+      page.url == "/rules/" or
+      page.url == "/faqs/" or
+      page.url == "/areas/" or
+      page.url == "/dog-run/" or
+      page.url == "/splash-pad/" or
+      page.url == "/playground/" or
+      page.url == "/performance-lawn/" or
+      page.url == "/gardens/" %}
   let templateName = "illustration-lavandula-template";
   {% elsif page.url == "/about/" %}
   let templateName = "illustration-lavandula-template";
-  {% elsif page.url == "/areas/" %}
-  let templateName = "illustration-splash-pad-template";
   {% else %}
   return;
   let templateName = templateNames[getRandomInt(3)];

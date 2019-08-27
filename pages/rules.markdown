@@ -90,9 +90,11 @@ body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  /*
   body > main > main:first-of-type {
     margin-top: -20vw;
   }
+  */
     body > main > figure {
       grid-row: 1/5;
     }
@@ -121,7 +123,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   main > nav:first-child {
     grid-row: 1/2;
     position: relative;
@@ -197,6 +199,26 @@ body > main > figure img {
     height: calc(2/8 * 100vw - 3em);
   }
 }
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
 </style>
 
 {% comment %}
@@ -220,6 +242,7 @@ Park rules
   <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
 
+<!--
 <figure>
   <img src="/uploads/areas/performance-lawn-4.jpg" alt="Photo" height="500" />
 </figure>
@@ -227,7 +250,7 @@ Park rules
 <figure>
   <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
 </figure>
-
+-->
 
 
 <main class="lime-light" markdown="1">
