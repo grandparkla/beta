@@ -60,9 +60,11 @@ body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  /*
   body > main > main:first-of-type {
     margin-top: -10vw;
   }
+  */
     body > main > figure {
       grid-row: 1/5;
     }
@@ -92,7 +94,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   body > main > h1 {
     margin-top: 0.75em;
   }
@@ -176,6 +178,27 @@ body > main > figure:nth-of-type(3) img {
   border-radius: 0;
 }
 */
+
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
 </style>
 
 {% comment %}
@@ -267,15 +290,18 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
+
 <figure>
   <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
+<!--
 <figure>
   <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
 </figure>
 <figure>
   <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
+-->
 
 <!-- <section class="special-notice" role="status">
   <h2>

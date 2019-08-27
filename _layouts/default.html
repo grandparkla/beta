@@ -2481,7 +2481,7 @@
       opacity: 1;
     }
   </style>
-  <style>
+  <style media="false">
     .event-list a span[style] {
       display: block !important;
       display: block !important;
@@ -2919,9 +2919,7 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/events/" or 
-           page.url == "/programs/" or 
-           page.url == "/calendar/" %}
+  {% elsif page.url == "/events/" %}
   let templateName = "illustration-flowers-template";
   {% elsif page.url == "/visit/" %}
   let templateName = "illustration-lavandula-template";

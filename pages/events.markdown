@@ -60,6 +60,27 @@ nav + figure img {
     height: calc(2.5/8 * 100vw - 3em);
   }
 }
+
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
 </style>
 
 {% comment %}
