@@ -258,11 +258,11 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 
 <nav markdown="1">
 *   [Rent the park](/rent/)
+*   [For members of the media](/for-media/)
 *   [Meet the staff](/staff/)
 *   [Sign up for news](/news-sign-up/)
 *   [Donate](/donate/)
 *   [Contact us](/contact/)
-*   [For members of the media](/for-media/)
 
 <!--
 *   [Filming & photography](/film-photography/)
@@ -359,7 +359,15 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 {% capture markdown_text %}{% include contact-us.markdown %}{% endcapture %}
 {{ markdown_text | markdownify }}
 
+## Media Contact
 
+For information about Grand Park, contact:
+
+Lisa Ducore  
+[lducore@musiccenter.org](mailto:lducore@musiccenter.org)  
+213-972-3328
+
+Get more information [for members of the media](/for-media/).
 
 <figure>
   <img src="/assets/temporary/optimized/Select_JMC2505.jpg" alt="Photo 1" height="500" />

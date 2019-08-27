@@ -149,12 +149,11 @@ Rent the park
 * [Questions](#questions)
 </nav>
 
+{% comment %}
 <figure>
-  <img src="/assets/temporary/misc/2018_7_4_18_4thofJulyBlockParty_Javier_Guillen.jpg" alt="Photo 1"  height="500" />
-  {% comment %}
-  <img src="/assets/temporary/misc/NYELA2019-0210.JPG" alt="Photo 1" height="500" />
-  {% endcomment %}
+  <img src="/uploads/food-bowl.jpg" alt="Food Bowl"  height="500" />
 </figure>
+{% endcomment %}
 
 <main markdown="1" class="sky-light">
 
