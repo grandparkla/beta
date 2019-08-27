@@ -61,9 +61,11 @@ body > main > figure img {
     width: 25vw;
     height: 25vw;
   }
+  /*
   body > main > main:first-of-type {
     margin-top: -10vw;
   }
+  */
     body > main > figure {
       grid-row: 1/5;
     }
@@ -93,7 +95,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   body > main > h1 {
     margin-top: 0.75em;
   }
@@ -177,6 +179,26 @@ body > main > figure:nth-of-type(3) img {
   border-radius: 0;
 }
 */
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
 </style>
 
 {% comment %}
@@ -275,17 +297,20 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Job opportunities](/job-opportunities/)
 -->
 </nav>
-<figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-</figure>
-
-<figure>
-  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
-</figure>
 
 <figure>
   <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
 </figure>
+
+<!--
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+-->
 
 
 
