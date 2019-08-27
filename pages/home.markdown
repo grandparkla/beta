@@ -390,6 +390,7 @@ h1.welcome span {
 
 <style>
 h1.welcome span {
+  --purple: hsl(256, 58%, 66%);
   background: transparent;
   color: var(--lime);
   grid-row: 2/3;
