@@ -150,8 +150,8 @@ Rent the park
 </nav>
 
 <figure style="border-radius: 0; height: auto;">
-  <img src="/uploads/ulta-at-grand-park.jpg" alt="ulta at grand park " height="500" style="object-position: top; border-radius: 0; height: auto;" />
-  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">ULTA photography shoot at Grand Park</figcaption>
+  <a href="/uploads/ulta-at-grand-park-ad.jpg"><img src="/uploads/ulta-at-grand-park.jpg" alt="ulta at grand park " height="500" style="object-position: top; border-radius: 0; height: auto;" /></a>
+  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)"><a href="/uploads/ulta-at-grand-park-ad.jpg">ULTA photo shoot</a> at Grand Park</figcaption>
 </figure>
 
 <main markdown="1" class="sky-light">
