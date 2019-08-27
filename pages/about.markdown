@@ -106,7 +106,7 @@ body > main > figure img {
     */
   }
   body > main > h1 + p {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 5/-2;
     font-size: inherit;
     position: relative;
@@ -114,7 +114,7 @@ body > main > figure img {
     padding-top: 0.125em;
   }
   body > main > nav:not(:first-child) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/5;
     justify-self: end;
     text-align: left;
@@ -132,7 +132,6 @@ body > main > figure img {
   }
   body > main > figure:nth-of-type(1) {
     grid-row: 3/4;
-    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: start;
@@ -142,7 +141,6 @@ body > main > figure img {
   }
   body > main > figure:nth-of-type(2) {
     grid-row: 3/4;
-    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: center;
@@ -152,7 +150,6 @@ body > main > figure img {
   }
   body > main > figure:nth-of-type(3) {
     grid-row: 3/4;
-    grid-row: 1/2;
     grid-column: 2/-2;
     align-self: start;
     justify-self: end;
@@ -170,7 +167,16 @@ body > main > figure img {
     height: calc(2/8 * 100vw - 3em);
   }
 }
-
+/*
+body > main > figure:nth-of-type(1),
+body > main > figure:nth-of-type(2),
+body > main > figure:nth-of-type(3),
+body > main > figure:nth-of-type(1) img,
+body > main > figure:nth-of-type(2) img,
+body > main > figure:nth-of-type(3) img {
+  border-radius: 0;
+}
+*/
 </style>
 
 {% comment %}
