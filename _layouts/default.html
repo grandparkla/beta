@@ -2890,6 +2890,14 @@
   {% include trees/heart-outlines.svg %}
   </div>
 </template>
+<template id="illustration-lavandula-template">
+  <div class="illustration-palm illustration-palm-1 illustration-flowers-1">
+  {% include plants/lavandula.svg %}
+  </div>
+  <div class="illustration-palm illustration-palm-2 illustration-flowers-2">
+  {% include plants/lavandula.svg %}
+  </div>
+</template>
 
 <script>
 (function() {
@@ -2906,8 +2914,14 @@
 
   {% if page.url == "/" %}
   let templateName = "illustration-palm-template";
-  {% elsif page.url == "/events/" or page.url == "/programs/" or page.url == "/calendar/" %}
+  {% elsif page.url == "/events/" or 
+           page.url == "/programs/" or 
+           page.url == "/calendar/" %}
   let templateName = "illustration-flowers-template";
+  {% elsif page.url == "/visit/" %}
+  let templateName = "illustration-lavandula-template";
+  {% elsif page.url == "/about/" %}
+  let templateName = "illustration-lavandula-template";
   {% elsif page.url == "/areas/" %}
   let templateName = "illustration-splash-pad-template";
   {% else %}
