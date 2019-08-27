@@ -149,11 +149,10 @@ Rent the park
 * [Questions](#questions)
 </nav>
 
-{% comment %}
-<figure>
-  <img src="/uploads/food-bowl.jpg" alt="Food Bowl"  height="500" />
+<figure style="border-radius: 0; height: auto;">
+  <img src="/uploads/ulta-at-grand-park.jpg" alt="ulta at grand park " height="500" style="object-position: top; border-radius: 0; height: auto;" />
+  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">ULTA photography shoot at Grand Park</figcaption>
 </figure>
-{% endcomment %}
 
 <main markdown="1" class="sky-light">
 

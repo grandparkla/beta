@@ -50,7 +50,7 @@ These steps will help you get started:
 
 <figure style="background: transparent;">
   <img src="/uploads/food-bowl.jpg" alt="A casual group of people talking with each other in the evening, underneath colorful lanterns strung across an area outdoors." height="500" />
-  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">Night Market / May, 2019 / <a href="https://185mzz29pmi28ezvj16b3r41-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/4-14-19-Food-Bowl-Program-Guide.pdf">Los Angeles Times Food Bowl</a></figcaption>
+  <figcaption style="padding-top: 0.375em; font-style: normal; font-family: 'Noto Sans'; color: var(--midnight)">Night Market at Grand Park, <a href="https://185mzz29pmi28ezvj16b3r41-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/4-14-19-Food-Bowl-Program-Guide.pdf">Los Angeles Times Food Bowl</a></figcaption>
 </figure>
 
 ## <a id="filming-photography"></a> Filming & photography
