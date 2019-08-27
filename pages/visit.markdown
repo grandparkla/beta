@@ -166,6 +166,7 @@ body > main > figure img {
     height: calc(2/8 * 100vw - 3em);
   }
 }
+/*
 body > main > figure:nth-of-type(1),
 body > main > figure:nth-of-type(2),
 body > main > figure:nth-of-type(3),
@@ -174,6 +175,7 @@ body > main > figure:nth-of-type(2) img,
 body > main > figure:nth-of-type(3) img {
   border-radius: 0;
 }
+*/
 </style>
 
 {% comment %}
