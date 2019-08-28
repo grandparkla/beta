@@ -415,6 +415,8 @@ h1.welcome span {
 @media (min-width: 60em) {
   body > main > h1.welcome {
     margin-top: -3.75em;
+    transform: scale(0.9375);
+    margin-bottom: calc(1.5em / 0.9375);
   }
 }
 </style>
