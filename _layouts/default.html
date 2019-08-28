@@ -2938,7 +2938,15 @@
       page.url == "/performance-lawn/" or
       page.url == "/gardens/" %}
   let templateName = "illustration-lavandula-template";
-  {% elsif page.url == "/about/" %}
+  {% elsif page.url == "/about/" or
+        page.url == "/rent/" or
+        page.url == "/job-opportunities/" or
+        page.url == "/news-sign-up/" or
+        page.url == "/for-media/" or
+        page.url == "/for-vendors/" or
+        page.url == "/sponsorship/" or
+        page.url == "/contact/" or
+        page.url == "/donate/" %}
   let templateName = "illustration-lavandula-template";
   {% else %}
   return;
@@ -2952,11 +2960,11 @@
     document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > .event-list"));
   } else if (document.querySelector("body > main > .welcome")) {
     document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > .welcome"));
-  } else if (document.querySelector("body > main > h1 ~ nav")) {
-    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > h1 ~ nav").nextSibling);
   } else if (document.querySelector("body > main > main")) {
     document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > main"));
-  }
+  } else if (document.querySelector("body > main > h1 ~ nav")) {
+    document.querySelector("body > main").insertBefore(clone, document.querySelector("body > main > h1 ~ nav").nextSibling);
+  } 
 
   if (templateName === "illustration-splash-pad-template") {
     // document.querySelector(".splash-sun").style.opacity = "1";
