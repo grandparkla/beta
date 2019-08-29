@@ -8,7 +8,7 @@ The first step is to find the page you want to make changes to.
 
 1. Open the [pages folder](https://github.com/grandparkla/grandpark/tree/master/pages) .
 
-2. Select the page you’d like to edit. The pages are named the same as their URL on the website. For example, you’ll find the content for the [/beach-culture/](https://beta.grandparkla.org/beach-culture/) page in a file named [beach-culture.markdown](https://github.com/grandparkla/grandpark/blob/master/pages/beach-culture.markdown).
+2. Select the page you’d like to edit. The pages are named the same as their URL on the website. For example, you’ll find the content for the [/about/](https://beta.grandparkla.org/about/) page in a file named [about.markdown](https://github.com/grandparkla/grandpark/blob/master/pages/about.markdown).
 
 3. Press the `edit` button.
 
