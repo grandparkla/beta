@@ -389,14 +389,21 @@ h1.welcome span {
 </style>
 
 <style>
+h1.welcome {
+  background: transparent !important;
+  color: var(--snow);
+  border: none !important;
+}
 h1.welcome span {
   --purple: hsl(256, 58%, 66%);
-  background: transparent;
-  color: var(--lime);
+  background: transparent !important;
+  color: var(--snow);
   grid-row: 2/3;
 }
 .welcome > b {
+  background-color: var(--snow);
   grid-row: 1/2;
+  border: 0.375em solid var(--snow);
 }
 /*
 .welcome img,
@@ -405,6 +412,9 @@ main > h1.welcome span {
   min-height: 50vh;
 }
 */
+.welcome > b::after {
+  content: none;
+}
 h1.welcome span {
   height: auto !important;
   min-height: 3.875em !important;
