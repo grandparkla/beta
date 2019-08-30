@@ -531,7 +531,7 @@ main > nav:not(:first-child)  li a {
     display: inline-block;
     padding: 0.25em 0.75em;
     position: relative;
-    /* text-decoration: none; */
+    text-decoration: none;
   }
 main > h1 + nav,
 main > h1 + p + nav {

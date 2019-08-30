@@ -136,7 +136,6 @@ body > main > figure img {
     left: 2vw;
   }
   body > main > nav:not(:first-child) li a {
-    text-decoration: underline;
     display: block;
   }
   body > main > nav:not(:first-child) li a::before {

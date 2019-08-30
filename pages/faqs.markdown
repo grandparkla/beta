@@ -167,9 +167,6 @@ body > main > figure img {
     position: relative;
     left: 2vw;
   }
-  body > main > nav:not(:first-child) li a {
-    text-decoration: underline;
-  }
   body > main > nav:not(:first-child) li a::before {
     left: unset;
     right: -1.5em;
