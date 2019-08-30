@@ -123,7 +123,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) and false {
+@media (min-width: 60em) {
   main > nav:first-child {
     grid-row: 1/2;
     position: relative;
@@ -200,6 +200,7 @@ body > main > figure img {
   }
 }
 
+/*
 .illustration-palm-1 {
   margin-left: -1.5em;
   width: 100vw;
@@ -219,6 +220,7 @@ body > main > figure img {
 .illustration-palm-2 {
   display: none;
 }
+*/
 </style>
 
 {% comment %}
@@ -242,7 +244,6 @@ Park rules
   <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
 
-<!--
 <figure>
   <img src="/uploads/areas/performance-lawn-4.jpg" alt="Photo" height="500" />
 </figure>
@@ -250,6 +251,7 @@ Park rules
 <figure>
   <img src="/assets/temporary/optimized/Select_JMC1641.jpg" alt="Photo" height="500" />
 </figure>
+<!--
 -->
 
 
