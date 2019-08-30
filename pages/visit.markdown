@@ -294,21 +294,15 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 </nav>
 
 
-
-<main markdown="1" class="sky-light" style="padding: 1.5em; display: grid; grid-template-columns: 1fr 1fr 1fr; grid-gap: 0">
-<figure style="grid-row: 1/2; grid-column: 1/2; margin: 0">
-  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" alt="Photo 1" height="500" style="height: calc(33vw - 1em); object-fit: cover" />
+<figure>
+  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
-
-
-<figure style="grid-row: 1/2; grid-column: 2/3; margin: 0">
-  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" style="height: calc(33vw - 1em); object-fit: cover" />
+<figure>
+  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
 </figure>
-<figure style="grid-row: 1/2; grid-column: 3/4; margin: 0">
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="Photo 1" height="500" style="height: calc(33vw - 1em); object-fit: cover" />
+<figure>
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
-</main>
-
 <!--
 -->
 
