@@ -25,20 +25,25 @@ main h1 + figure + p + nav {
 body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
+  max-width: calc(20em - 3em);
+  max-height: calc(20em - 3em);
   border-radius: 50%;
 }
 body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
+  max-width: calc(20em - 3.75em);
+  max-height: calc(20em - 3.75em);
   object-fit: cover;
   border-radius: 50%;
-  max-width: none;
 }
 @media (min-width: 60em) {
   body > main > figure {
     width: auto;
     height: auto;
+    max-width: unset;
+    max-height: unset;
     grid-column: -3/-1;
     grid-row: 2/5;
     justify-self: end;
@@ -59,6 +64,8 @@ body > main > figure img {
   body > main > figure img {
     width: 25vw;
     height: 25vw;
+    max-width: unset;
+    max-height: unset;
   }
   /*
   body > main > main:first-of-type {
@@ -277,6 +284,17 @@ body > main > figure:nth-of-type(3) img {
     height: 50vw;
     object-fit: cover;
   }
+</style>
+
+<style>
+@media (min-width: 60em) {
+  .illustration-flowers-1 {
+    transform: translateY(calc(-50% + 28em))
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-25% + 28em)) scaleX(-1);
+  }
+}
 </style>
 
 Plan your visit

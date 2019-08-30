@@ -49,20 +49,25 @@ body > main > main > p {
 body > main > figure {
   width: calc(100vw - 3em);
   height: calc(100vw - 3em);
+  max-width: calc(20em - 3em);
+  max-height: calc(20em - 3em);
   border-radius: 50%;
 }
 body > main > figure img {
   display: block;
   width: calc(100vw - 3.75em);
   height: calc(100vw - 3.75em);
+  max-width: calc(20em - 3.75em);
+  max-height: calc(20em - 3.75em);
   object-fit: cover;
   border-radius: 50%;
-  max-width: none;
 }
 @media (min-width: 60em) {
   body > main > figure {
     width: auto;
     height: auto;
+    max-width: unset;
+    max-height: unset;
     grid-column: -3/-1;
     grid-row: 2/4;
     justify-self: end;
@@ -73,6 +78,8 @@ body > main > figure img {
   body > main > figure img {
     width: 25vw;
     height: 25vw;
+    max-width: unset;
+    max-height: unset;
   }
   body > main > figure + figure {
     grid-column: -4/-2;
@@ -89,6 +96,8 @@ body > main > figure img {
   body > main > figure img {
     width: 25vw;
     height: 25vw;
+    max-width: unset;
+    max-height: unset;
   }
   /*
   body > main > main:first-of-type {
