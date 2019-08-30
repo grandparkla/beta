@@ -186,9 +186,11 @@ body > main > figure:nth-of-type(3) img {
   margin-right: -1.5em;
   left: unset;
   color: hsla(0, 0%, 0%, 0.5);
+  transform: translateY(calc(-100% + 6em)) scaleX(-1);
 }
 @media (min-width: 60em) {
   .illustration-palm-1 {
+    transform: translateY(calc(-50% + 18em)) scaleX(-1);
   }
 }
 .illustration-palm-1 svg {
