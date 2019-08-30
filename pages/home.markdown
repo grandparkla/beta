@@ -430,9 +430,21 @@ h1.welcome span {
   }
 }
 
-@media (max-width: 60em) {
+/*
+@media (max-width: 59.999999em) {
   body > main > main:first-of-type > h2:first-child {
     margin-top: 0;
+  }
+}
+*/
+body > main > main:first-of-type {
+  padding-top: 0.75em;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+@media (min-width: 80em) {
+  body > main > main:first-of-type {
+    padding-top: 2.25vmax;
   }
 }
 </style>
@@ -615,7 +627,7 @@ h1.welcome span {
 })();
 </script>
 
-<main markdown="1" class="lime-light" style="padding-top: 2.25em; padding-bottom: 0; overflow: hidden;">
+<main markdown="1" class="lime-light">
 
 
 
