@@ -429,6 +429,12 @@ h1.welcome span {
     margin-bottom: calc(1.5em / 0.9375);
   }
 }
+
+@media (max-width: 60em) {
+  body > main > main:first-of-type > h2:first-child {
+    margin-top: 0;
+  }
+}
 </style>
 
 
