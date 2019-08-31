@@ -288,10 +288,11 @@ body > main > figure:nth-of-type(3) img {
 <style>
 @media (min-width: 60em) {
   .illustration-flowers-1 {
-    transform: translateY(calc(-50% + 28em))
+    transform: translateY(calc(-50% + 38em));
+    left: 0;
   }
   .illustration-flowers-2 {
-    transform: translateY(calc(-25% + 28em)) scaleX(-1);
+    transform: translateY(calc(-25% + 36em)) scaleX(-1);
   }
 }
 </style>
