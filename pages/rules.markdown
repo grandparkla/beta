@@ -229,6 +229,17 @@ body > main > figure img {
 */
 </style>
 
+<style>
+@media (min-width: 60em) {
+  .illustration-flowers-1 {
+    transform: translateY(calc(-50% + 28em))
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-25% + 28em)) scaleX(-1);
+  }
+}
+</style>
+
 {% comment %}
 <div class="illustration">
 {% include backgrounds/picnic.svg %}
