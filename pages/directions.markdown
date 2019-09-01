@@ -32,7 +32,7 @@ main > nav:first-child {
 {% endif %}
 
 <style>
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   .illustration-flowers-1 {
     transform: translateY(calc(-50% + 38em));
     left: 0;
@@ -43,7 +43,46 @@ main > nav:first-child {
 }
 </style>
 
+<style>.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+  color: hsla(244, 59%, 28%, 0.625);
+  color: hsla(202, 59%, 28%, 0.625);
+  color: hsla(180, 100%, 30%, 0.625);
+  color: hsla(180, 59%, 28%, 0.625);
+  /*
+  opacity: 1;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  */
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+color: hsl(180, 100%, 30%);
+display: none;
+}
+</style>
+
+
 Directions to <span class="avoid-break">the park</span>
 ======================
 
+<main class="lime-light" markdown="1">
+
+<div></div>
+<div></div>
+
 {% include directions.markdown %}
+
+</main>

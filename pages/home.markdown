@@ -107,6 +107,16 @@ body > main > main:first-of-type > .event-list + h2 {
 }
 </style>
 
+
+<style>
+.illustration-palm-1 {
+  color: hsla(338, 59%, 28%, 0.625);
+}
+.illustration-palm-2 {
+  color: hsla(338, 59%, 28%, 0.625);
+}
+</style>
+
 {% if site.use_illustrations %}
 <style>
 .illustration {
@@ -662,6 +672,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   }
 }
 </style>
+
 <div class="illustration illustration-group" style="color: hsl(32, 93%, 72%); color: hsl(31, 90%, 68%); color: var(--strawberry); color: var(--lime)">
   <div class="illustration-city-hall-sun"></div>
   <div>

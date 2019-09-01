@@ -293,7 +293,7 @@ body > main > figure:nth-of-type(3) img {
 </style>
 
 <style>
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   .illustration-flowers-1 {
     transform: translateY(calc(-50% + 38em));
     left: 0;
@@ -302,11 +302,52 @@ body > main > figure:nth-of-type(3) img {
     transform: translateY(calc(-25% + 36em)) scaleX(-1);
   }
 }
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+  color: hsla(244, 59%, 28%, 0.625);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
 </style>
 
 About the park
 ==============
 
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+<!--
+-->
+
+
+<main markdown="1" class="sky-light">
+
+<div></div>
+<div></div>
 
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
@@ -324,22 +365,7 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Job opportunities](/job-opportunities/)
 -->
 </nav>
-
-<figure>
-  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-</figure>
-
-
-<figure>
-  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
-</figure>
-<figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-</figure>
-<!--
--->
-
-
+</main>
 
 <main markdown="1" class="sky-light">
 
