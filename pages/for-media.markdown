@@ -7,8 +7,46 @@ permalink: /for-media/
 * [About the park](/about/)
 </nav>
 
+<style>
+@media (min-width: 60em) and false {
+  .illustration-flowers-1 {
+    transform: translateY(calc(-50% + 38em));
+    left: 0;
+  }
+  .illustration-flowers-2 {
+    transform: translateY(calc(-25% + 36em)) scaleX(-1);
+  }
+}
+
+.illustration-palm-1 {
+  margin-left: -1.5em;
+  width: 100vw;
+  margin-right: -1.5em;
+  left: unset;
+  color: hsla(0, 0%, 0%, 0.5);
+  color: hsla(244, 59%, 28%, 0.625);
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+  }
+}
+.illustration-palm-1 svg {
+  width: 100vw;
+  max-width: unset;
+  margin-left: unset;
+}
+.illustration-palm-2 {
+  display: none;
+}
+</style>
+
 For members of <span class="avoid-break">the media</span>
 =========
+
+<main markdown="1" class="sky-light">
+
+<div></div>
+<div></div>
 
 For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/visit/news-bureau/gp-press-gallery/).
 
@@ -19,8 +57,6 @@ For photos, visit the [Grand Park Press Gallery](https://www.musiccenter.org/vis
 *   [Video & B-roll](#video)
 *   [News Releases](#news-releases)
 </nav>
-
-<main markdown="1" class="sky-light">
 
 ## Media Contact
 

@@ -74,6 +74,7 @@ nav + figure img {
   margin-right: -1.5em;
   left: unset;
   color: hsla(0, 0%, 0%, 0.5);
+  color: hsla(338, 59%, 28%, 0.625);
 }
 @media (min-width: 60em) {
   .illustration-palm-1 {
