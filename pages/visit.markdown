@@ -109,12 +109,13 @@ body > main > figure img {
     grid-column: 2/-1;
     z-index: 1;
     margin-top: 0em;
+    margin-bottom: 0.25em;
     /*
     text-shadow: 0 0 1em var(--sky);
     */
   }
   body > main > h1 + p {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 5/-2;
     font-size: inherit;
     position: relative;
@@ -122,7 +123,7 @@ body > main > figure img {
     padding-top: 0.125em;
   }
   body > main > nav:not(:first-child) {
-    grid-row: 2/3;
+    grid-row: 3/4;
     grid-column: 2/5;
     justify-self: end;
     text-align: left;
@@ -138,7 +139,7 @@ body > main > figure img {
     right: -1.5em;
   }
   body > main > figure:nth-of-type(1) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/-2;
     align-self: start;
     justify-self: start;
@@ -147,7 +148,7 @@ body > main > figure img {
     margin: unset;
   }
   body > main > figure:nth-of-type(2) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/-2;
     align-self: start;
     justify-self: center;
@@ -156,7 +157,7 @@ body > main > figure img {
     margin: unset;
   }
   body > main > figure:nth-of-type(3) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/-2;
     align-self: start;
     justify-self: end;

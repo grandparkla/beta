@@ -146,6 +146,7 @@ body > main > figure img {
     grid-row: 1/2;
     z-index: 1;
     margin-top: 0.25em;
+    margin-bottom: 0.25em;
     /*
     text-shadow: 0 0 1em var(--sky);
     */
