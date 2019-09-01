@@ -332,11 +332,12 @@ Plan your visit
 =================
 
 
+
 <figure>
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
 </figure>
 <figure>
-  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
 </figure>
 <figure>
   <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
