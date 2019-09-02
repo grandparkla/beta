@@ -340,6 +340,38 @@ color: hsla(244, 59%, 28%, 0.95);
 color: var(--snow);
 color: hsla(244, 59%, 28%, 0.625);
 }
+
+
+
+.illustration-palm-1 {
+  opacity: 1;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+.illustration-palm-2 svg {
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+.illustration-palm-1 {
+  color: hsla(244, 59%, 28%, 0.5);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
+.illustration-palm-2 {
+  color: hsla(244, 59%, 28%, 0.375);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
 </style>
 
 About the park

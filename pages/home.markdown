@@ -110,10 +110,61 @@ body > main > main:first-of-type > .event-list + h2 {
 
 <style>
 .illustration-palm-1 {
-  color: hsla(338, 59%, 28%, 0.625);
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
+
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  opacity: unset;
+
+  -webkit-mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
+.illustration-palm-2 svg {
+  -webkit-mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  mask-size: cover;
+  mask-type: alpha;
+
+  -webkit-mask-image: unset;
+  mask-image: unset;
+
+  -webkit-mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask-thirty-percent-bottom.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
+.illustration-palm-1 {
+  color: hsla(338, 59%, 28%, 0.5);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
 }
 .illustration-palm-2 {
-  color: hsla(338, 59%, 28%, 0.625);
+  color: hsla(338, 59%, 28%, 0.375);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
 }
 </style>
 
@@ -650,6 +701,11 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 
 {% if site.use_illustrations %}
 <style>
+:root {
+  
+  --lime: hsl(98, 50%, 50%);
+  --headline-color: hsl(98, 50%, 50%);
+}
 .illustration-group {
   display: grid;
   grid-template-columns: 1fr;
@@ -694,7 +750,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
 </main>
 
 <main markdown="1" class="strawberry" style="background-image: linear-gradient(to bottom, hsl(32, 93%, 72%), var(--strawberry)); background-image: linear-gradient(to bottom, hsl(31, 90%, 68%), var(--strawberry)); background-image: linear-gradient(to bottom, var(--strawberry), hsl(31, 90%, 68%)); background-image: linear-gradient(to bottom, var(--lime), var(--banana)); background-image: linear-gradient(to bottom, var(--lime), hsl(58, 56%, 58%)); background-image: linear-gradient(to bottom, hsla(90, 51%, 40%, 1), hsla(90, 51%, 40%, 1) 33.3vh, hsla(77, 51%, 46%, 1) 100vh, var(--lime)); background-image: none; background-color: var(--lime); background-image: linear-gradient(to bottom, var(--lime), hsl(70, 61%, 59%));     background-color: hsl(180, 100%, 30%);
-    background-image: linear-gradient(to top, hsl(180, 100%, 30%), hsl(88, 50%, 50%));
+    background-image: linear-gradient(to top, hsl(180, 100%, 30%), hsl(98, 50%, 50%));
 ">
 
 {% capture today_tomorrow %}{% include today-tomorrow.markdown %}{% endcapture %}

@@ -308,12 +308,10 @@ body > main > figure:nth-of-type(3) img {
   color: hsla(244, 59%, 28%, 0.625);
   color: hsla(202, 59%, 28%, 0.625);
   color: hsla(180, 100%, 30%, 0.625);
-  color: hsla(180, 59%, 28%, 0.625);
-  /*
+  color: hsla(180, 59%, 28%, 0.25);
   opacity: 1;
   -webkit-mask-image: unset;
   mask-image: unset;
-  */
 }
 .illustration-palm-1 {
   transform: translateY(calc(-50% + 24em));
@@ -328,7 +326,46 @@ body > main > figure:nth-of-type(3) img {
 .illustration-palm-2 {
 color: hsla(180, 59%, 28%, 0.95);
 color: var(--snow);
-color: hsla(180, 59%, 28%, 0.625);
+color: hsla(180, 59%, 28%, 0.125);
+}
+
+
+.illustration-palm-1 {
+  opacity: 1;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+.illustration-palm-2 svg {
+  -webkit-mask-image: unset;
+  mask-image: unset;
+}
+.illustration-palm-1 {
+  color: hsla(180, 59%, 28%, 0.625);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
+.illustration-palm-2 {
+  color: hsla(180, 59%, 28%, 0.375);
+
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+  -webkit-mask-size: cover;
+  -webkit-mask-type: alpha;
+  mask-image: url(/assets/images/gradient-mask.svg);
+  mask-size: cover;
+  mask-type: alpha;
+}
+
+
+@media (min-width: 60em) {
+  .illustration-palm-1 svg {
+  }
+  .illustration-palm-2 {
+  }
 }
 </style>
 
