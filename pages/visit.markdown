@@ -374,6 +374,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 
 <style>
 .figure-group {
+  margin-top: 0 !important;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.375em;
@@ -384,22 +385,22 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
   grid-row: auto;
   margin: 0;
   background: transparent;
+  padding-bottom: 100%;
+  position: relative;
 }
 .figure-group > figure > img {
-  width: 100%;
-  height: calc(33.33vw - 0.5em);
   object-fit: cover;
   border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 @media (min-width: 60em) {
   .figure-group {
     grid-gap: 1.5em;
-    padding: 4.5em 3em;
-  }
-  .figure-group > figure > img {
-    width: 100%;
-    height: calc(33.33vw - 4em);
-    object-fit: cover;
+    padding: 4.5em 6em;
   }
 }
 </style>
