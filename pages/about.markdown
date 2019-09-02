@@ -393,10 +393,6 @@ color: hsla(244, 59%, 28%, 0.625);
   color: hsla(0, 0%, 0%, 0.5);
   color: hsla(244, 59%, 28%, 0.625);
 }
-@media (min-width: 60em) {
-  .illustration-palm-1 {
-  }
-}
 .illustration-palm-1 svg {
   width: 100%;
   max-width: unset;
@@ -404,6 +400,17 @@ color: hsla(244, 59%, 28%, 0.625);
 }
 .illustration-palm-2 {
   display: none;
+}
+@media (min-width: 60em) {
+  .illustration-palm-1 {
+    transform: translateY(calc(-50% + 21em));
+  }
+  .illustration-palm-1 svg {
+    height: 166vh;
+    width: 70vw;
+    margin-left: auto;
+    display: block;
+  }
 }
 </style>
 

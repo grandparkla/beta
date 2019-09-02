@@ -406,6 +406,7 @@ color: hsla(180, 59%, 28%, 0.125);
 }
 @media (min-width: 60em) {
   .illustration-palm-1 {
+    transform: translateY(calc(-50% + 10em));
   }
 }
 .illustration-palm-1 svg {
