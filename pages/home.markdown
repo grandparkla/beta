@@ -489,8 +489,8 @@ h1.welcome span {
     transform: scale(0.9375);
     margin-bottom: calc(1.5em / 0.9375);
       margin-top: -5em;
-      transform: scale(0.8);
-      margin-bottom: calc(-1.5em / 0.8);
+      transform: scale(0.875);
+      margin-bottom: calc(-1.5em / 0.875);
   }
 }
 

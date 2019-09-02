@@ -106,7 +106,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   body > main > h1 {
     margin-top: 0.75em;
   }
@@ -394,6 +394,12 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 -->
 </nav>
 
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
+</figure>
+
+{% comment %}
 <style>
 .figure-group {
   margin-top: 0 !important;
@@ -442,6 +448,16 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 </figure>
 
 </main>
+{% endcomment %}
+
+
+
+<main class="sky-light" markdown="1">
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+</main>
+
 
 <main markdown="1" class="sky-light">
 

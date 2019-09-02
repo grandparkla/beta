@@ -101,7 +101,7 @@ body > main > figure img {
   }
 }
 
-@media (min-width: 60em) {
+@media (min-width: 60em) and false {
   body > main > h1 {
     margin-top: 0.75em;
   }
@@ -434,6 +434,10 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 *   [Alerts & closures](/alerts/)
 </nav>
 
+<figure>
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+</figure>
+
 <!--
 -->
 
@@ -459,6 +463,8 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 </main>
 {% endcomment %}
 
+
+{% comment %}
 <style>
 .figure-group {
   margin-top: 0 !important;
@@ -504,6 +510,14 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
   <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
 </figure>
 
+</main>
+{% endcomment %}
+
+
+<main class="lime-light" markdown="1">
+<figure>
+  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
+</figure>
 </main>
 
 
