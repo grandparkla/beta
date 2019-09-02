@@ -193,10 +193,10 @@ body > main > figure:nth-of-type(3) img {
 
 /*
 .illustration-palm-1 {
-  margin-left: -1.5em;
-  width: 100vw;
-  margin-right: -1.5em;
-  left: unset;
+  margin-left: 0;
+  width: 100%;
+  margin-right: 0;
+  left: 0;
   color: hsla(0, 0%, 0%, 0.5);
   transform: translateY(calc(-100% + 6em)) scaleX(-1);
 }
@@ -206,7 +206,7 @@ body > main > figure:nth-of-type(3) img {
   }
 }
 .illustration-palm-1 svg {
-  width: 100vw;
+  width: 100%;
   max-width: unset;
   margin-left: unset;
 }
@@ -304,10 +304,10 @@ body > main > figure:nth-of-type(3) img {
 }
 
 .illustration-palm-1 {
-  margin-left: -1.5em;
-  width: 100vw;
-  margin-right: -1.5em;
-  left: unset;
+  margin-left: 0;
+  width: 100%;
+  margin-right: 0;
+  left: 0;
   color: hsla(0, 0%, 0%, 0.5);
   color: hsla(244, 59%, 28%, 0.625);
 }
