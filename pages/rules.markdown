@@ -281,7 +281,7 @@ display: none;
 Park rules
 ==========
 <figure>
-  <img src="/assets/temporary/park/chairs-3.jpg" alt="Photo 1" height="500" />
+  <img src="/assets/temporary/misc/NYELA2019-0579.JPG" alt="Photo" height="500" />
 </figure>
 
 <figure>
