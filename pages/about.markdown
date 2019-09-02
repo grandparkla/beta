@@ -120,7 +120,7 @@ body > main > figure img {
     */
   }
   body > main > h1 + p {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 5/-2;
     font-size: inherit;
     position: relative;
@@ -128,7 +128,7 @@ body > main > figure img {
     padding-top: 0.125em;
   }
   body > main > nav:not(:first-child) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/5;
     justify-self: end;
     text-align: left;
@@ -303,51 +303,47 @@ body > main > figure:nth-of-type(3) img {
   }
 }
 
+
+
 .illustration-palm-1 {
+  /*
   margin-left: 0;
   width: 100%;
   margin-right: 0;
   left: 0;
+  */
   color: hsla(0, 0%, 0%, 0.5);
   color: hsla(244, 59%, 28%, 0.625);
+  color: hsla(202, 59%, 28%, 0.625);
+  color: hsla(180, 100%, 30%, 0.625);
+  color: hsla(180, 59%, 28%, 1);
+  color: hsla(244, 59%, 28%, 0.625);
+  /*
+  opacity: 1;
+  -webkit-mask-image: unset;
+  mask-image: unset;
+  */
 }
-@media (min-width: 60em) {
-  .illustration-palm-1 {
-  }
+.illustration-palm-1 {
+  transform: translateY(calc(-50% + 24em));
 }
+/*
 .illustration-palm-1 svg {
-  width: 100vw;
+  width: 100%;
   max-width: unset;
   margin-left: unset;
 }
+*/
 .illustration-palm-2 {
-  display: none;
+color: hsla(180, 59%, 28%, 1);
+color: hsla(244, 59%, 28%, 0.95);
+color: var(--snow);
+color: hsla(244, 59%, 28%, 0.625);
 }
 </style>
 
 About the park
 ==============
-
-
-<figure>
-  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
-</figure>
-
-
-<figure>
-  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
-</figure>
-<figure>
-  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
-</figure>
-<!--
--->
-
-
-<main markdown="1" class="sky-light">
-
-<div></div>
-<div></div>
 
 Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Little Tokyo, Historic Core, Union Station, Chinatown and Olvera Street, Grand Park provides all Angelenos a central gathering place to relax, celebrate and connect.
 
@@ -365,6 +361,47 @@ Located in Downtown L.A.’s Bunker Hill neighborhood at the crossroads of Littl
 *   [Job opportunities](/job-opportunities/)
 -->
 </nav>
+
+<style>
+.figure-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.375em;
+  padding: 0.375em;
+}
+.figure-group > figure {
+  grid-column: auto;
+  grid-row: auto;
+  margin: 0;
+  background: transparent;
+}
+.figure-group > figure > img {
+  width: 100%;
+  height: calc(33.33vw - 2em);
+  object-fit: cover;
+}
+@media (min-width: 60em) {
+  .figure-group {
+    /* grid-gap: 1.5em; */
+    padding: 1.5em 0;
+  }
+}
+</style>
+
+<main class="lime-light figure-group" markdown="1">
+
+<figure>
+  <img src="/assets/temporary/misc/NYELA2019-0682.JPG" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/optimized/3_11_17_Downtown_Bookfest_cr_Javier_Guillen.jpg" alt="Photo 1" height="500" />
+</figure>
+
+<figure>
+  <img src="/assets/temporary/welcome/384-wide/42.jpg" srcset="/assets/temporary/welcome/384-wide/42.jpg 384w, /assets/temporary/welcome/512-wide/42.jpg 512w, /assets/temporary/welcome/768-wide/42.jpg 768w, /assets/temporary/welcome/1024-wide/42.jpg 1024w, /assets/temporary/welcome/1536-wide/42.jpg 1536w, /assets/temporary/welcome/2048-wide/42.jpg 2048w" sizes="100vw" alt="Photo 1" height="500" />
+</figure>
+
 </main>
 
 <main markdown="1" class="sky-light">

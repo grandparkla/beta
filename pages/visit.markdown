@@ -115,7 +115,7 @@ body > main > figure img {
     */
   }
   body > main > h1 + p {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 5/-2;
     font-size: inherit;
     position: relative;
@@ -123,7 +123,7 @@ body > main > figure img {
     padding-top: 0.125em;
   }
   body > main > nav:not(:first-child) {
-    grid-row: 3/4;
+    grid-row: 2/3;
     grid-column: 2/5;
     justify-self: end;
     text-align: left;
@@ -298,10 +298,12 @@ body > main > figure:nth-of-type(3) img {
 }
 
 .illustration-palm-1 {
+  /*
   margin-left: 0;
   width: 100%;
   margin-right: 0;
   left: 0;
+  */
   color: hsla(0, 0%, 0%, 0.5);
   color: hsla(244, 59%, 28%, 0.625);
   color: hsla(202, 59%, 28%, 0.625);
@@ -313,18 +315,20 @@ body > main > figure:nth-of-type(3) img {
   mask-image: unset;
   */
 }
-@media (min-width: 60em) {
-  .illustration-palm-1 {
-  }
+.illustration-palm-1 {
+  transform: translateY(calc(-50% + 24em));
 }
+/*
 .illustration-palm-1 svg {
   width: 100%;
   max-width: unset;
   margin-left: unset;
 }
+*/
 .illustration-palm-2 {
-color: hsl(180, 100%, 30%);
-display: none;
+color: hsla(180, 59%, 28%, 0.95);
+color: var(--snow);
+color: hsla(180, 59%, 28%, 0.625);
 }
 </style>
 
@@ -332,16 +336,17 @@ Plan your visit
 =================
 
 
+Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
+_<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
 
-<figure>
-  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
-</figure>
-<figure>
-  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
-</figure>
-<figure>
-  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
-</figure>
+<nav markdown="1">
+*   [Directions to the park](/directions/)
+*   [Areas of the park](/areas/)
+*   [Park rules](/rules/)
+*   [FAQs](/faqs/)
+*   [Alerts & closures](/alerts/)
+</nav>
+
 <!--
 -->
 
@@ -367,22 +372,43 @@ Plan your visit
 </main>
 {% endcomment %}
 
+<style>
+.figure-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0.375em;
+  padding: 0.375em;
+}
+.figure-group > figure {
+  grid-column: auto;
+  grid-row: auto;
+  margin: 0;
+  background: transparent;
+}
+.figure-group > figure > img {
+  width: 100%;
+  height: calc(33.33vw - 2em);
+  object-fit: cover;
+}
+@media (min-width: 60em) {
+  .figure-group {
+    /* grid-gap: 1.5em; */
+    padding: 1.5em 0;
+  }
+}
+</style>
 
-<main class="lime-light" markdown="1">
+<main class="lime-light figure-group" markdown="1">
 
-<div></div>
-<div></div>
-
-Grand Park is open every day from <time datetime="05:30">5:30 a.m.</time> to <time datetime="22:00">10 p.m.</time> 
-_<span class="avoid-break"><small>The playground is open from <time datetime="08:00">8 a.m.</time> to <time datetime="20:00">8 p.m.</time></small></span>_
-
-<nav markdown="1">
-*   [Directions to the park](/directions/)
-*   [Areas of the park](/areas/)
-*   [Park rules](/rules/)
-*   [FAQs](/faqs/)
-*   [Alerts & closures](/alerts/)
-</nav>
+<figure>
+  <img src="/uploads/areas/gardens-2.jpg" alt="Photo" height="500" />
+</figure>
+<figure>
+  <img src="/uploads/programs/sunday-sessions-5.jpg" alt="" height="500" />
+</figure>
+<figure>
+  <img src="/assets/temporary/park/splash.jpg" alt="Photo 1" height="500" />
+</figure>
 
 </main>
 
