@@ -377,7 +377,7 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 0.375em;
-  padding: 0.375em;
+  padding: 1.5em 0.375em;
 }
 .figure-group > figure {
   grid-column: auto;
@@ -387,13 +387,19 @@ _<span class="avoid-break"><small>The playground is open from <time datetime="08
 }
 .figure-group > figure > img {
   width: 100%;
-  height: calc(33.33vw - 2em);
+  height: calc(33.33vw - 0.5em);
   object-fit: cover;
+  border-radius: 50%;
 }
 @media (min-width: 60em) {
   .figure-group {
-    /* grid-gap: 1.5em; */
-    padding: 1.5em 0;
+    grid-gap: 1.5em;
+    padding: 4.5em 3em;
+  }
+  .figure-group > figure > img {
+    width: 100%;
+    height: calc(33.33vw - 4em);
+    object-fit: cover;
   }
 }
 </style>
