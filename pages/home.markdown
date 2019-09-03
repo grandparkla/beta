@@ -710,7 +710,7 @@ All are invited to have a picnic on the lawn, stroll through the gardens, play i
   display: grid;
   grid-template-columns: 1fr;
   width: 23vmax;
-  --lime: hsl(88, 50%, 50%);
+  --lime: hsl(98, 50%, 50%);
 }
 .illustration-group > div {
   grid-column: 1/-1;
